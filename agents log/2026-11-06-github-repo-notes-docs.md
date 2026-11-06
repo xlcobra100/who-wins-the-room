@@ -16,7 +16,7 @@
   - `index.html`: landing page.
   - `findings.html` and `highlights.html`: copies of `study/runs/main/*.html` with a doctype/charset/viewport skeleton, `body{margin:0}`, the claude.ai cross-link replaced by `findings.html`, and the `claude:viewport-fit-sides` meta removed.
   - `briefs/game-brief.md`: the 1 Nov game prompt, verbatim.
-  - `presentation.pdf` is linked but **not there yet**. The user exports it from the Slides artifact https://claude.ai/artifact/8URKYCgsej4LMS6bn9WsTb.
+  - `presentation.pdf`: the user's 19-slide PDF export of the Slides artifact https://claude.ai/artifact/8URKYCgsej4LMS6bn9WsTb, added in a second commit. Re-export it after any deck edits.
 - `study/runs/main/checks/prior-plan.mjs`: its `file:///C:/Users/<user>/...` imports are now relative (`../../../`).
 - `.gitignore`: keeps `study/runs/**/events.log` (the `*.log` rule would drop it), and ignores `.claude/settings.local.json`.
 - **New `study/runs/main/checks/prior-plan.rerun-2026-11-06.out.txt`:** see Surprises.
