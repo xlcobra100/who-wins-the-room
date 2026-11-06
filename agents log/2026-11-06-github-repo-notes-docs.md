@@ -32,13 +32,21 @@ The user's own reflection is left for them to write.
 ## Not changed
 - `study/runs/main/findings.html` and `highlights.html` keep their artifact form. Re-publishing them to claude.ai must not get a doubled skeleton. `docs/` holds the copies.
 - Root QA screenshots, `capture-qa.js` and `promt.txt` stay where they are (capture-qa writes to root; `promt.txt` is the verbatim study brief, and NOTES and the README link to it).
-- The deck itself was not edited.
+- The deck was edited later the same day; see Surprises.
 
 ## Surprises for the next agent
 - **`prior-plan.mjs` does not reproduce.** Re-run on 6 Nov with the same seeds (Ollama 0.40.15), all 20 answers differ from `prior-plan.out.txt`. Dam now backs lowering plus a spillway (4/5), where the saved run had "do nothing / evacuate". The 5 Nov agents-log claim ("rerun gave identical output") no longer holds. Treat "the model's prior plan" as unstable and keep it out of slides.
 - Any `docs/*.html` page must be regenerated when its source changes. The node one-liner: prepend the skeleton, drop the claude meta, swap the findings URL.
 - The repo is private, so GitHub Pages is unavailable on a free plan and `docs/` only renders when opened locally.
-- The deck (Slides artifact) still has user placeholders: "[Video]", "[What it showed you…]", and a "Probable technical causes???" slide. The "example" slide headline says Drew won "using a factually wrong claim". In p2-31 the deciding error was Morgan's own: she argued the veto against her plan. The wrong-claim story is p3-41.
+- **Deck edits (6 Nov, Slides artifact):**
+  - typos fixed throughout;
+  - slide 1: card 03 filled, and the grey diamond swapped for the game screenshot;
+  - slide 5: card 3 corrected to "a lean every round, then one forced vote" (it said three votes);
+  - slide 8: matched to the embedded p3-41 video (it described p2-31);
+  - slide 15: example swapped to p2-31, so the two comebacks are no longer the same story;
+  - slide 19: the user's cause column kept, with an evidence column added from `checks/mechanisms.out.txt`.
+
+  `docs/presentation.pdf` is the pre-edit export until the user re-exports it.
 
 ## How to verify
 - `git -C . status` should be clean after the push.

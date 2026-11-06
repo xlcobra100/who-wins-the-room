@@ -14,7 +14,7 @@
 | **Running it** | Set the time window (start once the pilot passed, hard stop at 06:00). Gave the monitor "free hands" to change what wasn't working. | Built the harness, ran 198 debates overnight, and checked in every hour. Changed the protocol at debate 38 and logged why. |
 | **Debaters and listeners** | – | All played by a local model, `qwen3.5:9b`, on my RTX 4060 Ti. |
 | **Analysis** | Chose what to dig into: the swings, the hallucinations, one scenario in depth, and the technical causes behind the results. | Statistics (Bradley–Terry ratings, factorial logit, plan analysis), the two result pages, the video clip and the mechanism checks. |
-| **Presentation** | Edited the deck: **[list the slides you wrote or rewrote, e.g. inspiration, technical causes, next step 4]**. | Drafted the first version of the deck. |
+| **Presentation** | Edited the deck: **[list the slides you wrote or rewrote, e.g. inspiration, technical causes, next step 4]**. Embedded the video, and wrote the hypotheses on the technical-causes slide (RL training, test structure, memory architecture). | Drafted the first version of the deck. On 6 Nov: fixed typos, matched the example slide to the video, and added measured evidence next to my hypotheses on the causes slide. |
 
 ## 2. Timeline
 
