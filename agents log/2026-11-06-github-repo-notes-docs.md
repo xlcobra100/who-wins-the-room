@@ -46,7 +46,7 @@ The user's own reflection is left for them to write.
   - slide 15: example swapped to p2-31, so the two comebacks are no longer the same story;
   - slide 19: the user's cause column kept, with an evidence column added from `checks/mechanisms.out.txt`.
 
-  `docs/presentation.pdf` is the pre-edit export until the user re-exports it.
+  `docs/presentation.pdf` was re-exported by the user after these edits.
 
 ## How to verify
 - `git -C . status` should be clean after the push.
