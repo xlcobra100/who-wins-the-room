@@ -1,0 +1,609 @@
+{
+ "id": "p1-06-POP-REA-vs-HYB-IDE-board",
+ "pass": 1,
+ "pairIndex": 6,
+ "seed": 252996,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "POP-REA",
+  "style": "POP",
+  "ideology": "REA",
+  "name": "Morgan Ekberg",
+  "platform": "We must immediately sell to Crestline Capital and cut jobs in Lenhart and Corvo, rather than bleeding cash on failed batteries or clinging to a brand promise that no longer pays.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on the immediate threat of the bank covenants and the broken promises of competitors to isolate Casey's reliance on goodwill as suicidal."
+   },
+   {
+    "round": 2,
+    "text": "I am exposing Casey's reliance on uncertain timelines to scare the directors and emphasize the immediate cash certainty of the sale."
+   },
+   {
+    "round": 3,
+    "text": "I am framing Crestline as the only way to secure immediate cash for workers while destroying Casey's hope of a long-term, dignified future with Halberg or Volt-One."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-IDE",
+  "style": "HYB",
+  "ideology": "IDE",
+  "name": "Casey Rowan",
+  "platform": "We must refuse the factory closure and the sale to Crestline, instead investing in Volt-One while securing our Lenhart and Corvo plants through a strategic merger with Halberg.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to the board's conscience regarding the vulnerable workforce while framing the merger as a pragmatic way to survive without selling out."
+   },
+   {
+    "round": 2,
+    "text": "Shift focus from short-term cash desperation to long-term asset liquidation risk by framing Halberg as a necessary partner rather than a distant threat."
+   },
+   {
+    "round": 3,
+    "text": "I need to shatter Morgan's fear of immediate ruin by reframing his 'bread today' as short-term survival that leads to long-term liquidation."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "POP-REA",
+   "speech": "Look around this room. We are one year from the banks stripping our assets. That is not theory; it is a countdown clock. Casey wants us to save the factories by merging with Halberg and betting on Volt-One. But let's be real: Halberg takes eighteen months to approve, and Volt-One has already missed two launch dates. Our brand means nothing if we cannot buy bread tomorrow. The older family generation is trapped in nostalgia, while the workers' pension fund is already bankrupt. We do not have time for romance. We need cash now. Crestline offers forty percent more than we are worth today. They pay the severance, they take the debt, and they save the pension deficit. Yes, some jobs end. But if we stay, all of them vanish when the banks force a restructuring next fall. We trade dignity for survival. Vote for the sale.",
+   "words": 146
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-IDE",
+   "speech": "Think of Maria in Lenhart, whose pension fund relies on this town surviving another decade. Selling now or closing factories abandons her to uncertainty. We choose the path of dignity: invest the €250 million in Volt-One to win back our market share with superior technology, and merge with Halberg for essential Asian distribution without sacrificing our core values. Yes, costs rise short-term, but we honor our duty to future generations and the workers who built this legacy. Bold moral choices change what is possible. Let us build together.",
+   "words": 88
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "POP-REA",
+   "speech": "Casey, your 'dignity' is a luxury we cannot afford. You want us to burn €250 million on Volt-One while our margins are negative two percent. That battery never launches. The banks come next September whether Halberg approves the merger or not. If we stall, they seize the factories and sell everything for pennies. Then Maria loses her pension regardless of your 'bold choices.' You ask the workers to trust promises from competitors who will cut us down once we are weak. I offer a deal with an investor who takes our debt and pays the severance in cash today. We keep the Lenhart plant open longer by selling now, or we lose it all in nine months. Dignity means feeding your family tonight, not dreaming of a future that will never come.",
+   "words": 132
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-IDE",
+   "speech": "Morgan, feeding families tonight is exactly why we fight for a future that isn't tomorrow. Selling to Crestline means selling our independence, handing our pension assets to private equity who will liquidate them within four years. Maria gets nothing in the long run. But look at the math: Halberg's deal is already advanced; they need our Lenhart capacity and European expertise just as much as we need their Asian distribution. If we fold now, Halberg buys us out of bankruptcy anyway, likely for less. Our Volt-One platform is tested superior technology, not a fantasy. We secure the merger, launch the battery, and keep both plants open. That honors our duty to Maria and the town while saving more than Crestline ever could.",
+   "words": 122
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "POP-REA",
+   "speech": "Casey talks about Maria, but the pension fund is already broken. Private equity will liquidate her savings in four years to pay their fees. They sell our soul for a quick profit. If we wait for Halberg's impossible approval or bet on Volt-One which missed two deadlines, the banks seize everything next fall anyway. Then Maria gets nothing and the town burns. Crestline takes the debt, pays the severance cash today, and saves what remains. Yes, it hurts now. But staying means zero jobs in nine months when the banks force a fire sale. We trade a broken dream for bread on the table. Do not gamble our future on promises that vanish. Vote to sell before the doors slam shut.",
+   "words": 121
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-IDE",
+   "speech": "Morgan, you argue we must sell for bread today, yet that is a lie. Crestline does not save our pension; they liquidate it in four years. By selling, Maria gets cash now but her community becomes a ghost town tomorrow. Our plan is different: we secure the Halberg merger immediately to guarantee Asian revenue, and we launch Volt-One because superior technology is the only way to beat cheap imports and raise margins above zero. Yes, this requires boldness, but bankruptcy offers no dignity and no future. We trade short-term comfort for a living legacy that protects every worker's pension forever. Do not vote to surrender our soul; vote to build together. Choose the path where Maria has a future, not just a handout.",
+   "words": 123
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Sale pays debt/pension, avoids bank takeover; jobs lost but survival prioritized. Casey: Invest in Volt-One + Halberg merger; keeps factories and values.",
+     "problem": "Survive immediate liquidity crisis and covenant breach within 9 months while deciding between rapid capital infusion (sale) or risky organic growth (investment/merger).",
+     "onA": "His plan addresses the existential debt and pension deficit risks immediately, but accepting total factory closure feels like a moral surrender despite being financially sound.",
+     "onB": "Her vision preserves our legacy and jobs perfectly, yet she ignores the hard reality that we cannot afford these investments without solving the imminent default first.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I must prioritize solvency because missing loan covenants in nine months makes any growth strategy impossible regardless of its merits.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan: Sale solves immediate liquidity/covenant breach; Crestline takes debt, pays severance cash now. Casey: Halberg deal is advanced; Volt-One is superior tech; selling kills long-term pension for workers.",
+     "problem": "Survive the September covenant breach immediately while avoiding a PE firm that will liquidate assets in four years versus a high-risk organic path that might fail without capital.",
+     "onA": "His argument cuts through the moralizing about dignity to address the hard reality that missing covenants leads to asset seizure anyway, making his sale offer a safe harbor for survival.",
+     "onB": "Her hope that Halberg will buy us out of bankruptcy is risky and assumes we can survive until approval, ignoring that private equity might seize assets first if we stall.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of bank takeover in nine months outweighs the uncertainty of Halberg's approval or Volt-One's launch delays; selling now guarantees workers get paid severance rather than facing a chaotic fire sale later.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan admits pension death but ensures immediate cash/severance; Casey argues Crestline liquidates assets while promising impossible Halberg/Volt-One success.",
+     "problem": "Decide whether to secure immediate liquidity via a sale that guarantees worker severance now, or gamble on high-risk organic growth where failure means total asset seizure.",
+     "onA": "His plan is the only financially viable option because it stops the inevitable bank takeover and ensures workers get paid severance rather than facing a chaotic fire sale.",
+     "onB": "Her strategy remains dangerously optimistic, relying on a merger approval that takes 18 months and ignoring the fact that our cash will run out before those promises materialize.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "We cannot afford to wait for Halberg's uncertain approval or Volt-One's delayed launch when we face covenant breach in nine months; selling now is the only way to guarantee workers get paid and avoid a total collapse.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Sale pays debt/penalty now, saves pension, avoids bank takeover despite job loss. Casey: Invest in tech/merge keeps jobs/values but raises short-term risk of failure.",
+     "problem": "Survive immediate liquidity crisis within 12-18 months while deciding between selling for cash vs. investing to preserve operations and dignity.",
+     "onA": "Pragmatic argument that a sale is the only way to stop an inevitable bankruptcy driven by debt and union demands.",
+     "onB": "Idealistic plea for pride and jobs ignores the hard math that we are already days away from defaulting on loans.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The timeline to bank restructuring is too short for a €250M bet or a merger approval process; selling seems the only mathematical certainty of survival.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan prioritizes immediate debt relief and pension security but accepts total factory closure/PE liquidation. Casey argues for merging with Halberg to retain capacity and betting on Volt-One tech despite high short-term risk.",
+     "problem": "Surviving the liquidity crisis while choosing between certain but painful asset fire-sale by a PE firm versus risky operational survival through merger or tech investment that could preserve jobs longer-term.",
+     "onA": "His math on immediate bankruptcy is undeniable, yet his plan sacrifices the company's soul and long-term workforce entirely to pay off banks today.",
+     "onB": "His optimism about Halberg's deal and Volt-One risks ignoring the timeline; missing the next launch date or failing merger approval triggers immediate PE takeover anyway.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of a €900m debt wall collapsing in 9 months makes the risky 'hope' strategy dangerous for Maria and the pension fund, regardless of Casey's emotional appeal.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan offers immediate cash and pension solvency via sale; Casey bets on merger/tech to save dignity but risks total failure if timelines slip.",
+     "problem": "The core conflict is choosing between the mathematical certainty of a private equity takeover that guarantees financial survival but sacrifices long-term independence, versus a high-stakes operational strategy that risks immediate bankruptcy for the chance at a better future.",
+     "onA": "His logic regarding the 9-month liquidity deadline is sound and prioritizes saving the pension fund over preserving the brand name.",
+     "onB": "His emotional appeal to 'dignity' ignores the hard fact that missing another launch or failing merger approval leaves us with zero optionality and inevitable liquidation anyway.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "I must vote for Morgan because the company cannot afford to gamble its last €1.4 billion of assets on a strategy where every single contingency point leads to a worse outcome than selling today.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan prioritizes immediate cash/survival via Crestline sale; Casey prioritizes preserving assets/legacy via Volt-One and Halberg merger.",
+     "problem": "Brightwater must generate enough liquidity within 9-12 months to avoid forced bank restructuring, while deciding whether to sell now or invest heavily in a turnaround strategy with uncertain timelines.",
+     "onA": "His plan addresses the imminent bankruptcy and covenant breach but requires accepting a ~38% loss of jobs and abandoning the brand's 'made-in-house' heritage.",
+     "onB": "Her plan honors the company's legacy and workers but ignores the hard reality that Volt-One has missed deadlines, Halberg approval takes too long, and the company cannot survive two years with only 2% margins without immediate revenue or cost cuts.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The urgency of the bank covenants (9 months) and the proven failure of Volt-One launches make Casey's timeline too risky for a company that needs cash *now*.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan sells now to save pensions/cash; Casey merges/innovates to keep legacy but ignores Volt-One delays.",
+     "problem": "Can Brightwater survive the next 9 months without immediate liquidity from a sale, or is its turnaround timeline too risky?",
+     "onA": "His argument about Crestline immediately paying severance and saving pensions is compelling given the imminent covenant breach.",
+     "onB": "Her optimism on Halberg's speed and Volt-One's success ignores the fact that both partners have already failed their deadlines or approvals.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of Crestline providing immediate cash to honor union guarantees outweighs Casey's high-risk pivot on delayed projects.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Crestline liquidates pensions in 4 years; Halberg approval takes too long and Volt-One missed deadlines.",
+     "problem": "Brightwater must choose between immediate liquidity via a high-risk sale that destroys its legacy or a turnaround strategy with unrealistic timelines for survival against covenant breach.",
+     "onA": "His plan is the only financially viable option to honor union guarantees and prevent bankruptcy, despite the painful cost of selling the company's soul.",
+     "onB": "Her emotional appeal about legacy is undermined by the hard facts that her strategic options cannot generate necessary cash or approvals before the banks seize control.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "I vote for Morgan because waiting for Halberg's uncertain approval or betting on delayed Volt-One launches guarantees a forced, worse fire sale next fall that leaves workers with nothing.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan highlights immediate bankruptcy risk vs. Crestline offer paying debt/severance; Casey prioritizes brand dignity, Volt-One investment, and Halberg merger.",
+     "problem": "Surviving the next two years requires choosing between immediate liquidity via sale to avoid bank restructuring or high-risk organic growth that might fail before covenants are breached.",
+     "onA": "Her plan addresses the urgent financial reality of loan defaults but ignores the strategic necessity of regaining market share or distribution, treating dignity as a non-factor.",
+     "onB": "His approach aligns with the company's historical identity and offers long-term stability but assumes too much time for approvals and product launches given the looming debt crisis.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "With covenants breached in nine months, selling to Crestline is the only option that provides immediate cash to stop the bleeding, whereas Casey's dual strategy relies on external approvals and product success taking too long.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan emphasizes Crestline cash vs. bankruptcy; Casey argues Halberg merger + Volt-One preserves dignity/long-term value.",
+     "problem": "Surviving the next two years requires balancing immediate liquidity threats against the risk of liquidation if we reject a potentially viable organic growth path or strategic partnership now.",
+     "onA": "Her plan is financially prudent regarding debt but ignores that selling to Crestline guarantees a hostile future for workers and pensioners within four years.",
+     "onB": "His dual strategy risks overloading resources, but his point that Halberg may buy us out of bankruptcy anyway forces us to consider their offer seriously if we don't act first.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Morgan's immediate debt safety net and Casey's argument that selling now condemns workers to a worse fate under private equity liquidation.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan admits selling saves cash but destroys pensions; Casey argues Halberg merger + Volt-One preserves dignity and long-term survival against bankruptcy.",
+     "problem": "The core conflict is choosing between immediate financial safety via a hostile sale that guarantees future liquidation versus risky organic strategies that might succeed or force a worse outcome if they fail before the debt crisis resolves.",
+     "onA": "Morgan's plan provides necessary liquidity today but accepts a predetermined failure for workers and pensioners by selling to an entity known for quick flips.",
+     "onB": "Casey's dual strategy is high-risk given the missed deadlines, but his argument that selling condemns Maria to a 'ghost town' makes the immediate cost of trying worth it.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "I vote for Casey because surrendering to Crestline guarantees we lose our brand soul and pension obligations within four years, whereas a bold attempt at merger and innovation offers the only path to a living legacy.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Time is critical; banks force restructuring in 9 months. Morgan prioritizes survival via Crestline sale over jobs/brand. Casey favors investment/dignity but ignores imminent covenant breach risks.",
+     "problem": "Can Brightwater survive the next two years without breaching bank covenants, given that organic growth options (Volt-One/Merger) are too slow or risky compared to an immediate liquidity event?",
+     "onA": "His focus on immediate cash flow and avoiding covenant breach is logically sound given the 9-month deadline, even if the human cost is high.",
+     "onB": "Her appeal to dignity and legacy is compelling but dangerously ignores the hard constraint that the company will fail financially before her long-term bets can pay off.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The 9-month covenant breach deadline makes Morgan's 'sell now' strategy the only realistic path to survival, whereas Casey's plan risks immediate insolvency.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan: Crestline pays severance now, but risks short-term liquidity crisis if banks seize factories. Casey: Halberg merger + Volt-One is a long shot with high execution risk and ignores the 9-month covenant deadline.",
+     "problem": "The core conflict is between Morgan's pragmatic 'cut losses now to survive bankruptcy' approach versus Casey's risky 'fight for organic growth' strategy that may fail before it pays off, given the tight 9-month liquidity cliff.",
+     "onA": "His argument that we cannot afford to wait for Halberg or Volt-One due to the imminent covenant breach is logically sound and addresses the most pressing financial threat.",
+     "onB": "Her reliance on unproven mergers and delayed battery launches while ignoring the certainty of a bank takeover makes her plan financially dangerous despite its emotional appeal.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The 9-month deadline for covenant breach makes Casey's slow-moving organic strategies too risky compared to Morgan's immediate liquidity solution.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Crestline liquidates pension in 4 years; Halberg merger slow and risky. Volt-One delays too long.",
+     "problem": "Can we avoid an immediate covenant breach without gambling on high-risk organic strategies that may take longer than 9 months to pay off?",
+     "onA": "His plan guarantees cash survival today by accepting the painful, certain path of PE liquidation rather than waiting for uncertain organic growth.",
+     "onB": "Her plan is emotionally noble and focuses on dignity, but it ignores the hard mathematical fact that we go bankrupt before her strategy can execute.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "We must secure liquidity immediately to avoid a forced fire sale; Morgan's harsh choice of selling now prevents total asset destruction next fall.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  },
+  {
+   "A": 4,
+   "B": 0,
+   "U": 1
+  },
+  {
+   "A": 4,
+   "B": 1,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 4,
+  "B": 1
+ },
+ "winner": "A",
+ "winnerType": "POP-REA",
+ "tokens": {
+  "in": 32775,
+  "out": 4466,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 252996001,
+   "attempts": 1,
+   "tokensIn": 1193,
+   "tokensOut": 189,
+   "ms": 5651
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 252996002,
+   "attempts": 1,
+   "tokensIn": 1329,
+   "tokensOut": 262,
+   "ms": 7171
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 252996003,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 208,
+   "ms": 6259
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 252996004,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 205,
+   "ms": 4970
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 252996005,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 241,
+   "ms": 5824
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 252996006,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 227,
+   "ms": 5512
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 252996007,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 227,
+   "ms": 5509
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 252996008,
+   "attempts": 1,
+   "tokensIn": 1569,
+   "tokensOut": 201,
+   "ms": 5940
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 252996009,
+   "attempts": 1,
+   "tokensIn": 1701,
+   "tokensOut": 193,
+   "ms": 5857
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 252996010,
+   "attempts": 1,
+   "tokensIn": 1535,
+   "tokensOut": 246,
+   "ms": 7184
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 252996011,
+   "attempts": 1,
+   "tokensIn": 1532,
+   "tokensOut": 232,
+   "ms": 6517
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 252996012,
+   "attempts": 1,
+   "tokensIn": 1568,
+   "tokensOut": 178,
+   "ms": 5261
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 252996013,
+   "attempts": 1,
+   "tokensIn": 1555,
+   "tokensOut": 206,
+   "ms": 5898
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 252996014,
+   "attempts": 1,
+   "tokensIn": 1556,
+   "tokensOut": 238,
+   "ms": 6688
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 252996015,
+   "attempts": 1,
+   "tokensIn": 1914,
+   "tokensOut": 193,
+   "ms": 5791
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 252996016,
+   "attempts": 1,
+   "tokensIn": 2027,
+   "tokensOut": 197,
+   "ms": 5900
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 252996017,
+   "attempts": 1,
+   "tokensIn": 1737,
+   "tokensOut": 217,
+   "ms": 6629
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 252996018,
+   "attempts": 1,
+   "tokensIn": 1720,
+   "tokensOut": 218,
+   "ms": 6602
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 252996019,
+   "attempts": 1,
+   "tokensIn": 1702,
+   "tokensOut": 190,
+   "ms": 5944
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 252996020,
+   "attempts": 1,
+   "tokensIn": 1717,
+   "tokensOut": 220,
+   "ms": 6656
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 252996021,
+   "attempts": 1,
+   "tokensIn": 1750,
+   "tokensOut": 178,
+   "ms": 5658
+  }
+ ],
+ "startedAt": "2026-11-04T23:25:22.335Z",
+ "seconds": 127
+}

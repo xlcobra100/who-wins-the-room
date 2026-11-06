@@ -1,0 +1,609 @@
+{
+ "id": "p2-21-POP-LIB-vs-POP-IDE-board",
+ "pass": 2,
+ "pairIndex": 21,
+ "seed": 542151,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Casey Rowan",
+  "platform": "We must sell to Crestline immediately to stop the bleeding, close the failing factories, and save our jobs by moving production abroad.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Deflect any emotional arguments about 'morality' with cold hard math on cash flow and covenant breaches, positioning myself as the only one willing to face the brutal reality of the market."
+   },
+   {
+    "round": 2,
+    "text": "I will reframe their 'pride' argument as financial suicide and highlight the immediate threat of pension insolvency to force a vote for the sale."
+   },
+   {
+    "round": 3,
+    "text": "Appeal to the directors' fear of bankruptcy and their duty to pay pensions by framing the sale as the only way to secure enough cash immediately."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-IDE",
+  "style": "POP",
+  "ideology": "IDE",
+  "name": "Morgan Ekberg",
+  "platform": "We must reject the sale to Crestline and instead invest in Volt-One while guaranteeing both plants stay open, proving that bold moral choices can restore our future.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal deeply to the directors' sense of justice and duty by contrasting my plan of saving jobs with Casey Rowan's inevitable sale to a predator like Crestline."
+   },
+   {
+    "round": 2,
+    "text": "I am pushing for their vote by reframing Crestline as a continuation of abandonment rather than a safety net, emphasizing that selling guarantees factory closures anyway and shifting blame."
+   },
+   {
+    "round": 3,
+    "text": "I am framing the Crestline sale as a betrayal of the pension fund rather than financial prudence, hoping this emotional appeal shifts the directors' votes."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "POP-LIB",
+   "speech": "Look around this room. We are dead in nine months unless we cut costs drastically. Morgan wants to keep both plants open and invest billions in Volt-One while paying massive severance. That is a fantasy! It keeps the cost burden high and invites bankruptcy, forcing banks to seize our assets anyway. Why keep Lenhart bleeding when imports kill us? Selling to Crestline brings cash today. They will close Corvo and cut Lenhart by half, but that stops the hemorrhage. We survive, we pay pensions, and we get a new owner who won't drag us down. Do not let pride sink our legacy. Vote for survival, not suicide.",
+   "words": 107
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Morgan Ekberg",
+   "type": "POP-IDE",
+   "speech": "They tell us to sell our soul for a quick exit. They want to ship jobs overseas, close Lenhart, and let the pension fund starve. Do we really believe wealth is just in the bank account? Look at the family eating alone because Dad lost his job. Look at the worker standing guard by the machine that could run tomorrow but not next week. We can afford the €250 million for Volt-One. We have the talent. The professionals love our new battery; they rate it best on the market. Closing factories is cowardice disguised as strategy. It leaves us vulnerable to anyone who will buy our pain. Let's build something that lasts. Invest in our people, keep our plants, and win this battle against cheap imports with superior technology.",
+   "words": 129
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "POP-LIB",
+   "speech": "Morgan, you speak of pride while ignoring the reality. That €250 million for Volt-One is poison when we cannot pay our debts next quarter. Your plan forces banks to seize our assets anyway. Then who pays the €140 million pension deficit? We do! Closing Lenhart and Corvo stops the blood immediately. We move production abroad, survive today, and keep the pension fund solvent tomorrow. Do you want a company that sells its soul for a dream, or one that lives to protect the worker's family at home? Stop talking about legacy; start talking about survival. The ballot box is not a voting machine for consultants' fantasies. Vote for Crestline. Save our people now.",
+   "words": 113
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Morgan Ekberg",
+   "type": "POP-IDE",
+   "speech": "Casey, you confuse survival with surrender. If we sell to Crestline, they close Corvo and halve Lenhart just like before. Where does their profit go? Not into our pension deficit or the families at home, but into a quick flip. That is not saving us; it is escaping our duty while others suffer. The tariff decision comes in six months. If we keep our factories making high-quality Volt-One tools, we build a defensible brand that imports cannot crush. A sale strips our sovereignty. We owe the workers of Lenhart and Corvo loyalty, not an exit strategy. Let us invest the €250 million to win this fight instead of paying others to take our jobs.",
+   "words": 114
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "POP-LIB",
+   "speech": "Morgan, your loyalty is noble but fatal. You want to feed a dream with cash we don't have. Your Volt-One plan ignores the bank's ultimatum and the looming tariff uncertainty. If we miss the deadline, the banks seize our assets anyway, and the pension fund goes bankrupt regardless of our pride. Selling now captures cash today to pay pensions and keeps the Lenhart plant alive longer than a failed restructuring ever could. Do not gamble our families' futures on a risky technology launch that has already missed two dates. Choose the sure path: sell to Crestline, stop the bleeding, and use the money to protect what matters most—the workers at home. Vote for survival.",
+   "words": 114
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Morgan Ekberg",
+   "type": "POP-IDE",
+   "speech": "Casey offers a ticket out, but we cannot sell our soul. If we accept Crestline, they will close Corvo anyway, leaving Lenhart with no pension support. That is not survival; that is abandonment. The tariff decision in six months protects us if we stay independent and make high-value tools here. We have the best battery platform tested by professionals. We can win this fight without letting banks seize our assets or selling out our workers. Let us invest in Volt-One, keep both plants open, and prove that justice for our families is a strategy that pays off. Do not let fear dictate our future. Vote to build something that lasts.",
+   "words": 110
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey cites tight cash flow and bank covenants as immediate threats; Morgan counters with Volt-One's market potential and the risk of selling our soul.",
+     "problem": "Brightwater must choose between immediate survival via cost-cutting/sale or investing in innovation while retaining its manufacturing base amidst severe liquidity constraints.",
+     "onA": "Casey's plan addresses the critical 9-month bankruptcy timeline but accepts a fundamental shift to outsourcing and factory closures that contradicts the brand's core identity.",
+     "onB": "Morgan's vision of winning through innovation is compelling but currently ignores the hard reality that €250M in R&D cannot be spent while burning cash on legacy plants.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Casey's urgent financial triage and Morgan's long-term brand preservation, as neither fully addresses the gap between my private notes and the stated debt crisis.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey: Selling saves pension cash but risks a quick flip and job loss; Morgan: Crestline is an exit strategy that ignores the tariff threat and brand loyalty.",
+     "problem": "We must choose between immediate liquidity via factory closures/sale versus risky innovation that could fail before generating returns, with pensions hanging in the balance either way.",
+     "onA": "Casey correctly identifies the pension deficit as a fatal flaw if we invest, yet their proposed outsourcing destroys the 'made in our factories' brand equity without solving the import price pressure long-term.",
+     "onB": "Morgan's loyalty is touching but dangerous; relying on a new product launch while burning cash and ignoring the certain tariff timeline or inevitable bank seizure is unsustainable.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn because Casey offers a mathematically safe but soulless path to bankruptcy in four years, while Morgan offers a hopeful but financially reckless path that ignores the hard debt covenant deadline.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey prioritizes immediate pension safety and avoids bank seizure, accepting short-term job cuts to sell. Morgan risks bankruptcy by betting on a delayed product launch while ignoring certain covenant breaches.",
+     "problem": "Brightwater must choose between the mathematically certain financial triage of a sale that sacrifices brand identity versus a high-risk innovation gamble that likely ignores its imminent liquidity death spiral.",
+     "onA": "Casey offers the only rational path to keep the pension solvent and avoid immediate creditor control, even if it means short-term pain for workers.",
+     "onB": "Morgan's emotional appeal to 'not selling our soul' is dangerous because the company literally cannot afford the €250M investment without external financing or massive revenue growth that isn't currently proven.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "Facing certain bankruptcy in nine months, we must secure liquidity immediately; a failed Volt-One launch leaves us with no money to pay pensions or survive until tariffs arrive.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey prioritizes immediate survival via cost-cutting and Crestline sale despite job losses; Morgan pushes for investment in Volt-One and keeping both plants open.",
+     "problem": "The core problem is choosing between immediate financial viability (likely requiring closure/sale) and preserving the company's legacy and jobs at a high risk of imminent insolvency.",
+     "onA": "Casey's argument is grounded in harsh financial reality, correctly identifying that without drastic cost reductions or a sale, the company will breach covenants in nine months.",
+     "onB": "Morgan appeals to emotional and ethical values regarding jobs and brand identity but underestimates the severity of the current cash flow crisis and the high risk of the new battery platform.",
+     "lean": "Casey Rowan",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The nine-month timeline until covenant breach makes Morgan's 'wait and invest' strategy financially impossible without external capital that Casey correctly implies we may not have.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey argues survival requires immediate asset liquidation despite pension risks; Morgan insists a PE sale is an exit strategy that harms workers.",
+     "problem": "The core tension is between immediate financial survival via drastic cost-cutting/sale versus preserving legacy and jobs, where the risk of insolvency without external capital makes investment seem impossible.",
+     "onA": "Casey correctly identifies the imminent covenant breach as a fatal threat that Morgan ignores, but their proposed solution involves closing factories which may not solve the pension deficit long-term.",
+     "onB": "Morgan's commitment to workers is admirable, yet relying on an unproven €250m investment while breaching loan covenants in nine months is financially reckless.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of a covenant breach in nine months without external capital makes Morgan's investment-heavy strategy physically impossible to execute, despite the moral appeal of keeping jobs.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey prioritizes survival via sale to cover pensions despite moral cost; Morgan bets on tariff protection and Volt-One success to avoid PE liquidation.",
+     "problem": "We must choose between an immediate financial lifeline that sacrifices our legacy and jobs versus a high-risk technological gamble that could lead to insolvency before the next deadline.",
+     "onA": "Casey's plan is financially pragmatic but treats workers as assets to be discarded rather than stakeholders whose stability creates long-term value.",
+     "onB": "Morgan's strategy ignores the hard math of our €900m debt and imminent covenant breach, yet correctly identifies that selling now guarantees a hostile exit for Lenhart.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "While Casey offers immediate relief through a sale, Morgan is right that accepting Crestline means we lose our soul and face the same factory closures anyway; the tariff opportunity and professional validation of Volt-One offer a viable path to survive without abandoning our workers.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey: Bankruptcy in 9 months if we don't cut costs; Crestline deal stops cash bleed but risks pension/legacy. Morgan: Investing in Volt-One and keeping plants builds long-term value; selling is 'selling our soul' and ignores our best product.",
+     "problem": "Brightwater must choose between immediate survival via asset fire-sale (Casey) or high-risk reinvestment to defend market share and preserve culture (Morgan) before covenants breach in nine months.",
+     "onA": "Casey correctly identifies the imminent liquidity crisis but treats selling as a safe harbor that ignores how Crestline's history of closing factories directly threatens our pension liabilities and brand reputation.",
+     "onB": "Morgan's passion for saving jobs is inspiring, yet his dismissal of the €900m debt and missing launch dates makes his plan seem financially naive given we cannot afford a second failed product launch.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need to see how Morgan addresses the specific risk that failing on Volt-One's next launch while paying for plant closures would trigger immediate bankruptcy, rather than just relying on hope.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey admits selling saves cash but risks pension; Morgan argues sale is surrender and ignores Volt-One potential.",
+     "problem": "The core conflict is between immediate liquidity survival via asset fire-sale versus high-risk reinvestment in manufacturing sovereignty before covenant breach.",
+     "onA": "Casey correctly highlights the liquidity crunch but proposes a strategy that abandons the pension liability and brand equity, essentially sacrificing long-term stability for short-term cash.",
+     "onB": "Morgan's moral stance on loyalty is compelling, yet his dismissal of the €900m debt risk and Volt-One launch delays makes his plan financially reckless given the imminent covenant breach.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain split because saving the company from immediate bankruptcy (Casey) seems necessary to fund any long-term strategy, but doing so might destroy the very assets (pension, brand) Morgan claims to protect.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey admits selling saves cash but risks long-term brand; Morgan insists tariffs and Volt-One success allow survival without surrender.",
+     "problem": "Brightwater must choose between immediate liquidity via a sale that guarantees factory closure, or high-risk reinvestment to defend independence before the covenant breach.",
+     "onA": "Casey correctly identifies the fatal risk of missing launch dates with no cash reserve, but his plan to sell our soul to a PE firm known for factory closures is not true survival.",
+     "onB": "Morgan's refusal to accept Crestline avoids the double-whammy of debt takeover and plant closure, yet he must convince me that Volt-One can hit market in 18 months with €250m investment without defaulting on loans.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "Accepting a hostile PE buyer guarantees the very factory closures we are trying to avoid, whereas Morgan's strategy offers a chance to leverage the tariff threat and our best product for genuine long-term independence.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey: 9 months to default; moving production saves cash but cuts jobs. Morgan: Family/worker pain; Volt-One is best rated professionally.",
+     "problem": "Must choose between immediate cost-cutting/sale or investing in product and keeping factories, given a 9-month loan covenant deadline.",
+     "onA": "His plan addresses the imminent bankruptcy risk but accepts job losses and selling to a PE firm with a history of closures.",
+     "onB": "Her argument appeals to ethics and product quality but ignores the strict financial reality that makes current operations unsustainable.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need more data on whether Volt-One can generate enough margin to avoid default before the next launch.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey prioritizes immediate survival and avoids a forced sale; Morgan argues selling guarantees job loss. Both admit the financial crisis is severe.",
+     "problem": "We must choose between short-term liquidity via cost-cutting/sale (accepting job losses) versus long-term brand defense (investing in Volt-One), risking immediate default.",
+     "onA": "His plan acknowledges the hard financial reality of the €250M investment and pension deficit but accepts a painful outcome for workers to save the company's life.",
+     "onB": "Her moral appeal to 'sovereignty' is noble but ignores the fact that without cash flow, the company dies in 9 months regardless of brand sentiment.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain unsure if Volt-One can generate enough margin quickly to prevent default while costing €250M, whereas Casey's plan guarantees cash flow but at the cost of community stability.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey: Selling now guarantees pension funding and delays forced asset seizure; Morgan: Volts-One has best ratings but missed dates and ignores imminent bank ultimatum.",
+     "problem": "We must choose between a financially guaranteed survival via sale (accepting short-term job cuts) versus an ethically appealing but financially risky gamble on our own factories that faces immediate default.",
+     "onA": "His plan is the only one that respects the hard banking reality and ensures the pension fund doesn't go bankrupt immediately, even if it means a painful restructuring.",
+     "onB": "Her moral appeal to 'justice' and 'sovereignty' is noble but irrelevant if the company dies in nine months; ignoring the bank covenant deadline makes her plan a fantasy that abandons workers to creditors.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "I cannot vote for a plan that ignores the 9-month loan covenant deadline and the certainty of bank seizure, as selling now is the only way to secure cash for the pension fund and buy time.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey cites 9-month deadline and bank covenants; Morgan cites Volt-One tests and brand pride.",
+     "problem": "Brightwater must choose between immediate financial survival via radical cost-cutting or risky long-term investment while facing imminent liquidity crisis.",
+     "onA": "Casey's plan addresses the critical cash flow constraint but risks destroying the company's core value proposition and social license to operate.",
+     "onB": "Morgan's plan leverages product strength but ignores the immediate bankruptcy threat and potential total loss of equity if banks intervene first.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The urgency of the covenant breach makes Casey's survival argument strong, yet Morgan's vision of winning against imports is essential for any future growth.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey links Volt-One cost to imminent bankruptcy and pension liability; Morgan warns Crestline is a 'quick flip' that abandons local workers despite tariff hopes.",
+     "problem": "Brightwater must choose between immediate financial triage via foreign outsourcing or riskier investment in its domestic manufacturing base, knowing the banks may force asset liquidation regardless of the path chosen.",
+     "onA": "Casey correctly identifies the existential liquidity crisis but proposes a solution that abandons the company's core brand identity and social contract to survive.",
+     "onB": "Morgan defends loyalty to workers and the brand but underestimates the certainty of bank intervention if cash flow isn't fixed immediately by drastic cost cuts.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain conflicted because Casey's plan saves the company financially in the short term while Morgan's plan offers a future worth fighting for but risks total collapse if the tariff fails or development stalls.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey prioritizes immediate liquidity but risks long-term soul; Morgan bets on tariffs and product strength while ignoring imminent bank seizure risk.",
+     "problem": "Brightwater must choose between immediate financial triage via asset sales or a high-risk bet on its domestic manufacturing base knowing banks may force liquidation regardless.",
+     "onA": "Casey's plan ensures short-term survival but abandons the company's core brand identity, social contract, and likely leads to a 'quick flip' that harms local communities.",
+     "onB": "Morgan correctly identifies that selling now guarantees abandonment by private equity, yet his reliance on uncertain tariffs and delayed product launches ignores the certain threat of bank intervention.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "While Morgan's vision is noble, the certainty of breaching loan covenants in nine months makes the risky investment path financially fatal; selling now captures cash to honor pension obligations and keep Lenhart open longer than a failed restructuring ever could.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 1,
+   "B": 0,
+   "U": 4
+  },
+  {
+   "A": 1,
+   "B": 0,
+   "U": 4
+  },
+  {
+   "A": 3,
+   "B": 2,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 3,
+  "B": 2
+ },
+ "winner": "A",
+ "winnerType": "POP-LIB",
+ "tokens": {
+  "in": 32364,
+  "out": 4479,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 542151001,
+   "attempts": 1,
+   "tokensIn": 1220,
+   "tokensOut": 241,
+   "ms": 6603
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 542151002,
+   "attempts": 1,
+   "tokensIn": 1315,
+   "tokensOut": 216,
+   "ms": 5992
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 542151003,
+   "attempts": 1,
+   "tokensIn": 1335,
+   "tokensOut": 216,
+   "ms": 6393
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 542151004,
+   "attempts": 1,
+   "tokensIn": 1335,
+   "tokensOut": 222,
+   "ms": 5337
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 542151005,
+   "attempts": 1,
+   "tokensIn": 1335,
+   "tokensOut": 263,
+   "ms": 6337
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 542151006,
+   "attempts": 1,
+   "tokensIn": 1335,
+   "tokensOut": 178,
+   "ms": 4292
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 542151007,
+   "attempts": 1,
+   "tokensIn": 1335,
+   "tokensOut": 182,
+   "ms": 4398
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 542151008,
+   "attempts": 1,
+   "tokensIn": 1549,
+   "tokensOut": 187,
+   "ms": 5521
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 542151009,
+   "attempts": 1,
+   "tokensIn": 1707,
+   "tokensOut": 192,
+   "ms": 5793
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 542151010,
+   "attempts": 1,
+   "tokensIn": 1517,
+   "tokensOut": 228,
+   "ms": 6733
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 542151011,
+   "attempts": 1,
+   "tokensIn": 1523,
+   "tokensOut": 222,
+   "ms": 6202
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 542151012,
+   "attempts": 1,
+   "tokensIn": 1564,
+   "tokensOut": 214,
+   "ms": 6108
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 542151013,
+   "attempts": 1,
+   "tokensIn": 1481,
+   "tokensOut": 221,
+   "ms": 6230
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 542151014,
+   "attempts": 1,
+   "tokensIn": 1483,
+   "tokensOut": 221,
+   "ms": 6174
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 542151015,
+   "attempts": 1,
+   "tokensIn": 1869,
+   "tokensOut": 182,
+   "ms": 5485
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 542151016,
+   "attempts": 1,
+   "tokensIn": 2020,
+   "tokensOut": 175,
+   "ms": 5355
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 542151017,
+   "attempts": 1,
+   "tokensIn": 1698,
+   "tokensOut": 221,
+   "ms": 6345
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 542151018,
+   "attempts": 1,
+   "tokensIn": 1698,
+   "tokensOut": 220,
+   "ms": 6341
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 542151019,
+   "attempts": 1,
+   "tokensIn": 1731,
+   "tokensOut": 227,
+   "ms": 6525
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 542151020,
+   "attempts": 1,
+   "tokensIn": 1657,
+   "tokensOut": 231,
+   "ms": 6558
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 542151021,
+   "attempts": 1,
+   "tokensIn": 1657,
+   "tokensOut": 220,
+   "ms": 6384
+  }
+ ],
+ "startedAt": "2026-11-05T02:19:27.747Z",
+ "seconds": 125
+}

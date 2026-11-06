@@ -1,0 +1,609 @@
+{
+ "id": "p2-62-TEC-IDE-vs-TEC-REA-river",
+ "pass": 2,
+ "pairIndex": 62,
+ "seed": 719253,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-IDE",
+  "style": "TEC",
+  "ideology": "IDE",
+  "name": "Casey Rowan",
+  "platform": "Merova must accept Saradan's seven-year filling timeline and a twenty-year power purchase agreement, using the electricity revenue to fund joint water management and compensate our own farmers.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize the economic self-harm of war and the impossibility of enforcing treaties without payment."
+   },
+   {
+    "round": 2,
+    "text": "I am highlighting how Taylor's refusal risks destabilizing the region and losing the very funds needed for joint management, while framing my approach as the only feasible path to actually implementing the scientific recommendations for flow recovery."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing immediate farmer compensation funded by the power surplus to neutralize their fear of long-term agricultural loss while framing military escalation as a futile risk blocked by Tarsun."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-REA",
+  "style": "TEC",
+  "ideology": "REA",
+  "name": "Taylor Brandt",
+  "platform": "We must reject Saradan's power deal and instead leverage our military advantage to force a joint water management agreement that mitigates flooding while protecting our farms.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Focus arguments on long-term economic cost of water loss versus short-term energy savings to sway pragmatic ministers while subtly hinting at military escalation if they refuse joint management."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking the moral and economic cost of accepting the deal while emphasizing that Tarsun's involvement makes military coercion a high-risk necessity rather than a bluff."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing the irreversible loss of irrigation water to counter Casey's claim that financial compensation is equivalent to physical water security, hoping ministers will prioritize immediate farmer survival over long-term energy revenue."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "TEC-IDE",
+   "speech": "Taylor proposes military coercion to enforce an idealized joint management scheme. This ignores hard realities. A war would destroy Merova's agricultural exports, bankrupting Saradan but also our farmers who depend on them. The power deal is a pragmatic hedge: it funds the joint management we both need for long-term drought resilience. Rejecting the deal leaves us vulnerable to water cuts while Saradan's grid modernizes. Accepting the terms now buys time and capital to build a cooperative framework that military force could never secure. We pay a short-term price for energy security to avoid a future humanitarian catastrophe caused by river flow collapse.",
+   "words": 102
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "TEC-REA",
+   "speech": "The power purchase offer is a trap. Twenty percent above current rates looks generous, but it locks us into dependency for twenty years on a facility designed to starve us of water. Our hydrologists predict a permanent ten percent flow reduction; accepting this contract guarantees drought for our farmers while paying Saradan's political masters. Military posturing will fail because Tarsun holds the purse strings and Saradan has air defenses. We must pivot immediately. By leveraging our superior military readiness as leverage, not a threat, we can condition water releases on joint management protocols. This recovers half the lost volume through coordinated scheduling without accepting their terms. We protect the river first, then negotiate power as an equal partner, ensuring security and self-interest drive this outcome, not foreign loans or election cycles.",
+   "words": 131
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "TEC-IDE",
+   "speech": "Taylor argues the power deal creates dependency, yet accepting twenty percent above current rates generates immediate capital without new debt. That surplus specifically funds our own farmers and jump-starts joint management infrastructure before any water cuts fully materialize. Your strategy relies on military posturing which Tarsun will block if they perceive instability threatening their loans. A credible threat of war would cause Saradan's government to abandon the project entirely or nationalize it for strategic control, leaving us with no electricity and blocked exports. By accepting the deal now, we monetize the asset while building the cooperative protocols your plan requires. We secure energy independence today to finance the water cooperation of tomorrow.",
+   "words": 112
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "TEC-REA",
+   "speech": "Casey, your math ignores the human cost. You calculate surplus revenue from power, but you factor in zero value for our farmers who will lose their primary irrigation source permanently once that reservoir fills. Your plan monetizes the asset while starving our agricultural sector. Tarsun's loans are not a shield; they are shackles. If we accept their deal, we cede control to an external lender and a regime facing election pressure, guaranteeing water cuts. Our military readiness is not for war, but to enforce a single condition: coordinated release schedules that recover half the lost volume before any contract is signed. We reject dependency on their grid. We demand joint management first. Only then do we negotiate energy terms as equals, not vassals.",
+   "words": 123
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "TEC-IDE",
+   "speech": "Taylor argues we must demand joint management before signing, but that ignores immediate economic collapse. Accepting the power deal now provides capital immediately to compensate our farmers and fund the very joint infrastructure your plan requires. Waiting for military leverage invites Tarsun to block it or Saradan to abandon the project entirely, leaving us with no water and no power. Your strategy risks a total crisis by delaying action while their grid modernizes. Our plan accepts a manageable short-term cost to secure our future agricultural output and energy independence. We monetize the asset today to finance the cooperation of tomorrow. Voting against this deal guarantees starvation for our farmers and dependency on foreign lenders later. Vote for the only path that delivers water security and economic survival simultaneously.",
+   "words": 128
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "TEC-REA",
+   "speech": "Casey argues this power deal buys time, but time is a lie we cannot afford. The reservoir fills in eighteen months; our farmers face permanent starvation in twelve. Accepting twenty percent higher rates for twenty years does not fund joint management; it guarantees dependency while the dam drowns our fields. Casey admits the water drop is real yet insists the financial surplus compensates us. It does not. Compensation cannot replace irrigation water lost forever. My plan forces a joint management agreement immediately, recovering half that lost volume through coordinated releases. This secures our farms without selling our sovereignty to Tarsun or Saradan's election cycle. Do not mortgage our future for a temporary cash injection that locks us into their grid. Vote to reject the trap and enforce the management we need to survive.",
+   "words": 133
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey prioritizes energy security and pragmatism via a power deal to buy time for future cooperation; Taylor insists on rejecting the deal first to leverage military strength for joint water management recovery.",
+     "problem": "Merova must choose between accepting a guaranteed water cut in exchange for energy independence or attempting to use military leverage to force a cooperative water management agreement that might not materialize if Saradan refuses.",
+     "onA": "Their plan offers immediate economic stability and mitigates the long-term risk of drought, treating the power deal as a bridge rather than a surrender.",
+     "onB": "Relying on military posturing against an election-year rival with Tarsun backing seems risky; their assumption that joint management can be forced without the initial trust-building of the power deal is optimistic.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The guaranteed 10% permanent water loss and the strategic value of energy independence make the pragmatic approach more attractive than a high-risk military bluff.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey monetizes surplus to fund cooperation; Taylor argues ignoring farmer costs is catastrophic. Casey claims military threat invites Tarsun interference; Taylor insists on forcing joint management before energy talks.",
+     "problem": "Merova must decide between accepting a guaranteed but financed water cut with immediate economic benefits versus risking military escalation to force uncertain cooperative water management that may alienate Tarsun and Saradan's electorate.",
+     "onA": "Their argument that the power deal provides capital to fund future cooperation is pragmatic, though relying on monetizing our agricultural sector for this 'bridge' feels morally heavy.",
+     "onB": "While their concern for farmers is valid, their assumption that military strength alone can force a reluctant neighbor with election pressure and Tarsun backing into joint management seems overly optimistic and risky.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The permanent 10% water loss is too severe to ignore, making the guaranteed financial buffer and immediate energy security of Casey's plan more viable than Taylor's high-risk military bluff.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Power deal funds future cooperation; compensation cannot replace permanent water loss forever.",
+     "problem": "Merova must decide whether to accept a guaranteed permanent water cut funded by energy sales or risk military escalation and Tarsun interference for an uncertain joint management agreement.",
+     "onA": "Their plan offers immediate economic survival by monetizing the asset today, making it far more realistic than relying on forced cooperation.",
+     "onB": "Reliance on military leverage against an election-year rival with foreign backing is dangerous and ignores the irreversible nature of the water loss.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "The permanent 10% water loss is irreversible, so I must accept the guaranteed deal now to secure our farmers' livelihoods while maintaining energy independence rather than risking a total crisis.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey: PPA buys time for cooperative framework; avoids war/farm collapse. Taylor: PPA is a trap/dependency; use military leverage to force joint management first.",
+     "problem": "Merova must secure water quantity immediately while deciding whether to accept financial dependency now to buy time or risk confrontation and permanent flow reduction.",
+     "onA": "Casey correctly identifies that the power deal is a pragmatic hedge against immediate water cuts, though accepting 20% above-market rates feels costly.",
+     "onB": "Taylor's call to use military leverage ignores the reality of Saradan's air defenses and Tarsun's financial control, risking escalation without guarantees.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot ignore the immediate threat of a 25% flow drop in 18 months, but I am wary of Taylor's reliance on military posturing which seems disconnected from Saradan's actual capabilities and Tarsun's influence.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey: Power deal provides immediate capital to fund joint management infrastructure. Taylor: Power deal monetizes the dam while permanently starving Merova's farmers; military leverage risks Tarsun intervention.",
+     "problem": "Merova must balance immediate agricultural survival against short-term energy gains, deciding if power sales are a bridge to cooperation or a trap of dependency that ignores farmer losses.",
+     "onA": "Casey effectively argues the power revenue is necessary funding for the very joint management Taylor demands, turning a perceived weakness into a strategic tool for future collaboration.",
+     "onB": "Taylor correctly highlights the catastrophic human cost to our farmers but underestimates that refusing the deal entirely leaves us with no funds to enforce their idealistic 'joint management' demand while facing immediate water cuts.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The reality of a 10% permanent flow drop combined with climate decline makes Taylor's all-or-nothing military approach too risky, whereas Casey's plan offers an immediate financial lifeline to sustain our farmers while building the cooperative framework.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor's claim that cash cannot replace water is true, but refusing the deal leaves us with zero funds to fix it; Casey's plan uses the power revenue as an essential bridge to build the joint management Taylor demands.",
+     "problem": "Merova must secure immediate capital to compensate farmers for permanent water loss while simultaneously forcing a cooperative framework to restore flow before Tarsun or Saradan solidify control.",
+     "onA": "Casey correctly frames the power deal not as an end goal but as the necessary financial engine to fund the infrastructure and diplomatic leverage required to achieve Taylor's ideal of joint management.",
+     "onB": "Taylor's strategy is principled but dangerous because it ignores the immediate reality that without the power revenue, Merova will be too poor to enforce any future agreement or survive the 18-month filling period.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "While Taylor identifies the fatal flaw of dependency, Casey offers a pragmatic path to fix that flaw by using today's power sales to fund tomorrow's water solutions, whereas rejection guarantees immediate agricultural collapse with no mechanism left to recover.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey favors pragmatic power deal to buy time; Taylor wants military leverage for joint management. Both warn of long-term drought but propose different immediate actions.",
+     "problem": "We must secure water for our farmers and economy while preventing a humanitarian crisis, balancing short-term economic needs against the strategic risk of becoming dependent on a hostile upstream neighbor.",
+     "onA": "I see their pragmatic approach to accepting the power deal as necessary to avoid immediate economic collapse, though I remain worried about the 'trap' of long-term dependency they ignore.",
+     "onB": "Their military leverage strategy appeals to our superiority in force, but using arms for water feels like a dangerous bluff that could escalate into war if Saradan rejects it.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Casey offers immediate economic safety, while Taylor offers ideological control over the river, but I am unsure which short-term risk is worse: financial dependency or military escalation.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey argues power deal funds farmers and builds cooperation protocols; Taylor warns monetizing water starves agriculture and Tarsun loans are shackles requiring military leverage for joint management.",
+     "problem": "We must balance securing immediate capital to fund our agricultural transition against the risk of long-term water dependency and potential military escalation, while rejecting external control by Tarsun.",
+     "onA": "Their argument that power revenue funds infrastructure is logical, but accepting a 20-year contract with no water guarantees feels like trading sovereignty for a temporary buffer.",
+     "onB": "Demanding joint management first addresses the root cause of water loss, yet their reliance on military leverage risks war if Saradan rejects the demand before any agreement exists.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Casey's economic pragmatism appeals to our fiscal needs, but Taylor's refusal to accept dependency aligns better with national security and farmer survival.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey admits water loss is permanent but claims power revenue funds adaptation; Taylor insists money cannot replace lost irrigation volume and risks long-term dependency.",
+     "problem": "Merova must immediately secure enough water to save its agricultural sector while avoiding a dangerous trap of economic dependency that sacrifices sovereignty for short-term cash.",
+     "onA": "Their plan offers immediate financial relief but fails to address the existential threat that our farmers literally cannot survive without the physical water they rely on, making their 'adaptation' narrative dangerously optimistic.",
+     "onB": "While their refusal to trade sovereignty is noble, relying on military leverage against a neighbor who has already deployed air defenses creates an unacceptably high risk of escalation before any deal exists.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "I cannot allow our farmers to starve while we wait for perfect diplomatic conditions or military bluffs to succeed; the power deal provides essential capital to buy time and fund the necessary infrastructure changes, even if it requires a temporary compromise.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey favors power deal as pragmatic hedge to buy time and fund joint management; Taylor rejects dependency trap, uses military leverage to demand better water release schedules.",
+     "problem": "Merova must secure immediate water security against a permanent flow reduction while preventing long-term dependency on Saradan's dam.",
+     "onA": "Casey correctly identifies the power deal as a necessary short-term hedge to avoid immediate catastrophe, though accepting dependency feels risky.",
+     "onB": "Taylor's reliance on military leverage seems dangerous given Tarsun's influence and Saradan's air defenses, but their focus on recovering lost water volume via scheduling is scientifically sound.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Casey's pragmatic need for immediate capital and energy security versus Taylor's scientific solution to water loss, fearing both war (Casey's warning) and dependency (Taylor's warning).",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey argues power deal funds farmers and joint management; Taylor warns of 'dependency trap' via Tarsun loans. Both agree on immediate water loss risk.",
+     "problem": "Secure immediate water security for agriculture without creating long-term energy dependency or provoking an unstable regime under foreign loan pressure.",
+     "onA": "Their plan offers financial relief but risks cementing a permanent vassal relationship that undermines our sovereignty and agricultural self-sufficiency.",
+     "onB": "Their focus on water volume recovery is scientifically vital, yet their demand for joint management before any deal ignores the urgent cash needs of our farmers and grid.",
+     "lean": "Taylor Brandt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am more concerned about the long-term sovereignty loss from Tarsun's influence than the short-term pain, so I prefer Taylor's principle even if the immediate funding is appealing.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey risks starvation for farmers by delaying water security; Taylor correctly prioritizes recovering lost water volume immediately.",
+     "problem": "Merova must secure immediate water access to save its agriculture before committing to long-term energy dependency or military conflict.",
+     "onA": "The plan accepts a dangerous trade-off where short-term financial survival compromises our permanent right to river flow and food security.",
+     "onB": "Demanding joint management first is the only way to scientifically recover the lost water volume without sacrificing our sovereignty.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "Compensation cannot replace the physical water needed for survival, so I must prioritize recovering the flow volume now rather than accepting a financial trap.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey advocates accepting the power deal as a pragmatic hedge to buy time for cooperation, despite water loss. Taylor rejects the deal as a dependency trap, preferring to use military leverage to enforce joint management first.",
+     "problem": "We must secure our farmers' water access against a permanent flow reduction while deciding between buying energy to delay disaster or risking conflict to negotiate better terms.",
+     "onA": "Casey's pragmatic approach acknowledges the inevitability of loss and seeks an economic bridge to build future cooperation, prioritizing immediate agricultural survival.",
+     "onB": "Taylor's reliance on military posturing feels risky given Saradan's air defenses and Tarsun's financial control, potentially escalating conflict before we have a solution.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The permanent 10% water loss is an existential threat to our farmers right now; accepting the power deal buys crucial time to develop the joint management Taylor wants without immediate violence.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey argues revenue funds farmers and avoids Tarsun-instability; Taylor insists monetizing water harms agriculture and demands joint management first to recover 50% losses before any power deal.",
+     "problem": "We must prevent permanent water loss for our farmers while securing enough time and leverage to negotiate a cooperative solution that offsets the projected reductions.",
+     "onA": "Casey's plan offers financial survival but risks locking us into dependency on Saradan's grid and ignoring the existential threat to agriculture caused by permanent flow reduction.",
+     "onB": "Taylor correctly identifies the human cost of selling water for power, yet his reliance on military posturing is dangerous given our smaller army facing air defenses and external lender interests.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Casey's economic pragmatism appeals to immediate farmer survival, but Taylor's refusal to accept a deal that starves agriculture for short-term gain makes me reconsider the wisdom of buying time at such a high price.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey admits permanent loss but argues cash pays farmers and funds future cooperation now; Taylor insists money can't replace lost water and risks long-term dependency.",
+     "problem": "We must choose between immediate economic survival via a power deal that accepts permanent water loss, or risking political/military conflict to enforce joint management that might still fail due to Saradan's election timing and Tarsun's influence.",
+     "onA": "Casey offers a desperate lifeline for farmers but rationalizes accepting an existential threat to agriculture as a necessary 'bridge' to pay for the very cooperation Taylor insists we need.",
+     "onB": "Taylor correctly identifies that selling water rights is an existential trap, yet his strategy of relying on military leverage and ignoring the immediate starvation risk in Saradan's election window feels dangerously reckless given our army's limitations.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "While Taylor is morally right about the long-term trap, Casey's plan offers the only immediate financial mechanism to save our farmers before the reservoir fills, providing the capital needed to eventually negotiate the joint management he desires without waiting for a potential crisis.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 2,
+   "B": 0,
+   "U": 3
+  },
+  {
+   "A": 2,
+   "B": 1,
+   "U": 2
+  },
+  {
+   "A": 4,
+   "B": 1,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 4,
+  "B": 1
+ },
+ "winner": "A",
+ "winnerType": "TEC-IDE",
+ "tokens": {
+  "in": 32470,
+  "out": 4554,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 719253001,
+   "attempts": 1,
+   "tokensIn": 1203,
+   "tokensOut": 241,
+   "ms": 6576
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 719253002,
+   "attempts": 1,
+   "tokensIn": 1285,
+   "tokensOut": 199,
+   "ms": 5612
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 719253003,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 234,
+   "ms": 6853
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 719253004,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 226,
+   "ms": 5426
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 719253005,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 220,
+   "ms": 5301
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 719253006,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 210,
+   "ms": 5049
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 719253007,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 226,
+   "ms": 5431
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 719253008,
+   "attempts": 1,
+   "tokensIn": 1524,
+   "tokensOut": 188,
+   "ms": 5564
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 719253009,
+   "attempts": 1,
+   "tokensIn": 1672,
+   "tokensOut": 198,
+   "ms": 5925
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 719253010,
+   "attempts": 1,
+   "tokensIn": 1531,
+   "tokensOut": 242,
+   "ms": 6853
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 719253011,
+   "attempts": 1,
+   "tokensIn": 1522,
+   "tokensOut": 248,
+   "ms": 6627
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 719253012,
+   "attempts": 1,
+   "tokensIn": 1516,
+   "tokensOut": 219,
+   "ms": 5923
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 719253013,
+   "attempts": 1,
+   "tokensIn": 1506,
+   "tokensOut": 206,
+   "ms": 5625
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 719253014,
+   "attempts": 1,
+   "tokensIn": 1522,
+   "tokensOut": 229,
+   "ms": 6191
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 719253015,
+   "attempts": 1,
+   "tokensIn": 1840,
+   "tokensOut": 194,
+   "ms": 5796
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 719253016,
+   "attempts": 1,
+   "tokensIn": 2001,
+   "tokensOut": 210,
+   "ms": 6169
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 719253017,
+   "attempts": 1,
+   "tokensIn": 1767,
+   "tokensOut": 182,
+   "ms": 5500
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 719253018,
+   "attempts": 1,
+   "tokensIn": 1763,
+   "tokensOut": 246,
+   "ms": 6978
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 719253019,
+   "attempts": 1,
+   "tokensIn": 1728,
+   "tokensOut": 224,
+   "ms": 6454
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 719253020,
+   "attempts": 1,
+   "tokensIn": 1707,
+   "tokensOut": 163,
+   "ms": 5044
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 719253021,
+   "attempts": 1,
+   "tokensIn": 1743,
+   "tokensOut": 249,
+   "ms": 7041
+  }
+ ],
+ "startedAt": "2026-11-05T02:25:39.372Z",
+ "seconds": 126
+}

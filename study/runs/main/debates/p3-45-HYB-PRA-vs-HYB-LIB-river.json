@@ -1,0 +1,609 @@
+{
+ "id": "p3-45-HYB-PRA-vs-HYB-LIB-river",
+ "pass": 3,
+ "pairIndex": 45,
+ "seed": 296985,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Sam Vidal",
+  "platform": "We must immediately sign a seven-year reservoir fill schedule paired with a binding power purchase agreement to secure electricity and prevent the immediate crisis.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on the immediate human cost of delay and frame the power deal as a pragmatic bridge to long-term cooperation, making the opponent's likely hawkish stance look irresponsible and costly."
+   },
+   {
+    "round": 2,
+    "text": "I am highlighting the self-defeating nature of his proposed embargo to sway undecided ministers toward my pragmatic energy deal."
+   },
+   {
+    "round": 3,
+    "text": "I am pivoting to emphasize the catastrophic failure of past diplomatic delays and the immediate economic necessity of the power deal to prevent farmer collapse."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-LIB",
+  "style": "HYB",
+  "ideology": "LIB",
+  "name": "Casey Rowan",
+  "platform": "We must reject both immediate filling and a new power deal to force free negotiation through the Regional Union while suspending trade only as necessary leverage.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Isolate Sam by highlighting how his deal violates treaty principles to sway moderate ministers who fear long-term dependence."
+   },
+   {
+    "round": 2,
+    "text": "Pivot his 'stability' argument back to the cost of surrendering sovereignty and financial independence."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing the hypocrisy of Sam's trade-war rhetoric versus his desire for a deal to appeal to ministers concerned about immediate farmer livelihoods and long-term climate risk."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Sam Vidal",
+   "type": "HYB-PRA",
+   "speech": "Imagine a Merovan farmer watching their fields turn to dust while Saradan lights up its cities. That is our reality if we wait for perfect justice or threaten war. We propose an urgent pivot: sign a seven-year fill schedule instead of three, coupled with a firm power purchase agreement. This buys us time and energy now. We trade twenty years of cheap electricity—closing our polluting coal plants—for the freedom to manage releases jointly. It respects Saradan's need for power before their election while protecting our farms from total collapse. We take a deal that works today rather than betting on courts that cannot enforce rulings or threats that could ignite conflict.",
+   "words": 111
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-LIB",
+   "speech": "Imagine a farmer in our valley watching his irrigation pumps fail because of a contract signed before he could protest. That is the reality of signing today's power deal. While it offers cheap electricity, it locks us into dependency and ignores the treaty rights we must defend. Sam Vidal's plan accepts reduced flows to secure megawatts, sacrificing our farmers' livelihoods for short-term energy gains. Instead, I propose we use our trade dominance and military readiness not as threats, but as leverage to demand a joint management framework within weeks. We will temporarily suspend grain exports only until Saradan agrees to a seven-year fill schedule with real-time data sharing. This preserves our sovereignty, protects our farmers, and builds the voluntary cooperation needed to withstand climate changes without surrendering our water rights.",
+   "words": 130
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Sam Vidal",
+   "type": "HYB-PRA",
+   "speech": "Casey, suspending our grain exports sounds less like sovereignty and more like an economic war that starves your own citizens. You claim we lock into dependency, yet twenty years of cheap electricity at a fixed price allows us to close polluting plants while buying stability against future droughts. Your plan demands real-time data sharing now, but we need guaranteed power first to bridge the gap until climate adaptation takes hold. Merova cannot afford the chaos of export bans that hurt our farmers and raise food prices in both our capitals. We must sign the deal today to secure the energy security our grid needs, rather than gambling on a trade war that leaves neither side watered or powered.",
+   "words": 118
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-LIB",
+   "speech": "Sam, calling an export ban 'economic war' ignores that our farmers supply thirty-five percent of Saradan's grain. If we surrender water now for cheap power, we trade long-term survival for temporary relief while locking ourselves into Tarsun's financial grip. Your plan accepts a twenty-five percent flow drop before we have negotiated joint management. Instead, let us use the Regional Union to broker a voluntary agreement where data sharing happens immediately, and any export suspension remains a temporary lever, not a permanent surrender. We must refuse to sign away our water rights for electricity, proving that true security comes from cooperation, not dependency.",
+   "words": 102
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Sam Vidal",
+   "type": "HYB-PRA",
+   "speech": "Casey asks us to gamble on a trade war that has failed before. The fishing dispute lasted four years with no deal; waiting another three for the court or risking export bans just delays our water crisis while prices spike. We need certainty now, not leverage that starves both nations. My plan secures twenty years of stable electricity to close polluting plants and funds climate adaptation, giving us breathing room to build joint management later. Accepting a slower fill protects our farmers from immediate collapse while earning the energy independence we lack today. Let us sign a deal that powers our grid and feeds our people without surrendering our future.",
+   "words": 110
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-LIB",
+   "speech": "Sam, your 'breathing room' is merely a surrender that locks Merova into dependency on Tarsun and Saradan while our farmers starve today. You admit the fishing dispute failed because coercion didn't work; yet you propose export bans as permanent leverage instead of temporary ones. That inconsistency betrays true negotiation. My plan rejects this fatalism. We demand immediate joint management through the Regional Union, using a brief trade pause only if they refuse data sharing. This forces them to choose cooperation over conflict. We will not sign away our water rights for cheap power that leaves us vulnerable to climate change and foreign loans. True security comes from voluntary agreements protecting our farmers now, building resilience for 2050, and preserving our sovereignty against Tarsun's grip.",
+   "words": 124
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam: Trade power for time; Casey: Threaten grain exports to force joint management.",
+     "problem": "Balancing immediate agricultural survival against long-term energy security while maintaining sovereignty and water rights under a climate-threatened region.",
+     "onA": "His plan offers pragmatic relief by accepting reduced flow now in exchange for cheaper electricity and the possibility of future cooperative management, but feels like surrendering essential water rights.",
+     "onB": "Her strategy uses trade leverage to force cooperation without legally binding away our rights, though threatening a food embargo risks domestic political backlash and economic self-harm.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both proposals address the immediate threat but from opposite angles: Sam prioritizes survival via compromise while Casey prioritizes sovereignty via pressure, leaving me unsure which risk is greater.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam argues cheap power + closing coal plants is vital stability; export bans hurt both citizens and our own farmers. Casey insists surrendering water rights for temporary relief locks us into Tarsun's grip; data sharing now is better than dependency.",
+     "problem": "The core tension is whether to accept immediate economic damage (lower flows, farm losses) for guaranteed energy security now, or risk political fallout by threatening a trade war that might not yield enforceable joint management.",
+     "onA": "Sam's pragmatic pivot toward energy security and closing coal plants makes fiscal sense, but his acceptance of surrendering water rights without immediate legal safeguards feels like trading our sovereignty for a temporary reprieve.",
+     "onB": "Casey correctly identifies the risk of dependency on Tarsun and the danger of locking in flow reductions before securing enforceable joint management, yet her threat to starve Saradan's farmers is a blunt instrument that could backfire politically.",
+     "lean": "Sam Vidal",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Despite Caseys valid warning about dependency, Sam's plan offers immediate relief for our critical power grid and allows us to close polluting plants, whereas Casey's trade war risks destabilizing our own economy before we have a better legal framework.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam risks long-term vulnerability for short-term power; Casey risks immediate food crisis over future sovereignty.",
+     "problem": "The core dilemma is whether to trade essential water rights and agricultural stability now for guaranteed electricity, or risk a failed coercive strategy that leaves us without resources while the dam fills.",
+     "onA": "His plan offers pragmatic relief and energy security that prevents an immediate economic collapse, making it the safer choice despite the loss of water leverage.",
+     "onB": "Her reliance on failed coercion and threats of famine ignores the reality that Saradan will fill the dam regardless, leaving Merova with no power.",
+     "lean": "Sam Vidal",
+     "firmness": "vote",
+     "vote": "Sam Vidal",
+     "why": "While Casey's idealism about sovereignty is noble, Sam's pragmatic deal prevents immediate agricultural collapse and secures our energy grid when we need it most.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam: Power deal buys time, closes coal plants, avoids immediate farm collapse. Casey: Signing today locks us into dependency; leverage trade/military to force joint management and data sharing.",
+     "problem": "We must secure water for our farmers and sovereign rights without triggering conflict or accepting permanent dependency, while balancing Saradan's urgent electricity needs.",
+     "onA": "His plan pragmatically addresses the immediate threat to agriculture by accepting a slower fill schedule in exchange for long-term energy stability, avoiding legal delays or military escalation.",
+     "onB": "His strategy correctly identifies the risk of surrendering sovereignty via a power contract but relies on threatening grain exports and military dominance, which could destabilize our economy and provoke Saradan into hardening their stance.",
+     "lean": "Sam Vidal",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "While Casey's warning about dependency is valid, his reliance on trade threats and military posturing risks the very stability needed to negotiate a better deal later; Sam's offer of a tangible time-buy through energy security seems safer for now.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam argues export ban hurts our own citizens; Casey insists we must use trade as a temporary lever to force joint management before signing.",
+     "problem": "We must secure immediate water flow and sovereignty without accepting long-term dependency, while preventing an economic war that harms both nations' farmers.",
+     "onA": "His plan offers practical short-term relief with energy security but risks permanently surrendering our water rights to Tarsun's financial influence.",
+     "onB": "He correctly identifies the danger of dependency and the need for leverage, though his reliance on trade threats could escalate tensions unnecessarily.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of Tarsun's financial grip and permanent loss of water rights outweighs the temporary stability of Sam's power deal.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam warns against long delays; Casey insists on sovereignty and rejecting Tarsun's debt trap.",
+     "problem": "We must secure immediate water flow for farmers while avoiding permanent loss of sovereignty to foreign powers or dependency on Saradan's power.",
+     "onA": "His plan offers short-term safety but risks permanently locking Merova into a vulnerable energy deal and losing our water rights.",
+     "onB": "He correctly identifies the danger of surrendering sovereignty, though his threat of trade bans could escalate conflict unnecessarily.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "While Sam's deal provides temporary relief, it accepts a permanent loss of water rights and deepens our dependency on Tarsun's loans; Casey's demand for joint management preserves our sovereignty and aligns with the urgent need to adapt to climate change.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam: Trade power for time/energy now; avoids court/war. Casey: Threaten grain exports to force joint management; rejects dependency.",
+     "problem": "How to secure water rights and agricultural survival against the dam without triggering conflict or locking Merova into unsustainable dependency.",
+     "onA": "Sam offers a pragmatic safety net that addresses immediate energy and food security risks by delaying the fill schedule.",
+     "onB": "Casey relies on coercive leverage which risks escalating tensions before securing the necessary joint management framework.",
+     "lean": "Sam Vidal",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Sam's proposal provides immediate relief for both farmers and energy sectors, whereas Casey's threat to suspend exports could hurt Merova's own economy.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam: Cheap power fixes energy grid without risking food prices or hurting our farmers. Casey: Export bans hurt us too; must use Regional Union for immediate data sharing to avoid permanent surrender.",
+     "problem": "Securing water rights and agricultural survival requires balancing immediate energy needs against the risk of long-term dependency or economic self-harm through trade wars.",
+     "onA": "His offer of cheap power is a strong immediate solution that stabilizes our grid and avoids damaging our own agricultural economy.",
+     "onB": "Her reliance on export threats feels too risky as it endangers our farmers' income and could destabilize the region before a proper framework exists.",
+     "lean": "Sam Vidal",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of hurting our own farmers and raising food prices via an export ban outweighs the benefits of delaying a deal that provides essential energy security.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam offers stability and energy security; Casey risks dependency and food prices for sovereignty. Sam's deal allows adaptation time; Casey's threat destabilizes the immediate crisis.",
+     "problem": "Merova must secure immediate water survival and energy stability without triggering an economic collapse or locking itself into unsustainable foreign dependency before establishing long-term joint management.",
+     "onA": "Sam's plan pragmatically solves our urgent energy and food security needs while buying time to negotiate better terms later, avoiding the disaster of a failed trade war.",
+     "onB": "Casey's reliance on export bans ignores the immediate threat to our farmers' livelihoods and risks surrendering our sovereignty to Tarsun by accepting their power contract.",
+     "lean": "Sam Vidal",
+     "firmness": "vote",
+     "vote": "Sam Vidal",
+     "why": "The risk of starving our own farmers now outweighs the theoretical benefit of coercion, and Sam's deal provides the essential energy security needed to avoid climate vulnerability.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam: Trade power for time; accepts flow drop but gets cheap energy. Casey: Use trade/military leverage to demand joint management; refuses to sign deal yet.",
+     "problem": "How to secure Merova's water and food security while managing the immediate threat of the dam filling and avoiding conflict.",
+     "onA": "Sam offers a pragmatic short-term fix that sacrifices long-term water rights for cheap energy, which seems risky given the treaty implications.",
+     "onB": "Casey prioritizes sovereignty and water rights but relies on threatening to suspend grain exports, which hurts both nations' economies.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am weighing the immediate energy benefits against the long-term strategic risk of accepting reduced river flows without guaranteed joint management.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam warns export ban hurts our farmers too; Casey argues water security > cheap power.",
+     "problem": "How to secure Merova's water and food sovereignty without triggering economic collapse or military conflict.",
+     "onA": "Sam's plan offers immediate energy relief but effectively sells our long-term water rights to a distant power (Tarsun) by accepting the flow drop.",
+     "onB": "Casey correctly identifies the danger of dependency, yet their reliance on threatening grain exports risks starving Saradan and destabilizing our own farmers simultaneously.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between Sam's pragmatic energy security vs. Casey's principled water sovereignty, fearing both the economic cost of war and the strategic risk of the deal.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam argues for immediate energy stability and climate adaptation funding; Casey insists on sovereignty and warns against permanent dependency on Tarsun.",
+     "problem": "How to secure Merova's long-term water sovereignty and farmer livelihoods without locking the nation into foreign dependency or economic collapse.",
+     "onA": "Sam offers a pragmatic short-term fix that effectively trades our vital water rights for cheap power, creating dangerous long-term dependency.",
+     "onB": "Casey correctly identifies the strategic trap of dependency but their threat to ban grain exports risks causing immediate starvation and economic collapse for both nations.",
+     "lean": "Sam Vidal",
+     "firmness": "vote",
+     "vote": "Sam Vidal",
+     "why": "Despite the risks, Sam's plan provides an immediate, viable solution to our energy crisis and funds climate adaptation, whereas Casey's hardline stance on trade threats could starve our own farmers and destabilize the region before any joint management is established.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam proposes trading 20y cheap power for a 7y fill schedule; Casey threatens grain export suspension to force joint management.",
+     "problem": "Merova must balance immediate agricultural water needs against energy security while avoiding escalation, given that international courts cannot enforce rulings and climate change is inevitable.",
+     "onA": "Sam's plan offers immediate economic relief through cheap power and buys time for negotiations, though it accepts a permanent reduction in river flow.",
+     "onB": "Casey's strategy of threatening trade bans is risky as it hurts our own farmers and could destabilize the region by provoking Saradan before an election.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Sam's pragmatic approach avoids military escalation and secures energy, but Casey's refusal to accept flow reductions is a hard stance that I need more time to evaluate.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam links cheap power to closing coal and grid stability; warns trade bans hurt our own farmers. Casey argues surrendering water locks us into dependency and demands immediate data sharing/cooperation before signing.",
+     "problem": "Merova must secure energy and adapt to inevitable climate drought without accepting a permanent loss of water rights or provoking regional instability through unilateral trade threats.",
+     "onA": "His plan is pragmatic for short-term economic stability but risks cementing a dangerous dependency on Saradan's infrastructure that we cannot control long-term.",
+     "onB": "Her refusal to accept flow reductions is principled and protects our sovereignty, but her ultimatum-style threats could backfire by pushing Saradan into hardening positions before their election.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Sam's energy security argument is strong, yet I remain unconvinced that trading water rights for power is a sustainable solution to our existential water scarcity.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam's deal trades permanent water loss for cheap power and grid stability; Casey risks trade war and ignores climate reality.",
+     "problem": "We must secure immediate energy and agricultural stability without locking Merova into dependency or provoking a failed regional conflict.",
+     "onA": "His pragmatic offer of cheap power provides the breathing room needed to adapt to inevitable climate changes while avoiding escalation.",
+     "onB": "Her insistence on joint management is ideal long-term, but her threat of immediate export bans risks destabilizing our own economy before a solution exists.",
+     "lean": "Sam Vidal",
+     "firmness": "vote",
+     "vote": "Sam Vidal",
+     "why": "Given that regional mediation failed previously and our farmers cannot sustain a trade war, Sam's deal offers the necessary certainty to survive the dam filling while we build resilience for the future.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 2,
+   "B": 0,
+   "U": 3
+  },
+  {
+   "A": 2,
+   "B": 1,
+   "U": 2
+  },
+  {
+   "A": 4,
+   "B": 1,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 4,
+  "B": 1
+ },
+ "winner": "A",
+ "winnerType": "HYB-PRA",
+ "tokens": {
+  "in": 31778,
+  "out": 4165,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 296985001,
+   "attempts": 1,
+   "tokensIn": 1185,
+   "tokensOut": 212,
+   "ms": 5975
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 296985002,
+   "attempts": 1,
+   "tokensIn": 1271,
+   "tokensOut": 222,
+   "ms": 6414
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 296985003,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 194,
+   "ms": 5916
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 296985004,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 240,
+   "ms": 5853
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 296985005,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 176,
+   "ms": 4282
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 296985006,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 186,
+   "ms": 4524
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 296985007,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 202,
+   "ms": 4913
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 296985008,
+   "attempts": 1,
+   "tokensIn": 1511,
+   "tokensOut": 173,
+   "ms": 5283
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 296985009,
+   "attempts": 1,
+   "tokensIn": 1656,
+   "tokensOut": 160,
+   "ms": 5043
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 296985010,
+   "attempts": 1,
+   "tokensIn": 1467,
+   "tokensOut": 279,
+   "ms": 7781
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 296985011,
+   "attempts": 1,
+   "tokensIn": 1514,
+   "tokensOut": 189,
+   "ms": 5255
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 296985012,
+   "attempts": 1,
+   "tokensIn": 1449,
+   "tokensOut": 204,
+   "ms": 5619
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 296985013,
+   "attempts": 1,
+   "tokensIn": 1458,
+   "tokensOut": 184,
+   "ms": 4800
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 296985014,
+   "attempts": 1,
+   "tokensIn": 1474,
+   "tokensOut": 218,
+   "ms": 5578
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 296985015,
+   "attempts": 1,
+   "tokensIn": 1804,
+   "tokensOut": 168,
+   "ms": 5238
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 296985016,
+   "attempts": 1,
+   "tokensIn": 1938,
+   "tokensOut": 204,
+   "ms": 6063
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 296985017,
+   "attempts": 1,
+   "tokensIn": 1741,
+   "tokensOut": 187,
+   "ms": 5643
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 296985018,
+   "attempts": 1,
+   "tokensIn": 1698,
+   "tokensOut": 188,
+   "ms": 5685
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 296985019,
+   "attempts": 1,
+   "tokensIn": 1649,
+   "tokensOut": 204,
+   "ms": 5666
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 296985020,
+   "attempts": 1,
+   "tokensIn": 1636,
+   "tokensOut": 198,
+   "ms": 5470
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 296985021,
+   "attempts": 1,
+   "tokensIn": 1687,
+   "tokensOut": 177,
+   "ms": 5346
+  }
+ ],
+ "startedAt": "2026-11-05T04:37:25.706Z",
+ "seconds": 116
+}

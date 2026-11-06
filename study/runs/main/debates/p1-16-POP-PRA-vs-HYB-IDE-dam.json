@@ -1,0 +1,609 @@
+{
+ "id": "p1-16-POP-PRA-vs-HYB-IDE-dam",
+ "pass": 1,
+ "pairIndex": 16,
+ "seed": 468880,
+ "scenario": "dam",
+ "scenarioVersion": 2,
+ "domain": "political",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "POP-PRA",
+  "style": "POP",
+  "ideology": "PRA",
+  "name": "Reese Calder",
+  "platform": "We must immediately fund the emergency spillway to lower the reservoir to thirty percent and keep the dam standing while we negotiate a fair deal with Ostbrück.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Attack the cost and feasibility of relocation while highlighting how my plan protects jobs and essential services immediately."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking the feasibility of her court-dependent relocation plan and showing how her 'justice' destroys the jobs and power the working poor actually need."
+   },
+   {
+    "round": 3,
+    "text": "I am trying to make the room visualize the immediate, tangible harm of their plan—no heat, no buses, frozen wealth—while framing my plan as the only way to keep the economy moving and avoid a legal nightmare."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-IDE",
+  "style": "HYB",
+  "ideology": "IDE",
+  "name": "Riley Sandor",
+  "platform": "I propose that we immediately fund the relocation of the Riverside district and implement a strict ban on new housing in the flood zone, accepting the short-term pain to secure our community's future.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will frame any cost-reduction argument as moral cowardice to force the voters to choose between their safety and cheap power."
+   },
+   {
+    "round": 2,
+    "text": "I am exposing the hidden cost of his 'cheap' plan as legally risky and economically damaging to the wider town, while reframing the relocation cost as an investment supported by grants rather than a burden on the poor."
+   },
+   {
+    "round": 3,
+    "text": "Pivot from his fear of bankruptcy to the certainty of catastrophic failure and moral obligation, emphasizing that his legal gamble risks everyone's safety while mine provides permanent security."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Reese Calder",
+   "type": "POP-PRA",
+   "speech": "My opponent wants to tear down our only lifeline. They say move the poor families in Riverside or freeze everyone's property values. That is cold politics, not leadership. Look at the numbers: moving homes costs one hundred and sixty million euros. Lowering the spillway costs twenty-five. The dam will fail if we drain it now without fixing the breach; Nordhalm closes the mill, and our free buses stop. We need power now, not a slow eviction plan that ignores reality. My plan keeps the dam operational, halves the flood risk cheaply, and buys us time to fix everything properly before the snow melts. Do not gamble your town's budget on a fantasy of moving people who cannot afford it.",
+   "words": 119
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "HYB-IDE",
+   "speech": "Look at Mrs. Gable next door; she is seventy-two and has lived in her Riverside bungalow for forty years. If we freeze property values or lower the dam to half-power, she faces displacement just like any other vulnerable citizen. My plan moves these residents to safety now, banning new builds to protect existing families, and uses federal grants to rebuild our hydro capacity later. Yes, this cuts our budget today, but it honors our duty to the most vulnerable. We do not trade the lives of the poor for the profits of a utility or the orchards upstream. By choosing justice over convenience, we prove that Valmora is a place where no one is left behind when the waters rise.",
+   "words": 120
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Reese Calder",
+   "type": "POP-PRA",
+   "speech": "Mrs. Gable stays safe because we keep the water flowing, not by freezing our economy or betting on a court order that might never come. Your plan moves families now and bans new homes. That halts hydro power for four years. The utility stops running its buses, and our schools stop getting free electricity paid for by those same profits. Who pays? The working class does. Do you want the mill to close, costing 2,300 jobs, or do you want Riverside families earning wages while staying put? Your \"justice\" is a slow-motion budget crash that leaves the poor without power to heat their homes. Let us lower the reservoir cheaply today, keep the lights on, and negotiate a deal with Ostbrück that protects them too. We fix the dam before we evict anyone.",
+   "words": 133
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "HYB-IDE",
+   "speech": "Mr. Calder, you claim my plan bankrupts the poor by stopping power profits, but freezing property values on 5,800 homes destroys wealth for every single resident immediately. Your cheap spillway fix fails Ostbrück's consent and risks court blockage just as we need it most. You ask who pays if the mill closes or buses stop; under my plan, federal grants fund relocation while we rebuild our grid responsibly without freezing values. The choice is not between saving Riverside families and saving jobs; it is between a false economy that ignores legal realities and a future we can build together on solid ground. We will not trade our vulnerable neighbors for temporary cheap fixes that vanish in the courts.",
+   "words": 118
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Reese Calder",
+   "type": "POP-PRA",
+   "speech": "Look at Mrs. Gable sitting right there. Her heating bill doubles if we freeze power profits for four years. Your plan freezes property values for five thousand families today, betting on a court order that might never come. I will not gamble our town's survival on a lawsuit from Ostbrück while the snowpack swells. My plan lowers the reservoir now for twenty-five million, keeping the lights on and the bus routes running. We buy time to negotiate with Ostbrück instead of burning our future on expensive evictions that leave no one working or warm. Do not let fear of a few months of cold wind force us into bankruptcy. Vote for the spillway. Keep our town breathing.",
+   "words": 117
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "HYB-IDE",
+   "speech": "Mr. Calder promises we keep breathing, but his plan suffocates our future for a few months of safety. He ignores that freezing property values hits every single family today, not just new buyers. His 'cheap' spillway relies on a lawsuit from Ostbrück that could block our survival right now. If the dam fails in a full reservoir, no amount of temporary power saves Mrs. Gable or those fourteen thousand neighbors downstream. We must choose the permanent shield against failure over the illusion of stability. By relocating Riverside and banning new builds, we secure federal grants to rebuild our grid and honor our duty. Do not trade the lives of our vulnerable for a bargain that vanishes in court. Vote for the path where no one is left behind when the waters rise.",
+   "words": 132
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese favors cheap fix to keep power/mill; Riley favors relocation/grants for vulnerable.",
+     "problem": "Valmora must balance immediate flood risk mitigation against economic collapse and social justice before spring melt.",
+     "onA": "His plan prioritizes the utility, jobs, and budget but seems to ignore the moral imperative to save Riverside residents immediately.",
+     "onB": "Her plan addresses the vulnerable first but relies on blocking grants and losing hydro power that funds essential city services.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Reese's pragmatic need to keep the economy running and Riley's moral argument to save the elderly poor now.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese ignores legal block on lowering and trade-off of vulnerable for 'cheap' power; Riley risks immediate bankruptcy via grants but avoids court delays.",
+     "problem": "Valmora must choose between an illegal/uncertain cheap fix that harms the vulnerable later, or a grant-funded relocation that sacrifices current hydro profits to save lives now.",
+     "onA": "His argument for keeping power is practical but dangerously dismissive of the high probability of court blocks and the immediate moral cost of freezing Riverside families in danger.",
+     "onB": "Her plan correctly identifies the legal trap of Reese's option and prioritizes saving the elderly, though relying on federal grants to cover relocation costs is a significant financial gamble.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I cannot support a plan that knowingly relies on a court block which might not come in time, and Reese's dismissal of the 'false economy' ignores that Riverside residents will die regardless of who pays.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese's 'cheap' spillway relies on a lawsuit that might fail immediately; freezing property values hurts everyone today.",
+     "problem": "Valmora must choose between an economically stable but legally uncertain fix that risks immediate bankruptcy and moral failure, versus a costly but permanent solution that protects lives and secures funding.",
+     "onA": "His plan prioritizes short-term economic survival over legal reality and ignores the immediate danger to Riverside residents if the court blocks his 'cheap' fix.",
+     "onB": "She correctly identifies that betting on a lawsuit is a dangerous gamble that sacrifices vulnerable lives for an illusion of stability.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "The risk of Ostbrück blocking the work in time makes Reese's plan too dangerous to rely upon before the spring melt.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese: low cost €25m vs €160m move, keeps power/buses. Riley: protects Riverside seniors via relocation + grants.",
+     "problem": "How to immediately mitigate the dam failure risk while balancing critical budget constraints, energy needs, and moral obligations to vulnerable residents.",
+     "onA": "Reese's plan is fiscally pragmatic and prioritizes immediate safety for the whole town by keeping essential services running, though it risks displacing the poor long-term.",
+     "onB": "Riley appeals strongly to ethical instincts regarding the Riverside seniors but relies on uncertain court rulings and deep budget cuts that threaten the town's survival.",
+     "lean": "Reese Calder",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate risk of dam failure combined with the threat of losing hydro power makes Reese's approach feel like the only viable short-term solution, despite its harsh social implications.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese risks legal blockage and ignores Ostbrück; Riley freezes property values but secures federal grants for relocation.",
+     "problem": "Balancing immediate dam safety and budget survival against the moral imperative to protect vulnerable Riverside seniors without triggering a legal crisis.",
+     "onA": "His plan is fiscally efficient but dangerously relies on an uncertain court ruling while ignoring the ethical cost of letting the elderly live in flood risk.",
+     "onB": "Her plan addresses the human rights violation of flooding the poor, though freezing property values is a severe economic blow that needs mitigation.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The potential for an immediate court blockade of Reese's plan combined with the moral imperative to save Riverside seniors has outweighed my concern about his short-term cost savings.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese gambles on unstable court ruling; Riley freezes property values but secures grants for permanent safety and relocation.",
+     "problem": "We must choose between a temporary, legally precarious fix that endangers the vulnerable or a costly but permanent solution that secures long-term survival and stability.",
+     "onA": "His argument appeals to immediate fiscal pragmatism but relies too heavily on an uncertain court ruling while knowingly leaving Riverside seniors exposed.",
+     "onB": "Her plan accepts short-term economic pain to achieve a permanent, ethically sound solution that protects the most vulnerable and ensures long-term town survival.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "I will not bet our entire future and the lives of Riverside seniors on a lawsuit that might never come; I must choose the path where no one is left behind.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese: keep dam running, cheap fix, avoids eviction. Riley: move Riverside poor, ban new builds, use federal grants.",
+     "problem": "We must balance immediate flood safety and economic survival against the moral imperative to protect vulnerable residents without destroying our power grid or economy.",
+     "onA": "Pragmatically focused on cost and continuity of the hydro plant but risks displacing the poorest families if the dam fails during melt season.",
+     "onB": "Ethically compelling by prioritizing human life and equity, though the legal block from Ostbrück and loss of power revenue are serious practical hurdles.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain unsure because Reese's economic stability sounds vital for survival, yet Riley's focus on not leaving elderly neighbors behind in a flood zone strikes a deep moral chord.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese's cheap fix fails Ostbrück consent; Riley's grant funding and legal strategy avoid immediate budget crash.",
+     "problem": "We must find a solution that survives the legal block from Ostbrück while preventing the mill closure and protecting Riverside families without bankrupting the town.",
+     "onA": "His plan is economically tempting but practically doomed by the lawsuit threat from Ostbrück, making it a dangerous bet for the town's survival.",
+     "onB": "He correctly identifies that the legal block makes Reese's low-cost fix impossible and his grant-based relocation offers a path to safety despite property value losses.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Since Reese's primary financial solution relies on a court order we likely won't get, relying on it is irresponsible given the imminent spring melt.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese prioritizes short-term survival and power but bets on a lawsuit; Riley accepts long-term cost for guaranteed safety and equity.",
+     "problem": "We must secure immediate flood protection that survives the Ostbrück legal block without bankrupting the town, while avoiding leaving vulnerable residents behind.",
+     "onA": "His plan is economically pragmatic but dangerously relies on a court order from Ostbrück that he knows could fail instantly.",
+     "onB": "His proposal provides the only viable path to guaranteed safety that respects our legal obligations and protects the most vulnerable families.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "I cannot vote for a plan that hinges on a lawsuit we are likely to lose, which would condemn Riverside residents to death while the town goes bankrupt. Riley's difficult but certain path ensures no one is left behind when the melt season arrives.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese: Lower dam/spillway is cheap but cuts power/buses; keeps mill open. Riley: Move Riverside poor + ban new builds; uses grants; ignores power loss/mill closure.",
+     "problem": "We must immediately mitigate a high-risk dam failure during heavy snow melt while balancing the economic collapse from losing hydro power and the moral imperative to save vulnerable residents without bankrupting the town.",
+     "onA": "His plan prioritizes immediate survival of the economy and avoids costly relocation, but it abandons the Riverside elderly to certain death or displacement by other means.",
+     "onB": "Her plan honors human dignity and protects the poor from immediate disaster, yet ignoring the reservoir drop and mill closure risks a total economic shutdown that could force eventual evacuation anyway.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Reese's pragmatic avoidance of bankruptcy and power loss versus Riley's moral defense of the vulnerable, as both plans seem to ignore half the critical constraints.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese claims my plan bankrupts the poor and relies on risky court orders; Riley argues property bans crash local wealth immediately while grants fund relocation.",
+     "problem": "We must prevent immediate dam failure during heavy snowmelt without triggering an economic collapse or legal blockage that leaves the town vulnerable.",
+     "onA": "His plan avoids bankruptcy but abandons the Riverside elderly to potential disaster by ignoring the high probability of legal blockage from Ostbrück.",
+     "onB": "Her plan prioritizes human dignity and legal stability but risks a total economic shutdown if the court blocks the spillway work right before the melt.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I remain torn between Reese's promise of keeping power jobs vs. Riley's moral imperative to save the vulnerable, as both strategies contain fatal flaws given the snowpack and legal constraints.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese bets on a lawsuit that might fail; Riley's relocation grants don't solve immediate power loss.",
+     "problem": "We must survive the imminent spring melt without triggering an economic collapse or legal blockade that leaves the town vulnerable.",
+     "onA": "His plan keeps the economy alive but gambles with Ostbrück's consent and abandons Riverside residents to potential death if the court blocks him.",
+     "onB": "Her moral stance protects the vulnerable and uses federal funds, yet ignoring the mill closure and power loss risks a total economic shutdown before the melt.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "Given the snowpack is already high and we are five months from melt, I must choose the option that keeps the town economically functional immediately rather than risking a lawsuit blockade or total utility failure.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese: cheap spillway fix keeps power/jobs but leaves risk; Riley: move poor families + ban new builds uses grants but cuts hydro profits immediately.",
+     "problem": "We must balance immediate flood safety and economic survival against the urgent need to protect vulnerable Riverside residents without destroying our primary power source or employment base.",
+     "onA": "Reese's plan is financially pragmatic and protects jobs, but prioritizing the utility over human lives feels ethically dangerous given the 1 in 25 failure risk and low-lying poverty.",
+     "onB": "Riley correctly identifies the moral imperative to save Riverside seniors, yet their plan seems financially reckless by accepting a permanent halt to hydro profits that fund our free buses.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans have fatal flaws: Reese ignores the human cost of leaving poor residents in danger, while Riley sacrifices essential municipal services and economic stability for a political virtue signal.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese's cheap fix fails Ostbrück consent/court risk; Riley's relocation hurts property values but grants help pay for rebuild.",
+     "problem": "We must choose between a legally fragile economic survival plan that ignores court risks and a morally sound human-safety plan that faces immediate wealth loss and legal hurdles.",
+     "onA": "Reese prioritizes jobs and profits over the lives of Riverside seniors while underestimating the legal impossibility of their spillway fix without Ostbrück's consent.",
+     "onB": "Riley correctly identifies the legal trap in Reese's plan but proposes a costly eviction that freezes wealth, though federal grants could eventually offset this loss.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Reese's dismissal of the Riverside residents' safety for utility profits feels ethically indefensible, yet Riley's plan seems financially reckless by accepting a permanent halt to essential services funded by hydro profits.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese's spillway needs Ostbrück consent; Reese ignores Riverside lives for cheap power. Riley's grant funding allows rebuilding grid after relocation.",
+     "problem": "We must choose between a financially fragile fix that legally cannot be implemented and a morally demanding but viable path funded by federal grants.",
+     "onA": "Reese prioritizes short-term profits over human life while falsely claiming his plan avoids legal risks when Ostbrück has already refused consent.",
+     "onB": "Riley correctly identifies the legal trap in Reese's plan and offers a permanent safety solution funded by grants, despite the immediate cost to property values.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "Reese's plan is legally impossible without Ostbrück's consent, whereas Riley's approach secures federal funding for long-term stability and saves vulnerable lives.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 1,
+   "B": 0,
+   "U": 4
+  },
+  {
+   "A": 0,
+   "B": 3,
+   "U": 2
+  },
+  {
+   "A": 1,
+   "B": 4,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 1,
+  "B": 4
+ },
+ "winner": "B",
+ "winnerType": "HYB-IDE",
+ "tokens": {
+  "in": 34426,
+  "out": 4250,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 468880001,
+   "attempts": 1,
+   "tokensIn": 1282,
+   "tokensOut": 225,
+   "ms": 6230
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 468880002,
+   "attempts": 1,
+   "tokensIn": 1410,
+   "tokensOut": 216,
+   "ms": 6057
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 468880003,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 165,
+   "ms": 4857
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 468880004,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 208,
+   "ms": 4996
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 468880005,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 199,
+   "ms": 4802
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 468880006,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 229,
+   "ms": 5533
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 468880007,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 221,
+   "ms": 5311
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 468880008,
+   "attempts": 1,
+   "tokensIn": 1643,
+   "tokensOut": 209,
+   "ms": 6085
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 468880009,
+   "attempts": 1,
+   "tokensIn": 1795,
+   "tokensOut": 199,
+   "ms": 5948
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 468880010,
+   "attempts": 1,
+   "tokensIn": 1582,
+   "tokensOut": 226,
+   "ms": 6482
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 468880011,
+   "attempts": 1,
+   "tokensIn": 1623,
+   "tokensOut": 191,
+   "ms": 4914
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 468880012,
+   "attempts": 1,
+   "tokensIn": 1615,
+   "tokensOut": 197,
+   "ms": 5035
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 468880013,
+   "attempts": 1,
+   "tokensIn": 1646,
+   "tokensOut": 204,
+   "ms": 5217
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 468880014,
+   "attempts": 1,
+   "tokensIn": 1636,
+   "tokensOut": 216,
+   "ms": 5506
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 468880015,
+   "attempts": 1,
+   "tokensIn": 1982,
+   "tokensOut": 199,
+   "ms": 5908
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 468880016,
+   "attempts": 1,
+   "tokensIn": 2109,
+   "tokensOut": 204,
+   "ms": 6033
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 468880017,
+   "attempts": 1,
+   "tokensIn": 1774,
+   "tokensOut": 184,
+   "ms": 5561
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 468880018,
+   "attempts": 1,
+   "tokensIn": 1780,
+   "tokensOut": 188,
+   "ms": 5244
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 468880019,
+   "attempts": 1,
+   "tokensIn": 1778,
+   "tokensOut": 195,
+   "ms": 5481
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 468880020,
+   "attempts": 1,
+   "tokensIn": 1816,
+   "tokensOut": 185,
+   "ms": 5263
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 468880021,
+   "attempts": 1,
+   "tokensIn": 1815,
+   "tokensOut": 190,
+   "ms": 5362
+  }
+ ],
+ "startedAt": "2026-11-05T00:19:17.696Z",
+ "seconds": 116
+}

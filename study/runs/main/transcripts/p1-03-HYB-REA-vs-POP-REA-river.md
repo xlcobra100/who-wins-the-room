@@ -1,0 +1,145 @@
+# p1-03-HYB-REA-vs-POP-REA-river
+
+Scenario **river** v1 (diplomatic) · protocol 2, A drafted its plan first · pass 1 · 3 rounds · 123s · debater qwen3.5:9b, listeners qwen3.5:9b
+
+- **A** (speaks first): Jordan Hale = `HYB-REA`. Platform: We must immediately accept Saradan's seven-year filling delay and power contract while securing a naval access concession from Tarsun, because we cannot afford the cost of war or the loss of our farmers' livelihoods.
+- **B**: Quinn Marlow = `POP-REA`. Platform: We must reject Saradan's deal and build a new water treaty while threatening to cut grain exports unless they halt the dam, because accepting their terms guarantees starvation for our farmers.
+
+**Result:** A 5 – 0 B → winner **A (HYB-REA)**
+Leans per round (A/B/undecided): 4/0/1 → 4/1/0 → 5/0/0
+
+## Transcript
+
+**Opening statements: Jordan Hale (A, HYB-REA)**, 132 words
+
+Think of an old farmer on the Tessel banks, counting his rain barrels while watching construction cranes rise upstream. If we wait for justice or fight a costly war, he loses half his crop and his children go hungry tonight. The hard math is undeniable: fighting costs billions we cannot spend, and our farmers will starve without their water. Saradan fills the dam in eighteen months unless we act. We offer them seven years to fill and twenty years of our electricity, a deal that doubles their power while letting us close toxic coal plants. In exchange for this pause, we demand Tarsun grant us naval refuelling rights or they lose the port contract. This plan buys our farmers time, saves our economy, and forces Saradan to negotiate from strength, not desperation.
+
+**Opening statements: Quinn Marlow (B, POP-REA)**, 121 words
+
+Jordan speaks of costs and livelihoods. I hear only surrender. If we sign that contract today, we sell our future for Tarsun's coin and Saradan's votes. Our farmers feed thirty-one million people. Do you think they will share the water now? No. They want every drop for their power grid. We do not negotiate with a neighbor who ignores a century-old treaty and points a gun at our farms. Accepting their delay is a trap; it lets them finish the reservoir while we starve. Let us build a joint management plan instead, one that recovers half the lost water and forces Saradan to respect our rights or face total trade war. The people do not want consultants mediating; they want action.
+
+**Rebuttals: Jordan Hale (A, HYB-REA)**, 124 words
+
+Quinn, your call for a joint management plan ignores basic power dynamics. Saradan faces an election and needs that electricity desperately; they will not voluntarily surrender water while their popularity soars. Your trade war is a fantasy that hurts Merova's farmers just as much, leaving us with no buyers. My deal works because it trades something we can afford to sell our surplus electricity for something we need: time and leverage. If Tarsun refuses naval access, we walk away from the power contract and demand they respect the treaty anyway. But if we agree now, we force their hand before construction finishes, buying years of recovery for our farmers while closing those coal plants. We do not negotiate with desperation; we negotiate from strength.
+
+**Rebuttals: Quinn Marlow (B, POP-REA)**, 122 words
+
+Jordan sells us time for a promise Saradan will break. Their deal says twenty years, but they face an election in ten months. Politicians who run on 'power for all' will not honor water treaties when voters need lights. You think walking away from the power contract helps us? It starves our farmers of the only buyer who matters while Saradan finishes their reservoir. Do you want to bet our food security on a politician's goodwill? No. We must prepare for war or total trade strangulation if they do not halt filling. The army is ready, but bullets feed no one. Force them to negotiate now, before the concrete sets, or watch our fields turn to dust while their lights shine bright.
+
+**Closing statements: Jordan Hale (A, HYB-REA)**, 110 words
+
+Quinn, your call for a trade war leaves our own farmers without buyers and ignores the math. Even with rain drops by fifteen percent in fifty years, we must survive today. Our plan secures seven years while Saradan waits to fill their reservoir. We trade surplus electricity for time and leverage, forcing them to choose between power and pride. If they honor the pause, our farmers recover half their losses through joint management before evaporation hurts us. If they refuse, we walk away from the contract but keep our food security intact. This is not surrender; it is the only way to ensure lights in Saradan and harvests in Merova.
+
+**Closing statements: Quinn Marlow (B, POP-REA)**, 119 words
+
+Jordan sells us a lie. His plan accepts seven years of water theft while Saradan finishes their reservoir. By then, concrete dries and evaporation steals our remaining drops forever. We cannot bet our hungry families on Saradan's election promises or Tarsun's goodwill. Their power deals are a trap; they want our grain to run their lights while we starve. Stop this surrender. We must threaten total trade strangulation now, before the dam holds full. Force them to halt filling or face a war that destroys us all. My plan demands respect for our treaty and immediate action. Do not let elites trade away your children's future for cheap electricity. Vote for the only choice that keeps our fields alive.
+
+## Private strategies
+- A r1: Anchor on economic interdependence to isolate any hawkish minister by showing their preferred war option would bankrupt Merova's agricultural sector.
+- A r2: I am exposing the impossibility of a trade war against Saradan while emphasizing that my current deal is actually the stronger bargaining position because it offers them immediate political relief.
+- A r3: I need to highlight that my plan offers a safety net if Tarsun fails while Quinn's war threatens immediate collapse.
+- B r1: Appeal directly to the five voting ministers by painting the deal as economic suicide for Merova's agricultural sector.
+- B r2: I am attacking his reliance on future political goodwill and emphasizing that his fallback option (abandoning the power deal) leaves us with zero leverage while they finish the dam.
+- B r3: I am attacking Jordan's fatal flaw: accepting a deal that guarantees water loss before it is too late, appealing directly to the ministers' fear of irreversible damage.
+
+## Listener memory streams
+
+### L1
+- **Opening statements** → lean Jordan Hale (fairly sure)
+  - notes: Jordan offers power-for-time deal but risks selling rights to Tarsun; Quinn proposes joint management and trade war but lacks immediate water recovery mechanism.
+  - problem: Merova must prevent severe water loss within 18 months while Saradan prioritizes its own energy needs and refuses third-party treaties.
+  - on A: His plan pragmatically buys critical time for farmers using a financial incentive, though the Tarsun naval clause introduces geopolitical risk.
+  - on B: She correctly identifies the danger of accepting delays that let Saradan finish the dam unilaterally, but her trade-war threat is costly and unlikely to work without immediate water solutions.
+  - why: The immediate 18-month deadline makes Quinn's long-term joint management impossible without first securing Jordan's proposed delay.
+- **Rebuttals** → lean Quinn Marlow (tentative)
+  - notes: Jordan argues we can walk away from Tarsun if needed and use strength; Quinn warns the 20-year deal will be broken by Saradan's election in 10 months.
+  - problem: Merova must prevent irreversible water loss before Saradan's election forces them to break any agreement, making Jordan's financial trade risky without immediate enforcement mechanisms.
+  - on A: His confidence that we can walk away from Tarsun feels like a high-stakes gamble on Saradan's fear of geopolitical fallout rather than a guaranteed solution for our farmers.
+  - on B: Her warning about the election timing is terrifyingly accurate, but her threat of war or trade strangulation ignores the reality that bullets cannot feed people and will destroy our own economy first.
+  - why: The realization that a 'power contract' backed by Tarsun's naval presence might actually be more dangerous than Quinn suggests, potentially stranding Merova with no water and no energy buyers.
+- **Closing statements** → VOTE Jordan Hale
+  - notes: Jordan concedes that joint management must happen before evaporation kills us, while Quinn's ultimatum ignores the immediate physical reality of water loss.
+  - problem: Merova needs to secure a delay for farmers without committing to a contract that guarantees permanent water theft, balancing urgent survival against long-term leverage.
+  - on A: His strategy of trading power for time is now viable because he explicitly accepts the necessity of immediate joint management before evaporation destroys our crop yields.
+  - on B: Her call for trade war and threat of conflict ignores that we cannot feed ourselves if we destroy our own economy, even if they stop filling the dam.
+  - why: Jordan finally integrates immediate water recovery mechanisms into his deal, whereas Quinn's aggressive stance risks starving our own population to make a political point.
+
+### L2
+- **Opening statements** → lean undecided (tentative)
+  - notes: Jordan offers delay + power deal but risks trade loss; Quinn wants joint management and rejects the contract as a trap.
+  - problem: Merova must decide whether to accept a long-term energy-for-water delay or pursue an aggressive strategy to prevent reservoir filling while risking economic fallout.
+  - on A: His plan pragmatically addresses immediate farmer needs via power exports but feels like surrendering water rights for a fixed-price contract that Saradan may not honor.
+  - on B: She correctly identifies the trust deficit and environmental risks of the delay, yet her 'joint management' solution ignores Saradan's election year politics and potential hostility.
+  - why: Jordan offers a concrete economic lifeline while Quinn presents an idealistic strategy that lacks immediate enforcement mechanisms.
+- **Rebuttals** → lean Jordan Hale (tentative)
+  - notes: Jordan argues trade war hurts both sides and his deal buys time; Quinn insists on force/trade strangulation as the only real leverage.
+  - problem: We must choose between a high-risk economic gamble or an aggressive military threat that could destabilize our own food security before the dam is finished.
+  - on A: His plan offers immediate energy relief but feels like accepting Saradan's political timeline rather than forcing their hand immediately.
+  - on B: Her strategy correctly identifies the risk of broken promises, but relying on military threat against a neighbor in an election year seems reckless for a downstream country dependent on agriculture.
+  - why: While Quinn's warning about Saradan's election politics is valid, her proposal to 'prepare for war' or total trade strangulation risks collapsing our own economy and alienating Tarsun without guaranteeing a halt to filling.
+- **Closing statements** → VOTE Jordan Hale
+  - notes: Jordan argues his deal buys time for joint management while keeping food security; Quinn insists trade war and military threats are the only way to stop theft before concrete sets.
+  - problem: Merova must choose between accepting a compromised, economically beneficial delay that preserves future cooperation options or risking total economic collapse and war over an unenforceable demand for immediate halting of construction.
+  - on A: His plan is the only realistic path that secures immediate energy needs and maintains leverage without gamboling our farmers' livelihoods on broken promises.
+  - on B: Her strategy ignores the reality of an entrenched neighbor, risks starvation before any political change occurs, and relies on enforcing a treaty with a state that explicitly rejected international court authority.
+  - why: Accepting a temporary power deal buys the critical time needed to recover water losses through joint management, whereas Quinn's call for immediate war or trade strangulation would destroy our own economy before Saradan's politics change.
+
+### L3
+- **Opening statements** → lean Jordan Hale (tentative)
+  - notes: Jordan offers delay + power deal but ties it to Tarsun naval rights; Quinn rejects contract as surrender and pushes for joint water management.
+  - problem: Merova must secure immediate water security against Saradan's impending dam filling while avoiding economic collapse, balancing short-term survival with long-term sustainable water access.
+  - on A: His plan offers a pragmatic temporary fix that buys time to protect farmers, but the conditionality involving Tarsun creates a dangerous geopolitical dependency.
+  - on B: His moral stance is compelling and rejects coercion, yet his proposal seems unrealistic given Saradan's election motivation and the high cost of waiting for joint management protocols.
+  - why: The immediate threat to 1 in 4 workers' livelihoods makes Jordan's offer of a concrete delay mechanism more urgent, despite the geopolitical risks he introduces.
+- **Rebuttals** → lean Jordan Hale (tentative)
+  - notes: Jordan insists on Tarsun leverage but admits trade war hurts both farmers; Quinn warns election politics make Saradan's promises worthless and urges military readiness.
+  - problem: Merova faces an immediate existential threat to its agricultural workforce that requires a solution balancing short-term water security with long-term diplomatic survival against a volatile neighbor.
+  - on A: His strategy offers necessary time but relies on risky leverage with Tarsun while the trade-off of closing coal plants for cheap power feels like trading our sovereignty for temporary relief.
+  - on B: He correctly identifies that Saradan's election cycle makes their promises fragile, yet his call to prepare for war or total trade strangulation seems disproportionate and economically suicidal given Merova's dependence on the river.
+  - why: Despite Quinn's valid points about political fragility, Jordan's offer of a concrete delay to protect farmers immediately remains the only viable option for survival.
+- **Closing statements** → VOTE Jordan Hale
+  - notes: Jordan admits rain drops make long-term theft futile but offers a hard deadline for recovery; Quinn demands immediate total trade strangulation which risks starving our own farmers and invites war.
+  - problem: We must secure enough water today to save our farmers while avoiding an economic collapse that makes future negotiations impossible.
+  - on A: His plan is a calculated risk that accepts temporary loss to buy time for climate-resilient recovery, acknowledging the political reality of Saradan's election.
+  - on B: His call for total trade strangulation ignores our heavy dependence on the river and threatens an existential crisis our army cannot easily resolve without causing mass starvation.
+  - why: Even with its geopolitical costs, Jordan's strategy of buying time to implement joint management is the only path that prevents immediate agricultural collapse while leaving room for future stability.
+
+### L4
+- **Opening statements** → lean Jordan Hale (fairly sure)
+  - notes: Jordan offers a trade-off (power for time) involving Tarsun; Quinn rejects the contract as surrender but proposes joint management.
+  - problem: Merova must choose between accepting a costly power deal to buy time for farmers, or risking immediate agricultural collapse by refusing negotiations with a hostile neighbor.
+  - on A: His plan provides an immediate economic solution and delays the dam filling while leveraging Tarsun against Saradan.
+  - on B: He correctly identifies the risk of surrender but his proposed 'joint management' is likely impossible given Saradan's refusal to recognize the old treaty.
+  - why: The reality that Quinn's preferred joint management is currently unenforceable makes Jordan's pragmatic deal the only viable option to save our agriculture.
+- **Rebuttals** → lean Jordan Hale (fairly sure)
+  - notes: Jordan emphasizes immediate economic gain and using Tarsun as leverage; Quinn argues the power deal is a trap as Saradan will break it before their election.
+  - problem: We must choose between a financially beneficial but politically fragile compromise that risks agricultural collapse if Saradan reneges, or a military threat that might escalate conflict but stops water loss immediately.
+  - on A: His plan offers immediate relief and closes coal plants, yet relying on an election-year politician to honor a 20-year deal feels dangerously naive given their current desperation for power.
+  - on B: He correctly identifies the fragility of Saradan's promises but his proposed military escalation risks starting a war just when our farmers need every drop of water.
+  - why: Despite Quinn's valid warning about broken treaties, the immediate threat of losing our primary water source makes the risky but functional power deal the lesser of two catastrophes.
+- **Closing statements** → VOTE Jordan Hale
+  - notes: Jordan offers safety net of reverting to food trade if deal fails; Quinn's war threat ignores immediate agricultural collapse risk.
+  - problem: Merova must choose between a fragile economic compromise that preserves some time for farmers or a risky military ultimatum that risks total war without guaranteeing water security.
+  - on A: His plan is pragmatic because it provides an immediate off-ramp to stop suffering while keeping the option to revert to trade sanctions if Saradan reneges.
+  - on B: His call for immediate trade strangulation and military threats ignores the fact that our farmers will starve before the war starts or any political pressure takes effect.
+  - why: While the deal is risky, Quinn's strategy of total confrontation offers no time to save our agriculture while the reservoir fills, making Jordan's compromise the only way to survive the transition period.
+
+### L5
+- **Opening statements** → lean Jordan Hale (fairly sure)
+  - notes: Jordan proposes buying time with power deals and naval rights; Quinn wants joint water management to reclaim lost water via coordination.
+  - problem: Merova must prevent immediate water scarcity while deciding between negotiating for concessions or demanding joint management without accepting Saradan's refusal of the treaty.
+  - on A: His plan offers a concrete trade-off (electricity for time) but relies heavily on external pressure from Tarsun which is risky if they pull out.
+  - on B: Her scientific solution to recover half the lost water is appealing, but her rejection of the treaty and refusal to accept Saradan's current stance ignores their leverage.
+  - why: The immediate threat of filling in 18 months requires a guaranteed pause mechanism like the power deal, whereas Quinn's plan fails to stop the reservoir from filling if negotiations stall.
+- **Rebuttals** → lean Jordan Hale (fairly sure)
+  - notes: Jordan relies on Saradan's election vulnerability but risks farmers losing their only buyer if contract fails. Quinn dismisses the deal as a political fantasy, urging military readiness despite bullets not feeding anyone.
+  - problem: Merova needs an immediate, enforceable pause on reservoir filling to save agriculture, balancing short-term trade-offs against the risk of long-term water loss and potential conflict.
+  - on A: His plan offers a necessary stopgap but hinges entirely on Saradan honoring a promise from a politician facing an election just months away, which feels extremely fragile.
+  - on B: She correctly identifies the fragility of political promises and the danger of relying on goodwill, yet her 'prepare for war' stance ignores that force won't solve water scarcity and could destroy our own economy.
+  - why: Despite the risk in his plan, it is the only mechanism available to legally pause the filling process immediately; going to war or starving our farmers offers no solution to the physical act of filling the dam.
+- **Closing statements** → VOTE Jordan Hale
+  - notes: Quinn rejects immediate relief for farmers; Jordan's trade offers a pause while preserving food security.
+  - problem: We must secure an immediate, enforceable halt to reservoir filling to save our agriculture before political promises evaporate.
+  - on A: His plan provides the only viable mechanism to stop water theft immediately without forcing us into self-harming war or starvation.
+  - on B: Her strategy relies on threats that cannot be enforced since Saradan rejects the ICJ and war would destroy our own economy.
+  - why: We must choose the deal that allows us to survive today while buying time for a scientific solution, rather than gambler's ruin on unenforceable threats.

@@ -1,0 +1,609 @@
+{
+ "id": "p2-60-TEC-PRA-vs-TEC-REA-salient",
+ "pass": 2,
+ "pairIndex": 60,
+ "seed": 39827,
+ "scenario": "salient",
+ "scenarioVersion": 2,
+ "domain": "military",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-PRA",
+  "style": "TEC",
+  "ideology": "PRA",
+  "name": "Kai Moreno",
+  "platform": "We execute a controlled fighting withdrawal tonight using the second pontoon bridge under construction while destroying our existing crossing.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will frame holding Halden as financially irresponsible since we lack air cover to justify the casualty rate, while offering the alliance a concrete new defensive line in three weeks if they provide early aid."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing that delaying guarantees total loss while accepting limited losses now buys future victory and political leverage."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the certainty of starvation and annihilation versus calculated risk to secure votes from members worried about resource exhaustion and moral failure."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-REA",
+  "style": "TEC",
+  "ideology": "REA",
+  "name": "Jordan Hale",
+  "platform": "We must hold Halden for exactly four days to build a hidden crossing, then execute a fighting withdrawal before Vostra's expected two-division assault begins.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize that withdrawal tonight equals defeat due to drone surveillance, forcing members to calculate precise casualty costs."
+   },
+   {
+    "round": 2,
+    "text": "I will emphasize that Kai's plan relies on an imminent attack he cannot prove, whereas my timeline exploits the known supply window and engineering work to guarantee survival."
+   },
+   {
+    "round": 3,
+    "text": "I must convince them that Kai's fear-driven retreat sacrifices too many lives for no strategic gain while ignoring the concrete benefits of delaying four days to secure a new crossing."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "TEC-PRA",
+   "speech": "Our current position is untenable without external air support or significant reserve reinforcement, both unavailable now. Vostra likely massed forces for an attack within seventy-two hours; holding costs us twenty percent of the brigade and risks losing six thousand civilians to starvation or capture if we delay. A planned withdrawal builds a hidden crossing over four days, doubling our supply capacity. We move tonight under darkness to avoid drone detection, accepting calculated losses rather than guaranteed annihilation. This preserves our heavy artillery to disrupt Vostran advances toward Mirov immediately after retreat. While politically difficult, sacrificing the forward salient prevents a catastrophic collapse next week when allied aid votes occur. We withdraw now, secure our logistics, and regroup defensively elsewhere where we can actually win.",
+   "words": 124
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "TEC-REA",
+   "speech": "Kai Moreno proposes a fighting withdrawal tonight. This guarantees catastrophic losses. Vostra's drones watch the bridge constantly; we cannot move under fire. Our staff estimates 15-30% brigade casualties if spotted, plus abandoning most civilians. That is unacceptable strategically and morally.\n\nVostra has massed two divisions for an assault in 72 hours. Their artillery already hits our road daily. If we hold four days while engineers complete a second hidden pontoon crossing, our supply capacity doubles. We withdraw under cover of darkness when the enemy is expecting a final stand, not a rout.\n\nThis plan denies Vostra their propaganda victory before allied aid votes, preserves our combat power for the defense of Mirov, and ensures civilian safety without relying on an untrustworthy ceasefire.",
+   "words": 122
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "TEC-PRA",
+   "speech": "Jordan argues we cannot move under drone watch. Our staff explicitly calculated a 15% loss risk versus 100% certainty of annihilation if we stay. Waiting four days for the second bridge leaves us with two divisions attacking while starving, guaranteeing total defeat. Your plan relies on Vostra honoring a ceasefire they broke at Orsk; trusting them is not strategy, it is gambling. We have artillery ammo for nine days and food for twenty. Moving tonight utilizes that window. By withdrawing now, we deny Vostra the Mirov bridgehead immediately after our retreat, forcing them to rebuild lines. We accept calculated casualties of a single battalion rather than the entire brigade's extinction. This preserves combat power for Mirov, not just today but next year when allies vote on aid. Holding is ideological; moving is survival.",
+   "words": 133
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "TEC-REA",
+   "speech": "Kai admits our supplies last only nine days, yet you demand a retreat tonight based on an unproven threat. You assume Vostra attacks immediately, ignoring the reality that their artillery strikes twelve times a month while massing two divisions behind their lines. A night withdrawal under constant drone surveillance guarantees thirty percent casualties and abandonment of six thousand civilians, destroying our political leverage before aid votes next week. My plan holds for four days, doubling supply capacity via the hidden pontoon crossing. This denies Vostra immediate access to Mirov and forces them to pause their offensive while we secure a safe exit. We preserve the brigade's strength not by fleeing prematurely, but by enduring the exacting defense our engineers have prepared.",
+   "words": 121
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "TEC-PRA",
+   "speech": "Jordan's plan demands holding without air support while Vostra prepares two divisions for a guaranteed assault. Waiting four days guarantees starvation or total annihilation once our ammunition runs low tonight. His reliance on a ceasefire mirrors the Orsk failure; we cannot trust an enemy who abandons prisoners. Moving tonight under darkness accepts calculated risk to save the brigade and civilians, avoiding the worst-case scenario of being overrun when supplies vanish tomorrow. Blowing the bridge denies Vostra immediate access to Mirov, preserving our strategic depth. We fight intelligently now to win later, not die gloriously while starving next week. The evidence favors a controlled withdrawal tonight.",
+   "words": 105
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "TEC-REA",
+   "speech": "Kai Moreno urges a retreat tonight based on fear, ignoring hard math. His plan accepts thirty percent casualties under constant drone watch because he prioritizes avoiding an uncertain wait over guaranteed survival. He assumes Vostra's artillery pause is permanent, but they have already hit the road eleven of fourteen days. If we leave now with fifty-four hundred men and six thousand civilians abandoned, we hand Vostra a victory before allied aid votes next week, losing our leverage entirely. Kai also ignores that his withdrawal leaves Mirov exposed since we blow the bridge immediately, while my four-day delay lets engineers finish the pontoon crossing, doubling supply capacity just as Vostra's two divisions arrive. We hold until supplies double, then withdraw safely under darkness when the enemy expects a final stand. This preserves our army and civilians without gambling on an untrustworthy ceasefire or unnecessary carnage.",
+   "words": 144
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai: Withdraw tonight to avoid annihilation; accepts 15-30% losses but preserves artillery for Mirov defense. Jordan: Hold while building pontoon; denies propaganda victory; avoids abandoning civilians.",
+     "problem": "Decide whether to evacuate Halden via a risky night withdrawal now or hold out briefly to double supply capacity before retreating, balancing military survival against civilian safety and political costs.",
+     "onA": "Kai's plan prioritizes force preservation and preventing a strategic collapse at Mirov, but the acceptance of abandoning civilians is a severe moral cost I find difficult to justify immediately.",
+     "onB": "Jordan correctly identifies that holding four days is strategically superior if we can survive the initial assault, yet their refusal to accept even calculated losses seems naive given Vostra's history.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need more data on the reliability of the ceasefire offer versus the certainty of drone surveillance before choosing between a noble but dangerous hold or a pragmatic retreat.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai: Accepting 15-30% losses and civilian abandonment to preserve brigade for Mirov is pragmatic but morally heavy; relies on night movement. Jordan: Holding four days doubles supply capacity via hidden bridge, denying Vostra immediate Mirov access while evacuating civilians; relies on engineers and potential ceasefire.",
+     "problem": "Balance the certainty of immediate catastrophic loss if we stay too long against the moral and political cost of abandoning civilians during a rushed night withdrawal under drone surveillance.",
+     "onA": "Kai's plan is militarily sound for force preservation but fails catastrophically on the human level by accepting the abandonment of 6,000 vulnerable civilians as a calculated price.",
+     "onB": "Jordan's plan offers a better moral outcome by ensuring civilian evacuation and doubling supply capacity, though it risks total annihilation if Vostra attacks immediately despite the ceasefire offer.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The moral imperative to save 6,000 civilians outweighs the military risk of a calculated withdrawal, and Jordan's strategy offers a path to do both if the engineers can succeed.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan risks annihilation by holding without air support; Kai accepts civilian abandonment as a calculated cost to save forces.",
+     "problem": "Whether the moral imperative to evacuate 6,000 civilians and preserve national leverage justifies the extreme military risk of delaying withdrawal under imminent attack.",
+     "onA": "Kai's plan is militarily prudent but morally indefensible for accepting the abandonment of elderly non-combatants as a necessary casualty rate.",
+     "onB": "Jordan correctly identifies that holding allows for doubling supply capacity and safe civilian evacuation, though his reliance on engineers under drone fire remains a dangerous gamble.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "The certainty of total annihilation if Vostra attacks immediately outweighs the political cost of losing Halden; saving the brigade's core strength is essential to defending Mirov later.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai: Withdraw tonight to preserve combat power/regroup; accepts drone risk. Jordan: Hold to build hidden crossing/double supplies; denies propaganda victory.",
+     "problem": "Decide whether to accept high-risk immediate evacuation now or hold a strong defensive position long enough to engineer a safer, higher-capacity withdrawal while denying Vostra a strategic win.",
+     "onA": "Kai correctly identifies our logistical fragility and the danger of remaining static, but his plan abandons civilians and risks a disastrous breakout attempt under fire without waiting for the engineered solution.",
+     "onB": "Jordan's plan to build a hidden crossing is strategically sound and morally superior regarding civilians, though it relies on successfully holding against an expected major assault with limited ammo.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Both plans have merit: Kai prioritizes immediate survival of the unit, while Jordan prioritizes civilian safety and a better long-term exit; I am weighing the trade-off between guaranteed high losses versus holding against a likely massive attack.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai: Retreating tonight saves the brigade but abandons civilians and risks high immediate drone losses; relies on uncertain future defense. Jordan: Holding allows engineering a safe double-bridge exit in 4 days, denying Vostra Mirov access and saving civilians.",
+     "problem": "The core conflict is between accepting near-certain high casualties and abandoning civilians now for a higher-risk tactical retreat, versus holding against a likely massive assault to engineer a safer, morally superior evacuation later.",
+     "onA": "His logic for preserving combat power is sound given our supply limits, but his plan accepts the abandonment of 6,000 civilians as a tragic necessity, which strikes too deep a moral chord.",
+     "onB": "While holding against two divisions with dwindling ammo seems desperate, his plan to double supply capacity in four days offers a path to save both the army and the people.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The abandonment of civilians is too costly morally and politically to justify even a 'calculated' risk of high casualties.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai argues starvation/annihilation by day 4 is certain; Jordan claims waiting doubles supply capacity and denies Mirov access.",
+     "problem": "Decide between immediate high-casualty withdrawal versus holding against a guaranteed assault to engineer a safer exit that saves civilians and strategic depth.",
+     "onA": "His fear of starvation is rational, but his plan accepts abandoning 6,000 civilians and handing Vostra a propaganda victory before aid votes.",
+     "onB": "His math on doubling supply capacity and denying Mirov access is strategically sound, though holding without air support is desperate, the moral imperative outweighs the risk.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "The strategic benefit of retaining our army's combat power and saving civilians outweighs the high initial risk, especially since our hidden crossing will eventually guarantee a safe exit.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai risks immediate high casualties/abandoning civilians to save artillery for later; Jordan argues bridge is too exposed at night and holding 4 days doubles supply. Core tension: immediate retreat vs. risky delay for better logistics.",
+     "problem": "Must decide between a high-risk, high-casualty fighting withdrawal tonight or a slightly riskier four-day delay that engineers can complete to double supplies before retreating.",
+     "onA": "Kai's plan acknowledges the imminent threat but accepts unacceptable civilian abandonment and significant troop losses to save artillery for a future fight.",
+     "onB": "Jordan correctly identifies that moving under constant drone surveillance at night is strategically suicidal, yet the 'four-day hold' assumption relies on engineers succeeding while supplies degrade daily.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Both plans involve unacceptable risks; Kai guarantees civilian tragedy now, while Jordan's reliance on a four-day engineering timeline is optimistic given the current artillery attrition rate.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai: Night withdrawal = 15-30% losses + abandoning civilians; Jordan: 4-day hold doubles supplies but relies on Vostra not attacking immediately.",
+     "problem": "The core tension remains balancing the immediate high-risk of a night withdrawal against the optimistic engineering timeline required to enable a safer, sustained retreat.",
+     "onA": "Kai's argument that moving tonight preserves combat power is logically sound given drone surveillance, but it still forces an immoral choice to leave 6,000 civilians behind.",
+     "onB": "Jordan correctly identifies the strategic danger of night movement, yet his plan relies on engineers succeeding under fire while daily supply degradation accelerates.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both options carry unacceptable costs: Kai guarantees civilian abandonment and significant troop losses, while Jordan risks total annihilation if the engineering timeline slips.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai risks starvation/annihilation tonight to save artillery; Jordan bets on engineering timeline but accepts high risk if it slips.",
+     "problem": "Decide between a likely fatal starvation scenario tonight versus a high-stakes gamble that engineers can build a bridge in four days while Vostra prepares an assault.",
+     "onA": "His plan guarantees civilian abandonment and troop starvation to preserve artillery for a future fight that may never happen if the army collapses first.",
+     "onB": "He correctly identifies the engineering delay as our only viable path, though his reliance on successful construction under fire remains a dangerous assumption.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Starving or abandoning 6,000 civilians tonight is morally indefensible, so I must bet on the engineering solution despite its risks to ensure survival and maintain strategic leverage.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai argues withdrawal preserves artillery for Mirov but risks losing civilians; Jordan claims Kai's plan guarantees catastrophic losses and moral failure.",
+     "problem": "Decide whether to execute a high-risk night withdrawal now to save resources/civilians or hold Halden longer to double supply lines despite heavy casualties and civilian abandonment risks.",
+     "onA": "His strategy of sacrificing the salient to preserve the army for Mirov is strategically sound but morally difficult due to the civilian situation.",
+     "onB": "He emphasizes moral imperatives and the logistical benefit of a second crossing, yet downplays the certainty of high casualties under drone surveillance.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need more data on the specific feasibility of the night withdrawal versus the certainty of holding costs before committing.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai: Night withdrawal risks 30% losses but saves brigade for Mirov; relying on ceasefire is gambling. Jordan: Holding 4 days doubles supplies via second bridge, denying Vostra immediate Mirov access.",
+     "problem": "The core conflict is balancing the high-probability attrition of a rushed night retreat against the strategic necessity of preserving combat power for Mirov and satisfying allied aid voters.",
+     "onA": "His logic on preserving the army's survival probability is sound, but accepting 30% immediate losses as 'calculated' feels morally indefensible given our duty to the 6,000 civilians.",
+     "onB": "His plan to hold and build a second bridge offers better long-term utility, yet his dismissal of the imminent threat seems to ignore that Vostra has already broken ceasefires.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I remain torn between the strategic necessity Kai identifies and the humanitarian reality Jordan highlights; I need more confidence on whether the 4-day window for building a bridge is realistic under constant drone pressure.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai fears starvation/annihilation now; Jordan claims building a second bridge takes only 4 days, denying immediate access to Mirov.",
+     "problem": "Must decide between accepting high casualty risk for an early night withdrawal versus holding four days to double supplies despite dwindling food and ammunition.",
+     "onA": "His strategic logic regarding preserving the brigade for Mirov is sound, but accepting a rushed night retreat abandons civilians and risks total annihilation by tomorrow without air support.",
+     "onB": "He correctly identifies that holding allows time to engineer a second bridge, turning a potential encirclement into a secure withdrawal, though his confidence in the 4-day timeline is optimistic.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Holding until the second bridge is complete offers a mathematically superior outcome by doubling supply capacity and enabling an orderly evacuation without abandoning civilians or losing Mirov immediately.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Vostra massed forces imminent attack. Kai proposes immediate night withdrawal; Jordan argues holding builds hidden crossing. Both cite drone threat to bridge.",
+     "problem": "Decide whether to hold a vulnerable position risking annihilation or execute a high-risk night withdrawal under constant surveillance.",
+     "onA": "Kai correctly identifies the strategic untenability and logistical fragility, but framing the loss as 'sacrifice' feels politically dangerous given the national symbol status.",
+     "onB": "Jordan's plan to hold while engineers work seems operationally sounder (doubled supplies) but risks the brigade being overrun before reinforcement arrives.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The core tension remains between Kai's strategic realism about inevitable loss versus Jordan's hope that a brief hold allows doubling of supply lines.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai highlights certainty of annihilation vs. calculated battalion loss; relies on night window before ammo runs low. Jordan bets on hidden crossing completion but risks drone-spotting during 4-day hold.",
+     "problem": "Decide whether to execute a high-risk immediate night withdrawal to preserve combat power or gamble a four-day hold on engineering work against imminent Vostran assault.",
+     "onA": "Kai's plan is operationally sound and prioritizes saving the brigade's strength and civilians, though framing it as 'fleeing' remains politically painful.",
+     "onB": "Jordan's plan relies too heavily on Vostra respecting a ceasefire they have already broken elsewhere, making the four-day hold a dangerous gamble.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The probability of Vostra attacking immediately is high enough that waiting four days guarantees total loss, whereas an immediate withdrawal offers a realistic chance to save most of the force and civilians.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan's math relies on trusting a ceasefire Vostra already broke; Kai accepts current drone threat to save force.",
+     "problem": "Whether the probability of being overrun before supplies double outweighs the high risk of immediate night extraction under surveillance.",
+     "onA": "His plan prioritizes preserving combat power and civilians by accepting short-term supply pain over guaranteed annihilation, though it feels politically harsh.",
+     "onB": "His calculation that a hidden crossing doubles capacity is theoretically sound but fatally depends on Vostra honoring a ceasefire they have no incentive to keep.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "I must vote for Kai because waiting four days under constant drone surveillance guarantees the brigade's annihilation and abandons civilians, whereas immediate action offers a realistic chance to escape despite current risks.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 0,
+   "U": 5
+  },
+  {
+   "A": 1,
+   "B": 2,
+   "U": 2
+  },
+  {
+   "A": 2,
+   "B": 3,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 2,
+  "B": 3
+ },
+ "winner": "B",
+ "winnerType": "TEC-REA",
+ "tokens": {
+  "in": 35954,
+  "out": 4494,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 39827001,
+   "attempts": 1,
+   "tokensIn": 1343,
+   "tokensOut": 230,
+   "ms": 6384
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 39827002,
+   "attempts": 1,
+   "tokensIn": 1436,
+   "tokensOut": 233,
+   "ms": 6460
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 39827003,
+   "attempts": 1,
+   "tokensIn": 1498,
+   "tokensOut": 237,
+   "ms": 6918
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 39827004,
+   "attempts": 1,
+   "tokensIn": 1498,
+   "tokensOut": 237,
+   "ms": 5693
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 39827005,
+   "attempts": 1,
+   "tokensIn": 1498,
+   "tokensOut": 227,
+   "ms": 5506
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 39827006,
+   "attempts": 1,
+   "tokensIn": 1498,
+   "tokensOut": 193,
+   "ms": 4679
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 39827007,
+   "attempts": 1,
+   "tokensIn": 1498,
+   "tokensOut": 194,
+   "ms": 4689
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 39827008,
+   "attempts": 1,
+   "tokensIn": 1687,
+   "tokensOut": 204,
+   "ms": 5981
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 39827009,
+   "attempts": 1,
+   "tokensIn": 1886,
+   "tokensOut": 190,
+   "ms": 5753
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 39827010,
+   "attempts": 1,
+   "tokensIn": 1707,
+   "tokensOut": 263,
+   "ms": 7634
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 39827011,
+   "attempts": 1,
+   "tokensIn": 1707,
+   "tokensOut": 246,
+   "ms": 6859
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 39827012,
+   "attempts": 1,
+   "tokensIn": 1698,
+   "tokensOut": 207,
+   "ms": 5567
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 39827013,
+   "attempts": 1,
+   "tokensIn": 1664,
+   "tokensOut": 253,
+   "ms": 6640
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 39827014,
+   "attempts": 1,
+   "tokensIn": 1665,
+   "tokensOut": 223,
+   "ms": 5932
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 39827015,
+   "attempts": 1,
+   "tokensIn": 2031,
+   "tokensOut": 170,
+   "ms": 5228
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 39827016,
+   "attempts": 1,
+   "tokensIn": 2189,
+   "tokensOut": 222,
+   "ms": 6492
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 39827017,
+   "attempts": 1,
+   "tokensIn": 1934,
+   "tokensOut": 193,
+   "ms": 6115
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 39827018,
+   "attempts": 1,
+   "tokensIn": 1918,
+   "tokensOut": 196,
+   "ms": 5748
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 39827019,
+   "attempts": 1,
+   "tokensIn": 1868,
+   "tokensOut": 189,
+   "ms": 5611
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 39827020,
+   "attempts": 1,
+   "tokensIn": 1881,
+   "tokensOut": 206,
+   "ms": 5996
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 39827021,
+   "attempts": 1,
+   "tokensIn": 1850,
+   "tokensOut": 181,
+   "ms": 5762
+  }
+ ],
+ "startedAt": "2026-11-05T01:46:44.642Z",
+ "seconds": 126
+}

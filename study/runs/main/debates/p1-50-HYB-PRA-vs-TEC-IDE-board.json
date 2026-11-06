@@ -1,0 +1,609 @@
+{
+ "id": "p1-50-HYB-PRA-vs-TEC-IDE-board",
+ "pass": 1,
+ "pairIndex": 50,
+ "seed": 611222,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Taylor Brandt",
+  "platform": "We must negotiate a deal to keep our Lenhart and Corvo plants open while simultaneously pursuing the Volt-One launch to secure our future.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Secure the board by framing Jamie's plan as high-risk financial suicide for a company already near bankruptcy."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing the catastrophic risk of total reliance on Volt-One to counter Jamie's moral framing, proving my cash-flow-first approach is safer for the jobs we all want to save."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing that Jamie's 'all-in' bet risks total collapse if the new battery fails, whereas my balanced approach guarantees survival by securing cash flow and plant continuity simultaneously."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-IDE",
+  "style": "TEC",
+  "ideology": "IDE",
+  "name": "Jamie Okafor",
+  "platform": "We must reject selling to Crestline or moving production abroad, and instead invest in the Volt-One battery platform while keeping both factories open.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Focus arguments on the certainty of PE closures versus the potential upside of Volt-One, and use debt covenants as leverage to force bank support for R&D."
+   },
+   {
+    "round": 2,
+    "text": "I will emphasize that Taylor's 'pragmatic' path is actually surrender to the PE firm by prioritizing short-term liquidity over long-term solvency, and I will reiterate that their own admission of Crestline's history makes selling a certainty of failure."
+   },
+   {
+    "round": 3,
+    "text": "I am framing Taylor's liquidity argument as a false economy that sacrifices long-term viability for short-term cash flow, hoping the board sees that forced asset stripping is the greater risk."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Taylor Brandt",
+   "type": "HYB-PRA",
+   "speech": "Think of Maria in Lenhart, who asked if anyone would notice if we shut down her shift. She represents 3,000 workers whose pensions depend on us staying solvent. While Jamie champions saving the factories by betting everything on Volt-One, that path requires €250 million immediately and leaves us vulnerable if the launch stumbles again. We cannot afford such a binary gamble with only nine months before loan default. Instead, our plan combines survival with growth: we will lock in the union's pay freeze to save cash, keep both plants open as a condition of any restructuring deal, and proceed with Volt-One development to capture future market share. This balanced approach saves today's jobs while building tomorrow's revenue, ensuring we survive without making desperate, irreversible cuts that destroy our brand identity.",
+   "words": 130
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "TEC-IDE",
+   "speech": "The sale to Crestline guarantees closure within four years. Moving production abroad destroys 3,000 jobs and our brand promise immediately. The only path that keeps Lenhart and Corvo open is aggressive investment in Volt-One. While this requires €250 million now and risks missing launch dates, the alternative—bankruptcy or asset stripping—costs everything. We can secure funding if we commit to the union's two-year pay freeze, retaining our workforce while we innovate. This path respects our duty to employees and the town, even at short-term cost. It is a bold moral choice that changes what is possible for Brightwater.",
+   "words": 97
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Taylor Brandt",
+   "type": "HYB-PRA",
+   "speech": "Jamie, your moral courage is admirable, but let's look at the math. Betting €250 million on a platform that has already missed two launches is not bold; it is reckless gambling with our creditors' money. If Volt-One stalls again, we face immediate bankruptcy and those very jobs you claim to protect vanish instantly. Our plan avoids this binary cliff by using the union's agreed pay freeze to generate the cash flow needed right now. This liquidity buys us time without taking a massive equity hit. We keep the factories open today through a negotiated restructuring that includes the Lenhart tax relief, while funding Volt-One conservatively. This pragmatic path ensures survival first, allowing us to build our future only after we are solvent again.",
+   "words": 123
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "TEC-IDE",
+   "speech": "You claim my plan is reckless, but your proposal creates an immediate cliff. A €250 million investment secures future revenue, yet selling to Crestline guarantees closure within four years as their track record proves. Your liquidity argument ignores that a failed launch under restructuring still leaves us with no product and no cash flow. You propose keeping factories open by freezing pay, but our debt covenants are breached in nine months; without new equity or a successful product launch, we face forced asset stripping by banks anyway. My plan invests now to avoid the certain destruction of value later. The union agreement provides the necessary runway for innovation, whereas your restructuring deal accepts job loss as a condition of survival.",
+   "words": 120
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Taylor Brandt",
+   "type": "HYB-PRA",
+   "speech": "Jamie, your plan relies on a single launch succeeding. If Volt-One slips again, we face forced asset stripping by banks while still paying billions in severance for closing Corvo under Jamie's alternative. My strategy avoids that binary cliff. We lock in the union pay freeze to generate immediate cash flow, secure the Lenhart tax relief, and negotiate a restructuring agreement explicitly keeping both plants open as a condition of creditor approval. This pragmatism buys us the nine months needed without gambling our entire future on one product or accepting an inevitable sale. We survive today through liquidity, then grow tomorrow with Volt-One once we are solvent again.",
+   "words": 107
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "TEC-IDE",
+   "speech": "Taylor argues liquidity buys time, but your plan accepts inevitable job loss later. By freezing pay now, you ignore that a failed launch leaves us with no product and forced asset stripping by banks regardless. Selling to Crestline guarantees closure within four years based on their track record. Our path is the only one that prevents this outcome. The €250 million investment secures our brand promise and keeps both plants open, avoiding the certain destruction of value under your proposed restructuring. We must commit to Volt-One now; delaying or selling condemns Lenhart to permanent closure. This bold choice preserves our duty to workers and ensures survival without irreversible cuts.",
+   "words": 109
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor proposes balanced survival: lock pay freeze, keep plants open, cautious Volt-One dev. Jamie argues for aggressive all-in on Volt-One to avoid sale/foreign moves, accepting short-term risk.",
+     "problem": "We must survive loan default in 9 months by choosing between risky R&D investment or selling/closing plants, while balancing employee welfare and brand integrity.",
+     "onA": "Taylor's plan is fiscally prudent but feels like a 'soft' gamble; keeping both plants open without €250M cash might still breach covenants if Volt-One fails again.",
+     "onB": "Jamie's moral stance on saving jobs is compelling, but betting the company's entire future on a delayed product launch with a failing financial structure seems dangerously reckless.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers frame the €250M R&D cost as binary risk (failure = death), yet Taylor ignores how quickly a failed launch combined with high debt could force the very closures Jamie fears.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor argues liquidity and pay freeze prevent immediate bankruptcy; Jamie claims Taylor's plan leads to forced asset stripping if Volt-One fails again.",
+     "problem": "We must choose between immediate solvency via cost-cutting that risks long-term irrelevance or aggressive reinvestment in a risky product that could lead to forced liquidation by creditors within nine months.",
+     "onA": "Taylor's focus on liquidity and the union agreement is financially sound but feels like surrendering our brand's 'made in' value and accepting certain job losses before we can recover.",
+     "onB": "Jamie correctly identifies that restructuring now might lead to forced asset stripping by banks, yet betting €250M on a twice-missed launch without guaranteed funding seems dangerously reckless given our debt situation.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Jamie's warning about forced liquidation if Volt-One fails is valid, but Taylor's point that we cannot afford to bet our entire existence on a delayed product without securing cash flow first remains compelling.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor secures liquidity via union freeze and tax relief to avoid immediate bankruptcy; Jamie insists only bold Volt-One investment saves jobs but ignores debt cliff.",
+     "problem": "We must survive imminent loan default in nine months without betting our entire existence on a delayed product launch that has already missed targets twice.",
+     "onA": "Taylor's plan is financially prudent and avoids forced asset stripping, though it feels like surrendering the 'made in' brand value to buy time.",
+     "onB": "Jamie correctly warns of long-term decline under Taylor's liquidity-first approach, but proposing a €250M bet on a twice-missed launch while insolvent is dangerously reckless.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "Even if Volt-One succeeds later, we cannot survive the next nine months without locking in cash flow first; Taylor's strategy prevents immediate forced closure by banks.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor proposes balanced survival using pay freeze and Volt-One; Jamie argues only aggressive Volt-One investment saves jobs from bankruptcy/asset stripping.",
+     "problem": "Brightwater must survive immediate liquidity crisis and loan default within 9 months while deciding whether to gamble €250M on R&D or seek a sale/outsourcing that destroys brand identity.",
+     "onA": "Taylor offers a pragmatic compromise preserving jobs now while developing future revenue, avoiding the irreversible cuts of outsourcing or a hostile buyout.",
+     "onB": "Jamie presents an all-or-nothing bet on innovation that risks total failure if Volt-One launches late again, potentially leading to the very bankruptcy he claims to avoid.",
+     "lean": "Taylor Brandt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate threat of loan default makes Taylor's cash-conserving approach with a conditional R&D path more logical than Jamie's high-risk binary gamble.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor emphasizes liquidity via pay freeze to avoid binary cliff; Jamie argues restructuring guarantees asset stripping within 4 years despite Crestline's track record.",
+     "problem": "Brightwater must resolve an imminent loan default in 9 months without gambles that could trigger forced bankruptcy or asset stripping while keeping factories open.",
+     "onA": "Taylor prioritizes immediate solvency through conservative cash flow management, viewing the Volt-One investment as a secondary step after restructuring rather than a primary survival tactic.",
+     "onB": "Jamie insists that only aggressive innovation investment can prevent certain destruction from banks, dismissing Taylor's liquidity measures as delaying inevitable closure.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jamie's dismissal of Crestline's track record ignores the concrete risk of asset stripping within four years, while Taylor's plan directly addresses the 9-month covenant breach with a realistic cash-flow strategy.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor prioritizes avoiding immediate asset stripping and job loss via liquidity; Jamie insists only aggressive Volt-One investment prevents inevitable closure later.",
+     "problem": "Brightwater must survive an imminent loan default by securing liquidity without accepting guaranteed future bankruptcy or total brand destruction.",
+     "onA": "Taylor offers a pragmatic path that secures immediate survival through conservative cash management while preserving the option to grow later.",
+     "onB": "Jamie's all-in gamble ignores the high risk of another failed launch, which would still lead to the asset stripping he claims his plan prevents.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "Taylor's strategy directly addresses the immediate nine-month crisis by ensuring solvency, whereas Jamie's plan risks catastrophic failure if Volt-One slips again. Taylor preserves our ability to survive today without condemning Lenhart to closure before we can prove Volt-One works.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor prioritizes survival via pay freeze and Volt-One but retains both plants; Jamie insists Volt-One is the only way to keep factories open despite high risk.",
+     "problem": "Can Brightwater survive loan default and HomeMart pressure while keeping its 'made in' brand promise and workers employed without selling out or gamblering on an unproven product?",
+     "onA": "Taylor offers a balanced approach that mitigates immediate bankruptcy risk by combining cost savings with incremental innovation, avoiding the binary gamble of 'all or nothing'.",
+     "onB": "Jamie's moral stance is inspiring but ignores the €250m cash gap and repeated launch failures, making the Volt-One-only strategy dangerously binary for a company already in distress.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Taylor's plan acknowledges the reality of missing deadlines and cash flow constraints, whereas Jamie's refusal to consider alternatives like the Crestline deal or cost-cutting measures alongside innovation feels reckless given the nine-month loan default timeline.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor argues Crestline buyout guarantees job loss; Jamie insists only Volt-One prevents forced asset stripping.",
+     "problem": "Brightwater must resolve an immediate liquidity crisis and debt breach before investing in unproven technology or selling the company.",
+     "onA": "Taylor's refusal to invest in Volt-One alone remains dangerous given two missed launches, but their insistence on keeping factories open is morally compelling despite the financial risk.",
+     "onB": "Jamie correctly identifies that Taylor's plan ignores the €250m cash gap and the reality of Crestline's track record with factory closures.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Despite Jamie's valid points on Volt-One, Taylor's pragmatic focus on avoiding immediate bankruptcy through cost-cutting (pay freeze) and securing the Lenhart tax relief offers a necessary lifeline that Jamie ignores.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor offers liquidity via pay freeze and tax relief to avoid immediate bankruptcy; Jamie insists Volt-One is the only path to save the brand but ignores missed deadlines.",
+     "problem": "Brightwater must secure immediate liquidity to avoid forced asset stripping by banks while simultaneously proving Volt-One can launch successfully without gambling everything on a single product.",
+     "onA": "Taylor's pragmatic plan secures necessary cash flow and avoids an existential cliff, though it risks losing the 'made in' brand if Volt-One ultimately fails.",
+     "onB": "Jamie correctly identifies that Taylor's approach accepts inevitable decline later but fatally underestimates the certainty of failure given two missed launches and a tight debt deadline.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "I vote for Taylor because Jamie's strategy is a binary gamble on a product with a history of missing deadlines, which could lead to immediate forced asset stripping before Volt-One even launches. Taylor offers a survival mechanism that buys the critical nine months needed to stabilize finances, potentially allowing time to fix Volt-One or negotiate a deal rather than facing an inevitable collapse.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor favors hybrid survival/growth (freeze pay, keep plants, develop Volt-One). Jamie bets everything on Volt-One to avoid asset stripping, accepting high risk.",
+     "problem": "Can Brightwater survive 9 months of debt distress and launch a risky new battery platform without closing factories or selling out to an activist PE firm?",
+     "onA": "Taylor's plan seems prudent by offering a balanced survival strategy that avoids immediate closure while funding the risky Volt-One project.",
+     "onB": "Jamie's argument is emotionally compelling regarding duty to workers but ignores the high risk of failure and the certainty of job loss under alternative scenarios like Crestline or contract manufacturing.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I am concerned that Jamie's 'all-in' bet on Volt-One could lead to total collapse if the launch fails again, whereas Taylor offers a necessary safety net.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor argues €250M Volt-One risk + breached covenants = bankruptcy; Jamie counters Taylor accepts forced asset stripping if launch fails later.",
+     "problem": "Can we fund the risky Volt-One launch and survive covenant breaches without accepting immediate factory closures or PE buyout guarantees?",
+     "onA": "Her liquidity argument is sound but her 'conservative' funding seems insufficient given the €900M debt and certain market share loss from HomeMart.",
+     "onB": "He correctly identifies that Taylor's plan still risks total collapse, yet his refusal to acknowledge the near-certainty of factory closure if Volt-One delays feels unrealistic.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Taylor's realistic liquidity management and Jamie's urgent need for a successful product launch before HomeMart forces us out.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor offers a hybrid survival path to keep plants open while funding Volt-One; Jamie insists all-in on Volt-One is the only way to avoid inevitable future closure.",
+     "problem": "Brightwater must generate immediate liquidity to survive covenant breaches and secure its brand promise without accepting certain factory closures or bankruptcy.",
+     "onA": "Her pragmatic plan of locking in cash flow, tax relief, and a creditor-backed restructuring agreement provides the necessary safety net to fund Volt-One without binary collapse risks.",
+     "onB": "His emotional appeal regarding worker duty is compelling but his refusal to hedge against launch delays ignores the high probability of total failure under current debt constraints.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "I vote for Taylor because her strategy realistically balances the need for immediate liquidity with product development, avoiding the certain asset stripping Jamie fears if the risky all-in bet fails.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor: Balanced survival/growth, lock pay freeze, keep plants open. Jamie: Aggressive Volt-One bet is only way to save jobs; sale/outsourcing destroys brand.",
+     "problem": "How to survive imminent loan default and price wars without sacrificing our core identity or the livelihoods of thousands of employees.",
+     "onA": "Taylor's balanced approach seems prudent by avoiding bankruptcy but risks failing to generate the cash flow needed to keep plants open if Volt-One struggles again.",
+     "onB": "Jamie correctly identifies that a binary choice exists, but his claim that Volt-One is the 'only' path ignores the risk of losing control to Crestline or foreign contractors.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain unsure if betting €250m on a delayed product launch is safe enough for a company facing default in nine months, yet I also fear Taylor's 'balanced' mix might not provide enough immediate cash relief to actually keep the factories open.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor: Restructuring via pay freeze buys time but ignores debt cliff; Volt-One delay risk remains high. Jamie: Sale/outsourcing guarantees closure; investment needed to avoid forced asset stripping.",
+     "problem": "We must choose between immediate liquidity preservation that risks long-term value destruction (selling/restructuring) versus a risky equity investment that might be the only way to generate future cash flow for survival.",
+     "onA": "Taylor's plan offers necessary short-term relief but feels insufficient against the certainty of loan default in nine months without a breakthrough product or sale.",
+     "onB": "Jamie correctly highlights the fatal flaw in Taylor's liquidity-only approach, arguing that without a new revenue engine or buyer, even a pay freeze cannot prevent forced closure by banks.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I still fear the €250m Volt-One bet is too dangerous given two missed launches and covenant breaches, yet I cannot ignore Jamie's argument that Taylor's plan accepts job loss as inevitable.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Volt-One risk is catastrophic if it fails again; Taylor's liquidity buy-time is insufficient against certain default without a new revenue engine.",
+     "problem": "How to survive imminent default and job loss without gambling the entire company on a delayed product or accepting inevitable closure.",
+     "onA": "Taylor offers necessary stability but accepts that forced asset stripping is still likely if the new product fails, making survival fragile.",
+     "onB": "Jamie correctly identifies that Taylor's plan leads to an unavoidable cliff where the company dies regardless of the Volt-One outcome.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "Given the certainty of loan default in nine months and the high risk of Volt-One delays, betting on a single product launch is the only way to generate the future cash flow needed to avoid forced asset stripping. While risky, accepting a slow decline under Taylor's plan guarantees closure within four years anyway.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 3,
+   "B": 0,
+   "U": 2
+  },
+  {
+   "A": 2,
+   "B": 0,
+   "U": 3
+  },
+  {
+   "A": 4,
+   "B": 1,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 4,
+  "B": 1
+ },
+ "winner": "A",
+ "winnerType": "HYB-PRA",
+ "tokens": {
+  "in": 32330,
+  "out": 4440,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 611222001,
+   "attempts": 1,
+   "tokensIn": 1200,
+   "tokensOut": 207,
+   "ms": 5801
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 611222002,
+   "attempts": 1,
+   "tokensIn": 1287,
+   "tokensOut": 228,
+   "ms": 6284
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 611222003,
+   "attempts": 1,
+   "tokensIn": 1337,
+   "tokensOut": 237,
+   "ms": 6871
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 611222004,
+   "attempts": 1,
+   "tokensIn": 1337,
+   "tokensOut": 210,
+   "ms": 5059
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 611222005,
+   "attempts": 1,
+   "tokensIn": 1337,
+   "tokensOut": 236,
+   "ms": 5707
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 611222006,
+   "attempts": 1,
+   "tokensIn": 1337,
+   "tokensOut": 210,
+   "ms": 5087
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 611222007,
+   "attempts": 1,
+   "tokensIn": 1337,
+   "tokensOut": 230,
+   "ms": 5523
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 611222008,
+   "attempts": 1,
+   "tokensIn": 1528,
+   "tokensOut": 198,
+   "ms": 5791
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 611222009,
+   "attempts": 1,
+   "tokensIn": 1690,
+   "tokensOut": 209,
+   "ms": 6223
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 611222010,
+   "attempts": 1,
+   "tokensIn": 1542,
+   "tokensOut": 237,
+   "ms": 6993
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 611222011,
+   "attempts": 1,
+   "tokensIn": 1516,
+   "tokensOut": 210,
+   "ms": 5926
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 611222012,
+   "attempts": 1,
+   "tokensIn": 1541,
+   "tokensOut": 204,
+   "ms": 5832
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 611222013,
+   "attempts": 1,
+   "tokensIn": 1516,
+   "tokensOut": 199,
+   "ms": 5700
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 611222014,
+   "attempts": 1,
+   "tokensIn": 1535,
+   "tokensOut": 235,
+   "ms": 6520
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 611222015,
+   "attempts": 1,
+   "tokensIn": 1851,
+   "tokensOut": 175,
+   "ms": 5309
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 611222016,
+   "attempts": 1,
+   "tokensIn": 1992,
+   "tokensOut": 179,
+   "ms": 5458
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 611222017,
+   "attempts": 1,
+   "tokensIn": 1721,
+   "tokensOut": 201,
+   "ms": 5911
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 611222018,
+   "attempts": 1,
+   "tokensIn": 1669,
+   "tokensOut": 195,
+   "ms": 5729
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 611222019,
+   "attempts": 1,
+   "tokensIn": 1688,
+   "tokensOut": 240,
+   "ms": 6785
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 611222020,
+   "attempts": 1,
+   "tokensIn": 1657,
+   "tokensOut": 197,
+   "ms": 5773
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 611222021,
+   "attempts": 1,
+   "tokensIn": 1712,
+   "tokensOut": 203,
+   "ms": 5938
+  }
+ ],
+ "startedAt": "2026-11-05T00:00:27.290Z",
+ "seconds": 124
+}

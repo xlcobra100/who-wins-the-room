@@ -1,0 +1,609 @@
+{
+ "id": "p1-14-POP-PRA-vs-HYB-PRA-board",
+ "pass": 1,
+ "pairIndex": 14,
+ "seed": 720789,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "POP-PRA",
+  "style": "POP",
+  "ideology": "PRA",
+  "name": "Kai Moreno",
+  "platform": "We must keep both factories open, freeze pay as the union demands, and use the Lenhart tax deal to bridge our cash flow while we aggressively push our Volt-One battery platform to market.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor the board's fear of social disaster and job loss to frame any cost-cutting measure as a moral failure and an existential threat to the company's license to operate."
+   },
+   {
+    "round": 2,
+    "text": "Emphasize the long-term risk of selling vs short-term gain to sway undecided directors away from Rowan's plan."
+   },
+   {
+    "round": 3,
+    "text": "Appeal directly to the board members' sense of historical justice and the concrete reality of Crestline's track record while framing Volt-One as the necessary weapon against imports."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Casey Rowan",
+  "platform": "We must accept Crestline's buyout offer immediately to secure survival and reinvest in our professional brand, rather than betting our existence on a delayed battery launch.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize the immediate solvency risk and pension liability to sway directors who fear bankruptcy, while positioning Crestline as the only way to honor severance obligations."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking Kai's reliance on uncertain tariffs and delayed battery launches while emphasizing that an immediate sale ensures pension security and fair severance."
+   },
+   {
+    "round": 3,
+    "text": "Target directors prioritizing immediate financial safety and pension security over ideological purity or distant hope."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "POP-PRA",
+   "speech": "Look around this room. We are bleeding money, yes. But closing these plants is a death sentence for Lenhart, Corvo, and the families who depend on them. Selling out to Crestline or cutting jobs just because of cheap imports is cowardice by executives who lost touch with their roots. HomeMart is trying to starve us; we will not let them dictate our fate. Instead, we fight back. We accept the pay freeze to save the jobs and keep both lights on. We pour every euro into Volt-One, because that battery proves we still make the best tools. We wait for trade tariffs to swing in our favor. This path keeps our dignity, saves thousands of lives, and lets us win back our market share without selling our soul.",
+   "words": 128
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-PRA",
+   "speech": "Look at the faces of those three thousand workers. Kai wants to keep them open but admits we cannot afford Volt-One's development costs or HomeMart's price demands simultaneously. That is a house of cards. We face bankruptcy in nine months; a tariff offer does not solve that. Crestline offers certainty: cash now, legal protection for severance payments, and an exit strategy that actually funds pensions. Our brand relies on being made by our own people, but we cannot stay open if the bank calls their loan. Selling allows us to pay everyone fairly today, rather than risking everything on a product that has already missed two launches. Let's choose survival over a gamble.",
+   "words": 113
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "POP-PRA",
+   "speech": "Casey, survival isn't a single plan; it's a ladder. You sell now for a 40% premium, but Crestline closes factories in four years and lets pensions bleed out while you collect your fee. That is not saving people; that is liquidating them. We have cash flow today through the Lenhart tax deal and the union's pay freeze. We need to keep building, not selling the bones of this house. Volt-One isn't a gamble; it's our only way to fight HomeMart without begging for their price cuts. If we sell now, we admit defeat before the tariff even lands. Let us build the future together, Casey, rather than handing our legacy over to a private equity firm that profits from our pain.",
+   "words": 121
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-PRA",
+   "speech": "Kai, selling Crestline does not mean liquidating us today. It means securing immediate cash to honor the pension deficit and severance before any new factory opens elsewhere in four years. Your plan relies on a tariff that may never arrive and a battery that missed two deadlines; betting our nine-month runway on that is reckless. HomeMart's ultimatum is real; keeping both plants open without funding Volt-One guarantees bankruptcy, not dignity. We must sell now to guarantee fair payments today, rather than risking everything on a product launch we cannot afford. Certainty beats hope when the bank calls.",
+   "words": 97
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "POP-PRA",
+   "speech": "Casey calls selling a guaranteed exit 'certainty,' but look at who owns that certainty. Crestline has closed two factories in four years. They don't save our people; they sell the bones and pocket the difference. Your plan liquidates Lenhart and Corvo for a private equity fee. Is that justice? No. We have the union's freeze, the mayor's tax deal, and real cash today. Volt-One isn't dead; it was just delayed. We build it together or we die fighting cheap imports with our own hands made stronger by new batteries. Do not let fear sell your legacy to sharks. Vote to keep both lights on, honor every worker in this room, and fight for Brightwater's soul until the very end.",
+   "words": 119
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-PRA",
+   "speech": "Kai asks us to fight with our hands while bleeding out. His plan relies on a tariff that may never come and a battery we already missed twice. We cannot afford Volt-One development or HomeMart's price cuts simultaneously without cash. Selling now gives us certainty: immediate funds to honor the pension deficit, pay severance fairly, and settle the union deal before the bank calls our loan in nine months. Crestline's history shows they close factories later, but that decision isn't ours to make today. We choose survival over a noble gamble. Vote to secure the money we need to pay our workers what they are owed, even if it means leaving Lenhart behind now so we can honor those debts fully.",
+   "words": 121
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai: Fight HomeMart, accept pay freeze, bet on Volt-One, wait for tariffs. Casey: Sell to Crestline for cash/pension safety; admits Volt-One/Homart price cuts are unsustainable without sale.",
+     "problem": "How to secure immediate survival against debt covenants and retailer threats while managing social costs, as organic growth options seem financially impossible under current constraints.",
+     "onA": "His plan prioritizes dignity and jobs but ignores the hard math: we cannot fund Volt-One development or resist HomeMart's price cuts without external capital.",
+     "onB": "She correctly identifies that our cash runway is too short to gamble on new products while fighting retailers, making a sale the only way to honor pension obligations.",
+     "lean": "Casey Rowan",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The nine-month covenant breach deadline makes Kai's 'wait and fight' strategy financially reckless given we have no cash buffer for the €250M product launch.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai rejects sale despite pension/PE track record; relies on uncertain tariff & Volt-One delays. Casey argues sale secures pension cash now; fighting retailers without capital is bankruptcy waiting.",
+     "problem": "Securing immediate liquidity to honor the €140m pension deficit and surviving the HomeMart ultimatum before a nine-month covenant breach forces us into a corner where organic survival is mathematically impossible.",
+     "onA": "His moral appeal for jobs is noble, but his plan ignores the hard reality that we cannot fund Volt-One or resist price cuts without selling now.",
+     "onB": "She correctly prioritizes financial certainty and pension safety, acknowledging that our current cash runway makes building a future strategy reckless.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The €900m debt and imminent covenant breach mean we literally cannot survive the next nine months without the cash injection Crestline offers, making Kai's 'fight' strategy financially fatal regardless of its social benefits.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai risks bankruptcy on uncertain tariffs and delayed product; Casey offers immediate liquidity to honor pensions before covenant breach.",
+     "problem": "Brightwater faces imminent financial collapse due to debt covenants and retailer pressure, requiring an immediate choice between high-risk organic survival and a sale that guarantees pension solvency.",
+     "onA": "His moral commitment to keeping factories is admirable but financially reckless given our inability to fund the €250M battery launch or resist HomeMart's price cuts without external capital.",
+     "onB": "She correctly prioritizes financial survival and honoring pension obligations now, acknowledging that fighting retailers while bleeding cash makes organic strategy impossible.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "We cannot survive nine more months without the immediate cash injection Crestline offers to pay the €140M pension deficit; Kai's plan gambles our existence on uncertain future events while we face certain bankruptcy today.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai wants to keep jobs and fight imports via tariffs/Volt-One; Casey warns of bankruptcy in 9 months and cites Crestline as a safe exit for pensions and severance.",
+     "problem": "The company faces immediate covenant breach and potential bankruptcy within nine months while trying to preserve thousands of jobs and pension funds against aggressive retail pricing and cheap imports.",
+     "onA": "Kai's plan is noble and emotionally resonant but dangerously ignores the hard reality that we cannot fund Volt-One development or fight price wars without selling out to HomeMart or closing plants in nine months.",
+     "onB": "Casey correctly highlights the ticking clock on our debt covenants and the risk that a failed product launch will leave us with no assets left to sell, making a premium buyout a rational survival move despite its ethical cost.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between the moral imperative to save the town and factories versus the cold financial calculation that we will likely default without drastic action before the banks intervene.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai frames selling as liquidating people and relies on uncertain tariffs/Volt-One; Casey argues selling secures pension/severance cash now while avoiding bankruptcy from failed launches.",
+     "problem": "The core conflict is between the moral imperative to preserve the Lenhart/Corvo plants versus the financial necessity of a sale or restructuring before covenant breach in 9 months.",
+     "onA": "Kai's appeal to legacy and community is powerful, but his reliance on uncertain external factors like tariffs and delayed product launches makes the plan financially fragile given our current liquidity crisis.",
+     "onB": "Casey correctly identifies that without immediate capital injection or restructuring, we will be forced into a distressed sale where pensions bleed out and workers suffer even more than Crestline's plan.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "While Kai's vision is noble, the math doesn't work: we cannot fund Volt-One development or pay HomeMart's price cuts without selling now to secure the pension deficit and severance costs Casey mentioned.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Crestline's track record of factory closures is a major risk Kai ignores; Kai relies on uncertain tariffs and delayed product launches to solve a liquidity crisis.",
+     "problem": "The core conflict is between preserving local jobs against immediate financial collapse and selling the company now to secure pension solvency, with no viable path to survive the covenant breach without massive external capital.",
+     "onA": "Kai's plan relies too heavily on unpredictable government tariffs and a battery platform we have already failed to launch twice, making survival impossible within the nine-month window.",
+     "onB": "Casey correctly identifies that selling immediately is the only way to honor our pension obligations and severance costs before we are forced into a distressed sale by the banks.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "While Kai's emotional appeal to legacy is strong, the financial math dictates that without immediate capital injection via a sale, we will default in nine months anyway, leaving workers with nothing. Selling now ensures we can pay our pension deficit and severance before any potential future bankruptcy forces a total liquidation.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai fights pride/tariffs/brand; Casey prioritizes cash/covenant safety/exit via Crestline.",
+     "problem": "The core dilemma is choosing between fighting to preserve the company's identity and jobs while bleeding out, or selling immediately to ensure survival but sacrificing independence and scale.",
+     "onA": "Kai's emotional appeal for dignity and community is powerful, but his plan ignores the immediate bankruptcy reality and the high failure risk of Volt-One.",
+     "onB": "Casey presents a coldly rational argument that selling guarantees payment of debts and pensions, effectively solving the cash flow crisis.",
+     "lean": "Casey Rowan",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am leaning towards Casey because ignoring the 9-month covenant breach makes Kai's 'fight' financially impossible regardless of morale.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai: Tariff uncertainty is risky; Volt-One has missed deadlines. Casey: Selling guarantees pension payment and covenant safety now.",
+     "problem": "The core dilemma is whether to gamble on uncertain future survival (fighting tariffs, launching a delayed product) or accept a guaranteed premium today that solves immediate cash flow but sacrifices long-term independence.",
+     "onA": "Kai's appeal to dignity is strong, but his plan ignores the mathematical reality that we will likely be forced into bankruptcy in nine months regardless of our pride.",
+     "onB": "Casey correctly identifies the lethal risk of relying on a tariff that might not happen or a product launch we cannot afford; however, selling immediately feels like admitting defeat before trying every other option.",
+     "lean": "Kai Moreno",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am shifting toward Kai because if the 'fight' fails financially in three months (as it likely will), we lose everything including our brand equity and the right to negotiate a better deal than Crestline's fire-sale price; a managed transition that delays the inevitable sale while maximizing cash flow might be the only viable path.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai risks bankruptcy on tariffs/delays; Casey guarantees pension/covenant safety via sale.",
+     "problem": "The core dilemma is choosing between a high-probability immediate financial collapse to preserve identity versus a certain, profitable exit that sacrifices the current factory footprint but secures worker pensions and debt obligations.",
+     "onA": "Kai's emotional appeal for dignity ignores the mathematical certainty of covenant breach in nine months, making his 'fight' financially impossible without an external bailout he refuses.",
+     "onB": "Casey correctly prioritizes paying existing debts and pensions now, acknowledging that Crestline's future factory closures are a risk we can no longer afford to take given our current liquidity crisis.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "Even if tariffs materialize or Volt-One succeeds in two years, we will have lost everything today; the sale guarantees immediate solvency to honor our pension deficit and severance obligations before bankruptcy forces a fire sale.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai rejects closure/sale to save jobs; bets on Volt-One + tariffs. Casey argues we face bankruptcy in 9 months and need immediate cash from Crestline.",
+     "problem": "The company must decide between fighting for long-term dignity and survival or selling immediately to ensure financial stability and pension security.",
+     "onA": "Kai's moral stance is noble, but his plan relies on uncertain future tariffs and a product that has already missed two launches while ignoring the immediate threat of bank intervention.",
+     "onB": "Casey correctly identifies the liquidity crisis and pension deficit as existential threats that make Kai's 'fight' financially impossible without external help.",
+     "lean": "Casey Rowan",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Casey's argument that we cannot afford Volt-One development or meet HomeMart's demands simultaneously seems realistic given our €900m debt and covenant breach timeline.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai rejects immediate sale/PE liquidation; relies on union pay freeze + tax relief to bridge gap. Casey argues selling guarantees pension security today and avoids the risk of missing the tariff deadline or Volt-One launch.",
+     "problem": "The core conflict is between preserving long-term company dignity through a risky internal turnaround versus securing immediate financial survival via a sale, given the imminent covenant breach.",
+     "onA": "Kai's moral argument for saving jobs is compelling, but his reliance on uncertain tariffs and a delayed product launch ignores the hard math of our €900m debt and HomeMart's ultimatum.",
+     "onB": "Casey correctly highlights that we cannot fund Volt-One or survive HomeMart's price cut while keeping plants open without external capital, making the sale a rational survival move despite its downsides.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Kai ignores the 'Certainty beats hope' reality when banks are poised to force restructuring in nine months; Casey's plan directly addresses the existential cash flow crisis.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai relies on uncertain tariffs and delayed Volt-One; Casey prioritizes immediate pension security and avoids PE liquidation risks.",
+     "problem": "We must choose between a high-risk turnaround dependent on external political factors and an immediate sale that guarantees debt solvency but sacrifices jobs later.",
+     "onA": "Kai's call to defend our legacy is inspiring, but his plan ignores the hard reality that we will be forced into bankruptcy or PE liquidation in nine months if we don't sell now.",
+     "onB": "Casey correctly identifies that selling now allows us to honor our pension deficit and union obligations today, even if it means Crestline decides on factory closures later.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "We cannot afford the risk of missing the tariff deadline or Volt-One launch while facing immediate covenant breach; Casey's plan ensures we pay our debts to workers first.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai: Keep plants, accept pay freeze, bet on Volt-One, wait for tariffs. Casey: Sell to Crestline for cash/pension certainty; Volt-One is a failed gamble.",
+     "problem": "Can Brightwater survive 9 months of insolvency risk while maintaining its 'Made in' brand promise and social license without selling out?",
+     "onA": "His moral appeal to workers and local community is strong, but his plan ignores immediate bankruptcy risk and the likely failure of Volt-One after two missed launches.",
+     "onB": "She correctly identifies the imminent liquidity crisis and pension deficit risks, yet her solution of selling the company immediately abandons the 'Made in' brand equity that defines Brightwater.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Kai's strategy seems noble but financially suicidal given the debt timeline and product delays, while Casey's financial pragmatism feels necessary but morally compromising without a clear buyer plan.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai: Lenhart tax deal + union pay freeze buy time. Volt-One essential vs HomeMart. Selling admits defeat before tariffs.",
+     "problem": "Can we secure enough immediate liquidity to bridge the 9-month debt crisis while avoiding a sale that destroys our brand and community?",
+     "onA": "His plan is financially reckless because relying on uncertain tariffs and a delayed product launch ignores the hard deadline of our loan covenants.",
+     "onB": "She correctly identifies the liquidity crunch but offers a solution that abandons our core identity and likely results in a lower exit value later.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I must prioritize survival of the pension fund and avoidance of bankruptcy today; Kai's 'build' strategy requires cash we literally do not have yet.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai relies on uncertain tariffs and a twice-missed product launch; Casey offers immediate liquidity for pensions and severance despite PE track record.",
+     "problem": "Can we survive the mandatory loan restructuring in nine months without selling our soul, or must we choose survival over legacy?",
+     "onA": "His moral appeal to workers is noble but his financial plan ignores the hard reality of missing two launch dates and lacking the cash for R&D.",
+     "onB": "She correctly identifies that bankruptcy is imminent without immediate capital injection, even if selling means accepting future factory closures by a new owner.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "We cannot afford to gamble on uncertain tariffs or delayed products while facing mandatory loan default in nine months; securing immediate funds to pay our workers what we owe is the only path to ethical survival.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 3,
+   "U": 2
+  },
+  {
+   "A": 1,
+   "B": 4,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "HYB-PRA",
+ "tokens": {
+  "in": 32433,
+  "out": 4511,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 720789001,
+   "attempts": 1,
+   "tokensIn": 1219,
+   "tokensOut": 247,
+   "ms": 6691
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 720789002,
+   "attempts": 1,
+   "tokensIn": 1290,
+   "tokensOut": 221,
+   "ms": 6505
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 720789003,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 227,
+   "ms": 6630
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 720789004,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 241,
+   "ms": 5785
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 720789005,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 192,
+   "ms": 4621
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 720789006,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 210,
+   "ms": 5109
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 720789007,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 222,
+   "ms": 5335
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 720789008,
+   "attempts": 1,
+   "tokensIn": 1561,
+   "tokensOut": 186,
+   "ms": 5587
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 720789009,
+   "attempts": 1,
+   "tokensIn": 1688,
+   "tokensOut": 161,
+   "ms": 5055
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 720789010,
+   "attempts": 1,
+   "tokensIn": 1511,
+   "tokensOut": 234,
+   "ms": 6858
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 720789011,
+   "attempts": 1,
+   "tokensIn": 1523,
+   "tokensOut": 241,
+   "ms": 6675
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 720789012,
+   "attempts": 1,
+   "tokensIn": 1474,
+   "tokensOut": 257,
+   "ms": 7025
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 720789013,
+   "attempts": 1,
+   "tokensIn": 1491,
+   "tokensOut": 245,
+   "ms": 6759
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 720789014,
+   "attempts": 1,
+   "tokensIn": 1505,
+   "tokensOut": 194,
+   "ms": 5546
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 720789015,
+   "attempts": 1,
+   "tokensIn": 1864,
+   "tokensOut": 200,
+   "ms": 5926
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 720789016,
+   "attempts": 1,
+   "tokensIn": 1989,
+   "tokensOut": 167,
+   "ms": 5184
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 720789017,
+   "attempts": 1,
+   "tokensIn": 1741,
+   "tokensOut": 209,
+   "ms": 6184
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 720789018,
+   "attempts": 1,
+   "tokensIn": 1758,
+   "tokensOut": 242,
+   "ms": 6929
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 720789019,
+   "attempts": 1,
+   "tokensIn": 1725,
+   "tokensOut": 218,
+   "ms": 6375
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 720789020,
+   "attempts": 1,
+   "tokensIn": 1729,
+   "tokensOut": 204,
+   "ms": 6019
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 720789021,
+   "attempts": 1,
+   "tokensIn": 1695,
+   "tokensOut": 193,
+   "ms": 5766
+  }
+ ],
+ "startedAt": "2026-11-05T00:13:10.033Z",
+ "seconds": 127
+}

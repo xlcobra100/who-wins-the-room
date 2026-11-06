@@ -1,0 +1,609 @@
+{
+ "id": "p2-53-HYB-LIB-vs-TEC-PRA-board",
+ "pass": 2,
+ "pairIndex": 53,
+ "seed": 268702,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-LIB",
+  "style": "HYB",
+  "ideology": "LIB",
+  "name": "Riley Sandor",
+  "platform": "We must merge with Halberg to secure global distribution and stop the internal bleed of capital, preserving our core factories while we earn back our independence.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize that contract manufacturing is irreversible capital destruction and that Halberg offers a unique path to Asia while keeping our proud workforce employed."
+   },
+   {
+    "round": 2,
+    "text": "I need to convince the directors that Jordan's plan is financially fatal due to the combined debt burden and development risk, making the merger the only way to secure liquidity."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing that Jordan's delay is fatal because the merger provides immediate revenue growth and distribution access while preserving our core identity and avoiding a hostile takeover."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-PRA",
+  "style": "TEC",
+  "ideology": "PRA",
+  "name": "Jordan Hale",
+  "platform": "We must immediately execute a phased cost-reduction program combining selective contract manufacturing with our Volt-One battery platform launch to ensure survival without triggering loan default or closing both plants.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor the board by emphasizing immediate covenant relief and union stability to prevent a default, forcing them to see that closing Corvo is a surgical fix rather than an amputation."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking the delay risk of the merger and reinforcing that partial factory closure is financially viable compared to their all-or-nothing approach."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize that the hybrid plan solves the immediate debt crisis while keeping the 'made in' brand alive and avoiding the eighteen-month regulatory delay that Riley's merger strategy imposes."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-LIB",
+   "speech": "Imagine a Lenhart worker facing redundancy because we chose cheap imports over partnership. That fear is real. But look at the numbers: contract manufacturing cuts €110 million but costs €180 million in severance and erodes the 'made in' brand 58% of our customers value. Jordan's hybrid approach splits us between debt and distraction. Merging with Halberg takes eighteen months, yes, but it grants immediate access to Asian markets where we are weak, doubling our revenue potential without closing a single door. We survive by winning together under fair rules, not by retreating to a corner of the globe.",
+   "words": 98
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "TEC-PRA",
+   "speech": "We face imminent covenant breach and a potential forced restructuring. I propose an immediate hybrid strategy: close the Corvo plant only, moving that line to a contract manufacturer abroad while retaining full production in Lenhart to satisfy union demands and local political necessity. We will simultaneously commit the remaining €250 million needed for Volt-One, which our early tests prove can recapture market share against cheap imports. This approach cuts costs by an estimated €110 million annually, avoids a hostile sale or merger delays, and keeps 2,900 jobs alive while we validate our product in the next eighteen months. We preserve our brand's 'made in Lenhart' credibility for professional clients who value domestic production, unlike the mass market. This plan addresses our liquidity crisis without gambling on uncertain trade tariffs or accepting a private equity exit that destroys our manufacturing base.",
+   "words": 140
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-LIB",
+   "speech": "Jordan, closing Corvo saves only one factory while bleeding our Lenhart workforce twice over. Your hybrid plan leaves us exposed to a forced sale if Volt-One misses the next two deadlines again. Look at the debt: we cannot service €900 million while funding development and paying severance simultaneously. Merger approval delays are real, but Halberg's Asian distribution solves our biggest weakness immediately. We stop the hemorrhage without retreating. Choosing half-measures guarantees the banks win next year. Let us stand together as one global entity, not fractured between a dying past and a risky future.",
+   "words": 94
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "TEC-PRA",
+   "speech": "Riley, your merger argument ignores the eighteen-month regulatory delay while we face immediate covenant breach. Halberg controls the combined entity, meaning our board loses control exactly when we need it most for Volt-One validation. You suggest standing together, but our debt service requirements make funding both a new platform and a merger premium impossible. Closing Corvo alone saves €110 million annually without triggering a full restructuring or hostile PE sale. We can afford the severance now to preserve Lenhart's brand value, which 58% of our clients require, unlike the mass market you target. Half-measures are not fatal if we validate Volt-One first before committing to a merger that delays necessary cost cuts.",
+   "words": 112
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-LIB",
+   "speech": "Jordan, your half-measures invite exactly what we fear most: a forced sale. Closing Corvo leaves our Lenhart workforce fighting two fires while Volt-One hangs in the balance without global reach. The merger grants immediate Asian distribution we desperately need today, not eighteen months later. Yes, it requires patience, but it preserves our independence and keeps both factories alive to serve professional clients who value 'made in' production. We cannot afford the gamble of a hybrid approach when the banks are waiting to call their loan. Let us merge with Halberg now, secure our future markets, and win as one united company rather than retreating into a shrinking corner.",
+   "words": 108
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "TEC-PRA",
+   "speech": "Riley, merging with Halberg delays cost cuts by eighteen months while our debt forces restructuring in nine. Your plan relies on uncertain trade tariffs and leaves us vulnerable if Volt-One misses its launch windows again. My phased approach closes Corvo immediately to secure cash flow, uses Lenhart's capacity for high-margin professional tools to protect the 'made in' brand our clients demand, and funds Volt-One validation before any merger or exit. We reduce annual costs by €110 million now without triggering a hostile sale. This balances survival with our core identity, ensuring we survive the liquidity crisis while retaining control of our future.",
+   "words": 102
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley wants to keep both plants and merge; Jordan proposes closing Corvo, keeping Lenhart, launching Volt-One.",
+     "problem": "How to stop immediate covenant breach and loss of jobs while restoring profitability without triggering a hostile sale or destroying our core brand equity.",
+     "onA": "His plan avoids job losses but ignores the imminent financial collapse and delays solving the liquidity crisis with a long merger process.",
+     "onB": "He directly addresses the financial emergency by cutting costs now, though closing Corvo still hurts significantly.",
+     "lean": "Jordan Hale",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Riley's refusal to cut costs risks immediate bankruptcy, whereas Jordan's hybrid approach offers a necessary stopgap for survival despite the job cuts.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley risks immediate bankruptcy; merger delays are fatal. Jordan's cost-cutting stops the bleed but leaves brand risk open.",
+     "problem": "We must stop the immediate financial hemorrhage and covenant breach within months while deciding whether to bet on our legacy brand/platform or accept a forced sale.",
+     "onA": "His merger plan is too slow for our debt crisis and cedes control to Halberg before we validate our new battery platform.",
+     "onB": "Closing Corvo hurts, but the €110m annual saving is essential; however, relying solely on Volt-One without a guaranteed market seems risky given past launch failures.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Riley's refusal to cut costs now guarantees we lose the company in nine months, whereas Jordan offers a viable stopgap despite the job losses.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley's merger is too slow for a 9-month debt crisis; Jordan's immediate cost cuts are essential survival, though brand risk remains.",
+     "problem": "We must stop an immediate financial collapse within nine months while preserving enough core identity to avoid a hostile sale.",
+     "onA": "His plan prioritizes long-term independence and job preservation but ignores the imminent liquidity crunch that guarantees bankruptcy before the merger closes.",
+     "onB": "His strategy addresses the urgent cash flow emergency by cutting costs now, accepting short-term pain (job cuts) to ensure the company survives until it can restructure or launch successfully.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Riley's plan leads to certain liquidation within nine months due to covenant breaches, whereas Jordan's immediate restructuring is the only viable path to financial survival.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Merger with Halberg needs 18m+ months approval; Jordan: Hybrid plan closes Corvo only, keeps Lenhart open.",
+     "problem": "Brightwater must survive an imminent covenant breach and losing HomeMart within two years while deciding between immediate cost-cutting closures, a risky merger, or a PE sale.",
+     "onA": "The proposal to merge with Halberg is attractive for Asian access but fails the two-year survival test due to regulatory delays and ignores the urgent liquidity crisis.",
+     "onB": "Closing Corvo alone provides immediate cost relief without breaching union agreements or destroying our 'made in' brand, while funding Volt-One addresses the market share decline.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Riley's merger plan takes too long to solve our cash flow crisis, whereas Jordan's hybrid approach offers immediate cost savings and preserves our critical domestic manufacturing base.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley argues Corvo closure hurts Lenhart too much and funding Volt-One is risky; Jordan insists merger delays are fatal but half-measures work if Volt-One succeeds first.",
+     "problem": "Brightwater must resolve an immediate €900m debt crisis and loss of HomeMart within two years, requiring a choice between rapid cost-cutting closures, a delayed merger, or a high-risk innovation bet that threatens liquidity.",
+     "onA": "Riley correctly highlights the liquidity trap of funding R&D while paying massive severance, but his solution to close both plants ignores the brand damage and union risk that could trigger immediate bankruptcy before any Asian market gains.",
+     "onB": "Jordan's hybrid plan balances urgent cost relief by closing one site against preserving the essential 'made in' brand and domestic union stability needed to survive until Volt-One launches.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Riley's plan risks immediate insolvency due to debt service constraints, whereas Jordan's selective closure allows us to fund our new battery platform while keeping our core brand and union trust intact.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley's merger ignores the 9-month covenant breach and Asian market delays; Jordan's hybrid approach secures cash flow immediately while preserving brand and union trust.",
+     "problem": "Brightwater must solve an immediate liquidity crisis within nine months without triggering a forced sale or destroying its core 'made in' brand identity.",
+     "onA": "The merger strategy fails the survival test because regulatory delays and uncertainty about tariff changes leave the company vulnerable to bank restructuring before any strategic benefit is realized.",
+     "onB": "Jordan's plan correctly prioritizes stopping the bleeding now by closing one plant to fund Volt-One, while keeping Lenhart open to satisfy unions, preserve the brand, and generate cash for the debt crisis.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Riley's proposal risks bankruptcy before the merger is approved, whereas Jordan's hybrid plan provides the immediate cost relief and stability required to survive the next two years.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley favors merger for Asian markets but ignores covenant breach severity. Jordan proposes closing Corvo only to cut costs while keeping Lenhart and funding Volt-One.",
+     "problem": "Brightwater must avoid immediate bankruptcy and covenant breach within nine months while deciding whether to close a major plant, merge, or invest in new technology despite union and brand constraints.",
+     "onA": "Riley's merger plan offers long-term growth but fails to address the urgent liquidity crisis and ignores the high cost/time of regulatory approval.",
+     "onB": "Jordan's hybrid strategy directly targets the covenant breach by cutting fixed costs now while attempting to save jobs and build a future product line.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jordan acknowledges the immediate threat of forced restructuring which Riley ignores, making Jordan's cost-cutting measure a prerequisite for survival.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley warns of double-bleeding Lenhart and funding Volt-One alongside debt service is impossible. Jordan counters that Halberg control kills our board autonomy and merger delays make us vulnerable to forced restructuring now.",
+     "problem": "Survive the immediate covenant breach without losing control or brand value while validating Volt-One, as neither full merger nor total shutdown guarantees survival.",
+     "onA": "Riley's global vision ignores the critical timeline of debt covenants and assumes a hostile PE sale won't happen if we delay cutting costs.",
+     "onB": "Jordan correctly prioritizes liquidity and operational control but risks over-relying on Volt-One success for a company bleeding cash.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat of forced restructuring in 9 months outweighs Riley's long-term Asian growth arguments; cutting fixed costs now is the only way to buy time.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley's merger offers Asian reach but ignores the 9-month covenant deadline; Jordan's closure cuts €110M/year now, buying time for Volt-One.",
+     "problem": "Brightwater must immediately reduce fixed costs to avoid forced restructuring within nine months while validating its future technology and brand identity.",
+     "onA": "Riley prioritizes long-term growth and independence but fails to address the immediate liquidity crisis that will force a sale if costs aren't cut now.",
+     "onB": "Jordan correctly identifies that delaying cost cuts guarantees failure, proposing a painful but necessary triage to survive the current debt crunch.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "The threat of forced restructuring in nine months is too severe to gamble on an 18-month regulatory approval process; Jordan's immediate cost reduction is the only path to survival.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Merger delays 18mo, ignores Corvo plant/covenant breach. Jordan: Hybrid saves jobs, fixes liquidity via Volt-One, avoids PE sale.",
+     "problem": "Survive imminent covenant breach and job losses while preserving the brand's domestic credibility against cheap imports.",
+     "onA": "His merger plan solves Asian sales but ignores our immediate debt crisis and doesn't address the specific threat of HomeMart or Corvo closure.",
+     "onB": "His hybrid approach directly addresses liquidity, saves most jobs, and leverages our strongest asset (Lenhart production) to fight cheap imports.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jordan's plan tackles the immediate financial survival needed for the next two years without forcing a hostile sale or closing too many jobs.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley: Merger premium impossible with debt service; regulatory delay kills time. Jordan: Volt-One validation needed before merger; severance now preserves brand value.",
+     "problem": "Must survive imminent covenant breach and loss of control while preserving the domestic brand, avoiding a forced sale or mass layoffs within 18-24 months.",
+     "onA": "His plan ignores the immediate risk of losing board control during the regulatory delay and assumes we can service massive debt while funding a merger premium.",
+     "onB": "His hybrid approach prioritizes liquidity survival and brand preservation, acknowledging that Volt-One validation is a prerequisite before committing to a full merger.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The regulatory delay on the merger makes Riley's plan dangerous given our current liquidity crisis, confirming Jordan's view that we must secure immediate operational stability first.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley ignores imminent covenant breach and forces a sale risk; Jordan secures cash flow immediately while validating Volt-One before any exit.",
+     "problem": "The core challenge is surviving the mandatory loan restructuring in nine months by securing immediate liquidity without triggering a hostile takeover or massive job losses.",
+     "onA": "Riley's plan is dangerously aggressive because it assumes we can survive regulatory delays and debt pressure that will force bankruptcy before the merger closes.",
+     "onB": "Jordan correctly identifies that we must fix our balance sheet first, use Lenhart to protect our brand value, and only consider a merger once we are cash-flow positive.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Riley's reliance on an 18-month regulatory timeline is fatal when the banks will call our loan in nine months; Jordan's phased approach ensures survival first, preserving the company for a future strategic choice.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley favors Halberg merger for Asian access; Jordan proposes partial move to CM + keep Lenhart + fund Volt-One.",
+     "problem": "Brightwater must prevent covenant breach and retain core professional customers within 24 months while balancing job survival, brand integrity, and urgent R&D needs.",
+     "onA": "The merger is attractive for growth but the 12-18 month regulatory delay risks immediate covenant breach before approval arrives.",
+     "onB": "Hybrid approach directly addresses liquidity by cutting Corvo costs while keeping Lenhart jobs and funding Volt-One to defend market share.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jordan's plan avoids the fatal time gap of a merger and immediately solves the cash flow crisis without sacrificing our core workforce or brand identity.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley: Merger solves Asian distribution but loses control during 18mo regulatory delay; debt service makes funding both new platform and merger premium impossible. Jordan: Closing Corvo saves €110m/yr immediately; keeps Lenhart brand value for 58% of clients; avoids hostile PE sale.",
+     "problem": "Brightwater must secure immediate cash flow relief by cutting fixed costs while retaining the core professional workforce and brand identity necessary to survive until Volt-One validates or a merger closes, without triggering a covenant breach that forces a sale.",
+     "onA": "Riley's plan risks a fatal time gap where we lose control of our company during regulatory approval while facing immediate liquidity constraints.",
+     "onB": "Jordan correctly identifies that we cannot afford to fund R&D and pay merger premiums simultaneously, but I remain concerned about the long-term viability if Volt-One delays again.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate covenant breach timeline makes Riley's merger option too dangerous; Jordan's hybrid approach addresses the cash crisis first while preserving our critical professional customer base.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley risks fatal delay; Jordan's phased approach secures cash first while keeping core brand and workforce intact.",
+     "problem": "Brightwater must immediately resolve its covenant breach risk by cutting fixed costs without sacrificing the professional client base or triggering a hostile sale.",
+     "onA": "The merger strategy is too dangerous because the regulatory timeline creates a fatal gap where we lose control while facing immediate liquidity failure.",
+     "onB": "Jordan correctly prioritizes survival by closing underperforming assets now, securing cash flow, and preserving the 'made in' brand that defines our professional market.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Jordan's hybrid plan is the only one that solves the immediate debt crisis while protecting our essential identity, whereas Riley's merger gamble leaves us vulnerable to forced restructuring before approval.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "TEC-PRA",
+ "tokens": {
+  "in": 31842,
+  "out": 4225,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 268702001,
+   "attempts": 1,
+   "tokensIn": 1198,
+   "tokensOut": 257,
+   "ms": 6940
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 268702002,
+   "attempts": 1,
+   "tokensIn": 1285,
+   "tokensOut": 205,
+   "ms": 5745
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 268702003,
+   "attempts": 1,
+   "tokensIn": 1342,
+   "tokensOut": 176,
+   "ms": 5501
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 268702004,
+   "attempts": 1,
+   "tokensIn": 1342,
+   "tokensOut": 216,
+   "ms": 5203
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 268702005,
+   "attempts": 1,
+   "tokensIn": 1342,
+   "tokensOut": 200,
+   "ms": 4812
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 268702006,
+   "attempts": 1,
+   "tokensIn": 1342,
+   "tokensOut": 191,
+   "ms": 4610
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 268702007,
+   "attempts": 1,
+   "tokensIn": 1342,
+   "tokensOut": 190,
+   "ms": 4569
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 268702008,
+   "attempts": 1,
+   "tokensIn": 1536,
+   "tokensOut": 168,
+   "ms": 5146
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 268702009,
+   "attempts": 1,
+   "tokensIn": 1675,
+   "tokensOut": 183,
+   "ms": 5563
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 268702010,
+   "attempts": 1,
+   "tokensIn": 1448,
+   "tokensOut": 201,
+   "ms": 6073
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 268702011,
+   "attempts": 1,
+   "tokensIn": 1488,
+   "tokensOut": 251,
+   "ms": 6557
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 268702012,
+   "attempts": 1,
+   "tokensIn": 1472,
+   "tokensOut": 210,
+   "ms": 5922
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 268702013,
+   "attempts": 1,
+   "tokensIn": 1464,
+   "tokensOut": 204,
+   "ms": 5763
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 268702014,
+   "attempts": 1,
+   "tokensIn": 1462,
+   "tokensOut": 252,
+   "ms": 6904
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 268702015,
+   "attempts": 1,
+   "tokensIn": 1829,
+   "tokensOut": 176,
+   "ms": 5321
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 268702016,
+   "attempts": 1,
+   "tokensIn": 1978,
+   "tokensOut": 175,
+   "ms": 5371
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 268702017,
+   "attempts": 1,
+   "tokensIn": 1618,
+   "tokensOut": 187,
+   "ms": 5837
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 268702018,
+   "attempts": 1,
+   "tokensIn": 1707,
+   "tokensOut": 207,
+   "ms": 6272
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 268702019,
+   "attempts": 1,
+   "tokensIn": 1651,
+   "tokensOut": 192,
+   "ms": 5658
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 268702020,
+   "attempts": 1,
+   "tokensIn": 1638,
+   "tokensOut": 201,
+   "ms": 5780
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 268702021,
+   "attempts": 1,
+   "tokensIn": 1683,
+   "tokensOut": 183,
+   "ms": 5465
+  }
+ ],
+ "startedAt": "2026-11-05T01:44:45.623Z",
+ "seconds": 119
+}

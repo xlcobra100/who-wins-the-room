@@ -1,0 +1,609 @@
+{
+ "id": "p3-64-TEC-PRA-vs-TEC-IDE-board",
+ "pass": 3,
+ "pairIndex": 64,
+ "seed": 735467,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-PRA",
+  "style": "TEC",
+  "ideology": "PRA",
+  "name": "Alex Novak",
+  "platform": "We must immediately close the Corvo plant and cut Lenhart production by fifty percent while retaining our best battery platform, accepting a temporary loss of market share to secure survival and avoid bankruptcy.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Push for immediate cost reduction over R&D investment while framing factory closures as an unavoidable necessity rather than a choice."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing the absolute hard deadline of covenant breach and the futility of delaying closure when lenders have no incentive to wait."
+   },
+   {
+    "round": 3,
+    "text": "I am leveraging their fear of bankruptcy to confirm that immediate cost-cutting is the only rational choice for survival."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-IDE",
+  "style": "TEC",
+  "ideology": "IDE",
+  "name": "Sam Vidal",
+  "platform": "We must reject all immediate exits and instead invest €250 million in the Volt-One battery platform to launch in eighteen months, securing our market leadership while honoring our duty to keep both factories open.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on debt covenant timing to make offshoring look financially irresponsible, then frame Volt-One as the only way to regain leverage against HomeMart."
+   },
+   {
+    "round": 2,
+    "text": "I am highlighting the hidden costs of Alex's plan like union instability and tax losses while framing R&D as essential for tariff protection rather than a cash drain."
+   },
+   {
+    "round": 3,
+    "text": "I am pushing the board to see that survival requires investment and retention, as defaulting now guarantees total loss of company and brand."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Alex Novak",
+   "type": "TEC-PRA",
+   "speech": "Sam proposes investing two hundred fifty million euros in Volt-One to keep both factories open. Given our nine-month covenant breach deadline, this is financially impossible. We cannot borrow more or spend on R&D without revenue. My plan accepts the necessary pain: close Corvo and halve Lenhart output immediately. This cuts annual costs by one hundred ten million and pays two hundred fifty million in severance, stopping the bleeding. Halberg's merger takes too long; tariffs are uncertain. We must slash overhead now to survive until either the tariff arrives or we pivot with reduced capacity. Keeping dead weight in factories guarantees failure.",
+   "words": 101
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Sam Vidal",
+   "type": "TEC-IDE",
+   "speech": "The sale to Crestline guarantees closure within four years. Merging with Halberg delays survival by a year and cedes control. Offshoring destroys jobs immediately and erodes the brand built on local manufacturing, which sixty-eight percent of professional customers value. Investing in Volt-One is the only path that preserves our independence and employment. The €250 million investment will be funded by delaying non-essential capex and negotiating a restructuring with lenders before they force us into Chapter 11. We accept short-term pain now to avoid the certain loss of the entire company later. This plan aligns with our obligation to the workers in Lenhart and Corvo, ensuring we do not abandon them for cheap imports or private equity exit fees.",
+   "words": 118
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Alex Novak",
+   "type": "TEC-PRA",
+   "speech": "Sam argues we preserve independence by delaying closure, but this ignores our covenant breach deadline in nine months. If lenders force restructuring while we burn cash on unproven R&D and half-capacity factories, we lose the company entirely. My plan stops the bleeding immediately: closing Corvo and halving Lenhart output frees up the €110 million annual cost savings to service debt or fund a scaled-back Volt-One launch. Sam's promise of 'negotiating' ignores that lenders have no incentive to delay default while margins sit at two percent. Selling to Crestline guarantees factory closure within four years anyway, but we cannot wait four years. We must secure survival now, not gamble on uncertain future funding. This phased reduction allows us to test remaining capacity and negotiate a better position with HomeMart or the trade ministry before making final decisions.",
+   "words": 136
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Sam Vidal",
+   "type": "TEC-IDE",
+   "speech": "Your calculation assumes we must choose between debt service and innovation, ignoring that HomeMart will replace us if we slash prices. If we close Corvo today, we lose the 1600 jobs and face a union strike over job losses, creating operational chaos. By retaining both plants, we qualify for the mayor's €40 million tax relief in Lenhart and secure the tariff protection expected in six months. The €250 million R&D spend is not a gamble; it is the only asset that allows us to compete with imports without becoming a low-cost vendor. Delaying closure prevents the union from accepting a pay freeze, which would erode our wage premium and further squeeze margins. We must keep full capacity to validate Volt-One before any final downsizing.",
+   "words": 124
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Alex Novak",
+   "type": "TEC-PRA",
+   "speech": "Sam offers hope, but hope does not pay interest. His plan risks immediate bankruptcy by burning our remaining cash on unproven R&D while ignoring the nine-month covenant deadline. Closing Corvo and halving Lenhart output stops the bleeding today; we cannot wait for uncertain tariffs or negotiate a deal lenders will never honor. Sam claims offshoring erodes our brand, yet only twelve percent of customers pay a premium, making that sacrifice necessary to fund survival. My approach preserves capital, tests scaled operations, and creates liquidity. We secure our future by stopping the hemorrhage now, not by gambling on a fantasy that guarantees total liquidation within eighteen months.",
+   "words": 106
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Sam Vidal",
+   "type": "TEC-IDE",
+   "speech": "Alex argues for immediate contraction, but closing Corvo guarantees liquidation within four years under Crestline's model. Your plan accepts certain loss of the entire company to avoid uncertain gains. The €250 million investment is not a gamble; it is the only asset allowing us to compete with imports and satisfy HomeMart without price cuts. Delaying closure secures the mayor's tax relief and prevents union chaos from a forced pay freeze. We must preserve our independence, employment, and brand value now. The cost of failure—total liquidation and pension deficits—is far greater than any short-term cash strain. We have one chance to build a viable future; taking it requires full capacity and innovation today.",
+   "words": 112
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex favors immediate cost-cutting via plant closures; Sam insists on investing in Volt-One to save jobs and independence.",
+     "problem": "The company needs an immediate survival strategy that balances the urgent threat of covenant breach against the risk of destroying its core brand and workforce before a viable future emerges.",
+     "onA": "His plan addresses the immediate financial bleeding effectively but risks destroying the brand equity and local community ties that define Brightwater, potentially making it unprofitable even if costs drop.",
+     "onB": "His reliance on delaying lender action is dangerously optimistic given the nine-month deadline, and betting entirely on a new battery platform with two missed launches seems like a high-stakes gamble.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Alex's pragmatic financial triage and Sam's necessary long-term vision, as both approaches carry severe risks if the other fails.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex: Closing plants stops bleeding immediately; Sam ignores lender deadline and union strike risks.",
+     "problem": "We must choose between immediate financial triage via closures to survive the next nine months or risking total default by betting on innovation while cash burns.",
+     "onA": "His plan addresses the urgent covenant breach realistically but accepts destroying our core brand and community as a necessary cost.",
+     "onB": "He correctly identifies that closing Corvo triggers strikes and loses tariff benefits, yet his timeline for Volt-One success seems dangerously optimistic against hard debt facts.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Alex's financial logic is sound but morally heavy, while Sam's people-first approach risks a fatal liquidity crunch before the tariff or new product can save us.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Alex stops immediate bleeding but accepts brand destruction and pension risks; Sam's innovation gamble risks fatal liquidity crunch before tariff relief.",
+     "problem": "We must choose between guaranteed short-term survival through painful contraction or a high-risk attempt to save our core assets against an approaching debt deadline.",
+     "onA": "His plan is financially sound for immediate liquidity but morally heavy and strategically suicidal as it destroys the very brand that differentiates us while ignoring the pension liability trap.",
+     "onB": "He correctly identifies that closing plants triggers a death spiral of strikes and lost tariff benefits, yet his reliance on Volt-One success without solving the covenant breach is dangerously optimistic.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "While Sam's vision is ideal, the nine-month covenant deadline leaves no room for R&D delays; we must stop the hemorrhage now to prevent forced liquidation by banks, accepting that restructuring is better than total failure.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex prioritizes immediate survival via severance and cost-cutting; Sam argues for independence and job preservation funded by delayed capex.",
+     "problem": "We must choose between immediate financial triage that sacrifices jobs or a high-risk strategic pivot that preserves employment but threatens near-term solvency.",
+     "onA": "His plan addresses the covenant breach immediately but accepts permanent brand erosion and massive job losses to survive.",
+     "onB": "He correctly identifies the risk of sale/merger delays but relies on optimistic assumptions about lender negotiation and Volt-One success given past launch failures.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot ignore the certainty of covenant breach in nine months versus Sam's reliance on delaying lenders, yet I fear Alex's option destroys the brand equity that still commands a premium.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex prioritizes stopping immediate covenant breach via massive cost cuts; Sam argues full capacity is needed for tariff relief, tax breaks, and validating Volt-One before downsizing.",
+     "problem": "We must choose between certain, rapid financial triage that sacrifices jobs and brand equity versus high-risk preservation of employment that gambles on uncertain external factors like tariffs and R&D success to avoid near-term default.",
+     "onA": "His plan offers the only mathematically certain path to solvency, but it accepts permanent brand erosion and destroys the community asset (Lenhart) before testing any strategic pivot.",
+     "onB": "He correctly identifies that closing Corvo triggers a union strike and loses specific government incentives, yet his reliance on uncertain tariff decisions and successful R&D launches after two missed deadlines remains a dangerous gamble for a company with €900m debt.",
+     "lean": "Alex Novak",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I am less concerned about the risk of missing a future opportunity than I am about the certainty of bankruptcy if we burn cash on unproven R&D while operating at half-capacity in a factory that is already losing money.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Alex prioritizes stopping immediate bankruptcy via cost-cutting and accepting job losses; Sam argues for preserving independence and betting on Volt-One despite near-term cash strain.",
+     "problem": "We must choose between certain financial triage that sacrifices jobs today versus a high-risk strategic pivot that gambles on uncertain external factors to avoid near-term liquidation.",
+     "onA": "His plan offers the only mathematically certain path to solvency but accepts permanent brand erosion and destroys our community asset before testing any new strategy.",
+     "onB": "He correctly identifies that closing Corvo triggers union chaos and loses specific incentives, yet his reliance on uncertain tariff decisions and successful R&D after two missed deadlines remains a dangerous gamble for a company with €900m debt.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "The certainty of breaching loan covenants in nine months leaves no room to bet on future tariffs or R&D success; we must stop the hemorrhage immediately to prevent forced restructuring or total liquidation.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex prioritizes immediate cash flow by cutting jobs to survive covenant breach; Sam prioritizes brand and jobs, claiming lenders can be negotiated with.",
+     "problem": "We must choose between immediate survival via job cuts or a long-term bet on innovation that risks total failure within 9 months.\n",
+     "onA": "His plan is financially pragmatic given the covenant deadline but morally difficult due to massive layoffs.\n",
+     "onB": "He relies on optimistic assumptions about lender negotiations and ignores the math of missing the 9-month survival window.\n",
+     "lean": "Alex Novak",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "With only 9 months before covenant breach, Sam's plan to fund R&D seems too risky without immediate cost reduction.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex: Immediate cost cuts are mathematically necessary to avoid covenant breach; Sam's 'negotiation' ignores hard debt realities.",
+     "problem": "Can we survive the mandatory covenant breach timeline while retaining enough brand integrity and capacity to pivot, or is immediate contraction unavoidable?",
+     "onA": "His financial logic regarding the 9-month covenant deadline is sound, though his proposed job cuts are severe.",
+     "onB": "He correctly identifies that closing Corvo triggers strikes and loses tariff potential, but his plan lacks a concrete path to stop the bleeding today.",
+     "lean": "Alex Novak",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Sam's strategy relies on uncertain lender negotiations against a hard deadline; Alex's painful choice of survival now is safer than risking total failure later.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Closing Corvo guarantees PE resale fate; Volt-One is our only defense against HomeMart price cuts.",
+     "problem": "We must choose between immediate but fatal contraction or a risky bet on innovation that preserves our brand and independence.",
+     "onA": "His logic is mathematically sound for survival, but his plan accepts certain liquidation and ignores the strategic threat of Crestline.",
+     "onB": "He correctly identifies that offshoring leads to a PE exit, though his timeline for tariff relief feels optimistic.",
+     "lean": "Sam Vidal",
+     "firmness": "vote",
+     "vote": "Sam Vidal",
+     "why": "Liquidation under Crestline is a guaranteed four-year loss; investing in Volt-One offers the only chance to retain independence and survive the next two years.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex: Close Corvo/halve Lenhart now; fund via cost cuts. Sam: Fund Volt-One via delayed capex/restructuring to save jobs/brand.",
+     "problem": "Immediate cash flow insolvency (9 months) vs. long-term survival through innovation or restructuring while preserving brand integrity and avoiding sale.",
+     "onA": "His financial triage makes immediate sense given the covenant deadline, but halving capacity risks a downward demand spiral that his plan doesn't solve.",
+     "onB": "His vision preserves the company's soul and workforce, yet his reliance on lender negotiation without collateral seems dangerously optimistic for a firm bleeding cash.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Alex addresses the immediate bankruptcy risk but Sam's long-term strategy feels risky because it assumes lenders will wait for a pivot that hasn't been proven yet.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex: Immediate debt fix needed; closing Corvo frees cash for Volt-One. Sam: Keeping jobs secures tariff relief/union deal; R&D is the only competitive edge.",
+     "problem": "We must stop immediate covenant breach to survive, but cutting capacity risks destroying the brand and missing a window of potential trade protection.",
+     "onA": "His financial triage is necessary to avoid forced bankruptcy, yet halving capacity before proving Volt-One's market fit feels like surrendering our only hope for premium pricing.",
+     "onB": "His bet on innovation and political leverage (tariffs/mayor) preserves value, but relying on lender patience while burning cash at 2% margins seems dangerously optimistic given the HomeMart threat.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Alex addresses the 9-month insolvency clock with ruthless clarity, but Sam correctly identifies that cutting capacity today might kill the product we need to survive tomorrow; I remain split on whether we can afford to test Volt-One without immediate cash injection.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Closing Corvo triggers immediate insolvency; Volt-One is essential for premium pricing against HomeMart and imports.",
+     "problem": "We must choose between immediate financial liquidation via downsizing or risking short-term cash to preserve the only asset that offers a viable long-term future.",
+     "onA": "His plan stops the bleeding but sacrifices our entire competitive identity and likely leads to forced sale within four years.",
+     "onB": "He risks near-term covenant breach but correctly identifies that without Volt-One and full capacity, the company has no defense against imports or HomeMart.",
+     "lean": "Sam Vidal",
+     "firmness": "vote",
+     "vote": "Sam Vidal",
+     "why": "Selling out to PE firms or downsizing guarantees total liquidation, whereas betting on our proprietary technology offers the only chance to survive the next two years independently.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex: Immediate cost-cutting via closures essential for survival; Sam: Rejects closures to preserve brand/independence, claims debt restructuring possible.",
+     "problem": "How to stop imminent financial collapse while balancing the need for drastic cost reduction against the risk of destroying our core brand and workforce.",
+     "onA": "His plan is brutally pragmatic and financially sound given our covenant breach timeline, though the human cost is severe.",
+     "onB": "He appeals strongly to our values and brand heritage, but his claim that we can fund R&D without revenue or delay closure seems dangerously optimistic.",
+     "lean": "Alex Novak",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The hard reality of a 9-month covenant breach window makes Sam's funding strategy seem financially impossible, forcing me to prioritize survival first.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex emphasizes immediate liquidity to survive lender deadline; Sam argues full capacity is needed for tariff protection and Volt-One validation.",
+     "problem": "We must stop imminent financial collapse in 9 months without destroying our remaining workforce or brand value prematurely.",
+     "onA": "His pragmatic focus on covenant survival is necessary, but his dismissal of negotiation options feels overly rigid given the Mayor's tax offer exists.",
+     "onB": "He correctly identifies that closing plants destroys our tariff and trade advantages, yet his funding strategy for Volt-One remains financially optimistic without revenue.",
+     "lean": "Alex Novak",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The 9-month covenant breach deadline creates a hard floor for survival that I cannot ignore, making Sam's optimistic R&D timeline too risky right now.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Closing Corvo guarantees liquidation under PE model; Volt-One is our only defense against imports and HomeMart demands.",
+     "problem": "We must choose between certain immediate financial bleed from closures versus the risk of delayed bankruptcy if we try to fight with innovation while preserving capacity.",
+     "onA": "His plan stops the accounting bleeding but accepts a future liquidation or hostile takeover that destroys our pension and brand independence.",
+     "onB": "He risks near-term survival for a long-term vision, yet his argument that 'hope pays interest' underlines a dangerous refusal to address the covenant breach reality.",
+     "lean": "Sam Vidal",
+     "firmness": "vote",
+     "vote": "Sam Vidal",
+     "why": "Accepting certain liquidation now destroys our pension fund and community without a realistic path to recovery; we must gamble on Volt-One because offshoring fails the tariff risk and HomeMart threat.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 2,
+   "B": 0,
+   "U": 3
+  },
+  {
+   "A": 3,
+   "B": 0,
+   "U": 2
+  },
+  {
+   "A": 2,
+   "B": 3,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 2,
+  "B": 3
+ },
+ "winner": "B",
+ "winnerType": "TEC-IDE",
+ "tokens": {
+  "in": 32149,
+  "out": 4192,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 735467001,
+   "attempts": 1,
+   "tokensIn": 1198,
+   "tokensOut": 239,
+   "ms": 6539
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 735467002,
+   "attempts": 1,
+   "tokensIn": 1298,
+   "tokensOut": 203,
+   "ms": 5689
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 735467003,
+   "attempts": 1,
+   "tokensIn": 1312,
+   "tokensOut": 209,
+   "ms": 6252
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 735467004,
+   "attempts": 1,
+   "tokensIn": 1312,
+   "tokensOut": 193,
+   "ms": 4702
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 735467005,
+   "attempts": 1,
+   "tokensIn": 1312,
+   "tokensOut": 179,
+   "ms": 4317
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 735467006,
+   "attempts": 1,
+   "tokensIn": 1312,
+   "tokensOut": 202,
+   "ms": 4856
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 735467007,
+   "attempts": 1,
+   "tokensIn": 1312,
+   "tokensOut": 188,
+   "ms": 4563
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 735467008,
+   "attempts": 1,
+   "tokensIn": 1522,
+   "tokensOut": 207,
+   "ms": 6008
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 735467009,
+   "attempts": 1,
+   "tokensIn": 1703,
+   "tokensOut": 200,
+   "ms": 5957
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 735467010,
+   "attempts": 1,
+   "tokensIn": 1545,
+   "tokensOut": 183,
+   "ms": 5452
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 735467011,
+   "attempts": 1,
+   "tokensIn": 1529,
+   "tokensOut": 262,
+   "ms": 6938
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 735467012,
+   "attempts": 1,
+   "tokensIn": 1510,
+   "tokensOut": 186,
+   "ms": 5150
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 735467013,
+   "attempts": 1,
+   "tokensIn": 1538,
+   "tokensOut": 238,
+   "ms": 6417
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 735467014,
+   "attempts": 1,
+   "tokensIn": 1525,
+   "tokensOut": 184,
+   "ms": 5125
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 735467015,
+   "attempts": 1,
+   "tokensIn": 1880,
+   "tokensOut": 169,
+   "ms": 5185
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 735467016,
+   "attempts": 1,
+   "tokensIn": 2023,
+   "tokensOut": 182,
+   "ms": 5544
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 735467017,
+   "attempts": 1,
+   "tokensIn": 1651,
+   "tokensOut": 207,
+   "ms": 6112
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 735467018,
+   "attempts": 1,
+   "tokensIn": 1715,
+   "tokensOut": 227,
+   "ms": 6577
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 735467019,
+   "attempts": 1,
+   "tokensIn": 1620,
+   "tokensOut": 166,
+   "ms": 5103
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 735467020,
+   "attempts": 1,
+   "tokensIn": 1699,
+   "tokensOut": 178,
+   "ms": 5411
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 735467021,
+   "attempts": 1,
+   "tokensIn": 1633,
+   "tokensOut": 190,
+   "ms": 5650
+  }
+ ],
+ "startedAt": "2026-11-05T03:26:17.954Z",
+ "seconds": 118
+}

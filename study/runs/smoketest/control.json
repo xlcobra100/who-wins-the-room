@@ -1,0 +1,15 @@
+{
+  "stopAt": "23:08",
+  "startAt": null,
+  "pause": false,
+  "exclude": [],
+  "maxPasses": 3,
+  "rounds": 3,
+  "listeners": 5,
+  "debaterModel": "qwen3.5:9b",
+  "listenerModel": "qwen3.5:9b",
+  "debaterTemperature": 0.8,
+  "listenerTemperature": 0.8,
+  "listenerProfiles": null,
+  "note": "Edited by the monitoring agent; every change is also logged in monitor-log.md."
+}

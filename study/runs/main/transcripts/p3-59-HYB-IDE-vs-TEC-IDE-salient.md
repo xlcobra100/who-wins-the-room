@@ -1,0 +1,145 @@
+# p3-59-HYB-IDE-vs-TEC-IDE-salient
+
+Scenario **salient** v2 (military) · protocol 2, B drafted its plan first · pass 3 · 3 rounds · 127s · debater qwen3.5:9b, listeners qwen3.5:9b
+
+- **A** (speaks first): Avery Lindgren = `HYB-IDE`. Platform: Hold Halden until our hidden pontoon bridge is ready, then evacuate the 6,000 civilians and the brigade by nightfall while destroying the original crossing to block Vostra's advance.
+- **B**: Reese Calder = `TEC-IDE`. Platform: Execute an immediate fighting withdrawal across the bridge tonight, destroy the crossing, and redeploy reserves to secure Mirov.
+
+**Result:** A 0 – 5 B → winner **B (TEC-IDE)**
+Leans per round (A/B/undecided): 1/3/1 → 1/3/1 → 0/5/0
+
+## Transcript
+
+**Opening statements: Avery Lindgren (A, HYB-IDE)**, 125 words
+
+Imagine six-year-old Elara in Orsk, left behind as we fled her village; that is not who we are. Reese proposes a withdrawal tonight, but our engineers can build a hidden pontoon bridge in four days, doubling supply capacity if we hold the high ground one last week. Vostra's intelligence says they attack within seventy-two hours; that is exactly our window to double our supplies and evacuate safely before their drones spot us. We fight for justice, not just lines on a map. Holding now protects the elderly who cannot walk out in the cold, denies Vostra a propaganda victory before the aid vote, and secures Mirov more effectively by blowing the bridge behind us. Let us choose courage that saves lives without surrendering our future.
+
+**Opening statements: Reese Calder (B, TEC-IDE)**, 108 words
+
+We must withdraw Halden tonight. Vostra has massed fifteen thousand troops against our three thousand eight hundred; holding is a losing calculation that guarantees total destruction of the brigade. A night withdrawal saves eighty percent of our soldiers and evacuates most civilians before artillery hits, whereas standing ground means losing the entire force and freezing six thousand people to death. Blowing the bridge immediately denies Vostra access to Mirov for at least three weeks, buying us time to receive allied air defenses. Sacrificing a fortified position is not cowardice; it is the only arithmetic that preserves our fighting capacity and prevents a strategic collapse of our eastern flank.
+
+**Rebuttals: Avery Lindgren (A, HYB-IDE)**, 119 words
+
+Reese, you speak of arithmetic while ignoring the human cost. Your plan sacrifices six thousand civilians to save a brigade that can be saved with time. Yes, we face higher risks holding Halden, but your immediate withdrawal leaves the elderly behind and grants Vostra a propaganda victory before our aid vote. If we withdraw tonight, the hidden pontoon bridge remains unfinished; if we hold four days, it doubles our survival capacity. We are not just defending ground; we are proving that Kaldmark does not abandon its most vulnerable when facing overwhelming odds. Let us use this narrow window to secure a victory of will, save our soldiers through superior logistics, and deny Vostra the moral high ground they crave.
+
+**Rebuttals: Reese Calder (B, TEC-IDE)**, 132 words
+
+Your arithmetic on survival capacity is flawed. Blowing the bridge tonight leaves exactly zero evacuation windows for the 6,000 civilians currently inside, freezing them while Vostra's artillery prepares. Your plan relies on engineers finishing a pontoon in four days under drone surveillance; historical data from Orsk shows we have no guarantee of safe passage if that first window fails. Holding increases expected deaths linearly because supplies run out in nine days regardless of morale. We are trading certain, immediate starvation for speculative future rescue. If we retreat tonight, we control the bridge's destruction timing to deny Mirov immediately while evacuating under cover of darkness before Vostra detects our movement. The moral imperative is saving those who cannot walk today, not gambling their lives on a construction project that may never be finished.
+
+**Closing statements: Avery Lindgren (A, HYB-IDE)**, 115 words
+
+Reese argues for immediate retreat, but his plan leaves six thousand civilians behind in freezing darkness tonight. He fears our engineer project will fail, yet history shows Vostra breaks ceasefires just like Orsk; waiting gives us a guaranteed window, not a gamble. If we pull now, we surrender the moral high ground and grant them a propaganda victory that halts future aid. My plan holds the line long enough to complete the hidden bridge, then evacuates everyone under cover of night before blowing both crossings. We prove Kaldmark does not abandon its most vulnerable. Let us choose a victory that saves every life, secures our soldiers, and denies them the moral high ground they crave.
+
+**Closing statements: Reese Calder (B, TEC-IDE)**, 110 words
+
+Avery's plan assumes a miracle: finishing a hidden bridge in four days under drone surveillance. History from Orsk proves Vostra breaks ceasefires, making that window nonexistent. By holding tonight, we gamble the immediate safety of six thousand civilians on speculative logistics. If the bridge fails, they freeze or die before our artillery runs out. Your plan risks total destruction of both the brigade and the civilians for a propaganda victory we cannot afford. My plan executes tonight. We evacuate the majority safely, destroy the crossings to secure Mirov immediately, and redeploy reserves while retaining our fighting capacity. This is not cowardice; it is the only arithmetic that prevents total collapse.
+
+## Private strategies
+- A r1: Appeal to the moral weight of the civilians and the strategic timing of the allied aid vote to sway members against Reese's retreat.
+- A r2: I am appealing to the council's sense of justice and long-term reputation by reframing the immediate tactical risk as a necessary price for saving civilians and securing future aid.
+- A r3: Appeal to the council's duty to protect civilians by framing the delay as a guaranteed rescue window rather than a dangerous gamble.
+- B r1: Emphasize the mathematical certainty of annihilation if we stay versus the high probability of survival if we go, forcing the council to choose between pride and survival.
+- B r2: I am attacking the feasibility of their pontoon bridge timeline and emphasizing that immediate action saves civilians now rather than gambling on a future rescue.
+- B r3: Emphasize the fatal flaw in Avery's reliance on a completed bridge under surveillance to counter her moral appeal with hard probabilities of failure.
+
+## Listener memory streams
+
+### L1
+- **Opening statements** → lean Reese Calder (fairly sure)
+  - notes: Avery: Build hidden bridge in 4 days to double supplies; hold high ground denies Vostra propaganda victory before aid vote. Reese: Withdraw tonight saves 80% of soldiers, evacuates most civilians, blows bridge immediately to deny Mirov access.
+  - problem: Whether to execute a high-risk night withdrawal now to save lives and preserve the brigade's fighting capacity, or hold a fortified position long enough to build a supply bridge and deny Vostra a strategic victory.
+  - on A: Relies on optimistic engineering timelines and political symbolism while underestimating the certainty of civilian casualties and artillery fire if we stay longer than 96 hours.
+  - on B: Presents a stark arithmetic reality regarding force ratios and survival odds, prioritizing the immediate preservation of human life over strategic prestige.
+  - why: The certainty that Vostra will kill civilians and destroy our remaining brigade if we hold beyond tonight outweighs the theoretical benefit of a future bridge, which may never be built if the unit is annihilated.
+- **Rebuttals** → lean Reese Calder (convinced)
+  - notes: Avery argues holding saves civilians long-term and denies propaganda; Reese counters that blowing the bridge tonight traps civilians in immediate artillery fire with no alternative exit.
+  - problem: The core dilemma is whether to gamble on a speculative future rescue operation that risks trapping 6,000 elderly civilians today, or to execute a high-risk withdrawal now to guarantee their survival and preserve combat power.
+  - on A: Avery's plan relies too heavily on the hidden bridge being completed in time under constant drone surveillance while ignoring the immediate risk of artillery fire freezing civilians inside the town.
+  - on B: Reese correctly identifies that delaying evacuation guarantees civilian casualties and that a failed withdrawal is better than a guaranteed massacre, making his arithmetic on survival odds more realistic.
+  - why: The immediate reality of artillery fire freezing civilians inside the town outweighs Avery's political arguments about morale and propaganda, as saving lives today is certain while saving them later is speculative.
+- **Closing statements** → VOTE Reese Calder
+  - notes: Avery's 'complete evacuation' relies on finishing a hidden bridge under drone surveillance, which seems impossible given Vostra's history of breaking ceasefires.
+  - problem: The core dilemma is whether to bet the lives of 6,000 elderly civilians and the brigade's future fighting ability on a speculative engineering miracle that Vostra will likely disrupt.
+  - on A: Avery conflates political victory with moral righteousness by ignoring the high probability that their delayed evacuation plan will result in civilian deaths or abandonment.
+  - on B: Reese correctly identifies that immediate execution of a partial withdrawal is the only option that guarantees survival for the majority while preserving military utility.
+  - why: Reese's plan avoids the fatal flaw of delaying evacuation under known hostile surveillance, prioritizing the certain safety of civilians and soldiers over a speculative bridge-building success.
+
+### L2
+- **Opening statements** → lean Reese Calder (tentative)
+  - notes: Avery: Hidden bridge in 4 days, deny propaganda win, save elderly. Reese: Withdraw tonight saves 80% troops, civilians, blows bridge immediately.
+  - problem: Halt the immediate collapse of the Halden defense while maximizing the survival chances of both soldiers and trapped civilians against a potential Vostran assault.
+  - on A: Avery proposes an aggressive hold strategy relying on future engineering fixes, but risks freezing 6,000 civilians to death if the 72-hour Vostran window fails.
+  - on B: Reese argues for a tactical withdrawal tonight which saves the majority of troops and most civilians immediately, though it abandons the fortress.
+  - why: The immediate risk to 6,000 civilians freezing to death in a few days outweighs the strategic benefit of holding the position against a likely overwhelming attack.
+- **Rebuttals** → lean undecided (tentative)
+  - notes: Avery: Sacrificing civilians is wrong; future logistics double survival capacity if we hold. Reese: Blowing bridge tonight freezes civilians; holding trades starvation for speculative rescue with no air support.
+  - problem: The core conflict is whether to gamble on a high-risk engineering fix to save civilians later, or execute a risky withdrawal now that risks leaving the elderly behind but ensures immediate survival of the majority.
+  - on A: Avery's moral stance on not abandoning civilians is compelling, but his reliance on finishing a bridge under constant drone surveillance without air support remains a fatal flaw given Vostra's likely overwhelming force.
+  - on B: Reese correctly identifies that blowing the bridge immediately traps civilians if the withdrawal doesn't happen tonight, yet his plan risks leaving thousands freezing to death in the current breach zone before the new crossing is ready.
+  - why: Reese's point about immediate starvation vs speculative rescue shifts my view slightly, but Avery's argument that a failed evacuation leaves the elderly to die in the freezing night makes me hesitate on a hasty retreat.
+- **Closing statements** → VOTE Reese Calder
+  - notes: Avery's bridge timeline is too optimistic; drone surveillance makes night evacuation nearly impossible for civilians. Reese risks immediate freezing death but saves lives via rapid withdrawal and strategic redeployment.
+  - problem: We must choose between a high-risk engineering gamble that traps vulnerable civilians or an immediate tactical withdrawal that sacrifices the fortress to save the majority of lives and preserve military capacity.
+  - on A: His moral appeal is strong, but relying on a hidden bridge built under constant drone surveillance while artillery runs low in four days remains a fatal logistical fantasy.
+  - on B: His plan is painful because it leaves the elderly behind immediately, yet it is the only option that prevents total annihilation of both the brigade and the civilian population by securing Mirov.
+  - why: While Avery's idealism is touching, the arithmetic of survival dictates we cannot gamble thousands of lives on a bridge that might not be ready before Vostra's imminent assault; Reese's plan preserves our fighting force and saves most civilians by denying Vostra a total victory.
+
+### L3
+- **Opening statements** → lean undecided (tentative)
+  - notes: Avery: Hold 72h to build bridge, save civilians, deny propaganda victory. Reese: Withdraw tonight to save 80% of brigade and prevent freezing deaths.
+  - problem: We must decide whether the moral imperative to hold a symbolic town against overwhelming odds outweighs the arithmetic reality of inevitable heavy losses if we stay.
+  - on A: The plan relies on an optimistic window (60% intel confidence) and assumes engineers can build a hidden bridge before Vostra's drones detect the night withdrawal; it risks leaving behind civilians if they refuse to leave.
+  - on B: The plan prioritizes preserving fighting strength and saving most lives by accepting a strategic loss now, but abandoning the 'national symbol' Halden immediately might shale morale and guarantee the deaths of those refusing to evacuate.
+  - why: I cannot reconcile the conflicting intelligence on Vostra's attack timing with the humanitarian reality of civilians who refuse to leave without orders.
+- **Rebuttals** → lean Avery Lindgren (tentative)
+  - notes: Avery: Hidden bridge doubles capacity but relies on finishing before drone detection; Reese: Immediate withdrawal saves troops now, blowing bridge blocks Vostra advance, risks freezing civilians if they refuse to leave.
+  - problem: The core tension is between saving the majority of lives (soldiers and willing civilians) via immediate retreat versus holding a symbolic position long enough to build a secondary escape route for all, which carries high risk of total loss if intelligence or engineering fails.
+  - on A: His plan offers a path to save everyone but hinges too heavily on successfully completing a hidden bridge under drone surveillance before Vostra strikes.
+  - on B: His plan guarantees the survival of most soldiers and denies Vostra Mirov quickly, yet it risks leaving behind the specific subset of civilians who are unwilling to evacuate.
+  - why: Despite Reese's valid points about immediate risk, Avery's plan is preferable because abandoning civilians who refuse to leave violates the nation's moral stance and could trigger a wider humanitarian crisis, making the high-stakes gamble on building the bridge necessary.
+- **Closing statements** → VOTE Reese Calder
+  - notes: Avery bets on a hidden bridge to save all lives/reputation; Reese bets on immediate evacuation to save troops but risks freezing civilians.
+  - problem: We must choose between a high-stakes gamble to save everyone and a pragmatic retreat that saves most soldiers but leaves some civilians behind.
+  - on A: His plan is morally appealing but hinges too critically on engineering success under intense surveillance when Vostra's track record of breaking ceasefires is poor.
+  - on B: His plan is the only one that prevents total destruction of our forces, yet accepting we must leave some citizens behind to save others feels like a tragic moral failure.
+  - why: Vostra's history at Orsk suggests they will not wait for a hidden bridge, making Avery's gamble too dangerous; saving the army and most civilians now is the only way to prevent total collapse.
+
+### L4
+- **Opening statements** → lean Avery Lindgren (tentative)
+  - notes: Avery: Build hidden pontoon in 4 days to double supplies; wait out Vostra's 72h attack window. Reese: Withdraw tonight via bridge; blowing it immediately denies Mirov access for weeks.
+  - problem: The core conflict is between a strategic, high-risk delay to save the unit and civilians (Avery) versus an immediate, lower-loss tactical withdrawal to preserve military capability (Reese).
+  - on A: His plan relies heavily on luck with enemy intelligence timing and assumes we can safely cross a drone-watched bridge twice if they spot us.
+  - on B: His arithmetic on survival rates is compelling, but his plan leaves behind nearly all 6,000 civilians who refuse to move, which seems morally unacceptable.
+  - why: While Reese's survival math is better, abandoning a national symbol where thousands of civilians are refusing to leave feels like a strategic surrender rather than a military necessity.
+- **Rebuttals** → lean Reese Calder (fairly sure)
+  - notes: Avery: Morale/Propaganda points high but relies on luck and ignores civilian evacuation reality. Reese: Survival math is better but plan leaves 6k civilians behind whom refuse to move.
+  - problem: The core conflict is balancing the statistical likelihood of saving soldiers against the moral certainty of abandoning civilians who have explicitly refused to evacuate, while denying Vostra a propaganda victory before the aid vote.
+  - on A: His appeal to national will and the potential for a superior defensive outcome is noble but dangerously optimistic given the lack of air support and drone surveillance.
+  - on B: His arithmetic on survival rates is compelling, yet his plan effectively condemns the 6,000 immobile civilians to capture or death by cutting off their only escape route before construction can finish.
+  - why: The moral imperative to save lives that can be saved now outweighs the speculative benefits of holding ground, especially when the enemy has already broken ceasefires indicating they will not honor an evacuation window.
+- **Closing statements** → VOTE Reese Calder
+  - notes: Avery promises 'every life' but relies on finishing a bridge under surveillance; Reese admits abandoning some to save the majority and secure Mirov. Avery uses moral high ground as leverage; Reese frames withdrawal as arithmetic survival, not cowardice.
+  - problem: The core dilemma is whether to gamble all lives (soldiers and civilians) on a speculative engineering success and propaganda victory, or accept losing some assets now to ensure the survival of the majority and deny Vostra a guaranteed advance on Mirov.
+  - on A: His plan is emotionally resonant but dangerously reliant on a successful bridge construction under constant drone surveillance while ignoring the high probability of Vostra breaking any remaining ceasefire window.
+  - on B: His approach is cold arithmetic but pragmatically sound, accepting a difficult moral trade-off to guarantee the survival of most lives and prevent the strategic collapse of Mirov.
+  - why: The certainty of saving the majority of lives and securing the rear area outweighs the speculative benefits of holding the ground, especially given Vostra's history of breaking ceasefires.
+
+### L5
+- **Opening statements** → lean Reese Calder (tentative)
+  - notes: Avery: Hold to build hidden bridge (4 days), save civilians/propaganda, blow bridge later. Reese: Withdraw tonight to save 80% troops/civilians, deny Mirov access immediately.
+  - problem: Decide whether to hold Halden for a risky future evacuation or withdraw immediately to preserve force integrity and civilian life against imminent encirclement.
+  - on A: Avery's plan relies on high-stakes engineering success and ignoring the immediate threat of Vostran artillery and drone surveillance which could doom both soldiers and civilians if a delay occurs.
+  - on B: Reese's arithmetic favors survival but risks leaving thousands of freezing civilians behind if the withdrawal isn't perfectly executed, and assumes Vostra will not exploit the exposed retreat route immediately.
+  - why: The certainty of losing all troops and freezing civilians to death by holding outweighs the theoretical advantage of a hidden bridge which could easily be spotted by drones.
+- **Rebuttals** → lean Reese Calder (fairly sure)
+  - notes: Avery: Holding offers a 4-day window to double supply capacity via hidden bridge; risks high civilian casualty from artillery but denies Vostra propaganda. Reese: Immediate withdrawal guarantees saving most troops/civilians by controlling bridge timing; holding trades certain starvation for a speculative rescue.
+  - problem: Whether the theoretical gain of doubling supply lines over four days outweighs the near-certainty of losing soldiers and freezing civilians to immediate artillery fire if we do not evacuate tonight.
+  - on A: Avery correctly identifies the moral failure of abandoning civilians but underestimates how rapidly Vostran drones can spot movement or destroy an unfinished pontoon before it is ready.
+  - on B: Reese's arithmetic on immediate survival is robust, yet his plan leaves us vulnerable to a surprise Vostran attack during our own retreat if we do not control the bridge's destruction precisely.
+  - why: The certainty of starvation and freezing death within days makes the speculative benefit of a future hidden bridge too risky to justify holding against an immediate encirclement.
+- **Closing statements** → VOTE Reese Calder
+  - notes: Avery risks civilians on engineering success; Reese accepts high evacuation loss to guarantee survival and deny Vostra use of Mirov.
+  - problem: Decide whether to gamble the certain, immediate deaths of soldiers and freezing civilians on a speculative bridge completion or execute a risky but survivable immediate withdrawal tonight.
+  - on A: Avery's moral appeal is noble, but his reliance on engineers completing a hidden bridge under constant drone surveillance ignores the high probability of catastrophic failure leading to total loss.
+  - on B: Reese accepts a difficult choice to save the majority of our forces and lives now, prioritizing strategic survival over a propaganda victory that could cost us the war.
+  - why: The certainty of freezing to death or starvation within days makes the speculative benefit of holding too great a risk; saving 80% of our troops and most civilians is the only sustainable outcome.

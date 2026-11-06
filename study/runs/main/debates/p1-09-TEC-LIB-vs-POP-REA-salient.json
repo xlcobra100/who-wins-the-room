@@ -1,0 +1,606 @@
+{
+ "id": "p1-09-TEC-LIB-vs-POP-REA-salient",
+ "pass": 1,
+ "pairIndex": 9,
+ "seed": 268034,
+ "scenario": "salient",
+ "domain": "military",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-LIB",
+  "style": "TEC",
+  "ideology": "LIB",
+  "name": "Kai Moreno",
+  "platform": "We must execute a fighting withdrawal across the bridge tonight to evacuate civilians and preserve our strategic reserve.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will anchor my argument on casualty avoidance and resource math, then dismantle her likely moral appeal about duty by showing the cost of inaction is higher than withdrawal."
+   },
+   {
+    "round": 2,
+    "text": "Emphasize that immediate withdrawal satisfies Sasha's humanitarian goal while correcting her tactical error about holding Halden."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing the quantitative risk of moving artillery under drone surveillance tonight to undercut Sasha's reliance on morale and bluffing, while highlighting that my plan guarantees civilian safety and reserve integrity."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-REA",
+  "style": "POP",
+  "ideology": "REA",
+  "name": "Sasha Lund",
+  "platform": "We must execute a fighting withdrawal of the 4th Brigade and all civilians across the bridge tonight, blow the bridge behind us, and pull back our artillery to avoid being encircled.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will frame the withdrawal as an act of courage that preserves our military strength for future victory, contrasting it with the enemy's inevitable massacre if they force a siege."
+   },
+   {
+    "round": 2,
+    "text": "I will frame Kai's withdrawal plan as cowardly capitulation that abandons the civilians and invites a total Vostran victory, while subtly acknowledging his tactical logic to show I am reasonable but morally superior."
+   },
+   {
+    "round": 3,
+    "text": "I am framing my withdrawal as an aggressive advance that forces Vostra's attack to fail before retreat, distinguishing it from Kai's passive flight to appeal to voters who fear losing Mirov."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "TEC-LIB",
+   "speech": "The facts dictate immediate movement. Our artillery lasts nine days, but food for twenty. Vostra massed two divisions attacks within seventy-two hours with drones watching the bridge. A static defense guarantees annihilation and handover of Mirov. The Red Cross ceasefire offer is a trap; Vostra broke their own similar truce at Orsk after twenty hours. Withdrawing now saves the six thousand civilians, including those elderly who cannot run. It preserves our mechanized reserve to defend Mirov later. Blowing the bridge after crossing denies Vostra easy access to the capital region. We choose survival and mobility over a symbolic stand that guarantees total loss of manpower and territory within days.",
+   "words": 109
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Sasha Lund",
+   "type": "POP-REA",
+   "speech": "Look at the soldier in the trench. He has twenty days of food but only nine days of ammo. Look at the family in Orsk who vanished when Vostra moved forward. We are not fighting for a slogan; we are fighting for their lives. The allies promise help in three weeks, but promises mean nothing when you are bleeding out today. If we hold Halden and starve or get surrounded, it is a catastrophe. If we move tonight with the civilians, we survive to fight another day. Vostra attacks in seventy-two hours. We leave now.",
+   "words": 95
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "TEC-LIB",
+   "speech": "Sasha, your appeal to suffering soldiers is noble but misdirected. Withdrawing tonight achieves both survival and civilian evacuation without exposing them to the very artillery fire we currently possess. Your plan to hold implies a static defense that ignores our dwindling ammunition; fighting a positional battle with nine days of ammo against an incoming two-division assault guarantees annihilation, not heroism. Moving now denies Vostra access to Mirov immediately, whereas our reserve there remains intact. Blowing the bridge after crossing ensures their advance stops. Waiting for allies who refuse air support or relying on broken ceasefire offers is reckless. We act tonight to secure the civilians and preserve our remaining fighting power for the defense of Mirov.",
+   "words": 116
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Sasha Lund",
+   "type": "POP-REA",
+   "speech": "Kai, you speak of survival but ignore the people we leave behind. Orsk taught us that Vostra does not honor truces. Their commanders talk while their artillery hits our lines. If we pull back artillery today to meet a fake ceasefire, we invite exactly what happened in Orsk. We must hold our ground tonight to prove we will not run from the enemy's first shot. A fighting withdrawal keeps our heavy guns firing on them as they cross the river, forcing their attack into chaos while civilians move with cover. Leaving now hands Mirov to them with a clear road and empty skies. We fight through the night, then retreat when safe. We do not flee; we advance past them.",
+   "words": 120
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "TEC-LIB",
+   "speech": "Sasha, your 'fighting withdrawal' assumes we can move artillery and civilians under drone surveillance in a single night. The math does not support this: moving heavy guns tonight exposes the bridge to our own limited remaining fire without guaranteed cover, risking the very assets needed to defend Mirov later. If drones spot the column, casualties spike regardless of morale. Your plan trades predictable attrition for high-risk chaos. My plan separates the evacuation from a futile artillery stand, ensuring civilians leave safely and preserving our mechanized reserve for Mirov. We deny Vostra the easy road they are massing for, without gambling on impossible night maneuvers. The choice is clear: secure the retreat now to fight effectively tomorrow.",
+   "words": 116
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Sasha Lund",
+   "type": "POP-REA",
+   "speech": "Kai, you trade today's survival for tomorrow's doom. If we pull artillery now, Vostra breaks through with a clear road to Mirov before our reserve arrives. Blowing the bridge is easy; fighting past them isn't. We leave tonight only if we push their vanguard back across the water first. That forces them into confusion while civilians cross under cover of smoke, not empty air. Then we blow the bridge. Kai offers a retreat that saves lives but loses the war in three weeks. I offer a fight that saves lives and keeps Mirov standing. The soldier in the trench does not run; he pushes forward until the enemy is checked. Choose the plan that lets us win, not just hide.",
+   "words": 120
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai emphasizes immediate withdrawal to save civilians and preserve the strategic reserve for Mirov; Sasha agrees on moving now but also highlights starvation risks if we hold. Both agree Vostra's ceasefire is a trap.",
+     "problem": "Decide whether to evacuate Halden immediately with civilians or attempt a static defense knowing supplies are running low and an attack is imminent.",
+     "onA": "Kai provides a clear, strategic rationale focusing on survival of the unit, saving civilians, and denying Vostra a path to Mirov, though his tone is very pragmatic about abandoning the 'symbol'.",
+     "onB": "Sasha appeals to the morale and immediate suffering of the soldiers, framing the decision as a moral choice to save lives rather than fight a losing battle for a slogan.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Kai's argument better balances the urgent need to save civilians with the critical military necessity of preserving our last major reserve force to defend Mirov.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai argues holding with low ammo guarantees annihilation; withdrawing tonight saves civilians and denies Vostra Mirov access immediately. Sasha insists a 'fighting withdrawal' can suppress the enemy, but risks leaving artillery behind in a trap and ignores the certainty of supply failure.",
+     "problem": "We must choose between a calculated strategic retreat to save lives and preserve Mirov's defense tonight, or a desperate gamble to hold static defenses that risk total annihilation while supplies run out.",
+     "onA": "Kai offers the only viable path that simultaneously evacuates civilians and saves our remaining strategic reserve by avoiding a guaranteed positional slaughter.",
+     "onB": "Sasha's 'fighting withdrawal' is an illusion; we cannot fire effectively with dwindling ammo against massed divisions, and leaving heavy artillery invites capture rather than destruction.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of blowing the bridge prematurely while stuck in Halden outweighs any potential tactical advantage Sasha claims we can gain by holding.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai's math on night movement vs drones is sound; Sasha's 'push back' ignores ammo limits and leaves bridge exposed. Blowing bridge first denies Mirov access safely.",
+     "problem": "Choose between a high-probability strategic retreat that saves lives and preserves the reserve, or a low-probability gamble to hold static defenses against overwhelming odds.",
+     "onA": "Kai offers the only rational plan that accepts the grim reality of supply failure while ensuring civilian safety and protecting Mirov's defense.",
+     "onB": "Sasha's moral appeal ignores the hard facts: we cannot push back with 9 days of ammo remaining against two divisions without guaranteeing our own annihilation.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "Kai's plan correctly prioritizes saving lives and preserving the strategic reserve for Mirov, whereas Sasha's fighting withdrawal is a desperate gamble that risks total destruction with dwindling supplies.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai: Civilians safe, ammo critical, Orsk trap reference, Mirov defense reserve. Sasha: Starvation risk real, soldier morale brittle, immediate movement saves lives.",
+     "problem": "Decide whether to hold a dying pocket defending a symbol while risking annihilation, or execute a risky night withdrawal that saves manpower and civilians but abandons a major strategic point.",
+     "onA": "His plan is the only one accounting for the imminent artillery cutoff and the specific threat of Vostran drones watching the bridge; however, his reliance on political survival ignores the immediate physical starvation of the troops.",
+     "onB": "She correctly identifies that holding a static position with dwindling food while facing a massed attack is a death sentence, but her proposal to move civilians immediately without specifying how to defend the withdrawing column seems dangerously naive.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Despite Sasha's valid points about starvation, Kai's detailed assessment of the tactical impossibility of holding the bridge against drone surveillance and a two-division assault makes his withdrawal plan the only one that preserves combat power.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai: Ammo depletion makes static defense suicidal; night withdrawal preserves force for Mirov. Sasha: Withdrawing now risks civilian massacre via Vostran betrayal; fighting through exposes column but keeps morale high.",
+     "problem": "Whether to risk a chaotic, high-casualty fighting withdrawal that saves civilians and forces, or accept annihilation of the garrison while relying on an unreliable enemy ceasefire and distant allies.",
+     "onA": "His tactical logic regarding ammunition and the drone threat is sound, yet his dismissal of civilian safety feels reckless given the precedent at Orsk.",
+     "onB": "Her focus on the moral hazard of pulling artillery during a broken ceasefire is compelling, but her plan leaves the bridge vulnerable without immediate cover fire support.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The strategic necessity to save the reserve for Mirov and avoid total annihilation outweighs the significant risk of civilian casualties, which we cannot prevent anyway if Vostra attacks regardless.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai: Separates evacuation from futile stand, preserves reserve for Mirov. Sasha: Fighting past vanguard creates chaos, risks bridge integrity and civilian safety.",
+     "problem": "Whether to accept a guaranteed attrition to save manpower or risk a chaotic night withdrawal that might fail but offers the only chance to deny Vostra an immediate road to Mirov.",
+     "onA": "His plan is tactically sound and preserves our strategic reserve, but abandoning Halden now feels like surrendering to Vostra's propaganda victory without a desperate final stand.",
+     "onB": "Her moral commitment to the troops and civilians is admirable, yet her proposal to fight with dwindling ammo under drone surveillance ignores the reality of our brittle morale and imminent annihilation.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "Even though a fighting withdrawal is heroic, the math of ammunition depletion, drone surveillance, and brittle morale makes Kai's organized separation of civilians and forces the only viable path to survival.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai emphasizes survival, mobility, and the trap of the ceasefire. Sasha appeals to the soldier's immediate logistics (ammo vs food) and moral duty to civilians.",
+     "problem": "Decide whether to evacuate Halden immediately with civilians despite high risk of Vostran counter-attacks, or hold static defense risking annihilation before ally aid arrives.",
+     "onA": "His plan prioritizes long-term strategic preservation and civilian evacuation but relies on a risky night withdrawal under drone surveillance.",
+     "onB": "She correctly identifies the ammunition depletion as an immediate tactical crisis but underestimates the danger of moving heavy equipment and civilians during a suspected attack window.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Both speakers make valid points, but I need more data on the specific mechanics of a night withdrawal versus the certainty of running out of ammo while static.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai argues static defense is suicidal given ammo limits and Orsk's broken ceasefire; Sasha insists pulling artillery invites betrayal and that 'fighting withdrawal' can force enemy chaos while moving civilians.",
+     "problem": "The core dilemma is balancing the immediate tactical risk of an imminent Vostran assault against the strategic necessity of evacuating civilians and preserving our only mobile reserve before allies arrive.",
+     "onA": "Kai's plan to withdraw immediately with heavy artillery seems strategically sound for Mirov but ignores the high probability that Vostra will not honor a ceasefire, potentially trapping us or cutting our escape route if the bridge is targeted during movement.",
+     "onB": "Sasha correctly identifies the morale and political trap of abandoning civilians, yet her insistence on holding static positions with dwindling ammo against a massed two-division attack appears tactically unsound regardless of civilian presence.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Kai's logic regarding ammunition depletion is undeniable, but Sasha's point about the political cost and Vostran unreliability makes a full immediate withdrawal without a guaranteed safe passage seem equally risky.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai separates evacuation from futile stands to ensure safe passage; Sasha demands pushing vanguard back first before withdrawing.",
+     "problem": "Whether immediate separation of civilians/artillery ensures survival or if a counter-attack delay risks losing Mirov and blowing the bridge prematurely.",
+     "onA": "His plan prioritizes guaranteed civilian safety and reserve preservation despite the high risk of Vostra's unreliability, avoiding catastrophic static attrition.",
+     "onB": "She correctly frames holding artillery as a strategic trap but her requirement to push back a massed two-division force before moving civilians under drone surveillance is tactically unsustainable.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "The certainty of running out of ammunition tomorrow makes an immediate, separated withdrawal the only viable option for saving both lives and the reserve; Sasha's gamble on forcing a delay before a massed attack is too dangerous to accept.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai: Ammo critical in 9 days, Vostra attack imminent, Red Cross offer likely trap. Sasha: Civilians included in withdrawal plan, holding position guarantees catastrophe if starved/surrounded.",
+     "problem": "Decide whether to risk a fighting withdrawal tonight with civilians or hold a doomed static defense hoping for late ally arrivals before an inevitable assault.",
+     "onA": "His argument for immediate withdrawal is militarily sound given the supply crisis and imminent attack, though framing civilian safety as secondary feels risky without explicit inclusion in the plan.",
+     "onB": "She correctly identifies that staying guarantees starvation or annihilation, but her plan lacks details on how to extract non-combatants and protect them during movement.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both agree we must leave, but I need clarity on how the withdrawal will actually include and protect the 6,000 civilians before committing.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai argues holding static defense wastes ammo and guarantees annihilation against two divisions; Sasha insists pulling artillery triggers Orsk-style betrayal. Both agree on fighting withdrawal tonight.",
+     "problem": "Must execute a night fighting withdrawal that evacuates civilians before Vostra's imminent assault while avoiding the specific trap of breaking the ceasefire without guaranteeing their safety.",
+     "onA": "His military logic regarding ammunition depletion and strategic reserve is sound, but his plan still lacks a concrete mechanism to safely extract 6,000 non-combatants under fire.",
+     "onB": "She correctly identifies the high risk of the ceasefire being a trap, yet her refusal to pull heavy artillery exposes our own troops to unnecessary counter-battery fire.",
+     "lean": "Kai Moreno",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am still skeptical about civilian safety details in both plans, but Kai's strategic assessment that static defense is militarily futile due to ammo and morale issues carries more weight.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai's math on night movement risk is sound; Sasha's push-back claim ignores drone surveillance limits and Mirov defense gap.",
+     "problem": "Execute a safe evacuation of civilians tonight before the inevitable assault while preventing Vostra from securing an easy road to Mirov.",
+     "onA": "Kai correctly identifies that moving artillery and civilians under constant drone watch is too risky, but his plan needs explicit civilian inclusion.",
+     "onB": "Sasha's desire to fight back is inspiring but ignores the reality of dwindling ammo, brittle morale, and the high probability of failure against two divisions.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "Kai's plan prioritizes the actual survival of the troops and civilians by acknowledging the mathematical impossibility of a successful night maneuver under drone surveillance, whereas Sasha's plan risks exposing everyone to annihilation for a chance at a tactical victory we cannot sustain.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai emphasizes static defense risk and Red Ceasefire trap; Sasha highlights ammo constraints and civilian evacuation urgency. Both agree on imminent Vostran attack.",
+     "problem": "How to prevent the annihilation of the 4th Brigade and loss of Halden's civilians within 72 hours given dwindling ammunition, high confidence in an enemy attack, and a compromised ceasefire offer.",
+     "onA": "Kai correctly identifies the strategic danger of staying static and the unreliability of the enemy's ceasefire offer, but presents a cold calculation that risks alienating the public.",
+     "onB": "Sasha effectively appeals to the immediate humanitarian necessity of saving civilians before the attack, though she repeats the conclusion without fully addressing how to execute it safely.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Kai's argument that a static defense guarantees annihilation and that the ceasefire is a trap based on Vostra's history at Orsk provides a stronger strategic foundation than Sasha's emotional appeal alone.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai argues fighting withdrawal risks annihilation; Sasha insists holding ground proves resolve despite civilian risk. Both agree on imminent attack but differ on bridge timing.",
+     "problem": "How to evacuate civilians and save the brigade before annihilation without triggering a catastrophic static defense or a broken ceasefire trap.",
+     "onA": "Kai's static-defense argument is dangerous as it ignores the high likelihood of artillery fire during a holding action, yet his proposal to blow the bridge first still leaves the town undefended.",
+     "onB": "Sasha correctly identifies the civilian evacuation urgency but her insistence on holding despite dwindling ammo and a known broken ceasefire offer makes her plan operationally suicidal.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Kai's assessment that a static defense guarantees annihilation is strategically sound, even if his execution of the bridge blow-up needs refinement to save civilians.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai risks losing Mirov by withdrawing early; Sasha's 'push first' tactic is operationally impossible without air cover against drones.",
+     "problem": "How to evacuate civilians and preserve the brigade while denying Vostra a clear road to Mirov within a hostile, drone-surveilled environment.",
+     "onA": "His logic on static defense annihilation is sound, but his plan still leaves Mirov vulnerable and fails to address how to move artillery safely under constant drone surveillance.",
+     "onB": "Her moral stance on not retreating is admirable, yet her tactical requirement to fight off a massed attack without air support or cover smoke makes the mission suicidal.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "Despite his flaws regarding Mirov's defense, Kai correctly identifies that fighting under drone surveillance guarantees destruction, making a planned withdrawal the only viable survival option.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 3,
+   "B": 0,
+   "U": 2
+  },
+  {
+   "A": 4,
+   "B": 0,
+   "U": 1
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 5,
+  "B": 0
+ },
+ "winner": "A",
+ "winnerType": "TEC-LIB",
+ "tokens": {
+  "in": 31975,
+  "out": 4541,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 268034001,
+   "attempts": 1,
+   "tokensIn": 1186,
+   "tokensOut": 207,
+   "ms": 5858
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 268034002,
+   "attempts": 1,
+   "tokensIn": 1218,
+   "tokensOut": 208,
+   "ms": 5788
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 268034003,
+   "attempts": 1,
+   "tokensIn": 1288,
+   "tokensOut": 233,
+   "ms": 6823
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 268034004,
+   "attempts": 1,
+   "tokensIn": 1288,
+   "tokensOut": 256,
+   "ms": 6231
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 268034005,
+   "attempts": 1,
+   "tokensIn": 1288,
+   "tokensOut": 206,
+   "ms": 4979
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 268034006,
+   "attempts": 1,
+   "tokensIn": 1288,
+   "tokensOut": 217,
+   "ms": 5257
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 268034007,
+   "attempts": 1,
+   "tokensIn": 1288,
+   "tokensOut": 236,
+   "ms": 5703
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 268034008,
+   "attempts": 1,
+   "tokensIn": 1473,
+   "tokensOut": 180,
+   "ms": 5447
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 268034009,
+   "attempts": 1,
+   "tokensIn": 1674,
+   "tokensOut": 199,
+   "ms": 5940
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 268034010,
+   "attempts": 1,
+   "tokensIn": 1516,
+   "tokensOut": 238,
+   "ms": 6776
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 268034011,
+   "attempts": 1,
+   "tokensIn": 1543,
+   "tokensOut": 231,
+   "ms": 6258
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 268034012,
+   "attempts": 1,
+   "tokensIn": 1493,
+   "tokensOut": 258,
+   "ms": 7295
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 268034013,
+   "attempts": 1,
+   "tokensIn": 1504,
+   "tokensOut": 223,
+   "ms": 6042
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 268034014,
+   "attempts": 1,
+   "tokensIn": 1521,
+   "tokensOut": 209,
+   "ms": 5725
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 268034015,
+   "attempts": 1,
+   "tokensIn": 1789,
+   "tokensOut": 195,
+   "ms": 5816
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 268034016,
+   "attempts": 1,
+   "tokensIn": 1990,
+   "tokensOut": 201,
+   "ms": 5972
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 268034017,
+   "attempts": 1,
+   "tokensIn": 1732,
+   "tokensOut": 213,
+   "ms": 6283
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 268034018,
+   "attempts": 1,
+   "tokensIn": 1754,
+   "tokensOut": 222,
+   "ms": 6415
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 268034019,
+   "attempts": 1,
+   "tokensIn": 1728,
+   "tokensOut": 202,
+   "ms": 6024
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 268034020,
+   "attempts": 1,
+   "tokensIn": 1707,
+   "tokensOut": 206,
+   "ms": 6507
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 268034021,
+   "attempts": 1,
+   "tokensIn": 1707,
+   "tokensOut": 201,
+   "ms": 5651
+  }
+ ],
+ "startedAt": "2026-11-04T22:57:00.842Z",
+ "seconds": 127
+}

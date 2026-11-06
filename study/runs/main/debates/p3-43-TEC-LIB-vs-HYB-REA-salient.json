@@ -1,0 +1,609 @@
+{
+ "id": "p3-43-TEC-LIB-vs-HYB-REA-salient",
+ "pass": 3,
+ "pairIndex": 43,
+ "seed": 264993,
+ "scenario": "salient",
+ "scenarioVersion": 2,
+ "domain": "military",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-LIB",
+  "style": "TEC",
+  "ideology": "LIB",
+  "name": "Alex Novak",
+  "platform": "We must execute an immediate nighttime fighting withdrawal across the bridge to save the 4th Brigade and evacuate as many civilians as possible before Vostra attacks.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize precise casualty figures and the impossibility of holding against a 3-to-1 force ratio to sway members focused on military reality."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing supply exhaustion and the specific threat of drone surveillance to show that his defensive posture is mathematically fatal, while framing my withdrawal as a way to preserve forces for future defense."
+   },
+   {
+    "round": 3,
+    "text": "I am trying to convince them that preserving the brigade's fighting capability and defending Mirov outweighs the cost of a temporary retreat and some civilian evacuation, emphasizing the certainty of their plan's failure."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-REA",
+  "style": "HYB",
+  "ideology": "REA",
+  "name": "Riley Sandor",
+  "platform": "We hold Halden, build a secret pontoon bridge, and wait for allied supplies while preparing to blow the original crossing.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize the strategic necessity of holding Mirov to appeal to pragmatic voters while framing withdrawal as a moral failure that ignores hard intelligence."
+   },
+   {
+    "round": 2,
+    "text": "I am framing the withdrawal as a strategic disaster for Mirov while emotionally defending the civilians who refuse to leave, making my opponent's choice look like both reckless and cruel."
+   },
+   {
+    "round": 3,
+    "text": "I must convince the council that Alex's 'cautious' retreat actually guarantees greater disaster by leaving the capital region open and abandoning civilians, whereas my plan uses Halden's defensive advantage to force Vostra into a costly assault while securing our future logistics."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Alex Novak",
+   "type": "TEC-LIB",
+   "speech": "The arithmetic here is clear. We have 9 days of ammunition left, but Vostra likely attacks within 72 hours. A defensive stand guarantees capture or annihilation; our only viable exit is a fighting withdrawal tonight. Staff estimates losses of 15 to 30 percent if we move under drone watch, but staying puts the entire brigade at near 100 percent casualty risk once they are surrounded. We must blow the bridge afterward to deny Vostra access to Mirov. While some civilians will be left behind due to their refusal to leave, sacrificing the entire mechanized unit and the town of Orsk's fate is not a calculated cost but a guaranteed catastrophe. The strategic reserve cannot reach us in time, and waiting for allies leaves us exposed now. We move tonight.",
+   "words": 129
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "HYB-REA",
+   "speech": "Captain Miller of the 4th Brigade stands on that frozen bank right now, clutching a rifle that will soon run dry. We have ammunition for nine days, not an eternity, but we have time if we use it. Your withdrawal plan surrenders Mirov to Vostra and abandons sixty thousand souls to enemy drones before they even cross the river. That is not survival; that is suicide disguised as caution. We hold our ground because the fortress demands three attackers for every defender; we are not out of time, we are out of patience. Let us build the hidden bridge in four days, secure the civilians, and ensure when Vostra attacks, they find a wall of steel rather than an empty road to Mirov. Our security depends on strength, not retreat.",
+   "words": 130
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Alex Novak",
+   "type": "TEC-LIB",
+   "speech": "Riley, your reliance on a three-to-one attacker ratio assumes we fight a pitched battle, which is impossible once surrounded. We have twenty days of food and nine of ammunition; using them defensively guarantees total annihilation before allies arrive or the hidden bridge completes. Your plan leaves Mirov open for weeks while our reserve is tied down elsewhere. The Red Cross ceasefire offer provides a verified window to move civilians without heavy artillery fire, unlike your static defense which invites saturation bombing by drones watching the river. Retreating now saves the brigade's fighting capacity to defend Mirov later. Holding costs us everything and gives Vostra exactly what they need: a broken enemy force and control of the strategic axis. We cannot afford the luxury of patience when our supplies are depleting daily.",
+   "words": 131
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "HYB-REA",
+   "speech": "Captain Novak, you mistake survival for retreat. You claim our reserve cannot reach us, yet tying down that entire mechanized brigade at Mirov leaves the city undefended for a month against a guaranteed Vostran advance. That is not saving assets; it is burning our strategic future to buy present safety. Your plan accepts losing sixty thousand civilians now because they refuse to flee immediately, but history shows they will be slaughtered regardless if we leave them behind in the dark. We are not out of supplies; we are out of time to build confidence. Hold the fortress line, complete the hidden bridge in four days, and force Vostra to attack a wall instead of an empty road. We fight with our numbers intact because strength is the only currency that buys freedom.",
+   "words": 132
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Alex Novak",
+   "type": "TEC-LIB",
+   "speech": "Riley, holding Halden does not guarantee victory; it guarantees annihilation. The arithmetic is undeniable: our ammunition lasts nine days, but Vostra attacks within seventy-two. Staying means surrendering the entire mechanized brigade and leaving Mirov indefensible for a month against a certain enemy advance. Your plan accepts a thirty percent casualty rate to save a position that will eventually fall anyway. Evacuating tonight preserves our fighting force to defend the national interior later. We cannot trade our strategic reserves for a fortress that requires three attackers for every defender and has no air support. Retreating now denies Vostra the propaganda victory they covet before the aid vote, while saving the unit to fight again. The choice is between calculated risk or guaranteed destruction.",
+   "words": 122
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "HYB-REA",
+   "speech": "Alex asks us to trade our lives for a myth. He calculates a thirty percent loss tonight, but he ignores the cost of leaving Mirov undefended for a month against an enemy division. That is not risk management; it is trading our army today for a massacre tomorrow. His plan accepts the Red Cross trap and abandons civilians who refuse to flee. But holding Halden forces Vostra to attack a fortress needing three attackers per defender, draining their strength while we finish our hidden bridge. In four days, we double supply lines and deny them Mirov entirely. We do not run from a challenge; we meet it with steel. Vote to hold, build the bridge, and let history see that we stood when others fled.",
+   "words": 125
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex prioritizes survival via immediate withdrawal tonight to avoid encirclement; Riley insists on holding the fortress, building a hidden bridge in 4 days, and waiting for Vostra's attack.",
+     "problem": "We must decide whether to sacrifice some troops and civilians now for a guaranteed chance to hold the town, or retreat immediately to save the brigade at the cost of losing the strategic position and some civilians.",
+     "onA": "His plan is militarily sound regarding encirclement risks but feels like a moral surrender of the national symbol and the bridge defense.",
+     "onB": "His argument relies heavily on high morale and the fortress advantage, but it dangerously underestimates the certainty of total annihilation if drones spot our movement later or if supply lines break.",
+     "lean": "Alex Novak",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate threat of encirclement with dwindling ammo makes the 'fight to the end' strategy extremely risky; Alex's pragmatic approach to securing at least the unit's survival seems more viable despite the political cost.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex: Retreating saves the brigade for Mirov; food lasts but ammo is critical. Riley: Leaving civilians dies anyway; reserve must hold Mirov. Both ignore immediate drone strike risk on bridge.",
+     "problem": "The core conflict is whether to accept near-certain destruction of the garrison and many civilians now to preserve a strategic reserve, or hold a 'national symbol' fortress knowing supply lines are likely to be cut before reinforcements arrive.",
+     "onA": "His plan prioritizes saving the fighting force and securing Mirov, which is strategically sound, but feels like a moral compromise regarding the civilians who refuse to leave.",
+     "onB": "He correctly identifies that losing Halden might mean losing everything (bride + morale) but underestimates the lethal reality of being surrounded with dwindling ammo and watched by drones.",
+     "lean": "Alex Novak",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The certainty of annihilation within 20 days without an external breakthrough outweighs the propaganda value of holding a fortress that is already surrounded.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Alex prioritizes unit survival and Mirov defense; Riley insists on holding the fortress to drain enemy strength despite ammo limits.",
+     "problem": "The core conflict is whether to guarantee immediate attrition by holding an indefensible position or accept a calculated withdrawal to save the army and defend the capital region.",
+     "onA": "His plan is militarily sound for preserving the fighting force but feels like abandoning civilians, though he correctly notes the ammo timeline makes holding impossible long-term.",
+     "onB": "He appeals strongly to national pride and the fortress advantage, yet his strategy ignores the certainty of annihilation given the dwindling ammunition supply and drone surveillance.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "The math is undeniable: with only nine days of ammo left against an imminent attack, holding guarantees the loss of both the brigade and the civilians anyway, whereas withdrawal preserves the army to defend Mirov later.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex: Withdraw tonight to avoid encirclement, accept 15-30% brigade loss and civilian abandonment risk. Riley: Hold fortress for 4 days to build hidden bridge and save civilians, risking total annihilation.",
+     "problem": "How to prevent the guaranteed destruction of the 4th Brigade and sacrifice of Mirov while maximizing civilian survival in a time-critical situation.",
+     "onA": "His plan offers a rational escape from certain death but requires accepting high losses and leaving civilians behind, which clashes with national morale.",
+     "onB": "His plan relies on an optimistic timeline for engineering work that ignores the immediate threat of Vostran artillery and the fragility of current ammunition supplies.",
+     "lean": "Alex Novak",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The arithmetic of encirclement is undeniable: staying put with dwindling ammo guarantees a worse outcome than a calculated withdrawal, even if it costs civilians.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex: Ceasefire allows civilian evacuation without artillery delay; holding invites saturation bombing. Riley: Leaving civilians guarantees slaughter; tying down reserve leaves Mirov vulnerable to guaranteed advance.",
+     "problem": "Balancing the immediate, calculable loss of a brigade and civilians via retreat against the strategic catastrophe of leaving Mirov undefended while risking total annihilation by a fortified stand.",
+     "onA": "His logic on preserving fighting strength and securing Mirov is sound, but accepting the slaughter of 6,000 civilians who refuse to leave feels like a moral failure regardless of tactical efficiency.",
+     "onB": "His insistence on saving civilians is morally imperative, yet his plan ignores the brutal arithmetic of dwindling ammo and the high probability of annihilation before the hidden bridge can be built.",
+     "lean": "Alex Novak",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "While Riley's moral argument is strong, I cannot support a plan that guarantees the total destruction of our remaining forces and leaves Mirov exposed to capture before the reserve can reinforce it.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Alex: Retreating saves the brigade and Mirov but abandons civilians. Riley: Holding risks annihilation to save civilians and deny Mirov's fall.",
+     "problem": "Balancing the immediate, calculable loss of forces and civilians against the strategic catastrophe of leaving Mirov undefended while facing certain annihilation.",
+     "onA": "His arithmetic on preserving fighting strength is undeniable, yet accepting the slaughter of 6,000 refugees who refuse to leave feels like a moral failure regardless of tactical efficiency.",
+     "onB": "Saving civilians is morally imperative, but his plan dangerously ignores the brutal reality of dwindling ammunition and the high probability of total annihilation before the hidden bridge can be built.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "I cannot support a plan that guarantees the total destruction of our remaining forces and leaves Mirov exposed to capture, even if it means we face heavy civilian losses.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex argues for night withdrawal now to avoid annihilation; Riley argues for holding ground and building a hidden bridge.",
+     "problem": "Deciding whether to risk a chaotic retreat tonight or hold a fortified position that may eventually become untenable.",
+     "onA": "His plan prioritizes force preservation and preventing the strategic defeat of losing Mirov, but accepts high civilian casualties and leaves behind those who refuse to flee.",
+     "onB": "He correctly identifies that holding the fortress forces the enemy to over-commit, but his dismissal of withdrawal risks total annihilation if intelligence proves correct about the imminent attack.",
+     "lean": "Alex Novak",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "While holding is noble, the arithmetic of ammunition and the high probability of being surrounded in 72 hours makes Alex's survival-focused retreat the only viable military option.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex: Retreat preserves fighting power but risks civilian slaughter and leaves Mirov vulnerable. Riley: Holding forces enemy over-commitment but risks total annihilation if intelligence is correct.",
+     "problem": "We must choose between a high-probability chaotic retreat that saves the army but likely loses civilians, or a high-stakes defensive hold that risks destroying our force to potentially save the city.",
+     "onA": "His argument for saving the brigade and securing Mirov is militarily sound, but his willingness to leave 6,000 non-fleeing civilians behind feels like an unacceptable moral compromise given the context of Orsk.",
+     "onB": "He correctly identifies that holding forces the enemy over-commitment, yet he dangerously underestimates the risk of being surrounded and annihilated if the 'feint' intelligence proves wrong.",
+     "lean": "Alex Novak",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "While Riley's moral framing is stirring, the arithmetic of ammunition running out in nine days and the high probability of a Vostran attack makes a static defense suicidal.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Alex prioritizes force preservation and saving Mirov but risks civilian slaughter; Riley argues holding drains Vostra while building a bridge, risking annihilation if the intelligence is right.",
+     "problem": "We must choose between a high-probability chaotic retreat that saves the army but likely loses civilians, or a high-stakes defensive hold that risks destroying our force to potentially save the city.",
+     "onA": "His plan is militarily sound for saving the brigade and Mirov, yet abandoning non-fleeing civilians who faced Orsk makes it morally unacceptable.",
+     "onB": "He correctly identifies the strategic value of overcommitting Vostra but dangerously underestimates the risk of total annihilation if the intelligence on an imminent attack is accurate.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "While Riley's moral framing is stirring, the arithmetic of ammunition running out in nine days and the high probability of a Vostran attack makes a static defense suicidal. Saving the fighting force to defend the interior later is the only viable long-term option.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex: Fighting withdrawal tonight minimizes casualties but leaves civilians behind and risks drone spotting. Riley: Hold ground to use fortress advantage and build hidden bridge, but ignores imminent drone threat and civilian refusal to leave.",
+     "problem": "Balancing the high risk of immediate annihilation from a likely Vostran assault against the strategic cost of losing Mirov and abandoning civilians if we hold.",
+     "onA": "His plan is mathematically sound for saving the unit but feels morally compromised by leaving 6,000 civilians and failing to stop the advance on Mirov.",
+     "onB": "She correctly identifies the fortress's defensive strength and the danger of an empty bridge, yet her dismissal of the drone threat and civilian refusal makes the hold plan dangerously optimistic.",
+     "lean": "Alex Novak",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The certainty of a full-casualty annihilation in 72 hours if we stay outweighs the risks of withdrawal, as the strategic reserve cannot reach us anyway.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex: Supplies deplete daily; static defense guarantees annihilation. Riley: Holding preserves strength to defend Mirov later; leaving civilians is catastrophic.",
+     "problem": "We must choose between preserving the army and a strategic defensive line (Riley) or sacrificing the current position to save supplies, civilians, and the reserve for Mirov (Alex).",
+     "onA": "His argument that static defense leads to total annihilation is logically sound given our dwindling ammunition, but his plan still feels morally compromised by abandoning non-combatants.",
+     "onB": "She correctly identifies that holding preserves future strength, but her dismissal of the drone threat and the certainty that civilians will be slaughtered leaves no room for error.",
+     "lean": "Alex Novak",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The mathematical certainty of running out of supplies while surrounded outweighs the high probability of a failed withdrawal, even though saving civilians is difficult.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Alex: Holding guarantees annihilation and leaves civilians/strategic reserve at risk. Riley: Withdrawal abandons Mirov for a month and ignores civilian refusal to flee.",
+     "problem": "Whether to accept high immediate casualties and strategic loss of Mirov to save civilians and the brigade (Alex) or gamble on holding a fortress that will surely fall in days while risking total encirclement and massacre (Riley).",
+     "onA": "His plan is mathematically superior for survival but morally difficult due to civilian evacuation issues; however, the alternative is certain destruction.",
+     "onB": "Her argument relies on an unrealistic timeline where engineers build a hidden bridge while surrounded by drones, ignoring that civilians will be left behind or killed.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "The certainty of losing our entire mechanized brigade and leaving Mirov indefensible outweighs the difficulty of evacuating civilians, especially since Vostra has already proven they break ceasefires and will slaughter non-combatants if we stay.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex: Withdraw tonight to save brigade (15-30% loss), blow bridge. Riley: Hold with hidden bridge, civilians stay, deny Vostra Mirov.",
+     "problem": "Decide whether to accept immediate attrition risk for a fighting withdrawal or hold against higher odds of annihilation while protecting civilians and strategic depth.",
+     "onA": "His plan prioritizes saving the unit but accepts abandoning the fortress, some civilians, and handing Vostra an easy bridge into Mirov.",
+     "onB": "He argues for holding despite drone surveillance and civilian reluctance, relying on terrain advantages and a delayed hidden crossing.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot yet reconcile the high probability of total annihilation in Halden against the certainty of partial losses in a withdrawal.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex: Withdraw saves unit but abandons civilians and Mirov. Riley: Hold forces Vostra to attack a wall; reserve can't save everyone anyway.",
+     "problem": "Whether to accept partial losses now to preserve strategic depth and civilian lives, or risk total annihilation for an unwinnable static defense.",
+     "onA": "His logic on saving the unit is sound, but accepting the loss of Halden as a fait accompli before aid votes undermines our political standing.",
+     "onB": "He correctly identifies that tying down the reserve at Mirov while holding a doomed fortress creates a strategic trap rather than safety.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Riley's point on Mirov is crucial, but abandoning civilians who refuse to flee feels morally unacceptable regardless of the tactical logic.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Alex: Retreating saves unit but abandons Mirov and civilians to imminent massacre. Riley: Holding forces costly Vostran assault while delaying hidden bridge; leaving Mirov undefended for a month is strategic suicide.",
+     "problem": "Whether to accept immediate partial losses to preserve the army and Mirov's defense, or risk total annihilation by holding a doomed fortress that leaves the interior indefensible.",
+     "onA": "His plan is tactically sound but fails morally by abandoning civilians who refuse to flee and leaving Mirov vulnerable to a guaranteed enemy advance.",
+     "onB": "He correctly identifies that retreating now guarantees the loss of the capital's strategic depth, forcing us to trade our future army for today's symbolic victory.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "While the risks are terrifying, abandoning Mirov for a month against a massed division is an existential threat that outweighs the casualties of a difficult stand; we must fight to hold ground rather than run from it.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 4,
+   "B": 0,
+   "U": 1
+  },
+  {
+   "A": 4,
+   "B": 0,
+   "U": 1
+  },
+  {
+   "A": 4,
+   "B": 1,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 4,
+  "B": 1
+ },
+ "winner": "A",
+ "winnerType": "TEC-LIB",
+ "tokens": {
+  "in": 36174,
+  "out": 4656,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 264993001,
+   "attempts": 1,
+   "tokensIn": 1346,
+   "tokensOut": 238,
+   "ms": 6568
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 264993002,
+   "attempts": 1,
+   "tokensIn": 1444,
+   "tokensOut": 235,
+   "ms": 6500
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 264993003,
+   "attempts": 1,
+   "tokensIn": 1517,
+   "tokensOut": 240,
+   "ms": 6636
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 264993004,
+   "attempts": 1,
+   "tokensIn": 1517,
+   "tokensOut": 217,
+   "ms": 5215
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 264993005,
+   "attempts": 1,
+   "tokensIn": 1517,
+   "tokensOut": 197,
+   "ms": 4753
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 264993006,
+   "attempts": 1,
+   "tokensIn": 1517,
+   "tokensOut": 234,
+   "ms": 5615
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 264993007,
+   "attempts": 1,
+   "tokensIn": 1517,
+   "tokensOut": 195,
+   "ms": 4694
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 264993008,
+   "attempts": 1,
+   "tokensIn": 1713,
+   "tokensOut": 210,
+   "ms": 6152
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 264993009,
+   "attempts": 1,
+   "tokensIn": 1879,
+   "tokensOut": 205,
+   "ms": 6088
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 264993010,
+   "attempts": 1,
+   "tokensIn": 1719,
+   "tokensOut": 243,
+   "ms": 7167
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 264993011,
+   "attempts": 1,
+   "tokensIn": 1696,
+   "tokensOut": 243,
+   "ms": 6796
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 264993012,
+   "attempts": 1,
+   "tokensIn": 1676,
+   "tokensOut": 246,
+   "ms": 6485
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 264993013,
+   "attempts": 1,
+   "tokensIn": 1713,
+   "tokensOut": 216,
+   "ms": 5798
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 264993014,
+   "attempts": 1,
+   "tokensIn": 1672,
+   "tokensOut": 198,
+   "ms": 5355
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 264993015,
+   "attempts": 1,
+   "tokensIn": 2058,
+   "tokensOut": 208,
+   "ms": 6138
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 264993016,
+   "attempts": 1,
+   "tokensIn": 2219,
+   "tokensOut": 217,
+   "ms": 6393
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 264993017,
+   "attempts": 1,
+   "tokensIn": 1929,
+   "tokensOut": 206,
+   "ms": 6429
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 264993018,
+   "attempts": 1,
+   "tokensIn": 1906,
+   "tokensOut": 212,
+   "ms": 6493
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 264993019,
+   "attempts": 1,
+   "tokensIn": 1889,
+   "tokensOut": 235,
+   "ms": 6688
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 264993020,
+   "attempts": 1,
+   "tokensIn": 1895,
+   "tokensOut": 231,
+   "ms": 6957
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 264993021,
+   "attempts": 1,
+   "tokensIn": 1835,
+   "tokensOut": 230,
+   "ms": 6558
+  }
+ ],
+ "startedAt": "2026-11-05T03:52:48.143Z",
+ "seconds": 129
+}

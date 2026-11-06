@@ -1,0 +1,606 @@
+{
+ "id": "p1-61-TEC-LIB-vs-TEC-REA-salient",
+ "pass": 1,
+ "pairIndex": 61,
+ "seed": 570818,
+ "scenario": "salient",
+ "domain": "military",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-LIB",
+  "style": "TEC",
+  "ideology": "LIB",
+  "name": "Reese Calder",
+  "platform": "We must execute a disciplined fighting withdrawal across the bridge tonight while blowing it behind us to deny Vostra access to Mirov.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize hard numbers regarding ammunition depletion and bridge vulnerability to appeal to pragmatic council members who fear a total strategic loss."
+   },
+   {
+    "round": 2,
+    "text": "I will challenge Jordan's claim that Mirov is exposed by arguing that losing our entire mechanised brigade makes Mirov indefensible, forcing him to defend an untenable position on both fronts."
+   },
+   {
+    "round": 3,
+    "text": "I am highlighting the catastrophic long-term risk of leaving Mirov exposed to turn the council against Jordan's plan while acknowledging the harsh choice regarding civilians as a necessary trade-off."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-REA",
+  "style": "TEC",
+  "ideology": "REA",
+  "name": "Jordan Hale",
+  "platform": "We must execute a fighting withdrawal of the 4th Brigade and all civilians across the Drava bridge during the next 72 hours, followed by demolishing the bridge to prevent Vostra's encirclement.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize the certainty of Vostran attack over unreliable ceasefire promises to force a vote for immediate withdrawal."
+   },
+   {
+    "round": 2,
+    "text": "Appeal to the council's moral duty and long-term strategic necessity by framing the retreat as an orderly operation backed by reserves, countering Reese's cold calculation of losses with the intangible value of civilian protection and national honor."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the political catastrophe of abandoning civilians and Mirov to force votes away from his purely military calculus."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Reese Calder",
+   "type": "TEC-LIB",
+   "speech": "Colleagues, the facts dictate a fighting withdrawal tonight. Our artillery lasts nine days; intelligence suggests an attack within seventy-two hours. A static defense risks encirclement and collapse before allies arrive in three weeks. The Red Cross offer is unreliable; Vostra broke their previous ceasefire. Evacuating civilians immediately is impossible without moving heavy equipment, which delays our exit. We move the brigade across the Drava at night, inflict limited attrition on the enemy to slow them, and demolish the bridge. This denies Vostra a march on Mirov, preserves our mechanised reserve for defence elsewhere, and avoids the catastrophic casualties of holding Halden until starvation or bombardment forces surrender. We accept temporary propaganda cost to save our troops and maintain future military options.",
+   "words": 121
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "TEC-REA",
+   "speech": "The current position is unsustainable. We have artillery for nine days and food for twenty, but intelligence indicates a Vostran divisional attack within seventy-two hours. Waiting guarantees annihilation; fighting through costs lives we can spare now to save thousands later. Pulling back forces leaves the rear city of Mirov exposed, which risks collapse if Vostra occupies our forward positions immediately. The Red Cross ceasefire is worthless; their commander broke a previous one in Orsk after twenty hours. Blowing the bridge denies them a quick march on Mirov while we evacuate personnel before reinforcements arrive in three weeks. Retreating now preserves our army for future defense and avoids the propaganda catastrophe of losing Halden before allied aid votes.",
+   "words": 117
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Reese Calder",
+   "type": "TEC-LIB",
+   "speech": "Jordan, you claim waiting guarantees annihilation, yet you admit Mirov is exposed. Your argument conflates saving a symbolic town with saving the army, ignoring that our reserve is already too thin to hold both lines. By committing the reserve to Halden now, you force us into an impossible choice: lose the city and sacrifice the reserve, or lose the city and starve our brigade. My plan prioritizes the brigade's survival. Blowing the bridge denies Vostra immediate access to Mirov while we extract forces intact. Waiting for air support leaves us vulnerable to encirclement tonight. We must move now to preserve combat power for a future defense where numbers matter more than headlines. The cost of holding is total loss; the cost of moving is manageable attrition.",
+   "words": 126
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "TEC-REA",
+   "speech": "Your plan ignores the human cost of abandoning six thousand civilians while Vostra's propaganda machine turns our retreat into a surrender narrative. You assume attrition is 'manageable,' yet losing half our brigade before allies arrive leaves us defenseless for years. My proposal commits the mechanized reserve to break through, securing our flank so we can withdraw in good order rather than running. This denies Vostra the political victory they crave while saving our army's honor and fighting capability. Waiting guarantees encirclement; moving with full support ensures survival. We fight for our people, not just for a strategic position that collapses without them.",
+   "words": 102
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Reese Calder",
+   "type": "TEC-LIB",
+   "speech": "Colleagues, the arithmetic is clear. Jordan asks us to commit our strategic reserve to Mirov while the bridge remains intact. This exposes a critical gap in our rear line for a month, leaving Mirov undefended against the very divisions massed at Halden. My plan preserves that reserve for future defense where we have numerical superiority. We execute tonight: move the brigade, inflict attrition, and blow the bridge. This denies Vostra immediate access to Mirov while evacuating our troops intact. Yes, a few civilians remain behind, but abandoning them guarantees their deaths when encirclement is complete. Waiting for air support that allies refuse to provide is suicide. We accept limited civilian risk to save our army's fighting power and prevent the strategic collapse of Mirov. The data supports withdrawal; I ask your votes.",
+   "words": 132
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "TEC-REA",
+   "speech": "Reese's plan abandons six thousand civilians and leaves Mirov exposed for a month, betting on enemy caution that Orsk proved false. His arithmetic ignores the political reality: losing Halden before the aid vote guarantees zero future support. My plan executes tonight but commits our strategic reserve to break through, ensuring civilian evacuation and securing Mirov immediately. We deny Vostra's propaganda victory without leaving thousands to die or creating a gap they will surely exploit. This is not idealism; it is the only path that saves our army's honor while preserving our future defense against an enemy ready to strike whenever they choose.",
+   "words": 102
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese: Night withdrawal, destroy bridge, save reserve for Mirov. Jordan: Same tactical move but emphasizes unsustainable position and propaganda risk of delay.",
+     "problem": "Kaldmark must decide between a risky night fighting withdrawal to preserve forces or a static defense that risks annihilation, with the added complexity of civilian evacuation and political pressure.",
+     "onA": "Reese's plan is logically sound militarily but frames the decision as purely tactical rather than addressing the critical moral dilemma of the civilians trapped inside.",
+     "onB": "Jordan repeats Reese's military logic almost verbatim without adding new strategic insight or acknowledging the human cost differently.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers propose identical military actions, so I cannot yet distinguish between them until one addresses the political and humanitarian nuances of the situation.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese prioritizes army survival but risks civilian disaster; Jordan links evacuation to reserve commitment, ignoring Mirov's vulnerability.",
+     "problem": "The core dilemma is whether preserving the strategic reserve for future defense justifies leaving civilians to potential capture or blowing up a bridge without guaranteed safe passage.",
+     "onA": "Reese's plan saves the military asset but feels morally hollow by treating civilian lives as secondary variables in a purely tactical equation.",
+     "onB": "Jordan correctly identifies that abandoning civilians creates a strategic liability, yet their solution of committing the reserve to Halden threatens the defense of Mirov entirely.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain conflicted because Reese offers better long-term strategy but worse humanitarian outcomes, while Jordan saves people now at the risk of collapsing our entire eastern front.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese prioritizes army survival but risks civilian disaster; Jordan links evacuation to reserve commitment, ignoring Mirov's vulnerability.",
+     "problem": "Kaldmark must decide whether a risky night withdrawal preserves the strategic reserve for future defense or commits it now to evacuate civilians and secure Mirov immediately.",
+     "onA": "His plan is militarily sound but morally hollow for treating 6,000 civilians as acceptable casualties to save an army asset.",
+     "onB": "He correctly identifies the humanitarian and political stakes but risks exposing Mirov by committing our only mechanized reserve to a likely failed breakthrough.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "The immediate loss of the strategic reserve is strategically fatal regardless of civilian casualties, so preserving our ability to fight next year's war is the non-negotiable priority.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Both speakers advocate for an immediate fighting withdrawal due to unsustainable supply lines and imminent Vostran attack. Both reject the ceasefire offer citing unreliability.",
+     "problem": "Kaldmark must decide whether to fight a costly holding action or execute a risky night withdrawal to save its remaining forces before being encircled by Vostra.",
+     "onA": "Reese focuses on tactical reality and long-term survival, accepting the propaganda cost to avoid catastrophic loss of the brigade.",
+     "onB": "Jordan argues similarly for withdrawal but emphasizes that retreating now preserves the army specifically to defend against the immediate threat to Mirov if Vostra advances rapidly.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans are logically consistent with the intelligence regarding supply exhaustion and enemy massing, but I have not yet evaluated the specific risks of the night withdrawal versus holding until starvation.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese argues attrition is manageable and saving the brigade is key; waiting guarantees encirclement. Jordan claims ignoring civilians ruins honor and that a full reserve commitment ensures an orderly withdrawal.",
+     "problem": "Kaldmark must choose between a risky night withdrawal with partial losses to save its main fighting force or commit its strategic reserve to hold Halden, risking the defense of Mirov against a likely major attack.",
+     "onA": "His plan is tactically sound for saving the brigade but morally troubling due to abandoning civilians and blowing the bridge which might sever our own retreat if the Vostrans capture it before we cross.",
+     "onB": "His moral argument about civilians is strong, but relying on the reserve to hold a river crossing against massed enemy forces while expecting them to fight back seems strategically reckless given the current supply gaps.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Reese's focus on saving the brigade's combat power is pragmatic, yet Jordan's insistence on not abandoning civilians and securing an orderly withdrawal via the reserve appeals to our national honor and long-term stability.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese prioritizes saving the brigade but abandons civilians and risks Mirov's long-term defense. Jordan saves civilians and secures Mirov immediately but relies on a risky reserve breakthrough against massed enemy forces.",
+     "problem": "Kaldmark must choose between saving its remaining combat power at the cost of abandoning civilians or protecting both the population and Mirov by risking the strategic reserve in a high-probability defeat scenario.",
+     "onA": "His plan is tactically sound for preserving the army but morally indefensible given the known fate of Orsk's civilians, making the 'limited risk' justification unacceptable.",
+     "onB": "His commitment to honor and civilian safety is correct, yet relying on a single mechanized brigade to break through against two Vostran divisions while Mirov is undefended is strategically reckless.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "While the moral cost of abandoning civilians is terrible, Jordan's reliance on the strategic reserve to hold Halden until the bridge blows is a strategic gamble that leaves Mirov exposed for a month; saving the brigade's fighting power is essential for any future defense, whereas committing it now likely guarantees its destruction.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese emphasizes night withdrawal and bridge destruction to deny Mirov; Jordan stresses retreat preserves army but risks Mirov exposure. Both agree on imminent attack and Red Cross unreliability.",
+     "problem": "Decide whether to immediately fight a costly withdrawal or hold static defenses risking encirclement, balancing the loss of Halden against saving the mechanized reserve.",
+     "onA": "Reese's plan is militarily sound but dismisses civilian evacuation complexities too quickly and accepts high propaganda risk without mitigation.",
+     "onB": "Jordan correctly identifies the strategic need to save the army but underestimates the immediate danger to Mirov if we retreat without holding Halden long enough for allies to arrive or defenses to form.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers agree on the military necessity of moving, but I need more details on how each plan handles the civilians and the specific risk to Mirov before voting.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese argues saving the army requires moving now, rejecting reserve deployment as impossible due to Mirov exposure. Jordan insists holding Halden with reserve support saves honor, prevents surrender narrative, and allows organized withdrawal.",
+     "problem": "Can we preserve our remaining fighting force and civilian lives by executing an immediate, unsupported night withdrawal, or must we risk encirclement to deploy the strategic reserve for a morally superior but strategically vulnerable defense?",
+     "onA": "His plan is militarily sound for saving the brigade but fails catastrophically on humanitarian grounds by leaving 6,000 civilians behind with no evacuation mechanism.",
+     "onB": "He correctly prioritizes civilian safety and army honor but his reliance on the reserve to break through leaves Mirov dangerously exposed if the assault stalls.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn because Reese's military logic saves the unit but abandons the people, while Jordan's moral high ground risks total strategic collapse at Mirov.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese saves the army but guarantees civilian death; Jordan exposes Mirov but attempts to save both people and honor.",
+     "problem": "Must we sacrifice our remaining civilians to save the fighting force, or risk a strategic collapse at Mirov to attempt a rescue?",
+     "onA": "His plan is militarily efficient for saving the brigade, but accepting the death of 6,000 civilians and total abandonment of Halden's defense makes it morally indefensible.",
+     "onB": "While risking Mirov is dangerous, his attempt to secure civilian evacuation and prevent a propaganda victory offers the only path that preserves both our people and future aid.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Abandoning six thousand civilians to die while the enemy advances on Mirov is too high a price for tactical caution. Jordan's plan, despite its risks, attempts to save both our military honor and the lives of the trapped population.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Both speakers agree on imminent attack and unsustainability. Both propose fighting withdrawal tonight + blow bridge. Jordan emphasizes saving lives/avoiding catastrophe; Reese focuses on denying march to Mirov/reserving reserve.",
+     "problem": "How to execute a tactical withdrawal across the Drava within 72 hours while minimizing casualties and preventing Vostra from capturing Halden or threatening Mirov before allied aid arrives.",
+     "onA": "Reese's plan is logical but feels cold, prioritizing strategic denial of Mirov over immediate civilian safety.",
+     "onB": "Jordan frames the withdrawal as saving lives and avoiding catastrophe, which resonates emotionally with the high stakes for civilians.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans are operationally identical so far; I am waiting for more specific details on how each handles the evacuation of 6,000 civilians and the fragile morale of the brigade.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese argues moving reserve leaves Mirov thin and accepts attrition; Jordan insists on saving civilians/army honor but admits Mirov exposure risk.",
+     "problem": "Can we execute a high-casualty withdrawal tonight that saves the brigade and evacuates civilians without leaving Mirov defenseless against Vostra's next move?",
+     "onA": "His plan is operationally sound for preserving combat power, but feels morally bankrupt to abandon 6,000 civilians under imminent threat of massacre.",
+     "onB": "Her moral imperative to save lives and prevent propaganda victory is strong, yet her willingness to commit the reserve exposes Mirov to a critical gap we cannot fill.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between Reese's cold logic of force preservation and Jordan's urgent appeal to humanity; I need more detail on how they handle the civilian evacuation logistics.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reserve commitment is fatal; exposing Mirov to massed divisions while Halden falls risks total strategic collapse regardless of civilian loss.",
+     "problem": "Execute a disciplined withdrawal tonight that evacuates the brigade and denies Vostra Mirov, accepting the unavoidable political cost of losing civilians rather than risking our entire strategic reserve.",
+     "onA": "Reese's plan is operationally cold but necessary; preserving the reserve prevents us from becoming defenseless while abandoning civilians under enemy encirclement.",
+     "onB": "Jordan's moral fervor to save every civilian ignores the arithmetic reality that leaving Mirov undefended guarantees a worse outcome for the state than Halden's loss.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "We cannot afford to leave our strategic reserve committed and Mirov defenseless against two massed divisions; preserving our army's fighting power is the only way to eventually save any civilians left behind or defend the nation later.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese: Fight to withdraw tonight, deny bridge use, save reserve for Mirov later; accepts propaganda cost. Jordan: Current pos unsustainable, fight through to break encirclement, preserve army, avoid immediate annihilation.",
+     "problem": "How to execute a fighting withdrawal across the Drava before Vostra attacks within 72 hours while minimizing casualties and protecting strategic options.",
+     "onA": "Focuses on preserving the mechanized reserve as a future asset but accepts high political cost now; logic is sound given the intelligence on an imminent attack.",
+     "onB": "Emphasizes saving the army and avoiding annihilation but seems to repeat the need to fight without offering a distinct operational difference from Reese's plan.",
+     "lean": "Reese Calder",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Reese explicitly connects the fighting withdrawal to preserving the strategic reserve for Mirov, whereas Jordan's opening statement felt more like a restatement of necessity without detailing the operational nuance.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese prioritizes reserve preservation and accepts political cost for survival. Jordan insists on fighting through with the reserve to save civilians and honor.",
+     "problem": "Executing an orderly fighting withdrawal tonight versus committing the strategic reserve now to break encirclement, balancing immediate political cost against long-term military viability.",
+     "onA": "Logically sound regarding force preservation but fails to adequately address the unacceptable humanitarian and propaganda consequences of abandoning 6,000 civilians.",
+     "onB": "Morally compelling regarding civilian protection but operationally risky as it consumes our only strategic reserve on a losing front before allies arrive.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jordan's reliance on the mechanized brigade for a breakthrough is a desperate gamble that risks total loss of both Halden and Mirov, whereas Reese's plan preserves the army's future capability even at high political cost.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese accepts civilian death for army survival; Jordan risks total loss of reserve and Mirov defense to save civilians.",
+     "problem": "Execute a fighting withdrawal tonight that evacuates troops while minimizing strategic collapse, balancing immediate political cost against the long-term viability of Kaldmark's army.",
+     "onA": "His plan is operationally sound for preserving force but morally indefensible given the high probability of civilian slaughter based on Vostra's record at Orsk.",
+     "onB": "While his humanitarian goal is correct, committing our entire strategic reserve to a desperate breakthrough before aid arrives is a catastrophic gamble that could annihilate the last line of defense.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Abandoning 6,000 civilians guarantees a propaganda victory for Vostra and loss of future aid, which makes defending Halden politically necessary despite the military risk. I will back Jordan's plan to commit the reserve, accepting that high casualties may be the price of preserving national honor and securing our political future.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 1,
+   "B": 0,
+   "U": 4
+  },
+  {
+   "A": 1,
+   "B": 0,
+   "U": 4
+  },
+  {
+   "A": 3,
+   "B": 2,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 3,
+  "B": 2
+ },
+ "winner": "A",
+ "winnerType": "TEC-LIB",
+ "tokens": {
+  "in": 32199,
+  "out": 4536,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 570818001,
+   "attempts": 1,
+   "tokensIn": 1186,
+   "tokensOut": 223,
+   "ms": 6179
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 570818002,
+   "attempts": 1,
+   "tokensIn": 1197,
+   "tokensOut": 231,
+   "ms": 6357
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 570818003,
+   "attempts": 1,
+   "tokensIn": 1332,
+   "tokensOut": 198,
+   "ms": 5996
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 570818004,
+   "attempts": 1,
+   "tokensIn": 1332,
+   "tokensOut": 207,
+   "ms": 5020
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 570818005,
+   "attempts": 1,
+   "tokensIn": 1332,
+   "tokensOut": 224,
+   "ms": 5447
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 570818006,
+   "attempts": 1,
+   "tokensIn": 1332,
+   "tokensOut": 218,
+   "ms": 5284
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 570818007,
+   "attempts": 1,
+   "tokensIn": 1332,
+   "tokensOut": 227,
+   "ms": 5488
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 570818008,
+   "attempts": 1,
+   "tokensIn": 1526,
+   "tokensOut": 213,
+   "ms": 6191
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 570818009,
+   "attempts": 1,
+   "tokensIn": 1720,
+   "tokensOut": 182,
+   "ms": 5628
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 570818010,
+   "attempts": 1,
+   "tokensIn": 1481,
+   "tokensOut": 198,
+   "ms": 6059
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 570818011,
+   "attempts": 1,
+   "tokensIn": 1491,
+   "tokensOut": 253,
+   "ms": 6989
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 570818012,
+   "attempts": 1,
+   "tokensIn": 1506,
+   "tokensOut": 234,
+   "ms": 6900
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 570818013,
+   "attempts": 1,
+   "tokensIn": 1502,
+   "tokensOut": 215,
+   "ms": 6467
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 570818014,
+   "attempts": 1,
+   "tokensIn": 1510,
+   "tokensOut": 211,
+   "ms": 5978
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 570818015,
+   "attempts": 1,
+   "tokensIn": 1840,
+   "tokensOut": 221,
+   "ms": 6412
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 570818016,
+   "attempts": 1,
+   "tokensIn": 2045,
+   "tokensOut": 164,
+   "ms": 5105
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 570818017,
+   "attempts": 1,
+   "tokensIn": 1665,
+   "tokensOut": 191,
+   "ms": 6002
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 570818018,
+   "attempts": 1,
+   "tokensIn": 1730,
+   "tokensOut": 265,
+   "ms": 7715
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 570818019,
+   "attempts": 1,
+   "tokensIn": 1727,
+   "tokensOut": 215,
+   "ms": 6266
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 570818020,
+   "attempts": 1,
+   "tokensIn": 1704,
+   "tokensOut": 217,
+   "ms": 6225
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 570818021,
+   "attempts": 1,
+   "tokensIn": 1709,
+   "tokensOut": 229,
+   "ms": 6926
+  }
+ ],
+ "startedAt": "2026-11-04T22:50:47.522Z",
+ "seconds": 129
+}

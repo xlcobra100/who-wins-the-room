@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+.env
+# keep the overnight run's event log (the *.log rule above would drop it)
+!study/runs/**/events.log
+# local Claude Code settings
+.claude/settings.local.json

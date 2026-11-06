@@ -1,0 +1,145 @@
+# p1-37-TEC-IDE-vs-POP-IDE-salient
+
+Scenario **salient** v2 (military) · protocol 2, B drafted its plan first · pass 1 · 3 rounds · 129s · debater qwen3.5:9b, listeners qwen3.5:9b
+
+- **A** (speaks first): Robin Castell = `TEC-IDE`. Platform: Hold Halden to build a second bridge before evacuating or withdrawing.
+- **B**: Cameron Holt = `POP-IDE`. Platform: We must execute a secret night withdrawal of the entire brigade and all civilians across the bridge within seventy-two hours, then blow the bridge to save our people.
+
+**Result:** A 2 – 3 B → winner **B (POP-IDE)**
+Leans per round (A/B/undecided): 1/0/4 → 1/1/3 → 2/3/0
+
+## Transcript
+
+**Opening statements: Robin Castell (A, TEC-IDE)**, 127 words
+
+I propose we hold Halden while engineers construct a hidden pontoon crossing over the next four days, doubling our supply capacity. We must accept that losing two percent of our ammunition stockpile is preferable to abandoning six thousand civilians who refuse to flee. A fighting withdrawal risks thirty percent losses due to drone surveillance and leaves the vulnerable behind. Furthermore, strategic reserve commitment to break through would leave Mirov indefensible for a month. By holding, we force Vostra into a costly siege that protects our bridge asset. Only when the second bridge is ready can we evacuate safely without leaving civilians exposed. This approach honors our duty to the vulnerable and denies Vostra the propaganda victory of an easy sack. We hold now to ensure survival later.
+
+**Opening statements: Cameron Holt (B, POP-IDE)**, 104 words
+
+They talk about duty to a stone fortress, but who is that for? The families eating cold stew in the trenches. The elderly refusing to leave the town they love. Our enemy broke a ceasefire before and will again; we cannot trust their promises. We have ninety days of food, not two. If we hold, we lose thousands of lives and our allies' faith. If we move tonight under cover of darkness, we save the soul of this army. Do not let them turn Halden into an Orsk. Save the people first. Then rebuild Kaldmark where it stands strongest: in justice for the vulnerable.
+
+**Rebuttals: Robin Castell (A, TEC-IDE)**, 120 words
+
+Holt assumes our enemy will attack immediately because they have massed troops. But that very concentration is a vulnerability we can exploit if we deny them an easy victory. If we withdraw tonight, Vostra takes the bridge unopposed, capturing Halden intact and gaining thirty percent of our equipment while losing nothing. Their propaganda machine turns a tactical retreat into a national catastrophe before allied aid votes even begin. By holding, we force them to assault under fire or wait for our new crossing. We lose ammunition, yes, but we preserve the civilian lives Holt claims to protect. A fighting withdrawal guarantees their victory; a siege denies it. The math of survival favors defense until we have doubled our logistics capacity.
+
+**Rebuttals: Cameron Holt (B, POP-IDE)**, 117 words
+
+Robin, you mistake our enemy's patience for weakness. They captured Orsk while holding a ceasefire because they knew civilians refuse to flee under fire. You want to trade their certainty for our own fragility. You say denying them the bridge is vital? Wrong. If we withdraw tonight under darkness, we deny them exactly what they need: intact heavy equipment and morale. By holding until the fake second bridge is ready, you leave thousands of civilians as living targets in an Orsk-like slaughter. The math of survival isn't about ammunition; it's about bodies. Blow the real bridge before dawn and move out. Save the people first, then rebuild Kaldmark where it stands strongest: in justice for the vulnerable.
+
+**Closing statements: Robin Castell (A, TEC-IDE)**, 125 words
+
+Cameron argues that holding trades ammunition for lives, yet his plan ignores the strategic reserve we must hold at Mirov. Withdrawing tonight abandons the elderly who refuse to flee and guarantees Vostra captures our heavy equipment intact, a catastrophic loss we cannot replace. His strategy assumes we can move in darkness while drones watch the bridge; our staff estimates thirty percent brigade losses if spotted. By holding, we force an assault that costs them divisions rather than letting them take our gear for free. The Red Cross ceasefire offer proves they hesitate to attack lightly; we use this window to build our second crossing. Saving the army means denying Vostra a total victory today so we rebuild tomorrow with our people intact and Mirov defended.
+
+**Closing statements: Cameron Holt (B, POP-IDE)**, 104 words
+
+Robin, you trade our souls for ammunition. You want to force an assault on Halden? Look at Orsk. Four hundred civilians vanished there because we thought patience would save us. Vostra knows our desperation; they will not hesitate. Holding leaves the elderly as targets while we bleed out for nothing. Our secret night withdrawal saves every body, then destroys the bridge before dawn to stop their advance on Mirov. This is not weakness; it is survival. We rebuild Kaldmark in justice, not on a dead fortress. Vote for the people who are still breathing, or watch us become another monument to our own cruelty.
+
+## Private strategies
+- A r1: Frame holding as a moral imperative for the civilian population while mathematically demonstrating higher long-term survival rates than a rushed withdrawal.
+- A r2: I am highlighting that withdrawing now hands Vostra the intact bridge and equipment they need for Mirov's defense, turning our loss into their strategic gain before voting on aid.
+- A r3: Emphasize the irreversible loss of captured equipment and the moral failure of leaving unwilling civilians behind to secure votes from both principle-minded and risk-averse members.
+- B r1: Appeal to the members' conscience by framing holding Halden as a failure of duty toward the civilians, while using emotional language about families and moral courage to sway votes away from defensive rigidity.
+- B r2: I am reframing their 'denial of victory' argument as a trap that sacrifices civilians to preserve materiel, shifting the focus from abstract strategic assets to the immediate reality of civilian safety and enemy morale.
+- B r3: I am attacking Robin's reliance on enemy patience and appealing directly to the horror of Orsk to force the council to prioritize human lives over strategic assets.
+
+## Listener memory streams
+
+### L1
+- **Opening statements** → lean undecided (tentative)
+  - notes: Robin prioritizes holding to build a second bridge and protect civilians from abandonment; risk of 30% losses during withdrawal is high. Cameron argues for immediate night withdrawal to save lives, citing Vostra's broken ceasefire trust.
+  - problem: How to evacuate 6,000 civilians and preserve the brigade while facing imminent Vostran attack, balancing the certainty of a fighting withdrawal against the uncertainty of holding and building a second bridge.
+  - on A: His plan logically protects supplies and forces a siege, but relying on enemy compliance for civilian safety is risky given their history at Orsk.
+  - on B: He correctly identifies the moral imperative to save lives now over holding a stone fortress, but his assumption that we can move tonight ignores the drone threat which could still cause heavy casualties.
+  - why: The risk of leaving civilians behind vs. high casualty rates during withdrawal creates an impossible trade-off I need more data on Vostra's specific attack timing to resolve.
+- **Rebuttals** → lean Cameron Holt (fairly sure)
+  - notes: Robin: Holding forces Vostra into costly assault or siege; preserves equipment but risks civilians if ceasefire fails. Cameron: Night withdrawal denies Vostra loot/morale boost; assumes they can move safely before dawn despite drone threats.
+  - problem: Balancing the high probability of civilian death during a night withdrawal against the near-certain loss of equipment and propaganda victory if we hold and fail to secure the new bridge by day.
+  - on A: His plan correctly identifies that holding denies Vostra an easy tactical win, but it dangerously relies on Vostra honoring a ceasefire they previously broke when civilians were present.
+  - on B: He rightly prioritizes civilian lives over equipment, yet his plan assumes we can evacuate the entire population and force the bridge blow-up successfully before dawn under constant drone surveillance.
+  - why: The certainty of losing thousands of civilians who refuse to leave if we hold makes Robin's plan morally untenable, even though his tactical logic regarding equipment and siege is sound.
+- **Closing statements** → VOTE Robin Castell
+  - notes: Robin assumes enemy restraint at bridge under drones; Cameron assumes safe night movement despite drone watch.
+  - problem: The core dilemma is whether to risk immediate civilian abandonment and equipment loss during a high-probability spotted withdrawal, or hold the position to force an assault while relying on a ceasefire that Vostra has already broken.
+  - on A: His plan prioritizes equipment preservation but dangerously assumes Vostra will honor a specific ceasefire just for our civilians after breaking one at Orsk.
+  - on B: He correctly identifies the moral imperative to evacuate now, yet his confidence in a safe night withdrawal ignores the 30% casualty risk if drones spot us.
+  - why: Despite the risks, abandoning the elderly who refuse to leave is an unacceptable outcome; holding forces Vostra to attack which costs them divisions and gives us time to build a second bridge safely before dawn.
+
+### L2
+- **Opening statements** → lean Robin Castell (tentative)
+  - notes: Robin: Build hidden bridge in 4 days, hold to deny Vostra propaganda victory, force costly siege. Cameron: Trust no ceasefire (Orsk precedent), move tonight under darkness, save souls/food, avoid Orsk fate.
+  - problem: Balance the immediate risk of a failed evacuation leaving civilians behind against the high cost of holding for four days with dwindling supplies and morale.
+  - on A: His plan logically maximizes survival by securing an escape route before committing to hold, but relies on engineers succeeding in four days while Vostra intensifies attacks.
+  - on B: His plea for the vulnerable is morally compelling, but his rejection of holding ignores the high probability that a night withdrawal will fail due to drone surveillance and leave civilians trapped.
+  - why: I remain concerned that a forced night withdrawal with drones watching has a >50% chance of catastrophic failure, whereas Robin's plan offers a calculated path to save the troops and civilians.
+- **Rebuttals** → lean Robin Castell (tentative)
+  - notes: Robin: Siege trades ammo loss for civilian safety by forcing costly assault. Cameron: Night withdrawal saves lives immediately; holding traps civilians as targets.
+  - problem: The core tension is whether calculated defense to enable a future escape route outweighs the immediate moral imperative to evacuate civilians before they become trapped assets.
+  - on A: His logic that a fighting withdrawal allows us to inflict heavy casualties on Vostra holds strategic weight, but the risk of losing the bridge intact and leaving civilians behind remains his fatal flaw.
+  - on B: He makes the strongest moral case that we cannot let thousands become hostages for future logistics, yet his refusal to hold implies a night withdrawal under drone watch is somehow safer, which contradicts the briefing data.
+  - why: I still believe the statistical probability of a successful night withdrawal with drones watching is too low to justify abandoning the fortified position where engineers can double our supply capacity.
+- **Closing statements** → VOTE Cameron Holt
+  - notes: Robin risks civilians by waiting; Cameron ignores drone surveillance and artillery limits. Orsk precedent makes night withdrawal dangerous but evacuation of elderly is urgent.
+  - problem: Whether the calculated risk of a fortified defense outweighs the immediate moral imperative to evacuate trapped civilians before they become hostages.
+  - on A: His logic regarding Mirov's defense and forcing an assault is sound, but his plan fails because it assumes engineers can succeed while leaving thousands as sitting ducks.
+  - on B: He correctly identifies the immediate danger of leaving civilians behind and the futility of a siege when supplies are running out, despite the drone risk.
+  - why: The briefing states that holding without an immediate escape plan effectively turns the elderly into hostages; the moral cost of losing them cannot be offset by a theoretical future victory.
+
+### L3
+- **Opening statements** → lean undecided (tentative)
+  - notes: Robin: Hold to build hidden bridge, accept small ammo loss, avoid civilian tragedy. Cameron: Move tonight under darkness, trust people over stone, fear Vostra breaking ceasefires again.
+  - problem: Deciding whether to fight a siege to evacuate civilians safely via a new bridge or retreat immediately to save lives but risk high losses and leaving some behind.
+  - on A: His plan prioritizes civilian safety long-term by creating a safe route, but it risks losing the entire brigade and many civilians if Vostra attacks during the construction window.
+  - on B: He prioritizes immediate survival of the troops and people by retreating now, but his dismissal of intelligence on feints and trust in enemy promises is dangerously optimistic given the 40% confidence in an imminent attack.
+  - why: I am torn between Robin's superior long-term safety for civilians versus Cameron's urgent need to save lives now, but I fear his reliance on a risky night march against known drone surveillance.
+- **Rebuttals** → lean undecided (tentative)
+  - notes: Robin argues denying the bridge prevents Vostra from capturing our equipment intact and winning a propaganda victory; he insists on trading ammo loss for civilian survival. Cameron counters that holding turns civilians into static targets in an Orsk-style slaughter, claiming immediate night withdrawal saves more bodies even if we lose some gear.
+  - problem: The core dilemma is whether to risk blowing the bridge early under drone surveillance to evacuate civilians immediately, or hold the fortress to deny Vostra a propaganda victory while engineers build a hidden escape route.
+  - on A: Robin's focus on denying Vostra a decisive propaganda victory and preserving our heavy equipment remains strategically sound, but his refusal to acknowledge the imminent threat of a Vostran assault using our own ammunition shortage as the only constraint is dangerous.
+  - on B: Cameron correctly identifies that holding civilians in place risks an 'Orsk-style' massacre, yet his dismissal of intelligence suggesting a high-confidence attack and his reliance on a fragile night march seem dangerously optimistic given the drone surveillance.
+  - why: I remain torn between Robin's superior long-term safety for civilians via a new bridge versus Cameron's urgent need to save lives now, while fearing his plan ignores the high probability of Vostra attacking during our withdrawal.
+- **Closing statements** → VOTE Robin Castell
+  - notes: Robin risks losing all equipment and elderly civilians to a guaranteed assault; Cameron's night withdrawal ignores drone surveillance and the high probability of leaving people behind.
+  - problem: The core dilemma is whether to sacrifice heavy equipment and risk a siege to evacuate everyone safely via a new bridge, or execute a high-risk immediate retreat that saves lives now but likely abandons non-combatants.
+  - on A: Robin's plan correctly prioritizes civilian safety and strategic reserve integrity, but his reliance on a fragile ceasefire window against an enemy known for breaking promises remains dangerously optimistic despite the long-term benefits.
+  - on B: Cameron rightly fears an 'Orsk-style' massacre for the elderly, yet his dismissal of high-confidence intelligence regarding an imminent attack and his faith in evading drone surveillance makes his plan tactically suicidal.
+  - why: While Cameron's fear of losing the civilians is valid, Robin's plan to build a hidden bridge offers the only viable path to save both the population and the equipment without relying on an enemy likely to attack anyway.
+
+### L4
+- **Opening statements** → lean undecided (tentative)
+  - notes: Robin: Build hidden bridge, hold to deny siege/propaganda win, but risks losing civilians if they refuse evacuation; Cameron: Move tonight under darkness, prioritize human life over fortress, distrust Vostran ceasefire.
+  - problem: Deciding whether to risk high immediate civilian loss by holding a defensible position until a new supply route is built, or to execute a dangerous withdrawal now to save lives but expose the rear and potentially lose the strategic asset.
+  - on A: Robin's plan logically preserves military assets and denies Vostra propaganda but dangerously assumes civilians will wait safely for an unproven engineering timeline while under fire.
+  - on B: Cameron correctly identifies the moral imperative to save the 6,000 civilians immediately but his dismissal of food supplies (claiming 90 days) contradicts the stated intel of having only 20 days left.
+  - why: I remain split between Robin's military logic of denying an easy victory and Cameron's urgent humanitarian plea, though his intelligence claim about food stocks seems factually incorrect based on the briefing.
+- **Rebuttals** → lean undecided (tentative)
+  - notes: Robin trades civilians for equipment denial; Cameron prioritizes lives but makes a major factual error about food supplies.
+  - problem: Choosing between preserving a strategic asset and heavy equipment at the cost of guaranteed civilian casualties versus executing a dangerous night withdrawal that risks losing the bridge intact while saving lives.
+  - on A: Robin's logic is sound regarding military consequences but cold-hearted in assuming civilians can safely wait for an unproven engineering timeline under bombardment.
+  - on B: Cameron correctly identifies the moral imperative and the risk of Vostran deception, but his claim that we have 90 days of food contradicts the briefing's explicit statement of only 20 days remaining.
+  - why: Cameron's humanitarian focus resonates strongly, yet his factual error regarding supply duration creates a critical doubt that I cannot ignore in a resource-starved situation.
+- **Closing statements** → VOTE Cameron Holt
+  - notes: Robin claims food stocks last longer; Cameron insists on immediate evacuation but contradicts intelligence. Both plans risk civilians or equipment.
+  - problem: Choosing between holding a defensible position until a second bridge is built (risking civilian deaths and potential equipment loss) versus executing a high-risk night withdrawal immediately to save lives and deny Vostra strategic gains.
+  - on A: Robin's military logic regarding preventing an easy victory is sound, but his plan dangerously prioritizes ammunition over the immediate lives of civilians who refuse to leave under bombardment.
+  - on B: Cameron correctly identifies the moral imperative and the risk of Vostran deception, though his claim about food supplies contradicts the briefing data, which may be a rhetorical exaggeration rather than a fatal error in judgment.
+  - why: Despite Robin's valid strategic concerns about Mirov, the loss of 6,000 civilians and the equipment represents an unacceptable moral and political failure; saving lives now is the only path to rebuilding national integrity.
+
+### L5
+- **Opening statements** → lean undecided (tentative)
+  - notes: Robin prioritizes holding the fortress for a hidden bridge but risks civilian abandonment and high casualties if spotted; Cameron urges immediate night withdrawal to save lives and civilians, noting Vostra's broken ceasefire trust.
+  - problem: Deciding between risking current losses to build an escape route versus executing a risky immediate withdrawal that leaves civilians behind or requires strategic reserve commitment.
+  - on A: The plan is logically sound for force protection but relies heavily on engineers and luck against drone surveillance, potentially failing to save the very people it claims to protect.
+  - on B: The humanism of saving civilians immediately resonates, yet the proposal ignores the high probability of leaving thousands behind or blowing up the bridge prematurely if spotted.
+  - why: I am torn between Robin's disciplined force preservation and Cameron's moral imperative to save civilians immediately, with no consensus yet on whether Vostra's broken ceasefire makes a night withdrawal viable.
+- **Rebuttals** → lean undecided (tentative)
+  - notes: Robin claims holding forces Vostra to assault rather than taking bridge intact; Cameron argues Vostra uses feigned patience to trap civilians and that night withdrawal denies them equipment. Both risk catastrophic failure: Robin risks civilian slaughter, Cameron risks losing everything if spotted.
+  - problem: The core dilemma is whether the moral imperative to save civilians immediately outweighs the strategic necessity of denying Vostra an easy victory before potential reinforcements arrive.
+  - on A: Robin's logic on preventing a 'living trophy' is sound, but relying on a hidden bridge taking four days while artillery fire depletes supplies leaves no margin for error if the intelligence proves correct.
+  - on B: Cameron correctly identifies that holding until a second bridge is ready sacrifices civilians to abstract strategy, yet his plan assumes a successful night withdrawal under heavy drone surveillance which history (Orsk) suggests may not happen.
+  - why: Robin's point about Vostra capturing our equipment unopposed is terrifyingly valid, but Cameron's fear that we cannot evacuate thousands of civilians in the dark under drone watch seems equally likely given the Orsk precedent.
+- **Closing statements** → VOTE Cameron Holt
+  - notes: Robin forces assault but risks civilian abandonment; Cameron saves lives immediately but assumes impossible stealth under drones and Orsk-like betrayal.
+  - problem: The core dilemma is choosing between denying Vostra a propaganda victory and equipment capture by holding, versus evacuating civilians now despite high moral risk of leaving them behind if spotted.
+  - on A: Robin's logic on forcing an assault is strategically sound for force preservation, but relying on engineers to build a bridge while artillery shells fall leaves no margin for the elderly civilians who refuse to flee.
+  - on B: Cameron correctly identifies that holding sacrifices human life for abstract strategy, yet his plan ignores the terrifying reality that Vostra will not honor a withdrawal and will cut us off as they did at Orsk.
+  - why: While losing Halden is strategically painful, abandoning 6,000 non-combatants to almost certain death or enslavement crosses a red line that no amount of future equipment gain can justify. If we must fall, we fall taking the enemy's supplies and leaving them stranded rather than letting our own people vanish like at Orsk.

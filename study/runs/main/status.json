@@ -1,0 +1,26 @@
+{
+  "run": "main",
+  "updatedAt": "2026-11-05T04:53:41.466Z",
+  "stopAt": "2026-11-05T05:00:00.000Z",
+  "done": 198,
+  "remaining": 0,
+  "avgSecondsLast20": 122,
+  "projectedFinishAll": "2026-11-05T04:53:41.466Z",
+  "debatesThatFitBeforeStop": 3,
+  "byPass": {
+    "1": {
+      "total": 66,
+      "done": 66
+    },
+    "2": {
+      "total": 66,
+      "done": 66
+    },
+    "3": {
+      "total": 66,
+      "done": 66
+    }
+  },
+  "exclude": [],
+  "finished": true
+}

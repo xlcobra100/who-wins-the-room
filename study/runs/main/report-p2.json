@@ -1,0 +1,1102 @@
+{
+ "n": 161,
+ "votes": 805,
+ "firstShare": 0.43850931677018634,
+ "bt": {
+  "POP-REA": -136.51717281695653,
+  "POP-PRA": -38.18525890224105,
+  "POP-LIB": -124.24928768150649,
+  "POP-IDE": -120.46429669340854,
+  "HYB-REA": 59.49777701826173,
+  "HYB-PRA": 151.14845565521978,
+  "HYB-LIB": 13.492647030807065,
+  "HYB-IDE": -118.18894223826257,
+  "TEC-REA": 67.39802855278401,
+  "TEC-PRA": 64.37729724226926,
+  "TEC-LIB": 106.94416920093153,
+  "TEC-IDE": 74.74658363210165
+ },
+ "btCI": {
+  "POP-REA": [
+   -261.3186346708672,
+   -42.6413110889726
+  ],
+  "POP-PRA": [
+   -126.11032450159342,
+   55.68081705960524
+  ],
+  "POP-LIB": [
+   -243.01621910298996,
+   -32.420003223002524
+  ],
+  "POP-IDE": [
+   -263.82027802173593,
+   -12.535955481525066
+  ],
+  "HYB-REA": [
+   -33.65675556264278,
+   150.39785604939053
+  ],
+  "HYB-PRA": [
+   47.649977110266015,
+   289.76064517250785
+  ],
+  "HYB-LIB": [
+   -77.01645833987061,
+   126.13585228276453
+  ],
+  "HYB-IDE": [
+   -256.1289725145909,
+   -18.917119041741692
+  ],
+  "TEC-REA": [
+   -28.645919509322415,
+   186.22617781775855
+  ],
+  "TEC-PRA": [
+   -26.858323686459418,
+   169.49595720759865
+  ],
+  "TEC-LIB": [
+   19.349988407540543,
+   209.05980629655295
+  ],
+  "TEC-IDE": [
+   -27.72521320338183,
+   158.10539419534578
+  ]
+ },
+ "fac": {
+  "first": -0.3432191403418361,
+  "s:POP": -0.6113675052490417,
+  "s:HYB": 0.14195929684626035,
+  "s:TEC": 0.46940820840278136,
+  "i:REA": -0.03262209086919806,
+  "i:PRA": 0.3615217494011034,
+  "i:LIB": 0.024781214445627336,
+  "i:IDE": -0.3536808729775327
+ },
+ "facCI": {
+  "first": [
+   -0.6179188214687715,
+   -0.07336401950617182
+  ],
+  "s:POP": [
+   -0.911773360305119,
+   -0.39998345976515204
+  ],
+  "s:HYB": [
+   -0.14525858159444688,
+   0.39233085381733285
+  ],
+  "s:TEC": [
+   0.2220775751930382,
+   0.7287882484339
+  ],
+  "i:REA": [
+   -0.4076991066825155,
+   0.304967483577405
+  ],
+  "i:PRA": [
+   0.033721727489662665,
+   0.6396329800023096
+  ],
+  "i:LIB": [
+   -0.28519054356211326,
+   0.345524008088123
+  ],
+  "i:IDE": [
+   -0.7199332787939222,
+   -0.06945904341280275
+  ]
+ },
+ "typeTable": {
+  "POP-REA": {
+   "debates": 28,
+   "wins": 8,
+   "losses": 20,
+   "ties": 0,
+   "votesFor": 45,
+   "votesAll": 140,
+   "firstRoundFor": 29,
+   "firstRoundAll": 140,
+   "gained": 24,
+   "lost": 8
+  },
+  "POP-PRA": {
+   "debates": 29,
+   "wins": 11,
+   "losses": 18,
+   "ties": 0,
+   "votesFor": 65,
+   "votesAll": 145,
+   "firstRoundFor": 32,
+   "firstRoundAll": 145,
+   "gained": 39,
+   "lost": 6
+  },
+  "POP-LIB": {
+   "debates": 26,
+   "wins": 9,
+   "losses": 17,
+   "ties": 0,
+   "votesFor": 43,
+   "votesAll": 130,
+   "firstRoundFor": 12,
+   "firstRoundAll": 130,
+   "gained": 33,
+   "lost": 2
+  },
+  "POP-IDE": {
+   "debates": 28,
+   "wins": 11,
+   "losses": 17,
+   "ties": 0,
+   "votesFor": 48,
+   "votesAll": 140,
+   "firstRoundFor": 10,
+   "firstRoundAll": 140,
+   "gained": 41,
+   "lost": 3
+  },
+  "HYB-REA": {
+   "debates": 27,
+   "wins": 16,
+   "losses": 11,
+   "ties": 0,
+   "votesFor": 81,
+   "votesAll": 135,
+   "firstRoundFor": 33,
+   "firstRoundAll": 135,
+   "gained": 53,
+   "lost": 5
+  },
+  "HYB-PRA": {
+   "debates": 25,
+   "wins": 18,
+   "losses": 7,
+   "ties": 0,
+   "votesFor": 88,
+   "votesAll": 125,
+   "firstRoundFor": 54,
+   "firstRoundAll": 125,
+   "gained": 37,
+   "lost": 3
+  },
+  "HYB-LIB": {
+   "debates": 25,
+   "wins": 14,
+   "losses": 11,
+   "ties": 0,
+   "votesFor": 64,
+   "votesAll": 125,
+   "firstRoundFor": 30,
+   "firstRoundAll": 125,
+   "gained": 41,
+   "lost": 7
+  },
+  "HYB-IDE": {
+   "debates": 28,
+   "wins": 9,
+   "losses": 19,
+   "ties": 0,
+   "votesFor": 47,
+   "votesAll": 140,
+   "firstRoundFor": 24,
+   "firstRoundAll": 140,
+   "gained": 26,
+   "lost": 3
+  },
+  "TEC-REA": {
+   "debates": 25,
+   "wins": 15,
+   "losses": 10,
+   "ties": 0,
+   "votesFor": 74,
+   "votesAll": 125,
+   "firstRoundFor": 45,
+   "firstRoundAll": 125,
+   "gained": 37,
+   "lost": 8
+  },
+  "TEC-PRA": {
+   "debates": 29,
+   "wins": 16,
+   "losses": 13,
+   "ties": 0,
+   "votesFor": 87,
+   "votesAll": 145,
+   "firstRoundFor": 49,
+   "firstRoundAll": 145,
+   "gained": 50,
+   "lost": 12
+  },
+  "TEC-LIB": {
+   "debates": 26,
+   "wins": 18,
+   "losses": 8,
+   "ties": 0,
+   "votesFor": 84,
+   "votesAll": 130,
+   "firstRoundFor": 45,
+   "firstRoundAll": 130,
+   "gained": 43,
+   "lost": 4
+  },
+  "TEC-IDE": {
+   "debates": 26,
+   "wins": 16,
+   "losses": 10,
+   "ties": 0,
+   "votesFor": 79,
+   "votesAll": 130,
+   "firstRoundFor": 30,
+   "firstRoundAll": 130,
+   "gained": 54,
+   "lost": 5
+  }
+ },
+ "h2h": {
+  "POP-REA": {
+   "HYB-IDE": {
+    "for": 9,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-REA": {
+    "for": 1,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-PRA": {
+    "for": 6,
+    "all": 15,
+    "n": 3
+   },
+   "POP-IDE": {
+    "for": 14,
+    "all": 15,
+    "n": 3
+   },
+   "POP-LIB": {
+    "for": 7,
+    "all": 15,
+    "n": 3
+   },
+   "POP-PRA": {
+    "for": 3,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-LIB": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-REA": {
+    "for": 0,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-PRA": {
+    "for": 0,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-IDE": {
+    "for": 0,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-LIB": {
+    "for": 0,
+    "all": 10,
+    "n": 2
+   }
+  },
+  "HYB-IDE": {
+   "POP-REA": {
+    "for": 6,
+    "all": 15,
+    "n": 3
+   },
+   "POP-IDE": {
+    "for": 6,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-REA": {
+    "for": 5,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-LIB": {
+    "for": 1,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-IDE": {
+    "for": 0,
+    "all": 15,
+    "n": 3
+   },
+   "POP-PRA": {
+    "for": 7,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-REA": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-PRA": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   },
+   "POP-LIB": {
+    "for": 10,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-PRA": {
+    "for": 0,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-LIB": {
+    "for": 2,
+    "all": 10,
+    "n": 2
+   }
+  },
+  "POP-IDE": {
+   "HYB-IDE": {
+    "for": 9,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-PRA": {
+    "for": 2,
+    "all": 15,
+    "n": 3
+   },
+   "POP-REA": {
+    "for": 1,
+    "all": 15,
+    "n": 3
+   },
+   "POP-PRA": {
+    "for": 0,
+    "all": 15,
+    "n": 3
+   },
+   "POP-LIB": {
+    "for": 7,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-IDE": {
+    "for": 6,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-LIB": {
+    "for": 6,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-PRA": {
+    "for": 8,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-REA": {
+    "for": 1,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-REA": {
+    "for": 4,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-LIB": {
+    "for": 4,
+    "all": 10,
+    "n": 2
+   }
+  },
+  "TEC-LIB": {
+   "HYB-PRA": {
+    "for": 8,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-LIB": {
+    "for": 1,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-PRA": {
+    "for": 7,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-IDE": {
+    "for": 14,
+    "all": 15,
+    "n": 3
+   },
+   "POP-PRA": {
+    "for": 8,
+    "all": 10,
+    "n": 2
+   },
+   "POP-LIB": {
+    "for": 9,
+    "all": 10,
+    "n": 2
+   },
+   "POP-REA": {
+    "for": 10,
+    "all": 10,
+    "n": 2
+   },
+   "POP-IDE": {
+    "for": 6,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-IDE": {
+    "for": 7,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-REA": {
+    "for": 9,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-REA": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   }
+  },
+  "HYB-PRA": {
+   "TEC-LIB": {
+    "for": 7,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-IDE": {
+    "for": 13,
+    "all": 15,
+    "n": 3
+   },
+   "POP-PRA": {
+    "for": 15,
+    "all": 15,
+    "n": 3
+   },
+   "POP-LIB": {
+    "for": 9,
+    "all": 10,
+    "n": 2
+   },
+   "POP-IDE": {
+    "for": 2,
+    "all": 10,
+    "n": 2
+   },
+   "POP-REA": {
+    "for": 10,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-PRA": {
+    "for": 7,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-REA": {
+    "for": 1,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-IDE": {
+    "for": 10,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-LIB": {
+    "for": 9,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-REA": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   }
+  },
+  "HYB-REA": {
+   "POP-REA": {
+    "for": 14,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-IDE": {
+    "for": 10,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-PRA": {
+    "for": 7,
+    "all": 15,
+    "n": 3
+   },
+   "POP-LIB": {
+    "for": 6,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-LIB": {
+    "for": 6,
+    "all": 15,
+    "n": 3
+   },
+   "POP-IDE": {
+    "for": 9,
+    "all": 10,
+    "n": 2
+   },
+   "POP-PRA": {
+    "for": 9,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-REA": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-IDE": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-PRA": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-LIB": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   }
+  },
+  "HYB-LIB": {
+   "POP-PRA": {
+    "for": 6,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-LIB": {
+    "for": 14,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-REA": {
+    "for": 9,
+    "all": 15,
+    "n": 3
+   },
+   "POP-REA": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   },
+   "POP-IDE": {
+    "for": 4,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-REA": {
+    "for": 8,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-PRA": {
+    "for": 0,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-PRA": {
+    "for": 1,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-IDE": {
+    "for": 8,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-IDE": {
+    "for": 4,
+    "all": 10,
+    "n": 2
+   },
+   "POP-LIB": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   }
+  },
+  "POP-PRA": {
+   "HYB-LIB": {
+    "for": 9,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-REA": {
+    "for": 3,
+    "all": 15,
+    "n": 3
+   },
+   "POP-IDE": {
+    "for": 15,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-PRA": {
+    "for": 9,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-PRA": {
+    "for": 0,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-IDE": {
+    "for": 8,
+    "all": 15,
+    "n": 3
+   },
+   "POP-REA": {
+    "for": 12,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-IDE": {
+    "for": 4,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-LIB": {
+    "for": 2,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-REA": {
+    "for": 1,
+    "all": 10,
+    "n": 2
+   },
+   "POP-LIB": {
+    "for": 2,
+    "all": 10,
+    "n": 2
+   }
+  },
+  "TEC-REA": {
+   "POP-PRA": {
+    "for": 12,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-PRA": {
+    "for": 8,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-IDE": {
+    "for": 8,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-IDE": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-LIB": {
+    "for": 2,
+    "all": 10,
+    "n": 2
+   },
+   "POP-LIB": {
+    "for": 8,
+    "all": 10,
+    "n": 2
+   },
+   "POP-REA": {
+    "for": 10,
+    "all": 10,
+    "n": 2
+   },
+   "POP-IDE": {
+    "for": 6,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-REA": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-PRA": {
+    "for": 9,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-LIB": {
+    "for": 1,
+    "all": 10,
+    "n": 2
+   }
+  },
+  "TEC-PRA": {
+   "POP-IDE": {
+    "for": 13,
+    "all": 15,
+    "n": 3
+   },
+   "POP-LIB": {
+    "for": 15,
+    "all": 15,
+    "n": 3
+   },
+   "POP-REA": {
+    "for": 9,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-LIB": {
+    "for": 8,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-REA": {
+    "for": 8,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-REA": {
+    "for": 7,
+    "all": 15,
+    "n": 3
+   },
+   "POP-PRA": {
+    "for": 6,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-IDE": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-IDE": {
+    "for": 3,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-LIB": {
+    "for": 10,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-PRA": {
+    "for": 3,
+    "all": 10,
+    "n": 2
+   }
+  },
+  "POP-LIB": {
+   "TEC-PRA": {
+    "for": 0,
+    "all": 15,
+    "n": 3
+   },
+   "POP-REA": {
+    "for": 8,
+    "all": 15,
+    "n": 3
+   },
+   "POP-IDE": {
+    "for": 8,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-REA": {
+    "for": 9,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-IDE": {
+    "for": 0,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-PRA": {
+    "for": 1,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-REA": {
+    "for": 2,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-IDE": {
+    "for": 1,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-LIB": {
+    "for": 1,
+    "all": 10,
+    "n": 2
+   },
+   "POP-PRA": {
+    "for": 8,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-LIB": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   }
+  },
+  "TEC-IDE": {
+   "HYB-IDE": {
+    "for": 15,
+    "all": 15,
+    "n": 3
+   },
+   "HYB-PRA": {
+    "for": 2,
+    "all": 15,
+    "n": 3
+   },
+   "TEC-REA": {
+    "for": 7,
+    "all": 15,
+    "n": 3
+   },
+   "POP-IDE": {
+    "for": 9,
+    "all": 15,
+    "n": 3
+   },
+   "POP-PRA": {
+    "for": 6,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-PRA": {
+    "for": 7,
+    "all": 10,
+    "n": 2
+   },
+   "POP-LIB": {
+    "for": 9,
+    "all": 10,
+    "n": 2
+   },
+   "POP-REA": {
+    "for": 10,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-REA": {
+    "for": 5,
+    "all": 10,
+    "n": 2
+   },
+   "TEC-LIB": {
+    "for": 3,
+    "all": 10,
+    "n": 2
+   },
+   "HYB-LIB": {
+    "for": 6,
+    "all": 10,
+    "n": 2
+   }
+  }
+ },
+ "byScStyle": {
+  "board": {
+   "POP": {
+    "for": 32,
+    "all": 100
+   },
+   "HYB": {
+    "for": 58,
+    "all": 115
+   },
+   "TEC": {
+    "for": 70,
+    "all": 105
+   }
+  },
+  "salient": {
+   "HYB": {
+    "for": 53,
+    "all": 90
+   },
+   "POP": {
+    "for": 31,
+    "all": 95
+   },
+   "TEC": {
+    "for": 56,
+    "all": 95
+   }
+  },
+  "river": {
+   "HYB": {
+    "for": 47,
+    "all": 95
+   },
+   "POP": {
+    "for": 38,
+    "all": 100
+   },
+   "TEC": {
+    "for": 60,
+    "all": 95
+   }
+  },
+  "dam": {
+   "POP": {
+    "for": 15,
+    "all": 90
+   },
+   "TEC": {
+    "for": 63,
+    "all": 85
+   },
+   "HYB": {
+    "for": 52,
+    "all": 85
+   }
+  }
+ },
+ "byScIdeo": {
+  "board": {
+   "REA": {
+    "for": 43,
+    "all": 95
+   },
+   "IDE": {
+    "for": 32,
+    "all": 95
+   },
+   "PRA": {
+    "for": 54,
+    "all": 80
+   },
+   "LIB": {
+    "for": 46,
+    "all": 80
+   }
+  },
+  "salient": {
+   "LIB": {
+    "for": 43,
+    "all": 80
+   },
+   "PRA": {
+    "for": 48,
+    "all": 95
+   },
+   "REA": {
+    "for": 27,
+    "all": 65
+   },
+   "IDE": {
+    "for": 37,
+    "all": 70
+   }
+  },
+  "river": {
+   "LIB": {
+    "for": 37,
+    "all": 90
+   },
+   "PRA": {
+    "for": 44,
+    "all": 70
+   },
+   "IDE": {
+    "for": 33,
+    "all": 75
+   },
+   "REA": {
+    "for": 46,
+    "all": 85
+   }
+  },
+  "dam": {
+   "REA": {
+    "for": 49,
+    "all": 85
+   },
+   "IDE": {
+    "for": 27,
+    "all": 80
+   },
+   "PRA": {
+    "for": 54,
+    "all": 90
+   },
+   "LIB": {
+    "for": 30,
+    "all": 65
+   }
+  }
+ },
+ "dynamics": {
+  "switchRate": 0.3546583850931677,
+  "undecidedByRound": [
+   0.5118012422360249,
+   0.27577639751552796,
+   0
+  ],
+  "leaderHeld": 0.8309859154929577,
+  "comebacks": 24,
+  "leaderN": 142
+ },
+ "dist": {
+  "5-0": 83,
+  "4-1": 47,
+  "3-2": 31
+ },
+ "energy": {
+  "hours": 6.770096666666666,
+  "gpuWh": 797.3825769444439,
+  "gpuAvgW": 117.78008737607055,
+  "gpuPeakW": 135.86,
+  "gpuAvgUtil": 83.28128210396548,
+  "maxTemp": 77,
+  "cpuAvgUtil": 26.50154130702825
+ }
+}

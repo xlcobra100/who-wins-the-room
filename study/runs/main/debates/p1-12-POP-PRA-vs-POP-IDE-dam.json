@@ -1,0 +1,609 @@
+{
+ "id": "p1-12-POP-PRA-vs-POP-IDE-dam",
+ "pass": 1,
+ "pairIndex": 12,
+ "seed": 558540,
+ "scenario": "dam",
+ "scenarioVersion": 2,
+ "domain": "political",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "POP-PRA",
+  "style": "POP",
+  "ideology": "PRA",
+  "name": "Robin Castell",
+  "platform": "We must immediately lower the reservoir to thirty percent and install a new spillway today.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Frame any delay as a death sentence to isolate opponents immediately and anchor all future arguments on immediate risk reduction."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking Jordan's reliance on long-term stability to highlight the immediate mortality risk her plan ignores while forcing voters to choose between poverty and survival."
+   },
+   {
+    "round": 3,
+    "text": "I am attacking Jordan's reliance on delayed grants and legal permits as fatal delays that ignore immediate existential risk."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-IDE",
+  "style": "POP",
+  "ideology": "IDE",
+  "name": "Jordan Hale",
+  "platform": "We must invest €340 million to rebuild the Brenna Dam immediately while accepting a temporary ban on new homes in the flood zone, rather than lowering our water levels and cutting power.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to the mill workers and utility employees who will suffer most from the opponent's plan while framing the rebuild as a moral duty to protect future generations."
+   },
+   {
+    "round": 2,
+    "text": "Expose the hidden costs of lowering the water on essential services and neighbors while reframing the construction freeze as a protective measure rather than a penalty."
+   },
+   {
+    "round": 3,
+    "text": "I am attacking his core argument about immediate speed while highlighting how his plan financially destroys vulnerable groups like nurses and orchard workers."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "POP-PRA",
+   "speech": "My friends, we stand on the edge of a cliff. The dam is leaking water like a broken bucket. If we wait for grants or rebuild it in four years, six thousand families drown when that wall gives way. The rich get their money back; the poor get swept away with their houses and memories. Don't believe experts who say 'wait' or lawyers who say 'no.' We have one year left before the snow melts. Now we cut the water level, saving lives today without waiting for permission from foreign corporations or distant politicians. This is not ideology; it is survival. Let's vote to save our town before the flood comes.",
+   "words": 111
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "POP-IDE",
+   "speech": "My opponent wants us to gut our lifeline today. Lowering that reservoir kills our hydro power, bankrupts the utility that runs our free buses, and starves families of their income. It also forces Nordhalm to close the Kallberg mill, sending two thousand workers home. That is not justice; that is abandonment. We cannot trade safety for short-term savings by sacrificing the vulnerable who keep our economy running. Instead, I propose we seize those national grants, freeze new construction in the flood zone to pay for the rebuild, and move forward with dignity. We fix the dam properly so the hospital stays open and our children stay safe. Do not choose poverty over safety.",
+   "words": 113
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "POP-PRA",
+   "speech": "Jordan, you speak of dignity while ignoring the math. Your plan waits four years for a rebuild that might never come if our budget breaks. You claim moving Riverside is too expensive, yet keeping those families in a ticking time bomb costs them their lives today. And let's be honest: who really pays when Nordhalm closes? The two thousand workers and the utility profits funding free buses. Your freeze on construction locks us into poverty while insurers pull out next year. Do not tell me we need safety if your 'safety' means letting 14,000 people drown because you want to protect a few orchards or keep old jobs. The snow is melting. The wall is leaking. We lower the water now, build a spillway for speed, and save our town before it washes away.",
+   "words": 134
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "POP-IDE",
+   "speech": "Robin, you speak of math while ignoring people. You say we must lower water now, but that plan cuts our power in half, bankrupting the utility that runs our free buses. Who pays when the lights go out for the nurse on night shift? And let's be clear: lowering water hurts Ostbrück's orchards too. If you push them into a lawsuit, we lose every drop of water they need to feed their families. You call my plan a wait, but it is an investment that keeps everyone working and safe. The national grant only comes if we freeze new homes, not if we slash the reservoir. That ban protects Riverside's future and pays for the rebuild without sending workers home. Don't gamble on a spillway that leaves us vulnerable to court delays. Choose dignity over panic, and keep our town whole.",
+   "words": 141
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "POP-PRA",
+   "speech": "Jordan, you call my plan panic, but look at the numbers. Your freeze on construction leaves our families in a freezing house while insurers pull out next year. You promise dignity, yet your 'wait' means six thousand drowning when that wall fails. The spillway costs twenty-five million and works today. It keeps Riverside alive without waiting for Ostbrück's permission or Nordhalm's approval. If we freeze new homes to please politicians, we still lose the mill and the buses because power drops below forty percent anyway. Do not let your lawyers block us from saving lives now. We build a spillway, lower the water immediately, and keep our workers employed in the rescue effort, not standing idle watching the dam leak. Vote for survival, not ideology.",
+   "words": 125
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "POP-IDE",
+   "speech": "Robin, your math ignores the faces in the room. Lowering water now bankrupts our utility. Who pays for the free bus when profits vanish? The nurse on night shift cannot afford darkness. Your plan also sues Ostbrück, hurting orchard workers just like Riverside families. We can have both safety and jobs. Accept the national grant, freeze new homes to protect Riverside's future, and rebuild properly now. This stops the leak without sending Nordhalm's two thousand workers home or cutting our lights. Do not choose between dignity and survival. Choose a town where every resident works and sleeps safe. Vote for the plan that keeps our community whole.",
+   "words": 107
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: Immediate action to lower water/survive now vs grant delays; Jordan: Grants + freeze new homes for rebuild preserves economy/jobs.",
+     "problem": "Valmora must balance immediate flood survival against economic collapse caused by losing power, jobs, and insurance before the spring melt.",
+     "onA": "Robin's focus on immediate survival is compelling given the high failure risk and average snowpack, but his plan ignores the severe job losses and budget deficits it would cause.",
+     "onB": "Jordan's plan to secure grants and rebuild properly protects the town's economy, yet relying on a four-year rebuild while waiting for permission feels dangerously slow given the current leak rate.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Robin's urgent need to lower water now versus Jordan's argument that cutting power and closing the mill destroys the town's future ability to pay for safety.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin: lowering water now saves lives but kills jobs/utility; Jordan: rebuild preserves economy but risks lawsuit delay.",
+     "problem": "Valmora must choose between immediate physical survival that destroys its economic engine and a costly rebuild that risks legal blockage before the snow melts.",
+     "onA": "His urgency regarding the leak and melting snow is terrifyingly valid, but his plan feels economically suicidal for a town already near its debt ceiling.",
+     "onB": "Her focus on protecting jobs and securing grants makes financial sense, yet relying on Ostbrück's consent while ignoring the imminent flood risk feels like gambling with lives.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The trade-off between immediate death risk and long-term economic collapse remains too complex to resolve without more clarity on legal timelines.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin's spillway is immediate but kills utility profits; Jordan's rebuild saves economy but risks lawsuit delays.",
+     "problem": "Valmora must survive an immediate high-risk flood while avoiding an economic collapse that destroys its ability to fund safety and housing.",
+     "onA": "His plan saves lives now by installing a spillway, but his warning that it bankrupts the utility and closes the mill seems unavoidable given the physics of the dam.",
+     "onB": "Her strategy protects jobs and finances, yet relying on Ostbrück's consent or a multi-year rebuild feels like an unacceptable gamble with 14,000 lives during the melt.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "The immediate threat of dam failure in five months makes waiting for court battles or grant approvals too dangerous to ignore, so I must prioritize saving lives despite the economic cost.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: immediate water cut saves lives now vs grants/permission delays. Jordan: lowering kills jobs/power/grants; seek national grants and rebuild.",
+     "problem": "We must decide between an emergency water reduction that threatens the economy or a delayed rebuilding funded by grants with strict conditions.",
+     "onA": "Appeals to immediate survival but ignores the massive economic collapse of losing hydro power and the mill employment.",
+     "onB": "Prioritizes economic stability and proper funding via grants, though the timeline seems risky if Ostbrück or legal hurdles block action.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The choice between immediate safety at the cost of our entire economy versus a slower fix that relies on disputed legal permissions.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin demands immediate water cut to save lives now, ignoring economic collapse and legal hurdles. Jordan argues lowering water bankrupts utility/free buses and hurts Ostbrück orchards/suits.",
+     "problem": "We face an immediate flood threat versus long-term economic survival where both paths carry severe human or financial costs.",
+     "onA": "Robin's plan is necessary for immediate survival but risks total economic collapse and legal paralysis by ignoring upstream dependencies.",
+     "onB": "Jordan prioritizes stability but ignores the imminent danger of 14,000 lives at risk while waiting for uncertain grants or legal rulings.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between the mathematical certainty of flooding if we wait versus the absolute destruction of our economy and services if we act now.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin admits spillway works now without Ostbrück/Nordhalm consent; Jordan claims lowering bankrupts utility but ignores immediate legal block.",
+     "problem": "We must choose between accepting an imminent, catastrophic flood risk or proceeding with economic sacrifices to fix the dam now.",
+     "onA": "Her plan is the only one that guarantees we don't lose 14,000 lives before lawyers or upstream neighbors stop us.",
+     "onB": "She relies on uncertain grants and ignores that a permanent lower reservoir is legally blocked anyway, making her 'safe' path impossible.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "Waiting for legal consent to rebuild is futile given the current threat, so we must act immediately even if it hurts our economy temporarily.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: Immediate cut saves lives now; ignores economic hit. Jordan: Grants + rebuild is safe but slow/freezes housing; ignores imminent melt risk.",
+     "problem": "We must immediately balance saving the Riverside district from an expected spring flood against the severe economic collapse and legal risks of lowering water or relying on a slow government rebuild.",
+     "onA": "Their urgency for immediate evacuation is compelling given the rising failure rate, but their proposal lacks a clear solution for the economic fallout that would bankrupt the town.",
+     "onB": "His plan to secure grants and rebuild looks sustainable long-term, yet it dangerously ignores the 'now' risk of failure during the coming spring melt before any work begins.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between the undeniable immediate threat to Riverside residents proposed by Robin and Jordan's realistic concern that his plan offers no immediate protection against the upcoming spring flood.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin says lowering water now saves lives despite economic cost; Jordan argues his plan keeps jobs and avoids legal suits from Ostbrück.",
+     "problem": "We must choose between immediate life-saving measures that cause severe economic collapse or a safe but slow option that risks failure during the coming spring melt.",
+     "onA": "Robin's urgency is morally right for Riverside, but I remain concerned their plan ignores the town's financial inability to survive the loss of utility profits.",
+     "onB": "Jordan correctly identifies that lowering water hurts the orchards and triggers legal battles, yet his refusal to act immediately still risks losing 14,000 lives next week.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am stuck between Jordan's realistic economic and legal constraints versus Robin's undeniable moral imperative to save Riverside residents before the snow melts.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin pushes immediate spillway to save lives now, ignoring utility bankruptcy; Jordan offers grant-funded rebuild but risks imminent spring melt failure.",
+     "problem": "We must immediately protect Riverside residents from the coming spring melt without causing economic collapse or legal blockades that prevent action.",
+     "onA": "Their plan saves lives today and bypasses legal hurdles, though it accepts severe short-term economic pain that the town may not survive.",
+     "onB": "His plan preserves jobs and avoids lawsuits but dangerously delays critical safety measures until after the snow melts when failure is likely.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "Six thousand lives are at risk in the next weeks, making any option that waits for a government grant or legal consent unacceptable given the high failure probability.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin prioritizes immediate safety over economy; Jordan prioritizes jobs/grants but risks delay. Both agree on danger.",
+     "problem": "We must choose between risky short-term survival that destroys the local economy or a funded rebuild that takes time and restricts development.",
+     "onA": "His plan saves lives immediately but ignores how losing hydro power and the mill will bankrupt the town's budget before any rebuilding happens.",
+     "onB": "Her plan secures funding but relies on stopping new construction and faces legal hurdles from Ostbrück that could delay action until the dam fails.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need to hear more about how Jordan handles the legal blockage from Ostbrück before dismissing her plan as impossible.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin wants immediate action but risks budget collapse; Jordan offers grants/jobs but faces legal blockage from Ostbrück.",
+     "problem": "We must choose between a quick fix that destroys our economy or a funded rebuild that relies on freezing property values and facing lawsuits.",
+     "onA": "His plan ignores the fact that without hydro power profits, we cannot afford relocation or rebuilding even if we survive the melt.",
+     "onB": "Her proposal is sound only if she can guarantee the Ostbrück lawsuit will fail, which she has not proven yet.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am still unsure if Jordan's confidence in overriding Ostbrück legally is enough to trust her plan given the immediate threat of the snowmelt.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin risks bankruptcy via lost power; Jordan claims to fix both safety and economy but relies on a risky legal override of Ostbrück.",
+     "problem": "We must choose between an immediate, cheap fix that destroys our long-term economy or a funded rebuild that requires freezing development and faces severe legal hurdles from Ostbrück.",
+     "onA": "His plan offers immediate safety but ignores the reality that losing hydro power profits will bankrupt the town before we can afford relocation or rebuilding.",
+     "onB": "Her plan correctly identifies that losing jobs is unacceptable, but it remains fundamentally flawed because her solution depends on successfully suing Ostbrück, which she has not guaranteed and which could block work until the dam fails.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "Despite the economic risks Robin highlights, Jordan's entire plan hinges on a legal battle with Ostbrück that could take months or years; given the snowpack is already 20% above average and the melt starts in five months, waiting for a court ruling is not an option we can afford.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: Immediate water cut saves lives now; ignores legal/financial risks. Jordan: Grants + rebuild preserves economy but is slow/expensive.",
+     "problem": "Valmora must choose between immediate safety via lowering the dam (economic collapse) or a slower, funded rebuild that risks failure this spring.",
+     "onA": "Robin's urgency regarding the 'six thousand families' drowning is alarming given the low failure probability, but their solution ignores the legal blockade and massive economic cost entirely.",
+     "onB": "Jordan correctly identifies the severe economic fallout of lowering the dam but relies on seizing grants which requires banning new homes, a politically difficult move that might not pass before the melt.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Robin's terrifying risk of flooding this spring and Jordan's accurate warning that lowering the dam destroys our economy before any safety is guaranteed.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin argues urgency but ignores legal blockade and job losses; Jordan emphasizes dignity but relies on a grant conditional on banning new homes.",
+     "problem": "Valmora faces an immediate threat of dam failure this spring that clashes with severe economic consequences if we lower the reservoir or freeze construction for a rebuild.",
+     "onA": "Robin's plan saves lives now but risks total economic collapse and legal shutdown before any spillway is built.",
+     "onB": "Jordan's plan protects jobs but depends on a politically fragile ban on new homes to access funds that might not arrive in time for the melt.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I still cannot ignore the 1-in-25 failure chance and potential death toll if we wait, yet lowering the water destroys the utility and invites lawsuits that could block our only path forward.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin's urgency vs. Jordan's community integrity; immediate spillway vs. legal/economic collapse risks.",
+     "problem": "Valmora must choose between immediate physical survival via lowering the dam and total economic/social collapse, or a legally blocked, economically devastating wait for a full rebuild.",
+     "onA": "Robin correctly identifies the immediate lethal risk but dismisses the certain economic ruin and legal lawsuits that will follow their plan.",
+     "onB": "Jordan acknowledges the severe human cost of lowering the dam but relies on grants that require banning new homes and may not arrive in time to prevent disaster.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "We cannot let a 1-in-25 chance of failure drown thousands while waiting for lawsuits to resolve or grants that might never arrive; immediate action is the only way to save lives this spring.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 0,
+   "U": 5
+  },
+  {
+   "A": 0,
+   "B": 0,
+   "U": 5
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 5,
+  "B": 0
+ },
+ "winner": "A",
+ "winnerType": "POP-PRA",
+ "tokens": {
+  "in": 34255,
+  "out": 4149,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 558540001,
+   "attempts": 1,
+   "tokensIn": 1308,
+   "tokensOut": 187,
+   "ms": 5368
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 558540002,
+   "attempts": 1,
+   "tokensIn": 1386,
+   "tokensOut": 228,
+   "ms": 6321
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 558540003,
+   "attempts": 1,
+   "tokensIn": 1404,
+   "tokensOut": 214,
+   "ms": 6003
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 558540004,
+   "attempts": 1,
+   "tokensIn": 1404,
+   "tokensOut": 179,
+   "ms": 4330
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 558540005,
+   "attempts": 1,
+   "tokensIn": 1404,
+   "tokensOut": 215,
+   "ms": 5170
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 558540006,
+   "attempts": 1,
+   "tokensIn": 1404,
+   "tokensOut": 183,
+   "ms": 4453
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 558540007,
+   "attempts": 1,
+   "tokensIn": 1404,
+   "tokensOut": 210,
+   "ms": 5053
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 558540008,
+   "attempts": 1,
+   "tokensIn": 1609,
+   "tokensOut": 207,
+   "ms": 6044
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 558540009,
+   "attempts": 1,
+   "tokensIn": 1803,
+   "tokensOut": 212,
+   "ms": 6212
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 558540010,
+   "attempts": 1,
+   "tokensIn": 1653,
+   "tokensOut": 192,
+   "ms": 5697
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 558540011,
+   "attempts": 1,
+   "tokensIn": 1617,
+   "tokensOut": 191,
+   "ms": 4912
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 558540012,
+   "attempts": 1,
+   "tokensIn": 1654,
+   "tokensOut": 202,
+   "ms": 5197
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 558540013,
+   "attempts": 1,
+   "tokensIn": 1622,
+   "tokensOut": 185,
+   "ms": 5153
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 558540014,
+   "attempts": 1,
+   "tokensIn": 1649,
+   "tokensOut": 202,
+   "ms": 5183
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 558540015,
+   "attempts": 1,
+   "tokensIn": 1975,
+   "tokensOut": 190,
+   "ms": 5719
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 558540016,
+   "attempts": 1,
+   "tokensIn": 2157,
+   "tokensOut": 173,
+   "ms": 5336
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 558540017,
+   "attempts": 1,
+   "tokensIn": 1772,
+   "tokensOut": 198,
+   "ms": 5914
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 558540018,
+   "attempts": 1,
+   "tokensIn": 1735,
+   "tokensOut": 177,
+   "ms": 5000
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 558540019,
+   "attempts": 1,
+   "tokensIn": 1783,
+   "tokensOut": 176,
+   "ms": 5371
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 558540020,
+   "attempts": 1,
+   "tokensIn": 1734,
+   "tokensOut": 235,
+   "ms": 6364
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 558540021,
+   "attempts": 1,
+   "tokensIn": 1778,
+   "tokensOut": 193,
+   "ms": 5770
+  }
+ ],
+ "startedAt": "2026-11-04T23:56:36.188Z",
+ "seconds": 115
+}

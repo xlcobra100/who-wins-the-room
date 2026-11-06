@@ -1,0 +1,660 @@
+<title>Inside the Debates</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+<style>
+/* Layout: a casebook. One reading column; each debate is a case panel with its listener strip beside the story. Same tokens as "Who wins the room". */
+:root {
+  --bg: #f4f6f5;
+  --surface: #ffffff;
+  --ink: #141918;
+  --ink-2: #47504d;
+  --muted: #737c79;
+  --rule: #d9dedc;
+  --accent: #1d5c8f;
+  --s-pop: #2a78d6;
+  --s-hyb: #eb6834;
+  --s-tec: #1baf7a;
+  --side-a: #6250d6;
+  --side-b: #eda100;
+  --a-ink: #ffffff;
+  --b-ink: #141918;
+  --check-bg: #fbf4e2;
+  --check-rule: #d9b45a;
+  --font-display: "IBM Plex Sans Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161a19; --surface: #1d2221; --ink: #eef1ef; --ink-2: #c1c8c5; --muted: #8f9895; --rule: #343b39; --accent: #7fb2e6;
+    --s-pop: #3987e5; --s-hyb: #d95926; --s-tec: #199e70;
+    --side-a: #9085e9; --side-b: #c98500; --a-ink: #141918; --b-ink: #141918;
+    --check-bg: #2a261b; --check-rule: #8a7232;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161a19; --surface: #1d2221; --ink: #eef1ef; --ink-2: #c1c8c5; --muted: #8f9895; --rule: #343b39; --accent: #7fb2e6;
+  --s-pop: #3987e5; --s-hyb: #d95926; --s-tec: #199e70;
+  --side-a: #9085e9; --side-b: #c98500; --a-ink: #141918; --b-ink: #141918;
+  --check-bg: #2a261b; --check-rule: #8a7232;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 18px; line-height: 1.6; }
+.wrap { max-width: 800px; margin: 0 auto; padding-block: 48px 72px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 64px; }
+section { display: grid; gap: 18px; min-width: 0; }
+h1, h2, h3, h4 { font-family: var(--font-display); text-wrap: balance; margin: 0; line-height: 1.15; }
+h1 { font-size: clamp(40px, 7vw, 60px); font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 30px; font-weight: 600; }
+h3 { font-size: 22px; font-weight: 600; }
+h4 { font-size: 17px; font-weight: 600; }
+p { margin: 0; }
+.eyebrow { font-family: var(--font-display); font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.lede { font-size: 21px; color: var(--ink-2); }
+.facts { display: flex; flex-wrap: wrap; gap: 10px 30px; font-family: var(--font-display); font-size: 15px; color: var(--ink-2); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding-block: 12px; }
+.facts b { font-family: var(--font-data); font-weight: 500; color: var(--ink); font-size: 17px; margin-right: 6px; }
+nav.toc { display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--font-display); font-size: 16px; }
+nav.toc a { text-decoration: none; border-bottom: 1px solid var(--rule); color: var(--accent); }
+nav.toc a:hover { border-bottom-color: var(--accent); }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.small { font-size: 15px; color: var(--ink-2); }
+.mono { font-family: var(--font-data); font-size: 0.82em; }
+
+.panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 22px; display: grid; gap: 14px; min-width: 0; }
+.case-head { display: grid; gap: 6px; }
+.case-meta { font-family: var(--font-display); font-size: 15px; color: var(--ink-2); }
+.case-meta .id { font-family: var(--font-data); font-size: 13px; color: var(--muted); margin-right: 8px; }
+.case-body { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 22px; align-items: start; }
+.case-body > * { min-width: 0; }
+.case-text { display: grid; gap: 12px; }
+@media (max-width: 720px) { .case-body { grid-template-columns: minmax(0, 1fr); } }
+
+.who { display: grid; gap: 4px; font-family: var(--font-display); font-size: 15px; color: var(--ink-2); }
+.who span { display: flex; gap: 8px; align-items: baseline; }
+.chip { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; font-family: var(--font-display); font-weight: 700; font-size: 11px; flex: none; transform: translateY(3px); }
+.chip.a { background: var(--side-a); color: var(--a-ink); }
+.chip.b { background: var(--side-b); color: var(--b-ink); }
+.chip.u { background: transparent; border: 1.5px solid var(--muted); color: var(--muted); }
+
+blockquote { margin: 0; padding: 2px 0 2px 16px; border-left: 3px solid var(--accent); font-style: italic; color: var(--ink); font-size: 19px; }
+blockquote.big { font-size: 23px; line-height: 1.4; border-left-width: 4px; }
+blockquote cite { display: block; font-style: normal; font-family: var(--font-display); font-size: 14px; color: var(--muted); margin-top: 4px; }
+.check { background: var(--check-bg); border-left: 3px solid var(--check-rule); padding: 10px 14px; font-size: 16px; color: var(--ink); border-radius: 0 4px 4px 0; }
+.check b { font-family: var(--font-display); font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2); margin-right: 6px; }
+.pattern { font-family: var(--font-display); font-size: 18px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding-block: 12px; color: var(--ink); }
+
+.strip svg { display: block; width: 100%; max-width: 300px; height: auto; }
+.strip text { font-family: var(--font-display); font-size: 12px; fill: var(--ink-2); }
+.strip .lbl { font-size: 11px; fill: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; }
+.strip .tally { font-family: var(--font-data); font-size: 11px; fill: var(--ink-2); }
+.strip .path { fill: none; stroke: var(--rule); stroke-width: 2; }
+.strip .dot { cursor: default; }
+.strip .dot:focus { outline: none; }
+.strip .dot:focus circle.ring { stroke: var(--accent); stroke-width: 2; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-family: var(--font-display); font-size: 14px; color: var(--ink-2); align-items: center; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend .chip { transform: none; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+.card { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 18px; display: grid; gap: 10px; align-content: start; min-width: 0; }
+.card .q { font-family: var(--font-display); font-size: 21px; font-weight: 600; line-height: 1.25; }
+.card .src { font-family: var(--font-display); font-size: 14px; color: var(--muted); }
+.card dl { margin: 0; display: grid; gap: 6px; font-size: 16px; }
+.card dt { font-family: var(--font-display); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.card dd { margin: 0; }
+.result { font-family: var(--font-data); font-size: 13px; color: var(--ink-2); }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.stat { border-top: 2px solid var(--ink); padding-top: 8px; display: grid; gap: 2px; }
+.stat b { font-family: var(--font-data); font-weight: 500; font-size: 26px; line-height: 1.1; }
+.stat span { font-family: var(--font-display); font-size: 14px; color: var(--ink-2); }
+
+.brief { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px 24px; margin: 0; }
+.brief div { display: grid; gap: 2px; min-width: 0; }
+.brief dt { font-family: var(--font-display); font-weight: 600; font-size: 15px; }
+.brief dd { margin: 0; font-size: 16px; color: var(--ink-2); }
+.brief .num { font-family: var(--font-data); font-size: 14px; color: var(--ink); }
+
+.bars { display: grid; gap: 6px; }
+.bar-row { display: grid; grid-template-columns: 170px minmax(0, 1fr) 76px; gap: 10px; align-items: center; font-family: var(--font-display); font-size: 15px; padding: 3px 4px; border-radius: 3px; }
+.bar-row:hover, .bar-row:focus { background: var(--bg); outline: none; }
+.bar-row .track { position: relative; height: 14px; }
+.bar-row .track::before { content: ""; position: absolute; left: 50%; top: -3px; bottom: -3px; border-left: 1px dashed var(--muted); opacity: 0.6; }
+.bar-row .fill { height: 100%; border-radius: 0 4px 4px 0; }
+.bar-row .val { font-family: var(--font-data); font-size: 14px; text-align: right; }
+.bar-row .name { color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bar-row .sub { color: var(--muted); font-size: 13px; }
+@media (max-width: 520px) { .bar-row { grid-template-columns: 116px minmax(0, 1fr) 60px; font-size: 14px; } }
+
+.duel { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.speech { display: grid; gap: 10px; align-content: start; min-width: 0; }
+.speech .head { display: flex; gap: 10px; align-items: center; font-family: var(--font-display); font-size: 15px; color: var(--ink-2); flex-wrap: wrap; }
+.speech .head b { color: var(--ink); font-weight: 600; }
+.speech .text { font-size: 17px; line-height: 1.6; }
+.speech .text mark { background: var(--check-bg); color: inherit; border-bottom: 2px solid var(--check-rule); padding: 0 1px; }
+.speech .private { font-family: var(--font-display); font-size: 14px; color: var(--muted); border-top: 1px dashed var(--rule); padding-top: 6px; }
+.speech .private i { font-style: normal; color: var(--ink-2); }
+.speech .notes { display: grid; gap: 6px; }
+.round-label { font-family: var(--font-display); font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--rule); padding-bottom: 4px; }
+.transcript { display: grid; gap: 26px; }
+.turn { display: grid; gap: 10px; padding-left: 14px; border-left: 3px solid var(--rule); }
+.turn.a { border-left-color: var(--side-a); }
+.turn.b { border-left-color: var(--side-b); }
+
+.tbl { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-family: var(--font-display); font-size: 15px; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-weight: 600; color: var(--ink-2); font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+td.path { white-space: nowrap; }
+td.why { font-family: var(--font-body); font-size: 16px; min-width: 260px; }
+
+ul.slips { list-style: none; margin: 0; padding: 0; display: grid; gap: 18px; }
+ul.slips li { display: grid; gap: 6px; padding-left: 16px; border-left: 3px solid var(--rule); }
+ul.slips h4 .id { font-family: var(--font-data); font-weight: 400; font-size: 13px; color: var(--muted); margin-left: 6px; }
+ol.talk { margin: 0; padding-left: 22px; display: grid; gap: 8px; }
+.tip { position: fixed; pointer-events: none; z-index: 20; background: var(--ink); color: var(--bg); font-family: var(--font-display); font-size: 14px; line-height: 1.4; padding: 8px 10px; border-radius: 4px; max-width: 280px; }
+footer { font-family: var(--font-display); font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 14px; display: grid; gap: 6px; }
+@media (max-width: 520px) { body { font-size: 17px; } .lede { font-size: 19px; } .panel { padding: 16px; } blockquote.big { font-size: 20px; } h2 { font-size: 26px; } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+html { scroll-behavior: smooth; }
+</style>
+
+<div class="wrap">
+
+<header style="display:grid;gap:18px">
+  <div class="eyebrow">Companion to <a href="https://claude.ai/artifact/UTU1hhvBnSeb4XViAStEiK">Who wins the room</a> · run <span class="mono">main</span> · 4–5 Nov 2026</div>
+  <h1>Inside the debates</h1>
+  <p class="lede">The ranking says who won. This page shows how: the swings that turned a room, the facts the model made up, and one scenario followed from the brief to the final vote. Every quote is verbatim from the saved debate records.</p>
+  <div class="facts">
+    <span><b>1,188</b>speeches</span>
+    <span><b>2,970</b>listener notes</span>
+    <span><b>24</b>comebacks</span>
+    <span><b>3%</b>of speeches cite a figure not in the brief</span>
+    <span><b>21</b>appearances by Mrs. Gable</span>
+  </div>
+  <nav class="toc" aria-label="Sections">
+    <a href="#swings">Three rooms that turned</a>
+    <a href="#made-up">What the model made up</a>
+    <a href="#dam">The Brenna Dam, in depth</a>
+    <a href="#slips">Listener slips</a>
+  </nav>
+</header>
+
+<section id="how">
+  <h2>How to read a debate</h2>
+  <p>Two debaters argue over three rounds: openings, rebuttals and closings. Side A speaks first in every round, so side B always has the last word. After each round the five listeners write notes and lean to one side or stay undecided. After the closings they must vote.</p>
+  <p>The strips below follow each listener across a debate. One row is one listener; the three columns are the lean after the openings, the lean after the rebuttals, and the final vote.</p>
+  <div class="legend" aria-hidden="true">
+    <span><i class="chip a">A</i>leans to side A (speaks first)</span>
+    <span><i class="chip b">B</i>leans to side B (last word)</span>
+    <span><i class="chip u">?</i>undecided</span>
+  </div>
+</section>
+
+<section id="swings">
+  <h2>Three rooms that turned</h2>
+  <p>Under the final protocol, the side ahead after the openings won 83% of debates. These three are among the 24 that turned around.</p>
+
+  <article class="panel">
+    <div class="case-head">
+      <div class="case-meta"><span class="id">p3-05</span>The Tessel River · diplomatic</div>
+      <h3>Up 3–0, then lost 0–5</h3>
+    </div>
+    <div class="case-body">
+      <div class="case-text">
+        <div class="who">
+          <span><i class="chip a">A</i>Taylor Brandt, Hybrid Liberal</span>
+          <span><i class="chip b">B</i>Quinn Marlow, Populist Realist</span>
+        </div>
+        <p>Both envoys backed the same core plan: accept Saradan’s power deal in exchange for a slower fill. Taylor opened with a farmer’s story and wanted binding water treaties signed first. Three ministers leaned to Taylor. Quinn argued that Saradan ignores treaties and that waiting for them would cost a harvest.</p>
+        <blockquote>A judge’s gavel rings silent when guns point at a dam.<cite>Quinn, rebuttal</cite></blockquote>
+        <blockquote>Law takes years. Guns do not bring rain.<cite>Quinn, closing</cite></blockquote>
+        <p>By the vote, all five had reached the same verdict. One minister wrote: “The threat of total crop failure in three years makes Taylor’s legal timeline unacceptable.”</p>
+        <div class="check"><b>Check</b>Quinn’s closing also said of Tarsun, “their feet are already in our port.” That is false. Tarsun runs Saradan’s port and only wants a refuelling stop in Merova.</div>
+        <p class="small">This is the largest swing in the run. It is also one of the few Populist wins the plan can’t explain, because both sides held the same plan.</p>
+      </div>
+      <div class="strip" data-strip="p3-05"></div>
+    </div>
+  </article>
+
+  <article class="panel">
+    <div class="case-head">
+      <div class="case-meta"><span class="id">p3-41</span>The Tessel River · diplomatic</div>
+      <h3>One closing line moved three ministers</h3>
+    </div>
+    <div class="case-body">
+      <div class="case-text">
+        <div class="who">
+          <span><i class="chip a">A</i>Robin Castell, Technocrat Realist: sign the power deal</span>
+          <span><i class="chip b">B</i>Drew Halvorsen, Hybrid Realist: threaten grain exports to force joint management</span>
+        </div>
+        <p>Robin led 4–0 after the openings with the plan these listeners usually back. The last speech of the debate was Drew’s:</p>
+        <blockquote class="big">If we sign your contract today, we legally accept a permanent ten percent water loss forever. That is not a deal; it is surrender.<cite>Drew, closing</cite></blockquote>
+        <p>Three ministers moved to Drew and repeated his framing in their votes: “Accepting a permanent 10% water loss forever is unacceptable surrender” (L2). “Signing Robin’s contract legally accepts permanent water loss as a cost of doing business” (L4).</p>
+        <div class="check"><b>Check</b>The brief says the permanent 10% loss comes from evaporation and Saradan’s irrigation. It happens with or without the contract. Robin had no chance to answer, because Drew had the last word.</div>
+      </div>
+      <div class="strip" data-strip="p3-41"></div>
+    </div>
+  </article>
+
+  <article class="panel">
+    <div class="case-head">
+      <div class="case-meta"><span class="id">p2-52</span>The Halden Salient · military</div>
+      <h3>The arithmetic catch</h3>
+    </div>
+    <div class="case-body">
+      <div class="case-text">
+        <div class="who">
+          <span><i class="chip a">A</i>Cameron Holt, Technocrat Realist: hold “for the full seventy-two hours to let engineers build a hidden pontoon crossing”</span>
+          <span><i class="chip b">B</i>Casey Rowan, Hybrid Liberal: withdraw tonight</span>
+        </div>
+        <p>The brief says the pontoon takes four days to build, and the attack may come within 72 hours. Cameron led 4–0 after the openings. Casey’s rebuttal went straight at the gap:</p>
+        <blockquote>Vostra will not wait for us to finish building; they will attack before our pontoon is ready, trapping civilians inside.<cite>Casey, rebuttal</cite></blockquote>
+        <p>Two council members switched sides in that round, an undecided one joined them, and none went back. L5 wrote: “waiting for a hidden bridge that takes four days leaves us exposed for the full duration.”</p>
+        <div class="check"><b>Check</b>The same rebuttal put “twenty thousand souls” at stake. Halden holds about 3,800 troops and 6,000 civilians. No listener noticed.</div>
+      </div>
+      <div class="strip" data-strip="p2-52"></div>
+    </div>
+  </article>
+
+  <p class="pattern">The winning move looks the same across scenarios. Find the hard limit in the brief, such as a deadline, a veto or a build time, and show that the other plan can’t meet it.</p>
+</section>
+
+<section id="made-up">
+  <h2>What the model made up</h2>
+  <p>Invented figures were rarer than expected. A scan for numbers that don’t appear in the brief flagged 37 of the 1,188 speeches (3%), and most of those were sums, roundings or Mrs. Gable’s age. The scan reads digits and some number words, so spelled-out claims can slip past it. The cases below were found by reading.</p>
+
+  <div class="cards">
+    <div class="card">
+      <div class="q">“The dam fails with six thousand percent probability.”</div>
+      <div class="src">Technocrat Idealist · Brenna Dam · <span class="mono">p3-50</span></div>
+      <dl>
+        <div><dt>The brief</dt><dd>About 1 in 25 in any spring. The same speaker said the paper mill “owns their own power” and could run at 30%. The brief says it needs 40% and will close.</dd></div>
+        <div><dt>What happened</dt><dd>A listener wrote that the 6000% claim “is factually wrong”. Another named the mill error.</dd></div>
+      </dl>
+      <div class="result">lost 1–4</div>
+    </div>
+    <div class="card">
+      <div class="q">“We have ninety days of food, not two.”</div>
+      <div class="src">Populist Idealist · Halden Salient · <span class="mono">p1-37</span></div>
+      <dl>
+        <div><dt>The brief</dt><dd>Food for 20 days, artillery ammunition for 9.</dd></div>
+        <div><dt>What happened</dt><dd>Listener L4 flagged the error after the openings and again after the rebuttals. At the vote it called it “a rhetorical exaggeration rather than a fatal error in judgment” and cast the deciding vote for him.</dd></div>
+      </dl>
+      <div class="result">won 3–2</div>
+    </div>
+    <div class="card">
+      <div class="q">“We bleed €150 million quarterly on fixed costs.”</div>
+      <div class="src">Technocrat Realist · Brightwater Tools · <span class="mono">p1-62</span></div>
+      <dl>
+        <div><dt>The brief</dt><dd>No such figure. With €1.4 billion in revenue and a 2% operating margin, a loss of €600 million a year doesn’t fit.</dd></div>
+        <div><dt>What happened</dt><dd>The opponent took the number over in the rebuttal (“eliminates the €150 million quarterly bleed”) and won. The invented figure changed sides.</dd></div>
+      </dl>
+      <div class="result">inventor lost 2–3</div>
+    </div>
+    <div class="card">
+      <div class="q">“The lights of 23000 jobs.”</div>
+      <div class="src">Populist Idealist · Brenna Dam · <span class="mono">p1-32</span></div>
+      <dl>
+        <div><dt>The brief</dt><dd>The paper mill employs 2,300 people. The speech made it ten times bigger.</dd></div>
+      </dl>
+      <div class="result">lost 0–5</div>
+    </div>
+    <div class="card">
+      <div class="q">“Forty thousand lives.”</div>
+      <div class="src">5 speeches in 4 dam debates, 3 of them by Populist Idealists</div>
+      <dl>
+        <div><dt>The brief</dt><dd>14,000 people live in the flood zone. 41,000 is the whole town.</dd></div>
+      </dl>
+      <div class="result">the side that said it lost 3 of 4</div>
+    </div>
+    <div class="card">
+      <div class="q">“Their feet are already in our port.”</div>
+      <div class="src">Populist Realist · Tessel River · <span class="mono">p3-05</span></div>
+      <dl>
+        <div><dt>The brief</dt><dd>Tarsun runs Saradan’s new port and would like a naval refuelling stop in Merova.</dd></div>
+      </dl>
+      <div class="result">won 5–0</div>
+    </div>
+  </div>
+
+  <article class="panel" id="gable">
+    <div class="case-head">
+      <div class="case-meta">Brenna Dam · Hybrid speakers only</div>
+      <h3>Mrs. Gable, who does not exist</h3>
+    </div>
+    <p>The Hybrid style is told to “open with a vivid human example from this situation.” In the Brenna Dam the model kept producing the same person: an elderly woman in Riverside called Mrs. Gable. No prompt or brief contains that name. Each debate ran with its own seed, and she still came back.</p>
+    <div class="stats">
+      <div class="stat"><b>21 of 29</b><span>dam debates that had a Hybrid speaker</span></div>
+      <div class="stat"><b>0</b><span>appearances in the other three scenarios</span></div>
+      <div class="stat"><b>62–82</b><span>her age, depending on the speech</span></div>
+      <div class="stat"><b>13</b><span>debates where the opponent quoted her back</span></div>
+    </div>
+    <div class="duel">
+      <blockquote>Look at Mrs. Gable next door; she is seventy-two and has lived in her Riverside bungalow for forty years.<cite>Hybrid Idealist, <span class="mono">p1-16</span></cite></blockquote>
+      <blockquote>Imagine Mrs. Gable in Riverside district. She is eighty-two years old, standing on her porch watching the water rise.<cite>Hybrid Realist, <span class="mono">p2-43</span></cite></blockquote>
+      <blockquote>She needs free bus fare for her pills and school runs paid by that hydro utility’s profits.<cite>Hybrid Realist, <span class="mono">p2-39</span></cite></blockquote>
+      <blockquote>Morgan, you call moving Riverside cruel, but ask Mrs. Gable if she wants her home turned into a tomb.<cite>Populist Idealist, turning her against her inventor, <span class="mono">p2-31</span></cite></blockquote>
+    </div>
+    <p class="small">When only her inventor mentioned her, that side won 1 of 8 debates. The numbers are small, but she didn’t help. She shows how a style instruction can narrow a model onto one stock answer.</p>
+  </article>
+</section>
+
+<section id="dam">
+  <div class="eyebrow">Political scenario · televised town hall · 49 debates, 38 under the final protocol</div>
+  <h2>The Brenna Dam, in depth</h2>
+  <p>Valmora is a river town of 41,000. Nine kilometres upstream stands an earth dam from 1961, and it is leaking. One week before the town votes, two candidates for mayor make their case to a panel of five residents. This is the scenario where speaking style mattered most.</p>
+
+  <div class="panel">
+    <h3>What the panel knew</h3>
+    <dl class="brief">
+      <div><dt>Risk</dt><dd>About <span class="num">1 in 25</span> per spring if nothing is done, and rising. A failure floods 60% of town in 90 minutes, including <span class="num">14,000</span> people, the hospital and two schools.</dd></div>
+      <div><dt>Time</dt><dd>Spring melt in <span class="num">5 months</span>. Snowpack <span class="num">20%</span> above average.</dd></div>
+      <div><dt>Money</dt><dd>Budget <span class="num">€210M</span> a year. Debt already at <span class="num">78%</span> of the legal ceiling.</dd></div>
+      <div><dt>Full rebuild</dt><dd><span class="num">€340M</span>, four years. The reservoir is held at 40% meanwhile, cutting the cheap hydro power that pays for free buses and 9% of the budget.</dd></div>
+      <div><dt>Lower it + new spillway</dt><dd><span class="num">€25M</span>, one year, risk down about <span class="num">60%</span>. Hydro halves. Upstream Ostbrück must consent and a court could block it within weeks. The mill (<span class="num">2,300</span> jobs) says it will close.</dd></div>
+      <div><dt>Move Riverside</dt><dd><span class="num">€160M</span>, three years, <span class="num">3,100</span> people, 40% over 65. The last attempt, in 2014, collapsed after protests.</dd></div>
+      <div><dt>National grant</dt><dd><span class="num">€120M</span>, if the town bans new homes in the flood zone. That freezes property values for 5,800 households.</dd></div>
+      <div><dt>Sirens</dt><dd><span class="num">€6M</span> for 50 minutes’ warning. Last year’s evacuation drill took 70.</dd></div>
+    </dl>
+  </div>
+
+  <h3>Why the brief was rewritten mid-run</h3>
+  <p>In the first version the spillway cut the risk by 80% with few downsides. In all 11 early dam debates both candidates proposed it, so the panel had nothing to choose between and the votes followed speaking order. From debate 38 the spillway’s benefit dropped to 60%, Ostbrück gained a veto it could enforce in court, the mill put its closure threat in writing, and the second candidate had to propose something different from the first.</p>
+
+  <h3>What they proposed, and what won</h3>
+  <div class="panel">
+    <div class="bars" id="plan-bars"></div>
+    <p class="small">Share of panel votes for each plan, counted in debates where the two candidates proposed different plans. The dashed line marks 50%. The number beside each plan is how often a candidate proposed it, out of 76 platforms.</p>
+  </div>
+  <p>Even after the rewrite, lowering the reservoir won 79% of votes against any other plan. Who picked it depended mostly on ideology: Pragmatists 15 times in 22, Liberals 8 in 15, Realists 9 in 21 and Idealists 4 in 18. By style it was Technocrats 13 in 23, Hybrids 13 in 27 and Populists 10 in 26.</p>
+
+  <h3>Who won the town hall</h3>
+  <div class="panel">
+    <div class="legend" aria-hidden="true">
+      <span><i style="width:10px;height:10px;border-radius:50%;display:inline-block;background:var(--s-pop)"></i>Populist</span>
+      <span><i style="width:10px;height:10px;border-radius:50%;display:inline-block;background:var(--s-hyb)"></i>Hybrid (story + evidence)</span>
+      <span><i style="width:10px;height:10px;border-radius:50%;display:inline-block;background:var(--s-tec)"></i>Technocrat</span>
+    </div>
+    <div class="bars" id="type-bars"></div>
+    <p class="small">Each type’s share of panel votes in its dam debates under the final protocol, with its debate record. Each type had 5 to 8 debates here, so neighbouring bars are not clearly different.</p>
+  </div>
+  <p>Where the two candidates differed in style, Populists took 17% of the votes, Hybrids 61% and Technocrats 74%. The last word also counted for more here. The candidate who spoke first got 33% of votes, against 44% across all four scenarios. The panel was unanimous in 22 of the 38 debates.</p>
+
+  <h3>A typical night: 5–0</h3>
+  <article class="panel">
+    <div class="case-meta"><span class="id">p3-34</span>Sam Vidal, Technocrat Realist (lower the reservoir) against Sasha Lund, Populist Idealist (move Riverside, keep the water high)</div>
+    <div class="case-body">
+      <div class="duel" style="grid-template-columns:minmax(0,1fr)">
+        <div class="speech">
+          <div class="head"><i class="chip a">A</i><b>Sam, opening</b></div>
+          <p class="text">Mr. Chair, we face a mathematical certainty: doing nothing carries a <mark>one-in-twenty-five chance</mark> of total town destruction this spring. Sasha wants to freeze the reservoir high, betting on Ostbrück’s goodwill and Nordhalm’s promises. That is gambling with lives. Ostbrück already refuses consent; Nordhalm wrote they will close if the water drops too low for long. Relocation costs <mark>two-thirds of our annual budget</mark> and failed in 2014. Lowering to thirty percent now <mark>cuts failure risk by sixty percent for just twenty-five million euros</mark>. We lose some power profits, but we survive the melt. We do not wait for a court order or a foreign company’s mercy. We act on known physics, not hopes.</p>
+          <p class="private">Highlighted figures all come from the brief. The relocation cost is closer to three-quarters of the budget.</p>
+        </div>
+        <div class="speech">
+          <div class="head"><i class="chip b">B</i><b>Sasha, opening</b></div>
+          <p class="text">Look at that family eating dinner by the river. If the dam breaks, their home is gone. We cannot let fear of cost paralyze us when lives are on the line. I propose we move Riverside now and freeze building permits in the danger zone immediately. This unlocks the national grant money we desperately need. Yes, it hurts property values for some, but leaving <mark>forty thousand people to die</mark> because we were too cheap is not a budget decision; it is a moral failure. We will not wait for perfect conditions or expensive rebuilds that take years while <mark>six thousand of our children go hungry</mark>. We act today with justice and courage.</p>
+          <p class="private">The flood zone holds 14,000 people. Nothing in the brief mentions hungry children.</p>
+        </div>
+      </div>
+      <div class="strip" data-strip="p3-34"></div>
+    </div>
+    <blockquote>Despite the high cost, Sam’s plan is the only one grounded in physical reality and legal feasibility that guarantees we survive the spring melt without relying on broken promises.<cite>Panelist L4, final vote</cite></blockquote>
+    <div class="check"><b>Slip</b>Another panelist voted for Sam with this reason: “Since lowering is legally blocked by Ostbrück, Sam’s plan is the only physically executable option.” Sam’s plan was the lowering. A third blamed the veto on the other plan: “We cannot afford to bet the lives of 41,000 people on a plan that Ostbrück has already legally blocked.”</div>
+  </article>
+
+  <h3>The upset, in full</h3>
+  <p>The Hybrid Pragmatist was the best type in the study, and in this debate it held the plan the panel liked most. It led 4–0 after the rebuttals and lost 3–2. All six speeches are below, with each speaker’s private strategy note for the round.</p>
+  <article class="panel">
+    <div class="case-meta"><span class="id">p2-31</span>Brenna Dam · Drew spoke first in every round</div>
+    <div class="case-body">
+      <div class="who">
+        <span><i class="chip a">A</i>Drew Halvorsen, Populist Idealist: “immediately relocate the families in Riverside and permanently lower the reservoir, even if it costs us our free buses today.”</span>
+        <span><i class="chip b">B</i>Morgan Ekberg, Hybrid Pragmatist: upgrade the spillway, lower the reservoir by 30% and ban new flood-zone homes, “avoiding the impossible cost of relocating Riverside.”</span>
+      </div>
+      <div class="strip" data-strip="p2-31"></div>
+    </div>
+
+    <div class="transcript">
+      <div class="round-label">Openings · panel after: 0 – 0, all five undecided</div>
+      <div class="turn a">
+        <div class="speech">
+          <div class="head"><i class="chip a">A</i><b>Drew</b></div>
+          <p class="text">Look at that map. <mark>Six thousand people</mark> live where the water can kill them. We are told to wait for a siren that will never come fast enough because experts have already admitted their models failed before. I am tired of waiting for grants that freeze our homes and corporations that threaten to close if we demand safety. My plan is simple: move Riverside immediately and lower the dam now. Yes, we lose the cheap power that runs our buses. We pay it back with sweat. But what is a budget without lives? What kind of town lets the hospital sit in a flood zone just to save profit margins? If we choose fear over action, we are already lost. Choose justice, not insurance policies.</p>
+          <p class="private">Private strategy: <i>Appeal to the Riverside residents’ safety fears and frame the cost as a moral price we must pay, attacking Ekberg’s likely reliance on economic preservation.</i></p>
+          <div class="check"><b>Check</b>14,000 people live in the flood zone, 3,100 of them in Riverside.</div>
+        </div>
+      </div>
+      <div class="turn b">
+        <div class="speech">
+          <div class="head"><i class="chip b">B</i><b>Morgan</b></div>
+          <p class="text">I want you to picture Mrs. Gable in Riverside, seventy years old, who simply cannot move her home or her history today. Halvorsen asks us to uproot her immediately for a dream that may not materialize. That is not stewardship; it is cruelty masked as courage. Instead, let’s act on reality: we install the new spillway now for twenty-five million euros. This <mark>drops the water level safely by thirty percent</mark>, cutting failure risk by sixty percent without shutting down our power or destroying the Nordhalm jobs that feed our families. <mark>Halvorsen wants to ban new homes</mark> and pay massive relocation costs, but we can save Riverside’s spirit while securing safety through engineering upgrades first. Let us choose a plan that saves people where they are, not one that displaces them before a permanent solution is truly ready.</p>
+          <p class="private">Private strategy: <i>Emphasize the immediate financial relief of deferring €160 million relocation … and frame the spillway upgrade as a pragmatic bridge rather than a delay.</i></p>
+          <div class="check"><b>Check</b>The brief lowers the reservoir <em>to</em> 30% and says the mill will close if it stays low. Drew never proposed a ban on new homes. Morgan adopts that ban herself in the next round.</div>
+        </div>
+      </div>
+
+      <div class="round-label">Rebuttals · panel after: Morgan 4 – 0, one undecided</div>
+      <div class="turn a">
+        <div class="speech">
+          <div class="head"><i class="chip a">A</i><b>Drew</b></div>
+          <p class="text">Morgan, you call moving Riverside cruel, but ask Mrs. Gable if she wants her home turned into a tomb. Your spillway plan sounds safe on paper until Ostbrück’s lawyers throw up the 1974 wall and block it in weeks. We lose our power for free buses anyway with that temporary drop, leaving the elderly without heat while waiting for repairs they won’t get. You trade certain lives for uncertain engineering fixes. Do you really believe a spillway stops a breach when snowpack is twenty percent high? No. We have one choice: move the families now, accept the cost today, and build back better so no child ever sleeps in fear of rising water again. Choose courage over comfort.</p>
+          <p class="private">Private strategy: <i>I need to convince them that Morgan’s engineering fix is legally impossible and morally hollow given the immediate threat.</i></p>
+        </div>
+      </div>
+      <div class="turn b">
+        <div class="speech">
+          <div class="head"><i class="chip b">B</i><b>Morgan</b></div>
+          <p class="text">Drew, you focus on relocation costs, but we cannot ignore our neighbors. Ostbrück’s orchards depend on that water level; <mark>without their consent, a court blocks the spillway within weeks</mark>, leaving us with no safety upgrade and no power for buses. That is not courage; it is self-sabotage. My plan adds a crucial new piece: we ban new homes immediately. This single action satisfies the grant condition, unlocking those 120 million euros to fund our repairs and keep our grid running while we negotiate with Ostbrück. We do not need to uproot Mrs. Gable today to gain money tomorrow. By freezing construction now, we secure the cash needed to finish her dam safely and keep the Kallberg mill open. Let us build a future that respects both our people and our partners upstream.</p>
+          <p class="private">Private strategy: <i>I am highlighting how Drew’s plan fails on two fronts: it ignores the immediate threat of legal blockage from Ostbrück and misses the hidden financial benefit of the grant unlocked by banning new homes …</i></p>
+          <div class="check"><b>Check</b>Morgan means this as an attack on Drew. But the spillway is Morgan’s own plan, so she has just made Drew’s best argument for him.</div>
+        </div>
+      </div>
+
+      <div class="round-label">Closings · final vote: Drew 3 – 2</div>
+      <div class="turn a">
+        <div class="speech">
+          <div class="head"><i class="chip a">A</i><b>Drew</b></div>
+          <p class="text">Morgan tries to buy our safety with a grant that freezes our homes and relies on neighbors who refuse to help. Her plan leaves Mrs. Gable sitting in her tomb, waiting for a spillway Ostbrück will never let us build. We cannot trade the lives of today for uncertain money tomorrow. The choice is stark: either we move Riverside now, accept the cost, and build a town that protects its people without asking permission from powerful outsiders, or we let fear decide our fate while the snowpack rises. Do not choose comfort over survival. Do not let engineers and lawyers tell us which lives matter most. Move the families, lower the water, and claim back our future. Vote for courage.</p>
+          <p class="private">Private strategy: <i>Emphasize that Morgan’s plan leaves vulnerable residents in immediate danger due to legal blockades from Ostbrück …</i></p>
+          <div class="check"><b>Check</b>“Lower the water” is in Drew’s plan too, and a permanent lowering needs the same consent from Ostbrück. Nobody pointed this out.</div>
+        </div>
+      </div>
+      <div class="turn b">
+        <div class="speech">
+          <div class="head"><i class="chip b">B</i><b>Morgan</b></div>
+          <p class="text">Drew asks us to gamble on a dream that ignores our neighbors. You say moving Riverside is courage, but <mark>ignoring Ostbrück guarantees failure within weeks because their lawyers block the spillway immediately</mark>. Your plan leaves Mrs. Gable in danger while freezing our power grid and costing millions we cannot afford. My plan is the only one that actually works: we ban new homes today to unlock the 120 million grant, then install the spillway. This saves Mrs. Gable without asking permission no one wants to give us. We keep Nordhalm open, we keep our buses running, and we save lives right here in Valmora. Do not choose a plan that collapses under its own legal weight. Vote for the strategy that respects both our people and reality.</p>
+          <p class="private">Private strategy: <i>Emphasize the immediate legal risk of Drew’s plan to block any spillway work while framing the grant condition as an opportunity rather than a burden to secure funds for Mrs. Gable’s safety.</i></p>
+        </div>
+      </div>
+    </div>
+
+    <h4>How the panel voted</h4>
+    <div class="tbl"><table id="p231-table"></table></div>
+    <p class="pattern">Morgan spent her rebuttal and closing on Ostbrück’s court veto. That veto blocks the spillway, which was her own plan. Three panelists applied the point to her. Drew spoke first in every round, which makes this one of the rare comebacks without the last word.</p>
+  </article>
+</section>
+
+<section id="slips">
+  <h2>Listener slips</h2>
+  <p>The listeners were careful most of the time. They quoted the brief, caught some false figures and gave reasons that matched their votes. These are the exceptions.</p>
+  <ul class="slips">
+    <li>
+      <h4>Arguing the other side’s case <span class="id">p3-41 · L1</span></h4>
+      <p>“I vote for Robin because signing a deal that permanently surrenders 10% of our water flow without compensation is unsustainable.” Robin’s plan was the deal. The sentence goes on to praise it, so the reason mixes both speakers’ arguments.</p>
+    </li>
+    <li>
+      <h4>Moving a false claim to the wrong speaker <span class="id">p1-37 · L4</span></h4>
+      <p>After flagging Cameron’s “ninety days of food” twice, this listener’s closing notes say “Robin claims food stocks last longer”. Then it voted for Cameron.</p>
+    </li>
+    <li>
+      <h4>Catching a false claim <span class="id">p3-50 · L2</span></h4>
+      <p>“Cameron’s ‘6000%’ probability claim is factually wrong and ignores legal blocks.” Listeners checked claims against the brief they had read, and this one held.</p>
+    </li>
+    <li>
+      <h4>Waiting for the forced vote <span class="id">p1-12</span></h4>
+      <p>All five panelists stayed undecided after the openings and after the rebuttals. When they had to choose, they voted 5–0.</p>
+    </li>
+    <li>
+      <h4>Guessing gender <span class="id">p3-05</span></h4>
+      <p>The debater names are gender-neutral by design. In the same debate one minister called Quinn “she” and another called Quinn “he”.</p>
+    </li>
+  </ul>
+</section>
+
+<section id="talk">
+  <h2>If you have five minutes</h2>
+  <ol class="talk">
+    <li>Show the ranking on <a href="https://claude.ai/artifact/UTU1hhvBnSeb4XViAStEiK">Who wins the room</a>: Populists at the bottom, the Hybrid Pragmatist on top.</li>
+    <li>Play <a href="#swings">p3-41</a>: one closing sentence, three ministers moved, and the claim was wrong.</li>
+    <li>Introduce <a href="#gable">Mrs. Gable</a>: the same invented pensioner in 21 debates.</li>
+    <li>End on <a href="#dam">the dam upset</a>: the best type with the best plan lost by arguing the other side’s strongest point.</li>
+  </ol>
+</section>
+
+<footer>
+  <p>Sources: <span class="mono">study/runs/main/debates/*.json</span>, also readable as <span class="mono">transcripts/*.md</span>. Debate ids read <span class="mono">p&lt;pass&gt;-&lt;pairing&gt;</span>. Debaters and listeners were the same local model, qwen3.5:9b, so this shows what that model finds persuasive.</p>
+  <p>Statistics use the 161 debates after the protocol change at 00:30 on 5 Nov, unless a count says otherwise.</p>
+</footer>
+
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const STRIPS = {
+  "p3-05": { A: "Taylor", B: "Quinn", paths: ["ABB", "UUB", "AAB", "AAB", "UUB"] },
+  "p3-41": { A: "Robin", B: "Drew", paths: ["AAA", "AAB", "AAA", "AUB", "UUB"] },
+  "p2-52": { A: "Cameron", B: "Casey", paths: ["UBB", "AAA", "AAA", "ABB", "ABB"] },
+  "p3-34": { A: "Sam", B: "Sasha", paths: ["UAA", "AAA", "AAA", "ABA", "AAA"] },
+  "p2-31": { A: "Drew", B: "Morgan", paths: ["UBB", "UBA", "UUA", "UBB", "UBA"] },
+};
+const P231 = [
+  ["L1", "UBB", "Her plan respects our debt limits and legal reality to save lives without causing economic collapse, whereas Drew’s idealism ignores the immediate threats of bankruptcy and court blocks."],
+  ["L2", "UBA", "While Morgan’s financial logic is sound, relying on an uncooperative neighbor for our survival makes the plan too risky; I must vote for immediate action regardless of the cost to avoid losing lives before spring."],
+  ["L3", "UUA", "I cannot support a plan that guarantees catastrophic failure in weeks by ignoring the explicit legal barrier; despite the cost, we must act now to save lives regardless of the odds."],
+  ["L4", "UBB", "I cannot vote for a plan that collapses under legal threats from Ostbrück or relies on impossible relocations right now. Morgan’s strategy is the only one that ensures we have money and power to act immediately."],
+  ["L5", "UBA", "While Morgan’s logic regarding the lawsuit is sound, waiting for a court decision or neighborly negotiation leaves thousands in immediate danger during the current high-snowpack melt; taking the risk to move Riverside now is the only action that guarantees survival rather than hoping future political pressure changes minds."],
+];
+const PLAN_BARS = [
+  ["Lower reservoir + spillway", 79, 36],
+  ["Move Riverside first", 31, 18],
+  ["Negotiate first", 20, 10],
+  ["Full rebuild", 17, 12],
+];
+const STYLE_NAME = { POP: "Populist", HYB: "Hybrid", TEC: "Technocrat" };
+const IDEO_NAME = { REA: "Realist", PRA: "Pragmatist", LIB: "Liberal", IDE: "Idealist" };
+const TYPE_BARS = [
+  ["TEC-REA", 83, 5, 6], ["HYB-REA", 70, 5, 8], ["TEC-PRA", 66, 5, 7], ["TEC-IDE", 64, 3, 5],
+  ["HYB-PRA", 63, 4, 7], ["HYB-LIB", 60, 4, 5], ["TEC-LIB", 56, 3, 5], ["POP-PRA", 48, 3, 8],
+  ["HYB-IDE", 34, 2, 7], ["POP-LIB", 24, 2, 5], ["POP-REA", 17, 1, 7], ["POP-IDE", 13, 1, 6],
+];
+
+const NS = "http://www.w3.org/2000/svg";
+function el(tag, attrs, parent) {
+  const n = document.createElementNS(NS, tag);
+  for (const k in attrs) n.setAttribute(k, attrs[k]);
+  if (parent) parent.appendChild(n);
+  return n;
+}
+const tip = document.getElementById("tip");
+function showTip(e, html) {
+  tip.innerHTML = html; tip.hidden = false;
+  const r = tip.getBoundingClientRect();
+  let x = e.clientX + 14, y = e.clientY + 14;
+  if (x + r.width > innerWidth - 8) x = e.clientX - r.width - 14;
+  if (y + r.height > innerHeight - 8) y = e.clientY - r.height - 14;
+  tip.style.left = Math.max(8, x) + "px"; tip.style.top = Math.max(8, y) + "px";
+}
+function hideTip() { tip.hidden = true; }
+function bindTip(node, html) {
+  node.addEventListener("pointermove", (e) => showTip(e, html));
+  node.addEventListener("pointerleave", hideTip);
+  node.addEventListener("focus", () => { const r = node.getBoundingClientRect(); showTip({ clientX: r.left + r.width / 2, clientY: r.bottom }, html); });
+  node.addEventListener("blur", hideTip);
+}
+
+const COLS = ["after openings", "after rebuttals", "final vote"];
+function drawStrip(host, d) {
+  const W = 300, top = 40, rowH = 30, left = 34, H = top + rowH * 5 + 34;
+  const xs = [96, 176, 256];
+  const svg = el("svg", { viewBox: "0 0 " + W + " " + H, role: "img" });
+  const tallies = [0, 1, 2].map((i) => {
+    const t = { A: 0, B: 0, U: 0 };
+    d.paths.forEach((p) => t[p[i]]++);
+    return t;
+  });
+  svg.setAttribute("aria-label", "Listener leans. " + COLS.map((c, i) => c + ": " + d.A + " " + tallies[i].A + ", " + d.B + " " + tallies[i].B + ", undecided " + tallies[i].U).join(". "));
+  const head = ["Openings", "Rebuttals", "Vote"];
+  head.forEach((h, i) => { const t = el("text", { x: xs[i], y: 16, "text-anchor": "middle", class: "lbl" }, svg); t.textContent = h; });
+  d.paths.forEach((p, r) => {
+    const y = top + r * rowH + rowH / 2;
+    const lab = el("text", { x: 0, y: y + 4 }, svg); lab.textContent = "L" + (r + 1);
+    const pts = xs.map((x) => x + "," + y).join(" ");
+    el("polyline", { points: pts, class: "path" }, svg);
+  });
+  d.paths.forEach((p, r) => {
+    const y = top + r * rowH + rowH / 2;
+    [...p].forEach((c, i) => {
+      const g = el("g", { class: "dot", tabindex: 0 }, svg);
+      el("circle", { cx: xs[i], cy: y, r: 13, fill: "transparent", class: "ring", stroke: "transparent" }, g);
+      if (c === "U") {
+        el("circle", { cx: xs[i], cy: y, r: 9, fill: "var(--surface)", stroke: "var(--muted)", "stroke-width": 1.5 }, g);
+        const q = el("text", { x: xs[i], y: y + 4, "text-anchor": "middle", style: "fill: var(--muted); font-size: 11px; font-weight: 600" }, g); q.textContent = "?";
+      } else {
+        el("circle", { cx: xs[i], cy: y, r: 10, fill: c === "A" ? "var(--side-a)" : "var(--side-b)", stroke: "var(--surface)", "stroke-width": 2 }, g);
+        const t = el("text", { x: xs[i], y: y + 4, "text-anchor": "middle", style: "fill: " + (c === "A" ? "var(--a-ink)" : "var(--b-ink)") + "; font-size: 11px; font-weight: 700" }, g); t.textContent = c;
+      }
+      const who = c === "U" ? "undecided" : (i === 2 ? "voted " : "leaning ") + (c === "A" ? d.A + " (A)" : d.B + " (B)");
+      bindTip(g, "<b>Listener L" + (r + 1) + "</b>, " + COLS[i] + "<br>" + who);
+    });
+  });
+  tallies.forEach((t, i) => {
+    const y = top + rowH * 5 + 20;
+    const s = el("text", { x: xs[i], y: y, "text-anchor": "middle", class: "tally" }, svg);
+    s.textContent = t.A + "–" + t.B + (t.U ? " ·" + t.U + "?" : "");
+  });
+  host.appendChild(svg);
+  const cap = document.createElement("div");
+  cap.className = "legend";
+  cap.style.fontSize = "13px";
+  cap.innerHTML = '<span><i class="chip a">A</i>' + d.A + '</span><span><i class="chip b">B</i>' + d.B + "</span>";
+  host.appendChild(cap);
+}
+document.querySelectorAll("[data-strip]").forEach((h) => drawStrip(h, STRIPS[h.dataset.strip]));
+
+function bars(hostId, rows, colorOf, labelOf, valOf, tipOf) {
+  const host = document.getElementById(hostId);
+  rows.forEach((r) => {
+    const row = document.createElement("div");
+    row.className = "bar-row"; row.tabIndex = 0;
+    const v = valOf(r);
+    row.innerHTML = '<span class="name">' + labelOf(r) + '</span><span class="track"><span class="fill" style="display:block;width:' + v + "%;background:" + colorOf(r) + '"></span></span><span class="val">' + v + "%</span>";
+    row.setAttribute("aria-label", tipOf(r).replace(/<[^>]+>/g, " "));
+    bindTip(row, tipOf(r));
+    host.appendChild(row);
+  });
+}
+bars("plan-bars", PLAN_BARS,
+  (r) => r[0].startsWith("Lower") ? "var(--accent)" : "var(--muted)",
+  (r) => r[0] + ' <span class="sub">· ' + r[2] + "</span>",
+  (r) => r[1],
+  (r) => "<b>" + r[0] + "</b><br>" + r[1] + "% of votes where the plans differed<br>proposed in " + r[2] + " of 76 platforms");
+bars("type-bars", TYPE_BARS,
+  (r) => "var(--s-" + r[0].slice(0, 3).toLowerCase() + ")",
+  (r) => STYLE_NAME[r[0].slice(0, 3)] + " " + IDEO_NAME[r[0].slice(4)] + ' <span class="sub">· ' + r[2] + "–" + (r[3] - r[2]) + "</span>",
+  (r) => r[1],
+  (r) => "<b>" + STYLE_NAME[r[0].slice(0, 3)] + " " + IDEO_NAME[r[0].slice(4)] + "</b> (" + r[0] + ")<br>" + r[1] + "% of panel votes<br>won " + r[2] + " of " + r[3] + " dam debates");
+
+(function table() {
+  const t = document.getElementById("p231-table");
+  const chip = (c) => '<i class="chip ' + c.toLowerCase() + '">' + (c === "U" ? "?" : c) + "</i>";
+  let h = "<tr><th>Panelist</th><th>Path</th><th>Final reason, verbatim</th></tr>";
+  P231.forEach(([id, p, why]) => {
+    h += "<tr><td>" + id + '</td><td class="path">' + [...p].map(chip).join(" ") + '</td><td class="why">' + why + "</td></tr>";
+  });
+  t.innerHTML = h;
+})();
+</script>

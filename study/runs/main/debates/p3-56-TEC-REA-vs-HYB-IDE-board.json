@@ -1,0 +1,609 @@
+{
+ "id": "p3-56-TEC-REA-vs-HYB-IDE-board",
+ "pass": 3,
+ "pairIndex": 56,
+ "seed": 954916,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-REA",
+  "style": "TEC",
+  "ideology": "REA",
+  "name": "Kai Moreno",
+  "platform": "We must immediately accept Crestline Capital's offer to sell the company at a 40% premium.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Attack Alex Novak's local community arguments as financially fatal, emphasizing that the pension deficit and bank covenants make any organic survival impossible."
+   },
+   {
+    "round": 2,
+    "text": "Emphasize the cash-flow impossibility of Alex's plan and use his moral appeal to highlight the financial risk of delay."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing immediate cash certainty against Alex's reliance on uncertain political and product promises to sway directors fearing bankruptcy."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-IDE",
+  "style": "HYB",
+  "ideology": "IDE",
+  "name": "Alex Novak",
+  "platform": "We must double down on our Volt-One battery platform and secure the Lenhart plant against closure.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Frame the PE deal as destroying the pension fund and alienating the family to ensure directors vote against it."
+   },
+   {
+    "round": 2,
+    "text": "I am countering Kai's liquidity argument by reframing the sale as a guaranteed exit with no upside, while using specific funding sources (tax relief and union deal) to show immediate feasibility for keeping factories open."
+   },
+   {
+    "round": 3,
+    "text": "I am trying to reframe Kai's 'certainty' argument by contrasting his proven track record of exits against my path to renewal, while directly addressing the board's fear of immediate bankruptcy by highlighting our existing product wins and secured community support."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "TEC-REA",
+   "speech": "The math is simple and leaves no room for sentimentality. Our loan covenants breach in nine months; HomeMart will replace us next year; our margin is dead. The Volt-One battery delays and unproven tariffs are unknown risks we cannot afford. Keeping Lenhart and Corvo open guarantees bankruptcy, forcing a fire sale to a worse buyer later. Selling now locks in 40% extra equity for the Ahlgren family, pays off the pension deficit directly, and avoids the union's pay freeze demands that would further drain cash. We trade today's political promises and uncertain future markets for immediate liquidity and survival. Crestline has the cash; they will execute a turnaround or exit within four years regardless of our brand legacy. This is the only path that guarantees payment to creditors and shareholders without relying on goodwill that does not exist.",
+   "words": 138
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Alex Novak",
+   "type": "HYB-IDE",
+   "speech": "Imagine a young electrician in Corvo losing his job today because we chase a quick sale. That is not survival; that is surrender. While Crestline offers easy cash, it demands factory closures and ignores the debt crisis. We cannot be a vendor to a retailer demanding price cuts if we have no products. Our plan invests €250 million into Volt-One, our only defensible future where professional builders truly lead the market. This requires holding the line on quality, accepting short-term pain, and using every dollar to rebuild our margins rather than paying severance to close doors. We choose dignity over a premium sale because we are not just a business; we are a community.",
+   "words": 114
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "TEC-REA",
+   "speech": "Your appeal to dignity ignores the reality that we will be dead within nine months without external capital. You propose spending €250 million on Volt-One while margins sit at two percent and HomeMart threatens termination. That gamble requires cash flow we do not possess; Crestline provides immediate liquidity to satisfy creditors and pension obligations. Your plan relies on uncertain tariff outcomes and a delayed product launch against established competitors. Closing the Corvo plant today preserves capital, but keeping it open without revenue is a guaranteed loss. We must secure survival now through a sale that resolves the debt crisis immediately rather than betting our remaining assets on unproven technology while ignoring the retailers who control our distribution channels.",
+   "words": 118
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Alex Novak",
+   "type": "HYB-IDE",
+   "speech": "Kai, you mistake survival for selling out. Closing Corvo today doesn't solve our cash flow; it destroys the very assets needed to manufacture Volt-One. You claim a sale guarantees payment, but Crestline's track record shows quick exits that leave communities bankrupt. We have no choice but to defend Lenhart with the Mayor's €40 million tax relief and a union agreement on open plants. That funding covers the pension deficit without selling our soul. HomeMart demands price cuts because of cheap imports, not because our products lack value. By betting on Volt-One now, we stop being a commodity vendor. We will build a future where professionals choose Brightwater for quality, proving that ethical leadership can turn this company around before tariffs even arrive.",
+   "words": 122
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "TEC-REA",
+   "speech": "Alex's plan relies entirely on external promises that will not be kept. The Mayor's tax relief is conditional, and HomeMart will replace us regardless of our brand sentimentality if we cannot deliver a price cut next year. Your Volt-One gamble requires €250 million in development when our current margin is two percent; burning cash now guarantees a forced breakup sale within nine months anyway. Crestline provides immediate liquidity to pay the pension deficit and settle creditor claims without delay. They offer certainty in a room full of uncertainty. Do not trade our survival for political hope or unproven technology. Sell today, secure the premium for the shareholders, and ensure the company survives with dignity through capital injection rather than liquidation. Vote for Crestline.",
+   "words": 123
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Alex Novak",
+   "type": "HYB-IDE",
+   "speech": "Kai, you mistake survival for surrender. Selling today guarantees that within four years, we will be a ghost story in Lenhart, leaving our pension fund stranded and the young electrician I spoke of with no dignity. You claim certainty, but Crestline's history is exit, not renewal. Our Volt-One platform has already won professional builders; they do not want a discounted commodity, they want quality. HomeMart will replace us only if we stop being a brand leader, not because of sentimentality. The Mayor's tax relief and our union agreement provide the exact stability you fear. We have nine months to prove that bold choices create value. Do not let fear write our obituary when innovation can save us. Vote to invest in our future, keep our doors open, and earn your place in history as the directors who chose courage over quick cash.",
+   "words": 142
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai: Liquidates via sale to solve covenant breach and HomeMart threat immediately. Alex: Invests in Volt-One and keeps factories open despite short-term pain.",
+     "problem": "Brightwater must survive a cash crunch and retailer pressure while choosing between immediate liquidation (sale) or risky organic investment (Volt-One).",
+     "onA": "His plan solves the immediate financial bleeding and covenant breach but sacrifices the company's future and ignores the community impact completely.",
+     "onB": "He correctly identifies that quality and brand dignity matter, but underestimates the severity of the cash flow crisis and HomeMart's leverage.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Kai offers financial safety but existential risk, while Alex offers soul-saving hope but ignores a near-term liquidity hole.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai: Sale solves immediate debt/cash flow but risks quick exit like Crestline's past. Alex: Keeps assets open with community support/betting on product, but ignores severity of HomeMart threat.",
+     "problem": "Brightwater must secure immediate liquidity to satisfy creditors and union demands while deciding whether to risk organic growth or sell for survival.",
+     "onA": "Kai correctly identifies the fatal cash crunch and HomeMart leverage, making his sale strategy a rational financial necessity despite the community cost.",
+     "onB": "Alex's commitment to dignity is inspiring, but relying on uncertain tariffs, delayed launches, and ignoring the imminent covenant breach makes his organic path dangerously optimistic.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I now realize that without immediate external capital like Crestline's offer, Alex's plan leads to bankruptcy within nine months regardless of Volt-One's potential.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai emphasizes immediate liquidity and Crestline certainty; Alex argues selling guarantees future exit and ignores Volt-One validation.",
+     "problem": "Brightwater must choose between immediate financial rescue via sale or risky organic growth while facing a hard debt wall in nine months.",
+     "onA": "His plan is financially rational given the covenant breach but treats the company as an asset to be liquidated rather than a legacy to be saved.",
+     "onB": "He correctly identifies the moral cost of selling but underestimates that Volt-One's development costs are impossible without external capital or a tariff miracle.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "Despite Alex's inspiring arguments, the company cannot survive nine months without the €250M cash Crestline provides; delaying for innovation guarantees bankruptcy when HomeMart and banks will force our hand anyway.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai: Immediate liquidity, solves debt/HomeMart crisis, avoids bankruptcy; Alex: Invest in Volt-One, keep jobs/community, reject quick sale.",
+     "problem": "The core problem is choosing between immediate survival via a distressed sale (Crestline) that sacrifices the factory community versus investing in the future product (Volt-One) which risks total insolvency if execution fails.",
+     "onA": "Kai's plan offers mathematical certainty of survival and solves the urgent liquidity crisis, though it abandons the company's legacy and workforce.",
+     "onB": "Alex's plan appeals to values and brand identity but relies on unproven product launches and ignores the severe cash flow constraints that threaten the business within nine months.",
+     "lean": "Kai Moreno",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Given the explicit threat of loan covenant breach in nine months and the retailer's ultimatum, Alex's reliance on future cash flows for R&D feels dangerously optimistic compared to Kai's immediate liquidity solution.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai: Sale ensures immediate liquidity but risks community collapse and quick exit. Alex: Closing plants destroys manufacturing capacity needed for Volt-One; ignoring cash flow reality is risky.",
+     "problem": "The core tension is between guaranteed survival via a likely predatory sale versus a high-stakes, values-driven gamble that ignores an imminent 9-month liquidity cliff.",
+     "onA": "Kai's plan is mathematically sound for solvency but morally bankrupt as it sacrifices the workforce and community for cheap capital injection.",
+     "onB": "Alex correctly identifies that closing plants destroys long-term viability, yet his refusal to acknowledge the 9-month covenant deadline makes his plan dangerously optimistic.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Kai's immediate liquidity is necessary for survival, but Alex's preservation of manufacturing assets addresses the root cause of our decline; I am torn between stopping the bleed now versus fixing the business to avoid becoming a victim of Crestline's exit strategy.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Crestline's exit history vs. Holt-Mart's price ultimatum; Volt-One validation but execution risk.",
+     "problem": "The core problem is whether immediate liquidity from a predatory sale guarantees survival, or if ignoring the cash cliff for an unproven innovation leads to certain liquidation.",
+     "onA": "Kai offers mathematical certainty of solvency but sacrifices the company's soul and workforce for cheap capital.",
+     "onB": "Alex correctly identifies the moral cost of the sale, yet his plan dangerously ignores the hard deadline of loan covenants.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "While Alex's values are admirable, the company will be dead or already sold by Crestline in nine months without immediate liquidity to meet debt covenants and HomeMart's ultimatum.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai: Liquidity/cash is critical now; Crestline cash avoids bankruptcy risk. Alex: Volt-One quality is real asset; community/dignity matters.",
+     "problem": "We must secure immediate liquidity to survive the next two years without breaching covenants, while deciding whether to preserve legacy operations or pivot for survival.",
+     "onA": "Kai correctly identifies the imminent financial crisis but proposes abandoning our core assets and social contract entirely in exchange for a quick exit.",
+     "onB": "Alex captures the emotional weight of factory closures and the unique strength of our product, yet underestimates the speed and severity of our cash burn.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Kai's financial logic is undeniable given the covenant breach timeline, but Alex's focus on our only viable product advantage makes me hesitant to accept total capitulation immediately.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai: Crestline solves immediate liquidity/covenant breach; closing Corvo frees capital for debt. Alex: Closing Corvo kills Volt-One manufacturing; Mayor's aid + union freeze covers pension deficit without selling.",
+     "problem": "We must secure immediate cash to survive the covenant breach while deciding if preserving our only competitive asset (Volt-One) and social contract is worth the risk of running out of money before the product launches.",
+     "onA": "His logic on liquidity is sound, but his dismissal of Volt-One's potential as a 'guaranteed loss' ignores that closing Corvo destroys the very factory needed to build our future revenue stream.",
+     "onB": "He correctly links Corvo's closure to the failure of Volt-One and highlights the Mayor's relief funds, but his plan seems dangerously close to the bankruptcy timeline he claims it can avoid.",
+     "lean": "Alex Novak",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am more convinced by Alex that selling our manufacturing capability (Corvo) eliminates our only path to regaining market share, even though Kai's point about the 9-month deadline is terrifying.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Crestline's exit history is a major red flag; Kai overestimates HomeMart's pricing power while underestimating Volt-One's market validation.",
+     "problem": "We must secure immediate liquidity to stop covenant breaches without surrendering our only credible path to future value: the Volt-One product and our local social license.",
+     "onA": "His liquidity argument is mathematically sound in a vacuum, but ignoring the risk of a PE exit within four years and the destruction of our competitive manufacturing base is fatal long-term.",
+     "onB": "He correctly identifies that selling now guarantees a low-value breakup sale later, though his timeline for proving Volt-One success feels perilously tight given our current cash burn.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "Surrendering to Crestline accepts their history of factory closures and asset stripping as fate, whereas fighting to prove Volt-One offers the only chance to preserve both our brand's integrity and long-term shareholder value.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai: Math-driven, sells now for liquidity/40% premium, avoids bankruptcy. Alex: Invest in Volt-One, keep plants open, prioritize community dignity.",
+     "problem": "Survive 2 years with €900M debt and covenant breach risk while balancing immediate cash needs against long-term brand integrity and employee survival.",
+     "onA": "His financial logic is undeniable given the covenant deadline and HomeMart threat, but selling to a PE firm known for closures feels like abandoning the company's core identity.",
+     "onB": "He appeals strongly to emotion and values, yet ignoring the hard math of cash flow and debt covenants could lead exactly to the fire sale he fears avoiding.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need more time to evaluate if investing €250M in Volt-One can realistically generate enough cash flow to service debt within nine months, whereas selling offers immediate solvency.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai: Selling solves immediate debt/covenant risk; Volt-One cash flow unproven. Alex: Closing plants destroys manufacturing assets needed for innovation.",
+     "problem": "How to secure immediate solvency within nine months without triggering a destructive PE exit or bankruptcy, given that current operations cannot service the €900M debt.",
+     "onA": "His financial logic regarding the covenant deadline is undeniably sound, and selling now avoids the certainty of forced liquidation by banks.",
+     "onB": "His emotional appeal to community dignity is valid, but his plan ignores the hard reality that we cannot afford a €250M R&D gamble with zero margin.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "If we do not sell or restructure immediately, the bank covenant breach in nine months forces a fire sale regardless of our strategy.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai offers immediate solvency and avoids PE exit history; Alex risks bankruptcy by betting on unproven cash flow.",
+     "problem": "Securing liquidity within nine months to prevent forced bank liquidation without triggering a destructive PE restructuring that destroys the pension fund and community.",
+     "onA": "His financial urgency is correct, but selling to Crestline guarantees asset stripping and pension insolvency.",
+     "onB": "He correctly identifies the risk of Crestline but failed to present a credible short-term cash flow plan for Volt-One.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "The probability of immediate bankruptcy forces a sale regardless; selling now captures remaining value and preserves the pension fund, whereas staying open guarantees total loss.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai: Math clear, breach imminent, sentimentality fatal. Alex: Dignity/quality focus, Volt-One bet, ignore closure reality.",
+     "problem": "Immediate covenant breach and HomeMart threat require a liquidity lifeline now; long-term bets like Volt-One are too slow to prevent bankruptcy in 9 months.",
+     "onA": "His plan is logically sound for survival but feels morally cold regarding the workforce and community.",
+     "onB": "His appeal to dignity resonates emotionally, yet his financial roadmap ignores the certainty of covenant failure without immediate cash injection.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The timeline is too tight to ignore Kai's liquidity argument; investing in R&D now guarantees bankruptcy before a battery product hits market.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai: Sale solves debt but risks community collapse; Alex: Sale destroys future assets and Volt-One potential.",
+     "problem": "Brightwater must secure immediate liquidity to avoid covenant breach while deciding whether to sell now or gamble capital on retaining production and launching Volt-One.",
+     "onA": "His math is undeniable regarding the 9-month deadline, yet his dismissal of community impact feels reckless given the town's dependency.",
+     "onB": "He effectively highlights that selling destroys the very assets needed for any future product, but his funding sources look dangerously thin against a HomeMart ultimatum.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Without external capital or a merger approval, neither strategy generates enough immediate cash flow to survive the current covenant breach window.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Crestline's exit history is a red flag; tax relief and union deal offer immediate stability Kai dismissed. The core conflict is survival vs. preserving dignity/innovation.",
+     "problem": "Brightwater must secure immediate liquidity to avoid covenant breach while deciding whether to sell for quick survival or gamble on innovation and community retention.",
+     "onA": "His logic is mathematically sound for avoiding bankruptcy, but the plan surrenders our brand's core value, workers' dignity, and long-term potential for a premium buyout with a destructive track record.",
+     "onB": "He correctly identifies that selling destroys the company's soul and future, yet his financial roadmap remains dangerously optimistic given the HomeMart ultimatum and lack of proven funding for Volt-One.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "Despite the moral cost, the certainty of a forced liquidation in nine months leaves no room for innovation or community bargaining; selling now to Crestline is the only way to ensure immediate survival even if the outcome is imperfect.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 2,
+   "B": 0,
+   "U": 3
+  },
+  {
+   "A": 3,
+   "B": 1,
+   "U": 1
+  },
+  {
+   "A": 4,
+   "B": 1,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 4,
+  "B": 1
+ },
+ "winner": "A",
+ "winnerType": "TEC-REA",
+ "tokens": {
+  "in": 32510,
+  "out": 4354,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 954916001,
+   "attempts": 1,
+   "tokensIn": 1209,
+   "tokensOut": 240,
+   "ms": 6541
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 954916002,
+   "attempts": 1,
+   "tokensIn": 1273,
+   "tokensOut": 200,
+   "ms": 6017
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 954916003,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 191,
+   "ms": 5771
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 954916004,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 227,
+   "ms": 5479
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 954916005,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 207,
+   "ms": 4985
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 954916006,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 222,
+   "ms": 5326
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 954916007,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 186,
+   "ms": 4484
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 954916008,
+   "attempts": 1,
+   "tokensIn": 1554,
+   "tokensOut": 176,
+   "ms": 5306
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 954916009,
+   "attempts": 1,
+   "tokensIn": 1679,
+   "tokensOut": 207,
+   "ms": 6095
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 954916010,
+   "attempts": 1,
+   "tokensIn": 1486,
+   "tokensOut": 210,
+   "ms": 6301
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 954916011,
+   "attempts": 1,
+   "tokensIn": 1523,
+   "tokensOut": 228,
+   "ms": 6344
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 954916012,
+   "attempts": 1,
+   "tokensIn": 1502,
+   "tokensOut": 255,
+   "ms": 6990
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 954916013,
+   "attempts": 1,
+   "tokensIn": 1519,
+   "tokensOut": 207,
+   "ms": 5871
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 954916014,
+   "attempts": 1,
+   "tokensIn": 1483,
+   "tokensOut": 185,
+   "ms": 5335
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 954916015,
+   "attempts": 1,
+   "tokensIn": 1872,
+   "tokensOut": 186,
+   "ms": 5566
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 954916016,
+   "attempts": 1,
+   "tokensIn": 2009,
+   "tokensOut": 236,
+   "ms": 6817
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 954916017,
+   "attempts": 1,
+   "tokensIn": 1705,
+   "tokensOut": 190,
+   "ms": 5630
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 954916018,
+   "attempts": 1,
+   "tokensIn": 1759,
+   "tokensOut": 184,
+   "ms": 5494
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 954916019,
+   "attempts": 1,
+   "tokensIn": 1768,
+   "tokensOut": 219,
+   "ms": 6343
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 954916020,
+   "attempts": 1,
+   "tokensIn": 1736,
+   "tokensOut": 169,
+   "ms": 5106
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 954916021,
+   "attempts": 1,
+   "tokensIn": 1678,
+   "tokensOut": 229,
+   "ms": 6560
+  }
+ ],
+ "startedAt": "2026-11-05T03:28:15.510Z",
+ "seconds": 122
+}

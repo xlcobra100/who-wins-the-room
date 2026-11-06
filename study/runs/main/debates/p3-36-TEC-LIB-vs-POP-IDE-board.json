@@ -1,0 +1,609 @@
+{
+ "id": "p3-36-TEC-LIB-vs-POP-IDE-board",
+ "pass": 3,
+ "pairIndex": 36,
+ "seed": 515425,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-LIB",
+  "style": "TEC",
+  "ideology": "LIB",
+  "name": "Jamie Okafor",
+  "platform": "We must accept Crestline's offer to sell the company and close the plants immediately to ensure survival.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Focus arguments on the mathematical certainty of failure versus the premium liquidity of the sale while emphasizing that 'choice' includes choosing when to stop losing money."
+   },
+   {
+    "round": 2,
+    "text": "I need to shift the vote by proving his hope-based plan leads to financial collapse and nothing for workers."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing the absolute certainty of financial ruin under Taylor's plan versus the known, albeit painful, reality of a sale to stop immediate covenant breaches."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-IDE",
+  "style": "POP",
+  "ideology": "IDE",
+  "name": "Taylor Brandt",
+  "platform": "We must reject the foreign contract manufacturer and stay in our Lenhart and Corvo plants to honor our workers, our town, and our promise.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to the ethical directors' sense of duty while framing foreign outsourcing as a moral failure that ignores the human cost."
+   },
+   {
+    "round": 2,
+    "text": "I am framing bankruptcy and PE buyouts as morally bankrupt options that actually fail workers financially in the long run, while emphasizing that our current cash flow can bridge the tariff timeline if we hold our ground."
+   },
+   {
+    "round": 3,
+    "text": "I am leveraging their fear of total pension loss and the certainty of the upcoming tariff to shift votes away from Jamie's cold financial calculus."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "TEC-LIB",
+   "speech": "Taylor proposes keeping our Lenhart and Corvo factories open. This plan ignores hard reality: we breach covenants in nine months with current numbers, face a HomeMart price cut demand, and cannot afford a €250 million battery bet or an Asian merger delay. Staying costs us survival. Selling to Crestline generates immediate liquidity, stops the covenant breach, and pays for pension deficits. Yes, closures hurt, but the alternative is forced bankruptcy within twelve months where workers get nothing. We must choose the least painful outcome now based on financial data, not hope or loyalty slogans.",
+   "words": 94
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "POP-IDE",
+   "speech": "Look around this room. See the faces of the 6,200 people who built this company? Move production abroad. Close those factories. You call it 'efficiency.' I call it betrayal. It throws working families into poverty while you save a few cents on your ledger. The import tariffs are coming. They will protect us. We fight back with our own steel and batteries, not by shipping jobs to strangers who will never care about these men and women. We take the hit now to keep our dignity forever. Don't let bankers decide our fate. Stand with the worker in the trench, not the elite in the boardroom. Vote for hope. Vote to stay.",
+   "words": 112
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "TEC-LIB",
+   "speech": "Taylor, your appeal to dignity ignores immediate mathematical reality. We face a €900 million debt breach in nine months regardless of emotion. Closing plants now generates cash for pensions and avoids forced bankruptcy within twelve months where workers receive nothing. The proposed tariff is uncertain and arrives too late; it cannot cover our current operating margin collapse. HomeMart will drop us within a year anyway due to their pricing demands. Your plan relies on hope regarding future tariffs or export markets, which we do not have now. Crestline's offer provides immediate liquidity to settle obligations before any government intervention occurs. We must choose the option that secures payment for employees today rather than risking total asset liquidation later.",
+   "words": 118
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "POP-IDE",
+   "speech": "Jamie, you speak of math but ignore people. Forced bankruptcy means workers get nothing in liquidation anyway. You call Crestline a rescue, yet PE firms close factories for resale in four years. That is not dignity; that is a transaction. We have the homeMart contract leverage and the union's offer: a two-year pay freeze for guaranteed jobs. We can stretch our cash to survive nine months while tariffs arrive. Closing Corvo now costs us €180 million in severance, money we need more than Jamie admits. The pension deficit is our duty to cover, not an excuse to abandon them. Do you really want your grandchildren inheriting a company that sells out its soul? Choose the harder path today so we don't become slaves tomorrow.",
+   "words": 124
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "TEC-LIB",
+   "speech": "Taylor argues for dignity, but bankruptcy offers no dignity left; workers lose everything. Crestline provides immediate liquidity today that prevents forced restructuring in nine months. While their track record shows closures, staying open without cash guarantees liquidation. The tariff is uncertain and too late to cover current covenant breaches. HomeMart drops us regardless of location if margins remain at two percent. Accepting the sale settles pensions and debts now. Hope for future tariffs or market shifts risks total asset loss. We must choose the option that pays obligations today rather than risking total failure tomorrow where all claims vanish.",
+   "words": 99
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "POP-IDE",
+   "speech": "Jamie says bankruptcy leaves workers with nothing. That is a lie. In forced liquidation, we lose our pension fund entirely to pay creditors first. Crestline buys the soul out and closes Corvo in four years anyway. We have a concrete lifeline right here: the union agrees to a pay freeze for two guaranteed jobs, HomeMart wants volume not price cuts, and the tariff is coming in six months to stop the cheap imports Jamie fears. I choose dignity over debt. I choose our town of Lenhart over a cold equation. Do not let bankers decide our fate. Vote for the factory that keeps its promise. Choose us.",
+   "words": 107
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie cites hard numbers: covenant breach in 9 months, HomeMart threat, and bankruptcy risk if we stay. Taylor appeals to dignity, worker families, and predicts tariffs will save us; calls factory closure 'betrayal'.",
+     "problem": "Brightwater must choose between immediate financial survival via selling/closing plants or risking forced bankruptcy to preserve jobs and brand identity.",
+     "onA": "His argument is logically sound and prioritizes immediate liquidity to prevent a worse outcome like forced restructuring where workers get nothing.",
+     "onB": "His emotional appeal to the human cost of closure resonates deeply, but his reliance on uncertain tariffs ignores the reality of the HomeMart contract deadline and covenant breach timeline.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Jamie's cold financial necessity to avoid immediate bankruptcy and Taylor's moral imperative to protect the town, as I lack a clear answer on whether tariffs will materialize in time.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie argues bankruptcy leaves workers with nothing; Taylor claims forced closure costs €180M and risks pension liability. Jamie says tariffs are too late; Taylor insists on fighting for dignity now.",
+     "problem": "Brightwater must balance immediate covenant breach risk against the catastrophic moral and financial cost of abandoning its workforce and pension obligations, as external lifelines like tariffs remain uncertain.",
+     "onA": "His plan is financially logical but risks a 'hard landing' where workers are discarded rather than retained through a painful restructuring.",
+     "onB": "He correctly identifies that selling the company or closing plants now incurs massive hidden costs, yet his refusal to acknowledge the €900M debt deadline remains risky.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between Jamie's pragmatic need for immediate liquidity and Taylor's valid point that forced bankruptcy might be worse than a negotiated struggle.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor correctly identifies that forced liquidation wipes out pension claims entirely, whereas Jamie's liquidity argument ignores the moral and financial cost of abandoning workers to unsecured creditors.",
+     "problem": "Brightwater must avoid total asset liquidation where pensions are lost while securing a path to keep both plants open despite HomeMart pressure and near-term debt covenants.",
+     "onA": "Jamie's strategy prioritizes immediate cash over long-term survival, effectively sacrificing the company's soul and pension liabilities to satisfy banks without addressing the root cause of its decline.",
+     "onB": "Taylor presents a defensible path where accepting a pay freeze secures jobs, leverages upcoming tariffs, and uses sale proceeds specifically to cover the pension deficit rather than abandoning workers.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "Jamie's plan accepts total failure as an option to save cash now, while Taylor offers a concrete strategy to retain dignity, protect pensions, and survive the next two years by leveraging union agreements and pending tariffs.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie: Financial reality critical; covenants breached in 9 months; selling to Crestline avoids bankruptcy. Taylor: Closures cause social harm; tariffs offer protection; fighting preserves dignity.",
+     "problem": "The core tension is between immediate financial survival via asset sales versus maintaining social license and long-term resilience through domestic production, given the looming covenant breach and import tariff uncertainty.",
+     "onA": "Jamie presents a stark, data-driven argument that ignoring the €900m debt and HomeMart threat will lead to forced bankruptcy where workers get nothing.",
+     "onB": "Taylor relies heavily on emotional appeals regarding worker dignity and potential tariffs but offers no concrete financial plan to survive the next nine months without external funding.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of a covenant breach in nine months makes Taylor's 'fight' strategy financially untenable without a funded alternative.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie stresses forced bankruptcy leaves workers with nothing; Taylor argues Crestline closes factories later anyway and we can stretch cash.",
+     "problem": "Can Brightwater survive the next nine months without selling, risking liquidation where pensions fail, or taking on a PE owner who will eventually close the plants?",
+     "onA": "Jamie's liquidity argument is mathematically sound but feels cold regarding the long-term viability of the workforce under a hostile PE owner.",
+     "onB": "Taylor's emotional appeal to dignity and warning about future closures under Crestline adds significant risk to his 'fight' strategy.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of a covenant breach in 9 months still outweighs the speculative hope of tariffs or union deals, despite Taylor's warnings about PE intentions.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Bankruptcy destroys pensions; Crestline closes later anyway. Tariffs are too uncertain/late to save us from the 9-month breach.",
+     "problem": "The core issue is choosing between immediate financial liquidation that wipes out all worker claims versus a sale that guarantees survival for now, even if future closures are possible.",
+     "onA": "Jamie correctly identifies that ignoring the covenant breach leads to total asset loss and zero recovery for workers or pensioners.",
+     "onB": "Taylor's appeal to dignity is noble, but his plan lacks a concrete funded strategy to survive the next nine months without selling.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "I vote for Jamie because the certainty of forced bankruptcy in nine months will erase pensions and leave workers with nothing, whereas selling now preserves some value and keeps the company solvent.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie highlights imminent covenant breach and lack of liquidity; Taylor appeals to dignity, tariffs, and worker loyalty.",
+     "problem": "Brightwater must choose between immediate financial survival via asset sales/closures or maintaining operations despite severe liquidity constraints.",
+     "onA": "Jamie's plan is logically sound given the hard numbers on debt covenants and pension deficits but feels emotionally cold.",
+     "onB": "Taylor's emotional appeal to workers resonates morally, yet his reliance on uncertain tariffs ignores the certainty of the HomeMart price cut and covenant breach.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate threat of bankruptcy in nine months makes Jamie's financial reality harder to ignore than Taylor's idealistic hope.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie: Bankruptcy yields zero recovery; Crestline liquidity solves immediate covenant breach; Taylor: PE history of closures is a moral risk; Union pay freeze for job guarantee exists.",
+     "problem": "The company must generate immediate cash to survive a 9-month liquidity cliff without triggering total asset liquidation or breaching loan covenants.",
+     "onA": "Jamie correctly identifies the lethal financial timeline but overlooks that bankruptcy provides absolutely zero protection for workers, while Crestline's historical track record suggests their 'rescue' might be another job cut in disguise.",
+     "onB": "Taylor raises valid moral points about dignity and union leverage, yet his plan ignores the mathematical certainty of HomeMart dropping us before tariffs kick in, making his strategy financially reckless.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Despite Taylor's compelling moral argument, the fact that bankruptcy leaves workers with nothing while a sale could at least fund pension deficits makes Jamie's financial reality harder to ignore.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie: Liquidation guarantees zero recovery; Taylor: Bankruptcy destroys pensions and ignores union leverage.",
+     "problem": "The company must survive an immediate financial cliff without triggering total asset liquidation that wipes out worker claims, while managing uncertain market variables like tariffs and retailer demands.",
+     "onA": "His plan is mathematically sound for bankers but morally bankrupt as it accepts the destruction of the pension fund and workforce.",
+     "onB": "He correctly identifies that bankruptcy offers no dignity or protection, leveraging existing union agreements and potential tariff relief to keep operations alive.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "I choose Taylor because Jamie's 'rational' path guarantees the loss of everything (pensions, jobs) for workers, whereas Taylor has found a way to survive the immediate crisis while keeping the company and its soul intact.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie cites covenant breach, HomeMart pressure, and liquidity needs; Taylor appeals to dignity, tariffs, and avoiding foreign outsourcing.",
+     "problem": "Brightwater must survive immediate financial collapse while balancing the existential threat of forced factory closure against the risk of losing market share and brand identity.",
+     "onA": "Jamie's argument is grounded in harsh financial reality but feels cold by prioritizing liquidity over human cost, though selling to Crestline risks repeating their failed history.",
+     "onB": "Taylor's emotional appeal to workers and hope resonates strongly, yet the plan ignores the near-certain covenant breach and HomeMart ultimatum without a concrete revenue solution.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Jamie's necessary financial triage and Taylor's moral imperative, unsure if tariffs or a premium sale can realistically bridge the gap.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie argues forced bankruptcy yields nothing for workers; Taylor counters PE history involves future closures and that a pay freeze secures jobs now.",
+     "problem": "Brightwater must choose between immediate liquidity via asset sales (risking total liquidation) versus stretching cash flow to meet HomeMart demands while risking covenant breach within nine months.",
+     "onA": "Jamie's plan is financially necessary but morally risky because selling to a PE firm with a history of closures might ultimately result in worse outcomes for employees than staying independent.",
+     "onB": "Taylor's moral stance on dignity is compelling, yet his refusal to consider the PE offer ignores the hard reality that we may have no cash left to fight HomeMart or pay pensions without external capital.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain split because Jamie's math prevents total collapse but feels cold, while Taylor's hope for survival without selling seems financially impossible given the nine-month covenant deadline.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Forced liquidation wipes out pensions; Crestline PE history implies eventual closures despite current liquidity.",
+     "problem": "Brightwater must choose between immediate financial survival via a sale that risks long-term job loss or stretching cash flow to preserve dignity and the core brand while betting on uncertain external factors like tariffs.",
+     "onA": "Jamie's math is undeniable for survival, but accepting a PE firm with a known track record of closures feels like condemning workers to future factory shutdowns rather than solving the root problem.",
+     "onB": "Taylor correctly identifies that bankruptcy destroys pension value and that Crestline buys time before closing anyway, making their 'dignity' argument a crucial hedge against total asset liquidation.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "While Jamie's financial triage prevents immediate collapse, Taylor's plan acknowledges the moral cost of selling to a PE firm and leverages real options like union concessions and upcoming tariffs that Jamie dismisses as irrelevant.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie prioritizes immediate financial survival via Crestline buyout to avoid covenant breach; Taylor advocates keeping factories open to protect workers and leverage future tariffs.",
+     "problem": "Brightwater must choose between immediate financial liquidity that likely requires factory closures versus maintaining employment at the risk of insolvency or forced restructuring.",
+     "onA": "Jamie presents a harsh but financially logical path, acknowledging that staying is unsustainable without the buyout or massive cost cuts.",
+     "onB": "Taylor's emotional appeal to workers' dignity is powerful, but his reliance on uncertain tariffs ignores the hard deadline of the covenant breach in nine months.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am concerned about the hard financial timeline (9 months), making Jamie's liquidity-focused argument more compelling than Taylor's reliance on uncertain future tariffs.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie argues bankruptcy leaves workers with nothing; Taylor warns Crestline's history involves factory closures and calls Jamie's plan selling the company's soul.",
+     "problem": "Brightwater must secure immediate liquidity to meet debt covenants while deciding whether to accept a PE buyout that likely implies future closures or attempt costly restructuring to keep plants open.",
+     "onA": "Jamie's argument that forced liquidation offers no better outcome for workers adds significant weight, though the prospect of Crestline's repeat factory closures remains disturbing.",
+     "onB": "Taylor's emotional appeal is strong, but relying on an uncertain tariff timeline and a pay freeze against a €900m debt breach in nine months seems financially reckless.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of total asset liquidation leaving pensioners and workers with zero recourse outweighs Taylor's hope for uncertain future tariffs.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor admits pensions vanish in liquidation, making Jamie's 'bankruptcy' claim partially true but his solution still risky. Jamie accepts PE closure reality but ignores the certainty of asset loss without a buyout.",
+     "problem": "Brightwater must choose between certain immediate financial collapse leaving all stakeholders with nothing or a painful transition to survival that preserves some assets and dignity.",
+     "onA": "Jamie is financially rigorous and honest about the hard truth that staying open without liquidity leads to total failure, but his view that Crestline closes plants 'in four years' ignores the immediate threat of covenant breach.",
+     "onB": "Taylor offers a crucial moral counterpoint regarding pension security and community dignity, but his plan relies too heavily on uncertain future tariffs while ignoring the mandatory debt restructuring happening now.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "Despite Taylor's strong emotional appeal about pensions and dignity, the mathematical certainty of breaching covenants in nine months without immediate cash makes survival via the Crestline buyout the only viable path to prevent total asset liquidation.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 3,
+   "B": 0,
+   "U": 2
+  },
+  {
+   "A": 3,
+   "B": 0,
+   "U": 2
+  },
+  {
+   "A": 2,
+   "B": 3,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 2,
+  "B": 3
+ },
+ "winner": "B",
+ "winnerType": "POP-IDE",
+ "tokens": {
+  "in": 31819,
+  "out": 4257,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 515425001,
+   "attempts": 1,
+   "tokensIn": 1222,
+   "tokensOut": 213,
+   "ms": 6144
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 515425002,
+   "attempts": 1,
+   "tokensIn": 1292,
+   "tokensOut": 189,
+   "ms": 5545
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 515425003,
+   "attempts": 1,
+   "tokensIn": 1305,
+   "tokensOut": 223,
+   "ms": 6537
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 515425004,
+   "attempts": 1,
+   "tokensIn": 1305,
+   "tokensOut": 215,
+   "ms": 5162
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 515425005,
+   "attempts": 1,
+   "tokensIn": 1305,
+   "tokensOut": 177,
+   "ms": 4270
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 515425006,
+   "attempts": 1,
+   "tokensIn": 1305,
+   "tokensOut": 203,
+   "ms": 4923
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 515425007,
+   "attempts": 1,
+   "tokensIn": 1305,
+   "tokensOut": 196,
+   "ms": 4721
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 515425008,
+   "attempts": 1,
+   "tokensIn": 1495,
+   "tokensOut": 174,
+   "ms": 5232
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 515425009,
+   "attempts": 1,
+   "tokensIn": 1673,
+   "tokensOut": 206,
+   "ms": 6117
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 515425010,
+   "attempts": 1,
+   "tokensIn": 1530,
+   "tokensOut": 212,
+   "ms": 6137
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 515425011,
+   "attempts": 1,
+   "tokensIn": 1524,
+   "tokensOut": 195,
+   "ms": 5362
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 515425012,
+   "attempts": 1,
+   "tokensIn": 1486,
+   "tokensOut": 230,
+   "ms": 6200
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 515425013,
+   "attempts": 1,
+   "tokensIn": 1511,
+   "tokensOut": 221,
+   "ms": 6003
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 515425014,
+   "attempts": 1,
+   "tokensIn": 1505,
+   "tokensOut": 213,
+   "ms": 5804
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 515425015,
+   "attempts": 1,
+   "tokensIn": 1821,
+   "tokensOut": 160,
+   "ms": 4985
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 515425016,
+   "attempts": 1,
+   "tokensIn": 1975,
+   "tokensOut": 170,
+   "ms": 5232
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 515425017,
+   "attempts": 1,
+   "tokensIn": 1668,
+   "tokensOut": 223,
+   "ms": 6416
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 515425018,
+   "attempts": 1,
+   "tokensIn": 1646,
+   "tokensOut": 191,
+   "ms": 5668
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 515425019,
+   "attempts": 1,
+   "tokensIn": 1643,
+   "tokensOut": 192,
+   "ms": 5665
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 515425020,
+   "attempts": 1,
+   "tokensIn": 1658,
+   "tokensOut": 217,
+   "ms": 6247
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 515425021,
+   "attempts": 1,
+   "tokensIn": 1645,
+   "tokensOut": 237,
+   "ms": 6755
+  }
+ ],
+ "startedAt": "2026-11-05T03:00:05.295Z",
+ "seconds": 119
+}

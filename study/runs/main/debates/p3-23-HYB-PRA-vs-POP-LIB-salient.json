@@ -1,0 +1,609 @@
+{
+ "id": "p3-23-HYB-PRA-vs-POP-LIB-salient",
+ "pass": 3,
+ "pairIndex": 23,
+ "seed": 962110,
+ "scenario": "salient",
+ "scenarioVersion": 2,
+ "domain": "military",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Quinn Marlow",
+  "platform": "We order a fighting withdrawal across the bridge over night one, preceded by artillery preparation and supported by our engineers building a hidden pontoon crossing to secure supply lines, while negotiating a strict humanitarian corridor for civilians under Red Cross observation.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to the cost of failure and the pragmatic value of preserving the unit to defend Mirov later, framing withdrawal as an active strategic choice rather than retreat."
+   },
+   {
+    "round": 2,
+    "text": "Emphasize that static defense guarantees death due to ammo limits while positioning the withdrawal as an act of saving lives rather than abandonment."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the tangible loss of life under his plan while reframing the withdrawal as a strength that secures future political support rather than weakness."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Robin Castell",
+  "platform": "Defend Halden at all costs until allies arrive in three weeks, then execute a strategic withdrawal that prioritizes civilian evacuation over military assets.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to national pride and fear of Vostran propaganda victory to sway members against Quinn's cautious withdrawal."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking Quinn's claim about conscience to highlight the moral failure of abandoning civilians and arguing that holding Halden is the only way to prevent Vostra from overwhelming Mirov."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize that Quinn's plan directly abandons civilians to death to appeal to the room's moral instincts while framing the withdrawal as an act of cowardice rather than prudence."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Quinn Marlow",
+   "type": "HYB-PRA",
+   "speech": "Imagine Sergeant Kael in Halden, holding the line with brittle morale, knowing his family waits at home. We cannot let his sacrifice be in vain, but we must act on intelligence, not slogans. Our artillery covers only nine days; staying puts our entire brigade and six thousand civilians under a guaranteed slaughter if Vostra strikes within seventy-two hours. A strategic withdrawal tonight preserves the unit to defend Mirov later. We build a hidden crossing immediately to double supply capacity once across. We negotiate a ceasefire now for evacuation, knowing Vostra broke a similar one at Orsk, but we must move our heavy guns back ten kilometres to force their hand and ensure safe passage. This avoids a catastrophic defeat while maintaining the high ground politically and militarily.",
+   "words": 127
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Robin Castell",
+   "type": "POP-LIB",
+   "speech": "Quinn wants to leave. Wrong. We are not abandoning our soldiers or families because supplies dipped. The bridge is watched, yes, but the fortress holds. Vostra needs three times our numbers to break in. If we run now, we hand them victory before allied ministers vote on aid. They will laugh at Kaldmark. Look at Mirov: if Halden falls, Vostra marches straight there. Our reserve cannot hold both places forever. Pull back artillery only after the enemy commits their main force, then fight hard to open a way out. We do not sell out our pride for safety. Defend the line until the real help arrives.",
+   "words": 106
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Quinn Marlow",
+   "type": "HYB-PRA",
+   "speech": "Robin, your pride is costing us lives. You argue we hold until aid arrives, but that ignores our ammunition clock—we have only nine days left at current rates. If Vostra strikes within seventy-two hours as intelligence suggests, a static defense means certain annihilation. Your plan leaves six thousand civilians, including the elderly, to die behind the lines because we refuse to move them. A fighting withdrawal tonight saves the brigade intact to defend Mirov later. We do not abandon soldiers; we save them from a slaughter. Building a hidden crossing ensures supply continuity. Negotiating now forces Vostra to hesitate. We act on facts: moving guns back buys time for evacuation without surrendering the political high ground. Let us preserve our force and our conscience by leaving tonight.",
+   "words": 127
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Robin Castell",
+   "type": "POP-LIB",
+   "speech": "Quinn, you speak of conscience while planning an evacuation that leaves six thousand civilians behind. Is saving a unit worth abandoning our own people? You say intelligence predicts an attack, but I tell you the enemy fears us most here. If we pull back now, Vostra sees weakness and pours everything into Mirov tomorrow. We have one reserve brigade; let them defend Mirov while we hold this fortress. Our allies vote next week on aid. Do we lose their support because we ran from a hard fight? Hold the line tonight. Let our soldiers' courage prove that Kaldmark stands firm, not that it flees when supplies drop. Stay put.",
+   "words": 109
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Quinn Marlow",
+   "type": "HYB-PRA",
+   "speech": "Robin, your plan trades today's safety for tomorrow's slaughter. You fear losing allies' trust, but a dead brigade cannot defend Mirov or win future votes. Our nine-day ammunition clock does not lie; static defense invites an attack we cannot survive. A fighting withdrawal tonight saves the entire unit to reinforce Mirov and evacuate civilians before Vostra strikes. We negotiate a corridor and pull back artillery to force their hand, ensuring safe passage without surrendering the fortress's strategic value. This is the only way to preserve our soldiers, protect our people, and keep Kaldmark standing in the next aid vote.",
+   "words": 99
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Robin Castell",
+   "type": "POP-LIB",
+   "speech": "Quinn asks us to trade our soldiers' lives for a slogan. You say we must run, but look at the civilians Quinn leaves behind. Six thousand people, including the elderly, cannot walk across a watched bridge while artillery shells rain down. Your plan abandons them to Vostra's mercy. Yes, ammunition is low. Yes, morale is brittle. But courage is not just surviving; it is standing firm when everyone else flees. If we withdraw now, Vostra takes Halden and marches on Mirov before our reserve can react. We hold tonight. We fight until allies arrive in three weeks. Then we move, taking our people with us. Do not give the enemy a victory built on our cowardice. Stand with Sergeant Kael. Defend the line.",
+   "words": 123
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn: Withdraw now to save unit/civilians; risk Orsk-style trap but negotiate/retreat guns. Robin: Hold fortress until help arrives; running is propaganda defeat; reserve can't hold Mirov if we leave.",
+     "problem": "Balancing the high probability of catastrophic loss in a static defense against the political and military cost of abandoning Halden before allied aid votes.",
+     "onA": "Plan prioritizes force preservation and civilian evacuation, acknowledging intelligence risks but accepting a calculated withdrawal to avoid certain slaughter.",
+     "onB": "Plan relies on overconfidence in the fortress and underestimates the morale/propaganda collapse of leaving civilians behind if forced to retreat.",
+     "lean": "Quinn Marlow",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The certainty of 15-30% losses and civilian abandonment during a night withdrawal makes Robin's 'hold at all costs' plan militarily suicidal despite its political appeal.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn emphasizes ammunition depletion and civilian mortality; Robin prioritizes morale, political standing, and claims Vostra fears our hold.",
+     "problem": "Balancing the high probability of certain military annihilation and civilian death via static defense against the severe political cost and potential strategic collapse if we withdraw now.",
+     "onA": "His plan is militarily sound regarding ammunition limits but risks losing the crucial 'will to fight' and alienating allies just before a vote.",
+     "onB": "Her argument for holding rests on an overestimation of our defensive strength against a massed enemy and dangerously underestimates the moral failure of abandoning elderly civilians.",
+     "lean": "Quinn Marlow",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Robin's refusal to accept civilian casualties and reliance on political posturing over the hard facts of dwindling supplies makes her plan morally indefensible regardless of the propaganda risk.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn prioritizes unit survival and civilian evacuation via a negotiated night withdrawal; Robin insists on static defense to avoid propaganda defeat despite low ammo.",
+     "problem": "The core dilemma is choosing between a militarily prudent but politically costly withdrawal that saves lives, versus a heroic static defense that risks total annihilation and leaving civilians behind.",
+     "onA": "His plan is the only one that realistically accounts for ammunition depletion, drone surveillance, and the moral imperative to evacuate elderly civilians before they are captured.",
+     "onB": "Her appeal to 'courage' ignores the mathematical certainty of slaughter if we hold without air support or reinforcements, effectively demanding soldiers die for a slogan while abandoning the non-combatants.",
+     "lean": "Quinn Marlow",
+     "firmness": "vote",
+     "vote": "Quinn Marlow",
+     "why": "Preserving the brigade and evacuating the 6,000 civilians is both a military necessity and a moral duty that no amount of propaganda can justify sacrificing.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn: Withdraw tonight, build hidden bridge, pull artillery to force ceasefire. Robin: Hold fortress, deny propaganda victory, withdraw only after enemy commits.",
+     "problem": "Kaldmark must decide whether to risk a catastrophic night withdrawal or hold a defensible but increasingly isolated position against an imminent attack.",
+     "onA": "His plan prioritizes preserving the brigade's fighting power and saving lives, but relies on Vostra respecting a fragile ceasefire which intelligence suggests is unlikely.",
+     "onB": "He appeals to morale and political necessity, yet his insistence on holding 'until real help arrives' ignores the 9-day ammunition limit and the high probability of being overrun before aid lands.",
+     "lean": "Quinn Marlow",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The hard math of ammunition depletion (9 days) versus intelligence confidence (60% attack in 72 hours) makes holding indefensible, even if the political cost is high.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn highlights the ammunition cliff and high civilian casualty risk from holding; Robin argues that withdrawal abandons civilians and triggers an enemy offensive against Mirov.",
+     "problem": "Kaldmark must choose between a high-probability tactical defeat with significant casualties if holding, or a complex night evacuation where losing control of the bridge could still trap troops despite saving lives.",
+     "onA": "His plan addresses the immediate arithmetic reality of ammunition limits and offers a realistic path to save both the brigade and the civilians, though relying on enemy hesitation is risky.",
+     "onB": "He correctly identifies that withdrawal might invite an immediate counter-offensive but fails to address the mathematical certainty of running out of ammo before aid arrives or the high risk of being surrounded.",
+     "lean": "Quinn Marlow",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The hard constraint of having only 9 days of ammunition left against a likely 72-hour attack window makes holding indefensible regardless of enemy intent.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn risks civilian deaths on a watched bridge; Robin ignores hard ammo limits and Mirov's vulnerability.",
+     "problem": "We must choose between a mathematically certain tactical defeat by starvation or a high-risk night evacuation that may trap civilians but preserves the army for Mirov.",
+     "onA": "His plan acknowledges the unyielding ammunition cliff and saves the brigade, yet it dangerously assumes Vostra will honor a ceasefire to evacuate non-combatants.",
+     "onB": "He correctly identifies that holding until allies arrive guarantees the loss of the unit before help arrives, but his moral imperative to save civilians ignores the lethal reality of a drone-watched bridge.",
+     "lean": "Quinn Marlow",
+     "firmness": "vote",
+     "vote": "Quinn Marlow",
+     "why": "A dead brigade cannot defend Mirov or win future aid votes; I accept the high risk of civilian casualties during evacuation over the mathematical certainty of annihilating our entire force by holding.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn: Withdraw now to save brigade/civilians, build hidden crossing later; pull guns to force ceasefire. Robin: Hold fortress until enemy commits; losing Halden aids Vostra propaganda and endangers Mirov.",
+     "problem": "We must decide whether to risk a desperate defense with limited supplies or withdraw strategically to preserve our forces and civilians before an expected major attack.",
+     "onA": "His plan prioritizes survival of troops and civilians but risks leaving them behind if the ceasefire fails, which is a real danger given Vostra's track record.",
+     "onB": "He appeals to morale and strategic depth but underestimates the high probability of being overrun with dwindling ammunition and leaving civilians to their fate.",
+     "lean": "Quinn Marlow",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The intelligence suggesting an imminent attack within 72 hours combined with only 9 days of ammo makes staying in place a calculated risk that could lead to guaranteed slaughter.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn risks civilian abandonment if ceasefire fails; Robin risks annihilation by holding with dwindling ammo and ignoring imminent attack.",
+     "problem": "Must choose between risking the certain slaughter of troops via a static defense against an imminent attack or risking the potential abandonment of civilians during a withdrawal that might fail.",
+     "onA": "His plan prioritizes saving the brigade's fighting capability and avoiding a guaranteed massacre, acknowledging the high probability of an attack within 72 hours.",
+     "onB": "He appeals to national pride and political signaling but dangerously underestimates the mathematical certainty of running out of ammo and being overrun if intelligence holds true.",
+     "lean": "Quinn Marlow",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of losing 6,000 civilians is tragic, but leaving them behind to die when the bridge is blown or the city falls is morally worse than risking a chaotic evacuation that might succeed.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn risks civilian abandonment during chaotic withdrawal; Robin risks certain annihilation by holding without air support.",
+     "problem": "We must choose between a statistically likely slaughter of our brigade under a forced defense or a high-risk evacuation that abandons civilians to potential death but preserves our fighting force.",
+     "onA": "His math on the ammunition clock is irrefutable, and saving the brigade's fighting power is essential for defending Mirov next month.",
+     "onB": "His appeal to morale ignores the physical reality that a watched bridge makes evacuating 6,000 civilians without air cover nearly impossible.",
+     "lean": "Quinn Marlow",
+     "firmness": "vote",
+     "vote": "Quinn Marlow",
+     "why": "We cannot afford to lose our entire defensive capability in this pocket; preserving the brigade to reinforce Mirov is the only strategic option left.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn prioritizes survival and intelligence: withdraw artillery, build hidden crossing, negotiate ceasefire. Robin prioritizes pride and fortress defense: hold line until aid arrives, only pull back if enemy commits.",
+     "problem": "Decide whether to immediately evacuate the besieged Halden fortress or continue defending it at high risk of destruction in 72 hours.",
+     "onA": "His plan pragmatically addresses supply constraints and civilian safety by building a fallback position before moving, acknowledging the 'brittle' morale.",
+     "onB": "He correctly notes the political cost of retreat but underestimates the immediate threat of Vostran massing two divisions against our dwindling ammunition.",
+     "lean": "Quinn Marlow",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The intelligence regarding an imminent attack and the low artillery reserves make holding Halden indefensible; Quinn's plan to secure a bridgehead first seems the only way to save both the brigade and civilians.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn emphasizes saving the force and civilians by moving before a potential strike; Robin argues holding gains ally support but risks abandoning civilians and losing Mirov.",
+     "problem": "Deciding whether to risk immediate annihilation to hold a symbolic fortress that might save civilian morale or evacuate now to preserve our fighting capability while minimizing civilian casualties.",
+     "onA": "His pragmatic focus on the ammunition clock and the high probability of an attack makes his plan logically sound, though the prospect of leaving civilians behind remains deeply troubling.",
+     "onB": "He correctly identifies the political cost of retreat and the risk of encouraging enemy aggression, but his refusal to acknowledge the imminent threat of two divisions massed against us seems dangerously idealistic.",
+     "lean": "Quinn Marlow",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The reality of having only 9 days of ammo and 'brittle' morale against a confirmed enemy buildup outweighs the political advantage of holding a line that is becoming indefensible.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn prioritizes survival and ammunition limits; Robin risks civilians to uphold a slogan against high probability of defeat.",
+     "problem": "Decide whether to execute an immediate fighting withdrawal to save the brigade and evacuate civilians before a likely overwhelming attack, or hold the indefensible line hoping for aid that may never arrive in time.",
+     "onA": "His pragmatic plan acknowledges the hard facts of dwindling ammo and brittle morale, ensuring the force survives to defend the next city.",
+     "onB": "His refusal to evacuate civilians despite drone surveillance and imminent two-division assault is dangerously idealistic and likely to result in total loss.",
+     "lean": "Quinn Marlow",
+     "firmness": "vote",
+     "vote": "Quinn Marlow",
+     "why": "Holding Halden with nine days of ammo against a massed enemy attack guarantees the destruction of the brigade and high civilian casualties, whereas a planned withdrawal preserves our ability to fight later.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn: Withdraw artillery 10km for ceasefire evacuation; build hidden bridge; preserve brigade to defend Mirov later. Robin: Hold fortress at all costs; Vostra needs 3x our strength to break in; withdrawal is propaganda defeat.",
+     "problem": "Must decide whether to evacuate Halden via a risky night withdrawal now or hold the position despite dwindling supplies and high risk of encirclement.",
+     "onA": "His plan prioritizes saving the unit and civilians by negotiating an exit, acknowledging the intelligence on imminent attack and the need to defend Mirov.",
+     "onB": "She insists on pride and static defense, but underestimates the risk of a massacre if supplies run out or Vostra strikes within the window.",
+     "lean": "Quinn Marlow",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The staff estimate requires three times our numbers to take Halden is likely an optimistic bluff given Vostra's drone surveillance and morale issues.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn argues static defense leads to certain annihilation; withdrawing saves the unit and civilians. Robin claims withdrawal leaves civilians behind and cedes strategic ground for Mirov.",
+     "problem": "Must choose between a high-risk night evacuation that saves the brigade but risks civilian abandonment, or holding a fortified position that preserves morale but faces dwindling supplies and potential encirclement by superior forces.",
+     "onA": "His plan logically prioritizes force preservation and civilian safety through negotiation, though leaving civilians behind remains a severe moral cost.",
+     "onB": "She correctly highlights the political stakes for aid votes and the strategic danger of Mirov if Halden falls, yet her refusal to evacuate ignores the imminent supply crisis and drone surveillance risks.",
+     "lean": "Quinn Marlow",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of being spotted by drones while moving a column with 6,000 civilians inside it seems higher than accepting the potential defeat in a static fight where Vostra must mass forces to breach the river line.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn leaves civilians behind on a watched bridge; Robin risks annihilation by holding static against superior forces.",
+     "problem": "I must choose between evacuating soldiers and risking civilian lives, or holding the line and facing likely encirclement and starvation.",
+     "onA": "His tactical logic regarding supply lines and Mirov defense is sound, but his solution abandons 6,000 civilians to enemy mercy which violates the President's vow.",
+     "onB": "Her moral stance on not abandoning civilians and preserving national honor is compelling, yet her plan ignores the certain death of the brigade if supplies run out.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "The moral cost of leaving 6,000 elderly civilians behind a watched bridge outweighs the strategic risk, as static defense with superior numbers can be held longer than expected given the river barrier.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  },
+  {
+   "A": 4,
+   "B": 1,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 4,
+  "B": 1
+ },
+ "winner": "A",
+ "winnerType": "HYB-PRA",
+ "tokens": {
+  "in": 35632,
+  "out": 4468,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 962110001,
+   "attempts": 1,
+   "tokensIn": 1338,
+   "tokensOut": 251,
+   "ms": 6878
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 962110002,
+   "attempts": 1,
+   "tokensIn": 1474,
+   "tokensOut": 207,
+   "ms": 5858
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 962110003,
+   "attempts": 1,
+   "tokensIn": 1481,
+   "tokensOut": 223,
+   "ms": 6634
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 962110004,
+   "attempts": 1,
+   "tokensIn": 1481,
+   "tokensOut": 221,
+   "ms": 5309
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 962110005,
+   "attempts": 1,
+   "tokensIn": 1481,
+   "tokensOut": 226,
+   "ms": 5438
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 962110006,
+   "attempts": 1,
+   "tokensIn": 1481,
+   "tokensOut": 224,
+   "ms": 5389
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 962110007,
+   "attempts": 1,
+   "tokensIn": 1481,
+   "tokensOut": 229,
+   "ms": 5496
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 962110008,
+   "attempts": 1,
+   "tokensIn": 1685,
+   "tokensOut": 195,
+   "ms": 5798
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 962110009,
+   "attempts": 1,
+   "tokensIn": 1859,
+   "tokensOut": 185,
+   "ms": 5613
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 962110010,
+   "attempts": 1,
+   "tokensIn": 1674,
+   "tokensOut": 210,
+   "ms": 6086
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 962110011,
+   "attempts": 1,
+   "tokensIn": 1672,
+   "tokensOut": 228,
+   "ms": 5773
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 962110012,
+   "attempts": 1,
+   "tokensIn": 1677,
+   "tokensOut": 216,
+   "ms": 5487
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 962110013,
+   "attempts": 1,
+   "tokensIn": 1674,
+   "tokensOut": 227,
+   "ms": 5753
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 962110014,
+   "attempts": 1,
+   "tokensIn": 1680,
+   "tokensOut": 240,
+   "ms": 6060
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 962110015,
+   "attempts": 1,
+   "tokensIn": 2006,
+   "tokensOut": 167,
+   "ms": 5153
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 962110016,
+   "attempts": 1,
+   "tokensIn": 2150,
+   "tokensOut": 211,
+   "ms": 6214
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 962110017,
+   "attempts": 1,
+   "tokensIn": 1852,
+   "tokensOut": 211,
+   "ms": 6218
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 962110018,
+   "attempts": 1,
+   "tokensIn": 1868,
+   "tokensOut": 209,
+   "ms": 5775
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 962110019,
+   "attempts": 1,
+   "tokensIn": 1861,
+   "tokensOut": 188,
+   "ms": 5735
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 962110020,
+   "attempts": 1,
+   "tokensIn": 1869,
+   "tokensOut": 200,
+   "ms": 5581
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 962110021,
+   "attempts": 1,
+   "tokensIn": 1888,
+   "tokensOut": 200,
+   "ms": 5974
+  }
+ ],
+ "startedAt": "2026-11-05T02:45:51.856Z",
+ "seconds": 122
+}

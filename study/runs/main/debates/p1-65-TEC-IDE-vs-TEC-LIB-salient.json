@@ -1,0 +1,606 @@
+{
+ "id": "p1-65-TEC-IDE-vs-TEC-LIB-salient",
+ "pass": 1,
+ "pairIndex": 65,
+ "seed": 50827,
+ "scenario": "salient",
+ "domain": "military",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-IDE",
+  "style": "TEC",
+  "ideology": "IDE",
+  "name": "Jamie Okafor",
+  "platform": "Execute a fighting withdrawal across the bridge during the 48-hour ceasefire to evacuate civilians and redeploy our reserve to defend Mirov, accepting the risk of a delayed Vostran assault.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor my argument on the specific casualty numbers and the irreversible loss of Mirov's population if we commit our reserve to Halden."
+   },
+   {
+    "round": 2,
+    "text": "I am reframing his ceasefire argument as self-defeating and reinforcing the strategic necessity of retaining our reserve near Mirov."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing that my plan includes blowing the bridge and evacuating civilians, directly countering Robin's claim that my approach sacrifices people or fails to defend Mirov."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-LIB",
+  "style": "TEC",
+  "ideology": "LIB",
+  "name": "Robin Castell",
+  "platform": "Initiate an immediate fighting withdrawal across the bridge tonight to save our troops and civilians before Vostra's attack.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize concrete cost-benefit analysis and expected losses to appeal to councillors focused on long-term stability and humanitarian outcomes."
+   },
+   {
+    "round": 2,
+    "text": "I will expose the flaw in his 'moral capitulation' argument by emphasizing that holding guarantees death, while accepting their flawed ceasefire terms is a pragmatic choice to save civilians and troops."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the historical precedent of Vostra breaking ceasefires to counter Jamie's reliance on their offer, framing immediate withdrawal as the only way to avoid guaranteed death and maintain moral integrity."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "TEC-IDE",
+   "speech": "We must withdraw. The arithmetic is clear: we have six months of food reserves against an indefinite siege if we hold, or starvation within two weeks if we fight. Blowing the bridge protects Mirov; committing our reserve to Halden leaves our population at Mirov exposed to collapse. Morale is brittle not because the soldiers fear death, but because they sense an unjust sacrifice of civilians for a propaganda slogan. A fighting withdrawal saves 6,000 lives and shifts the front line north without surrendering strategically vital territory.",
+   "words": 86
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Robin Castell",
+   "type": "TEC-LIB",
+   "speech": "Our ammunition lasts nine days, but morale is brittle. Intelligence suggests an attack within seventy-two hours. Holding here invites annihilation without air support or reliable allies. A fighting withdrawal at night moves us out in two to three nights with acceptable losses, saving the brigade for future defense of Mirov. Pulling back artillery avoids breaching a Red Cross ceasefire that Vostra will likely break anyway, unlike their history at Orsk. Retreating now denies Vostra a propaganda victory before allied aid votes, preserves our strategic reserve near Mirov, and follows the rule of law by saving lives under fair conditions rather than fighting to the last round.",
+   "words": 106
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "TEC-IDE",
+   "speech": "Robin conflates tactical withdrawal with moral capitulation. You argue for a ceasefire to save lives, yet our enemy has already proven they break such agreements. Accepting their offer validates coercion; if we delay or refuse due to imminent attack, Vostra gains the moral high ground. The arithmetic remains: holding costs six months of food reserves against an indefinite siege while risking annihilation. Our reserve near Mirov must remain to prevent collapse of our population center. A fighting withdrawal during a night operation minimizes exposure. We preserve the brigade for future defense rather than burning it on a symbolic bridge. Denying Vostra propaganda victory by executing a disciplined retreat, not by holding an indefensible position, aligns with our duty to the vulnerable.",
+   "words": 121
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Robin Castell",
+   "type": "TEC-LIB",
+   "speech": "Jamie, your arithmetic ignores the immediate certainty of death. You claim fighting withdrawal is capitulation, yet holding without air support or reliable allies is guaranteed annihilation within seventy-two hours. The Vostran offer to evacuate civilians under a local ceasefire exists solely for our compliance; refusing it while they mass two divisions proves not strength but suicidal stubbornness. Blowing the bridge first denies them Mirov regardless of our position, so we do not need to wait for their failed agreement. A disciplined night move saves the brigade and those six thousand lives without surrendering our strategic reserve's location near Mirov. We must prioritize survival and rule of law over a slogan that costs everything.",
+   "words": 113
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "TEC-IDE",
+   "speech": "Robin frames our withdrawal as capitulation, but this ignores the arithmetic of survival. Holding Halden while Vostra massed fifteen thousand troops guarantees the annihilation of six thousand civilians and two thousand soldiers without air support or allies. Your plan to blow the bridge denies Mirov's defense; my plan uses the ceasefire to evacuate non-combatants before blowing the bridge, preserving both lives and territory. We do not surrender by retreating under fire with a protected withdrawal; we preserve our strategic reserve to defend the population center that matters most. Blowing the bridge first without evacuating civilians violates our duty to the vulnerable. A disciplined night move during a valid ceasefire is the only way to fulfill our moral obligation while maintaining military viability.",
+   "words": 122
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Robin Castell",
+   "type": "TEC-LIB",
+   "speech": "Jamie, your proposed ceasefire is a trap based on false arithmetic. Vostra broke their own agreement at Orsk in twenty hours; waiting forty-eight hours guarantees the civilians perish while our ammunition expires. You claim discipline saves lives, but holding an indefensible position invites total annihilation of both soldiers and non-combatants. My plan initiates withdrawal tonight to secure the evacuation window before the inevitable attack. Blowing the bridge first denies Vostra a direct route to Mirov regardless of their advance, negating the need for their failed truce. We must prioritize immediate survival under fair conditions over a symbolic stand that sacrifices our people and strategic reserve. A disciplined night move preserves our forces for future defense while obeying the rule of law by refusing coercion through starvation.",
+   "words": 126
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Food reserves vs. starvation timeline; bridge bombing protects Mirov; reserve commitment risks Mirov collapse.",
+     "problem": "Decide whether to hold a starving pocket protected by a slogan or withdraw to save lives and protect the capital's rear area before an expected attack.",
+     "onA": "His arithmetic on starvation is compelling, but he frames 'brittle' morale as unjust sacrifice rather than acknowledging the immediate risk of annihilation under fire.",
+     "onB": "He correctly notes that allies refuse air support and Vostra will break ceasefires anyway, yet his argument relies heavily on the optimistic assumption that we can pull back artillery safely while avoiding a propaganda victory.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat of starvation without outside aid makes holding impossible regardless of morale, so saving the brigade to defend Mirov is the only viable military option.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie argues fighting withdrawal is not capitulation but discipline; Robin claims refusal of ceasefire is suicidal given enemy's history of breaking agreements.",
+     "problem": "Decide whether to risk annihilation holding a starving garrison against an imminent massive assault or execute a difficult fighting withdrawal to save lives and protect Mirov before Vostra exploits our position.",
+     "onA": "His argument that disciplined retreat is not moral failure is logically sound, yet his dismissal of the ceasefire offer ignores the specific opportunity to save 6,000 civilians without combat losses.",
+     "onB": "He correctly identifies the certainty of death if we hold and highlights the futility of waiting for allies who refuse air support, making his survival-based logic compelling despite my earlier lean towards Jamie.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat to the civilian population during a siege offers a unique, time-limited chance to evacuate them safely that is lost by any fighting withdrawal, outweighing the risk of Vostra breaking the ceasefire.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Ceasefire deadline vs. starvation timeline; civilian evacuation opportunity during withdrawal window.",
+     "problem": "Decide whether to risk immediate starvation for a symbolic stand or execute a fighting withdrawal that allows safe civilian evacuation and preserves the strategic reserve to defend Mirov.",
+     "onA": "His plan prioritizes civilians by using the ceasefire, but relies on trusting Vostra's honor which intelligence deems highly unlikely given their history at Orsk.",
+     "onB": "He correctly identifies the high risk of a ceasefire trap and the necessity to move immediately, though his plan risks leaving 6,000 civilians behind if the withdrawal fails.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "Given Vostra's proven history of breaking ceasefires within 20 hours while starving defenders, the probability that a 48-hour ceasefire will actually allow civilian evacuation is too low to risk. A fighting withdrawal tonight offers the only realistic chance to save lives without waiting for an enemy guaranteed not to honor its word.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie: fighting withdrawal saves lives/protects Mirov/avoiding unjust sacrifice; Robin: holding invites annihilation/no air support/retreat preserves brigade.",
+     "problem": "Decide whether to risk a costly night fighting withdrawal or attempt a heroic but doomed defense of Halden given imminent Vostran attack and dwindling supplies.",
+     "onA": "Jamie's plan is pragmatic but risks exposing the 6,000 civilians if we pull artillery back under a ceasefire Vostra will likely break anyway.",
+     "onB": "Robin correctly identifies the risk of annihilation without air support, but their proposal to honor a ceasefire with a known cheater is dangerous given Orsk's history.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers agree on a withdrawal, but Jamie's willingness to sacrifice civilians for a 'noble' stand contradicts Robin's humanitarian focus, while Robin's reliance on a ceasefire with a history of betrayal is concerning.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie argues fighting withdrawal isn't capitulation but preserves the brigade for future use; Robin insists holding is suicide and we must blow the bridge first rather than wait for a known cheater.",
+     "problem": "Whether to risk a costly night fighting withdrawal now or hold Halden until certain annihilation while Vostra likely breaks any ceasefire offer anyway.",
+     "onA": "His plan preserves our military capability but his reliance on a ceasefire with a history of betrayal makes the immediate safety of civilians uncertain.",
+     "onB": "He correctly identifies that holding without air support is suicide, but prioritizing blowing the bridge over securing civilian evacuation via a ceasefire risks unnecessary loss of life.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of Vostran betrayal at Orsk makes waiting for their agreement fatal, whereas executing an immediate withdrawal and destroying the bridge now ensures survival regardless of their actions.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie claims a ceasefire is valid and evacuates civilians first; Robin insists blowing the bridge now prevents reliance on Vostra's broken truce.",
+     "problem": "Choose between a high-risk night withdrawal that secures survival immediately versus delaying evacuation to honor a ceasefire guaranteed by history to break.",
+     "onA": "Jamie's plan is morally sound regarding civilian safety but ignores the proven fact that Vostra will not honor any agreement, making the proposed pause fatal.",
+     "onB": "Robin correctly identifies the immediate danger of holding and the futility of trusting a cheater, proposing an aggressive move that saves lives regardless of enemy actions.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "Given Vostra's proven history of breaking ceasefires, relying on their agreement guarantees civilian deaths; executing the withdrawal immediately destroys both military force and population safely.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Food runs out in 2 weeks vs 9 days ammo; Vostra attacks in 72h with 15k troops. Jamie wants withdraw now to save lives/Mirov. Robin suggests night withdrawal + pull artillery, citing brittle morale and Red Cross ceasefire offer.",
+     "problem": "Decide whether to fight a likely doomed siege or execute an immediate fighting withdrawal to save the brigade and civilians while denying Vostra a propaganda victory.",
+     "onA": "Jamie correctly identifies the unsustainable supply situation but overlooks that we have 9 days of ammo, not zero, giving us time for a planned withdrawal rather than an emergency one.",
+     "onB": "Robin's plan to pull artillery and retreat at night is more realistic militarily, though his dismissal of the ceasefire offer ignores the specific risk of civilians being left behind if heavy equipment is moved too early.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Robin's assessment of our actual ammunition reserves giving us a window for a planned, not desperate, withdrawal aligns better with the available intelligence than Jamie's claim of immediate starvation.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie dismisses ceasefire as capitulation but ignores high risk of civilians being stranded if artillery moves early. Robin claims bridge destruction is non-negotiable yet risks leaving no evacuation route for a short window.",
+     "problem": "Decide whether to execute a disciplined night withdrawal that preserves the brigade and evacuates civilians immediately, or hold an indefensible position that guarantees annihilation while ignoring a viable (albeit risky) enemy offer.",
+     "onA": "His plan is militarily unsound for a town already surrounded on three sides where holding costs six months of reserves against certain death within 72 hours.",
+     "onB": "He correctly identifies the immediate certainty of annihilation if we hold, but his refusal to consider the ceasefire risks leaving thousands of civilians behind in the crossfire.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Robin's assessment that holding is a death sentence aligns with the 15k enemy force vs. 3.8k defenders, and his plan to destroy the bridge after withdrawal addresses the primary threat of Vostra advancing on Mirov.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie insists on using ceasefire for civilians but risks Vostra breaking it. Robin prioritizes immediate withdrawal to ensure survival despite the ceasefire risk.",
+     "problem": "The core dilemma is balancing the moral imperative to save thousands of civilians against the military reality that holding an indefensible position guarantees their deaths within 72 hours.",
+     "onA": "Jamie's reliance on a ceasefire with a known history of violation makes his plan dangerously dependent on enemy honesty when survival depends on speed.",
+     "onB": "Robin correctly identifies the certainty of annihilation if we hold, but initially underestimates the specific danger of leaving civilians behind during a rapid retreat.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "While Robin's military logic regarding immediate withdrawal is sound, Jamie's plan to utilize the ceasefire window for civilian evacuation before retreating actually offers the best chance to save the 6,000 non-combatants without sacrificing our forces.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie cites food/ammunition math and saving civilians; Robin emphasizes Red Cross legality and avoiding propaganda defeat. Both agree on fighting withdrawal at night.",
+     "problem": "Decide whether to execute a risky, morale-testing night withdrawal that saves lives but risks civilian exposure, or hold under an unsupportable siege to avoid enemy propaganda despite likely high casualties.",
+     "onA": "Jamie's arithmetic is compelling regarding starvation and reserve integrity, but his focus on 'unjust sacrifice' feels like a moral argument rather than a tactical assessment of the immediate threat.",
+     "onB": "Robin correctly identifies that holding without air support leads to annihilation, and her point about avoiding a guaranteed propaganda victory by retreating legally is strategically sound.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Robin's argument that we cannot win against massed forces without air support, combined with the strategic cost of losing the brigade at Halden before defending Mirov, outweighs Jamie's focus on food reserves which do not solve the immediate threat of being trapped or overwhelmed.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie rejects ceasefire as capitulation since Vostra breaks agreements; Robin argues holding is suicidal without air and blowing the bridge denies Mirov access regardless.",
+     "problem": "We must choose between a morally fraught but legally sound fighting withdrawal to save our brigade and civilians, or an indefensible stand that guarantees annihilation and loses our strategic reserve before Mirov falls.",
+     "onA": "Jamie's refusal of the ceasefire is strategically unsound given Vostra's track record, and his focus on 'unjust sacrifice' ignores the immediate reality of guaranteed death if we hold.",
+     "onB": "Robin correctly identifies that holding without air support leads to certain annihilation, and blowing the bridge first is a smart tactical move that negates Vostra's threat to Mirov.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Robin's point that refusing a ceasefire while facing two massed divisions is not strength but suicidal stubbornness finally convinced me that the only viable path is a disciplined withdrawal.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie insists on using ceasefire to evacuate civilians before blowing bridge; Robin warns Vostra breaks deals and urges immediate withdrawal to secure window.",
+     "problem": "Choose between a legally compliant night evacuation that risks civilian exposure during the cease-fire window or an immediate tactical withdrawal that denies Vostra legal leverage but leaves civilians behind if delayed too long.",
+     "onA": "His plan maximizes civilian survival by using the ceasefire to clear the bridge, even though it relies on an adversary known for breaking agreements.",
+     "onB": "She correctly identifies that delaying withdrawal wastes ammunition and risks total annihilation, but her refusal to use the legal evacuation window unnecessarily sacrifices civilians who could be saved.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "While Vostra is untrustworthy, using the ceasefire offers the only chance to save thousands of civilians before blowing the bridge, and losing them now would be a moral failure regardless of tactical risks.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Food lasts 2 weeks vs 9 days ammo; bridge blow-up protects Mirov; withdrawal costs heavy casualties if spotted.",
+     "problem": "Choose between a risky night fight to save the brigade and civilians, or holding against probable annihilation for propaganda value.",
+     "onA": "His focus on starvation and protecting Mirov is logical, but his dismissal of civilian evacuation via ceasefire seems naive given Vostra's history at Orsk.",
+     "onB": "She correctly identifies the strategic risk of holding with dwindling ammo, yet her claim that a night withdrawal has 'acceptable losses' feels dangerously optimistic.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans have fatal flaws: Jamie ignores the likelihood of civilian casualties during a failed ceasefire, while Robin underestimates the cost of a fighting withdrawal across an exposed bridge.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie: Ceasefire is a trap; blowing bridge denies Mirov without waiting. Robin: Holding guarantees death in 72h; night move saves lives and reserve.",
+     "problem": "We must choose between a suicidal defense for propaganda or a high-risk maneuver to save our troops, civilians, and strategic depth before Vostra attacks.",
+     "onA": "His logic on preserving the reserve is sound, but his dismissal of the ceasefire trap feels dangerously optimistic given Vostra's record at Orsk.",
+     "onB": "She correctly identifies that holding without air support is a guaranteed loss, yet she underestimates the catastrophic cost if Vostra spots our withdrawal.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Even though a night withdrawal is risky, losing the entire brigade and six thousand civilians seems a worse strategic failure than risking casualties in a disciplined retreat.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Ceasefire is a trap; holding guarantees annihilation without air support.",
+     "problem": "The core dilemma is whether to accept a high-probability trap that sacrifices civilians for a chance at a disciplined retreat, or to abandon the position immediately despite extreme risks to save lives.",
+     "onA": "His plan relies on trusting Vostra's honor after Orsk and assumes we can evacuate civilians in time, which seems dangerously naive given their track record.",
+     "onB": "She correctly identifies that holding is a death sentence but underestimates the catastrophic cost if the night withdrawal fails or takes too long.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "Even though the ceasefire trap is real, waiting guarantees the loss of six thousand civilians and the entire brigade; an immediate fighting withdrawal is the only option left that offers any chance of survival.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 1,
+   "B": 2,
+   "U": 2
+  },
+  {
+   "A": 1,
+   "B": 4,
+   "U": 0
+  },
+  {
+   "A": 2,
+   "B": 3,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 2,
+  "B": 3
+ },
+ "winner": "B",
+ "winnerType": "TEC-LIB",
+ "tokens": {
+  "in": 31936,
+  "out": 4500,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 50827001,
+   "attempts": 1,
+   "tokensIn": 1188,
+   "tokensOut": 198,
+   "ms": 19866
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 50827002,
+   "attempts": 1,
+   "tokensIn": 1190,
+   "tokensOut": 194,
+   "ms": 5464
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 50827003,
+   "attempts": 1,
+   "tokensIn": 1278,
+   "tokensOut": 213,
+   "ms": 6327
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 50827004,
+   "attempts": 1,
+   "tokensIn": 1278,
+   "tokensOut": 230,
+   "ms": 5559
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 50827005,
+   "attempts": 1,
+   "tokensIn": 1278,
+   "tokensOut": 255,
+   "ms": 6129
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 50827006,
+   "attempts": 1,
+   "tokensIn": 1278,
+   "tokensOut": 247,
+   "ms": 5977
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 50827007,
+   "attempts": 1,
+   "tokensIn": 1278,
+   "tokensOut": 202,
+   "ms": 4901
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 50827008,
+   "attempts": 1,
+   "tokensIn": 1483,
+   "tokensOut": 188,
+   "ms": 5605
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 50827009,
+   "attempts": 1,
+   "tokensIn": 1624,
+   "tokensOut": 189,
+   "ms": 5689
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 50827010,
+   "attempts": 1,
+   "tokensIn": 1505,
+   "tokensOut": 239,
+   "ms": 6835
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 50827011,
+   "attempts": 1,
+   "tokensIn": 1521,
+   "tokensOut": 214,
+   "ms": 5855
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 50827012,
+   "attempts": 1,
+   "tokensIn": 1547,
+   "tokensOut": 253,
+   "ms": 6860
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 50827013,
+   "attempts": 1,
+   "tokensIn": 1539,
+   "tokensOut": 235,
+   "ms": 6782
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 50827014,
+   "attempts": 1,
+   "tokensIn": 1494,
+   "tokensOut": 211,
+   "ms": 6157
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 50827015,
+   "attempts": 1,
+   "tokensIn": 1802,
+   "tokensOut": 191,
+   "ms": 5721
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 50827016,
+   "attempts": 1,
+   "tokensIn": 1942,
+   "tokensOut": 206,
+   "ms": 6127
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 50827017,
+   "attempts": 1,
+   "tokensIn": 1734,
+   "tokensOut": 226,
+   "ms": 6624
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 50827018,
+   "attempts": 1,
+   "tokensIn": 1726,
+   "tokensOut": 192,
+   "ms": 5774
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 50827019,
+   "attempts": 1,
+   "tokensIn": 1790,
+   "tokensOut": 213,
+   "ms": 6296
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 50827020,
+   "attempts": 1,
+   "tokensIn": 1765,
+   "tokensOut": 210,
+   "ms": 6245
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 50827021,
+   "attempts": 1,
+   "tokensIn": 1696,
+   "tokensOut": 194,
+   "ms": 5877
+  }
+ ],
+ "startedAt": "2026-11-04T23:22:53.116Z",
+ "seconds": 141
+}

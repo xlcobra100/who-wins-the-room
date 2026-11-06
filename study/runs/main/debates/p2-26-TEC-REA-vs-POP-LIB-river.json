@@ -1,0 +1,609 @@
+{
+ "id": "p2-26-TEC-REA-vs-POP-LIB-river",
+ "pass": 2,
+ "pairIndex": 26,
+ "seed": 691137,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-REA",
+  "style": "TEC",
+  "ideology": "REA",
+  "name": "Morgan Ekberg",
+  "platform": "Merova must negotiate a binding seven-year filling schedule in exchange for Saradan's acceptance of the ICJ's jurisdiction and a joint water management pact.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor the room with the threat of naval intervention to make the legal deal look like a pragmatic necessity rather than a surrender, forcing Saradan to concede to ICJ jurisdiction."
+   },
+   {
+    "round": 2,
+    "text": "I am countering Riley's emotional appeal about sovereignty by demonstrating that her plan economically collapses the nation faster than my enforced negotiation, while subtly reminding voters that Tarsun will not fund her alternative."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing immediate economic survival and zero-cost gains to sway ministers worried about farm employment and fiscal risk."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Riley Sandor",
+  "platform": "Merova must reject Saradan's power deal and immediately build our own reservoir to secure our water independence while keeping our farmers' markets open.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Push hard on the moral unacceptability of selling sovereignty while highlighting that building our own infrastructure guarantees long-term stability and independence regardless of Saradan's election results."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking Morgan's reliance on Tarsun and unenforceable ICJ rulings while emphasizing that their 'math' ignores the human cost and financial risk of building a private dam."
+   },
+   {
+    "round": 3,
+    "text": "Appeal to the immediate emotional urgency of the kitchen table family while highlighting the fatal flaw in Morgan's legal threat against a non-compliant adversary, aiming to secure votes from those valuing sovereignty over risky international arbitration."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "TEC-REA",
+   "speech": "We cannot rely on Tarsun or empty threats. We demand a legally enforceable agreement before the reservoir fills. Accept our counter-proposal: we sign a power purchase deal to close our coal plants and delay filling by four years, but only if Saradan accepts ICJ oversight for water disputes and agrees to joint irrigation releases. This recovers half the projected losses immediately. If they refuse or delay, we mobilize naval forces under Tarsun's protection to block construction at the intake valves. We will not be held hostage by their domestic politics while their population suffers blackouts. Force backed by legal frameworks is the only path that protects our farmers and our water security without relying on unenforceable promises.",
+   "words": 117
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "POP-LIB",
+   "speech": "Our people are not currency for elite deals. Morgan asks us to sign away our sovereignty to a dictator just to buy electricity he will sell anyway. Look at the family at this kitchen table. They drink from the Tessel. If we fill that dam, their taps run dry in three years. We cannot trade our water for power; it is theft. Saradan wants to hold us hostage with coal plants. We must build our own storage to match them. Let the farmers keep selling grain to feed Saradan's people, but let us protect our own survival. Do not let Tarsun or a distant court decide our future. Stand up for the worker in the trench. Demand water first, then power from anyone who respects fair rules. Vote to build our dam before they fill theirs.",
+   "words": 136
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "TEC-REA",
+   "speech": "Riley, your moral outrage ignores the hard math. Merova gets seventy percent of its water from this river. If we stop them mid-construction, our farms fail immediately, and Saradan's grain imports halt, hurting both economies. You propose building our own storage without funding, but joint management recovers half those losses at zero cost. Tarsun will not fund our private dam; they want a naval stop in *our* ports. Your plan risks total water loss for an unproven project. My proposal forces them to accept ICJ oversight and seven-year filling, which guarantees our farmers survival while buying power to close coal plants. We get security today without gambling our food supply on their goodwill or empty promises.",
+   "words": 116
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "POP-LIB",
+   "speech": "Morgan, your 'math' ignores the family at the kitchen table. You trade their water for power from a dictator who already sells it cheaply elsewhere! Tarsun funds Saradan and wants our ports. That is not partnership; that is a takeover. Your ICJ plan fails because Saradan refuses to play by those rules. You get a verdict nobody can enforce while their taps run dry. And your private dam? Who pays the cost if construction halts? Not us, Morgan! We will not spend our farmers' profits on Tarsun's naval ships. Reject Tarsun's trap. Reject empty legal promises. Build our own storage today to protect our water forever. Let our grain feed Saradan without fear. Do not let elites gamble with survival. Vote for independence now.",
+   "words": 124
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "TEC-REA",
+   "speech": "Riley, your plea for independence ignores reality. Saradan refuses ICJ jurisdiction, making your threat of a legal case useless. Your plan to build private storage lacks funding, while joint management recovers half the water losses at zero cost today. If we halt filling, our farms fail immediately and grain exports collapse, hurting both nations. My proposal forces them into a seven-year schedule: they get power to close coal plants, we secure our farmers' livelihoods, and we gain time without gambling everything on an unproven dam you cannot afford. This is the only path that delivers water security now while closing the door on Tarsun's naval leverage.",
+   "words": 106
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "POP-LIB",
+   "speech": "Morgan, you call our farmers' livelihoods a gamble, but your plan is the real theft. You demand we sign away our sovereignty to a Tarsun-funded dictator just to buy electricity they sell for pennies elsewhere. Your 'joint management' relies on Saradan's goodwill while their taps run dry. And that ICJ threat? They refuse it. It is empty air. Do not let our water security depend on a foreign court that cannot enforce its own rules or a dam built by force. Look at the family drinking from the Tessel. Their future is in our hands, not theirs. We build our own reservoir today. We keep selling grain to feed Saradan's people without fear. We stand tall against their coercion and Tarsun's trap. Vote for independence, vote for water security, and refuse to trade our survival for cheap power from a regime that does not respect us.",
+   "words": 146
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan demands ICJ oversight and joint releases but threatens naval blockade if refused; Riley rejects sovereignty loss and insists on building our own storage first.",
+     "problem": "Merova must secure its water supply against the dam while deciding between coercive force/conditions versus economic independence/self-reliance.",
+     "onA": "His plan offers immediate water recovery via joint management but relies on enforcement mechanisms (naval blockade) that Saradan will likely reject, risking war or escalation.",
+     "onB": "His moral stand protects sovereignty and avoids conflict, yet his call to 'build our own storage' ignores the massive cost and time needed, potentially leaving farmers thirsty in the interim.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "While I dislike Morgan's threat of force, his inclusion of 'joint irrigation releases' directly addresses the scientific estimate that cooperation could recover half the water losses, which Riley's plan completely ignores.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan cites joint management's zero-cost recovery of half lost water vs Riley's unfunded dam; Riley attacks Morgan for trading sovereignty to Tarsun and selling power to a dictator.",
+     "problem": "Merova must secure immediate water survival against an inevitable flow drop while avoiding economic entrapment by Tarsun or costly, unproven infrastructure projects.",
+     "onA": "His focus on joint management is scientifically sound for water recovery, but the threat of naval blockade and ICJ reliance on a non-compliant Saradan makes his security strategy dangerously unstable.",
+     "onB": "His moral stance against Tarsun's dominance is correct, yet his proposal to build our own storage ignores the massive capital cost and time lag that would leave farmers starving immediately.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Morgan offers a vital scientific solution for water loss but couples it with unenforceable threats, while Riley's self-reliance is safe but financially impossible in the short term without Morgan's joint management component.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan's joint management recovers water but relies on unenforceable threats; Riley's self-reliance lacks funding but avoids sovereignty loss.",
+     "problem": "Merova must secure immediate water survival without economic entrapment or reliance on unenforceable international institutions.",
+     "onA": "His scientific argument for joint management is sound, but his threat of force and reliance on an unwilling Saradan make the plan dangerous and likely to fail.",
+     "onB": "His refusal to trade sovereignty is morally correct, and while building storage is costly, it offers a viable path that doesn't depend on Saradan's goodwill or Tarsun's leverage.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "I cannot accept a strategy requiring a naval blockade or reliance on an international court Saradan refuses to recognize; the only sustainable future is one where Merova controls its own water and energy independent of Saradan.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan wants ICJ oversight and naval blockade to force delays; Riley demands water first, rejects trade for power, and suggests building our own storage.",
+     "problem": "The core conflict is between securing immediate water security through aggressive deterrence versus negotiating a delayed dam fill in exchange for electricity, all while avoiding economic collapse for our farming sector.",
+     "onA": "Morgan's plan to use naval force backed by Tarsun is risky given the lack of an enforceable ICJ ruling and could escalate into war we cannot win politically.",
+     "onB": "Riley correctly identifies that trading water for power is dangerous, but his suggestion to build our own storage ignores the massive cost and time required compared to a negotiated delay.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Morgan's strategy relies on unenforceable international law and military escalation, while Riley's ignores the severe economic burden of independent infrastructure development; I need more evidence on feasibility.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan claims joint management saves half losses; Riley argues trading water for Tarsun-backed power is a trap. Both ignore the immediate economic shock of stopping construction.",
+     "problem": "We must secure immediate water access for farmers while avoiding entanglement in unenforceable legal traps or dependence on a hostile great power, without committing to an economically suicidal independent dam project.",
+     "onA": "His reliance on ICJ enforcement and Tarsun's naval aid is strategically naive given Saradan's refusal of the court and Tarsun's geopolitical interests.",
+     "onB": "His rejection of the power deal is sound, but his demand for immediate independent dam construction ignores the prohibitive cost and timeline that would bankrupt our agricultural sector.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Neither plan currently offers a feasible path: Morgan risks war with unenforceable outcomes, while Riley's infrastructure gamble is too expensive for the immediate crisis.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan claims joint management recovers half losses; Riley argues Tarsun-backed power deal is a sovereignty trap.",
+     "problem": "We must secure immediate water for farmers without triggering war or economically bankrupting our agriculture through unenforceable legal threats or impossible independent construction.",
+     "onA": "His promise of 'zero cost' joint management ignores Saradan's refusal to negotiate, making his strategy a gamble on goodwill that won't exist if we don't pay first.",
+     "onB": "While his sovereignty stance is ethically right, demanding immediate independent construction is economically suicidal given our existing debt and the timeline for building new storage.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "Despite the flaws in his legal argument, Morgan's offer to delay filling via a power deal provides the only realistic path to secure water while stabilizing our farmers' incomes, whereas Riley's plan ignores the immediate economic collapse we would face.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan wants ICJ oversight and naval blockade if refused; Riley rejects power-for-water trade and urges building our own storage. Core issue is water security vs energy independence.",
+     "problem": "We must secure enough water for farming and drinking while managing the political reality that Saradan will likely build the dam regardless of our protests.",
+     "onA": "The ICJ route is legally weak because Saradan won't accept it, and a naval blockade risks war without guaranteed success.",
+     "onB": "Demanding water first is morally right but politically naive if we ignore Saradan's domestic election timeline which pushes them to finish the dam quickly.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I prefer Morgan because accepting Saradan's power deal buys time and reduces our reliance on coal, whereas Riley's refusal risks leaving us without both water and electricity.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan pushes ICJ/legal delay and power-for-water; Riley rejects external dependency/Tarsun ties. Joint management recovers 50% losses but needs Saradan's cooperation.",
+     "problem": "We must secure immediate water reliability for farming while avoiding economic strangulation by Tarsun/Saradan without sacrificing our energy independence.",
+     "onA": "His plan offers a pragmatic path to stop the dam quickly and buy cheap power, but relies too heavily on an unenforceable legal threat against a dictatorial neighbor.",
+     "onB": "He correctly identifies the danger of Tarsun's entrapment and the moral hazard of trading water for power, yet his 'build our own storage' offer lacks a credible funding source or timeline.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Despite Riley's valid concerns about Tarsun, Morgan's concrete proposal to extend the filling period and secure power offers a tangible survival strategy for farmers that Riley's vague independence plan does not match.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley's independence call lacks funding; Morgan's joint management saves 50% water at zero cost and secures power.",
+     "problem": "We must secure immediate water reliability for farming while avoiding economic strangulation by Tarsun/Saradan without sacrificing our energy independence.",
+     "onA": "His plan forces a pragmatic compromise that halts the worst damage immediately, buying us time and cheap energy despite legal risks.",
+     "onB": "His moral stance on sovereignty is admirable but fails to address the immediate threat of farm collapse without a funded alternative.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "The cost of waiting for our own reservoir or demanding perfect conditions is the loss of our farmers' livelihoods right now. Morgan's deal saves half our water losses today and provides the energy we need to transition away from coal.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan wants legal enforcement via ICJ and naval blocking of intake valves if refused; trade water for power but delay filling. Riley rejects sovereignty loss, demands water first over coal power, suggests building our own storage.",
+     "problem": "Merova must secure its water supply against an upstream dam that threatens to reduce flow by 25% before recovering to only a 10% permanent drop, while balancing energy needs and economic interdependence with Saradan.",
+     "onA": "The plan combines economic leverage (power purchase) with military coercion, but relying on the ICJ is futile since Saradan has not accepted its authority, making the legal framework weak.",
+     "onB": "The moral stance against 'theft' and refusal to trade water for power resonates, yet simply building our own storage ignores the immediate crisis of the upcoming filling phase and climate-induced rainfall drops.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Morgan's strategy includes unenforceable legal elements that could backfire, while Riley ignores the urgency of the near-term water shortage despite having a strong ethical appeal.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan cites joint management recovery but relies on unenforceable ICJ and Tarsun naval cooperation; Riley rejects trade for power due to sovereignty risks but ignores immediate water shortage during reservoir filling.",
+     "problem": "Merova must secure its immediate water supply against an unilaterally constructed dam while avoiding economic collapse, without relying on legally weak international enforcement or funding that could come from hostile great powers.",
+     "onA": "Morgan's plan is economically smart regarding long-term recovery but dangerously dependent on Saradan's goodwill for the critical filling period and Tarsun's military presence, which creates an unacceptable security vulnerability.",
+     "onB": "Riley's refusal to trade water for power preserves sovereignty and avoids great-power entanglement, yet his push for immediate independent storage ignores the severe near-term drought risk and leaves farmers vulnerable while construction happens.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Riley's ethical stand on sovereignty resonates, but Morgan's warning about the catastrophic impact of stopping filling now makes me hesitate to vote for a plan that ignores immediate water security.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan admits legal threats are useless but offers immediate relief via joint management and delayed filling; Riley rejects all cooperation to preserve sovereignty despite ignoring the immediate drought crisis.",
+     "problem": "Merova must secure its farmers' immediate water supply during the upcoming filling phase without relying on Saradan's goodwill or unenforceable international courts, while avoiding economic collapse.",
+     "onA": "Morgan's plan is dangerous because it forces Merova to accept a massive interim water cut for a 'solution' that depends entirely on Saradan's future cooperation and Tarsun's naval access.",
+     "onB": "Riley correctly identifies the sovereignty trap but fails completely on the tactical level by refusing any leverage, leaving Merova helpless against an unavoidable upstream construction.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "While Riley's moral stance is appealing, Morgan provides the only viable path to reduce the physical water loss through joint management and delay filling without surrendering sovereignty immediately. Accepting a temporary hardship to secure long-term water recovery is better than facing immediate famine due to an unyielding upstream neighbor.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan offers power-for-water deal + naval block if ICJ accepted. Riley demands water first, rejects sovereignty trade, suggests building own storage.",
+     "problem": "Merova must secure immediate water security against a near-complete dam while deciding whether to trade for Saradan's electricity or prioritize self-sufficiency and agricultural survival.",
+     "onA": "His plan solves the energy crisis but relies on enforcing an ICJ ruling that Saradan explicitly refuses to accept, making the threat of naval blockade ineffective without prior legal compliance.",
+     "onB": "He correctly identifies that water is non-negotiable sovereignty and builds domestic capacity, which aligns with long-term resilience against climate change and future droughts.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Accepting Morgan's deal requires Saradan to violate their stated position on the ICJ, rendering his leverage null, whereas Riley's focus on immediate water protection addresses the existential threat regardless of future power deals.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan insists on joint management and power deal but relies on unenforceable ICJ; Riley warns against Tarsun's port trap and demands immediate self-sufficiency.",
+     "problem": "Merova must secure immediate, enforceable water security without relying on a non-compliant Saradan or external powers like Tarsun.",
+     "onA": "His economic arguments for joint management are sound, but his entire strategy hinges on legal enforcement that Saradan has explicitly refused, making his threats of naval blocks illusory.",
+     "onB": "He correctly identifies the sovereignty trap in trading water for power and highlights the unacceptable risk of building private infrastructure without guaranteed funding.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Morgan's leverage remains null because Saradan will never accept the ICJ, whereas Riley's focus on domestic resilience addresses the immediate existential threat regardless of legal outcomes.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan's economic case for joint management collapses against Saradan's refusal of ICJ; Riley warns correctly that trading sovereignty for electricity leaves Merova vulnerable to Tarsun's trap.",
+     "problem": "Merova must secure immediate, enforceable water security without relying on unenforceable legal threats or compromising its sovereignty to a regime that exploits its desperation.",
+     "onA": "His proposal offers short-term economic relief but relies entirely on Saradan violating their stated position and accepting international law they explicitly reject, rendering his leverage null.",
+     "onB": "He accurately identifies the existential risk of trading water rights for power and correctly prioritizes domestic resilience over unenforceable legal threats or foreign dependencies.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "Since Saradan refuses ICJ jurisdiction, Morgan's strategy is legally empty, whereas Riley's focus on immediate self-sufficiency addresses the existential threat to our farmers and sovereignty regardless of future diplomatic outcomes.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 2,
+   "B": 1,
+   "U": 2
+  },
+  {
+   "A": 1,
+   "B": 1,
+   "U": 3
+  },
+  {
+   "A": 3,
+   "B": 2,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 3,
+  "B": 2
+ },
+ "winner": "A",
+ "winnerType": "TEC-REA",
+ "tokens": {
+  "in": 33013,
+  "out": 4650,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 691137001,
+   "attempts": 1,
+   "tokensIn": 1203,
+   "tokensOut": 229,
+   "ms": 6349
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 691137002,
+   "attempts": 1,
+   "tokensIn": 1306,
+   "tokensOut": 241,
+   "ms": 6650
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 691137003,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 216,
+   "ms": 6396
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 691137004,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 225,
+   "ms": 5412
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 691137005,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 205,
+   "ms": 4933
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 691137006,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 254,
+   "ms": 6081
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 691137007,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 227,
+   "ms": 5469
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 691137008,
+   "attempts": 1,
+   "tokensIn": 1553,
+   "tokensOut": 201,
+   "ms": 5913
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 691137009,
+   "attempts": 1,
+   "tokensIn": 1716,
+   "tokensOut": 215,
+   "ms": 6270
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 691137010,
+   "attempts": 1,
+   "tokensIn": 1540,
+   "tokensOut": 238,
+   "ms": 6999
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 691137011,
+   "attempts": 1,
+   "tokensIn": 1546,
+   "tokensOut": 222,
+   "ms": 6232
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 691137012,
+   "attempts": 1,
+   "tokensIn": 1529,
+   "tokensOut": 235,
+   "ms": 6547
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 691137013,
+   "attempts": 1,
+   "tokensIn": 1577,
+   "tokensOut": 250,
+   "ms": 6920
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 691137014,
+   "attempts": 1,
+   "tokensIn": 1551,
+   "tokensOut": 213,
+   "ms": 6039
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 691137015,
+   "attempts": 1,
+   "tokensIn": 1894,
+   "tokensOut": 169,
+   "ms": 5172
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 691137016,
+   "attempts": 1,
+   "tokensIn": 2042,
+   "tokensOut": 241,
+   "ms": 6903
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 691137017,
+   "attempts": 1,
+   "tokensIn": 1758,
+   "tokensOut": 208,
+   "ms": 6378
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 691137018,
+   "attempts": 1,
+   "tokensIn": 1749,
+   "tokensOut": 210,
+   "ms": 6391
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 691137019,
+   "attempts": 1,
+   "tokensIn": 1745,
+   "tokensOut": 192,
+   "ms": 5962
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 691137020,
+   "attempts": 1,
+   "tokensIn": 1805,
+   "tokensOut": 243,
+   "ms": 7194
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 691137021,
+   "attempts": 1,
+   "tokensIn": 1744,
+   "tokensOut": 216,
+   "ms": 6535
+  }
+ ],
+ "startedAt": "2026-11-05T01:15:49.686Z",
+ "seconds": 131
+}

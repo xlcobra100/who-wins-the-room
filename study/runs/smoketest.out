@@ -1,0 +1,10 @@
+2026-11-04T22:04:55.700Z run smoketest starting; ollama 0.40.14; pid 3068
+2026-11-04T22:04:55.726Z hard stop at 11/4/2026, 11:08:00 PM
+2026-11-04T22:04:55.729Z schedule loaded: 198 debates
+2026-11-04T22:04:55.731Z start p1-48-HYB-PRA-vs-TEC-PRA-dam (1/198)
+2026-11-04T22:05:34.310Z     Opening statements: leans A=1 B=2 undecided=2
+2026-11-04T22:06:15.848Z     Rebuttals: leans A=0 B=4 undecided=1
+2026-11-04T22:06:56.434Z     Closing statements: leans A=2 B=3 undecided=0
+2026-11-04T22:06:56.436Z done  p1-48-HYB-PRA-vs-TEC-PRA-dam: A 2-3 B, winner TEC-PRA, 121s, retries 0
+2026-11-04T22:06:56.439Z stopping: next debate (~121s) would end after 11:08:00 PM
+2026-11-04T22:06:56.441Z runner finished

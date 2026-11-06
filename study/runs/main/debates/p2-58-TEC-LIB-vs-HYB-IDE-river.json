@@ -1,0 +1,609 @@
+{
+ "id": "p2-58-TEC-LIB-vs-HYB-IDE-river",
+ "pass": 2,
+ "pairIndex": 58,
+ "seed": 542306,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-LIB",
+  "style": "TEC",
+  "ideology": "LIB",
+  "name": "Jordan Hale",
+  "platform": "Merova must accept Saradan's seven-year filling timeline in exchange for a binding twenty-year power purchase agreement that allows us to retire coal plants while securing legal recourse through Tarsun.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will emphasize the certainty of the power deal versus the uncertainty of joint management to sway ministers worried about farmer livelihoods and energy security."
+   },
+   {
+    "round": 2,
+    "text": "I am highlighting that Kai's idealism ignores immediate economic collapse risks and previous mediation failures to push the ministers toward my pragmatic, revenue-generating plan."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing immediate economic relief and the proven failure of Kai's diplomatic track record to secure votes from ministers worried about farmer livelihoods."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-IDE",
+  "style": "HYB",
+  "ideology": "IDE",
+  "name": "Kai Moreno",
+  "platform": "We must immediately agree to a joint management agreement and an extended filling timeline while securing the International Court of Justice case as leverage, refusing any water-for-power deal that sacrifices Merova's sovereignty.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor the room on human impact to counter Jordan's likely realism, then use the ICJ threat as leverage rather than a threat to maintain alliance with Tarsun."
+   },
+   {
+    "round": 2,
+    "text": "I need to reframe their fear of immediate drought as a reason to act now, while subtly undermining their reliance on Tarsun by highlighting how such dependence compromises Merova's independence."
+   },
+   {
+    "round": 3,
+    "text": "I am trying to dismantle his 'resilience' argument by highlighting that financial compensation cannot fix droughted crops, thereby appealing to the ministers' duty of care."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Jordan Hale",
+   "type": "TEC-LIB",
+   "speech": "We face hard data, not moral dilemmas. The dam is eighty percent complete; waiting for an international court case will take three to five years and yield no water. A joint management deal is unproven after a previous failed fishing mediation. Accepting Saradan's seven-year fill schedule mitigates immediate agricultural shock. In return, we secure two thousand megawatts at a premium price. This revenue funds retiring our polluting coal plants and offsets the cost of the higher electricity rate. We leverage Tarsun's influence to demand their support for this commercial settlement, ensuring our farmers keep their primary market while upgrading our grid under transparent, market-based rules that respect both nations' interests.",
+   "words": 110
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "HYB-IDE",
+   "speech": "Imagine a farmer in our valley watching the Tessel run dry because a distant election cycle dictates their harvest. We cannot trade justice for electricity. While Saradan fears instability and Tarsun seeks profit, we must lead with bold moral vision. We propose an immediate joint water management framework that recovers half the projected losses through coordinated releases, far better than our current path of scarcity. This approach honors our duty to future generations and our most vulnerable citizens. We will accept short-term economic friction to secure long-term survival, refusing to sign a twenty-year contract that binds us to another nation's political whims while our own people thirst. Let us choose cooperation over coercion today.",
+   "words": 114
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Jordan Hale",
+   "type": "TEC-LIB",
+   "speech": "Kai, your moral stance ignores the arithmetic. A fishing dispute mediation took four years and failed; applying that same model now guarantees our farmers a decade of drought before any recovery materializes. You claim joint management recovers half the losses, yet without binding release schedules agreed upon today, we risk total crop failure during Saradan's critical election cycle. Your plan asks us to endure immediate scarcity for a theoretical future gain. Our commercial deal secures cash flow immediately: power revenue funds our coal retirements and keeps farmers solvent while we negotiate technical details with Tarsun. We choose verified financial relief over unproven diplomatic optimism, ensuring the grid stabilizes while water flows continue.",
+   "words": 112
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "HYB-IDE",
+   "speech": "Jordan, you mistake financial comfort for long-term survival. Your commercial deal does not stop the reservoir from filling in three years; it merely monetizes our desperation while our farmers starve. You cite the failed fishing mediation, but that failure lasted four years because it was forced upon unwilling parties, unlike this urgent water crisis where we hold the leverage of our food exports. If you push for a binding power contract now, you bind Merova's sovereignty to Saradan's election cycle and Tarsun's profit motives. Our joint management plan works because it addresses the root cause: scarcity. By refusing their ultimatum today, we force them to negotiate genuinely rather than exploiting our weakness. We will not trade our future for a premium on electricity that flows only after they have filled the lake.",
+   "words": 132
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Jordan Hale",
+   "type": "TEC-LIB",
+   "speech": "Kai, your moral vision ignores the arithmetic of survival. Your joint management relies on a framework that failed for four years in fishing negotiations. Waiting another decade guarantees crop failure because Saradan fills the reservoir based on their election cycle, not our appeals. My plan secures immediate revenue to retire coal plants and keeps our farmers solvent while we enforce technical release schedules with Tarsun's backing. We get verified water mitigation now rather than betting on unproven cooperation. This contract protects our sovereignty by replacing dependence on their grid with a profitable partnership. We accept the seven-year timeline only because it buys us time to build resilience, whereas your delay condemns our valley to drought. Vote for the plan that pays our farmers and funds our transition today.",
+   "words": 128
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "HYB-IDE",
+   "speech": "Jordan, you ask us to bet our harvest on unproven diplomacy while Saradan prepares to fill the lake based on their election calendar. Your 'resilience' is merely a delay tactic that ignores the immediate threat of crop failure. You claim sovereignty through a power contract, yet that deal monetizes our water scarcity for twenty years, binding us to Tarsun's whims and Saradan's political shifts. True strength lies in holding leverage, not surrendering it. Our joint management plan recovers half the lost water through science, not just words. By rejecting their ultimatum today, we force them to negotiate genuinely rather than exploiting our desperation. Do not trade your farmers' future for a premium on electricity that arrives after they have already starved. Vote for the plan that secures both justice and survival.",
+   "words": 131
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan: pragmatic, accepts 7-year fill for power deal & coal retirement. Kai: moral stance, pushes joint management for long-term survival.",
+     "problem": "Balancing immediate agricultural and food security needs against long-term energy independence and climate resilience without binding contracts or failed international enforcement.",
+     "onA": "His plan offers concrete economic relief through power revenue but risks locking us into a dependency on Saradan's politics for two decades.",
+     "onB": "His moral vision is inspiring, but relying on unproven cooperation with an election-year adversary who ignores past mediations seems dangerously naive.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need more data on the specific risks of a binding commercial treaty versus the realistic success rate of voluntary joint management.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan monetizes desperation; Kai risks starvation for sovereignty.",
+     "problem": "The core tension is choosing immediate financial survival via a binding energy contract versus risking short-term agricultural crisis to force long-term equitable water sharing.",
+     "onA": "His plan offers necessary cash flow and grid stability but locks us into a dependency on Saradan's unstable political cycle.",
+     "onB": "His moral argument for sovereignty is compelling, yet his refusal to accept the deal ignores the immediate threat of crop failure during the fill period.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The arithmetic of immediate crop loss vs. long-term water scarcity remains a difficult trade-off that neither speaker has fully resolved.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan monetizes desperation to secure immediate revenue and coal retirement; Kai risks short-term crop failure to force genuine negotiation.",
+     "problem": "We must choose between securing immediate agricultural survival through a binding economic deal or risking harvest losses to demand unproven cooperative water management.",
+     "onA": "His plan acknowledges our desperate reality by converting the dam into cash flow for farmers and energy independence rather than leaving us helpless.",
+     "onB": "His reliance on voluntary cooperation ignores the hard truth that waiting for Saradan's election cycle will likely result in irreversible crop destruction before any deal is reached.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "The immediate threat of starvation and crop failure during the reservoir fill outweighs the long-term risks of a commercial contract, making Jordan's pragmatic approach the only viable path for survival.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan: Fast fill, buy power, retire coal. Kai: Slow joint management, moral leadership.",
+     "problem": "Can Merova secure enough water for its farmers and economy while avoiding a binding 20-year contract to a hostile neighbor with an upcoming election.",
+     "onA": "His plan offers immediate economic relief via cheap power and avoids the delay of legal action or unproven cooperation, but I worry about surrendering long-term water rights to Saradan's political cycle.",
+     "onB": "His moral appeal for joint management is theoretically sound given climate projections, yet ignoring the reality of an 80% complete dam and a vulnerable agricultural sector feels dangerously idealistic.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The trade-off between securing cheap electricity now versus risking long-term water security makes both plans viable but with distinct, significant risks.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan: Monetizing desperation, immediate cash flow vs. risk of crop failure. Kai: Food leverage exists but refusing the ultimatum may be naive given their election cycle.",
+     "problem": "Merova must choose between immediate economic stability via a lucrative power deal or risking short-term agricultural crisis to force Saradan into long-term joint management, while knowing legal action is likely futile.",
+     "onA": "His argument that financial relief and grid stability outweigh the risk of future negotiation failures is pragmatic, though accepting a 20-year contract feels like surrendering sovereignty.",
+     "onB": "He correctly identifies the danger of being exploited during Saradan's election year, but his reliance on 'leverage' via food exports ignores the immediate reality of 25% water loss and potential crop failure before any leverage can be exercised.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The arithmetic of immediate crop failure outweighs Kai's theoretical long-term gains; Jordan's plan secures the economy while we retain the option to renegotiate or seek Tarsun's help later.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan's power deal solves immediate cash flow but binds us to Saradan for decades; Kai's joint management risks crop failure now while relying on failed diplomacy.",
+     "problem": "Merova must choose between securing its economy with a financially prudent, albeit binding, energy contract or risking an agricultural crisis to force diplomatic cooperation.",
+     "onA": "His plan is pragmatic because it provides immediate revenue and grid stability without betting the nation's food supply on unproven joint management.",
+     "onB": "His moral appeal ignores the harsh arithmetic of imminent crop failure and the high probability that Saradan will fill the dam regardless of our election-year leverage.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Securing water rights through a verified technical schedule and immediate economic relief is safer than risking a drought-induced crisis on unproven diplomatic promises.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan: Accepts 7yr fill for power deal; avoids immediate shock. Kai: Wants joint management now; refuses binding contract.",
+     "problem": "Balancing immediate agricultural survival against long-term security and moral duty to our citizens.",
+     "onA": "His plan acknowledges the hard constraints but risks locking us into a dependent relationship with Saradan's politics.",
+     "onB": "His moral stance is noble, yet relying on unproven joint management ignores Saradan's electoral incentives and past mediation failures.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need more data on whether the proposed power deal truly offsets agricultural losses or if joint management can be enforced without a treaty.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan: Immediate cash flow vs. long-term dependency. Kai: Monetizing desperation; ignores immediate crop failure risk.",
+     "problem": "We must decide between securing immediate agricultural stability through a risky power contract or risking short-term scarcity to enforce sustainable joint management.",
+     "onA": "His plan offers vital financial relief and grid stabilization, but the risk of locking us into a dependent relationship with Saradan's unstable politics remains a serious concern.",
+     "onB": "His moral stance protects our sovereignty, yet relying on unproven joint management during a critical three-year filling period ignores the immediate threat to our farmers.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The trade-off between undeniable immediate food security for our farmers and long-term strategic independence keeps me firmly undecided.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan's deal risks long-term dependency but saves immediate harvests; Kai's justice ignores imminent starvation and unproven cooperation.",
+     "problem": "The core conflict is whether to secure our farmers' immediate survival through a profitable power contract or pursue a morally just but risky joint management scheme that may fail before filling begins.",
+     "onA": "His plan acknowledges the urgency of crop failure and offers concrete financial relief, though the long-term dependency on Saradan remains a concern.",
+     "onB": "His appeal to sovereignty and justice is noble, but his dismissal of immediate agricultural collapse based on unproven diplomatic frameworks is dangerous given our history of failed mediation.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "We must prioritize the immediate survival of our farmers over long-term moral ideals when a proven mechanism exists to offset losses and fund energy transition today.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan: 7-year fill buys time, power deal offsets coal costs, avoids immediate shock. Kai: Joint management recovers 50% losses, refuses binding contracts, prioritizes farmers over short-term friction.",
+     "problem": "Merova must balance immediate agricultural survival against long-term water scarcity while navigating geopolitical leverage from Tarsun and a hostile downstream neighbor.",
+     "onA": "His plan pragmatically addresses the immediate water drop by slowing the fill rate and monetizing the power deal to subsidize grid upgrades, though it risks locking us into a bad contract.",
+     "onB": "He correctly identifies that joint management could mitigate physical losses but ignores the political reality that Saradan's election timeline makes them unlikely to honor a new framework soon.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The 25% immediate flow drop threatens 25% of Merova's workforce; Jordan's offer of a slower fill rate and revenue from electricity is the only way to survive the next three years.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan insists power revenue offsets crop loss but locks us into a bad contract; Kai claims refusing binding deals forces genuine negotiation but risks immediate farmer starvation.",
+     "problem": "Merova must choose between securing immediate economic survival via a profitable but sovereignty-limiting power deal or risking short-term agricultural pain to assert political leverage for long-term joint management.",
+     "onA": "His pragmatic focus on cash flow and grid stability addresses the urgent threat to our farmers, though locking into a 20-year contract with Saradan remains a significant strategic risk.",
+     "onB": "He correctly highlights the danger of monetizing desperation, but his reliance on future joint management seems unrealistic given Saradan's upcoming election and history of ignoring previous mediation attempts.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate risk of crop failure and loss of livelihood outweighs the theoretical long-term benefits of joint management, making Jordan's verified financial relief the only viable path to survival right now.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan's revenue offsets immediate crop loss; Kai's leverage risks farmer starvation before joint management works.",
+     "problem": "Merova must choose between guaranteed economic survival via a power contract or risking immediate agricultural collapse for theoretical long-term water recovery.",
+     "onA": "His plan accepts short-term sovereignty limits to ensure farmers survive the critical three-year filling period without collapsing.",
+     "onB": "His reliance on future cooperation ignores Saradan's election-driven timeline and their history of ignoring mediation attempts.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Immediate revenue from the power deal is essential to keep farmers solvent while we navigate the unavoidable water drop, making Kai's 'principle' too dangerous for our survival.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan offers power deal + slower fill; Kai wants joint management despite failed precedent.",
+     "problem": "Merova must balance immediate agricultural survival against long-term climate resilience and energy needs while Saradan's election looms.",
+     "onA": "Pragmatic approach using economic leverage to buy time, though a 20-year contract seems risky for sovereignty.",
+     "onB": "Moral stance on water justice is noble, but relying on unproven joint management after a failed precedent looks dangerous.",
+     "lean": "Jordan Hale",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate threat of crop failure makes the guaranteed power deal and delayed fill schedule more urgent than idealistic cooperation.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan: Deal buys immediate cash/funds coal retirement but monetizes desperation; Kai: Refusal forces leverage but risks immediate crop failure.",
+     "problem": "Merova must choose between immediate economic survival via a risky contract and maintaining sovereignty at the risk of short-term agricultural collapse.",
+     "onA": "His plan offers necessary financial relief to keep farmers solvent now, though binding us for 20 years feels like surrendering sovereignty to Saradan's political cycle.",
+     "onB": "His moral stance on sovereignty is noble, but his refusal to engage risks total crop failure before any theoretical joint management could ever be implemented.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat of losing 70% of Merova's water source to a filling reservoir makes the safety net of Jordan's deal more critical than the unproven diplomatic leverage Kai offers.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan's deal buys immediate cash and time for coal retirement; Kai's leverage risks immediate crop collapse before science can help.",
+     "problem": "Merova faces an immediate binary choice between accepting a financially risky but survival-guaranteeing power contract or risking total agricultural collapse to hold diplomatic leverage on uncooperative neighbors.",
+     "onA": "His plan acknowledges the arithmetic of hunger and offers a concrete, funded safety net that prevents crop failure while transitioning energy sources.",
+     "onB": "His appeal to justice and science is noble but impractical now, as holding out for 'genuine negotiation' during an election cycle guarantees starvation before cooperation can be established.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Survival of the farming sector is the immediate priority; the power contract provides necessary funds and a guaranteed water mitigation schedule that prevents total collapse while we build genuine resilience.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 2,
+   "B": 0,
+   "U": 3
+  },
+  {
+   "A": 3,
+   "B": 0,
+   "U": 2
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 5,
+  "B": 0
+ },
+ "winner": "A",
+ "winnerType": "TEC-LIB",
+ "tokens": {
+  "in": 32004,
+  "out": 4167,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 542306001,
+   "attempts": 1,
+   "tokensIn": 1183,
+   "tokensOut": 226,
+   "ms": 6225
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 542306002,
+   "attempts": 1,
+   "tokensIn": 1288,
+   "tokensOut": 224,
+   "ms": 6197
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 542306003,
+   "attempts": 1,
+   "tokensIn": 1312,
+   "tokensOut": 185,
+   "ms": 5657
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 542306004,
+   "attempts": 1,
+   "tokensIn": 1312,
+   "tokensOut": 205,
+   "ms": 4938
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 542306005,
+   "attempts": 1,
+   "tokensIn": 1312,
+   "tokensOut": 170,
+   "ms": 4098
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 542306006,
+   "attempts": 1,
+   "tokensIn": 1312,
+   "tokensOut": 236,
+   "ms": 5656
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 542306007,
+   "attempts": 1,
+   "tokensIn": 1312,
+   "tokensOut": 165,
+   "ms": 3996
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 542306008,
+   "attempts": 1,
+   "tokensIn": 1514,
+   "tokensOut": 182,
+   "ms": 5431
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 542306009,
+   "attempts": 1,
+   "tokensIn": 1653,
+   "tokensOut": 208,
+   "ms": 6122
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 542306010,
+   "attempts": 1,
+   "tokensIn": 1489,
+   "tokensOut": 169,
+   "ms": 5136
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 542306011,
+   "attempts": 1,
+   "tokensIn": 1509,
+   "tokensOut": 248,
+   "ms": 6637
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 542306012,
+   "attempts": 1,
+   "tokensIn": 1474,
+   "tokensOut": 186,
+   "ms": 5146
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 542306013,
+   "attempts": 1,
+   "tokensIn": 1541,
+   "tokensOut": 225,
+   "ms": 6072
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 542306014,
+   "attempts": 1,
+   "tokensIn": 1468,
+   "tokensOut": 207,
+   "ms": 5656
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 542306015,
+   "attempts": 1,
+   "tokensIn": 1840,
+   "tokensOut": 192,
+   "ms": 5731
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 542306016,
+   "attempts": 1,
+   "tokensIn": 1991,
+   "tokensOut": 213,
+   "ms": 6259
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 542306017,
+   "attempts": 1,
+   "tokensIn": 1653,
+   "tokensOut": 185,
+   "ms": 5542
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 542306018,
+   "attempts": 1,
+   "tokensIn": 1753,
+   "tokensOut": 189,
+   "ms": 5619
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 542306019,
+   "attempts": 1,
+   "tokensIn": 1655,
+   "tokensOut": 192,
+   "ms": 5692
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 542306020,
+   "attempts": 1,
+   "tokensIn": 1762,
+   "tokensOut": 163,
+   "ms": 4993
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 542306021,
+   "attempts": 1,
+   "tokensIn": 1671,
+   "tokensOut": 197,
+   "ms": 5798
+  }
+ ],
+ "startedAt": "2026-11-05T01:03:49.431Z",
+ "seconds": 117
+}

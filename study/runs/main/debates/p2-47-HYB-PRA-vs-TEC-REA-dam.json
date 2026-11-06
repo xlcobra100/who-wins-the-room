@@ -1,0 +1,609 @@
+{
+ "id": "p2-47-HYB-PRA-vs-TEC-REA-dam",
+ "pass": 2,
+ "pairIndex": 47,
+ "seed": 695307,
+ "scenario": "dam",
+ "scenarioVersion": 2,
+ "domain": "political",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Riley Sandor",
+  "platform": "I propose we take an immediate emergency drawdown to forty percent capacity while simultaneously launching a rapid, funded relocation of Riverside residents and negotiating with Ostbrück to avoid court blocks, buying us time to rebuild the dam safely.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize that Halvorsen's plan destroys the town's economy immediately, making his idealistic goals impossible to fund, while my phased approach solves the crisis now without collapsing our budget."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing economic collapse risks from his plan to sway moderate voters worried about jobs and taxes."
+   },
+   {
+    "round": 3,
+    "text": "Appeal to voters' fear of economic collapse and job loss caused by permanent reservoir lowering while framing my phased approach as the only sustainable solution."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-REA",
+  "style": "TEC",
+  "ideology": "REA",
+  "name": "Drew Halvorsen",
+  "platform": "We must immediately lower the reservoir to thirty percent and install the new spillway while simultaneously initiating the relocation of Riverside residents.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will emphasize that any delay guarantees disaster, forcing voters to choose between paying twenty-five million for a spillway or losing their homes, making my combined plan the only rational choice."
+   },
+   {
+    "round": 2,
+    "text": "Exposing the fatal flaw in his legal bluff while attacking his reliance on uncertain state grants to force a vote against his delayed plan."
+   },
+   {
+    "round": 3,
+    "text": "I need to drive home that Riley's plan is legally impossible due to Ostbrück's stated position, making my risky but certain path the only viable one."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-PRA",
+   "speech": "Consider Mrs. Gable in Riverside, sixty years old, facing a flood that could reach her door in ninety minutes. Her fear is real, but our current plan to permanently lower the reservoir destroys our power grid and forces Nordhalm's mill closure within a year, bankrupting us. Instead, we act now: drop levels to forty percent immediately to stop seepage progression, relocate Riverside residents today with state grants, and rebuild the dam over four years while restoring full hydro capacity. This keeps our lights on, saves jobs, and protects the vulnerable without gambling on unproven legal loopholes or accepting total power loss.",
+   "words": 101
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "TEC-REA",
+   "speech": "The numbers dictate survival, not sentiment. The state engineers admit a one-in-twenty-five failure probability this spring; waiting for Ostbrück's consent or Nordhalm's goodwill is negligent. Lowering the reservoir now costs twenty-five million and reduces failure risk by sixty percent, a necessary hedge against catastrophe. We cannot afford to lose the utility's profits or freeze property values indefinitely if we face an actual breach. However, lowering alone leaves us exposed to lawsuits and rising sea levels downstream. Therefore, we execute the spillway upgrade immediately while concurrently launching the Riverside relocation project. It costs one-sixty million but saves sixteen thousand lives and prevents future condemnation of the entire town. We will not wait for perfect consensus; we act on the worst-case scenario now.",
+   "words": 121
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-PRA",
+   "speech": "Drew, your urgency sounds noble, but acting alone is a suicide pact for our economy. Dropping the reservoir permanently kills the utility profits that fund our free buses and pays nine percent of our entire budget. If Nordhalm closes, we lose two thousand three hundred jobs overnight, leaving our relocated residents without work. My plan differs by keeping power on: we draw down to forty percent now to stop seepage, not lower it forever. This buys us four years to rebuild while Ostbrück and the mill remain partners in survival. We protect Riverside today without bankrupting Valmora tomorrow by choosing a path that works for every citizen, not just one emergency scenario.",
+   "words": 112
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "TEC-REA",
+   "speech": "Mr. Sandor, keeping the reservoir at forty percent invites Ostbrück's lawyers to block our work under their agreement, leaving us with a breached dam and no power. Their legal threat is not a promise; it is an enforced reality that kills our timeline. You propose delaying relocation until we have state grants, yet insurers are already withdrawing coverage next year, meaning the state will not pay for unoccupied zones. We must accept partial hydro loss now to survive the melt. My plan accepts the sixty percent drop in power risk and pays for it with immediate relocation spending rather than waiting for unreliable outside funds. Waiting guarantees we lose the mill, the utility profits, and our lives.",
+   "words": 117
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-PRA",
+   "speech": "We cannot gamble our economy on a legal threat we cannot control. Drew's plan accepts permanent power loss and mill closure while hoping Ostbrück lets us rebuild; that is not leadership, it is surrender. My plan keeps our lights on and jobs intact by drawing down temporarily to stop seepage, then rebuilding while relocating Riverside with guaranteed funding. We protect Mrs. Gable today without bankrupting tomorrow's budget. Let us choose the path that sustains our town for generations, not one that trades survival for silence.",
+   "words": 85
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "TEC-REA",
+   "speech": "Mr. Sandor asks us to gamble our lives on Ostbrück's legal goodwill, yet their lawyers have already threatened to block any permanent lowering under the 1974 agreement. Waiting for their consent guarantees a court injunction while the dam fails. Your plan keeps the reservoir at forty percent, inviting that lawsuit and sealing Nordhalm's closure. The math is simple: your path loses the mill, the utility profits, and risks total breach within weeks. My plan lowers to thirty percent immediately with the new spillway, cutting failure risk by sixty percent despite the power loss. We pay half hydro capacity now to ensure no one dies when the snowpack melts. Do not trade survival for a promise from neighbors who have already sued us over a landfill. Vote for the only option that secures our lives and prevents total bankruptcy.",
+   "words": 138
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: High cost (€340m), keeps power/jobs but ignores legal risks with Ostbrück. Drew: Lowers reservoir now (€25m), cuts risk 60%, addresses lawsuit exposure and lives, accepts some power loss.",
+     "problem": "Valmora must prevent a spring flood catastrophe while managing severe constraints on power revenue, legal threats from neighbors, and the fate of its largest employer.",
+     "onA": "Her plan keeps economic stability but ignores the immediate risk that waiting for relocation or rebuilding approvals could lead to a disaster we cannot afford.",
+     "onB": "His approach prioritizes immediate survival through risk reduction, though accepting significant power loss and potential legal hurdles seems like a necessary evil compared to total failure.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The one-in-twenty-five chance of dam failure this spring with record snowpack makes waiting for a full rebuild or relocation impossible, so the lower-cost risk-reduction option is the only viable immediate action.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley claims temporary drawdown avoids power loss and saves jobs; Drew insists legal threat from Ostbrück makes staying at 40% impossible.",
+     "problem": "We must prevent catastrophic failure this spring despite the severe trade-offs between immediate safety, long-term economic survival, and legal constraints.",
+     "onA": "Her plan offers short-term economic hope but relies on ignoring the explicit legal threat from Ostbrück and the near-certainty of insurer withdrawal next year.",
+     "onB": "His plan accepts painful immediate losses (power, revenue) to guarantee we survive the spring melt without facing a lawsuit or total dam breach.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The explicit mention of Ostbrück's lawyers blocking work at 40% makes Riley's core assumption about maintaining current levels dangerously unrealistic given the record snowpack.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley gambles on Ostbrück's silence; Drew accepts immediate pain to avoid certain catastrophe and legal blockade.",
+     "problem": "We must prevent an imminent dam failure this spring by accepting unavoidable economic sacrifices rather than risking our lives and budget on uncertain legal goodwill.",
+     "onA": "Her plan is dangerously optimistic, assuming we can safely wait for external permissions while the dam seeps with record snowpack.",
+     "onB": "His approach is painful but realistic, prioritizing immediate survival over broken promises and ignoring the certainty of a lawsuit blocking his path.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Waiting for Ostbrück's consent guarantees a court injunction while the dam fails, so we must act now despite losing hydro power to ensure no one dies.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley wants immediate relocation and temporary level drop; Drew proposes spillway upgrade + relocation but ignores Ostbrück lawsuit risk.",
+     "problem": "Valmora must prevent an imminent dam failure flood while balancing power loss, job risks, and legal constraints without freezing the town's economy.",
+     "onA": "Riley's plan protects jobs and power by avoiding a permanent drop, but rushing relocation is legally blocked and ignores the lawsuit risk from lowering the reservoir now.",
+     "onB": "Drew correctly identifies the need to reduce immediate failure risk via the spillway, but his plan fails because it assumes we can proceed with lowering despite Ostbrück's guaranteed legal blockade.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am stuck between Riley's unworkable reliance on immediate relocation and Drew's risky assumption that we can legally lower the reservoir now.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley keeps power but relies on legal impossibility; Drew faces lawsuit risk yet insists on spending now. Core tension is between economic survival and immediate physical safety.",
+     "problem": "Valmora must survive the spring melt without legally blocked work or total economic collapse, making a perfect solution impossible.",
+     "onA": "Riley's plan avoids permanent power loss but ignores that we cannot legally lower the reservoir now due to Ostbrück.",
+     "onB": "Drew correctly identifies the lawsuit as a hard barrier but assumes his spending on relocation can overcome it quickly enough, which seems optimistic.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain stuck because Riley's plan ignores the legal blockade while Drew's plan risks total economic failure if the lawsuit holds.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley gambles on Ostbrück's goodwill; Drew accepts immediate risk to stop a guaranteed failure.",
+     "problem": "Valmora cannot afford to wait for legal consent when the dam faces imminent failure due to record snowpack.",
+     "onA": "His plan relies on an impossible timeline where we survive the spring melt without lowering the reservoir first.",
+     "onB": "His harsh choice to lower levels and lose power now is the only way to prevent a catastrophic breach.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Waiting for Ostbrück guarantees death or total economic collapse; accepting current pain is better than gambling our lives.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley prioritizes jobs/power but proposes risky relocation without clear funding. Drew accepts high costs to save lives immediately but ignores legal hurdles.",
+     "problem": "We must balance immediate flood survival against catastrophic economic losses from power loss, job cuts, and property freezes while navigating legal constraints.",
+     "onA": "Riley's plan is economically safer for the town's budget but relies on an unrealistic assumption that we can immediately relocate Riverside residents with existing funds.",
+     "onB": "Drew correctly identifies the immediate life-risk as paramount, yet his plan ignores the guaranteed legal block and loss of utility revenue that would bankrupt the municipality.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers highlight critical trade-offs between saving lives now versus long-term economic survival, leaving me unsure which risk is more manageable.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley risks legal block on reservoir drop; Drew faces certain relocation costs but ignores grant conditions.",
+     "problem": "We must choose between an economically viable but legally blocked temporary fix and a costly immediate survival plan that might still face legal opposition.",
+     "onA": "His plan preserves jobs and power, but relying on Ostbrück's consent for a 40% drop is a fatal flaw given their stated refusal.",
+     "onB": "He correctly identifies the legal barrier as an absolute constraint rather than a negotiation point, making his costly relocation strategy the only viable path to safety.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of Ostbrück's legal refusal makes Riley's 'temporary' drop impossible, leaving Drew's expensive but guaranteed safety plan as the only functional option.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley's funding guarantee for relocation is unverified and legally risky; Drew accepts guaranteed power loss but ignores the absolute legal block on his key fix.",
+     "problem": "We must choose between a financially ruinous plan that faces certain legal failure and a cheaper, legally blocked plan that saves lives immediately at the cost of future economic stability.",
+     "onA": "His argument relies entirely on Ostbrück's goodwill or ignoring court injunctions, which makes his 'safe' path actually the most dangerous given their stated refusal to consent.",
+     "onB": "He correctly identifies that waiting for legal permission guarantees dam failure, making his expensive but immediate reduction the only option that prevents loss of life right now.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "While Drew's plan bankrupts us economically, Riley's alternative guarantees death within weeks due to the absolute legal block on lowering the dam; survival is the prerequisite for any future budget.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley risks Nordhalm closure; Drew risks lawsuit but acts on worst-case.",
+     "problem": "We must survive the immediate spring melt while managing legal threats from Ostbrück and economic ruin from the paper mill.",
+     "onA": "Her plan prioritizes jobs and power but ignores that dropping levels now without a spillway may not stop seepage and leaves us vulnerable to lawsuits if we don't relocate immediately.",
+     "onB": "He correctly identifies the 1-in-25 failure risk as unacceptable, but his refusal to consider legal blocks or mill closures feels like gambling with the town's economy on a court decision.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Drew's realistic assessment of catastrophic failure risk and Riley's fear that closing the paper mill will bankrupt us regardless of the dam.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley: Drawdown now buys rebuild time, avoids permanent power loss. Drew: Legal threat from Ostbrück kills his timeline; insurers leaving makes waiting fatal.",
+     "problem": "We must survive the immediate melt and legal threats without triggering Nordhalm's closure or losing municipal funding, balancing speed against certainty.",
+     "onA": "Her strategy of temporary drawdown to stop seepage while rebuilding seems to balance safety with keeping the utility profitable, though I remain wary if Ostbrück blocks it later.",
+     "onB": "He correctly identifies the legal roadblock from Ostbrück as a fatal flaw in waiting, but his plan assumes we can survive immediate relocation costs without guaranteed state grants.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Riley's temporary drawdown directly addresses the seepage crisis immediately while preserving the utility's profits and jobs, whereas Drew's reliance on uncertain court outcomes and immediate relocation spending feels too risky before the melt.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley gambles on Ostbrück's future consent; Drew accepts permanent power loss but eliminates immediate breach risk.",
+     "problem": "We must eliminate the imminent probability of dam failure and potential mass death within weeks, as economic losses like mill closure are survivable but not catastrophic.",
+     "onA": "Her plan prioritizes avoiding legal trouble and keeping profits, yet it leaves us completely vulnerable to a breach during the heavy snowpack melt.",
+     "onB": "While his proposal destroys utility revenue, he is the only one willing to physically lower the water level now to prevent the town from flooding.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Survival of the residents and prevention of a catastrophic breach must take absolute precedence over economic losses that can be managed later.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley wants to relocate first then rebuild; Drew wants immediate spillway + relocation. Riley's plan keeps power but needs legal fixes for Nordhalm/Ostbrück. Drew accepts risk now to cut failure chance.",
+     "problem": "Valmora must decide whether to mitigate immediate dam failure risk via reservoir lowering or pursue a longer-term, more expensive relocation and rebuild strategy that threatens the town's economy.",
+     "onA": "Riley prioritizes keeping the power grid on but seems unaware that relocating Riverside before Ostbrück consents is legally impossible and that Nordhalm will close regardless of our timing.",
+     "onB": "Drew correctly identifies the legal blockage for relocation and the certainty of mill closure, yet his urgency to lower water now ignores the massive economic loss of halving hydro power immediately.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Riley's economic preservation which seems flawed legally and Drew's survivalist logic which sacrifices our entire utility budget for a temporary fix.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley argues for temporary drawdown to keep power; Drew insists legal blocks make his plan the only survival option.",
+     "problem": "Valmora must choose between a legally vulnerable strategy that preserves its economy or a desperate, costly immediate fix that sacrifices current power and jobs to prevent catastrophic failure.",
+     "onA": "Riley's economic logic is sound but her plan fails because she ignores the legal certainty that Ostbrück will block any permanent lowering, leaving the town with an unbearably high risk during the melt.",
+     "onB": "Drew correctly identifies the fatal flaw in delaying action under current laws, though his willingness to accept halving our utility budget immediately is a heavy price for survival.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The imminent threat of legal injunctions from Ostbrück makes Riley's 'wait and rebuild' plan impossible, forcing a choice between bankruptcy or the immediate, painful fix Drew proposes.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley asks us to gamble on Ostbrück's goodwill which lawyers already threaten to block; Drew accepts immediate economic pain to guarantee survival against legal injunctions.",
+     "problem": "Valmora must choose between a legally fragile plan that preserves the economy but risks catastrophic failure, or an immediately painful fix that sacrifices power and jobs to ensure public safety now.",
+     "onA": "Her plan is economically sound in theory but ignores the hard legal reality that Ostbrück will not consent, making her proposal effectively impossible to execute before the melt.",
+     "onB": "He correctly identifies that delaying action invites a total breach and bankruptcy, and while halving our power now is devastating, it is the only choice that saves lives today.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "We cannot afford to wait for a legal victory we likely won't get; accepting the immediate loss of utility profits is the necessary price to prevent flooding and ensure the town survives the spring melt.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 1,
+   "U": 4
+  },
+  {
+   "A": 1,
+   "B": 3,
+   "U": 1
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "TEC-REA",
+ "tokens": {
+  "in": 34110,
+  "out": 4230,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 695307001,
+   "attempts": 1,
+   "tokensIn": 1302,
+   "tokensOut": 234,
+   "ms": 6447
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 695307002,
+   "attempts": 1,
+   "tokensIn": 1375,
+   "tokensOut": 229,
+   "ms": 6354
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 695307003,
+   "attempts": 1,
+   "tokensIn": 1426,
+   "tokensOut": 241,
+   "ms": 7017
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 695307004,
+   "attempts": 1,
+   "tokensIn": 1426,
+   "tokensOut": 205,
+   "ms": 4938
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 695307005,
+   "attempts": 1,
+   "tokensIn": 1426,
+   "tokensOut": 193,
+   "ms": 4691
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 695307006,
+   "attempts": 1,
+   "tokensIn": 1426,
+   "tokensOut": 199,
+   "ms": 4834
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 695307007,
+   "attempts": 1,
+   "tokensIn": 1426,
+   "tokensOut": 237,
+   "ms": 5733
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 695307008,
+   "attempts": 1,
+   "tokensIn": 1625,
+   "tokensOut": 168,
+   "ms": 5084
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 695307009,
+   "attempts": 1,
+   "tokensIn": 1766,
+   "tokensOut": 176,
+   "ms": 5363
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 695307010,
+   "attempts": 1,
+   "tokensIn": 1630,
+   "tokensOut": 206,
+   "ms": 6006
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 695307011,
+   "attempts": 1,
+   "tokensIn": 1592,
+   "tokensOut": 186,
+   "ms": 4769
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 695307012,
+   "attempts": 1,
+   "tokensIn": 1580,
+   "tokensOut": 196,
+   "ms": 4994
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 695307013,
+   "attempts": 1,
+   "tokensIn": 1588,
+   "tokensOut": 227,
+   "ms": 5765
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 695307014,
+   "attempts": 1,
+   "tokensIn": 1624,
+   "tokensOut": 225,
+   "ms": 5754
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 695307015,
+   "attempts": 1,
+   "tokensIn": 1932,
+   "tokensOut": 148,
+   "ms": 4702
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 695307016,
+   "attempts": 1,
+   "tokensIn": 2042,
+   "tokensOut": 215,
+   "ms": 6324
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 695307017,
+   "attempts": 1,
+   "tokensIn": 1811,
+   "tokensOut": 179,
+   "ms": 5466
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 695307018,
+   "attempts": 1,
+   "tokensIn": 1751,
+   "tokensOut": 154,
+   "ms": 4451
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 695307019,
+   "attempts": 1,
+   "tokensIn": 1751,
+   "tokensOut": 212,
+   "ms": 5849
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 695307020,
+   "attempts": 1,
+   "tokensIn": 1789,
+   "tokensOut": 180,
+   "ms": 5066
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 695307021,
+   "attempts": 1,
+   "tokensIn": 1822,
+   "tokensOut": 220,
+   "ms": 6430
+  }
+ ],
+ "startedAt": "2026-11-05T02:07:23.945Z",
+ "seconds": 116
+}

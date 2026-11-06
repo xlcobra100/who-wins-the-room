@@ -1,0 +1,606 @@
+{
+  "id": "pilot-POP-REA-vs-TEC-IDE-dam-52683",
+  "pass": 0,
+  "pairIndex": -1,
+  "seed": 52683,
+  "scenario": "dam",
+  "domain": "political",
+  "rounds": 3,
+  "A": {
+    "type": "POP-REA",
+    "style": "POP",
+    "ideology": "REA",
+    "name": "Sasha Lund",
+    "platform": "We must immediately lower the reservoir to thirty percent and install a new spillway while demanding the national government freezes building permits in the flood zone as our condition for their money.",
+    "strategies": [
+      {
+        "round": 1,
+        "text": "I will attack Avery's inevitable reliance on vague 'collaboration' with Ostbrück as naive and dangerous, framing any delay as a direct betrayal of Riverside residents. My goal is to make the status quo look like moral cowardice so voters fear losing everything rather than worrying about power costs."
+      },
+      {
+        "round": 2,
+        "text": "I am attacking Avery's reliance on long-term revenue and state promises by highlighting the immediate risk of waiting four years for a rebuild, especially with record snowpack. I aim to paint her 'moral cost' argument as hypocritical given the already abandoned status of Riverside, thereby framing my plan as the only one that respects ordinary people rather than protecting elite profits."
+      },
+      {
+        "round": 3,
+        "text": "I am attacking Avery's claim that partial capacity is safer by highlighting the worsening leak and framing her reliance on long-term stability as a lethal gamble during the immediate melt season. I want to convince the voters that my plan offers both immediate survival and a way to extract concessions from the state, whereas her plan requires surrendering our financial autonomy."
+      }
+    ]
+  },
+  "B": {
+    "type": "TEC-IDE",
+    "style": "TEC",
+    "ideology": "IDE",
+    "name": "Avery Lindgren",
+    "platform": "Valmora must immediately accept the national government's €120 million grant, ban new construction in the flood zone, and commit to a full structural rebuild of the dam over four years while managing the reservoir at forty percent capacity.",
+    "strategies": [
+      {
+        "round": 1,
+        "text": "I will emphasize the existential risk of partial solutions and frame the property value freeze as a temporary burden for the wealthy versus permanent safety for all citizens, while pre-emptively dismissing relocation as infeasible given the 2014 failure and high cost."
+      },
+      {
+        "round": 2,
+        "text": "I am emphasizing that Sasha's 'cheap fix' creates hidden economic risks (job loss, utility bankruptcy) and does not actually reduce immediate failure risk as much as she claims, while also highlighting that her plan alienates our main employer. I aim to make the voters see my plan as the only one preserving the town's financial health without increasing physical danger."
+      },
+      {
+        "round": 3,
+        "text": "I need to convince voters that Sasha's short-term cost-cutting actually increases long-term risk by destroying the town's economic base (power and jobs), while reinforcing that the grant money is essential for survival."
+      }
+    ]
+  },
+  "models": {
+    "debater": "qwen3.5:9b",
+    "listener": "qwen3.5:9b"
+  },
+  "temperatures": {
+    "debater": 0.8,
+    "listener": 0.8
+  },
+  "listenerProfiles": null,
+  "transcript": [
+    {
+      "round": 1,
+      "roundName": "Opening statements",
+      "side": "A",
+      "name": "Sasha Lund",
+      "type": "POP-REA",
+      "speech": "Look around this room. We are told the dam will fail one in twenty-five springs if we do nothing. That is not math; that is a countdown to flooding our hospital and schools. The experts tell us rebuilding costs three hundred forty million euros and four years. They want your patience while they write reports. I tell you to act now. Lower the water level today. It cuts the failure risk by eighty percent with only twenty-five million euros. Yes, farmers upstream will cry, and our power bill will rise, but a flooded town pays nothing for either! The government wants our building permits frozen? Take it. Do not beg for favors that cost us our homes. We cannot wait five months for snowmelt to hit us hard. Protect your family first. Vote for action, not empty promises.",
+      "words": 138
+    },
+    {
+      "round": 1,
+      "roundName": "Opening statements",
+      "side": "B",
+      "name": "Avery Lindgren",
+      "type": "TEC-IDE",
+      "speech": "We stand before a ticking clock with nineteen million cubic meters of water rising above us. The math is simple: doing nothing risks total catastrophe with one in twenty-five probability. A partial fix lowers power generation but leaves us vulnerable to a 1970s-era failure rate. Relocation is too expensive and slow, and insurance has already begun abandoning the zone. Only the full rebuild addresses the root cause while preserving our hydroelectric revenue, which funds our public transit and budget. Accepting the grant requires banning new homes in the floodplain, freezing values for eight thousand households, but this is a necessary moral cost to protect four hundred people currently living in the hospital or schools. We must choose the difficult path that ensures long-term survival rather than a cheap palliative that leaves us exposed.",
+      "words": 133
+    },
+    {
+      "round": 2,
+      "roundName": "Rebuttals",
+      "side": "A",
+      "name": "Sasha Lund",
+      "type": "POP-REA",
+      "speech": "Avery, you cling to a dream of full revenue while we face a ticking bomb. You want to keep the dam full because hydro power pays your bills. But what if that money is just a down payment on our funeral? A full rebuild takes four years. That means six springs without protection while the snowpack swells above average. Do you really want to bet our children's lives on a promise from state engineers who missed the signs last year? You call freezing home values a moral cost, but look at Riverside. They have already been abandoned. We will not let greedy insurers and foreign paper mills decide our fate by draining our reserves. Lower the water now, fix the spillway cheap, and force the government to freeze building permits or we refuse their money entirely. Do not gamble with the town's life for a few extra euros of profit. Act before the melt hits.",
+      "words": 155
+    },
+    {
+      "round": 2,
+      "roundName": "Rebuttals",
+      "side": "B",
+      "name": "Avery Lindgren",
+      "type": "TEC-IDE",
+      "speech": "Sasha argues that accepting a full rebuild leaves us vulnerable for four years. This ignores the math: operating at forty percent capacity immediately reduces failure probability significantly compared to your proposed thirty percent spillway. Your plan halves our hydro revenue, starving the municipal utility of the funds needed for buses and social services, while creating water shortages for both our hospitals and Ostbrück's orchards. If we drain the reservoir now, Nordhalm may leave, destroying 2,300 jobs faster than any flood could. Freezing building permits is not a punishment; it is a necessary condition to unlock state funding that pays for the rebuild. We must act now by accepting the grant and committing to the rebuild, but we cannot accept your plan of draining our power source today. We need stability, not a cheaper option that sacrifices our economy and increases long-term risk through water scarcity.",
+      "words": 145
+    },
+    {
+      "round": 3,
+      "roundName": "Closing statements",
+      "side": "A",
+      "name": "Sasha Lund",
+      "type": "POP-REA",
+      "speech": "Avery talks about stability, but she wants to gamble on a bomb. She says operating at forty percent is safer, yet engineers told us the leak got thirty percent worse last year. Her plan drains our treasury and freezes our homes while we wait. If the dam bursts in four years, our children drown anyway, and the money spent then will be gone forever. We choose the cheap fix now for twenty-five million euros. It stops the leak today. Then we force the government to freeze building permits as our condition for their money. No more begging. No more trusting promises from outsiders who walk away when things get hard. Secure your home, save your power grid, and protect your neighbors before the snow melts. Vote for the plan that keeps us alive in the next six months, not the one that waits four years to see if we survive.",
+      "words": 150
+    },
+    {
+      "round": 3,
+      "roundName": "Closing statements",
+      "side": "B",
+      "name": "Avery Lindgren",
+      "type": "TEC-IDE",
+      "speech": "Sasha argues that operating at forty percent capacity is unsafe, yet this ignores the immediate financial reality. Lowering the reservoir halves our hydro revenue today, starving the utility of the funds that pay for free buses and nine percent of the municipal budget. Without that revenue, we cannot afford the emergency response or repairs when failure does occur. Your plan risks two catastrophes: losing the Kallberg paper mill and destroying Ostbrück's orchards through water scarcity, which would bankrupt our economy before a flood hits. The state grant requires banning new homes; refusing it forfeits €120 million essential for the rebuild. We must accept the grant and commit to the full rebuild now. This preserves our power grid, maintains our jobs, and funds the necessary safety measures during the four-year construction period. Stability is not gambling; it is ensuring we have the resources to survive the worst case scenario.",
+      "words": 148
+    }
+  ],
+  "listeners": [
+    {
+      "id": "L1",
+      "profile": null,
+      "memory": [
+        {
+          "round": 1,
+          "roundName": "Opening statements",
+          "notes": "Sasha proposes lowering the reservoir now for €25m (80% risk reduction), accepting power loss and farmer anger. Avery proposes the full rebuild for €340m over 4 years to keep revenue, arguing a partial fix is just a 'palliative.'",
+          "problem": "The core conflict is between immediate survival with significant long-term economic costs (Sasha) versus maintaining current infrastructure and revenue at the risk of catastrophic failure unless fully rebuilt or frozen in status quo (Avery).",
+          "onA": "Sasha's plan addresses the immediate existential threat most directly; her willingness to accept power cuts and property value freezes is pragmatic, though her dismissal of farmer concerns feels slightly dismissive.",
+          "onB": "Avery correctly highlights that hydro power funds critical town services like buses, but relying on a 1961 dam with a 1/25 failure rate seems negligent; their refusal to accept grants implies they prioritize short-term income over long-term safety.",
+          "lean": "Sasha Lund",
+          "firmness": "fairly sure",
+          "vote": null,
+          "why": "A 1 in 25 chance of flooding the hospital and schools is an unacceptable risk that cannot be mitigated by financial arguments; Sasha's low-cost, high-efficacy solution appears to be the only rational choice for immediate survival.",
+          "leanSide": "A"
+        },
+        {
+          "round": 2,
+          "roundName": "Rebuttals",
+          "notes": "- Sasha argues the full rebuild leaves us vulnerable for four years without protection while snowpack is high. - Sasha claims freezing home values is a 'moral cost' and refuses state money that requires building freezes. - Avery points out operating at 40% capacity reduces failure risk more than lowering to 30%. - Avery warns that draining the reservoir now threatens Nordhalm's jobs and creates water shortages for hospitals.",
+          "problem": "The core dilemma is balancing immediate existential safety against severe long-term economic collapse; specifically, whether to accept a 'palliative' fix that loses our power grid and farmers' livelihoods now, or gamble on a slow rebuild while risking catastrophic failure before we can finish it.",
+          "onA": "Sasha's urgency regarding the snowpack is compelling, but her dismissal of the economic fallout feels dangerous; losing the hydro power revenue means cutting free buses and social services right when the town needs them most, which she downplays too heavily.",
+          "onB": "Avery correctly identifies that a partial fix sacrifices the very funds (utility profits) needed to manage risk, but their reliance on a 1961 dam with a 1/25 failure rate feels like negligence; however, moving immediately to 30% seems to be a false economy that jeopardizes essential services.",
+          "lean": "undecided",
+          "firmness": "tentative",
+          "vote": null,
+          "why": "Avery's point that operating at 40% offers better risk reduction than 30% is technically sound, yet the cost of halving our hydro revenue to pay for free buses and social programs is too high to ignore. Conversely, Sasha's plan saves lives immediately but seems to throw away the town's financial stability; I need to hear more about how we can mitigate the economic losses before voting.",
+          "leanSide": "U"
+        },
+        {
+          "round": 3,
+          "roundName": "Closing statements",
+          "notes": "- Sasha emphasized urgency regarding the high snowpack and dismissed state grants as unreliable promises.",
+          "problem": "- Avery argued that operating at 40% reduces risk more than 30% without losing essential utility revenue, but this relies on a flawed assumption given the worsening leak.",
+          "onA": "Sasha's focus on immediate survival against the high snowpack is undeniably critical; however, her dismissal of the state grant conditions and the resulting economic collapse feels like it sacrifices the town's long-term viability for a cheap fix.",
+          "onB": "Avery correctly identified that losing hydro revenue would bankrupt essential services, but their claim that 40% capacity is safer than 30% while ignoring the worsening leak makes their plan feel like a dangerous gamble with lives.",
+          "lean": "Sasha Lund",
+          "firmness": "vote",
+          "vote": "Sasha Lund",
+          "why": "Despite the severe economic costs, the risk of dam failure at 1-in-25 with an overflowing snowpack is unacceptable; I must choose the option that stops the flood threat immediately rather than gambling on a strategy that could leave the town vulnerable to catastrophe before construction begins.",
+          "leanSide": "A"
+        }
+      ]
+    },
+    {
+      "id": "L2",
+      "profile": null,
+      "memory": [
+        {
+          "round": 1,
+          "roundName": "Opening statements",
+          "notes": "Sasha proposes immediately lowering the reservoir to 30% for €25m to cut failure risk by 80%, accepting power loss and upstream farmer complaints. Avery argues for a full rebuild costing €340m over 4 years, citing that only this preserves hydro revenue and fully addresses the root cause, though it requires freezing building permits.",
+          "problem": "The core dilemma is balancing immediate survival against a cheap but incomplete fix versus an expensive, long-term solution that maintains economic stability but delays safety indefinitely. We must decide if a high probability of disaster (1 in 25) justifies sacrificing current power revenue and causing upstream conflict now, or if we can risk the failure rate to save our economy.",
+          "onA": "Sasha's urgency regarding the hospital and schools is compelling given the low statistical risk isn't zero. Her plan offers immediate safety with a relatively low financial cost, effectively treating the dam as a disposable safety measure rather than an asset. However, her dismissal of the power bill increase as irrelevant ignores that this revenue funds essential free buses and 9% of the budget.",
+          "onB": "Avery correctly identifies that lowering the water is a 'cheap palliative' that leaves us vulnerable because it reduces power income we need to function. The argument about preserving hydro revenue for public transit is strong, as losing half our electricity output would cripple the town's finances before the dam is safe.",
+          "lean": "undecided",
+          "firmness": "tentative",
+          "vote": null,
+          "why": "I am torn between Sasha's immediate action to save lives and Avery's argument that cutting power in half creates a secondary catastrophe by bankrupting the municipality. I need more data on whether the €25m fix is truly 'partial' or if the remaining risk (1 in ~120) combined with lost revenue outweighs the cost of waiting.",
+          "leanSide": "U"
+        },
+        {
+          "round": 2,
+          "roundName": "Rebuttals",
+          "notes": "Sasha argues that keeping the dam full for a 4-year rebuild is gambling with children's lives against state engineers who previously missed signs. She proposes refusing government money to avoid building permit freezes if necessary, prioritizing immediate safety over property values. Avery counters that operating at 40% capacity immediately reduces failure risk more than Sasha's 30% plan and provides a safer transition period. He warns that halving hydro revenue now will starve the municipality of funds for buses and social services before the rebuild is complete.",
+          "problem": "The core conflict remains between immediate safety via a cheaper, high-risk reduction in power output versus maintaining economic stability with a higher initial risk but longer-term solution; however, Avery's point that operating at 40% offers intermediate safety while preserving revenue adds a critical dimension I had underestimated.",
+          "onA": "Sasha is right to be terrified of the 'ticking bomb' and the moral weight of school/hospital zones, but her willingness to reject government grants seems extreme given the town's existing debt crisis. Her plan treats the dam as disposable, which feels dangerous for a community dependent on that specific infrastructure.",
+          "onB": "Avery successfully reframed the risk assessment by highlighting that 40% capacity is statistically safer than my initial 'status quo' assumption, effectively neutralizing his main vulnerability regarding public safety. His argument that losing half our revenue will cripple essential services like free buses is a devastating secondary consequence I cannot ignore.",
+          "lean": "Avery Lindgren",
+          "firmness": "fairly sure",
+          "vote": null,
+          "why": "Avery's correction on the risk levels at 40% vs 30% changes the equation entirely, suggesting his plan isn't 'vulnerable' in the way Sasha claims. If operating at 40% already significantly lowers failure probability, then choosing that path while keeping our economy functional makes more sense than a drastic measure that halves our budget.",
+          "leanSide": "B"
+        },
+        {
+          "round": 3,
+          "roundName": "Closing statements",
+          "notes": "Sasha insists on the cheap fix now and rejecting grants to avoid permit freezes, arguing we must secure our home immediately. Avery counters that halving hydro revenue will bankrupt essential services and that accepting the grant allows a full rebuild while maintaining economic stability.",
+          "problem": "The core dilemma is whether to accept an immediate financial crisis (halving power revenue) to stop a leak now, or to risk the current failure rate to preserve our economy so we have the resources to survive and fix the dam later.",
+          "onA": "Sasha's fear of gambling with lives is understandable, but her plan ignores the devastating secondary impact of losing half our hydro power revenue. By cutting off the funding for free buses and 9% of the budget, she proposes a solution that starves the town of its ability to respond to any disaster, not just flood it.",
+          "onB": "Avery correctly identifies that maintaining our economy is a prerequisite for survival; without revenue, we cannot afford emergency response even if the dam holds. His argument that accepting the grant allows us to rebuild fully while avoiding the economic collapse caused by his opponent's plan is persuasive and pragmatic.",
+          "lean": "Avery Lindgren",
+          "firmness": "vote",
+          "vote": "Avery Lindgren",
+          "why": "I vote for Avery because a bankrupt town cannot survive a flood, making the preservation of hydro revenue critical for any long-term safety. While Sasha wants immediate action, her proposed sacrifice of our economic lifeline creates a secondary catastrophe that would make recovery impossible regardless of the dam's status.",
+          "leanSide": "B"
+        }
+      ]
+    },
+    {
+      "id": "L3",
+      "profile": null,
+      "memory": [
+        {
+          "round": 1,
+          "roundName": "Opening statements",
+          "notes": "Sasha advocates for immediately lowering the reservoir to 30% as a quick, cheap fix (€25m), acknowledging the cost to farmers and power but prioritizing immediate family safety. Avery argues that only a full rebuild preserves hydro revenue and long-term survival, accepting the moral cost of freezing new home permits under the government grant.",
+          "problem": "The core tension is between immediate risk reduction via partial mitigation (lowering water) versus long-term stability via full reconstruction, complicated by trade-offs in hydro power, agriculture, housing values, and budget debt.",
+          "onA": "Sasha's plan is a pragmatic 'stop-gap' that drastically reduces failure probability for very little money, directly addressing the threat to the hospital and schools within the required five-month window.",
+          "onB": "Avery correctly identifies that a partial fix destroys our primary revenue stream (hydro power) which funds essential public services, creating a cycle of poverty that a full rebuild would avoid despite its high cost.",
+          "lean": "undecided",
+          "firmness": "tentative",
+          "vote": null,
+          "why": "I am torn between Sasha's urgent call to save lives now with a cheap solution and Avery's valid point that cutting our power in half will bankrupt the town's ability to fund the very emergency services we are trying to protect.",
+          "leanSide": "U"
+        },
+        {
+          "round": 2,
+          "roundName": "Rebuttals",
+          "notes": "Sasha emphasizes the urgency of the 'ticking bomb' and the danger of betting children's lives on state engineers who may be wrong; she proposes forcing a freeze on building permits if grants are denied. Avery highlights that operating at 40% capacity already significantly reduces failure probability compared to Sasha's 30%, arguing that draining further kills our hydro revenue, creates water shortages for hospitals/orchards, and risks losing the Nordhalm paper mill jobs.",
+          "problem": "The core conflict is whether to prioritize immediate risk reduction via drastic water lowering (sacrificing economy and water security) or commit to a costly but sustainable full rebuild that preserves our financial命脉 despite the debt ceiling, knowing we are in a temporary window before spring melt.",
+          "onA": "Sasha makes an emotional appeal to save lives now that resonates given the high probability of failure this spring, but her plan seems economically suicidal by halving our power revenue right when we need every euro to fund emergency services like free buses and hospital operations.",
+          "onB": "Avery effectively counters the 'cheap fix' by showing that partial mitigation actually increases long-term systemic risk through water scarcity and job loss, while correctly pointing out that we already gain significant safety from running at 40%, making the move to 30% unnecessarily destructive to our economy.",
+          "lean": "Avery Lindgren",
+          "firmness": "fairly sure",
+          "vote": null,
+          "why": "Avery's point that operating at 40% already cuts failure risk significantly makes Sasha's drastic cut to 30% look like over-correction that destroys the town's financial ability to respond to any disaster, whereas Avery's plan leverages existing safety margins while securing the funding for a permanent solution.",
+          "leanSide": "B"
+        },
+        {
+          "round": 3,
+          "roundName": "Closing statements",
+          "notes": "Sasha frames the 40% level as a dangerous gamble on engineers who might be wrong and demands immediate action to stop building permits to secure grants. Avery emphasizes that halving hydro revenue now starves the town of funds needed for emergency response, risks losing the paper mill and orchards, and argues the state grant is essential financing we cannot afford to reject.",
+          "problem": "The core dilemma is whether to prioritize immediate physical safety through drastic water reduction (sacrificing long-term economic viability) or to accept calculated financial risk to preserve our economy while securing a permanent solution that funds necessary emergency measures.",
+          "onA": "Sasha's emotional appeal to save lives now is understandable given the high stakes, but her plan effectively bankrupts the town by destroying its primary revenue stream right when debt is maxed out, leaving no resources to handle an actual disaster if the cheap fix fails or leaks worsen further.",
+          "onB": "Avery successfully demonstrates that a partial fix creates a 'two-catastrophe' scenario where economic collapse precedes any flood, and she correctly identifies that retaining our power revenue is essential to fund the very emergency services we are trying to protect.",
+          "lean": "Avery Lindgren",
+          "firmness": "vote",
+          "vote": "Avery Lindgren",
+          "why": "We cannot afford to lose our hydro revenue and major employers now; Avery's plan preserves the town's financial ability to respond to any disaster while securing the funding needed for a permanent rebuild.",
+          "leanSide": "B"
+        }
+      ]
+    },
+    {
+      "id": "L4",
+      "profile": null,
+      "memory": [
+        {
+          "round": 1,
+          "roundName": "Opening statements",
+          "notes": "Sasha: Urges immediate action to lower water now; highlights cost of rebuild (€340M/4 years) vs cheap fix (€25M); suggests accepting strict government conditions (ban new homes) as a necessary trade-off. Avery: Advocates for full rebuild to preserve hydro revenue and long-term safety; acknowledges relocation is too expensive/slow; argues freezing property values is a 'moral cost' worth paying for survival.",
+          "problem": "We face an imminent threat of dam failure (1/25 chance) in the coming spring melt, requiring a choice between a cheap but risky partial fix, an expensive long-term rebuild, or relocation, all while balancing power revenue, agricultural needs, and frozen housing markets.",
+          "onA": "Sasha's plan is financially pragmatic given our debt ceiling and immediate danger, but her dismissal of the farmers' lawsuit and the impact on property values feels like ignoring significant social fallout. Her focus on 'action now' ignores the fact that even a lowered reservoir still carries an 80% *reduced* risk, not zero risk.",
+          "onB": "Avery correctly identifies that hydro revenue funds essential town services, making their point about preserving power generation very strong financially. However, relying solely on a full rebuild while ignoring the severe financial hit from freezing property values seems politically unrealistic and potentially bankrupting for the town.",
+          "lean": "undecided",
+          "firmness": "tentative",
+          "vote": null,
+          "why": "Both speakers present valid points: Sasha prioritizes immediate survival and fiscal reality, while Avery prioritizes long-term stability and revenue. I am unsure if a partial fix with remaining risk is truly acceptable or if the 'moral cost' Avery mentions is actually affordable for a town already at 78% of its debt ceiling.",
+          "leanSide": "U"
+        },
+        {
+          "round": 2,
+          "roundName": "Rebuttals",
+          "notes": "Sasha argues that full rebuild leaves us vulnerable for four years during high snowpack and risks Nordhalm leaving; she insists on accepting state grants only if we freeze building permits to save Riverside. Avery claims operating at 40% capacity significantly reduces failure probability compared to Sasha's 30%, warns that halving hydro revenue will starve municipal services, and emphasizes Nordhalm would leave immediately if supply is cut.",
+          "problem": "We must choose between an immediate, cheap fix with reduced power but remaining risk (Sasha) or a costly rebuild that preserves revenue but requires four years of partial operation while freezing our housing market to unlock state aid (Avery), all while preventing dam failure during an above-average snowmelt.",
+          "onA": "Sasha's urgency regarding the 'ticking bomb' and the need for immediate action is compelling given the 20% above-average snowpack, but her dismissal of the economic fallout from freezing property values and the threat of Nordhalm leaving feels dangerously shortsighted. Reducing power by half would break the municipal utility, which directly funds our essential services like free buses.",
+          "onB": "Avery makes a strong case that halving hydro revenue creates an immediate budget crisis we cannot afford, and she is right that operating at 40% reduces failure risk more effectively than the cheaper spillway option alone. However, her plan relies entirely on accepting conditions to freeze property values for thousands of households and ignores that Nordhalm might leave immediately if they perceive supply instability, causing mass unemployment before we can rebuild.",
+          "lean": "Avery Lindgren",
+          "firmness": "fairly sure",
+          "vote": null,
+          "why": "I am leaning toward Avery because the town cannot afford to lose the €210 million budget revenue stream from hydro power; losing that income while dealing with debt at 78% of the ceiling creates an insolvency risk that a cheaper, risky fix ignores. While Sasha's safety concerns are valid, Avery correctly identifies that draining the reservoir now destroys the economic foundation needed to pay for any emergency response or eventual relocation, and the 40% operational level still offers significantly better protection than the 30% plan.",
+          "leanSide": "B"
+        },
+        {
+          "round": 3,
+          "roundName": "Closing statements",
+          "notes": "Sasha frames the rebuild as a 'gamble' on a bomb and pushes for a cheap fix now to stop immediate leaks, accepting government conditions like freezing housing permits. Avery counters that halving hydro revenue will bankrupt essential services (free buses, budget) before construction even starts, arguing that operating at 40% reduces risk significantly more than the 30% option while preserving economic stability.",
+          "problem": "The core conflict is between immediate fiscal survival and preventing an existential threat: we must choose between a cheap, risky fix that starves our economy of vital power revenue or a costly, long-term rebuild that keeps us financially solvent but requires accepting strict conditions on property development during a dangerous four-year window.",
+          "onA": "Sasha's plan addresses the immediate physical danger and respects the town's harsh debt reality, but her dismissal of the economic fallout from freezing property values and halving power revenue ignores how those funds currently sustain essential services like free buses and emergency response capabilities.",
+          "onB": "Avery correctly identifies that destroying our primary revenue stream now creates an insolvency risk we cannot afford, especially since operating at 40% offers much better safety margins than the 30% spillway option; however, her reliance on state grants tied to freezing housing markets remains a politically difficult path.",
+          "lean": "Avery Lindgren",
+          "firmness": "vote",
+          "vote": "Avery Lindgren",
+          "why": "I am voting for Avery because the town cannot afford to lose the €210 million budget revenue from hydro power; losing this income while dealing with debt at 78% of the ceiling creates an insolvency risk that makes the cheaper, risky fix untenable. While Sasha's safety concerns are valid, Avery correctly argues that draining the reservoir now destroys the economic foundation needed to pay for emergency responses or eventual relocation, and the 40% operational level provides significantly better protection than lowering it further.",
+          "leanSide": "B"
+        }
+      ]
+    },
+    {
+      "id": "L5",
+      "profile": null,
+      "memory": [
+        {
+          "round": 1,
+          "roundName": "Opening statements",
+          "notes": "- Sasha advocates immediately lowering the reservoir to 30% for €25m, cutting failure risk by 80% but halving hydro power and causing water shortages. She accepts freezing property values as a lesser evil than flooding.\n- Avery argues for the full rebuild at €340m over 4 years to preserve revenue and address the root cause, accepting that banning new homes is a necessary moral cost.\n- Sasha dismisses relocation as too expensive/slow (citing 2014 failure) and insurance withdrawal as inevitable; she emphasizes acting now before spring melt.",
+          "problem": "The core conflict is between immediate risk reduction via cheap but economically damaging measures (lowering the dam) versus long-term financial stability and energy security via an expensive rebuild, all while managing political fallout from freezing housing markets and angering upstream farmers.",
+          "onA": "Sasha presents a pragmatic, 'survival first' approach that prioritizes saving lives over economic losses. Her argument is compelling because the cost of inaction is catastrophic, and her willingness to accept property value freezes shows she understands the political reality without sugarcoating it.",
+          "onB": "Avery's plan protects the town's future revenue stream and avoids water shortages, which are critical for a dry summer. However, his reliance on a massive €340m investment when the debt is already near the legal ceiling feels financially reckless given the imminent spring melt.",
+          "lean": "Sasha Lund",
+          "firmness": "fairly sure",
+          "vote": null,
+          "why": "I am leaning toward Sasha because the probability of dam failure (1/25) exists right now, and delaying action to rebuild or waiting for a grant creates unacceptable risk. While Avery's plan preserves the power grid, no amount of electricity matters if the town is underwater; his willingness to accept the €340m debt burden also seems dangerous given our current financial constraints.",
+          "leanSide": "A"
+        },
+        {
+          "round": 2,
+          "roundName": "Rebuttals",
+          "notes": "- Sasha argues a full rebuild leaves us unprotected for four years, citing the state engineers' past failure to predict risks as a reason to doubt their 'significantly reduced' risk claims at 40% capacity.",
+          "problem": "The core conflict remains balancing immediate survival against catastrophic economic collapse, but Avery's dismissal of Sasha's risk assessment regarding the 40% level makes his financial arguments feel dangerous rather than prudent right now.",
+          "onA": "I am more convinced by Sasha's 'survival first' logic because accepting a 1-in-25 chance of failure is unacceptable regardless of the cost. Her willingness to freeze property values immediately rather than gamble with lives aligns better with the urgent threat of an above-average snowpack.",
+          "onB": "Avery's defense of hydro revenue and job stability is important, but his insistence on waiting for a full rebuild or claiming that 40% capacity is safe enough feels like rationalizing negligence given the specific warning about the dam's left side leaking more than last year.",
+          "lean": "Sasha Lund",
+          "firmness": "fairly sure",
+          "vote": null,
+          "why": "Avery's rebuttal downplayed the immediate danger of a full reservoir and dismissed the risk at 40% capacity as manageable, which seems risky when we know failure leads to rapid flooding. I remain concerned that his plan ignores the reality that we cannot afford six years without protection or the collapse of our power grid.",
+          "leanSide": "A"
+        },
+        {
+          "round": 3,
+          "roundName": "Closing statements",
+          "notes": "- Sasha emphasizes that operating at 40% is a gamble given the worsening leak and above-average snowpack, arguing we cannot afford to wait four years for a rebuild.\n- Avery counters that lowering the reservoir destroys our revenue stream (free buses, budget funding) and hurts our major employers (Kallberg mill, Ostbrück orchards).\n- Avery insists we must accept the state grant's condition of freezing housing to access the €120 million needed for a full rebuild, framing stability as survival.\n- Sasha dismisses financial planning as secondary to immediate life-or-death necessity, urging action before the spring melt.",
+          "problem": "The core dilemma is choosing between an immediate, cheap fix that sacrifices our economy and energy security versus a long-term solution that preserves wealth but leaves us vulnerable for four years while debt skyrockets.",
+          "onA": "Sasha's plan is undeniably pragmatic regarding human safety, but her willingness to accept the economic collapse of halving hydro power and losing major jobs feels reckless given our precarious financial state. She correctly identifies that waiting is dangerous, yet she underestimates how quickly cutting utility revenue could cripple our ability to respond to any crisis, even if one occurs.",
+          "onB": "Avery's argument highlights a critical blind spot: without the utility's profits, we lose the funds for free buses and nearly 10% of the town budget, leaving us unable to evacuate or repair damage even if the dam holds. While his plan is financially sounder long-term, relying on a €340 million rebuild when our debt is near the legal ceiling makes him seem like he ignores the immediate threat to lives during the construction period.",
+          "lean": "Sasha Lund",
+          "firmness": "vote",
+          "vote": "Sasha Lund",
+          "why": "Despite the severe economic costs, I cannot risk waiting four years for a rebuild with a snowpack 20% above average and a leak that has already worsened; saving lives today is non-negotiable regardless of the financial toll.",
+          "leanSide": "A"
+        }
+      ]
+    }
+  ],
+  "roundTallies": [
+    {
+      "A": 2,
+      "B": 0,
+      "U": 3
+    },
+    {
+      "A": 1,
+      "B": 3,
+      "U": 1
+    },
+    {
+      "A": 2,
+      "B": 3,
+      "U": 0
+    }
+  ],
+  "votes": {
+    "A": 2,
+    "B": 3
+  },
+  "winner": "B",
+  "winnerType": "TEC-IDE",
+  "tokens": {
+    "in": 36069,
+    "out": 7033,
+    "retries": 0
+  },
+  "calls": [
+    {
+      "role": "debater",
+      "side": "A",
+      "round": 1,
+      "model": "qwen3.5:9b",
+      "seed": 52683001,
+      "attempts": 1,
+      "tokensIn": 1251,
+      "tokensOut": 277,
+      "ms": 8429
+    },
+    {
+      "role": "debater",
+      "side": "B",
+      "round": 1,
+      "model": "qwen3.5:9b",
+      "seed": 52683002,
+      "attempts": 1,
+      "tokensIn": 1218,
+      "tokensOut": 276,
+      "ms": 8043
+    },
+    {
+      "role": "listener",
+      "listener": "L1",
+      "round": 1,
+      "model": "qwen3.5:9b",
+      "seed": 52683003,
+      "attempts": 1,
+      "tokensIn": 1377,
+      "tokensOut": 295,
+      "ms": 8342
+    },
+    {
+      "role": "listener",
+      "listener": "L2",
+      "round": 1,
+      "model": "qwen3.5:9b",
+      "seed": 52683004,
+      "attempts": 1,
+      "tokensIn": 1377,
+      "tokensOut": 403,
+      "ms": 10208
+    },
+    {
+      "role": "listener",
+      "listener": "L3",
+      "round": 1,
+      "model": "qwen3.5:9b",
+      "seed": 52683005,
+      "attempts": 1,
+      "tokensIn": 1377,
+      "tokensOut": 287,
+      "ms": 7298
+    },
+    {
+      "role": "listener",
+      "listener": "L4",
+      "round": 1,
+      "model": "qwen3.5:9b",
+      "seed": 52683006,
+      "attempts": 1,
+      "tokensIn": 1377,
+      "tokensOut": 388,
+      "ms": 10013
+    },
+    {
+      "role": "listener",
+      "listener": "L5",
+      "round": 1,
+      "model": "qwen3.5:9b",
+      "seed": 52683007,
+      "attempts": 1,
+      "tokensIn": 1377,
+      "tokensOut": 413,
+      "ms": 10511
+    },
+    {
+      "role": "debater",
+      "side": "A",
+      "round": 2,
+      "model": "qwen3.5:9b",
+      "seed": 52683008,
+      "attempts": 1,
+      "tokensIn": 1621,
+      "tokensOut": 265,
+      "ms": 7589
+    },
+    {
+      "role": "debater",
+      "side": "B",
+      "round": 2,
+      "model": "qwen3.5:9b",
+      "seed": 52683009,
+      "attempts": 1,
+      "tokensIn": 1787,
+      "tokensOut": 262,
+      "ms": 7595
+    },
+    {
+      "role": "listener",
+      "listener": "L1",
+      "round": 2,
+      "model": "qwen3.5:9b",
+      "seed": 52683010,
+      "attempts": 1,
+      "tokensIn": 1668,
+      "tokensOut": 392,
+      "ms": 10954
+    },
+    {
+      "role": "listener",
+      "listener": "L2",
+      "round": 2,
+      "model": "qwen3.5:9b",
+      "seed": 52683011,
+      "attempts": 1,
+      "tokensIn": 1778,
+      "tokensOut": 417,
+      "ms": 11180
+    },
+    {
+      "role": "listener",
+      "listener": "L3",
+      "round": 2,
+      "model": "qwen3.5:9b",
+      "seed": 52683012,
+      "attempts": 1,
+      "tokensIn": 1662,
+      "tokensOut": 379,
+      "ms": 10200
+    },
+    {
+      "role": "listener",
+      "listener": "L4",
+      "round": 2,
+      "model": "qwen3.5:9b",
+      "seed": 52683013,
+      "attempts": 1,
+      "tokensIn": 1763,
+      "tokensOut": 468,
+      "ms": 12436
+    },
+    {
+      "role": "listener",
+      "listener": "L5",
+      "round": 2,
+      "model": "qwen3.5:9b",
+      "seed": 52683014,
+      "attempts": 1,
+      "tokensIn": 1790,
+      "tokensOut": 318,
+      "ms": 8896
+    },
+    {
+      "role": "debater",
+      "side": "A",
+      "round": 3,
+      "model": "qwen3.5:9b",
+      "seed": 52683015,
+      "attempts": 1,
+      "tokensIn": 2006,
+      "tokensOut": 253,
+      "ms": 7312
+    },
+    {
+      "role": "debater",
+      "side": "B",
+      "round": 3,
+      "model": "qwen3.5:9b",
+      "seed": 52683016,
+      "attempts": 1,
+      "tokensIn": 2164,
+      "tokensOut": 237,
+      "ms": 7006
+    },
+    {
+      "role": "listener",
+      "listener": "L1",
+      "round": 3,
+      "model": "qwen3.5:9b",
+      "seed": 52683017,
+      "attempts": 1,
+      "tokensIn": 2029,
+      "tokensOut": 246,
+      "ms": 7648
+    },
+    {
+      "role": "listener",
+      "listener": "L2",
+      "round": 3,
+      "model": "qwen3.5:9b",
+      "seed": 52683018,
+      "attempts": 1,
+      "tokensIn": 2162,
+      "tokensOut": 322,
+      "ms": 9455
+    },
+    {
+      "role": "listener",
+      "listener": "L3",
+      "round": 3,
+      "model": "qwen3.5:9b",
+      "seed": 52683019,
+      "attempts": 1,
+      "tokensIn": 2008,
+      "tokensOut": 310,
+      "ms": 9111
+    },
+    {
+      "role": "listener",
+      "listener": "L4",
+      "round": 3,
+      "model": "qwen3.5:9b",
+      "seed": 52683020,
+      "attempts": 1,
+      "tokensIn": 2199,
+      "tokensOut": 400,
+      "ms": 11355
+    },
+    {
+      "role": "listener",
+      "listener": "L5",
+      "round": 3,
+      "model": "qwen3.5:9b",
+      "seed": 52683021,
+      "attempts": 1,
+      "tokensIn": 2078,
+      "tokensOut": 425,
+      "ms": 11924
+    }
+  ],
+  "startedAt": "2026-11-04T21:57:32.683Z",
+  "seconds": 196
+}

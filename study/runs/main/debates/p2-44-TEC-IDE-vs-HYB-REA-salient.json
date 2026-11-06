@@ -1,0 +1,609 @@
+{
+ "id": "p2-44-TEC-IDE-vs-HYB-REA-salient",
+ "pass": 2,
+ "pairIndex": 44,
+ "seed": 239447,
+ "scenario": "salient",
+ "scenarioVersion": 2,
+ "domain": "military",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-IDE",
+  "style": "TEC",
+  "ideology": "IDE",
+  "name": "Drew Halvorsen",
+  "platform": "We execute a fighting withdrawal across the bridge tonight under darkness and cover, then destroy the crossing to deny Vostra momentum toward Mirov.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will anchor my argument on expected loss ratios and the impossibility of holding against massed forces, forcing the council to accept withdrawal as the lesser evil."
+   },
+   {
+    "round": 2,
+    "text": "I need to emphasize the mathematical inevitability of losing these troops regardless of the decision, as they already lack ammunition and have suffered heavy losses."
+   },
+   {
+    "round": 3,
+    "text": "I am focusing on the specific casualty numbers and the timeline of ammunition depletion to prove that holding is mathematically impossible, thereby appealing to the rational voting members who value troop survival over symbolic victories."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-REA",
+  "style": "HYB",
+  "ideology": "REA",
+  "name": "Jamie Okafor",
+  "platform": "We reject an immediate evacuation and instead fortify Halden for three days while we build a hidden pontoon bridge, ensuring our civilian families stay safe and our sacrifice holds the line until aid arrives.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize the moral imperative of not abandoning civilians and the strategic necessity of maintaining the fortified position to force enemy overextension."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking his 'surrender dressed as caution' framing to appeal to the council's sense of duty while emphasizing that immediate withdrawal guarantees higher casualties and political disaster, forcing allies to act rather than letting them walk away."
+   },
+   {
+    "round": 3,
+    "text": "Appeal to the council's fear of an Orsk-style massacre as the emotional trump card while framing holding the fortress as the only way to actually compel allied action, since retreating would destroy the leverage needed for aid."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Drew Halvorsen",
+   "type": "TEC-IDE",
+   "speech": "The choice is between holding Halden symbolically while losing our army and civilians, or withdrawing strategically to preserve our capacity to fight. Intelligence indicates high confidence of an imminent attack; staying risks encirclement with dwindling ammunition. A withdrawal tonight, utilizing the engineer's hidden pontoon plan if needed, accepts short-term propaganda costs but saves 3,800 trained troops and allows evacuation of civilians before a total collapse. Leaving them behind to die or being captured violates our duty to the vulnerable. The bridge must be blown to protect Mirov; this is not retreat from principle, but the only viable defense of Kaldmark's future.",
+   "words": 101
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-REA",
+   "speech": "Look at the sixty percent chance Vostra attacks in seventy-two hours. If we pull back now under drone watch, we lose fifteen to thirty percent of our men and leave six thousand civilians behind to face a new massacre like Orsk. Our fortress here requires three times their numbers to take; let them try. We have ammunition for nine days and food for twenty. Use the night to engineer a second bridge. Let the volunteers in that brigade fight while we secure the crossing. Blowing our only bridge tonight saves nothing but gives Vostra the propaganda victory they crave right before aid votes. Hold Halden. Build the bridge. Let the allies deliver on their promises when our defense forces them to.",
+   "words": 121
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Drew Halvorsen",
+   "type": "TEC-IDE",
+   "speech": "Jamie focuses on morale, yet statistics show our brigade has already lost twenty-two percent of its strength. Holding a fortress requiring three times an attacker's numbers is not bravery; it is gambling with the lives of volunteers and civilians we can save. If Vostra attacks tomorrow as intelligence suggests, our artillery runs out in nine days anyway. A withdrawal tonight saves two thousand men from probable capture or death while evacuating most civilians before darkness. Blowing the bridge denies Mirov a path to massacre within eight days, aligning with ally interests right now. We preserve the army that must fight next winter. Sacrificing men and civilians for a symbol guarantees loss. Strategic withdrawal is the only option that saves lives.",
+   "words": 120
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-REA",
+   "speech": "You speak of gambling with lives, Drew, but statistics without resolve lead only to defeat. If we pull back tonight under drone fire, we accept a fifteen-to-thirty percent casualty rate guaranteed by Vostra's surveillance. That is not strategy; that is surrender dressed as caution. Our artillery lasts nine days, yet our fortress demands three times their force to take. We can trade time for supplies. Build the hidden bridge in four days while volunteers hold the line. This preserves the army's fighting weight and denies Vostra the propaganda victory they need before aid votes. Let allies see us stand firm so they must deliver on their promises. A retreat now leaves Mirov exposed and abandons our own to fear. Hold Halden, build the bridge, and force them to break.",
+   "words": 129
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Drew Halvorsen",
+   "type": "TEC-IDE",
+   "speech": "Jamie argues that holding Halden forces allies to act, but this ignores the immediate math. If Vostra attacks in seventy-two hours with two divisions, they will not wait for our second bridge or allied aid. Our current ammunition lasts nine days; once spent, we fight with rifles alone. A withdrawal tonight saves three thousand trained soldiers from capture or death and evacuates most civilians before darkness. Blowing the bridge denies Mirov a path to massacre within eight days, directly countering Vostra's strategy. Sacrificing lives for a symbol does not inspire allies; it guarantees their retreat when our forces collapse. We must preserve the army that will defend Kaldmark next winter, not gamble its existence on a fortress they cannot take.",
+   "words": 120
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-REA",
+   "speech": "Drew, your math counts soldiers but ignores the civilians trapped in that fortress. If we withdraw tonight under drone fire, we guarantee fifteen percent casualties and leave six thousand people to face a massacre like Orsk. You claim allies will help if we stand firm; yet promises mean nothing without force behind them. Our fortress requires three times their numbers to take. Let them try while our engineers build the hidden bridge in four days. This plan keeps our volunteers alive, evacuates civilians safely once the crossing is ready, and forces allies to deliver on their aid votes by defending a front that cannot be ignored. Do not gamble our future on a retreat; hold Halden.",
+   "words": 116
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew: Withdraw now to save troops/civilians despite propaganda hit; feint likely. Jamie: Hold fortress, build hidden bridge, risk drone spotting losses.",
+     "problem": "Decide whether to hold a strong but encircled position risking encirclement of civilians and forces, or withdraw immediately under fire to preserve strategic assets.",
+     "onA": "His plan prioritizes saving lives and fighting capacity but accepts high immediate political cost and risks leaving the bridge undefended if not blown instantly.",
+     "onB": "She relies on the fortress advantage and engineering speed, but underestimates the certainty of drone-spotting a night withdrawal and the moral risk of civilians staying behind.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need more clarity on Vostra's actual attack timing to distinguish between a feint and an imminent strike that would make Jamie's gamble fatal.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew: High immediate casualties and civilian abandonment risks; Mirov defense weakens if reserve committed. Jamie: Withdrawal is 'surrender' with guaranteed drone losses; fortress holds against 3x attacker force.",
+     "problem": "Must choose between accepting high near-term attrition to save lives/propaganda value, or gambling on engineering a second bridge under intense surveillance while relying on fortress defense.",
+     "onA": "His logic on preserving strategic assets and avoiding guaranteed civilian death is sound, but his plan fails to address the 15-30% troop loss during extraction under drone fire.",
+     "onB": "Her appeal to resolve and fortress strength ignores the hard reality of drone surveillance making a night withdrawal nearly impossible without massive sacrifices.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of Vostran drone surveillance makes Jamie's 'hold and build' plan a guaranteed massacre, whereas Drew's plan accepts pain now to save the brigade and civilians.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Vostra attack timing uncertain but drone surveillance makes night withdrawal extremely risky. Fortress holds against superior numbers; allies need visible stand to aid vote.",
+     "problem": "Whether Kaldmark must accept guaranteed high casualties and civilian abandonment via immediate withdrawal, or gamble on holding the fortress to enable a safer evacuation later while preserving morale and alliance support.",
+     "onA": "His plan logically preserves strategic assets but ignores the moral imperative of civilians refusing evacuation and the political necessity of defending the national symbol Halden before allied aid votes.",
+     "onB": "She risks high immediate troop losses due to drones, yet her argument that the fortress can hold against overwhelming odds buys time for a second bridge while saving civilian lives once the crossing is ready.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "The fortress's defensive strength allows us to buy time rather than gambling a guaranteed massacre under drone fire; holding forces allies to act and gives civilians a chance to evacuate safely once the hidden bridge is built.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew: Withdraw tonight to save troops/civilians via hidden bridge; blow bridge to protect Mirov. Risks propaganda loss but ensures survival.",
+     "problem": "Do we hold a strong fortress under imminent threat of encirclement and likely civilian massacre, or withdraw now at high risk of losing men and civilians to drones?",
+     "onA": "His plan prioritizes saving lives and future fighting capacity, though the 'blow the bridge' step seems harsh if it leaves civilians behind.",
+     "onB": "He argues the fortress is naturally defensible and that withdrawing immediately is a tactical suicide under drone surveillance.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans have fatal flaws: Drew risks leaving civilians or blowing the bridge too early; Jamie risks losing the brigade to encirclement if intelligence holds.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew: Withdraw tonight saves lives but risks leaving civilians behind and blowing bridge prematurely. Jamie: Hold to preserve morale and force ally aid, risking encirclement if intelligence is right.",
+     "problem": "The core conflict is whether to accept high immediate risk of losing the brigade (Jamie) or risk abandoning civilians and breaking alliance trust via a premature withdrawal (Drew).",
+     "onA": "His plan saves the army but feels morally compromised regarding the civilians and potentially damages diplomatic leverage with allies.",
+     "onB": "Holding is strategically sound if intelligence is wrong, but it gambles the brigade's survival against a likely massive attack based on solid intel.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between saving the men via withdrawal vs holding to save civilians and maintain political leverage.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew: Saves army but risks leaving civilians; Jamie: Holds fortress risking encirclement but keeps civilians safe if intel holds.",
+     "problem": "We must choose between a high-probability tactical withdrawal that saves troops but imperils civilians, versus a high-stakes hold that risks annihilation to preserve morale and political leverage.",
+     "onA": "Drew's plan is militarily sound for preserving the brigade but morally flawed regarding the civilians and diplomatically risky due to the 'blow the bridge' step.",
+     "onB": "Jamie's plan gambles the entire brigade on intelligence that might be wrong, ignoring the certainty of a drone-watch withdrawal failure.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "The survival of the four thousand trained soldiers and their future ability to defend Kaldmark is the strategic imperative; sacrificing them for a symbol or a propaganda victory is unsustainable, even if evacuating civilians requires difficult decisions.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew prioritizes saving troops and civilians but accepts short-term propaganda cost; Jamie argues Halden is defensible with ample supplies to engineer a bridge. Both agree on blowing the bridge later.",
+     "problem": "Whether to evacuate immediately to save forces/civilians despite propaganda costs, or hold the fortress to defend against Vostra's likely attack and enable an engineered withdrawal.",
+     "onA": "His plan ensures survival of our troops and civilians but risks a devastating immediate defeat if we retreat under fire while allies are undecided on aid.",
+     "onB": "His argument that we can hold the fortress long enough to build a second bridge is plausible given our supply margins, though relying on engineers under drone watch is risky.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am slightly more inclined toward holding because blowing the bridge tonight seems strategically reckless and leaves us vulnerable before allies arrive, whereas our supply levels suggest we can weather a short siege.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew argues retreat is 'surrender dressed as caution' given 22% strength loss; Jamie counters that guaranteed drone fire makes withdrawal a death sentence.",
+     "problem": "Can we hold long enough to engineer a safe exit without accepting immediate, high-certainty slaughter under drone surveillance?",
+     "onA": "His focus on the 22% attrition rate is compelling, but his proposal to retreat tonight guarantees leaving the majority of civilians behind and exposes Mirov immediately.",
+     "onB": "He correctly identifies that a visible night withdrawal is likely a massacre, yet his plan relies entirely on engineers building a hidden bridge in four days under constant drone watch, which seems operationally naive.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Retreating tonight with drones watching the bridge is an almost certain loss of life for both soldiers and civilians, whereas holding offers a slim chance to engineer a safe escape.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew prioritizes immediate survival and denying Mirov access; Jamie insists holding a defensible fortress allows safe engineering evacuation later.",
+     "problem": "Can we hold Halden long enough to engineer a safe bridge without losing all our troops, civilians, and the city of Mirov to Vostra?",
+     "onA": "His plan guarantees civilian safety and troop survival by acknowledging the immediate threat, but sacrificing Halden before aid arrives is strategically dangerous.",
+     "onB": "He correctly identifies the fortress as defensible and the second bridge as viable, yet he underestimates the certainty of drone-facilitated slaughter during any night withdrawal.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "With Vostra's drones watching constantly, a night withdrawal is a guaranteed massacre; saving the lives of our soldiers and civilians now, even at high strategic cost, is the only moral choice.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew prioritizes saving troops/civilians via withdrawal but admits propaganda cost and leaving bridge undefended initially. Jamie insists fortress holds easily against odds, uses night to build backup crossing, but risks losing civilians if forced back.",
+     "problem": "Balancing the moral imperative to save 6,000 civilians and the 4th Brigade's lives against the strategic risk of encirclement and a guaranteed Vostran victory in Mirov before allied aid arrives.",
+     "onA": "His plan is morally sound regarding saving troops and civilians but relies on executing a complex withdrawal under heavy drone surveillance with uncertain success rates.",
+     "onB": "He correctly identifies the fortress's defensive strength but underestimates the political cost of losing Halden before aid votes and risks leaving civilians trapped if the attack comes as expected.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Drew's pragmatic assessment of imminent encirclement versus Jamie's confidence in the fortress, yet both face severe risks regarding civilian safety.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew argues withdrawal saves lives but risks civilian abandonment; Jamie insists holding uses fortress strength to build a bridge and denies Vostra propaganda victory.",
+     "problem": "The core dilemma is whether to gamble on holding a symbolically vital but besieged fortress under drone surveillance to save aid votes, or to execute a high-risk night withdrawal to save troops and civilians before Vostra likely attacks.",
+     "onA": "His plan pragmatically addresses the imminent threat of encirclement and guarantees civilian evacuation, though it risks leaving the bridge undefended initially.",
+     "onB": "He correctly leverages the fortress's defensive multiplier but dangerously underestimates the certainty of high casualties during a night withdrawal while civilians refuse to leave.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jamie's dismissal of the guaranteed casualty rate and risk of abandoning unwilling civilians makes his 'hold' plan morally untenable given Vostra's likely attack timing.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew emphasizes immediate survival math and denying Vostra's Mirov advance; Jamie insists on fortress resilience but underestimates drone risks to civilians.",
+     "problem": "The core conflict is whether to risk abandoning unwilling civilians for a strategic counter-attack or gamble a difficult night withdrawal to save troops and people before an inevitable assault.",
+     "onA": "Drew correctly identifies that Vostra will not wait for our bridge or aid, making his evacuation plan the only way to save both soldiers and the unwilling civilians.",
+     "onB": "Jamie's confidence in the fortress ignores the certainty of high casualties from drone surveillance during withdrawal and fails to address the moral impossibility of leaving 6,000 people behind.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Saving the brigade and evacuating the unwilling civilians before a guaranteed Vostran attack is the only morally defensible option, even if it risks initial vulnerability.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew prioritizes saving troops/civilians via withdrawal tonight; warns of encirclement but accepts propaganda cost. Jamie prioritizes holding the fortress to save civilians and troops from immediate ambush; claims building a second bridge buys time.",
+     "problem": "Decide whether to risk a chaotic night withdrawal under drone surveillance to save lives, or hold a defensible position hoping to engineer a secondary crossing before an imminent attack.",
+     "onA": "His plan logically avoids encirclement and honors the duty to evacuate civilians, but accepting heavy losses tonight as 'propaganda cost' feels like throwing away the very force needed for defense.",
+     "onB": "He correctly identifies the fortress advantage and the high risk of a drone-watched withdrawal, yet his plan ignores the near-certain capture or death of civilians if they refuse to leave.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate threat to 6,000 civilians refusing evacuation in Jamie's hold-fortress scenario is morally weightier than Drew's projected troop losses, but the risk of total encirclement remains unresolved.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew: Withdrawal tonight saves ~2k men/civilians; blowing bridge blocks Mirov. Jamie: Fortress holds 3x force ratio; hidden bridge buys time; aid vote needs symbol.",
+     "problem": "Must choose between accepting guaranteed heavy losses and propaganda defeat via a night withdrawal, or risking encirclement to hold a strong position while engineering an escape route.",
+     "onA": "His plan logically minimizes immediate casualties but feels like surrendering the strategic high ground for a temporary gain in numbers.",
+     "onB": "He correctly highlights the fortress advantage but dangerously underestimates the moral imperative to save civilians who refuse evacuation if the hold fails.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Drew's math on casualties is compelling, yet Jamie's reliance on a single bridge and volunteer morale against a confirmed massing feels reckless given the refusal of many civilians to flee.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew emphasizes immediate math and preserving the army for winter defense; Jamie insists on fortress advantage and saving civilians who refuse evacuation.",
+     "problem": "Decide between a high-risk night withdrawal to save lives now versus holding a strong position hoping to engineer an escape before a certain massive attack.",
+     "onA": "His plan is militarily sound for survival but accepts the moral failure of abandoning civilians who explicitly refuse to leave.",
+     "onB": "He correctly identifies the defensive strength and civilian plight, yet his reliance on a hidden bridge built under drone surveillance against two massed divisions is strategically reckless.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "While Jamie's moral appeal regarding civilians is strong, the risk of Vostra launching an immediate attack that destroys the fortress and traps everyone makes holding the position a guaranteed disaster compared to a difficult withdrawal.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 1,
+   "U": 4
+  },
+  {
+   "A": 2,
+   "B": 1,
+   "U": 2
+  },
+  {
+   "A": 4,
+   "B": 1,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 4,
+  "B": 1
+ },
+ "winner": "A",
+ "winnerType": "TEC-IDE",
+ "tokens": {
+  "in": 35722,
+  "out": 4507,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 239447001,
+   "attempts": 1,
+   "tokensIn": 1349,
+   "tokensOut": 212,
+   "ms": 5938
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 239447002,
+   "attempts": 1,
+   "tokensIn": 1447,
+   "tokensOut": 224,
+   "ms": 6233
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 239447003,
+   "attempts": 1,
+   "tokensIn": 1476,
+   "tokensOut": 210,
+   "ms": 6329
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 239447004,
+   "attempts": 1,
+   "tokensIn": 1476,
+   "tokensOut": 199,
+   "ms": 4792
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 239447005,
+   "attempts": 1,
+   "tokensIn": 1476,
+   "tokensOut": 225,
+   "ms": 5420
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 239447006,
+   "attempts": 1,
+   "tokensIn": 1476,
+   "tokensOut": 240,
+   "ms": 5766
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 239447007,
+   "attempts": 1,
+   "tokensIn": 1476,
+   "tokensOut": 254,
+   "ms": 6098
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 239447008,
+   "attempts": 1,
+   "tokensIn": 1667,
+   "tokensOut": 186,
+   "ms": 5591
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 239447009,
+   "attempts": 1,
+   "tokensIn": 1837,
+   "tokensOut": 220,
+   "ms": 6455
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 239447010,
+   "attempts": 1,
+   "tokensIn": 1683,
+   "tokensOut": 236,
+   "ms": 6704
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 239447011,
+   "attempts": 1,
+   "tokensIn": 1673,
+   "tokensOut": 196,
+   "ms": 5022
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 239447012,
+   "attempts": 1,
+   "tokensIn": 1700,
+   "tokensOut": 221,
+   "ms": 5642
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 239447013,
+   "attempts": 1,
+   "tokensIn": 1714,
+   "tokensOut": 221,
+   "ms": 5637
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 239447014,
+   "attempts": 1,
+   "tokensIn": 1727,
+   "tokensOut": 215,
+   "ms": 5477
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 239447015,
+   "attempts": 1,
+   "tokensIn": 2005,
+   "tokensOut": 204,
+   "ms": 6060
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 239447016,
+   "attempts": 1,
+   "tokensIn": 2181,
+   "tokensOut": 194,
+   "ms": 5851
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 239447017,
+   "attempts": 1,
+   "tokensIn": 1874,
+   "tokensOut": 222,
+   "ms": 6497
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 239447018,
+   "attempts": 1,
+   "tokensIn": 1822,
+   "tokensOut": 214,
+   "ms": 5879
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 239447019,
+   "attempts": 1,
+   "tokensIn": 1877,
+   "tokensOut": 207,
+   "ms": 5797
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 239447020,
+   "attempts": 1,
+   "tokensIn": 1890,
+   "tokensOut": 212,
+   "ms": 5886
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 239447021,
+   "attempts": 1,
+   "tokensIn": 1896,
+   "tokensOut": 195,
+   "ms": 5532
+  }
+ ],
+ "startedAt": "2026-11-05T01:53:04.577Z",
+ "seconds": 123
+}

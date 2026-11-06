@@ -1,0 +1,609 @@
+{
+ "id": "p3-26-POP-LIB-vs-TEC-REA-dam",
+ "pass": 3,
+ "pairIndex": 26,
+ "seed": 575363,
+ "scenario": "dam",
+ "scenarioVersion": 2,
+ "domain": "political",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Avery Lindgren",
+  "platform": "We must repair the dam now to keep power and jobs, while building a siren system and negotiating temporary water-sharing with Ostbrück instead of forced relocation.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to working-class voters by framing relocation as class betrayal and emphasizing immediate job preservation through power stability."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking Cameron's plan by reframing his safety argument as a path that destroys jobs and liberty, while emphasizing that my plan avoids the guaranteed failure of relocation and power loss."
+   },
+   {
+    "round": 3,
+    "text": "I am attacking Cameron's reliance on lawsuits and forced relocation as unrealistic and destructive to local livelihoods while emphasizing that my immediate repair plan preserves jobs and avoids court delays."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-REA",
+  "style": "TEC",
+  "ideology": "REA",
+  "name": "Cameron Holt",
+  "platform": "We must immediately relocate the Riverside district and permanently lower the reservoir to thirty percent while securing a binding legal settlement with Ostbrück.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Frame relocation as an unavoidable emergency measure to preemptively counter any opponent arguing for waiting or cheaper fixes that ignore the death toll risk."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking their reliance on Ostbrück's cooperation as a fatal flaw given the current winter melt conditions."
+   },
+   {
+    "round": 3,
+    "text": "I am targeting the voters' fear of an immediate lawsuit failure by emphasizing that Avery's plan offers no real timeline before the melt, effectively forcing a vote against her reliance on Ostbrück's unenforced promises."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Avery Lindgren",
+   "type": "POP-LIB",
+   "speech": "Look at the family eating dinner knowing their home might flood. Look at the worker losing his shift if Nordhalm closes. Cameron wants to move poor people out and kill our power plant. That is not freedom; that is central planning gone wrong. We cannot spend €340 million or freeze property values. But we can't ignore the danger either. My plan fixes the breach immediately, keeps hydro power flowing to pay for free buses, and buys time to negotiate fair terms with Ostbrück without court battles. We warn people with sirens so they escape if needed. Let ordinary folks choose their future, not experts hiding behind expensive relocations. Vote for common sense over elite schemes.",
+   "words": 115
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Cameron Holt",
+   "type": "TEC-REA",
+   "speech": "The math is simple. The dam fails one in twenty-five springs; full capacity kills fourteen thousand lives. We cannot gamble on grants that freeze property values or sue from Ostbrück who refuse consent. Relocation and lowering costs two hundred ten million but saves the town from a guaranteed catastrophe next spring. Keeping the water high risks Nordhalm closing, but the alternative is drowning. The utility profits vanish if we lower levels, yet those funds currently pay free buses. I propose a hard choice: move Riverside now, sue for Ostbrück's consent if needed, and accept the power loss to prevent mass death. We prepare for the worst case because the dam will fail eventually, so we secure our side before the snow melts.",
+   "words": 122
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Avery Lindgren",
+   "type": "POP-LIB",
+   "speech": "Cameron, you trade security for chaos. You want to kill Nordhalm's jobs and freeze property values just to chase a government grant that demands we ban families from their own homes? That is not protection; that is punishment. Relocation failed in 2014 because it broke hearts and emptied our shops. We will not do it again. Our plan stops the leak right now, keeping power flowing for free buses and factory lights. It buys us time to talk to Ostbrück fairly, avoiding a lawsuit that delays everything. Why gamble on a total power shutdown when we can fix this breach and keep everyone working? Choose life over fear, jobs over grants, and freedom over forced displacement. Vote to act fast without destroying our town.",
+   "words": 124
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Cameron Holt",
+   "type": "TEC-REA",
+   "speech": "Your proposal to fix the leak while keeping the reservoir full is a gamble with fourteen thousand lives. You admit Ostbrück refuses consent, yet your plan relies on their goodwill and avoiding court battles. That delay means we drown before the snow melts. Freezing property values does not create chaos; it secures insurance for our relocation project. Relocation in 2014 failed because families were asked to leave without a permanent safety guarantee. Now, we offer a binding settlement: lower levels permanently so Riverside is safe forever, then use the government grant to fund the move. Without that grant and permanent lowering, insurers will drop us, making any repair futile when the dam cracks next spring. We must act now or face the certainty of disaster.",
+   "words": 125
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Avery Lindgren",
+   "type": "POP-LIB",
+   "speech": "Cameron wants us to gamble our lives on a lawsuit we cannot win. He asks us to shut down Nordhalm's factory and freeze home values just to chase a grant that requires breaking our own rules. That is not safety; that is surrender to fear. His plan destroys the jobs that keep this valley warm today while promising a disaster next spring. We already know relocation fails because people refuse to leave their homes without guarantees. My plan fixes the breach immediately, keeps power flowing for free buses and factory lights, and buys us real time to negotiate with Ostbrück before we drown in court costs. Do not let elites decide your future by cutting the lights or breaking the law. Fix the dam tonight, keep our freedom tomorrow, and vote for Avery Lindgren.",
+   "words": 134
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Cameron Holt",
+   "type": "TEC-REA",
+   "speech": "Avery's plan relies on goodwill from Ostbrück who have refused consent, and on a court order we might not get before the snow melts. You fix the leak but keep sixteen thousand cubic meters of lethal water behind a failing wall while insurers abandon us next year. Lowering to thirty percent does not solve everything; it forces a rebuild within fifteen years anyway. The trade-off is brutal: permanent power loss and relocation costs versus certain catastrophe if the dam cracks. Your 'fix' buys time only until the inevitable failure or a court block that leaves us dead in the water. We must accept the grant, freeze those property values to fund the move, sue for our rights, and relocate Riverside now. Do not gamble fourteen thousand lives on negotiations that will fail when the spring run-off hits. Vote for survival over false hope.",
+   "words": 143
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery wants to fix breach, keep power, avoid relocation; Cameron insists on lowering water/moving people despite power loss. Both cite immediate spring melt risk.",
+     "problem": "Valmora must choose between risky business-as-usual or drastic measures (lowering water/relocation) before the snow melts, balancing flood safety against economic collapse.",
+     "onA": "His plan prioritizes keeping hydro power and avoiding displacement, but ignores that fixing the breach only buys a short time while the fundamental risk of failure remains high.",
+     "onB": "He correctly identifies that delaying action until we can sue or negotiate grants is too risky given the 1-in-25 failure chance and record snowpack.",
+     "lean": "Cameron Holt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am moved by the immediacy of the spring melt and the fact that Avery's 'fix' does not address the statistical certainty of a major flood if the dam fails.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery trades safety for jobs but ignores legal block on lowering; Cameron argues delay guarantees death and insurers will drop us.",
+     "problem": "We must balance immediate physical survival against the economic collapse that permanent mitigation or relocation would cause, while fighting legal deadlines.",
+     "onA": "His plan preserves short-term economy but fails to address the 1-in-25 failure risk or the fact that Ostbrück will legally block our only viable fix.",
+     "onB": "He correctly identifies that relying on a hostile neighbor's goodwill while snowpack is 20% high is a fatal gamble with fourteen thousand lives.",
+     "lean": "Cameron Holt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I realize that Avery's 'fix' only buys time we don't have, whereas Cameron's acceptance of economic pain to save lives is the only rational choice given the snowpack and legal constraints.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Avery trades jobs and safety for a legal gamble on grants; Cameron accepts economic pain to avoid certain catastrophe with high snowpack.",
+     "problem": "Valmora must choose between an economically viable but physically risky status quo or drastic mitigation that guarantees economic disruption to save lives.",
+     "onA": "His plan ignores the immediate physical reality of a failing dam and a 20% above-average snowpack, betting on legal victories that will not come in time.",
+     "onB": "While his economic costs are brutal, he correctly identifies that relying on negotiations or court orders leaves us dead if the dam cracks during the melt.",
+     "lean": "Cameron Holt",
+     "firmness": "vote",
+     "vote": "Cameron Holt",
+     "why": "I must choose between a guaranteed probability of mass death or accepting severe economic hardship to ensure survival before the snow melts.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery: fix breach, keep power, sirens, reject relocation. Cameron: move Riverside, lower water, accept power loss, sue for consent.",
+     "problem": "Prevent a catastrophic dam failure next spring while balancing the immediate costs of safety measures against long-term economic losses from power cuts and property freezes.",
+     "onA": "Prioritizes avoiding immediate mass death by fixing the breach but risks ignoring the high probability of total failure if reservoir levels remain too high with insufficient spillway capacity.",
+     "onB": "Accepts immediate pain (power loss, relocation) to drastically reduce failure risk, though the plan relies on legally uncertain court battles for Ostbrück's consent that could block work in weeks.",
+     "lean": "Cameron Holt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The threat of flooding 14,000 people and schools outweighs the economic impact of losing hydro power or freezing property values, making immediate risk reduction necessary.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery keeps power/jobs but risks total failure; Cameron accepts immediate economic pain for safety. Avery dismisses relocation as heartless; Cameron argues relocation needs permanent safety guarantees.",
+     "problem": "We must stop an imminent catastrophic flood before spring melt while deciding whether to accept immediate economic collapse or gamble on fixing a leak in a failing dam that could still burst.",
+     "onA": "Avery's plan preserves our economy and jobs but dangerously ignores the high statistical probability of the dam failing with a full reservoir next spring.",
+     "onB": "Cameron correctly identifies that relying on Ostbrück's goodwill is a fatal gamble, but their reliance on a permanent court battle to lower water levels risks total paralysis before we can act.",
+     "lean": "Avery Lindgren",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Despite the severe risk of dam failure, I am hesitant to vote for Cameron's plan because the legal uncertainty regarding Ostbrück's consent could block any safety work before the snow melts.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Avery: 'Fix tonight, negotiate tomorrow' ignores imminent statistical failure. Cameron: Lawsuit risk is high but catastrophic flood is certain without lowering water.",
+     "problem": "Prevent a near-certain dam failure within months by drastically reducing reservoir levels, accepting immediate economic pain and legal battles as the only viable path to survival.",
+     "onA": "Avery's plan prioritizes short-term economic stability over the statistical reality that a full reservoir behind a leaking dam is likely to fail next spring.",
+     "onB": "Cameron correctly identifies that relying on Ostbrück's goodwill or a quick court win is a fatal gamble when fourteen thousand lives are at risk immediately.",
+     "lean": "Cameron Holt",
+     "firmness": "vote",
+     "vote": "Cameron Holt",
+     "why": "The probability of the dam bursting with a full reservoir next spring makes Avery's 'fix and wait' strategy unacceptable, forcing us to accept the brutal trade-off of power loss and relocation now.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery: Fix breach, keep power, sirens. Cameron: Relocate Riverside, lower reservoir, accept power loss.",
+     "problem": "The core problem is choosing between immediate survival measures that cost billions or risk catastrophe versus accepting partial economic losses to mitigate a high probability of dam failure.",
+     "onA": "Avery's plan prioritizes keeping the economy running and avoiding displacement, but it leaves the town vulnerable if the dam fails despite repairs.",
+     "onB": "Cameron's plan prioritizes life safety by removing people from harm's way and reducing water levels, but it accepts significant economic pain including power loss.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between the immediate economic and social benefits Avery describes versus the existential risk Cameron highlights if the dam fails.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery claims relocation failed and costs too much; Cameron argues permanent lowering + grant is the only way to guarantee safety against insurer dropouts.",
+     "problem": "The core conflict is balancing immediate economic stability through repairs against long-term survival risks caused by legal blockades and insurance withdrawals.",
+     "onA": "Avery's refusal to lower the dam ignores the court-blockage risk and insurer withdrawal, making their 'fix' potentially futile when the next spring arrives.",
+     "onB": "Cameron correctly identifies that without a permanent solution (lowering + grant), our current budget and insurance coverage will vanish before the dam breaks.",
+     "lean": "Cameron Holt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Avery's reliance on Ostbrück's goodwill is too risky given the explicit lawsuit threat, whereas Cameron's plan addresses the existential timeline of the insurance and legal deadlines.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Avery bets on Ostbrück's goodwill and legal delays; Cameron accepts certain economic pain for survival.",
+     "problem": "We must choose between immediate economic preservation with high failure risk or accepting severe hardship to guarantee safety before the melt.",
+     "onA": "His plan is a desperate gamble on legal delays and neighborly goodwill that explicitly ignores the lawsuit threat and insurer withdrawals.",
+     "onB": "He correctly identifies that our 'fix' is temporary and that we must accept the grant's costs to ensure no one dies next spring.",
+     "lean": "Cameron Holt",
+     "firmness": "vote",
+     "vote": "Cameron Holt",
+     "why": "Given the confirmed legal blockade by Ostbrück and the certainty of insurance withdrawal, Avery's strategy leaves us with zero safety margin during the melt.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery: quick fix sirens, keep power, no relocation. Cameron: lower water, move Riverside, accept power loss.",
+     "problem": "We must prevent a spring flood that would kill thousands without triggering Nordhalm's closure or losing our budget funds.",
+     "onA": "His plan avoids the cost of moving people and keeps hydro profits, but relying on quick fixes ignores the high failure probability if the dam is already seeping heavily.",
+     "onB": "He correctly identifies that keeping the water high risks both lives and a potential mill closure, yet his willingness to lose free buses and force relocation seems harsh for a poorer district.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Avery's desire to keep our power and budget versus Cameron's insistence that the current risk level makes keeping water full untenable.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery: Fix leak now, keep power/jobs, avoid forced moves/grants. Cameron: Full reservoir is a death gamble; lower water permanently to get grant funding and ensure Riverside safety forever.",
+     "problem": "We must decide whether to accept high risk by fixing the dam while keeping water (Avery) or take immediate drastic action like lowering water and losing power to save lives (Cameron).",
+     "onA": "His plan prioritizes jobs and avoids displacement, but I am deeply concerned that 'fixing' a heavily seeping dam isn't enough given the 1 in 25 failure chance.",
+     "onB": "He correctly identifies that relying on Ostbrück's goodwill is fatal, yet his acceptance of losing free buses and factory jobs feels too harsh for a town already struggling.",
+     "lean": "Cameron Holt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The probability of dam failure in five months with above-average snowpack makes Avery's 'quick fix' approach seem irresponsible compared to Cameron's necessity to lower water immediately.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Avery: 'Fix tonight' ignores Ostbrück's legal refusal and lethal leak risk. Cameron: Lowering water is the only immediate survival option despite harsh trade-offs.",
+     "problem": "We must choose between a high-probability catastrophic failure of a seeping dam under snowmelt or accepting severe economic and social costs now to ensure survival.",
+     "onA": "His plan prioritizes jobs and avoids displacement but fundamentally ignores the legal reality that lowering water is required for immediate safety, making his 'fix' a gamble with lives.",
+     "onB": "He correctly identifies that relying on Ostbrück's goodwill or court delays is fatal under current snowpack conditions, even though the social cost of losing power and moving residents is devastating.",
+     "lean": "Cameron Holt",
+     "firmness": "vote",
+     "vote": "Cameron Holt",
+     "why": "With above-average snowpack and a dam already seeping heavily, Avery's refusal to lower the reservoir immediately risks a flood that kills before any negotiation can succeed. The cost of inaction is extinction for Riverside; we must accept the harsh economic reality now to survive.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery prioritizes avoiding cost and keeping power; Cameron insists on safety via relocation/suing despite costs/power loss.",
+     "problem": "We must decide between risky status quo with partial mitigation or expensive, disruptive safety measures that may fail legally or financially before the spring melt.",
+     "onA": "Her plan avoids immediate financial hits and keeps utility profits, but ignoring a 1-in-25 failure probability seems reckless given the 14,000 lives at stake.",
+     "onB": "His focus on life safety is morally right, but his willingness to lose hydro power and sue Ostbrück ignores severe economic collapse risks for the town.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers highlight valid concerns—Avery regarding economic survival and Cameron regarding human life—but neither fully addresses the immediate legal blockage from Ostbrück or the speed required before spring melt.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery claims fixing leak + keeping power is better; Cameron argues permanent lowering + grant is only way to survive insurers + legal delays.",
+     "problem": "We must choose between a financially safe but legally precarious repair that keeps risk, or a costly but safer structural fix that threatens immediate economic collapse unless we accept the insurer-driven necessity of lowering the dam.",
+     "onA": "Her plan avoids immediate pain but ignores the hard truth that insurers will drop us next year anyway, making her 'fix' futile once the dam cracks.",
+     "onB": "He correctly identifies that insurance withdrawal and legal delays make maintaining a full reservoir impossible, yet his solution risks total economic suicide without a guaranteed buyer for our power.",
+     "lean": "Cameron Holt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am convinced that ignoring the insurer threat is negligent, but I remain unsure how Cameron can possibly survive the Nordhalm closure and property freeze long enough to save lives.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Avery relies on goodwill and ignores insurer withdrawal; Cameron accepts economic pain for survival.",
+     "problem": "We must choose between a financially stable but legally precarious status quo that risks catastrophic failure, or a disruptive plan that guarantees safety by accepting immediate economic collapse to save lives.",
+     "onA": "Her plan is economically sound but morally negligent given the imminent threat of insurer withdrawal and legal blockage that she refuses to address.",
+     "onB": "He correctly identifies the lethal risk of ignoring insurers and legal deadlines, even if his solution causes severe short-term economic damage.",
+     "lean": "Cameron Holt",
+     "firmness": "vote",
+     "vote": "Cameron Holt",
+     "why": "Saving 14,000 lives is non-negotiable, and relying on an impossible court order or Ostbrück's goodwill while insurers abandon us next year is a gamble we cannot afford.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 2,
+   "U": 3
+  },
+  {
+   "A": 1,
+   "B": 4,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "TEC-REA",
+ "tokens": {
+  "in": 34631,
+  "out": 4379,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 575363001,
+   "attempts": 1,
+   "tokensIn": 1300,
+   "tokensOut": 220,
+   "ms": 6277
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 575363002,
+   "attempts": 1,
+   "tokensIn": 1396,
+   "tokensOut": 214,
+   "ms": 6009
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 575363003,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 220,
+   "ms": 6515
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 575363004,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 221,
+   "ms": 5306
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 575363005,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 191,
+   "ms": 4611
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 575363006,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 201,
+   "ms": 4888
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 575363007,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 211,
+   "ms": 5077
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 575363008,
+   "attempts": 1,
+   "tokensIn": 1644,
+   "tokensOut": 203,
+   "ms": 5922
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 575363009,
+   "attempts": 1,
+   "tokensIn": 1788,
+   "tokensOut": 187,
+   "ms": 5644
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 575363010,
+   "attempts": 1,
+   "tokensIn": 1632,
+   "tokensOut": 208,
+   "ms": 6044
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 575363011,
+   "attempts": 1,
+   "tokensIn": 1632,
+   "tokensOut": 228,
+   "ms": 5783
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 575363012,
+   "attempts": 1,
+   "tokensIn": 1601,
+   "tokensOut": 204,
+   "ms": 5555
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 575363013,
+   "attempts": 1,
+   "tokensIn": 1613,
+   "tokensOut": 241,
+   "ms": 6065
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 575363014,
+   "attempts": 1,
+   "tokensIn": 1623,
+   "tokensOut": 219,
+   "ms": 5970
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 575363015,
+   "attempts": 1,
+   "tokensIn": 1978,
+   "tokensOut": 201,
+   "ms": 5959
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 575363016,
+   "attempts": 1,
+   "tokensIn": 2124,
+   "tokensOut": 225,
+   "ms": 6554
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 575363017,
+   "attempts": 1,
+   "tokensIn": 1833,
+   "tokensOut": 183,
+   "ms": 5597
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 575363018,
+   "attempts": 1,
+   "tokensIn": 1851,
+   "tokensOut": 207,
+   "ms": 6110
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 575363019,
+   "attempts": 1,
+   "tokensIn": 1795,
+   "tokensOut": 170,
+   "ms": 4831
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 575363020,
+   "attempts": 1,
+   "tokensIn": 1846,
+   "tokensOut": 237,
+   "ms": 6464
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 575363021,
+   "attempts": 1,
+   "tokensIn": 1835,
+   "tokensOut": 188,
+   "ms": 5674
+  }
+ ],
+ "startedAt": "2026-11-05T04:31:28.329Z",
+ "seconds": 121
+}

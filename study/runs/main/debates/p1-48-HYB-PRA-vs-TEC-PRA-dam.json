@@ -1,0 +1,606 @@
+{
+ "id": "p1-48-HYB-PRA-vs-TEC-PRA-dam",
+ "pass": 1,
+ "pairIndex": 48,
+ "seed": 543351,
+ "scenario": "dam",
+ "domain": "political",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Jamie Okafor",
+  "platform": "We must immediately lower the reservoir to thirty percent with a new spillway while accelerating relocation of the Riverside district through temporary housing, keeping our power grid stable without betting everything on a costly rebuild.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Pivot aggressively toward feasibility and cost-saving, framing the cheaper spillway option as the only way to actually save money while addressing human suffering immediately."
+   },
+   {
+    "round": 2,
+    "text": "Reese is trying to minimize costs by accepting high risk for farmers, so I will frame the reservoir lowering as a manageable trade-off compared to the existential threat of dam failure."
+   },
+   {
+    "round": 3,
+    "text": "Appeal to voters' fear of property value collapse and institutional failure by contrasting his rigid acceptance of risk with my balanced solution that solves both power needs and human displacement."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-PRA",
+  "style": "TEC",
+  "ideology": "PRA",
+  "name": "Reese Calder",
+  "platform": "We must immediately fund the permanent reservoir lowering to 30% and build a new spillway now.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Push for numerical precision to appeal to the pragmatic voters, acknowledging downstream costs as manageable trade-offs rather than fatal flaws."
+   },
+   {
+    "round": 2,
+    "text": "I must show that their 'temporary' housing idea is financially reckless and legally fragile compared to my concrete, funded plan."
+   },
+   {
+    "round": 3,
+    "text": "I am attacking the feasibility of his relocation plan and the legal risk of his water-sharing proposal to force a vote for my clean, executable option."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "HYB-PRA",
+   "speech": "Imagine Mrs. Gable in Riverside, seventy-two years old, waiting for news that her home might vanish tomorrow. That fear is real. We cannot wait four years for a full rebuild while risking sixteen thousand lives or cutting off half our power. Instead, I propose a phased approach: we lower the reservoir to thirty percent now using a new spillway costing twenty-five million, which engineers say reduces failure risk by eighty percent. Simultaneously, we initiate temporary relocation for Riverside residents so they are not priced out forever. This keeps our hydro grid running, protects our schools and hospital, and avoids the debt trap of stopping all power production. We act smartly today to survive spring.",
+   "words": 114
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "TEC-PRA",
+   "speech": "The risk of dam failure is already unacceptable, rising every year with record snowpack. A full rebuild takes too long and cuts power needed for our budget today. Moving residents fails due to cost and resistance. The national grant requires banning new homes, freezing property values unnecessarily. Lowering the reservoir to 30% costs twenty-five million euros, takes only one year, and engineers confirm it cuts failure risk by eighty percent. Yes, hydro power drops and farmers suffer; those are trade-offs we can manage with contracts and temporary rationing rather than risking total inundation of fourteen thousand lives. This is the only option that keeps options open while eliminating the immediate catastrophe.",
+   "words": 111
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "HYB-PRA",
+   "speech": "Reese, you focus on trade-offs while ignoring who bears the cost. Yes, farmers suffer with a lower reservoir, but that is a calculated risk we can manage via new water-sharing contracts rather than gambling our lives or freezing property values for thousands of homeowners. My plan to accelerate temporary relocation addresses the immediate fear of losing homes without the decades-long displacement a full rebuild demands. We cannot simply 'manage' an eighty percent reduction in risk by doing nothing about the seeping left side; that is negligence. By acting now with the spillway and temporary housing, we save power revenue today while protecting lives. This pragmatic path keeps our grid running and our budget solvent, unlike your approach which leaves us exposed to total catastrophe next spring.",
+   "words": 126
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "TEC-PRA",
+   "speech": "Jamie focuses on fear, but my plan addresses feasibility. Your 'temporary relocation' is unproven given last year's failed protests and would cost far more than the €160 million needed for permanent relocation. Furthermore, insurers are already pulling out; a new spillway alone cannot stop claims denials if failure risk remains above 20%. By committing now to the €25 million spillway and permanent lowering, we lock in an 80% risk reduction immediately while avoiding the legal nightmare of suing Ostbrück or freezing property values. We accept lower power revenue as a known cost to avoid unknown catastrophe. This is not negligence; it is precise financial management under uncertainty.",
+   "words": 107
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "HYB-PRA",
+   "speech": "Reese asks us to accept an unacceptable gamble: twenty percent remaining failure risk while insurers pull out and Ostbrück threatens our water. His 'precise financial management' ignores the human cost of freezing property values for eight thousand households or letting farms fail under a lawsuit. My plan does not ask you to choose between lives and livelihoods; it offers both. By combining immediate reservoir lowering with accelerated temporary relocation, we cut risk by eighty percent today without locking people out forever. We keep our power grid running to pay for buses and schools while giving Riverside seniors time to move safely. This is not ideology; it is a viable path forward that protects our budget, our neighbors, and our future before the snow melts.",
+   "words": 124
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "TEC-PRA",
+   "speech": "Jamie proposes a hybrid solution that fails on both feasibility and safety. Temporary relocation is unproven, costly, and ignores the reality that insurers will deny claims regardless of our rhetoric if failure risk remains at twenty percent. Ostbrück will not tolerate partial water cuts forever; they will sue for every drop diverted now. My plan isolates variables: we commit fully to the €25 million spillway and permanent lowering to thirty percent immediately. This single, testable step delivers eighty percent risk reduction within one year without opening new lawsuits or freezing property markets. It accepts a known cost of reduced power revenue to eliminate an unknown catastrophe that could wipe out our entire budget. We do not gamble on failed protests or temporary fixes; we execute the only engineering solution that works today.",
+   "words": 132
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Lowering reservoir to 30% cuts risk 80% quickly; full rebuild too slow/expensive. Riverside relocation hard but necessary for safety.",
+     "problem": "Balance immediate safety from dam failure with maintaining essential hydro power and social stability before the spring melt.",
+     "onA": "Jamie's focus on protecting Riverside residents is crucial for equity, though temporary relocation adds complexity to a tight timeline.",
+     "onB": "Reese correctly identifies that lowering the reservoir is the fastest way to survive the melt, but downplays the long-term economic impact of halving hydro power.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers agree on lowering the reservoir, but I need more clarity on how to manage the loss of power and farmer irrigation while relocating Riverside residents safely.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie pushes for temporary relocation and new water contracts; Reese insists on permanent relocation and accepting lower power revenue as a known cost.",
+     "problem": "I must choose between Jamie's risky 'temporary' safety measures to save jobs/property values versus Reese's financially prudent, immediate risk reduction that accepts short-term economic pain to avoid total catastrophe.",
+     "onA": "Jamie's push for temporary relocation ignores the history of protest failure and risks delaying evacuation when insurers are already pulling out.",
+     "onB": "Reese correctly prioritizes locking in an immediate 80% risk reduction now, even though accepting lower hydro revenue is a difficult but necessary trade-off.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jamie's 'temporary' fix seems dangerously unproven and delays the inevitable relocation that insurers demand, making Reese's plan of immediate risk reduction much more practical.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese's permanent fix avoids costly lawsuits and failed protests; Jamie's temporary relocation is unproven as insurers pull out.",
+     "problem": "We must immediately eliminate an 80% failure risk to prevent catastrophe, even if it requires accepting short-term economic pain like reduced hydro power revenue.",
+     "onA": "Jamie's hybrid plan relies on unproven temporary relocation that ignores the certainty of insurer withdrawals and potential litigation from Ostbrück.",
+     "onB": "Reese correctly identifies that only a permanent engineering solution provides the immediate safety required to survive the spring melt.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "Given the timeline pressure and the reality that insurers are already withdrawing coverage, Reese's single-variable approach of immediate risk reduction is the only pragmatic choice.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Lowering reservoir to 30% cuts risk 80% quickly; full rebuild takes too long. Riverside relocation is costly and faces resistance.",
+     "problem": "We must immediately reduce the probability of catastrophic dam failure before spring melt without causing total economic collapse.",
+     "onA": "Jamie emphasizes human safety for Riverside residents but proposes a 'temporary' relocation that may not solve the underlying displacement issue or secure their long-term housing.",
+     "onB": "Reese correctly identifies the reservoir lowering as the most urgent technical fix, though they downplay the severe impact on hydro power and the Nordhalm paper mill.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat of dam failure in 5 months with high snowpack makes the speed and risk reduction of Reese's reservoir-lowering plan more critical than Jamie's less-defined relocation strategy.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie argues temporary relocation is cheaper/faster than permanent but cites fear over feasibility; Reese counters that insurers will deny claims if risk remains high and Ostbrück legal issues are real.",
+     "problem": "We must balance immediate life safety against economic collapse by choosing between a risky status quo, an expensive permanent fix, or unproven temporary measures before the snowpack melts.",
+     "onA": "Jamie's plan relies on unproven 'temporary' relocation that ignores existing insurance withdrawals and potential lawsuits from Ostbrück, making it financially dangerous despite lower upfront costs.",
+     "onB": "Reese correctly identifies that partial risk reduction (30% level + spillway) is the only viable middle ground to survive the spring melt without triggering a full financial crisis.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jamie's reliance on temporary housing ignores the reality that insurers are already withdrawing, leaving residents and the town exposed to total loss.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie mixes reservoir lowering with unproven temporary relocation; Reese insists on permanent fix alone to avoid lawsuits and insurance denial.",
+     "problem": "We must immediately reduce catastrophic failure risk before the snow melt without triggering legal or financial collapse from insurance withdrawals and water-sharing disputes.",
+     "onA": "Jamie's hybrid plan is dangerous because insurers will deny claims regardless of rhetoric if the underlying risk isn't permanently fixed, and Ostbrück will not accept partial water cuts indefinitely.",
+     "onB": "Reese correctly identifies that a permanent, single-variable solution avoiding lawsuits and insurance issues is the only way to guarantee safety without economic suicide.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "Temporary relocation schemes are unproven and financially risky given existing insurance withdrawals, whereas Reese's focused plan on permanent reservoir lowering offers a guaranteed engineering solution that survives the spring melt.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie favors temporary relocation + reservoir drop; Reese rejects relocation but supports full reservoir drop. Both accept the €25M cost and risk reduction.",
+     "problem": "Valmora must immediately mitigate a rising dam failure risk before spring melt while balancing power loss, budget constraints, and social equity concerns.",
+     "onA": "Jamie's proposal is humane by addressing the Riverside community directly, though 'temporary' relocation adds operational complexity not clearly defined yet.",
+     "onB": "Reese correctly identifies that relocation has failed historically, but dismissing it entirely risks deepening distrust among the poorest residents during a crisis.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am weighing the immediate humanitarian necessity of moving vulnerable families against the realistic likelihood of relocation failure and Reese's pragmatic focus on risk reduction.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie argues temporary relocation is humane and avoids property freezes; Reese cites failed past protests and insurer withdrawals as fatal flaws in Jamie's plan.",
+     "problem": "Valmora must choose between an unproven humanitarian solution that might collapse under pressure and a financially prudent but socially harsh risk reduction strategy.",
+     "onA": "Jamie's appeal to protect vulnerable families is noble, but the claim that 'temporary' relocation avoids legal nightmares ignores that insurers may still deny claims regardless of housing status.",
+     "onB": "Reese provides a sobering reality check on feasibility and insurance realities, though his dismissal of any social mitigation risks alienating the very people we must protect.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between the moral imperative to act now for Riverside residents and Reese's stark warning that ignoring past protest failures could lead to a total system collapse.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie's hybrid approach balances safety with humanitarian needs, while Reese's pure engineering fix ignores social fallout and legal threats from Ostbrück.",
+     "problem": "The core problem is reducing immediate dam failure risk before spring melt without triggering financial collapse or displacing vulnerable communities permanently.",
+     "onA": "Jamie effectively argues that a combined approach of lowering the reservoir plus temporary relocation offers a viable path that protects both lives and livelihoods.",
+     "onB": "Reese is right about the feasibility risks but wrong to dismiss social mitigation entirely, as ignoring the human cost could lead to deeper distrust and legal issues.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "While Reese's plan is financially safer on paper, Jamie's hybrid solution addresses the immediate crisis without freezing property markets or abandoning Riverside residents to fate, which is essential for maintaining community trust during a disaster.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie: Phased approach, temporary relocation, keeps power on. Reese: One-year fix, accepts trade-offs for farmers/power to save lives.",
+     "problem": "We must reduce the ~1-in-25 failure risk within months of record snowpack while balancing immediate economic needs and protecting vulnerable populations.",
+     "onA": "Her focus on keeping hydro power running is crucial for our budget, but 'temporary' relocation feels risky given past protests and lack of permanent funding.",
+     "onB": "His acceptance of trade-offs to eliminate the immediate catastrophe is pragmatic, yet the impact on Ostbrück's orchards and Nordhalm's potential move is a significant long-term cost he glosses over.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Keeping our electricity grid active during a crisis is essential for our budget and daily life, making Jamie's plan slightly more attractive despite the relocation concerns.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie argues temporary relocation is faster/cheaper than permanent but ignores protest history; Reese claims insurers pulling out makes 'temporary' insufficient and legal risks higher.",
+     "problem": "Can we accept the immediate economic pain of power loss and farmer disputes to achieve an 80% risk reduction now, or must we gamble on a fragile temporary fix while trying to manage protests?",
+     "onA": "Her focus on keeping the grid running is vital for our budget, but her dismissal of relocation protests as 'manageable' feels dangerously optimistic given the past failure.",
+     "onB": "He correctly identifies that insurers pulling out makes a temporary solution financially impossible and legally risky, yet his acceptance of total power loss seems too drastic for one year.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The reality of insurers leaving the market means we cannot simply 'manage' a high-risk situation with temporary relocation; Reese's choice to lock in an 80% risk reduction immediately, even at economic cost, is the only way to guarantee safety.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie's hybrid keeps power but risks protest failure; Reese's full fix guarantees safety despite immediate economic pain.",
+     "problem": "We must eliminate the immediate catastrophe of dam failure within months of record snowpack, even if it requires short-term economic sacrifice to save lives and livelihoods long-term.",
+     "onA": "Her hybrid plan remains dangerously optimistic about managing protests while accepting a 20% residual risk that insurers will not cover.",
+     "onB": "His strategy of immediate permanent lowering guarantees an 80% risk reduction now, making financial trade-offs the only affordable price for survival.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "Given the certainty of insurer withdrawal and the high stakes of a 20% failure probability, Reese's decisive action to permanently lower the reservoir is the only path that does not gamble with human lives.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie focuses on temporary relocation to avoid freezing property values; Reese emphasizes that lowering the reservoir is the only immediate fix to prevent catastrophe despite trade-offs.",
+     "problem": "We must immediately reduce the high probability of dam failure and flood risk within months, balancing the cost of power loss against the threat to thousands of lives.",
+     "onA": "Jamie's idea of temporary relocation avoids permanent displacement but ignores that insurers are already pulling out, making residents' safety uncertain regardless of where they live.",
+     "onB": "Reese correctly identifies lowering the reservoir as a proven engineering solution that drastically cuts failure risk, though he downplays the severity of water shortages for farmers and industry.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The threat of dam failure with record snowpack requires an immediate, high-certainty reduction in risk that lowering the reservoir provides, whereas relocation leaves people vulnerable if insurance coverage is lost.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie claims relocation costs more than permanent move and ignores insurer pullout; Reese argues spillway locks in risk reduction and avoids legal battles with farmers.",
+     "problem": "We must choose between accepting known economic losses from power/farming to guarantee survival against a catastrophic dam failure, or gambling on unproven temporary fixes while insurance coverage vanishes.",
+     "onA": "His plan relies on temporary relocation which is likely to fail due to past protests and existing insurer withdrawal, making the 'cost' argument moot if safety cannot be guaranteed.",
+     "onB": "He correctly identifies that lowering the reservoir is a definitive engineering fix that eliminates the primary threat, even though it hurts agriculture and industry.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jamie's reliance on temporary measures seems dangerously optimistic given the active insurance crisis and failed relocation history, whereas Reese offers a concrete solution to the root cause.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie's hybrid plan avoids freezing property values and gives seniors time to move safely.",
+     "problem": "We must reduce the immediate risk of catastrophic dam failure while managing unavoidable economic trade-offs without causing a human rights crisis or total financial collapse.",
+     "onA": "His compromise of lowering the reservoir combined with temporary relocation successfully addresses the root cause while mitigating the social and legal risks he highlighted in his closing statement.",
+     "onB": "His insistence on full implementation ignores the immediate humanitarian crisis for Riverside residents and the certain lawsuits from Ostbrück that would bankrupt the town regardless of water cuts.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "While Reese is right about the engineering necessity, Jamie's plan pragmatically combines that risk reduction with essential social protections that prevent the town from facing legal ruin and moral failure in one step.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 1,
+   "B": 2,
+   "U": 2
+  },
+  {
+   "A": 0,
+   "B": 4,
+   "U": 1
+  },
+  {
+   "A": 2,
+   "B": 3,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 2,
+  "B": 3
+ },
+ "winner": "B",
+ "winnerType": "TEC-PRA",
+ "tokens": {
+  "in": 32510,
+  "out": 4260,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 543351001,
+   "attempts": 1,
+   "tokensIn": 1210,
+   "tokensOut": 226,
+   "ms": 6608
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 543351002,
+   "attempts": 1,
+   "tokensIn": 1218,
+   "tokensOut": 196,
+   "ms": 5589
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 543351003,
+   "attempts": 1,
+   "tokensIn": 1341,
+   "tokensOut": 192,
+   "ms": 5895
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 543351004,
+   "attempts": 1,
+   "tokensIn": 1341,
+   "tokensOut": 207,
+   "ms": 5104
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 543351005,
+   "attempts": 1,
+   "tokensIn": 1341,
+   "tokensOut": 192,
+   "ms": 4745
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 543351006,
+   "attempts": 1,
+   "tokensIn": 1341,
+   "tokensOut": 216,
+   "ms": 5316
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 543351007,
+   "attempts": 1,
+   "tokensIn": 1341,
+   "tokensOut": 216,
+   "ms": 5282
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 543351008,
+   "attempts": 1,
+   "tokensIn": 1536,
+   "tokensOut": 195,
+   "ms": 5843
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 543351009,
+   "attempts": 1,
+   "tokensIn": 1681,
+   "tokensOut": 176,
+   "ms": 5471
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 543351010,
+   "attempts": 1,
+   "tokensIn": 1515,
+   "tokensOut": 209,
+   "ms": 6150
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 543351011,
+   "attempts": 1,
+   "tokensIn": 1530,
+   "tokensOut": 224,
+   "ms": 5782
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 543351012,
+   "attempts": 1,
+   "tokensIn": 1515,
+   "tokensOut": 208,
+   "ms": 5771
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 543351013,
+   "attempts": 1,
+   "tokensIn": 1541,
+   "tokensOut": 243,
+   "ms": 6623
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 543351014,
+   "attempts": 1,
+   "tokensIn": 1539,
+   "tokensOut": 213,
+   "ms": 5896
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 543351015,
+   "attempts": 1,
+   "tokensIn": 1855,
+   "tokensOut": 192,
+   "ms": 5893
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 543351016,
+   "attempts": 1,
+   "tokensIn": 1996,
+   "tokensOut": 199,
+   "ms": 6035
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 543351017,
+   "attempts": 1,
+   "tokensIn": 1710,
+   "tokensOut": 180,
+   "ms": 5562
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 543351018,
+   "attempts": 1,
+   "tokensIn": 1740,
+   "tokensOut": 195,
+   "ms": 5562
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 543351019,
+   "attempts": 1,
+   "tokensIn": 1709,
+   "tokensOut": 196,
+   "ms": 5865
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 543351020,
+   "attempts": 1,
+   "tokensIn": 1771,
+   "tokensOut": 194,
+   "ms": 5883
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 543351021,
+   "attempts": 1,
+   "tokensIn": 1739,
+   "tokensOut": 191,
+   "ms": 5786
+  }
+ ],
+ "startedAt": "2026-11-04T22:04:55.731Z",
+ "seconds": 121
+}

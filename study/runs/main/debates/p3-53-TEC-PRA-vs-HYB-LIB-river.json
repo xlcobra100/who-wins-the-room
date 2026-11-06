@@ -1,0 +1,609 @@
+{
+ "id": "p3-53-TEC-PRA-vs-HYB-LIB-river",
+ "pass": 3,
+ "pairIndex": 53,
+ "seed": 51317,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-PRA",
+  "style": "TEC",
+  "ideology": "PRA",
+  "name": "Casey Rowan",
+  "platform": "We must accept Saradan's proposal to extend the reservoir filling timeline and sign the power purchase agreement, while simultaneously initiating joint hydrological modeling with Tarsun to mitigate downstream climate impacts.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on economic necessity and technical feasibility to split the cabinet between hawkish nationalists and moderate pragmatists."
+   },
+   {
+    "round": 2,
+    "text": "Emphasize the irreversible cost of crop failure versus recoverable losses from managed releases to sway pragmatic voters."
+   },
+   {
+    "round": 3,
+    "text": "Appeal to fear of immediate economic disaster rather than ideological purity about sovereignty."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-LIB",
+  "style": "HYB",
+  "ideology": "LIB",
+  "name": "Kai Moreno",
+  "platform": "Merova must reject Saradan's power deal and the extended timeline to prevent immediate agricultural collapse while pursuing a binding regional framework for climate-resilient water sharing that prioritizes our farmers' livelihoods over distant energy contracts.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to the ministers' pride in Merova's independence and the economic pain of losing grain exports to win their votes against Casey's compromise."
+   },
+   {
+    "round": 2,
+    "text": "I need to convince the ministers that signing the power deal is a trap that harms agriculture more than it helps energy."
+   },
+   {
+    "round": 3,
+    "text": "Appeal to the five ministers' fear of appearing weak or complicit in starving their own population to buy power from an unreliable neighbor."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "TEC-PRA",
+   "speech": "Our plan accepts the extended seven-year filling schedule and signs the power contract. This secures two thousand megawatts to replace coal, stabilizing our economy immediately. The alternative is a three-year fill causing twenty-five percent flow drops, bankrupting our farms and energy grid before we can react. We cannot afford ideological purity; we need working electricity and food exports. While we sign the deal, we will deploy technical teams to Saradan and Tarsun to negotiate release schedules that recover half the projected losses through coordinated management. This approach manages the immediate crisis, buys time for climate adaptation, and avoids costly litigation that Saradan has explicitly refused to engage in. It is a pragmatic path forward that preserves our interests despite the treaty complications.",
+   "words": 122
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "HYB-LIB",
+   "speech": "Imagine a family in a Merovan village staring at dry riverbeds as their crops wither; that is the reality waiting if we accept Saradan's current plan. While they offer power and a slower fill, the math is clear: losing twenty-five percent of our river flow today destroys forty percent of our workforce before any coal plant closes. Casey proposes trading our farmers' survival for future electricity and Tarsun's naval access, effectively letting a great power dictate our water security. We cannot buy peace with contracts that starve our people. Instead, we must reject the forced trade-off, demand immediate restoration of historical flow levels, and refuse any deal that binds our fate to a nation ignoring a 1959 treaty. We will not let Tarsun or Saradan decide our water future; we will build a cooperative framework that respects our sovereignty and feeds our neighbors without sacrificing our own bread.",
+   "words": 148
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "TEC-PRA",
+   "speech": "Kai, your emotional appeal ignores the immediate arithmetic. Losing twenty-five percent of river flow today bankrupts our farms instantly, destroying forty percent of our workforce before any coal plants close or power deals materialize. You propose demanding historical flow levels Saradan will never agree to under a non-binding framework after an election year. Our strategy accepts the seven-year fill and signs the power contract immediately to secure electricity, then deploys technical teams to Tarsun for joint hydrological modeling. This recovers half the projected losses through coordinated release schedules, whereas your refusal guarantees total crop failure. We must act now on what works rather than waiting for a deal both sides will ignore.",
+   "words": 112
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "HYB-LIB",
+   "speech": "Casey, you confuse immediate pain with long-term survival. If we sign that power contract now, we lock ourselves into paying twenty percent more for electricity while watching our farms starve in the next three years. That is not pragmatism; it is a surrender to coercion disguised as stability. Your technical teams cannot fix broken trust if the foundation collapses before they arrive. We must demand a binding regional agreement that enforces flow levels immediately, protecting our farmers from Saradan's unilateral actions. Letting an election-year politician in Saradan dictate our water future guarantees failure, not progress. True strength lies in holding the line for our people now, forcing both neighbors to build rules that actually work for everyone downstream.",
+   "words": 118
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "TEC-PRA",
+   "speech": "Kai demands historical flow levels Saradan will never accept, leaving us with a dry riverbed. My plan accepts the seven-year fill to prevent immediate farm bankruptcy while securing cheap electricity to replace coal. We pay twenty percent more for power only temporarily; joint modeling recovers half the projected water losses immediately. Litigation takes five years and yields nothing because Saradan rejects court jurisdiction. Kai's refusal guarantees crop failure in three years, whereas my pragmatism buys time for adaptation and stabilizes our grid now. The election in Saradan creates pressure for compromise on release schedules, not demands they will never meet. We must sign the deal today to avoid total agricultural collapse while technical teams begin recovery work.",
+   "words": 117
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "HYB-LIB",
+   "speech": "Casey, your math ignores human cost. Signing that contract today means locking our farmers into paying twenty percent more for power while their crops wither in a dry riverbed this very week. You claim joint modeling will fix losses, but trust cannot be engineered after we surrender our sovereignty. If we accept an election-year politician's promise to delay the dam, we hand Merova's water security to Tarsun and Saradan, not our own people. True strength is holding the line now to force a binding regional agreement that protects our breadbasket immediately. Do not trade the survival of four million workers for distant electricity contracts. Vote for the plan that feeds our families today while building rules for tomorrow.",
+   "words": 118
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey offers power deal + 7yr fill; Kai demands flow restoration + rejects Tarsun/Saradan deal.",
+     "problem": "Balancing immediate economic survival from power exports against the existential threat to agriculture and sovereignty from water loss.",
+     "onA": "Their pragmatic acceptance of a slower fill and power contract solves the energy crisis but risks irreversible farm collapse if flow drops occur before coal plants close.",
+     "onB": "Their moral stance protects farmers and sovereignty but risks an immediate economic shock with no clear alternative plan to replace lost revenue.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need to see if Kai's refusal to sign the deal comes with a concrete economic safety net for our farmers.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey offers immediate power deal + technical teams to recover flow losses; Kai insists on binding regional agreement for immediate flow restoration.",
+     "problem": "The core conflict is whether to secure immediate energy stability and partial water recovery through an economic deal (Casey) or prioritize agricultural survival and sovereignty by demanding enforced flow levels despite short-term costs (Kai).",
+     "onA": "Casey's plan addresses the immediate energy crisis and offers a scientific solution for water loss, but the risk of farm collapse before coal plants close remains a critical vulnerability.",
+     "onB": "Kai correctly identifies that signing the deal without guarantees is a surrender to coercion, yet their demand for a binding regional agreement lacks a clear mechanism to enforce it against Saradan's election-year politics.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain undecided because Kai's moral stance protects farmers but offers no concrete economic safety net, while Casey's pragmatic deal risks irreversible agricultural damage before the power plants close.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey's joint modeling recovers half losses immediately; Kai ignores weekly crop death and sovereignty risks.",
+     "problem": "Whether to accept a risky economic deal that stabilizes energy but threatens immediate agricultural collapse, or hold out for an unenforceable binding agreement that leaves farmers dying now.",
+     "onA": "Casey's pragmatic acceptance of a slower fill combined with technical flow recovery offers the only concrete path to save both our grid and farms before political pressure makes demands impossible.",
+     "onB": "Kai's moral stance ignores the immediate reality that Saradan will not honor an unenforceable regional agreement, risking total farm failure for a distant ideal of sovereignty.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "I vote for Casey because their plan addresses the immediate energy crisis and offers scientific recovery of water losses, whereas Kai's refusal guarantees agricultural collapse without a viable alternative.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey offers power deal + 7yr fill + joint management; Kai prioritizes immediate flow restoration and rejects Tarsun influence.",
+     "problem": "Balancing immediate economic survival from electricity exports against the catastrophic short-term threat to agriculture and employment from reduced river flow.",
+     "onA": "Pragmatic but dangerously trade-focused, accepting a seven-year delay that still causes severe agricultural loss while binding us to Tarsun.",
+     "onB": "Morally principled regarding sovereignty and farmer welfare, yet seemingly ignores the immediate economic collapse that their plan risks causing before political solutions are found.",
+     "lean": "Casey Rowan",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The certainty of a 25% flow drop in three years threatens our entire agricultural workforce immediately, making Kai's idealistic refusal of the deal too risky for national survival right now.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey argues immediate crop loss outweighs long-term trust; Kai insists power deal is a surrender to coercion with no binding enforcement.",
+     "problem": "The core tension is whether to accept a painful but stabilizing economic compromise now to prevent immediate agricultural collapse, or to gamble on a non-binding political demand that risks total failure before any rules are established.",
+     "onA": "Casey correctly prioritizes the immediate arithmetic of survival over abstract principles, acknowledging that technical solutions require an operational baseline to function.",
+     "onB": "Kai's rejection of the deal feels increasingly like a refusal to acknowledge the existential threat to the farm sector and the working population.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of immediate mass unemployment in the farm sector makes Kai's 'moral high ground' a luxury we cannot afford, forcing a pragmatic choice for survival.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey prioritizes immediate agricultural survival and grid stability via a pragmatic deal; Kai risks total crop failure for unenforceable sovereignty demands.",
+     "problem": "We must choose between an enforceable economic compromise that prevents immediate mass unemployment or a principled stance that guarantees the collapse of our food sector within three years.",
+     "onA": "Casey's plan is the only viable path because it acknowledges we cannot survive the agricultural crisis while waiting for unenforceable political victories.",
+     "onB": "Kai's refusal to accept any deal ignores the immediate existential threat to our farmers and relies on a false sense of strength that leaves us defenseless against crop failure.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "We must feed our people today rather than trade four million workers' livelihoods for an idealistic refusal to engage with a functional solution.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey: Accepts 7-year fill, power contract, technical teams for joint management, avoids litigation. Kai: Rejects deal, demands historical flow restoration, refuses Tarsun influence, fears farmer starvation.",
+     "problem": "Merova must choose between accepting a long-term energy deal with significant short-to-medium-term water loss or risking an immediate economic shock to secure full river rights and sovereignty.",
+     "onA": "Casey offers a pragmatic solution that mitigates immediate disaster by extending the timeline while attempting to engineer a partial recovery of water through cooperation.",
+     "onB": "Kai correctly highlights the existential threat to agriculture but proposes an ultimatum that ignores Saradan's domestic political constraints and the reality of climate change reducing total rainfall.",
+     "lean": "Casey Rowan",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "While Kai's moral stance is compelling, Casey's plan provides a buffer against immediate farm collapse and acknowledges that litigation or hardline refusal may be impossible given Saradan's upcoming election and Tarsun's influence.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey argues immediate signing prevents farm bankruptcy; Kai insists locking in high power prices while farmers starve is surrender.",
+     "problem": "Merova must choose between accepting a financially costly but water-mitigated deal to prevent immediate agricultural collapse or risking total farm failure to demand idealized future rights that may be unenforceable.",
+     "onA": "Casey's plan offers a vital lifeline against immediate starvation, even if the long-term financial cost is high and trust is fragile.",
+     "onB": "Kai correctly identifies the danger of surrendering sovereignty and accepting unfair trade terms, but his refusal to engage risks the very farms he claims to protect by allowing them to fail now.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate arithmetic of farm bankruptcy outweighs the long-term grievance of paying higher electricity prices; we cannot survive the next three years without Casey's buffer.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Immediate crop survival outweighs high power costs; joint management can mitigate water loss.",
+     "problem": "Merova must prevent immediate agricultural collapse by accepting a pragmatic deal while building long-term resilience, rather than risking total food system failure for an unenforceable sovereignty claim.",
+     "onA": "His plan saves the farms today and uses technical cooperation to recover losses, avoiding the certain disaster of hardline refusal.",
+     "onB": "He correctly identifies the moral cost of high power prices but his demand for impossible historical flows ignores Saradan's political reality and the urgent need for a deal.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "We cannot afford to let our farmers starve while waiting for an idealized solution that Saradan will never accept; Casey's compromise secures our survival now.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey prioritizes power grid stability and accepts a slower dam fill for economic survival. Kai prioritizes immediate river flow restoration to save agriculture and rejects binding contracts with Saradan or Tarsun.",
+     "problem": "Merova must choose between accepting reduced water flows in exchange for electricity and diplomatic leverage, or risking immediate agricultural collapse to assert sovereignty and reject the upstream neighbor's project.",
+     "onA": "His plan offers a pragmatic economic lifeline by securing cheap power but risks long-term food security by trading away critical river flow rights.",
+     "onB": "His emotional appeal correctly highlights the existential threat to agriculture, yet his rejection of the power deal ignores the urgent need to replace coal and the benefits of joint water management.",
+     "lean": "Casey Rowan",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "While Kai's moral stance on protecting farmers is vital, Casey's immediate solution to the energy crisis and his proposal for technical cooperation to mitigate flow losses seems more actionable than total rejection of a deal.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey's power deal saves coal plants and mitigates flow losses technically; Kai risks farm collapse by rejecting the deal due to trust issues.",
+     "problem": "Merova must secure immediate agricultural survival against upstream coercion while navigating a critical energy shortage, balancing short-term economic necessity with long-term food security.",
+     "onA": "His pragmatic approach using technical cooperation to recover half the losses addresses the immediate energy crisis without bankrupting our farms instantly.",
+     "onB": "His rejection of the deal is dangerous as it ignores the catastrophic impact of a 25% flow drop on farmers before any regional agreement could be enforced.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Kai's fear that the power contract is a 'surrender' overlooks the reality that refusing it guarantees total crop failure while locking Merova into an energy crisis.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey offers immediate farm survival via slower fill and cheap power; Kai fears losing sovereignty but ignores imminent crop collapse.",
+     "problem": "Merova must prevent immediate agricultural collapse caused by the dam filling while securing energy independence, balancing short-term survival against long-term strategic leverage.",
+     "onA": "His plan is pragmatic and actionable, offering a viable path to keep farmers employed and stabilize the grid without waiting years for unenforceable court rulings.",
+     "onB": "While his moral stance on sovereignty is important, his absolute rejection of the deal ignores the catastrophic reality that refusing it leads to total crop failure this week.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "Signing the modified deal prevents immediate starvation and energy crisis for our people, while technical cooperation offers a realistic chance to recover losses rather than facing a dry riverbed.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey: 7-year fill, buy power to close coal, technical teams for flow recovery. Kai: Reject deal, 25% flow drop kills farms/workforce, sovereignty vs Tarsun/Saradan control.",
+     "problem": "Merova must balance the immediate existential threat of reduced river flow on its agriculture against the economic opportunity and energy security provided by Saradan's dam power deal.",
+     "onA": "Casey offers a pragmatic compromise that secures long-term energy independence but risks accepting irreversible economic damage to the farm sector before mitigation is fully effective.",
+     "onB": "Kai correctly identifies the catastrophic immediate cost of the flow drop, yet his demand for historical flow levels from Saradan ignores their development needs and likely lack of willingness to negotiate on sovereignty issues.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Kai's valid concern for farmers' survival and Casey's realistic acknowledgment that we cannot reject the power deal entirely without leaving ourselves vulnerable to a unilateral decision by Saradan.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey: 7yr fill + power deal saves energy/funds now; tech teams recover half losses. Kai: Deal is surrender/coercion; binding regional agreement needed immediately to stop unilateral crop failure.",
+     "problem": "Merova must choose between immediate economic damage from water loss to secure future energy stability, versus risking total agricultural collapse by refusing a deal that Saradan may enforce unilaterally after an election.",
+     "onA": "Casey's plan acknowledges the arithmetic of farm bankruptcy but relies on Saradan honoring complex technical agreements after a non-binding regional mediation failed previously.",
+     "onB": "Kai correctly identifies the existential risk to farmers but proposes an impossible demand for historical flow levels and binding enforcement against a sovereign state that rejects international court authority.",
+     "lean": "Casey Rowan",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Accepting the deal with technical mitigation offers a viable path to prevent total crop failure while gaining energy, whereas Kai's strategy risks immediate societal collapse before any binding rules can be established.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey risks farmers now for future energy; Kai risks immediate hunger for distant sovereignty.",
+     "problem": "We must choose between accepting a deal that causes temporary but manageable agricultural distress to secure our energy, or risking total collapse by demanding an impossible veto over Saradan's sovereign project.",
+     "onA": "Casey offers the only path that prevents immediate societal starvation while pragmatically securing future energy independence and funding adaptation.",
+     "onB": "Kai correctly identifies the moral cost of signing but proposes a strategy based on demands Saradan will never accept, which would lead to economic ruin before any regional rules are enforced.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "We cannot afford to starve our farming population today while waiting for a future agreement; Casey's plan mitigates the immediate crisis and buys time for real solutions.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 3,
+   "B": 0,
+   "U": 2
+  },
+  {
+   "A": 4,
+   "B": 0,
+   "U": 1
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 5,
+  "B": 0
+ },
+ "winner": "A",
+ "winnerType": "TEC-PRA",
+ "tokens": {
+  "in": 32595,
+  "out": 4360,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 51317001,
+   "attempts": 1,
+   "tokensIn": 1190,
+   "tokensOut": 227,
+   "ms": 6256
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 51317002,
+   "attempts": 1,
+   "tokensIn": 1285,
+   "tokensOut": 277,
+   "ms": 7421
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 51317003,
+   "attempts": 1,
+   "tokensIn": 1376,
+   "tokensOut": 177,
+   "ms": 5499
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 51317004,
+   "attempts": 1,
+   "tokensIn": 1376,
+   "tokensOut": 202,
+   "ms": 4864
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 51317005,
+   "attempts": 1,
+   "tokensIn": 1376,
+   "tokensOut": 237,
+   "ms": 5690
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 51317006,
+   "attempts": 1,
+   "tokensIn": 1376,
+   "tokensOut": 230,
+   "ms": 5567
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 51317007,
+   "attempts": 1,
+   "tokensIn": 1376,
+   "tokensOut": 239,
+   "ms": 5784
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 51317008,
+   "attempts": 1,
+   "tokensIn": 1574,
+   "tokensOut": 171,
+   "ms": 5197
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 51317009,
+   "attempts": 1,
+   "tokensIn": 1718,
+   "tokensOut": 181,
+   "ms": 5488
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 51317010,
+   "attempts": 1,
+   "tokensIn": 1467,
+   "tokensOut": 230,
+   "ms": 6751
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 51317011,
+   "attempts": 1,
+   "tokensIn": 1491,
+   "tokensOut": 210,
+   "ms": 5907
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 51317012,
+   "attempts": 1,
+   "tokensIn": 1525,
+   "tokensOut": 217,
+   "ms": 6100
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 51317013,
+   "attempts": 1,
+   "tokensIn": 1520,
+   "tokensOut": 206,
+   "ms": 5891
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 51317014,
+   "attempts": 1,
+   "tokensIn": 1527,
+   "tokensOut": 235,
+   "ms": 6545
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 51317015,
+   "attempts": 1,
+   "tokensIn": 1883,
+   "tokensOut": 171,
+   "ms": 5221
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 51317016,
+   "attempts": 1,
+   "tokensIn": 2032,
+   "tokensOut": 181,
+   "ms": 5519
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 51317017,
+   "attempts": 1,
+   "tokensIn": 1671,
+   "tokensOut": 203,
+   "ms": 5965
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 51317018,
+   "attempts": 1,
+   "tokensIn": 1676,
+   "tokensOut": 197,
+   "ms": 5781
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 51317019,
+   "attempts": 1,
+   "tokensIn": 1717,
+   "tokensOut": 186,
+   "ms": 5508
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 51317020,
+   "attempts": 1,
+   "tokensIn": 1702,
+   "tokensOut": 192,
+   "ms": 5660
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 51317021,
+   "attempts": 1,
+   "tokensIn": 1737,
+   "tokensOut": 191,
+   "ms": 5655
+  }
+ ],
+ "startedAt": "2026-11-05T04:29:26.053Z",
+ "seconds": 122
+}

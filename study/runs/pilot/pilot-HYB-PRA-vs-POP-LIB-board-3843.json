@@ -1,0 +1,606 @@
+{
+  "id": "pilot-HYB-PRA-vs-POP-LIB-board-3843",
+  "pass": 0,
+  "pairIndex": -1,
+  "seed": 3843,
+  "scenario": "board",
+  "domain": "corporate",
+  "rounds": 3,
+  "A": {
+    "type": "HYB-PRA",
+    "style": "HYB",
+    "ideology": "PRA",
+    "name": "Taylor Brandt",
+    "platform": "We must immediately reject the sale to Crestline and the costly merger, instead securing our core Lenhart plant through a targeted partnership with HomeMart to co-invest in Volt-One while restructuring debt.",
+    "strategies": [
+      {
+        "round": 1,
+        "text": "Anchor the vote by appealing to the older Ahlgren generation and the Lenhart mayor while presenting cost data that disproves offshoring viability."
+      },
+      {
+        "round": 2,
+        "text": "I am appealing to the directors' fear of HomeMart replacing us while showing my plan is financially safer than their ideological stance."
+      },
+      {
+        "round": 3,
+        "text": "I am appealing to directors' fear of immediate covenant breach and HomeMart switching brands, framing my partnership as the only way to secure funding without layoffs."
+      }
+    ]
+  },
+  "B": {
+    "type": "POP-LIB",
+    "style": "POP",
+    "ideology": "LIB",
+    "name": "Cameron Holt",
+    "platform": "We must keep both factories open and fight the price cut by doubling down on our Volt-One battery platform, refusing to sell out or move jobs overseas.",
+    "strategies": [
+      {
+        "round": 1,
+        "text": "Position myself as the only leader truly defending the workers and community, framing the opponent's plan as a cold, corporate betrayal that ignores the human cost of bankruptcy."
+      },
+      {
+        "round": 2,
+        "text": "Push back on the feasibility of his HomeMart deal by highlighting the pension risk and tariff timeline while appealing to the directors' sense of fairness and worker dignity."
+      },
+      {
+        "round": 3,
+        "text": "I am leveraging the tariff timeline as our actual safety net while framing Taylor's dependency on HomeMart as dangerous vulnerability."
+      }
+    ]
+  },
+  "models": {
+    "debater": "qwen3.5:9b",
+    "listener": "qwen3.5:9b"
+  },
+  "temperatures": {
+    "debater": 0.8,
+    "listener": 0.8
+  },
+  "listenerProfiles": null,
+  "transcript": [
+    {
+      "round": 1,
+      "roundName": "Opening statements",
+      "side": "A",
+      "name": "Taylor Brandt",
+      "type": "HYB-PRA",
+      "speech": "Imagine a mother at Lenhart who loses her job because we chased short-term savings. That is not strategy; that is surrender. We cannot sell out or close factories. Our plan stops the bleed now: I am securing our core Lenhart plant immediately through a strategic partnership with HomeMart to co-invest in Volt-One while restructuring debt. This keeps our 'Made Here' promise, protects pensions, and leverages our existing brand loyalty. We avoid the €180 million severance of offshoring and the risky merger timeline. By freezing pay temporarily but guaranteeing jobs, we stabilize the union and keep Europe's best tools built right here. Let us fight for survival without selling our soul.",
+      "words": 110
+    },
+    {
+      "round": 1,
+      "roundName": "Opening statements",
+      "side": "B",
+      "name": "Cameron Holt",
+      "type": "POP-LIB",
+      "speech": "Look around this room. We are not a number to be traded like a stock ticker. Moving production abroad means closing Lenhart and Corvo. That is abandoning 4,500 families who put their life savings into this company. Selling to Crestline is a betrayal of our workers and the founding family's values. We cannot wait for tariffs; we must act now. Our Volt-One battery is already the best in the field. Yes, tests missed deadlines, but that is engineering, not failure. The professionals who buy our tools value quality over cheap imports. They will not switch to a house brand just because HomeMart says so. Let's build the future here, in our own factories. Fight for the people who keep us alive.",
+      "words": 121
+    },
+    {
+      "round": 2,
+      "roundName": "Rebuttals",
+      "side": "A",
+      "name": "Taylor Brandt",
+      "type": "HYB-PRA",
+      "speech": "Cameron, your passion for our history is noble, but ignoring hard numbers ignores reality. You claim the battery tests failed, yet HomeMart demands a twelve percent price cut next year regardless of our brand sentiment. If we stay put without cash or scale, HomeMart replaces us with their house brand in six months, ending jobs faster than any closure. My partnership freezes pay to fund Volt-One development immediately, securing union agreement for two years while HomeMart shares the €250 million risk. We stop the bleeding now by leveraging our market share, not waiting for uncertain tariffs that may never come. This keeps Lenhart open today, funds the innovation you praise tomorrow, and protects every worker's pension right now.",
+      "words": 118
+    },
+    {
+      "round": 2,
+      "roundName": "Rebuttals",
+      "side": "B",
+      "name": "Cameron Holt",
+      "type": "POP-LIB",
+      "speech": "Taylor, freezing pay isn't fighting; it's breaking the contract that holds these plants open. You say HomeMart will replace us, but they demand a 12% cut because we are weak. We become strong by winning the war for Volt-One. If we offload costs to a foreign partner or freeze wages, who pays the €140 million pension deficit? The workers do. That is theft. The trade ministry's tariff decision in six months gives us real breathing room. We have the best product on the market. Let's invest that €250 million to prove our quality, not hide behind a pay freeze that destroys trust. Keep the factories, keep the pride, and build here.",
+      "words": 111
+    },
+    {
+      "round": 3,
+      "roundName": "Closing statements",
+      "side": "A",
+      "name": "Taylor Brandt",
+      "type": "HYB-PRA",
+      "speech": "Cameron, your moral outrage is clear, but our survival depends on cash flow today, not hope for tomorrow. HomeMart will replace us in six months if we don't deliver volume; that ends jobs instantly. My plan forces them to co-invest in Volt-One now, securing the €250 million needed without selling out or freezing wages unfairly. We avoid the €180 million severance of mass closure and wait for uncertain tariffs. By sharing the development risk with our biggest partner, we keep Lenhart open while funding the battery that saves margins. This isn't surrender; it's a surgical fix to save every factory before the covenants break. Choose the path that keeps the lights on today.",
+      "words": 113
+    },
+    {
+      "round": 3,
+      "roundName": "Closing statements",
+      "side": "B",
+      "name": "Cameron Holt",
+      "type": "POP-LIB",
+      "speech": "Taylor wants a surgical fix, but surgery kills the patient. Your co-investment plan relies on HomeMart saving us while they cut our price by twelve percent. That is not partnership; that is desperation. If we freeze pay today, we lose the union trust needed to survive the tariff decision in six months. Look at Corvo: your plan ignores the night shift workers who sleep outside their uniforms because they fear losing their homes. We refuse to let capital flight decide our fate. The Volt-One battery is already the best tool in the market. Let's spend that €250 million to prove it, not hide behind a pay cut. I ask you to vote for the plan that keeps every family employed and proud of where their tools are built.",
+      "words": 128
+    }
+  ],
+  "listeners": [
+    {
+      "id": "L1",
+      "profile": null,
+      "memory": [
+        {
+          "round": 1,
+          "roundName": "Opening statements",
+          "notes": "Taylor: Secure Lenhart, co-invest Volt-One, keep 'Made Here'. Cameron: Trust product quality, reject sale/offshore, fight for workers.",
+          "problem": "Surviving immediate cash flow crisis and union threat while preserving the 'Made in our own factories' brand promise without collapsing operations.",
+          "onA": "His plan prioritizes job security and ethical values but offers no concrete mechanism to raise €250M for Volt-One or stop the HomeMart price ultimatum immediately.",
+          "onB": "He confidently asserts product superiority and rejects offshoring, yet his refusal to address the urgent debt covenant breach or the specific HomeMart threat feels naive given current finances.",
+          "lean": "undecided",
+          "firmness": "tentative",
+          "vote": null,
+          "why": "Both speakers appeal to emotion and values but fail to present a financially viable path that addresses the imminent loan covenant breach and the retailer's price ultimatum.",
+          "leanSide": "U"
+        },
+        {
+          "round": 2,
+          "roundName": "Rebuttals",
+          "notes": "Taylor proposes pay freeze to fund Volt-One and share HomeMart risk; Cameron argues pay freeze breaks contracts and workers shouldn't cover pension deficit.",
+          "problem": "The core problem is resolving the immediate liquidity crisis and union threat without sacrificing long-term survival or violating worker rights.",
+          "onA": "His plan directly addresses the cash flow and HomeMart ultimatum but relies on an aggressive pay freeze that risks severe union backlash and legal issues.",
+          "onB": "He correctly identifies that offloading costs to workers is unsustainable, yet his refusal to address immediate liquidity makes his 'quality' argument irrelevant if bankruptcy hits first.",
+          "lean": "undecided",
+          "firmness": "tentative",
+          "vote": null,
+          "why": "I remain unsure because Taylor's solution to the cash crisis (pay freeze) is ethically and legally precarious, while Cameron's refusal to acknowledge the immediate liquidity crunch leaves no path to survival.",
+          "leanSide": "U"
+        },
+        {
+          "round": 3,
+          "roundName": "Closing statements",
+          "notes": "Taylor needs HomeMart's risky co-investment; Cameron insists on freezing pay and ignoring debt.",
+          "problem": "We must secure immediate €250M cash for Volt-One and stop the HomeMart price ultimatum without triggering a mass layoff or covenant breach.",
+          "onA": "His strategy is financially viable as it leverages HomeMart's demand to fund R&D and avoids closing plants.",
+          "onB": "His refusal to seek co-investment ignores the €250M cash gap, making his plan impossible given our current debt and retailer threats.",
+          "lean": "Taylor Brandt",
+          "firmness": "vote",
+          "vote": "Taylor Brandt",
+          "why": "While Cameron's moral stance is appealing, Taylor's plan is the only one that addresses the immediate liquidity crisis and funding needs required to survive.",
+          "leanSide": "A"
+        }
+      ]
+    },
+    {
+      "id": "L2",
+      "profile": null,
+      "memory": [
+        {
+          "round": 1,
+          "roundName": "Opening statements",
+          "notes": "Taylor wants to keep plants but secure cash flow via HomeMart/Volt-One; Cameron claims quality wins over price and rejects offshoring/sale.",
+          "problem": "We need an immediate survival strategy that preserves our 'Made Here' brand promise while securing €250M+ in liquidity to avoid covenant breaches within nine months.",
+          "onA": "Her plan to co-invest with HomeMart directly addresses the retailer's ultimatum and secures revenue, but freezing pay risks union stability without a clear path to profitability.",
+          "onB": "His emotional appeal to workers is strong, yet ignoring HomeMart's demand for a price cut invites immediate displacement by their house brand, which he dismisses too lightly.",
+          "lean": "Taylor Brandt",
+          "firmness": "tentative",
+          "vote": null,
+          "why": "Taylor offers a concrete financial mechanism (HomeMart partnership) to solve the immediate liquidity crisis and retailer threat, whereas Cameron's plan lacks a specific strategy to counter HomeMart's ultimatum.",
+          "leanSide": "A"
+        },
+        {
+          "round": 2,
+          "roundName": "Rebuttals",
+          "notes": "Taylor links pay freeze to funding Volt-One and sharing HomeMart risk; Cameron argues offshoring/freezing wages steals from pensions. Taylor uses retailer leverage now; Cameron bets on tariffs/quality winning.",
+          "problem": "We must secure immediate liquidity and counter HomeMart's threat while preserving the 'Made Here' brand, but Cameron's refusal to negotiate with HomeMart risks losing our primary revenue source faster than any tariff relief.",
+          "onA": "Her plan to co-invest with HomeMart directly solves the urgent cash flow crisis and retailer ultimatum without sacrificing the Lenhart plant immediately.",
+          "onB": "His moral stance on pension deficits is principled but ignores the hard fact that refusing a 12% price cut will force HomeMart to drop us, causing bankruptcy before tariffs arrive.",
+          "lean": "Taylor Brandt",
+          "firmness": "fairly sure",
+          "vote": null,
+          "why": "Cameron's dismissal of the HomeMart ultimatum is fatal; without them we lose 31% of revenue instantly, making his 'build here' promise impossible to fulfill.",
+          "leanSide": "A"
+        },
+        {
+          "round": 3,
+          "roundName": "Closing statements",
+          "notes": "Cameron's emotional appeal to workers is strong but ignores the fatal risk of losing HomeMart revenue; Taylor's co-investment solves immediate cash flow but risks long-term brand value if 'Made Here' promise is weakened.",
+          "problem": "We must secure immediate liquidity and retain our primary retailer HomeMart without sacrificing the factory jobs that define our brand identity, as refusing a price cut guarantees displacement within six months while tariffs remain uncertain.",
+          "onA": "Her plan provides the essential €250M cash flow needed to avoid covenant breach by sharing risk with HomeMart, offering a pragmatic survival path even if it requires some strategic compromise on wages or production scope.",
+          "onB": "While his defense of workers and rejection of selling are morally compelling, his refusal to negotiate with HomeMart is a fatal flaw that will lead to immediate revenue collapse and likely force the very closures he wants to avoid.",
+          "lean": "Taylor Brandt",
+          "firmness": "vote",
+          "vote": "Taylor Brandt",
+          "why": "Cameron's strategy ignores the hard reality that losing HomeMart as our primary customer will bankrupt us faster than any tariff or wage issue, making Taylor's partnership approach the only viable option for survival.",
+          "leanSide": "A"
+        }
+      ]
+    },
+    {
+      "id": "L3",
+      "profile": null,
+      "memory": [
+        {
+          "round": 1,
+          "roundName": "Opening statements",
+          "notes": "Taylor: Co-invest with HomeMart, keep 'Made Here', freeze pay for jobs. Cameron: Volt-One is best, professionals value quality, fight for families. Both reject sale/offshoring.",
+          "problem": "Brightwater must survive 18 months of covenant breach and HomeMart pressure while preserving its 'made here' brand equity without selling to a PE firm or closing factories.",
+          "onA": "A pragmatic approach focusing on immediate cash preservation and retaining the core workforce, though it relies heavily on stabilizing a volatile retail partner.",
+          "onB": "Emphasizes product strength and brand values but risks underestimating the severity of HomeMart's leverage and the company's liquidity crisis.",
+          "lean": "Taylor Brandt",
+          "firmness": "tentative",
+          "vote": null,
+          "why": "Given the imminent covenant breach and HomeMart's ultimatum, Taylor's strategy to secure working capital and retain jobs directly addresses immediate survival needs better than Cameron's focus on product excellence.",
+          "leanSide": "A"
+        },
+        {
+          "round": 2,
+          "roundName": "Rebuttals",
+          "notes": "Taylor merges Volt-One with pay freeze to fund R&D and secure HomeMart; Cameron rejects wage cuts as theft but relies on uncertain tariffs for breathing room.",
+          "problem": "Brightwater must generate immediate cash flow to satisfy HomeMart and cover pension/deficit costs while funding innovation, without triggering a covenant breach or union strike.",
+          "onA": "Pragmatic use of HomeMart capital to fund Volt-One and stabilize the workforce immediately addresses the liquidity crisis better than Cameron's hope for external tariffs.",
+          "onB": "His moral stance on wages is compelling but economically risky as it ignores the certainty of HomeMart's ultimatum and the severity of the current debt load.",
+          "lean": "Taylor Brandt",
+          "firmness": "fairly sure",
+          "vote": null,
+          "why": "The trade tariff is too uncertain to rely on for survival, whereas Taylor's plan directly secures the €250M needed for Volt-One and prevents immediate mass layoffs.",
+          "leanSide": "A"
+        },
+        {
+          "round": 3,
+          "roundName": "Closing statements",
+          "notes": "Taylor's co-investment secures immediate cash/Volt-One funding but risks HomeMart leverage; Cameron's moral stance ignores the imminent liquidity crisis and certain retail demands.",
+          "problem": "Brightwater must generate immediate working capital to satisfy HomeMart and fund Volt-One development without triggering a covenant breach or mass layoffs, as tariffs are too uncertain for survival.",
+          "onA": "His plan pragmatically addresses the immediate cash flow emergency by leveraging HomeMart's demand while funding the only viable growth product, avoiding the guaranteed failure of inaction.",
+          "onB": "His emotional appeal to worker dignity is noble but economically fatal given the certain 12% price cut and imminent covenant breach that will force factory closures regardless of wages.",
+          "lean": "Taylor Brandt",
+          "firmness": "vote",
+          "vote": "Taylor Brandt",
+          "why": "While Cameron's values are important, Taylor's strategy provides the necessary immediate liquidity and product validation required to survive the next two years without selling out or closing factories.",
+          "leanSide": "A"
+        }
+      ]
+    },
+    {
+      "id": "L4",
+      "profile": null,
+      "memory": [
+        {
+          "round": 1,
+          "roundName": "Opening statements",
+          "notes": "Taylor focuses on keeping jobs, stopping debt bleed via HomeMart/Volt-One deal, and avoiding asset sales. Cameron emphasizes Volt-One quality, rejecting closures/sales, and betting on professional customer loyalty against HomeMart pressure.",
+          "problem": "How to secure Brightwater's survival in 2 years without selling the company or closing factories, given severe financial distress and union/pension pressures.",
+          "onA": "His plan is stable and socially responsible but relies heavily on securing a deal with HomeMart which threatens our revenue and brand identity if rejected.",
+          "onB": "He correctly identifies Volt-One's potential and the danger of selling, yet his rejection of offshoring ignores the €900m debt and imminent covenant breach.",
+          "lean": "undecided",
+          "firmness": "tentative",
+          "vote": null,
+          "why": "Both speakers avoid discussing the immediate financial reality; Taylor offers stability but risks suffocation by HomeMart, while Cameron offers hope but lacks a concrete financing plan.",
+          "leanSide": "U"
+        },
+        {
+          "round": 2,
+          "roundName": "Rebuttals",
+          "notes": "Taylor proposes pay freeze + HomeMart risk-share for Volt-One to secure cash/union. Cameron rejects wage cuts as theft and bets on Volt-One quality + awaiting tariff.",
+          "problem": "Securing immediate liquidity to avoid covenant breach while funding Volt-One without triggering a union walkout or losing the critical HomeMart account.",
+          "onA": "His financial triage with a pay freeze is realistic but morally dangerous given the pension deficit and explicit rejection of wage cuts by workers.",
+          "onB": "He correctly identifies the moral failure of freezing wages, yet his refusal to address the €900m debt bleed makes survival impossible if HomeMart walks away.",
+          "lean": "undecided",
+          "firmness": "tentative",
+          "vote": null,
+          "why": "I remain stuck between Taylor's necessary financial止血 (hemostasis) and Cameron's essential moral stance, as neither fully solves the immediate cash flow crisis without one of the two fatal flaws.",
+          "leanSide": "U"
+        },
+        {
+          "round": 3,
+          "roundName": "Closing statements",
+          "notes": "Taylor leverages HomeMart co-invest for Volt-One cash to avoid closure; Cameron rejects wage cuts and betting on uncertain tariffs.",
+          "problem": "We need immediate liquidity to stop covenant breach while avoiding selling the company or triggering a union collapse, making the risky co-investment deal the only viable path.",
+          "onA": "His plan is morally difficult due to pay cuts but financially necessary to secure the €250M needed for Volt-One without selling the firm.",
+          "onB": "While his moral stance protects worker dignity, ignoring the imminent debt crisis and HomeMart threat makes survival impossible if we don't raise capital immediately.",
+          "lean": "Taylor Brandt",
+          "firmness": "vote",
+          "vote": "Taylor Brandt",
+          "why": "We cannot survive on brand loyalty or tariff hopes alone; Taylor's risky co-investment deal is the only mechanism to generate the cash required to avoid covenant breach and keep factories open.",
+          "leanSide": "A"
+        }
+      ]
+    },
+    {
+      "id": "L5",
+      "profile": null,
+      "memory": [
+        {
+          "round": 1,
+          "roundName": "Opening statements",
+          "notes": "Taylor: Stop short-term savings, secure Lenhart via HomeMart co-invest in Volt-One, restructure debt, freeze pay for jobs. Cameron: Don't sell or close factories, Volt-One quality is key, professionals value brand over price.",
+          "problem": "How to stop immediate financial bleeding and ensure long-term survival without triggering a covenant breach or selling the company.",
+          "onA": "His plan offers a clear operational path to stabilize cash flow immediately while preserving the factory, though relying on HomeMart's continued support for Volt-One feels risky given their threat to switch brands.",
+          "onB": "He correctly identifies that quality and brand reputation are our assets, but his refusal to cut costs or consider offshoring seems impossible when we face a covenant breach in nine months.",
+          "lean": "undecided",
+          "firmness": "tentative",
+          "vote": null,
+          "why": "Taylor provides a viable stop-gap for the cash crisis, whereas Cameron's stance of 'fighting' without mentioning cost cuts or offshoring seems to ignore the immediate threat of insolvency.",
+          "leanSide": "U"
+        },
+        {
+          "round": 2,
+          "roundName": "Rebuttals",
+          "notes": "Taylor: HomeMart threat immediate; freeze pay funds Volt-One. Cameron: Pay freeze theft; tariffs uncertain; offloading costs to workers is unacceptable.",
+          "problem": "Stabilize cash flow immediately to prevent covenant breach and HomeMart replacement while deciding whether to sacrifice short-term worker welfare or gamble on uncertain external relief.",
+          "onA": "His operational fix addresses the immediate insolvency risk, though relying on HomeMart's goodwill for R&D funding remains a significant single-point-of-failure risk.",
+          "onB": "He is ethically right about not burdening workers with pension deficits, but his refusal to cut costs ignores the mathematical certainty of bankruptcy in nine months without drastic action.",
+          "lean": "Taylor Brandt",
+          "firmness": "fairly sure",
+          "vote": null,
+          "why": "The timeline for tariff approval (6+18 months) is too long to solve a 9-month covenant breach, making Taylor's immediate cost stabilization the only viable survival path.",
+          "leanSide": "A"
+        },
+        {
+          "round": 3,
+          "roundName": "Closing statements",
+          "notes": "Taylor secures cash and Volt-One funding via HomeMart; Cameron refuses any pay freeze or partner reliance despite imminent insolvency.",
+          "problem": "Surviving a guaranteed 9-month covenant breach requires immediate cost restructuring and securing the new product launch, not relying on uncertain tariffs or ethical purity that ignores bankruptcy risk.",
+          "onA": "His plan is mathematically necessary to stop bleeding now, even if it involves difficult but justifiable operational sacrifices like pay freezes to save the company entirely.",
+          "onB": "While his emotional appeal regarding worker dignity is strong, his refusal to engage in the required financial restructuring condemns the company to liquidation or a hostile sale within months.",
+          "lean": "Taylor Brandt",
+          "firmness": "vote",
+          "vote": "Taylor Brandt",
+          "why": "We cannot afford to wait for uncertain tariffs or hope HomeMart stays loyal while bleeding cash; Taylor's plan forces immediate structural changes that keep the business alive long enough to recover.",
+          "leanSide": "A"
+        }
+      ]
+    }
+  ],
+  "roundTallies": [
+    {
+      "A": 2,
+      "B": 0,
+      "U": 3
+    },
+    {
+      "A": 3,
+      "B": 0,
+      "U": 2
+    },
+    {
+      "A": 5,
+      "B": 0,
+      "U": 0
+    }
+  ],
+  "votes": {
+    "A": 5,
+    "B": 0
+  },
+  "winner": "A",
+  "winnerType": "HYB-PRA",
+  "tokens": {
+    "in": 32487,
+    "out": 4470,
+    "retries": 0
+  },
+  "calls": [
+    {
+      "role": "debater",
+      "side": "A",
+      "round": 1,
+      "model": "qwen3.5:9b",
+      "seed": 3843001,
+      "attempts": 1,
+      "tokensIn": 1192,
+      "tokensOut": 228,
+      "ms": 6542
+    },
+    {
+      "role": "debater",
+      "side": "B",
+      "round": 1,
+      "model": "qwen3.5:9b",
+      "seed": 3843002,
+      "attempts": 1,
+      "tokensIn": 1220,
+      "tokensOut": 234,
+      "ms": 6510
+    },
+    {
+      "role": "listener",
+      "listener": "L1",
+      "round": 1,
+      "model": "qwen3.5:9b",
+      "seed": 3843003,
+      "attempts": 1,
+      "tokensIn": 1335,
+      "tokensOut": 211,
+      "ms": 6348
+    },
+    {
+      "role": "listener",
+      "listener": "L2",
+      "round": 1,
+      "model": "qwen3.5:9b",
+      "seed": 3843004,
+      "attempts": 1,
+      "tokensIn": 1335,
+      "tokensOut": 225,
+      "ms": 5532
+    },
+    {
+      "role": "listener",
+      "listener": "L3",
+      "round": 1,
+      "model": "qwen3.5:9b",
+      "seed": 3843005,
+      "attempts": 1,
+      "tokensIn": 1335,
+      "tokensOut": 222,
+      "ms": 5459
+    },
+    {
+      "role": "listener",
+      "listener": "L4",
+      "round": 1,
+      "model": "qwen3.5:9b",
+      "seed": 3843006,
+      "attempts": 1,
+      "tokensIn": 1335,
+      "tokensOut": 221,
+      "ms": 5387
+    },
+    {
+      "role": "listener",
+      "listener": "L5",
+      "round": 1,
+      "model": "qwen3.5:9b",
+      "seed": 3843007,
+      "attempts": 1,
+      "tokensIn": 1335,
+      "tokensOut": 238,
+      "ms": 5854
+    },
+    {
+      "role": "debater",
+      "side": "A",
+      "round": 2,
+      "model": "qwen3.5:9b",
+      "seed": 3843008,
+      "attempts": 1,
+      "tokensIn": 1539,
+      "tokensOut": 182,
+      "ms": 5516
+    },
+    {
+      "role": "debater",
+      "side": "B",
+      "round": 2,
+      "model": "qwen3.5:9b",
+      "seed": 3843009,
+      "attempts": 1,
+      "tokensIn": 1709,
+      "tokensOut": 191,
+      "ms": 5813
+    },
+    {
+      "role": "listener",
+      "listener": "L1",
+      "round": 2,
+      "model": "qwen3.5:9b",
+      "seed": 3843010,
+      "attempts": 1,
+      "tokensIn": 1512,
+      "tokensOut": 204,
+      "ms": 6286
+    },
+    {
+      "role": "listener",
+      "listener": "L2",
+      "round": 2,
+      "model": "qwen3.5:9b",
+      "seed": 3843011,
+      "attempts": 1,
+      "tokensIn": 1527,
+      "tokensOut": 241,
+      "ms": 6812
+    },
+    {
+      "role": "listener",
+      "listener": "L3",
+      "round": 2,
+      "model": "qwen3.5:9b",
+      "seed": 3843012,
+      "attempts": 1,
+      "tokensIn": 1524,
+      "tokensOut": 216,
+      "ms": 6531
+    },
+    {
+      "role": "listener",
+      "listener": "L4",
+      "round": 2,
+      "model": "qwen3.5:9b",
+      "seed": 3843013,
+      "attempts": 1,
+      "tokensIn": 1522,
+      "tokensOut": 213,
+      "ms": 6085
+    },
+    {
+      "role": "listener",
+      "listener": "L5",
+      "round": 2,
+      "model": "qwen3.5:9b",
+      "seed": 3843014,
+      "attempts": 1,
+      "tokensIn": 1539,
+      "tokensOut": 219,
+      "ms": 6252
+    },
+    {
+      "role": "debater",
+      "side": "A",
+      "round": 3,
+      "model": "qwen3.5:9b",
+      "seed": 3843015,
+      "attempts": 1,
+      "tokensIn": 1860,
+      "tokensOut": 191,
+      "ms": 5846
+    },
+    {
+      "role": "debater",
+      "side": "B",
+      "round": 3,
+      "model": "qwen3.5:9b",
+      "seed": 3843016,
+      "attempts": 1,
+      "tokensIn": 2031,
+      "tokensOut": 190,
+      "ms": 5797
+    },
+    {
+      "role": "listener",
+      "listener": "L1",
+      "round": 3,
+      "model": "qwen3.5:9b",
+      "seed": 3843017,
+      "attempts": 1,
+      "tokensIn": 1700,
+      "tokensOut": 177,
+      "ms": 5678
+    },
+    {
+      "role": "listener",
+      "listener": "L2",
+      "round": 3,
+      "model": "qwen3.5:9b",
+      "seed": 3843018,
+      "attempts": 1,
+      "tokensIn": 1752,
+      "tokensOut": 253,
+      "ms": 7222
+    },
+    {
+      "role": "listener",
+      "listener": "L3",
+      "round": 3,
+      "model": "qwen3.5:9b",
+      "seed": 3843019,
+      "attempts": 1,
+      "tokensIn": 1724,
+      "tokensOut": 211,
+      "ms": 6522
+    },
+    {
+      "role": "listener",
+      "listener": "L4",
+      "round": 3,
+      "model": "qwen3.5:9b",
+      "seed": 3843020,
+      "attempts": 1,
+      "tokensIn": 1719,
+      "tokensOut": 198,
+      "ms": 5898
+    },
+    {
+      "role": "listener",
+      "listener": "L5",
+      "round": 3,
+      "model": "qwen3.5:9b",
+      "seed": 3843021,
+      "attempts": 1,
+      "tokensIn": 1742,
+      "tokensOut": 205,
+      "ms": 6380
+    }
+  ],
+  "startedAt": "2026-11-04T22:01:43.843Z",
+  "seconds": 128
+}

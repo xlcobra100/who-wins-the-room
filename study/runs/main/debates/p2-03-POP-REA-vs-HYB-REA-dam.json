@@ -1,0 +1,609 @@
+{
+ "id": "p2-03-POP-REA-vs-HYB-REA-dam",
+ "pass": 2,
+ "pairIndex": 3,
+ "seed": 896005,
+ "scenario": "dam",
+ "scenarioVersion": 2,
+ "domain": "political",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "POP-REA",
+  "style": "POP",
+  "ideology": "REA",
+  "name": "Riley Sandor",
+  "platform": "We must rebuild the dam to its full capacity immediately using the national grant while freezing new development in the flood zone, because only a full repair saves our power grid, the paper mill jobs, and stops us from starving Ostbrück of water.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Attack Morgan's plan as economically suicidal and legally risky by emphasizing the immediate loss of power revenue and the Nordhalm threat, while framing the national grant as a free win for anyone willing to ban new homes."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking Morgan's reliance on external promises and highlighting the immediate economic collapse her plan causes to drive voters toward my safe, self-contained rebuilding strategy."
+   },
+   {
+    "round": 3,
+    "text": "I am attacking Morgan's reliance on uncertain legal outcomes and corporate promises, framing my full rebuild as the only option that keeps jobs and power alive immediately."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-REA",
+  "style": "HYB",
+  "ideology": "REA",
+  "name": "Morgan Ekberg",
+  "platform": "We must immediately lower the reservoir to thirty percent and install a new spillway while simultaneously freezing all development in the flood zone.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor the vote on immediate safety and financial reality while framing any delay as an unacceptable moral failure, then pivot to specific objections about power loss by highlighting Riverside's vulnerability."
+   },
+   {
+    "round": 2,
+    "text": "I will pivot Riley's argument about future stability into an immediate legal impossibility to prove my plan is the only one that avoids total collapse."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing the legal certainty of my plan versus Riley's reliance on unenforceable promises from Ostbrück and Nordhalm to win over voters who fear losing their homes or the utility."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "POP-REA",
+   "speech": "They want to starve us. Lowering the reservoir kills the hydro plant that powers our homes and funds free buses. It forces Nordhalm to close its mill, throwing two thousand families out. It drowns Ostbrick in drought before they can sue. You trade a forty-year-old structure for a death sentence. The grant is money we already have if we ban new homes. That stops the flood risk now without costing us our economy or our water rights. Don't let experts tell you the dam holds. Let common sense win: keep the water up, rebuild strong, and demand our fair share. If you cut power today, who pays for the blackouts tomorrow? Vote to rebuild.",
+   "words": 114
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Morgan Ekberg",
+   "type": "HYB-REA",
+   "speech": "Mrs. Halloway lives in Riverside with her eighty-year-old mother. Tonight, we choose between freezing their home forever or giving them breathing room. The dam leaks worse than last year, and the snowpack is massive. We cannot gamble forty-six thousand lives on promises from Ostbrück or Nordhalm who will walk away if prices drop. Lowering the water now costs twenty-five million euros and cuts our power in half, but it buys us time to evacuate Riverside if needed. Freezing home sales stops property value collapse without moving a single person yet. This is not fear; it is mathematics. We secure our neighbors today because we refuse to be the last ones standing when the water rises.",
+   "words": 115
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "POP-REA",
+   "speech": "Morgan, you call it mathematics. I call it selling out our future for a false safety. You suggest lowering the water now, but who pays when Nordhalm closes the mill? The utility stops funding the free buses. Riverside stays homeless while their power cuts. Your plan relies on Ostbrück's goodwill and ignores the court block that could stop your work in weeks. Don't gamble our electricity and jobs on a spillway that engineers say won't fix the leak permanently. That grant money is ours only if we rebuild to full height today. If you freeze development, we keep the water up, keep the power running, and keep Riverside's lights on while we build a dam that actually holds. Choose survival over a desperate gamble. Vote for the full rebuild.",
+   "words": 129
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Morgan Ekberg",
+   "type": "HYB-REA",
+   "speech": "Riley, your plan ignores that Ostbrück will block any permanent lowering in court next week. If we wait for your full rebuild, Riverside floods this spring because the leak worsens and snowpack is high. That grant money for a rebuild requires freezing development anyway; you cannot have both open construction and halted housing permits. Your 'survival' gamble loses two thousand jobs when Nordhalm closes if power cuts hit. My strategy freezes homes now to unlock cash while we install a spillway that buys time without relying on hostile neighbors or foreign companies walking away. We secure Riverside today with a plan that actually works legally and financially, rather than betting our lives on promises that vanish under pressure.",
+   "words": 118
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "POP-REA",
+   "speech": "Look at the facts in front of us. Morgan sells a fantasy where Ostbrück won't sue and Nordhalm stays open. That is not math, that is hope. If we lower the water, the mill closes in one year, throwing two thousand workers into the street and killing our only real employer. The utility goes bankrupt, free buses vanish, and families freeze while waiting for a permanent fix they never get. Your plan leaves Riverside homeless because you wait for a court ruling that may kill your project before it starts. We have no time to gamble on neighbors who hate us or courts that block us. The national grant is ours only if we rebuild high now. Freeze the permits, take the cash, and pour concrete while the snow melts. Let common sense win. Do not sign our families away to a leaky dam. Vote for the full rebuild today.",
+   "words": 150
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Morgan Ekberg",
+   "type": "HYB-REA",
+   "speech": "Riley, you call my plan a gamble on hope, but ignoring Ostbrück's lawsuit is not survival; it is walking into a courtroom trap where we lose before we start. Your full rebuild demands impossible money and ignores that the leak worsens while we wait. My strategy freezes property now to unlock grant cash for a spillway that lowers risk immediately, buying us the years needed to move Riverside safely or repair the dam properly. We cannot keep the water high if the court blocks our work next week; we must act within the law today. Do not trade our neighbors' lives and the hospital's safety for an economic fantasy that assumes hostile companies will stay. Vote to lower the water and freeze permits, securing Valmora before the spring melt turns our valley into a lake.",
+   "words": 135
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley prioritizes jobs/power; Morgan prioritizes immediate safety/Riverside.",
+     "problem": "We must prevent a dam failure that kills while balancing the economic collapse of losing hydro power and industry.",
+     "onA": "His plan avoids immediate economic shock but ignores the rising leak risk and snowpack, gambling on a structure experts say is failing.",
+     "onB": "Her focus on the elderly in Riverside is morally compelling, yet her proposed solution relies on suing Ostbrück which risks legal blockage.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate threat to 14,000 lives in the flood zone outweighs the economic pain of temporary power cuts.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley bets on full rebuild but ignores court block risk and Nordhalm closure threat; Morgan's 'freeze homes' trick unlocks grant but still faces Ostbrück lawsuit.",
+     "problem": "We must stop an imminent flood killing thousands while navigating a legal standoff with Ostbrück that threatens to shut down any mid-term fix we try.",
+     "onA": "His plan is economically comforting but dangerously ignores the fact that if Ostbrück sues, our 'survival' strategy becomes illegal and fails before spring.",
+     "onB": "Her legal maneuvering is clever but risky; relying on a court victory against a hostile neighbor feels like gambling with lives for speed.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Despite the legal risks, waiting for Riley's full rebuild guarantees a dead zone by spring given the high snowpack and worsening leak.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley ignores immediate legal risk and mill closure; Morgan freezes permits but faces court blockage.",
+     "problem": "We must stop an imminent flood killing thousands while navigating a legal standoff that threatens to shut down any mid-term fix before spring.",
+     "onA": "His plan saves the economy in theory but ignores the certainty that Ostbrück will sue, making the rebuild illegal before we can start.",
+     "onB": "Her strategy is legally risky but offers the only chance to lower water risk immediately while freezing property values to unlock essential grant funds.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "Waiting for a full rebuild guarantees disaster given the high snowpack and worsening leak, whereas lowering the water now buys critical time despite legal hurdles.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Rebuild costs €340m, keeps power/jobs, uses grant by banning new homes. Morgan: Lowering reservoir saves Riverside lives, cuts risk but kills utility profits and hurts Ostbrück.",
+     "problem": "We must balance immediate life safety in Riverside against the economic collapse caused by losing hydro power and industrial jobs while managing the dam's failing structure.",
+     "onA": "Riley prioritizes long-term economic survival and legal rights but risks ignoring the imminent threat to Riverside residents with an overflowing snowpack.",
+     "onB": "Morgan focuses on immediate human safety and reducing failure risk through lowering the reservoir, though their plan threatens the town's budget and violates a lawsuit from Ostbrück.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans have devastating consequences: Riley risks lives for economy while Morgan risks bankruptcy and legal battles for safety, making it hard to choose yet.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley risks lives for economy; Morgan claims court block is fatal but grant freeze development anyway.",
+     "problem": "The core dilemma is choosing between immediate life safety in Riverside versus economic collapse from losing power and jobs, both of which seem legally precarious or financially devastating.",
+     "onA": "Their plan ignores the imminent spring flood threat to Riverside residents while banking on a rebuild that might be blocked by Ostbrück's lawsuit before completion.",
+     "onB": "Their strategy seems more pragmatic about legal realities and immediate safety but still carries high financial risk regarding utility profits and potential lawsuits from Nordhalm.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Riley's refusal to lower the water despite the known court threat and rising snowpack makes their 'survival' argument feel like a gamble with human lives that I cannot accept.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley ignores lawsuit risk and immediate legal block; Morgan's legal freeze unlocks grant cash for safety.",
+     "problem": "We must act within current legal limits to secure immediate flood safety before a court blocks any work, rather than gambling on unfounded economic assumptions.",
+     "onA": "Riley's plan relies on unrealistic hopes that Ostbrück won't sue and Nordhalm will stay open despite the worsening leak.",
+     "onB": "Morgan correctly identifies that proceeding without legal permission is fatal, using the permit freeze to unlock necessary funds for immediate safety.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "Riley's gamble on ignoring a known lawsuit and hostile neighbors with rising snowpack risks lives we cannot afford to lose.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley wants full rebuild/grant but risks economy; Morgan proposes lowering water now for evacuation time despite power loss.",
+     "problem": "Valmora must decide between immediate economic survival through keeping the dam full versus proactive safety measures that risk economic collapse to save lives from a potential breach.",
+     "onA": "Riley argues effectively for economic stability and legal rights but ignores the high probability of catastrophic failure before the grant can be secured or rebuilt.",
+     "onB": "Morgan prioritizes life over economy with a math-based risk reduction plan, though the permanent power loss and legal hurdles from Ostbrück are significant downsides.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The trade-off between saving lives immediately versus preserving the town's economic engine is too extreme to choose one side yet without hearing more details on feasibility.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley claims grant money requires rebuilding to full height despite needing housing freeze; Morgan insists court will block permanent lowering and Riverside floods now due to snowpack.",
+     "problem": "Valmora must choose between an economically devastating but legally risky spillway fix that buys time or a full rebuild that relies on uncertain grants while ignoring immediate flood threats.",
+     "onA": "Riley's plan is financially sound for the utility but ignores the mathematical certainty that Riverside will flood before a four-year rebuild can finish given the current snowpack and worsening leak.",
+     "onB": "Morgan correctly identifies the legal barrier of Ostbrück blocking permanent lowering and the immediate threat to Riverside, though his solution still sacrifices essential hydro power and jobs.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The rising probability of dam failure with high snowpack makes waiting for a rebuild or dealing with Ostbrück's legal blockade too dangerous for the lives in Riverside.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley ignores Ostbrück lawsuit; Morgan freezes permits to secure grant for spillway.",
+     "problem": "Valmora must prevent an imminent flood by securing legal and financial pathways to lower the dam or rebuild before the snowpack melts.",
+     "onA": "Riley's plan is economically suicidal as it relies on hostile neighbors suing and foreign companies leaving while ignoring the immediate threat of Riverside flooding next week.",
+     "onB": "Morgan correctly identifies that waiting for a court ruling or relying on unstable agreements will cost lives, making his legal-first approach necessary despite short-term power losses.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "The probability of failure is rising too fast to gamble on hostile neighbors or courts; we must act within the law today to save Riverside before the spring melt.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley prioritizes jobs and full rebuild; Morgan prioritizes Riverside safety via lowering water. Leak severity high, snowpack above average.",
+     "problem": "Valmora must balance immediate flood risk against catastrophic economic collapse from losing hydro power and the paper mill before spring melt.",
+     "onA": "Riley's plan protects jobs and power but ignores the immediate threat to Riverside given the worsening leak and high snowpack.",
+     "onB": "Morgan's plan saves lives in Riverside now but relies on legal consent from Ostbrück which may block the work, risking a lawsuit.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate threat to Riverside is terrifying, yet Riley's concern that Morgan's plan might be legally blocked within weeks cannot be ignored before the melt.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley argues full rebuild preserves jobs/power but risks Riverside flooding before melt due to court block on lowering. Morgan claims full rebuild fails legally (Ostbrück lawsuit) and financially (mill closure), while a spillway + development freeze unlocks grants immediately.",
+     "problem": "Valmora must prevent immediate Riverside flooding before the spring melt while avoiding economic collapse from losing hydro power or the paper mill due to legal constraints on lowering water levels.",
+     "onA": "Riley's plan prioritizes long-term stability but ignores the urgent, non-negotiable deadline of the spring melt given the high probability of a court blocking the rebuild timeline before it starts.",
+     "onB": "Morgan correctly identifies that the full rebuild is legally unviable this year due to Ostbrück's lawsuit and financial impossibility if Nordhalm closes, making their partial lowering strategy the only feasible option despite risks.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The fact that a full rebuild is legally blocked within weeks makes Riley's plan impossible to execute before the flood season, forcing acceptance of Morgan's imperfect but viable solution.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley's full rebuild is legally blocked and financially impossible; Morgan's partial lowering is the only executable option despite legal hurdles.",
+     "problem": "We must prevent immediate Riverside flooding and economic collapse before spring melt using the only plan that can be executed within current legal and financial constraints.",
+     "onA": "Riley ignores the hard reality that the full rebuild cannot start this year due to an inevitable lawsuit from Ostbrück, leaving us with no viable option.",
+     "onB": "Morgan correctly identifies that lowering the water is the only immediate survival strategy, even if it means losing some power and facing future legal battles.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "Riley's plan relies on impossible assumptions about courts and companies staying put, whereas Morgan offers a desperate but necessary path to stop flooding today.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Rebuild is expensive but preserves economy, power, and jobs; bans new homes to get grant. Morgan: Lower reservoir now saves Riverside lives immediately; cheap fix buys time for relocation; property freeze avoids immediate displacement.",
+     "problem": "We must balance the immediate threat of dam failure and flooding against the long-term economic collapse caused by losing hydro power and a major employer.",
+     "onA": "Riley's plan prioritizes economic survival and keeping jobs, but it seems to ignore the very real, accelerating risk of the dam failing this spring with our current snowpack.",
+     "onB": "Morgan focuses on immediate human safety for Riverside residents, which is compelling given the leaking dam and low evacuation drill times, though their plan drastically cuts our power and revenue.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between saving the town's economy as Riley suggests and protecting the elderly in Riverside as Morgan claims; the high snowpack makes a failure risk seem too imminent to ignore.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley claims grants need full rebuild but Morgan argues freeze is required for both; Riley risks Nordhalm closure and buses, Morgan risks Riverside flooding without court help.",
+     "problem": "We must choose between an economically devastating immediate fix that might not stop the leak soon enough versus a massive, legally blocked investment in rebuilding while we risk immediate flood deaths.",
+     "onA": "Riley's plan financially cripples us by losing power and jobs, yet relying on a rebuild that faces high failure odds this spring with record snowpack is too dangerous to gamble.",
+     "onB": "Morgan correctly identifies the legal block from Ostbrück and the imminent threat to Riverside, but their plan still cuts essential funding for social services which makes them unviable long-term.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The high snowpack means failure is likely before a rebuild finishes, and the legal threat from Ostbrück makes the permanent spillway plan Morgan suggested effectively impossible to execute quickly enough.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley ignores legal blocks from Ostbrück and Nordhalm closure; Morgan's plan secures grant cash while addressing immediate flood risk legally.",
+     "problem": "We must choose between an economically disastrous rebuild that faces imminent legal failure or a cheaper, legally viable fix that reduces current flood risk despite losing some revenue.",
+     "onA": "His economic arguments are strong but his plan is legally impossible to execute before the spring melt due to Ostbrück's lawsuit and Nordhalm's threat to close.",
+     "onB": "His plan accepts near-term economic pain to secure immediate life safety and unlock federal funding, which is the only viable path given the legal constraints.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "With record snowpack and a likely court block on rebuilding, the only way to save lives before the melt starts is Morgan's legally compliant, cheaper fix that buys time for relocation.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 1,
+   "U": 4
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "HYB-REA",
+ "tokens": {
+  "in": 34710,
+  "out": 4353,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 896005001,
+   "attempts": 1,
+   "tokensIn": 1295,
+   "tokensOut": 221,
+   "ms": 6145
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 896005002,
+   "attempts": 1,
+   "tokensIn": 1410,
+   "tokensOut": 255,
+   "ms": 6965
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 896005003,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 173,
+   "ms": 5056
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 896005004,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 217,
+   "ms": 5219
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 896005005,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 198,
+   "ms": 4769
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 896005006,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 189,
+   "ms": 4563
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 896005007,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 235,
+   "ms": 5635
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 896005008,
+   "attempts": 1,
+   "tokensIn": 1671,
+   "tokensOut": 201,
+   "ms": 5895
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 896005009,
+   "attempts": 1,
+   "tokensIn": 1784,
+   "tokensOut": 184,
+   "ms": 5574
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 896005010,
+   "attempts": 1,
+   "tokensIn": 1582,
+   "tokensOut": 207,
+   "ms": 6029
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 896005011,
+   "attempts": 1,
+   "tokensIn": 1624,
+   "tokensOut": 203,
+   "ms": 5184
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 896005012,
+   "attempts": 1,
+   "tokensIn": 1605,
+   "tokensOut": 223,
+   "ms": 5697
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 896005013,
+   "attempts": 1,
+   "tokensIn": 1596,
+   "tokensOut": 259,
+   "ms": 6532
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 896005014,
+   "attempts": 1,
+   "tokensIn": 1642,
+   "tokensOut": 234,
+   "ms": 6311
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 896005015,
+   "attempts": 1,
+   "tokensIn": 2000,
+   "tokensOut": 221,
+   "ms": 6453
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 896005016,
+   "attempts": 1,
+   "tokensIn": 2133,
+   "tokensOut": 211,
+   "ms": 6230
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 896005017,
+   "attempts": 1,
+   "tokensIn": 1801,
+   "tokensOut": 173,
+   "ms": 5313
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 896005018,
+   "attempts": 1,
+   "tokensIn": 1838,
+   "tokensOut": 172,
+   "ms": 5263
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 896005019,
+   "attempts": 1,
+   "tokensIn": 1838,
+   "tokensOut": 184,
+   "ms": 5176
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 896005020,
+   "attempts": 1,
+   "tokensIn": 1865,
+   "tokensOut": 188,
+   "ms": 5718
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 896005021,
+   "attempts": 1,
+   "tokensIn": 1886,
+   "tokensOut": 205,
+   "ms": 6109
+  }
+ ],
+ "startedAt": "2026-11-05T00:55:39.626Z",
+ "seconds": 120
+}

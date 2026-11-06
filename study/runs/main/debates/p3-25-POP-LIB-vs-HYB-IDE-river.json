@@ -1,0 +1,609 @@
+{
+ "id": "p3-25-POP-LIB-vs-HYB-IDE-river",
+ "pass": 3,
+ "pairIndex": 25,
+ "seed": 497217,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Cameron Holt",
+  "platform": "Merova must reject Saradan's forced buyout and demand immediate joint management of the river to protect our farmers' futures.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to the ministers' desire to avoid Tarsun dominance while framing joint management as a way to maintain sovereignty without military escalation."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking the feasibility and timing of Riley's 'trust' plan to expose how it delays immediate damage while promising future justice we won't get."
+   },
+   {
+    "round": 3,
+    "text": "Sharpen the urgency of the eighteen-month timeline versus the seven-year proposal to make inaction look like a direct threat to farmers' livelihoods."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-IDE",
+  "style": "HYB",
+  "ideology": "IDE",
+  "name": "Riley Sandor",
+  "platform": "We must accept Saradan's seven-year extension with a new power purchase agreement, transforming the dam into a shared asset that secures water through joint operational discipline rather than demanding immediate control.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Highlight that my plan buys time and guarantees water flow while funding our energy transition, directly countering the opponent's fear of scarcity."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing that their political vulnerability due to an upcoming election creates a unique opening to achieve my goal of long-term cooperation."
+   },
+   {
+    "round": 3,
+    "text": "Appeal to the ministers' fear of military escalation and economic ruin while framing my plan as the only way to legally secure operational control."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Cameron Holt",
+   "type": "POP-LIB",
+   "speech": "We stand before a broken promise. A distant power sells us water scarcity while Saradan fills its reservoir with stolen flow. They offer us coal power at inflated prices, but who pays when our farms dry up? We cannot sign a twenty-year contract that binds our children to another nation's whim. Let them build their dam; let them face the drought they create. Instead of surrendering our rights on a take-it-or-leave-it basis, we demand immediate joint management. This stops the theft, restores fair flow schedules, and keeps our farmers in business without foreign loans or coercion. Do not let elites trade our water for cheap electricity. Stand with the family at the kitchen table and reclaim what is ours by right.",
+   "words": 121
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "HYB-IDE",
+   "speech": "Consider an elderly farmer in our valley who fears losing his crop to rising prices. That is not fear alone; it is the reality of a twenty-five percent flow drop over three years. My opponent demands immediate joint management, yet Saradan has rejected our historical treaty and refuses international court jurisdiction. Demanding control now triggers a blockade that starves their people while destroying our farms. Instead, we accept their seven-year timeline to buy power at fair prices. This lets us close coal plants immediately, saving money for our farmers. Crucially, this contract forces joint management later, as the law requires when selling power. We build trust through shared interest now, ensuring water flows fairly tomorrow.",
+   "words": 115
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Cameron Holt",
+   "type": "POP-LIB",
+   "speech": "Riley, you promise a future contract that Saradan will never honor without our consent. You say buying their power forces joint management, but who controls the taps when they cut the flow? That contract is a trap to sell our farmers' livelihoods for cheap electricity. They fill in eighteen months, not seven years. Their election is in ten months; they will build the dam regardless. We wait for justice while drought hits our fields? No. Immediate joint management stops the theft now. It forces open negotiations before their loans from Tarsun drown us. Do not trade our water security for their political popularity. Protect the family at the kitchen table. Stop them from building a reservoir of stolen rights. Demand real control today, not a hollow promise written by elites in a distant capital.",
+   "words": 134
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "HYB-IDE",
+   "speech": "Cameron, fear is natural, but acting on it without a plan destroys the very farmers we seek to protect. Your call for 'immediate joint management' ignores Saradan's rejection of our courts and their refusal to acknowledge past treaties; demanding control now invites a blockade that starves them while drying our wells. Yet your election timing reveals a window: with only ten months left, they are desperate for stability. By accepting their seven-year timeline, we bypass their political games entirely. The power contract we sign legally mandates operational transparency and data sharing within five years, effectively creating the joint management you crave without provoking war. We buy time to build trust, not trade rights. Let us secure our farmers' future through cooperation rather than confrontation.",
+   "words": 124
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Cameron Holt",
+   "type": "POP-LIB",
+   "speech": "Riley, you trade our water for their political popularity. You offer a seven-year timeline while they fill the reservoir in eighteen months. By then, our fields will be dust and our farmers jobless. Do not trust hollow promises written by elites who ignore the family at the kitchen table. Your plan leaves us powerless as they drain the river we depend on. They already have military systems at the dam; waiting for a legal contract to force cooperation is suicide when justice takes years. We must seize control now through joint management before it is too late. Demand immediate action or watch your farms die. Choose our future today, not their election victory. Stand with us and reject this surrender to foreign powers.",
+   "words": 123
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "HYB-IDE",
+   "speech": "Cameron fears the dust, but I offer a shield. Your plan for immediate joint management is suicide; Saradan refuses our courts and has moved air defenses, meaning force or blockade would destroy both our farms and their people. We cannot wait four years in court while crops wither. My seven-year deal closes our coal plants today, saving the money farmers need most. Crucially, that power contract legally mandates data sharing and operational transparency within five years. We do not surrender control; we earn it by becoming indispensable partners. We stop the theft by making cooperation profitable for Saradan's election victory, ensuring water flows fairly without a single drop of blood or a bankrupt farm.",
+   "words": 114
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Cameron risks trade war and farm collapse; offers joint management but ignores Saradan's legal rejections. Riley accepts timeline to save coal plants, claims contract forces future joint management, but this claim is unproven.",
+     "problem": "The core conflict balances immediate agricultural survival against the long-term opportunity cost of losing water rights, complicated by Saradan's rejection of international arbitration and election pressures.",
+     "onA": "His moral stance protects our farmers' principles but his 'demand for joint management' is unrealistic given Saradan's current refusal to negotiate legally binding terms or accept court jurisdiction.",
+     "onB": "He correctly identifies the economic danger of a trade war, yet his argument that a power contract 'forces' future joint management seems like an unfounded hope rather than a guaranteed legal outcome.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am leaning toward Riley because abandoning the deal would likely destroy our agricultural export sector and bankrupt our power grid before we can fix it, whereas his plan at least keeps commerce flowing while he claims to secure future cooperation.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Cameron: Contract won't stop flow; election timing creates risk of blockade. Riley: Power contract mandates transparency/data sharing as a workaround for joint management.",
+     "problem": "The core dilemma is whether to accept a vulnerable economic bridge (power deal) that promises future cooperation or risk immediate agricultural collapse by demanding control Saradan legally refuses to grant.",
+     "onA": "His focus on immediate control and moral principle ignores the hard reality of Saradan's refusal to acknowledge existing treaties and their active military preparations.",
+     "onB": "He correctly identifies that the election window creates a specific diplomatic opening, though his claim that a commercial contract legally 'forces' joint management remains unproven.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat to our farms is too great; even if the power deal's legal guarantees are weak, it is the only plan that prevents starvation while we wait for political changes.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Power deal mandates data sharing; joint management is suicide given Saradan's military stance.",
+     "problem": "The core dilemma is choosing between an immediate economic collapse from demanding unenforceable control versus accepting a vulnerable but profitable economic bridge that builds leverage through trade interdependence.",
+     "onA": "His plan is morally principled regarding our farmers' rights but strategically fatal as it demands immediate control over a resource Saradan refuses to share legally or militarily defends.",
+     "onB": "His plan accepts the painful short-term reality of reduced flow to secure long-term survival, using our economic indispensability to force future cooperation while closing our coal plants.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "Even if the contract is a 'shield' rather than a guarantee, it is the only option that prevents immediate starvation and bankruptcies while waiting for Saradan's election cycle to change their stance.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Cameron demands joint management but risks trade war and delayed fixes; Riley offers power deal with forced future management.",
+     "problem": "Balancing immediate agricultural security against long-term energy needs while navigating Saradan's refusal of international legal mechanisms.",
+     "onA": "His moral stance on water rights is noble, but his demand for immediate joint management lacks a realistic enforcement mechanism given Saradan's rejection of the court and likely trade retaliation.",
+     "onB": "His pragmatic approach uses the power contract as leverage to eventually secure management, though accepting a 25% flow drop initially is a painful short-term cost.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Cameron's plan risks total economic collapse through trade sanctions before any water solution is enforced, whereas Riley offers an immediate energy fix that eventually forces cooperation.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Cameron's 'immediate control' is unenforceable without Saradan's consent and risks war; Riley's power deal forces transparency later but accepts initial water loss.",
+     "problem": "How to secure long-term water rights and agricultural stability against an upstream neighbor that rejects international law and refuses immediate joint management, while managing short-term drought impacts.",
+     "onA": "His moral stance on stopping the dam is principled, but his demand for immediate enforcement is strategically impossible given Saradan's rejection of courts and likely hostile retaliation.",
+     "onB": "His plan is risky because accepting a 25% flow drop hurts farmers immediately, but the power contract offers a unique legal lever to eventually force operational transparency and joint management.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Cameron's approach lacks any realistic enforcement mechanism, whereas Riley's strategy turns Saradan's political desperation (election in 10 months) into a window for a binding agreement that gradually secures our rights.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Immediate joint management is unenforceable without Saradan's consent; Cameron's plan ignores their military buildup and risks total trade collapse.",
+     "problem": "How to secure long-term water rights and agricultural stability against a militarily armed neighbor that rejects international law while avoiding immediate economic disaster.",
+     "onA": "His moral stance is noble but his demand for immediate control is strategically impossible given Saradan's rejection of courts and active military preparations.",
+     "onB": "His seven-year deal accepts short-term pain to buy time, using the energy contract as a unique lever to legally force future transparency before climate change worsens.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "Cameron's strategy demands immediate enforcement against a hostile neighbor who has refused legal mechanisms and moved air defenses, which would likely lead to war or economic suicide. Riley's plan trades a manageable short-term cost for a binding contract that eventually forces cooperation and protects our farmers from climate-driven drought.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Cameron: demands joint management, rejects take-it-or-leave-it power deal. Riley: accepts 7-year fill/power deal to close coal plants, claims it forces future cooperation.",
+     "problem": "Merova must balance immediate water scarcity and farmer livelihoods against long-term energy security and climate adaptation while Saradan refuses legal adjudication.",
+     "onA": "His moral stance on stolen water is compelling but his refusal to sign any deal ignores the imminent 25% flow drop that will devastate our farms immediately.",
+     "onB": "He correctly identifies the trade-off between short-term loss and long-term energy security, though his claim that a power contract forces future joint management seems legally uncertain given Saradan's rejection of treaties.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate threat to our agricultural sector from the planned flow drop makes Cameron's refusal to engage financially dangerous, whereas Riley's strategy offers a tangible economic solution even if it requires patience.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Cameron fears the 'trap' and immediate drought; Riley bets on Saradan's election desperation to bypass games.",
+     "problem": "Merova must survive immediate water scarcity while finding a viable path to stop theft without provoking war against a state that rejects treaties.",
+     "onA": "His moral stance remains strong, but his rejection of any deal seems increasingly reckless given the 18-month timeline for flow drop.",
+     "onB": "He offers a concrete economic lifeline (power deal) that forces transparency, though I remain skeptical he can guarantee future joint management.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I still fear immediate agricultural collapse under Cameron's refusal to sign, making Riley's risky but tangible solution necessary.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Cameron: 'joint management' is impossible now; risk of immediate agricultural collapse and war is real.",
+     "problem": "Merova must survive an imminent water crisis without triggering a military conflict with a non-compliant neighbor who rejects legal adjudication.",
+     "onA": "His moral stance on water theft is noble, but demanding immediate joint management ignores the 18-month deadline and the reality that Saradan will not negotiate under threat of force.",
+     "onB": "His strategy offers a tangible economic lifeline now and uses financial leverage to create future cooperation channels despite current political hostility.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "We cannot let our farms die in eighteen months waiting for an impossible diplomatic victory; Riley's deal provides immediate relief while slowly building the only viable path to long-term water security.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Cameron: rejects power deal, demands joint management, blames foreign loans. Riley: accepts 7yr timeline/power deal to close coal plants, claims contract forces future joint management.",
+     "problem": "Merova must balance immediate agricultural survival against long-term energy security while Saradan aggressively builds a dam that violates historical treaties and ignores international law.",
+     "onA": "His moral stand on 'stolen flow' appeals to farmers, but his refusal of the power deal ignores the urgent need to replace coal emissions and revenue right now.",
+     "onB": "He offers a pragmatic economic fix that addresses energy costs, yet his claim that the contract forces joint management later sounds like a dangerous loophole in an unequal situation.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate economic relief of closing coal plants and securing cheap power seems more actionable than Cameron's idealistic demand for control that Saradan has explicitly rejected.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Cameron warns the power contract is a trap selling out farmers for cheap energy while ignoring the 18-month deadline; Riley argues accepting the deal creates legal leverage and bypasses Saradan's election desperation.",
+     "problem": "Merova must secure immediate agricultural survival against an aggressive upstream construction timeline while preventing long-term vulnerability to a neighbor that rejects international courts and treaties.",
+     "onA": "His moral outrage resonates with farmers but his refusal of the power deal ignores the urgent economic need for revenue and coal plant closure while demanding control Saradan explicitly rejected.",
+     "onB": "He offers a pragmatic path to buy time via the power contract, though his claim that it legally mandates future joint management sounds like a risky assumption given Saradan's history of ignoring treaties.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I remain convinced that accepting the extended timeline and power deal is the only way to prevent immediate crisis before the reservoir fills, hoping the legal clauses will eventually force the cooperation Cameron wants.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Cameron warns of immediate agricultural collapse if we wait; Riley argues the power deal forces transparency and stops theft by making cooperation profitable.",
+     "problem": "Merova must secure its farmers' livelihood immediately while avoiding a military or legal escalation that Saradan can easily exploit, balancing urgent survival against long-term water rights.",
+     "onA": "His moral stance on protecting the farmers is powerful but his rejection of the power deal ignores the financial reality and leaves us with no leverage against a hostile neighbor.",
+     "onB": "He offers a risky but necessary shield that uses economic interdependence to force cooperation, though trusting Saradan's long-term commitment remains a major concern.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "Waiting for joint management or legal rulings guarantees the death of our farms within eighteen months, so I must vote for the deal that saves our economy today while hoping its terms eventually force the cooperation we need.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Cameron: demands joint management, rejects power deal. Riley: accepts 7-year fill/deal to close coal plants later.",
+     "problem": "The core conflict is balancing immediate agricultural survival against long-term energy independence and climate adaptation.",
+     "onA": "Moral stance protects farmers now but ignores Saradan's rejection of ICJ and risks an unenforceable blockade that hurts Merova's own economy.",
+     "onB": "Pragmatic approach secures immediate savings and forces joint management later via the power contract, though it accepts a temporary water drop.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Cameron's plan risks economic self-harm through a trade war, while Riley's deal offers concrete financial relief and a pathway to future cooperation.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Cameron rejects the deal as a trap and demands immediate control. Riley argues the election window makes Saradan desperate for stability.",
+     "problem": "Balancing immediate agricultural survival against long-term energy independence while navigating Saradan's political fragility and lack of legal compliance.",
+     "onA": "Their moral stance risks economic self-harm through a trade war that hurts our own farmers and economy before any justice is served.",
+     "onB": "The pragmatic approach offers concrete financial relief and uses the power contract as a future pathway to cooperation, though accepting temporary water loss is painful.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Cameron's refusal to sign any deal ignores Saradan's rejection of international courts, making their demand for 'immediate control' unenforceable and likely to cause an economic collapse.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Cameron's blockade risks economic suicide; Riley's deal mandates transparency and closes coal plants immediately.",
+     "problem": "The core challenge is securing immediate agricultural survival and energy independence while navigating Saradan's rejection of international law and imminent election pressures.",
+     "onA": "Their plan prioritizes moral justice but ignores the reality that an unenforceable blockade will destroy Merova's own economy before any water control is possible.",
+     "onB": "Riley correctly identifies that making cooperation profitable is the only way to force future transparency, turning a security risk into a strategic asset.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "Cameron's demand for immediate control is unenforceable without Saradan's consent and would collapse our economy, whereas Riley's deal provides immediate financial relief and legally binds Saradan to future cooperation.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "HYB-IDE",
+ "tokens": {
+  "in": 32348,
+  "out": 4348,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 497217001,
+   "attempts": 1,
+   "tokensIn": 1212,
+   "tokensOut": 218,
+   "ms": 6427
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 497217002,
+   "attempts": 1,
+   "tokensIn": 1270,
+   "tokensOut": 221,
+   "ms": 6101
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 497217003,
+   "attempts": 1,
+   "tokensIn": 1326,
+   "tokensOut": 248,
+   "ms": 7155
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 497217004,
+   "attempts": 1,
+   "tokensIn": 1326,
+   "tokensOut": 197,
+   "ms": 4737
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 497217005,
+   "attempts": 1,
+   "tokensIn": 1326,
+   "tokensOut": 229,
+   "ms": 5499
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 497217006,
+   "attempts": 1,
+   "tokensIn": 1326,
+   "tokensOut": 217,
+   "ms": 5222
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 497217007,
+   "attempts": 1,
+   "tokensIn": 1326,
+   "tokensOut": 188,
+   "ms": 4521
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 497217008,
+   "attempts": 1,
+   "tokensIn": 1534,
+   "tokensOut": 204,
+   "ms": 5960
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 497217009,
+   "attempts": 1,
+   "tokensIn": 1685,
+   "tokensOut": 190,
+   "ms": 5692
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 497217010,
+   "attempts": 1,
+   "tokensIn": 1569,
+   "tokensOut": 219,
+   "ms": 6297
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 497217011,
+   "attempts": 1,
+   "tokensIn": 1517,
+   "tokensOut": 234,
+   "ms": 6272
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 497217012,
+   "attempts": 1,
+   "tokensIn": 1550,
+   "tokensOut": 182,
+   "ms": 5079
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 497217013,
+   "attempts": 1,
+   "tokensIn": 1538,
+   "tokensOut": 235,
+   "ms": 6309
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 497217014,
+   "attempts": 1,
+   "tokensIn": 1506,
+   "tokensOut": 199,
+   "ms": 5842
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 497217015,
+   "attempts": 1,
+   "tokensIn": 1874,
+   "tokensOut": 185,
+   "ms": 5591
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 497217016,
+   "attempts": 1,
+   "tokensIn": 2006,
+   "tokensOut": 178,
+   "ms": 5415
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 497217017,
+   "attempts": 1,
+   "tokensIn": 1730,
+   "tokensOut": 203,
+   "ms": 6034
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 497217018,
+   "attempts": 1,
+   "tokensIn": 1692,
+   "tokensOut": 216,
+   "ms": 6295
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 497217019,
+   "attempts": 1,
+   "tokensIn": 1674,
+   "tokensOut": 188,
+   "ms": 5656
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 497217020,
+   "attempts": 1,
+   "tokensIn": 1715,
+   "tokensOut": 207,
+   "ms": 6102
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 497217021,
+   "attempts": 1,
+   "tokensIn": 1646,
+   "tokensOut": 190,
+   "ms": 5684
+  }
+ ],
+ "startedAt": "2026-11-05T04:21:12.222Z",
+ "seconds": 122
+}

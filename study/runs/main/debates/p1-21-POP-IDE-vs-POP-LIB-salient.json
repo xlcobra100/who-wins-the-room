@@ -1,0 +1,609 @@
+{
+ "id": "p1-21-POP-IDE-vs-POP-LIB-salient",
+ "pass": 1,
+ "pairIndex": 21,
+ "seed": 571602,
+ "scenario": "salient",
+ "scenarioVersion": 2,
+ "domain": "military",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "POP-IDE",
+  "style": "POP",
+  "ideology": "IDE",
+  "name": "Quinn Marlow",
+  "platform": "We must execute a fighting withdrawal tonight using the hidden pontoon crossing to save our brigade and the civilians trapped in Halden.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize the moral failure of holding civilians hostage and frame the withdrawal as saving the brigade's fighting capability for future justice rather than retreat."
+   },
+   {
+    "round": 2,
+    "text": "Appeal to the moral imperative of saving civilians directly while undermining the feasibility of holding the position without air support."
+   },
+   {
+    "round": 3,
+    "text": "Appeal directly to the moral conscience of the council by framing Reese's rigid defense as complicity in civilian death, while subtly undermining his claim that holding Halden protects Mirov."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Reese Calder",
+  "platform": "We must dig in at Halden, hold the fortress line against Vostra's expected attack, and accept a costly defense to save our honor and keep Mirov safe.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Focus on the emotional weight of abandoning civilians and the political necessity of holding the line to secure alliance support."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking his cost-benefit calculation by highlighting the certain death of civilians if we retreat, while emphasizing that defensive firepower buys strategic time for Mirov."
+   },
+   {
+    "round": 3,
+    "text": "I am attacking Quinn's core claim that withdrawal saves lives by proving his plan actually abandons civilians and loses Mirov faster, forcing the council to see that holding is the only way to protect everyone."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Quinn Marlow",
+   "type": "POP-IDE",
+   "speech": "Look at those faces. Elderly people freezing while we debate slogans. The enemy feints are real; they want blood before the aid vote. We have ammunition for nine days, but we will run out of hope first if we die stupidly holding a thumb. Do not let them take our children and freeze them in a ditch. Blowing the bridge protects Mirov. Yes, it hurts now. But leaving thousands to starve is murder. Pull back tonight with honor. Save the men who hold the line with their own bodies so we can fight another day for justice. Vote to save them.",
+   "words": 101
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "POP-LIB",
+   "speech": "Quinn wants to run. He calls it saving lives, but running leaves six thousand civilians behind while our brave volunteers take the bullets. Where is the family at the kitchen table when we abandon their home? Honesty demands we stand firm. We hold Halden because our allies need us there before they vote on aid next week. Pulling back now breaks trust and hands victory to Vostra right before their eyes. Yes, casualties will rise, but dignity cannot be bought cheaply. Let us defend this river town with the artillery we have, use our engineering skills to delay them, and force them to pay a high price for every meter of ground. Do not let fear dictate history.",
+   "words": 118
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Quinn Marlow",
+   "type": "POP-IDE",
+   "speech": "Reese, you speak of dignity while our artillery is empty. Dignity does not feed the elderly freezing on the far bank. Your plan forces those six thousand civilians to leave their homes and starve if we lose the bridge anyway. You claim allies need us, yet they promised air support that will never come. If Vostra breaks our ceasefire offer, we already lost Mirov by holding this isolated thumb. We must pull back tonight with the hidden pontoon crossing. Saving the brigade means saving the hands that will rebuild Kaldmark next spring. Do not let a slogan cost us our future. Vote to withdraw and save lives.",
+   "words": 107
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "POP-LIB",
+   "speech": "Quinn, your math is wrong. You think pulling back saves lives? It guarantees the deaths of six thousand civilians left in the freezing dark. They will starve on our bridge while we retreat with our vehicles. Do not confuse cowardice with caution. The enemy feints are real, but so is their hunger for a trophy victory before the aid vote. If we blow the bridge and flee, we hand them Mirov tomorrow. Instead, we dig in. We force them to fight uphill against our fortress walls. Every artillery shell we fire costs them a man, slowing their advance on Mirov. We pay now with bullets so they do not pay later with freedom. Hold the line. Save the town.",
+   "words": 119
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Quinn Marlow",
+   "type": "POP-IDE",
+   "speech": "Reese, look at those faces. Your 'dignity' is a coffin for six thousand civilians left freezing in the dark while we drive away empty-handed. You claim we save Mirov by holding here, but you are gambling with our entire strategic reserve. If Vostra breaks their ceasefire as they did at Orsk, we lose both Halden and the road to Mirov anyway. Blowing the bridge now denies them that victory before the aid vote. Yes, it hurts to pull back tonight, but leaving people behind is not bravery; it is murder. We fight with our future in mind, not for a photo op. Save the brigade, save the families, and let us rebuild Kaldmark when the snow melts. Vote to withdraw.",
+   "words": 120
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "POP-LIB",
+   "speech": "Quinn, you call holding a fortress 'dignity' while six thousand civilians freeze in the dark. That is not heroism; that is negligence. You speak of saving our future, but your plan guarantees their death today. If we pull back now with drones watching every step, Vostra will sweep across the bridge and take Mirov before winter ends. We have ammunition for nine days; use them to buy time, not to flee. Every shell we fire slows their march toward the capital. Our allies vote in eight days; standing firm proves our resolve when aid matters most. Do not let fear dictate history. Dig in, fight uphill, and protect the innocent. Vote to hold Halden.",
+   "words": 114
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn prioritizes civilian evacuation and saving the brigade; Reese prioritizes holding ground for allies and propaganda value.",
+     "problem": "Balancing the moral imperative to evacuate civilians against the strategic necessity of holding Halden for alliance support.",
+     "onA": "His plan is morally urgent but risks immediate catastrophe by leaving thousands behind under enemy fire.",
+     "onB": "His stance ignores the reality that we cannot defend a town with no escape route while ammunition runs out in days.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate threat to civilians in Quinn's plan clashes hard with the political necessity Reese argues for, leaving me without a clear resolution yet.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn: Civilian deaths certain if bridge blown; Reese ignores immediate starvation risk.",
+     "problem": "Must choose between the high probability of civilian death in a withdrawal and the strategic but costly choice to hold an indefensible position.",
+     "onA": "His focus on saving the brigade's fighting capability is pragmatic, though his plan risks leaving civilians behind due to Vostra breaking ceasefires.",
+     "onB": "He correctly identifies that holding the town delays enemy advance on Mirov, but he underestimates the certainty of starvation for civilians if we retreat without evacuating them first.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I am convinced that blowing the bridge is a guaranteed death sentence for 6,000 civilians who refuse to leave, whereas Reese's option of holding with limited supplies offers a non-zero chance of evacuation if Vostra hesitates or breaks the siege.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn highlights immediate civilian death risk if bridge is blown; Reese argues holding delays Mirov fall and proves resolve for aid.",
+     "problem": "Choosing between the certain death of civilians from a pre-emptive bridge blow-up versus the strategic cost of losing Halden while hoping to evacuate them under fire.",
+     "onA": "His plan prioritizes saving lives but ignores that Vostra will likely not honor a ceasefire, and leaving thousands behind without supplies is a massacre.",
+     "onB": "He correctly identifies that blowing the bridge guarantees civilian death, yet his refusal to evacuate first makes holding Halden morally indefensible.",
+     "lean": "Quinn Marlow",
+     "firmness": "vote",
+     "vote": "Quinn Marlow",
+     "why": "Despite the risks, I cannot vote to blow the bridge and knowingly leave 6,000 civilians to freeze or starve while Vostra closes in; saving the brigade's future fighting capability is the only path to a sustainable defense after winter.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn: Prioritize civilian evacuation and bridge demolition to save lives but risks propaganda loss. Reese: Maintain Halden for alliance credibility, using fortifications to delay enemy despite high casualty risk.",
+     "problem": "Balancing the immediate moral imperative to evacuate 6,000 civilians without losing too many soldiers against the strategic necessity of holding a symbolic town to secure upcoming allied aid votes.",
+     "onA": "His plan addresses the urgent humanitarian crisis and realistic military constraints but accepts a short-term propaganda defeat for long-term survival.",
+     "onB": "He correctly identifies the geopolitical stakes but dismisses the immediate danger to civilians as 'dignity' rather than recognizing potential war crimes.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain unsure because holding Halden seems strategically necessary for aid, yet abandoning 6,000 vulnerable civilians in freezing conditions feels indefensible.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn: Pull back tonight using hidden pontoon; accepts short-term propaganda loss to save lives and brigade strength. Reese: Dig in and fight uphill; claims holding delays Vostra but risks leaving civilians to starve/die.",
+     "problem": "Whether the immediate moral obligation to evacuate freezing civilians without guaranteed air support outweighs the strategic necessity of holding a symbolic fortress to secure future aid votes.",
+     "onA": "His plan realistically addresses the lack of air support and the high risk of losing the entire brigade if Vostra spots a retreat, offering a pragmatic survival strategy for both soldiers and potential civilian rescue.",
+     "onB": "His reliance on 'dignity' feels detached from reality; without allied air cover, holding the line risks turning Halden into a slaughterhouse where civilians die anyway while the strategic reserve remains out of reach.",
+     "lean": "Quinn Marlow",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Reese's refusal to acknowledge the lack of air support and the certainty of civilian death if we don't evacuate makes his 'hold' plan morally indefensible, whereas Quinn offers a viable path to save both the brigade and the people.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn admits propaganda loss to save lives and brigade; Reese claims holding buys time but ignores imminent civilian death and drone surveillance.",
+     "problem": "The core conflict is whether the immediate moral obligation to evacuate freezing civilians outweighs the strategic need for a symbolic fortress that offers no viable defense against massed enemy forces.",
+     "onA": "His plan acknowledges the reality of drone surveillance and the high risk of leaving civilians behind, offering the only path to save both people and the brigade's fighting capacity.",
+     "onB": "His argument relies on an unrealistic expectation that fortifications can stop a two-to-one attack without air support, effectively prioritizing political optics over the survival of thousands.",
+     "lean": "Quinn Marlow",
+     "firmness": "vote",
+     "vote": "Quinn Marlow",
+     "why": "Reese's refusal to evacuate civilians while drones watch the bridge guarantees their death, making his 'dignity' plan morally indefensible compared to Quinn's pragmatic withdrawal.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn risks civilian death but saves troops; Reese prioritizes alliance trust and holds civilians at risk. Intelligence split on Vostra's main attack target.",
+     "problem": "Whether to execute a risky withdrawal to save the brigade and evacuate civilians, or hold defensive lines to maintain alliance trust and prevent a propaganda victory for Vostra despite potential casualties.",
+     "onA": "His plan prioritizes immediate humanitarian survival of soldiers and civilians but risks leaving Mirov vulnerable and breaking alliance leverage.",
+     "onB": "He correctly identifies the diplomatic and psychological stakes of holding Halden, but his willingness to leave civilians behind or suffer high casualties feels morally difficult given the Red Cross offer.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The moral weight of abandoning civilians conflicts with the strategic necessity of preserving our fighting force and diplomatic credibility, making me hesitant to fully commit either way yet.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn argues withdrawal saves soldiers but risks civilian starvation and loses Mirov if Vostra feints. Reese claims holding the line forces enemy costs to protect civilians and delays Vostran advance on Mirov.",
+     "problem": "The core dilemma remains whether the strategic necessity of saving the brigade and preventing the loss of Mirov outweighs the immediate humanitarian risk of leaving 6,000 civilians behind during a chaotic night withdrawal.",
+     "onA": "His plan is militarily logical for preserving the fighting force but feels morally compromised by the potential mass civilian death if the Red Cross ceasefire fails or Vostra feints.",
+     "onB": "He correctly frames the psychological and diplomatic stakes of holding Halden, yet his willingness to accept high casualties for civilians seems dangerously unrealistic given the intelligence split on Vostran intent.",
+     "lean": "Reese Calder",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am still concerned about the morality of leaving civilians behind, but Reese's argument that holding the fortress forces Vostra to pay a high blood price to gain a symbolic victory makes strategic sense, whereas Quinn's plan relies on a perfect execution of a night retreat under drone surveillance which seems too risky.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn frames holding as negligence causing civilian death; Reese argues holding forces enemy costs and delays Mirov.",
+     "problem": "Whether the moral imperative to evacuate civilians and save the brigade outweighs the strategic necessity of holding a national symbol to secure aid votes.",
+     "onA": "His plan is militarily sound for saving lives but fails because it ignores the high probability of civilian death during a chaotic night withdrawal under drone surveillance.",
+     "onB": "He correctly identifies the diplomatic stakes but his willingness to risk massive casualties and leave civilians behind makes his plan morally indefensible.",
+     "lean": "Quinn Marlow",
+     "firmness": "vote",
+     "vote": "Quinn Marlow",
+     "why": "Saving the fighting force and evacuating as many civilians as possible is the only option that preserves Kaldmark's future, even if it risks a temporary propaganda victory for Vostra.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn prioritizes civilians and saving troops but admits blowing the bridge hurts Mirov; Reese prioritizes alliance trust and civilian safety within Halden, rejecting withdrawal entirely.",
+     "problem": "Deciding whether to risk losing most of the town's civilians and breaking alliance trust to hold a strong defensive position, or to execute a dangerous night withdrawal that saves troops but abandons civilians and damages diplomatic standing.",
+     "onA": "His plan saves the brigade and potentially Mirov but involves morally difficult abandonment of elderly civilians who refuse to leave; his claim about Vostran feints is plausible given the intelligence split, yet risky if true.",
+     "onB": "His stance maintains alliance credibility and keeps civilians safe within Halden's defenses, but it ignores the high likelihood of massive civilian casualties from artillery or forced evacuation failures, and risks a catastrophic defeat of the brigade.",
+     "lean": "Quinn Marlow",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The moral imperative to save the 6,000 unwilling civilians seems weightier than holding a symbol that may doom them; however, Quinn's admission that blowing the bridge threatens Mirov is a significant strategic cost I need to weigh against the humanitarian gain.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn admits Mirov risk from bridge blow-up but argues saving the brigade is vital for future rebuilding; Reese rejects withdrawal entirely, claiming it guarantees civilian death and offers to pay now with bullets.",
+     "problem": "Determining if the strategic necessity of saving the brigade and protecting Mirov outweighs the immediate humanitarian catastrophe of abandoning 6,000 civilians who refuse to leave.",
+     "onA": "His plan is strategically sound for preserving forces and Mirov, but morally compromised by the deliberate abandonment of elderly citizens in freezing conditions.",
+     "onB": "His moral stance regarding civilians is compelling, yet his strategy relies on holding a position with depleted supplies against a likely massed attack, risking total annihilation of both soldiers and civilians.",
+     "lean": "Quinn Marlow",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "While Reese's concern for the civilians is undeniable, a plan that guarantees their death by freezing or starvation under artillery fire is strategically indefensible compared to a risky withdrawal.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn admits abandonment feels like murder but saves lives long-term; Reese claims holding proves resolve but risks total annihilation of troops and civilians.",
+     "problem": "Whether to accept a high-risk night withdrawal that sacrifices immediate civilian safety to preserve the brigade and save Mirov, or hold firmly to protect civilians in place while risking their death from starvation, freezing, or artillery.",
+     "onA": "His plan is strategically necessary to prevent total destruction but morally agonizing because it forces the abandonment of unwilling civilians.",
+     "onB": "His moral stance regarding protecting citizens in Halden is idealistic but ignores the reality that holding a depleted position against massed attackers likely guarantees their massacre.",
+     "lean": "Quinn Marlow",
+     "firmness": "vote",
+     "vote": "Quinn Marlow",
+     "why": "While leaving civilians behind is heartbreaking, the strategic necessity of saving the brigade to defend Mirov and deny Vostra a propaganda victory outweighs the risk, as freezing or starving them in place is effectively a death sentence.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn prioritizes saving troops/civilians now and protecting Mirov; Reese prioritizes national symbol, ally trust, and forcing a costly attack. Intelligence split on Vostra's intent.",
+     "problem": "Balance the immediate humanitarian and strategic risk of holding Halden against the political cost of abandoning it before allied aid votes.",
+     "onA": "His focus on saving lives is morally compelling, but his 'feint' theory ignores that we are already surrounded with dwindling ammo.",
+     "onB": "He correctly identifies the political and propaganda stakes, yet his refusal to save civilians behind enemy lines seems inhumane given Vostra's record at Orsk.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot yet weigh the moral imperative of evacuation against the strategic necessity of holding a national symbol without knowing more about the specific threat.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn admits bridge loss likely kills civilians; Reese argues holding costs enemy time but risks civilian starvation. Reese's 'dig in' ignores brittle morale and empty shells.",
+     "problem": "Can Kaldmark ethically hold a doomed position to protect Mirov while risking the lives of 6,000 freezing civilians if Vostra breaks its own ceasefire?",
+     "onA": "His moral imperative is sound but his math on civilian survival during a chaotic night withdrawal seems optimistic given drone surveillance.",
+     "onB": "He correctly identifies the strategic cost of losing Mirov, yet his refusal to evacuate civilians contradicts the Red Cross warning about Vostra's track record at Orsk.",
+     "lean": "Quinn Marlow",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Reese's plan demands sacrificing non-combatants for a symbolic victory when intelligence on Vostra's intent is split, making the risk of holding too high.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn warns that drone surveillance makes night withdrawal deadly for civilians; Reese insists holding buys time and aids allies.",
+     "problem": "Must choose between evacuating a frozen civilian population under heavy drone surveillance or holding a symbolic position to protect a strategic reserve while risking their lives.",
+     "onA": "His plan prioritizes the immediate physical survival of thousands of civilians, acknowledging that current withdrawal conditions are too dangerous for non-combatants.",
+     "onB": "He correctly identifies the strategic importance of the reserve but fails to accept the moral reality that holding the town now likely condemns civilians to death or capture.",
+     "lean": "Quinn Marlow",
+     "firmness": "vote",
+     "vote": "Quinn Marlow",
+     "why": "The certainty that Vostra will breach a ceasefire as they did at Orsk makes holding a position with dwindling ammo and surrounded forces an unacceptable gamble for 6,000 innocent lives.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 1,
+   "B": 0,
+   "U": 4
+  },
+  {
+   "A": 3,
+   "B": 2,
+   "U": 0
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 5,
+  "B": 0
+ },
+ "winner": "A",
+ "winnerType": "POP-IDE",
+ "tokens": {
+  "in": 35439,
+  "out": 4477,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 571602001,
+   "attempts": 1,
+   "tokensIn": 1365,
+   "tokensOut": 198,
+   "ms": 5608
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 571602002,
+   "attempts": 1,
+   "tokensIn": 1455,
+   "tokensOut": 218,
+   "ms": 6111
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 571602003,
+   "attempts": 1,
+   "tokensIn": 1458,
+   "tokensOut": 167,
+   "ms": 5313
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 571602004,
+   "attempts": 1,
+   "tokensIn": 1458,
+   "tokensOut": 214,
+   "ms": 5145
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 571602005,
+   "attempts": 1,
+   "tokensIn": 1458,
+   "tokensOut": 209,
+   "ms": 5070
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 571602006,
+   "attempts": 1,
+   "tokensIn": 1458,
+   "tokensOut": 275,
+   "ms": 6606
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 571602007,
+   "attempts": 1,
+   "tokensIn": 1458,
+   "tokensOut": 205,
+   "ms": 4943
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 571602008,
+   "attempts": 1,
+   "tokensIn": 1669,
+   "tokensOut": 167,
+   "ms": 5127
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 571602009,
+   "attempts": 1,
+   "tokensIn": 1817,
+   "tokensOut": 194,
+   "ms": 5814
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 571602010,
+   "attempts": 1,
+   "tokensIn": 1606,
+   "tokensOut": 215,
+   "ms": 6243
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 571602011,
+   "attempts": 1,
+   "tokensIn": 1653,
+   "tokensOut": 264,
+   "ms": 6688
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 571602012,
+   "attempts": 1,
+   "tokensIn": 1648,
+   "tokensOut": 272,
+   "ms": 6811
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 571602013,
+   "attempts": 1,
+   "tokensIn": 1714,
+   "tokensOut": 231,
+   "ms": 5861
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 571602014,
+   "attempts": 1,
+   "tokensIn": 1644,
+   "tokensOut": 218,
+   "ms": 5549
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 571602015,
+   "attempts": 1,
+   "tokensIn": 1976,
+   "tokensOut": 209,
+   "ms": 6176
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 571602016,
+   "attempts": 1,
+   "tokensIn": 2149,
+   "tokensOut": 201,
+   "ms": 5971
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 571602017,
+   "attempts": 1,
+   "tokensIn": 1819,
+   "tokensOut": 213,
+   "ms": 6284
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 571602018,
+   "attempts": 1,
+   "tokensIn": 1914,
+   "tokensOut": 206,
+   "ms": 5746
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 571602019,
+   "attempts": 1,
+   "tokensIn": 1918,
+   "tokensOut": 187,
+   "ms": 5302
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 571602020,
+   "attempts": 1,
+   "tokensIn": 1943,
+   "tokensOut": 218,
+   "ms": 6477
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 571602021,
+   "attempts": 1,
+   "tokensIn": 1859,
+   "tokensOut": 196,
+   "ms": 5528
+  }
+ ],
+ "startedAt": "2026-11-05T00:06:53.535Z",
+ "seconds": 122
+}

@@ -1,0 +1,609 @@
+{
+ "id": "p2-52-TEC-REA-vs-HYB-LIB-salient",
+ "pass": 2,
+ "pairIndex": 52,
+ "seed": 325546,
+ "scenario": "salient",
+ "scenarioVersion": 2,
+ "domain": "military",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-REA",
+  "style": "TEC",
+  "ideology": "REA",
+  "name": "Cameron Holt",
+  "platform": "We must hold Halden for the full seventy-two hours to let engineers build a hidden pontoon crossing before withdrawing.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will emphasize the immediate collapse risk of ammunition versus the certainty of engineering success to sway members fearing a rout."
+   },
+   {
+    "round": 2,
+    "text": "I am countering her emotional appeal by highlighting the technical risk of withdrawing without a ready alternative crossing."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing the guaranteed safety of the pre-built pontoon over the high risk of an unprepared night crossing to force the council away from Casey's gamble."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-LIB",
+  "style": "HYB",
+  "ideology": "LIB",
+  "name": "Casey Rowan",
+  "platform": "We must execute an immediate fighting withdrawal across the bridge tonight to save our soldiers and civilians, then blow the bridge only if Vostra crosses.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I need to frame my withdrawal not as surrender but as the only viable path to victory that honors both humanitarian and strategic imperatives."
+   },
+   {
+    "round": 2,
+    "text": "I am highlighting that Cameron's plan assumes Vostra will wait for our engineering work to finish, which is militarily unrealistic given their offensive momentum."
+   },
+   {
+    "round": 3,
+    "text": "I must dismantle his safety claim by emphasizing the certainty of enemy action versus the uncertain timeline of our engineering, framing immediate withdrawal as the only moral choice for brittle morale."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Cameron Holt",
+   "type": "TEC-REA",
+   "speech": "The President said Halden will not fall, but slogans do not stop bullets. Vostra has massed two divisions and our ammunition lasts only nine days; we cannot risk an artillery barrage destroying our bridge or leaving civilians behind in a failed withdrawal. The staff estimate an attacker needs three times our numbers to take the fortress; this is true. Withdrawing now guarantees losing the brigade, the civilians, and the symbolic victory before allied aid votes. We hold until day three, complete the hidden crossing, then execute a night fighting withdrawal across the new bridge while blowing the old span. This preserves the 4th Brigade, saves the town's population, and denies Vostra a propaganda triumph that would kill our aid package.",
+   "words": 120
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-LIB",
+   "speech": "Imagine Lieutenant Kael's family huddled in that basement while artillery shells find their way through the air. That is Halden today. While holding the line honors a slogan, it sacrifices real people for abstract territory. Our ammunition lasts nine days; morale is brittle; and Vostra has drones watching our every move. If we wait seventy-two hours to build a hidden crossing, we gamble that our artillery holds out against massed enemy divisions while suffering thirty percent or more casualties trying to retreat under fire. Instead, we withdraw tonight by nightfall. We use the darkness to cross before dawn, saving the brigade and evacuating as many civilians as can move. If Vostra advances, we blow the bridge only then to delay them toward Mirov. This choice respects our duty to live people first, not die for a symbol while allies wait in silence.",
+   "words": 142
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Cameron Holt",
+   "type": "TEC-REA",
+   "speech": "Casey, your plan ignores the immediate threat of Vostran artillery. You assume a night withdrawal works, but engineers confirm drones watch the bridge continuously; without a hidden crossing ready, we expose our rear to counter-attack while retreating through open water. Your timeline leaves civilians in the fortress with only nine days of ammo remaining against massed divisions. Withdrawing tonight means abandoning the old bridge before it is blown, allowing Vostra to flood Mirov immediately. We cannot gamble on darkness if artillery can find us by sight or sound. Holding for seventy-two hours ensures the second crossing is operational, guaranteeing a safe retreat and civilian evacuation without sacrificing our brigade's remaining strength in a chaotic river crossing under fire.",
+   "words": 118
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-LIB",
+   "speech": "Cameron, relying on a hidden crossing takes too long. Vostra will not wait for us to finish building; they will attack before our pontoon is ready, trapping civilians inside. Our engineers estimate losses of thirty percent under fire now, but waiting guarantees we lose the brigade entirely if their massed divisions smash through. Blowing the old bridge early denies them immediate access to Mirov anyway. A fighting withdrawal tonight respects the brittle morale our volunteers deserve and saves the people who cannot run. We do not gamble the lives of twenty thousand souls on a construction schedule while drones loom overhead. Pull out now, save the brigade, and protect the civilians by moving before dawn.",
+   "words": 115
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Cameron Holt",
+   "type": "TEC-REA",
+   "speech": "Casey's plan assumes Vostra will pause for our withdrawal, but their drones watch continuously. Withdrawing tonight forces a chaotic river crossing under direct fire before we have an escape route, likely losing the entire brigade and leaving civilians behind with no fallback. My plan holds the fortress until our second bridge is ready in seventy-two hours, guaranteeing a safe night retreat across the pontoon while blowing the old span. This sequence preserves the 4th Brigade's fighting strength, evacuates the maximum number of survivors, and denies Vostra immediate access to Mirov. We cannot gamble twenty thousand lives on darkness alone when we have the capacity to build a guaranteed exit. The math is simple: wait for the bridge, then leave safely.",
+   "words": 120
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-LIB",
+   "speech": "Cameron, your math is flawed because it assumes time exists. Vostra's massed divisions attack in seventy-two hours, but our drones confirm they move on the first hour of darkness. Waiting guarantees we lose the entire brigade and leave civilians behind when our ammunition runs dry. Blowing the old bridge tonight denies them immediate access to Mirov regardless. We cannot gamble twenty thousand lives on a construction schedule that Vostra will not wait for. Our volunteers are already brittle; holding them for another day is not defense, it is execution by artillery. Withdraw now, cross before dawn, and save both our soldiers and the people who refuse to leave.",
+   "words": 108
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Cameron: Hold 72h, build hidden bridge, night withdrawal. Casey: Withdraw tonight by nightfall to save brigade/civilians.",
+     "problem": "Balance the immediate risk of a massed Vostra attack and brittle morale against the strategic necessity of saving the brigade and civilians while denying Vostra a propaganda victory before aid votes.",
+     "onA": "His plan leverages Halden's defensive strength to delay the inevitable, but waiting 72 hours is risky given the potential for Vostra feints or artillery destroying our bridge before we can escape.",
+     "onB": "His humanitarian urgency is compelling and addresses morale directly, yet an immediate withdrawal risks leaving thousands of civilians behind who refuse to move under fire.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Cameron's calculated delay to enable a better escape route and Casey's urgent need to save people now, unsure if waiting is safer than the immediate danger of staying.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Cameron: Hidden bridge ready in 4 days vs immediate attack risk; night retreat risky with drones/counter-attacks. Casey: Waiting traps civilians/brigade if attack comes before bridge; early withdrawal saves lives/morale.",
+     "problem": "The core tension is whether to risk an immediate, chaotic evacuation under drone surveillance (Casey) or wait for a safer engineered escape that may not be ready if Vostra attacks on our timeline (Cameron).",
+     "onA": "His logic regarding the defensive strength of Halden and the certainty of a safe exit via a pre-built bridge is sound, but his assumption that we can hold for 72 hours despite dwindling ammo and brittle morale feels dangerously optimistic given Vostra's massed divisions.",
+     "onB": "He correctly identifies the catastrophic risk of Vostra attacking before the hidden bridge is ready, trapping civilians and annihilating the brigade, making his urgency about saving lives right now more credible than my initial hesitation.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The intelligence split (60% confidence in attack) means waiting is a gamble we cannot afford; losing the brigade entirely and leaving civilians behind due to a slow build-up outweighs the risks of an immediate, difficult withdrawal.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Vostra moves at hour one of darkness; waiting 72h risks ammo expiry and trapping civilians. Blowing old bridge tonight denies Mirov access regardless.",
+     "problem": "Determine whether to evacuate immediately under drone surveillance or wait for a guaranteed exit that may not exist if Vostra attacks early.",
+     "onA": "His logic relies on an unrealistic timeline assuming Vostra will pause for our construction, ignoring the high probability of an immediate attack destroying the bridge and brigade.",
+     "onB": "He correctly identifies that brittle morale and dwindling ammo make holding a gamble; withdrawing now saves lives even if difficult, provided we blow the old bridge first.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "The risk of Vostra attacking within the first few hours is too great to wait for a bridge that might never be finished; immediate evacuation preserves our troops and evacuates civilians before supplies run out.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Cameron: Wait 3 days, build hidden bridge, night withdrawal; preserves brigade/civilians despite risk. Casey: Withdraw tonight to save lives now; accepts civilian displacement but avoids brittle morale collapse.",
+     "problem": "Choose between holding for a symbolic victory with high risk of annihilation versus immediate withdrawal that saves the unit and some civilians but abandons others immediately.",
+     "onA": "His plan strategically maximizes survival chances by securing a new crossing before enemy massing completes, effectively solving the logistical bottleneck.",
+     "onB": "He prioritizes immediate moral clarity by refusing to gamble lives on a 'slogan,' but his plan risks leaving thousands of civilians behind without a guaranteed escape route.",
+     "lean": "Cameron Holt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Cameron's insistence on building the hidden bridge first addresses the most critical vulnerability (the single supply line) and offers the highest probability of saving both the brigade and the civilians simultaneously.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Cameron argues waiting secures a safe exit and denies Mirov access; Casey claims Vostra won't wait for construction and immediate withdrawal saves the brigade now.",
+     "problem": "Balancing the high probability of total annihilation if we wait versus the moral cost and logistical chaos of evacuating civilians immediately under fire.",
+     "onA": "His plan offers a technically superior escape route by building a backup, but relies on engineers completing work before Vostra attacks, which intelligence suggests is unlikely given their massed forces.",
+     "onB": "He correctly identifies that Vostra may not wait, yet his solution of 'pulling out now' leaves civilians behind immediately and risks the brigade being cut off without a guaranteed new exit.",
+     "lean": "Cameron Holt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Even if the construction is tight, losing the entire brigade to annihilation guarantees no future defense or aid negotiation leverage, making the risk of waiting acceptable compared to certain defeat.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Vostra likely attacks immediately rather than waiting; Casey's urgency matches reality but leaves civilians behind now. Cameron's bridge build is ideal but risky if enemy ignores the pause.",
+     "problem": "Balancing the high probability of imminent total annihilation against the moral and strategic cost of abandoning civilians without a guaranteed fallback route tonight.",
+     "onA": "His plan is technically optimal for saving the brigade and maximum lives long-term, but it relies on a dangerous gamble that Vostra will pause their attack to watch engineers build a bridge.",
+     "onB": "He correctly identifies the extreme risk of waiting, yet his solution of immediate withdrawal abandons the vulnerable civilians who refuse to leave, creating a horrific humanitarian failure.",
+     "lean": "Cameron Holt",
+     "firmness": "vote",
+     "vote": "Cameron Holt",
+     "why": "Even if Vostra attacks early, blowing the bridge tonight and having a backup crossing ready in 48 hours still offers the best chance to save both the brigade and most civilians; total annihilation guarantees no future defense, making the risk of waiting the lesser evil.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Cameron: Hold 3 days, build new bridge, fight withdrawal; saves brigade/civilians, avoids failed defense loss. Casey: Withdraw tonight by nightfall; risks leaving non-mobile civilians behind but prioritizes lives now.",
+     "problem": "We must decide whether to gamble on holding the fortress for three days to save everyone via a planned retreat, or withdraw immediately tonight knowing we will inevitably abandon some immobile civilians.",
+     "onA": "His plan maximizes survival chances for both soldiers and civilians by using the time to build an alternate route, but it relies entirely on artillery holding out against massive odds.",
+     "onB": "He correctly identifies the high risk of a failed defense and the impossibility of evacuating all civilians under fire, yet his immediate withdrawal plan accepts the moral cost of leaving the elderly behind.",
+     "lean": "Cameron Holt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The strategic reserve weakness at Mirov makes a failed defense catastrophic, and Cameron's plan offers the only path to save both the brigade and the majority of civilians.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Cameron argues waiting guarantees safe retreat via new bridge; Casey claims Vostra will attack before construction finishes.",
+     "problem": "We must choose between a high-risk immediate withdrawal that abandons immobile civilians or a longer hold that risks the brigade being annihilated if Vostra attacks early.",
+     "onA": "His plan offers the best chance to save everyone but relies critically on engineers succeeding and Vostra not attacking before day three, which seems risky given their massed forces.",
+     "onB": "He correctly identifies the risk of total annihilation if we wait too long, yet his plan accepts the moral failing of abandoning elderly civilians who refuse to move.",
+     "lean": "Cameron Holt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The strategic cost of losing the entire brigade and the fortress (a national symbol) outweighs the tragedy of leaving some civilians behind, as long as a safe extraction route is secured first.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Vostra attacks in first hour of darkness regardless of our wait; immediate withdrawal saves brigade but abandons immobile civilians.",
+     "problem": "We must choose between a high-probability plan that saves soldiers but leaves elderly civilians behind, or a low-probability gamble to save everyone at the risk of total annihilation.",
+     "onA": "His plan logically maximizes survival for both troops and civilians by securing an alternate route, but it relies critically on Vostra not attacking during the construction window despite evidence they will.",
+     "onB": "He correctly identifies the imminent threat to our ammunition and morale, yet his plan accepts a severe moral failing by knowingly abandoning elderly civilians who refuse to move.",
+     "lean": "Cameron Holt",
+     "firmness": "vote",
+     "vote": "Cameron Holt",
+     "why": "The strategic collapse of Mirov and the total loss of the brigade represent a catastrophic failure that outweighs the tragedy of leaving some immobile civilians behind; Cameron's plan offers the only path to preserve our fighting force while still evacuating the majority.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Cameron: Hold to build hidden bridge; withdraw night 3 with new crossing. Casey: Withdraw tonight before dawn; civilians flee as they go.",
+     "problem": "We must choose between holding Halden to save morale and aid votes versus evacuating now while Vostra's massed forces might attack within 72 hours.",
+     "onA": "His plan minimizes immediate casualties by waiting for a defensive advantage, but risks losing the entire brigade if Vostra attacks before we can build the second bridge.",
+     "onB": "He prioritizes saving lives immediately and assumes we can retreat even under fire, though he admits we will likely lose some soldiers in any withdrawal.",
+     "lean": "Cameron Holt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The strategic reserve cannot defend Mirov if we commit it, making an immediate assault risky; waiting for the hidden bridge offers a higher chance of saving both the brigade and more civilians.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Cameron risks total brigade loss and civilian abandonment if Vostra attacks before bridge is ready; Casey accepts some losses to save lives now and deny Mirov quick access.",
+     "problem": "We must decide whether the high risk of a delayed withdrawal (total loss) outweighs the immediate risk of retreating under drone surveillance (partial loss).",
+     "onA": "His plan guarantees civilian evacuation if we hold long enough, but relies on Vostra not attacking within the critical 72-hour window while our ammo dwindles.",
+     "onB": "He correctly identifies that morale and immediate civilian safety require action now, but fears we lose too many soldiers crossing with civilians under fire.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The probability of Vostra attacking before the hidden bridge is ready seems too high given our ammunition limits and brittle morale.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Vostra drones spot movement instantly; holding risks total brigade loss when ammo runs out. Casey admits losses but prioritizes immediate civilian evacuation.",
+     "problem": "We must choose between the high probability of catastrophic failure by waiting (ammo exhaustion, brittle morale) versus certain partial losses during an immediate withdrawal that saves lives.",
+     "onA": "His plan ignores the fragility of our ammunition stockpile and the fact that Vostra will not pause to let us build a bridge, making his 'guaranteed' exit extremely unlikely.",
+     "onB": "He correctly identifies that waiting is effectively a death sentence for the brigade and forces civilians to choose between staying or fleeing under fire.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "Given our ammunition limit of nine days and brittle morale, waiting 72 hours guarantees we will be outgunned before the hidden bridge is ready; an immediate withdrawal sacrifices some but saves the brigade and as many civilians as possible.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Holt wants to build hidden bridge first then withdraw day 3; Casey wants immediate withdrawal tonight. Holt cites ammo limits but dismisses civilian evacuation as impossible; Casey prioritizes evacuating now, accepting some loss risk.",
+     "problem": "Decide whether to hold Halden until a hidden bridge is ready (risking bridge destruction and leaving civilians behind) or withdraw immediately at night (risking casualties against drones but saving lives).",
+     "onA": "His plan logically addresses the ammunition constraint and maximizes civilian survival by ensuring a safe route exists before moving, though he underestimates the immediate danger of waiting for construction.",
+     "onB": "His plea to save people immediately is morally compelling and addresses the 'brittle' morale issue, but it ignores the high likelihood of Vostra spotting the retreat with drones unless the new bridge is ready.",
+     "lean": "Cameron Holt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "While Casey's humanitarian argument is strong, withdrawing without a guaranteed escape route (the new bridge) guarantees the very disaster he fears: losing the brigade and leaving civilians behind if Vostra attacks or blocks the old bridge.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Cameron insists holding builds a safe bridge but risks losing everyone to an attack before it's ready; Casey argues waiting guarantees civilian deaths and brigade destruction if Vostra attacks immediately.",
+     "problem": "Decide if the risk of building a hidden bridge outweighs the certainty of immediate attrition from drone surveillance, artillery, and potential enemy attack within 72 hours.",
+     "onA": "His plan is technically sound for survival only if engineers underestimate Vostran aggression or if the 'hidden' bridge cannot be completed before an inevitable assault.",
+     "onB": "His moral urgency regarding civilians and morale is compelling, yet withdrawing blindly under drone watch seems to invite exactly the chaos he fears without a guaranteed escape route.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The intelligence split (60% confidence of attack) suggests Vostra is likely to strike soon; waiting for a hidden bridge that takes four days leaves us exposed for the full duration, making immediate evacuation under cover of darkness the only way to prevent total encirclement.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Vostra attacks immediately on darkness; waiting 72 hours guarantees ammo exhaustion and civilian capture if bridge isn't ready. Blowing old bridge now denies Mirov access regardless of our retreat timing.",
+     "problem": "Must choose between immediate high-risk withdrawal that saves civilians today vs. risky wait that risks total annihilation before a guaranteed escape route exists.",
+     "onA": "His technical logic regarding the hidden bridge is sound in theory, but it relies on Vostra not attacking immediately while we build, which intelligence suggests they will do.",
+     "onB": "His urgency addresses the brittle morale and imminent threat of losing civilians to capture or bombardment if we wait for an uncertain construction timeline.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "The risk of Vostra striking within the first hour makes waiting for a hidden bridge too dangerous; immediate withdrawal denies them Mirov while saving lives before our ammunition runs out.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 4,
+   "B": 0,
+   "U": 1
+  },
+  {
+   "A": 2,
+   "B": 3,
+   "U": 0
+  },
+  {
+   "A": 2,
+   "B": 3,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 2,
+  "B": 3
+ },
+ "winner": "B",
+ "winnerType": "HYB-LIB",
+ "tokens": {
+  "in": 35921,
+  "out": 4626,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 325546001,
+   "attempts": 1,
+   "tokensIn": 1356,
+   "tokensOut": 212,
+   "ms": 5965
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 325546002,
+   "attempts": 1,
+   "tokensIn": 1423,
+   "tokensOut": 248,
+   "ms": 6809
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 325546003,
+   "attempts": 1,
+   "tokensIn": 1514,
+   "tokensOut": 227,
+   "ms": 6350
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 325546004,
+   "attempts": 1,
+   "tokensIn": 1514,
+   "tokensOut": 222,
+   "ms": 5400
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 325546005,
+   "attempts": 1,
+   "tokensIn": 1514,
+   "tokensOut": 243,
+   "ms": 5922
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 325546006,
+   "attempts": 1,
+   "tokensIn": 1514,
+   "tokensOut": 218,
+   "ms": 5272
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 325546007,
+   "attempts": 1,
+   "tokensIn": 1514,
+   "tokensOut": 261,
+   "ms": 6304
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 325546008,
+   "attempts": 1,
+   "tokensIn": 1713,
+   "tokensOut": 178,
+   "ms": 5415
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 325546009,
+   "attempts": 1,
+   "tokensIn": 1852,
+   "tokensOut": 179,
+   "ms": 5487
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 325546010,
+   "attempts": 1,
+   "tokensIn": 1672,
+   "tokensOut": 291,
+   "ms": 8345
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 325546011,
+   "attempts": 1,
+   "tokensIn": 1666,
+   "tokensOut": 226,
+   "ms": 6408
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 325546012,
+   "attempts": 1,
+   "tokensIn": 1688,
+   "tokensOut": 213,
+   "ms": 5747
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 325546013,
+   "attempts": 1,
+   "tokensIn": 1663,
+   "tokensOut": 207,
+   "ms": 5586
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 325546014,
+   "attempts": 1,
+   "tokensIn": 1704,
+   "tokensOut": 244,
+   "ms": 6486
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 325546015,
+   "attempts": 1,
+   "tokensIn": 2026,
+   "tokensOut": 193,
+   "ms": 5796
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 325546016,
+   "attempts": 1,
+   "tokensIn": 2167,
+   "tokensOut": 177,
+   "ms": 5439
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 325546017,
+   "attempts": 1,
+   "tokensIn": 1932,
+   "tokensOut": 208,
+   "ms": 6188
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 325546018,
+   "attempts": 1,
+   "tokensIn": 1862,
+   "tokensOut": 229,
+   "ms": 6578
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 325546019,
+   "attempts": 1,
+   "tokensIn": 1871,
+   "tokensOut": 223,
+   "ms": 6387
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 325546020,
+   "attempts": 1,
+   "tokensIn": 1839,
+   "tokensOut": 217,
+   "ms": 6258
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 325546021,
+   "attempts": 1,
+   "tokensIn": 1917,
+   "tokensOut": 210,
+   "ms": 6102
+  }
+ ],
+ "startedAt": "2026-11-05T01:09:47.138Z",
+ "seconds": 128
+}

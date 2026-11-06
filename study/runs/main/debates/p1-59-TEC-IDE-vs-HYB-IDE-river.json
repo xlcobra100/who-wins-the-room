@@ -1,0 +1,609 @@
+{
+ "id": "p1-59-TEC-IDE-vs-HYB-IDE-river",
+ "pass": 1,
+ "pairIndex": 59,
+ "seed": 750826,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-IDE",
+  "style": "TEC",
+  "ideology": "IDE",
+  "name": "Reese Calder",
+  "platform": "Merova must sign a twenty-year power contract with Saradan to halt the rapid reservoir filling, thereby securing our water supply while upgrading our grid and accepting temporary costs for moral leadership.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize the economic necessity of the deal to win votes from ministers concerned about industrial output and energy prices, while subtly mocking Jamie's reliance on a dysfunctional Regional Union."
+   },
+   {
+    "round": 2,
+    "text": "Exposing the risk of relying on a failed mediation precedent and emphasizing that the contract is the only guarantee against Saradan's refusal to cooperate until paid."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing that the opponent's idealistic scientific solution requires time we cannot afford given Saradan's current refusal to negotiate releases until they have economic security."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-IDE",
+  "style": "HYB",
+  "ideology": "IDE",
+  "name": "Jamie Okafor",
+  "platform": "We must reject Saradan's take-or-pay contract and instead pursue a joint water management framework within the Regional Union that prioritizes equitable release schedules before any reservoir filling begins.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to the ministers' sense of moral duty regarding climate refugees and food security to counter any purely economic arguments."
+   },
+   {
+    "round": 2,
+    "text": "I am reframing the power contract not as a strategic hedge but as a surrender of sovereignty, using the immediate threat of their election and our agricultural leverage to pressure them toward genuine negotiation."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing the moral hazard of funding Saradan's political gain while risking Merova's agricultural collapse, aiming to sway ministers who fear long-term dependency."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Reese Calder",
+   "type": "TEC-IDE",
+   "speech": "My plan requires Merova to sign Saradan's twenty-year power purchase agreement immediately. This single action forces a seven-year fill schedule, reducing river diversion from twenty-five percent to ten percent over time. While Jamie proposes equitable release schedules first, Saradan refuses pre-filling talks without economic guarantees. Our army is superior; we could threaten force, but that invites Tarsun intervention and destabilizes our region. Buying their power closes our coal plants, pays for the delay, and funds climate adaptation. Short-term costs are necessary to prevent irreversible downstream damage to our forty percent of farmers. We must choose the difficult path that secures long-term survival over immediate political posturing.",
+   "words": 106
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-IDE",
+   "speech": "Imagine a family in our agricultural sector waking up to find their wells dry because a distant dam filled too fast. That is our reality if we accept Saradan's demand for guaranteed power purchases first. While twenty percent higher energy costs hurt us now, they are a small price to pay for survival. We cannot trade our water rights for cheap electricity while half our children face brownouts. Instead of a rigid contract or legal stalemate, let the Regional Union build a joint water management system. Science shows coordinated releases could recover half the lost river flow. This honors our duty to future generations and our farmers alike. We will accept short-term costs to build a community defined by justice, not exploitation. Vote for a plan that fills the reservoir together, fairly.",
+   "words": 132
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Reese Calder",
+   "type": "TEC-IDE",
+   "speech": "Jamie advocates for a joint water management system based on science, claiming it could recover half our losses. While efficient, this ignores Saradan's explicit refusal to discuss releases until they have financial security. Their plan requires us to fund their power plant while waiting years to negotiate shared rules they will likely ignore, as seen in the failed fishing dispute. Signing the contract is not exploitation; it is a strategic investment that buys time for our farmers while upgrading our grid. Jamie's approach risks immediate agricultural collapse by trusting an uncooperative neighbor. The power deal secures our water flow and energy independence simultaneously. We must act on known economic leverage before climate realities make adaptation impossible.",
+   "words": 116
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-IDE",
+   "speech": "Reese frames our power deal as security, but it is actually surrender. Signing their contract does not grant us control over releases; it only cedes leverage to a neighbor facing an election who needs our grain less than we need their water now. Their fear of collapse ignores science: joint management recovers half the loss without waiting seven years for a reservoir that will inevitably evaporate. By refusing the take-or-pay trap, we force Saradan to negotiate fair release schedules before filling begins, rather than locking ourselves into debt while they hoard our lifeblood. We cannot buy our way into a partnership built on exploitation. Let us build justice together now, not trade our future for cheap electricity that does not return our water.",
+   "words": 123
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Reese Calder",
+   "type": "TEC-IDE",
+   "speech": "The Regional Union failed us once; relying on their mediation again risks repeating that delay while our farmers drown. Jamie argues for joint management, yet Saradan explicitly refuses negotiations without financial guarantees. Science promises recovery only if we secure the time to negotiate it. Our contract forces a seven-year fill schedule, directly translating to twenty-five percent less immediate diversion and ten percent long-term loss. We pay a premium for power to buy that critical decade. Without this economic leverage, we face irreversible damage within eighteen months. The cost of electricity is known; the cost of lost agriculture and displacement is unknown but catastrophic. We must sign now to survive, not wait for a neighbor who needs our grain less than we need their water more.",
+   "words": 125
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-IDE",
+   "speech": "Reese, buying their power does not secure our water; it merely funds their reservoir while we wait. You argue the contract buys time, but it locks us into a debt that Saradan will exploit before they even fill the dam. Your strategy cedes control of our lifeline to a neighbor facing an election, turning our farmers into cash cows for their political survival. Yet science offers a better path: joint management recovers half our losses immediately. We cannot trade our water rights for electricity that comes at the cost of our future. Let us reject this take-or-pay trap and build a framework where equity guides our flow, not a contract signed in fear. Vote for the plan that honors our duty to the vulnerable and secures a just partnership, not a permanent lease on our survival.",
+   "words": 136
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese prioritizes immediate power deal to force delay; risks high energy costs and farmer pain. Jamie proposes joint water management via Regional Union; relies on science for flow recovery.",
+     "problem": "Merova must secure enough river water for its farmers without triggering regional conflict, balancing the need for delayed reservoir filling against costly electricity imports or legal stalemates.",
+     "onA": "His plan solves the immediate water crisis by forcing a schedule delay but imposes severe economic costs on our agricultural sector and increases dependence on Saradan's power.",
+     "onB": "Her reliance on joint management is scientifically sound and just, but her skepticism of international mediation based on past failures makes me worry about implementation delays or failure to comply with the agreement.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am conflicted between Reese's pragmatic solution to stop the water loss immediately versus Jamie's scientifically backed but potentially fragile diplomatic approach given the Regional Union's poor track record.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese argues power deal buys time and energy independence; Jamie warns it surrenders leverage to an election-driven neighbor.",
+     "problem": "Merova must secure immediate river flow for agriculture without ceding political leverage to a neighbor who may ignore treaties, balancing short-term economic survival against long-term strategic autonomy.",
+     "onA": "His plan offers immediate relief by forcing a delay, but relying on expensive power imports and accepting a 'take-or-pay' contract risks long-term exploitation and farmer pain.",
+     "onB": "She correctly identifies that buying power doesn't guarantee water access, yet her skepticism of the Regional Union ignores the potential for science-based cooperation despite past diplomatic failures.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between Reese's urgent economic leverage and Jamie's scientifically sound but politically fragile approach to joint management.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese buys time but locks us into expensive debt; Jamie's joint management recovers half losses scientifically.",
+     "problem": "We must secure immediate water flow for agriculture without ceding long-term strategic control to a neighbor facing an election.",
+     "onA": "His plan offers critical survival time by delaying the dam fill, but risks permanent economic exploitation and high energy costs.",
+     "onB": "Her scientific approach recovers half our losses immediately, yet her skepticism of the Regional Union ignores the potential for a breakthrough after their past failure.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "We cannot afford to wait years for negotiations with an election-bound neighbor who has no incentive to cooperate; buying time now saves our farmers despite the higher energy cost.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese wants immediate power deal for delay; Jamie wants joint management for flow recovery.",
+     "problem": "Balancing the need to slow Saradan's dam filling against the risk of economic dependency and short-term farmer hardship.",
+     "onA": "His plan guarantees a delay by buying power, but risks making Merova dependent on Saradan's grid and ignoring climate solutions.",
+     "onB": "She proposes a scientifically backed solution that recovers lost flow, yet she underestimates how difficult it is to get Saradan to negotiate without upfront payments.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I prefer Jamie's scientific approach because her plan actually addresses the climate crisis rather than just delaying the inevitable with economic leverage.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese argues power deal buys time and energy; Jamie claims it's surrender ignoring leverage. Joint management ignores Saradan's refusal to discuss releases.",
+     "problem": "Balancing immediate agricultural survival against long-term climate adaptation while navigating an uncooperative neighbor facing a domestic election.",
+     "onA": "His plan secures our farmers' income and energy independence, but locks us into debt and ignores the root cause of water loss.",
+     "onB": "Her scientific solution is ideal but impractical as it assumes Saradan will negotiate fairly, which their recent actions suggest they won't.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of immediate agricultural collapse under Jamie's scenario outweighs the long-term benefits of her plan given Saradan's current hostility.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Power deal buys critical time; joint management requires Saradan's cooperation which is currently absent.",
+     "problem": "We must secure immediate agricultural survival against an uncooperative neighbor while managing the risk of long-term dependency.",
+     "onA": "His plan accepts a temporary economic cost to guarantee our farmers' livelihood and prevents irreversible damage before a climate-adapted solution can be negotiated.",
+     "onB": "Her scientific idealism is undermined by Saradan's election-year populism and refusal to negotiate without financial guarantees, risking immediate crisis.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "Given Saradan's hostility and election-driven rigidity, we cannot afford the luxury of waiting for joint management; buying time now is the only way to ensure our farmers survive until a better deal is possible.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese: Power deal slows fill to 7 yrs; Jamie: Joint management recovers half flow. Tarsun pressure noted.",
+     "problem": "Merova must balance immediate agricultural survival against energy security and climate threats while Saradan refuses pre-filling negotiations without economic guarantees.",
+     "onA": "His plan solves the water crisis by slowing the dam fill but risks long-term financial strain from high electricity costs.",
+     "onB": "Her reliance on scientific joint management is sound in theory, yet it fails if Saradan refuses talks until money is exchanged first.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jamie's preferred path is blocked by Saradan's current refusal to talk without a contract, making Reese's 'difficult path' the only realistic immediate option.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese: Deal buys time for farmers but creates long-term debt; Jamie: Contract is surrender forcing negotiation only after water is hoarded.",
+     "problem": "The core conflict is choosing between a costly, binding economic deal that secures water flow immediately versus a principled stance on joint management that risks immediate agricultural collapse due to Saradan's current refusal to negotiate releases.",
+     "onA": "Reese's plan is financially risky but pragmatically necessary right now because Saradan will not discuss water releases without financial guarantees first.",
+     "onB": "Jamie correctly identifies the moral hazard of the deal but underestimates the immediate threat of crop failure if we cannot force a negotiation before the reservoir fills.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jamie's idealistic approach is blocked by Saradan's election-driven rigidity, making Reese's difficult path the only option to prevent immediate humanitarian disaster.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Contract buys critical time for agriculture; joint management fails without Saradan's cooperation.",
+     "problem": "We must secure an immediate seven-year buffer to save our farms before a diplomatic breakthrough becomes possible.",
+     "onA": "His plan is the only pragmatic choice that guarantees survival despite high costs and long-term debt.",
+     "onB": "Her idealistic vision of equity collapses if Saradan refuses talks until we sign the deal first.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "Signing now provides the necessary time to negotiate joint management later, whereas waiting for a perfect partnership guarantees immediate crop failure.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese prioritizes economic gain and forced delay via power contract; Jamie prioritizes water justice and joint management. Both acknowledge the threat of Tarsun intervention and climate risks.",
+     "problem": "Merova must decide whether to accept Saradan's economic conditions to legally delay filling or pursue a cooperative water management scheme that respects downstream rights despite potential short-term friction.",
+     "onA": "Reese offers a pragmatic, economically sound solution that guarantees our water flow reduction is minimized by forcing a slow fill schedule tied to profitable power deals.",
+     "onB": "Jamie's call for joint management and justice resonates morally but risks being ignored by Saradan without strong enforcement mechanisms or immediate concessions.",
+     "lean": "Reese Calder",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate need to guarantee a reduced water diversion (from 25% to 10%) outweighs the idealistic appeal of joint management, which lacks a concrete enforcement strategy against an uncooperative Saradan.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese argues contract buys time and minimizes loss; Jamie claims it is surrender without control.",
+     "problem": "Can we secure our water flow by buying time through an economic deal with an uncooperative neighbor, or must we risk immediate friction to demand shared management?",
+     "onA": "His plan offers a concrete mechanism to slow the fill and upgrade our grid, but relies entirely on Saradan honoring the new seven-year timeline.",
+     "onB": "She correctly identifies the power deal as a loss of leverage, yet her refusal to engage risks immediate agricultural collapse before any scientific solution can be implemented.",
+     "lean": "Reese Calder",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Despite Jamie's moral appeal, I still believe we cannot afford the immediate economic hit of refusing the deal, provided Reese's timeline guarantee holds.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese's contract locks us into a debt that funds their reservoir regardless of water delivery. Jamie ignores the immediate agricultural collapse we face before any joint management can be tested.",
+     "problem": "We must secure an immediate legal guarantee to slow the dam filling to prevent catastrophic agricultural loss, as Saradan has no incentive to honor cooperative scientific solutions without financial leverage.",
+     "onA": "Reese correctly identifies that buying time via a power contract is the only mechanism to force a slower fill schedule and protect our farmers from immediate collapse.",
+     "onB": "Jamie's moral appeal to justice and cooperation is valid but fails in practice because Saradan will not honor joint management without enforceable economic pressure.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "The contract is the only lever we have to force Saradan to adopt a seven-year fill timeline; waiting for 'justice' or unenforceable mediation guarantees immediate disaster for our economy.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese prioritizes power deal for delay; Jamie pushes joint water management. Reese ignores immediate farmer impact; Jamie acknowledges energy cost but focuses on long-term survival.",
+     "problem": "Merova must balance securing its downstream water rights against the economic temptation of buying Saradan's electricity while maintaining agricultural stability.",
+     "onA": "Reese's plan effectively secures water by leveraging power as a lever, but it risks alienating our own farming sector and creating long-term dependency on an authoritarian neighbor.",
+     "onB": "Jamie's vision of joint management is scientifically sound for climate adaptation, yet it lacks immediate enforcement mechanisms against Saradan's current refusal to negotiate.",
+     "lean": "Reese Calder",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Reese's strategy offers an immediate mechanism to force a delay in filling, which seems necessary given Saradan's current intransigence and the high stakes for our farmers.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese frames contract as buying time; Jamie argues it's surrendering leverage for non-existent water control.",
+     "problem": "The core tension is whether to trade immediate economic stability (power deal) to buy delayed negotiation, or reject the deal entirely and risk short-term agricultural pain for long-term scientific efficiency that Saradan currently refuses.",
+     "onA": "Reese's plan offers necessary time but relies on a neighbor who may ignore future agreements, creating a false sense of security based on financial leverage rather than actual water rights.",
+     "onB": "Jamie's science is sound and morally strong, but his dismissal of the immediate threat ignores the reality that Saradan will fill the dam anyway unless forced financially first.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Even if the power deal is a compromise, it prevents total agricultural collapse while we figure out how to enforce water rights against an uncooperative regime.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Power deal buys immediate time but locks us into debt and dependency.",
+     "problem": "We must choose between risking immediate agricultural collapse for a distant scientific ideal or accepting financial leverage to survive the current crisis while building long-term solutions.",
+     "onA": "Reese correctly identifies that joint management is useless without enforcing a delay, prioritizing our farmers' survival over abstract equity.",
+     "onB": "Jamie's moral stance on not paying for Saradan's political gain ignores the reality that we will lose half our water anyway if we wait.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "We need a guaranteed delay to prevent catastrophe now, even if it requires paying a premium and risking future dependency.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 3,
+   "B": 1,
+   "U": 1
+  },
+  {
+   "A": 4,
+   "B": 0,
+   "U": 1
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 5,
+  "B": 0
+ },
+ "winner": "A",
+ "winnerType": "TEC-IDE",
+ "tokens": {
+  "in": 32158,
+  "out": 4148,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 750826001,
+   "attempts": 1,
+   "tokensIn": 1185,
+   "tokensOut": 229,
+   "ms": 6314
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 750826002,
+   "attempts": 1,
+   "tokensIn": 1292,
+   "tokensOut": 224,
+   "ms": 6380
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 750826003,
+   "attempts": 1,
+   "tokensIn": 1333,
+   "tokensOut": 223,
+   "ms": 6579
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 750826004,
+   "attempts": 1,
+   "tokensIn": 1333,
+   "tokensOut": 180,
+   "ms": 4348
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 750826005,
+   "attempts": 1,
+   "tokensIn": 1333,
+   "tokensOut": 191,
+   "ms": 4606
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 750826006,
+   "attempts": 1,
+   "tokensIn": 1333,
+   "tokensOut": 226,
+   "ms": 5467
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 750826007,
+   "attempts": 1,
+   "tokensIn": 1333,
+   "tokensOut": 212,
+   "ms": 5157
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 750826008,
+   "attempts": 1,
+   "tokensIn": 1531,
+   "tokensOut": 179,
+   "ms": 5344
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 750826009,
+   "attempts": 1,
+   "tokensIn": 1665,
+   "tokensOut": 197,
+   "ms": 5878
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 750826010,
+   "attempts": 1,
+   "tokensIn": 1516,
+   "tokensOut": 201,
+   "ms": 5877
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 750826011,
+   "attempts": 1,
+   "tokensIn": 1474,
+   "tokensOut": 189,
+   "ms": 5202
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 750826012,
+   "attempts": 1,
+   "tokensIn": 1484,
+   "tokensOut": 216,
+   "ms": 5847
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 750826013,
+   "attempts": 1,
+   "tokensIn": 1518,
+   "tokensOut": 194,
+   "ms": 5367
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 750826014,
+   "attempts": 1,
+   "tokensIn": 1503,
+   "tokensOut": 218,
+   "ms": 5907
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 750826015,
+   "attempts": 1,
+   "tokensIn": 1843,
+   "tokensOut": 190,
+   "ms": 5710
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 750826016,
+   "attempts": 1,
+   "tokensIn": 1986,
+   "tokensOut": 203,
+   "ms": 6007
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 750826017,
+   "attempts": 1,
+   "tokensIn": 1714,
+   "tokensOut": 174,
+   "ms": 5259
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 750826018,
+   "attempts": 1,
+   "tokensIn": 1660,
+   "tokensOut": 183,
+   "ms": 5475
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 750826019,
+   "attempts": 1,
+   "tokensIn": 1696,
+   "tokensOut": 144,
+   "ms": 4595
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 750826020,
+   "attempts": 1,
+   "tokensIn": 1709,
+   "tokensOut": 211,
+   "ms": 6180
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 750826021,
+   "attempts": 1,
+   "tokensIn": 1717,
+   "tokensOut": 164,
+   "ms": 5019
+  }
+ ],
+ "startedAt": "2026-11-04T23:58:30.764Z",
+ "seconds": 117
+}

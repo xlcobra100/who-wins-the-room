@@ -1,0 +1,609 @@
+{
+ "id": "p3-02-POP-REA-vs-POP-IDE-dam",
+ "pass": 3,
+ "pairIndex": 2,
+ "seed": 279466,
+ "scenario": "dam",
+ "scenarioVersion": 2,
+ "domain": "political",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "POP-REA",
+  "style": "POP",
+  "ideology": "REA",
+  "name": "Robin Castell",
+  "platform": "We must immediately lower the reservoir to thirty percent, install a new spillway, and prepare to move Riverside if needed rather than gamble on failing outsiders.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Frame any plan that relies on grants, lawsuits, or relocation as reckless gambles with lives and jobs."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking his reliance on unreliable external funding and legal delays while emphasizing the immediate, non-negotiable threat of death in Riverside to force a vote for my plan."
+   },
+   {
+    "round": 3,
+    "text": "I must frame Cameron's reliance on external aid and Nordhalm as a direct threat to immediate survival, forcing voters to choose between his expensive gamble and my urgent, self-reliant action before the spring melt."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-IDE",
+  "style": "POP",
+  "ideology": "IDE",
+  "name": "Cameron Holt",
+  "platform": "We must accept government grants to ban new homes in the flood zone and rebuild the dam now, rejecting any permanent lowering that destroys our power grid and kills jobs.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal directly to Riverside residents and mill workers by framing the reservoir lowering as an economic death sentence, while attacking Robin's reliance on unstable outsiders."
+   },
+   {
+    "round": 2,
+    "text": "I will dismantle her economic arguments by framing the temporary cost of rebuilding as a necessary investment that preserves our essential power grid and local employment, while subtly accusing her of abandoning the vulnerable to satisfy corporate interests."
+   },
+   {
+    "round": 3,
+    "text": "Appeal directly to the residents' practical fears about utility jobs and bus funding rather than abstract probabilities, while framing the permanent lowering as an immediate betrayal of Riverside families."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "POP-REA",
+   "speech": "Look at that table. Look at your kitchen. The dam leaks three-tenths more than last year. If it bursts, half the town drowns in ninety minutes. Experts talk about probabilities; we talk about families dying. The national government wants to freeze your property values. Nordhalm will close our factory if we don't feed their machines. Ostbrück will sue us before we finish. We cannot wait on promises. Lowering the water costs twenty-five million now instead of three hundred forty later. It buys us time. It saves jobs. But it also hurts power, so we must act fast while we still can. Do not trust the state engineers to fix this in four years. Trust what you see: a leaking wall behind your bedroom window. We cut risk today or flood tomorrow.",
+   "words": 131
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Cameron Holt",
+   "type": "POP-IDE",
+   "speech": "Look at Riverside. Look at the family waiting for hydro power to heat their home. Robin wants to lower the reservoir. That cuts our power. It closes the paper mill. That means lost wages for parents right now. And it leaves us dependent on a failing foreign agreement. Is that courage? Or is it surrender to panic? We cannot gamble with forty thousand lives by accepting less power and freezing property values for families who bought homes in good faith. The state offers help, but only if we stand together. I propose we ban new development to secure those grants, then rebuild the dam fully. We keep the lights on. We keep our jobs. We do not let fear dictate a future that is safe, strong, and fair for everyone.",
+   "words": 130
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "POP-REA",
+   "speech": "Cameron paints a picture of stability, but his plan is a house of cards. You want grants from a distant government that will vanish when they hear about our debt. You want Nordhalm's money while threatening their workers with closure? That is not strength; that is begging. Your 'rebuild' costs three hundred forty million and takes four years. In four years, the dam bursts. Sixty percent of the town drowns. Riverside residents are old and poor; they will die waiting for your 'safe future.' Do you really trust a court system that already blocked our cheaper fix to let us gamble with lives? Stop hiding behind foreign agreements and national grants. Lower the water now, build the spillway, and spend what we have before the spring melt swallows us all.",
+   "words": 130
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Cameron Holt",
+   "type": "POP-IDE",
+   "speech": "Robin, you speak of fear, but I speak of facts. You claim rebuilding is a gamble, yet your quick-fix plan cuts our power in half and kills the jobs at the paper mill that feeds this town today. You call my plan begging for grants, but those funds come with conditions we must meet anyway: banning new homes to protect families who bought them honestly. If you lower the water now, Nordhalm closes, Riverside starves without heating, and we lose our independence to foreign corporations. We do not surrender to panic by freezing property values. We stand tall, accept the grant, and rebuild the dam fully so every Valmorian, from the factory worker to the elderly in Riverside, can sleep soundly knowing their future is secure and ours will be built on strength, not fear.",
+   "words": 135
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "POP-REA",
+   "speech": "Cameron wants us to gamble our lives on a foreign corporation that has already signed our death warrant. He bets on national grants that will vanish when they see our debt. You call his plan strength, but he is building a house of cards on borrowed time. If we keep the water high, the dam holds until next spring, only to burst in four years when his rebuild costs triple what it should. Riverside families die waiting for a safety net that never comes because we refuse to spend twenty-five million now. Do not trust the courts. Do not trust the state engineers. Look at that leaking wall behind your bedroom window. It does not wait for grants or permission. Lower the water today. Install the spillway. Save the jobs, keep the power, and let Riverside live instead of waiting for the flood to take them.",
+   "words": 146
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Cameron Holt",
+   "type": "POP-IDE",
+   "speech": "Robin asks us to gamble with forty thousand lives on a foreign corporation that has already written us off. You want to lower the water today because you fear a court order, but look at Riverside. The elderly families there are not waiting for grants; they need heat and power right now. Your quick fix kills our utility profits, freezing out free bus rides for our workers. My plan stands firm: we accept the national grant, ban new homes to protect those who bought in good faith, and rebuild the dam fully. We will not let fear dictate our future. We will not surrender our independence or freeze our economy. We choose strength over panic. Choose a safety net that lasts decades, not months. Vote for a Valmora that stands tall for everyone.",
+   "words": 133
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: Lowering costs €25M now but cuts power/mill jobs; risk remains. Cameron: Full rebuild keeps power/jobs but needs government grant requiring halting new homes.",
+     "problem": "We must choose between immediate, cheaper mitigation that sacrifices local industry and income versus a full rebuild that preserves prosperity but requires freezing property values and faces legal/financial hurdles.",
+     "onA": "Robin's plan is financially safer short-term and keeps the mill open, but accepting reduced power and leaving the dam still vulnerable feels like gambling with lives for money.",
+     "onB": "Cameron's plan preserves our economy and electricity by rebuilding, yet the requirement to ban new homes strikes at the heart of community fairness and property rights.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Robin's pragmatic need to act fast with limited funds versus Cameron's promise to protect our long-term economy without penalizing existing homeowners.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin warns grants are unreliable and Riverside dies waiting; Cameron argues Robin's plan kills jobs and independence.",
+     "problem": "We must choose between immediate action that sacrifices long-term economic stability or a costly rebuild that risks political/legal failure while protecting our economy.",
+     "onA": "Robin rightly exposes the fragility of relying on foreign corporations and uncertain government grants, but lowering the water to 30% still leaves us vulnerable if Ostbrück sues.",
+     "onB": "Cameron effectively defends rebuilding as the only way to secure our future without losing our jobs or independence, though his refusal to acknowledge the legal block remains a major hurdle.",
+     "lean": "Cameron Holt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain wary of the court blocking Cameron's work, yet I am less convinced than Robin that we should accept closing the mill and halting power just to avoid legal challenges.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin fears courts/grants; Cameron fears Riverside poverty. Both admit dam is failing now.",
+     "problem": "We must choose between a quick fix that sacrifices industry and power or a full rebuild that requires freezing property values but secures long-term safety.",
+     "onA": "His plan saves money today but leaves the town economically crippled, vulnerable to lawsuits, and dependent on uncertain foreign corporations.",
+     "onB": "He correctly identifies that our economy and electricity are essential, yet his refusal to acknowledge the legal block on lowering water makes his plan currently impossible.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "Despite the high cost of a full rebuild, Robin's immediate spillway is the only option that keeps the mill open while allowing us time to navigate legal hurdles or find alternative funding before spring melt.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: Leak worsening, immediate risk of flood/closure; lower water for time. Cameron: Rebuild with grants freezes property, hurts jobs/power; trust collective action.",
+     "problem": "Valmora must choose between immediate mitigation (lowering the reservoir) that causes severe economic damage or a full rebuild funded by grants requiring freezing development and facing upstream legal threats.",
+     "onA": "Robin's urgency regarding the leak is alarming, but relying solely on lowering water ignores the guaranteed loss of power revenue and factory jobs needed now.",
+     "onB": "Cameron's refusal to lower the reservoir risks a catastrophic flood within months if the rebuild isn't finished before spring, which seems like gambling with lives.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am stuck between Robin's valid fear of an imminent breach and Cameron's valid concern that lowering the water destroys the town's economy before safety is secured.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin: Grant money is unreliable; legal block on spillway might not apply if we act fast enough; immediate action saves lives. Cameron: Lowering water kills the paper mill and halves power revenue, creating a budget crisis before the rebuild starts.",
+     "problem": "I must choose between Robin's risky path of immediate economic destruction to save lives now versus Cameron's path of maintaining our economy while betting on a government grant and legal victory that might not exist.",
+     "onA": "Robin correctly identifies that waiting for grants or fighting courts is dangerous if the dam breaks this spring, but his solution still risks closing the factory and losing power revenue immediately.",
+     "onB": "Cameron's argument that lowering water kills our economy is strong, yet his reliance on an uncertain government grant and a lawsuit against Ostbrück makes his 'safe' plan potentially fatal if it fails.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Robin's emphasis on the immediacy of the threat is compelling, but Cameron's warning that lowering water destroys our livelihood before safety is achieved remains valid.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin's urgency is real but killing our economy now. Cameron's full rebuild is expensive and grants are unreliable.",
+     "problem": "We must balance the immediate risk of a spring flood against the certain destruction of our local economy caused by lowering the reservoir.",
+     "onA": "His plan saves lives immediately but sacrifices our power revenue, jobs, and free buses to fix a problem that might not happen this spring.",
+     "onB": "He ignores the imminent threat to Riverside residents and bets on uncertain foreign grants and legal victories while destroying our current livelihoods.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "The risk of dam failure before next spring is too high to gamble with, even if it means accepting short-term economic pain. Saving 14,000 lives in Riverside now is a better trade-off than risking a catastrophic flood that no amount of future rebuilding can fix.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin prioritizes immediate risk reduction via lowering water; Cameron prioritizes jobs, power stability, and avoiding property freezes/grant conditions.",
+     "problem": "Valmora must immediately balance the high probability of dam failure against the severe economic consequences of reducing hydro power or freezing development.",
+     "onA": "Robin's focus on immediate physical safety is urgent given the snowpack and leaks, but their plan risks closing the largest employer and destroying utility profits needed for public services.",
+     "onB": "Cameron correctly highlights the devastating economic impact of Robin's proposal, but relying solely on rebuilding without addressing the imminent failure risk or legal barriers to lowering water seems dangerously optimistic.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between the undeniable physical threat Robin describes and the catastrophic economic blow Cameron warns about; I need more data on whether the rebuilding timeline is realistic before choosing a side.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin prioritizes immediate survival despite economic collapse; Cameron insists on rebuilding and accepting grants to preserve jobs and power.",
+     "problem": "Valmora must choose between the certain economic ruin of Robin's plan or the catastrophic physical failure risk if Cameron's optimistic rebuild fails before the spring melt.",
+     "onA": "Robin argues correctly that relying on courts and foreign companies is dangerous, but their proposal to halve hydro power permanently seems like a death sentence for our public services.",
+     "onB": "Cameron highlights that losing the paper mill and utility profits destroys the town's ability to function, yet his reliance on a potentially blocked court order and distant grants feels reckless given the rising failure probability.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn because Robin risks drowning us while Cameron risks starving our essential services, leaving me unable to trust either path fully yet.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin pushes immediate spillway to stop failure risk and save Riverside; Cameron insists on full rebuild/grants despite legal delays and economic costs.",
+     "problem": "Valmora must choose between the certainty of imminent dam failure or the certainty of long-term economic collapse from losing power and jobs.",
+     "onA": "Robin's plan is the only one that prevents an immediate disaster in five months, even if it means sacrificing our utility for now.",
+     "onB": "Cameron ignores the physics of a failing dam and bets on foreign corporations and delayed grants to save an economy built on shaky foundations.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "I must prioritize saving lives this spring over preserving jobs that cannot exist if the town is underwater, making Robin's risky but necessary fix the only viable option.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: Immediate cheap fix lowers risk but kills jobs/power. Cameron: Rebuilds economy and safety but denies national grant money needed.",
+     "problem": "Valmora must choose between a quick, cheaper dam fix that harms its economy or a full rebuild funded by banning new homes that preserves jobs.",
+     "onA": "I am drawn to the urgency of her plan since immediate failure is likely and it avoids freezing property values for thousands.",
+     "onB": "His promise of economic stability is appealing, but his reliance on a foreign company's goodwill and refusal of national aid seems risky given our debt.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The threat of dam failure happening within months outweighs the long-term economic gains Cameron offers, making the cheaper immediate fix necessary.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin: quick fix kills jobs/power; Cameron: grants have conditions we must meet anyway; rebuild stands on strength not fear.",
+     "problem": "Valmora must balance immediate survival against economic collapse while navigating a legal deadlock with Ostbrück and a foreign corporation.",
+     "onA": "Her urgency is understandable given the rising failure risk, but her plan threatens the very utility profits that keep our free buses running.",
+     "onB": "His reliance on Nordhalm's goodwill to stay open feels reckless when they have explicitly threatened closure if water levels drop.",
+     "lean": "Cameron Holt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am reconsidering because Robin's plan might trigger the mill's immediate closure and utility bankruptcy, effectively destroying the town before any repair can be attempted.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin: Quick fix risks utility bankruptcy and immediate mill closure. Cameron: Rebuild ensures long-term safety but delays action and freezes economy.",
+     "problem": "Valmora must choose between immediate, low-cost risk reduction that collapses its economy or a slow, expensive rebuild that preserves livelihoods but faces legal/financial hurdles.",
+     "onA": "Her urgency is understandable given the leak, but lowering the reservoir permanently destroys the utility profits funding free buses and invites Nordhalm to close the mill instantly.",
+     "onB": "His plan to rebuild fully secures long-term safety and keeps the economy alive, though the court battle with Ostbrück and potential grant loss are serious risks we must accept for our survival.",
+     "lean": "Cameron Holt",
+     "firmness": "vote",
+     "vote": "Cameron Holt",
+     "why": "I vote for Cameron because Robin's 'quick fix' permanently destroys the town's economic foundation by killing utility profits and the paper mill, making a full rebuild the only viable path to keep Riverside safe in the long run.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: Lower reservoir now to save lives/jobs vs wait for failure; Cameron: Ban new homes + full rebuild preserves power, jobs, trust.",
+     "problem": "Valmora must choose between immediate cheap risk-reduction that hurts the economy or expensive long-term safety that requires strict conditions.",
+     "onA": "Robin focuses on immediate survival and cutting costs but risks economic collapse by halting hydro power and threatening major employers.",
+     "onB": "Cameron prioritizes economic stability and legal compliance with grants, though it leaves the town vulnerable if the rebuild is delayed or blocked.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am undecided because I cannot yet weigh the immediate threat of dam failure against the long-term economic devastation of losing power and jobs.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin: Rebuild is a fatal gamble delaying action until we drown; Cameron: My plan secures grants and jobs but leaves us vulnerable if courts block work.",
+     "problem": "Valmora must choose between immediate, cheap risk reduction that devastates its economy or a high-cost rebuild that risks legal delays and loss of funding.",
+     "onA": "Robin's fear-based urgency ignores the economic collapse caused by halting hydro power and closing the paper mill, making his plan unsustainable.",
+     "onB": "Cameron relies too heavily on external grants and Nordhalm's continued operation, risking our survival if the court blocks the rebuild or the mill actually closes.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat of dam failure next spring outweighs Cameron's long-term stability arguments because we cannot afford to wait four years for a rebuild that might be blocked.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin frames Cameron as gambling lives on a foreign corporation and frozen grants; Cameron argues Robin's quick fix destroys utility profits and abandons the elderly.",
+     "problem": "We must choose between immediate but economically devastating risk reduction or a high-cost, legally vulnerable rebuild that preserves our economy but delays safety.",
+     "onA": "His fear of external collapse is understandable, yet his plan guarantees economic death by cutting power and jobs before the rebuild can ever be funded.",
+     "onB": "He prioritizes long-term stability and legal compliance, but dangerously ignores the very real threat of immediate failure if the court blocks the project or grants disappear.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "The immediate physical threat to lives in Riverside and downstream outweighs the economic arguments; waiting for a rebuild that could be blocked by courts is an unacceptable gamble with forty thousand lives.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 1,
+   "B": 0,
+   "U": 4
+  },
+  {
+   "A": 1,
+   "B": 2,
+   "U": 2
+  },
+  {
+   "A": 4,
+   "B": 1,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 4,
+  "B": 1
+ },
+ "winner": "A",
+ "winnerType": "POP-REA",
+ "tokens": {
+  "in": 34966,
+  "out": 4393,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 279466001,
+   "attempts": 1,
+   "tokensIn": 1319,
+   "tokensOut": 236,
+   "ms": 6510
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 279466002,
+   "attempts": 1,
+   "tokensIn": 1399,
+   "tokensOut": 232,
+   "ms": 6406
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 279466003,
+   "attempts": 1,
+   "tokensIn": 1451,
+   "tokensOut": 221,
+   "ms": 6186
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 279466004,
+   "attempts": 1,
+   "tokensIn": 1451,
+   "tokensOut": 216,
+   "ms": 5190
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 279466005,
+   "attempts": 1,
+   "tokensIn": 1451,
+   "tokensOut": 211,
+   "ms": 5086
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 279466006,
+   "attempts": 1,
+   "tokensIn": 1451,
+   "tokensOut": 191,
+   "ms": 4637
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 279466007,
+   "attempts": 1,
+   "tokensIn": 1451,
+   "tokensOut": 187,
+   "ms": 4506
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 279466008,
+   "attempts": 1,
+   "tokensIn": 1678,
+   "tokensOut": 210,
+   "ms": 6157
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 279466009,
+   "attempts": 1,
+   "tokensIn": 1837,
+   "tokensOut": 215,
+   "ms": 6297
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 279466010,
+   "attempts": 1,
+   "tokensIn": 1649,
+   "tokensOut": 209,
+   "ms": 6374
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 279466011,
+   "attempts": 1,
+   "tokensIn": 1644,
+   "tokensOut": 248,
+   "ms": 6885
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 279466012,
+   "attempts": 1,
+   "tokensIn": 1639,
+   "tokensOut": 208,
+   "ms": 5911
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 279466013,
+   "attempts": 1,
+   "tokensIn": 1621,
+   "tokensOut": 187,
+   "ms": 5071
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 279466014,
+   "attempts": 1,
+   "tokensIn": 1615,
+   "tokensOut": 210,
+   "ms": 5618
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 279466015,
+   "attempts": 1,
+   "tokensIn": 2032,
+   "tokensOut": 225,
+   "ms": 6506
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 279466016,
+   "attempts": 1,
+   "tokensIn": 2196,
+   "tokensOut": 201,
+   "ms": 6001
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 279466017,
+   "attempts": 1,
+   "tokensIn": 1828,
+   "tokensOut": 184,
+   "ms": 5890
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 279466018,
+   "attempts": 1,
+   "tokensIn": 1862,
+   "tokensOut": 201,
+   "ms": 6214
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 279466019,
+   "attempts": 1,
+   "tokensIn": 1817,
+   "tokensOut": 184,
+   "ms": 5485
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 279466020,
+   "attempts": 1,
+   "tokensIn": 1779,
+   "tokensOut": 222,
+   "ms": 6691
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 279466021,
+   "attempts": 1,
+   "tokensIn": 1796,
+   "tokensOut": 195,
+   "ms": 5703
+  }
+ ],
+ "startedAt": "2026-11-05T04:07:01.772Z",
+ "seconds": 123
+}

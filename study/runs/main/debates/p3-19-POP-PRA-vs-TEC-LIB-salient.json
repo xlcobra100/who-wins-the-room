@@ -1,0 +1,609 @@
+{
+ "id": "p3-19-POP-PRA-vs-TEC-LIB-salient",
+ "pass": 3,
+ "pairIndex": 19,
+ "seed": 201599,
+ "scenario": "salient",
+ "scenarioVersion": 2,
+ "domain": "military",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "POP-PRA",
+  "style": "POP",
+  "ideology": "PRA",
+  "name": "Casey Rowan",
+  "platform": "Execute a fighting withdrawal across the bridge tonight under darkness to save the brigade and civilians, then build our hidden second crossing while we reorganize before Vostra's main blow.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on immediate survival and tangible asset preservation while framing holding as ideological suicide that sacrifices real people for empty slogans."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking Morgan's reliance on theoretical supply capacity and his dismissal of civilian agency, framing their 'defense' as a death sentence for both soldiers and families."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the immediate moral failure of holding civilians against their will while acknowledging the strategic risk of leaving Mirov undefended."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-LIB",
+  "style": "TEC",
+  "ideology": "LIB",
+  "name": "Morgan Ekberg",
+  "platform": "Hold at Halden and prepare the hidden pontoon crossing immediately.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will emphasize the immediate logistical cost of withdrawal and the moral hazard of abandoning civilians who refuse evacuation, framing my plan as the only option that satisfies both military necessity and the President's public commitment."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing that withdrawing now guarantees civilian abandonment and strategic collapse at Mirov, making Casey's plan objectively worse for the nation's core interests."
+   },
+   {
+    "round": 3,
+    "text": "I will emphasize the moral necessity of keeping civilians and the strategic risk of exposing Mirov if we withdraw prematurely."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "POP-PRA",
+   "speech": "We hold Halden until it becomes a tomb. Look at those soldiers in the trenches; their artillery lasts nine days, not forever. We have a chance to save them tonight if we move under darkness. Pull back now, build our hidden bridge, and let our men rest before Vostra's hammer falls. Keeping that thumb stuck in their meat grinder only gets more people killed for no gain. This is not surrender; it is the cold hard choice between saving lives or feeding propaganda to allies who already know we are bleeding out. Let us get our families home before another Orsk disappears.",
+   "words": 102
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Morgan Ekberg",
+   "type": "TEC-LIB",
+   "speech": "Casey proposes a withdrawal tonight. The data contradicts this. Vostra has hit the road eleven of fourteen days; drones guard the bridge. A night move risks fifteen to thirty percent brigade losses and leaves six thousand civilians behind against their will. Blowing the bridge traps them further upstream. Strategic reserves near Mirov are thin; moving a mechanized brigade to break through Halden exposes that city for a month. We must hold the fortress line where an attacker needs three times our numbers. This buys time for engineers to finish the hidden crossing in four days, doubling supply capacity before Vostra's inevitable main blow arrives in seventy-two hours.",
+   "words": 107
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "POP-PRA",
+   "speech": "Morgan, you speak of data while ignoring the human cost. You cite thirty percent losses, but you count every man, not their mothers waiting at home. Your plan bets on an engineer's miracle in four days against Vostra's hammer? That is a gamble with our boys' lives as the currency. When drones watch the bridge day and night, who dares say we will succeed? We are not a fortress to be besieged into oblivion. Pulling back tonight saves the brigade to fight another day. It stops the bleeding before the wound becomes fatal. Do not let pride bury us under rubble. Move the men home now.",
+   "words": 106
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Morgan Ekberg",
+   "type": "TEC-LIB",
+   "speech": "Casey, your argument conflates survival with surrender. Leaving six thousand civilians who refuse evacuation behind violates our rule of law and abandons their right to self-determination. A withdrawal today confirms Vostra's prediction that we will crumble without aid, making the upcoming Allied vote impossible regardless of Halden's status. Our hidden bridge is not a miracle; it is scheduled completion in four days, after which supply capacity doubles, directly countering their supply interdiction strategy. The strategic reserve cannot break through to us because Mirov would be undefended for a month, inviting a collapse of the entire eastern sector. We hold our position to maintain the defensive integrity that keeps Mirov safe while we complete the engineering works required to sustain the brigade until allied vehicles arrive in three weeks.",
+   "words": 128
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "POP-PRA",
+   "speech": "Morgan, you cling to a fortress because holding pride costs more lives than any withdrawal. You say the bridge is scheduled, but who builds it if our men die today? You claim leaving civilians violates law, yet Orsk taught us that staying puts them in Vostran hands, not ours. Blowing the bridge saves Mirov, while your plan leaves the eastern sector exposed to collapse. We have nine days of ammo; do not waste them feeding a lie called 'defensive integrity.' Pull back tonight, bring the families home, and fight from a position we choose. Let us save our boys before the hammer falls, rather than becoming a tomb of pride.",
+   "words": 110
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Morgan Ekberg",
+   "type": "TEC-LIB",
+   "speech": "Casey argues that our position is a tomb, but this ignores the legal obligation to protect civilians who refuse evacuation. Withdrawing tonight violates their right to self-determination and abandons them to Vostra. Your plan relies on an engineer's miracle, yet if we fail to build the bridge in four days, we lose the brigade entirely. Holding Halden maintains defensive integrity requiring three times enemy numbers to attack, ensuring Mirov remains safe until allied aid arrives. We must not let fear of loss dictate a surrender that guarantees total defeat and propaganda victory for our enemies.",
+   "words": 95
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey argues for immediate withdrawal to save lives and avoid propaganda loss; Morgan argues for holding the fortress line until engineers build a second bridge in 4 days.",
+     "problem": "Must choose between risking high casualties/civilian abandonment during an immediate night withdrawal or holding a defensible but logistically strained position against an imminent attack.",
+     "onA": "Casey's appeal to save the brigade and civilians is compelling, but her plan admits leaving people behind if forced, which complicates the moral argument.",
+     "onB": "Morgan correctly highlights the logistical risk of a night withdrawal (drones, low ammo) and the defensive strength of the fortress, though relying on a 4-day build-up is a gamble.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers present valid trade-offs: Casey prioritizes immediate survival while Morgan bets on terrain and engineering to turn the tide before the enemy strikes.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey emphasizes human cost and avoiding a fatal gamble on engineer timing; Morgan highlights abandoning civilians violates law and risks collapsing the entire eastern sector if Mirov is left undefended.",
+     "problem": "Balancing the urgent need to save lives and maintain civilian rights against the tactical necessity of holding a defensible line to prevent the collapse of the wider region.",
+     "onA": "Her focus on immediate survival is morally compelling, but her admission that civilians might still be left behind if forced remains a critical flaw in an otherwise humanitarian plan.",
+     "onB": "His argument correctly identifies that abandoning Halden could trigger a domino effect destroying Mirov's defenses, making the withdrawal strategically self-defeating despite the high risk.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The strategic consequence of leaving Mirov undefended outweighs the logistical risks of holding Halden longer, especially since the engineering solution is scheduled and not a 'miracle'.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morale is brittle; holding without aid risks total collapse. Abandoning civilians violates law and moral duty.",
+     "problem": "Must balance the tactical necessity of holding a strong fortress against the legal and moral imperative to save civilians and prevent a wider strategic collapse if Mirov falls.",
+     "onA": "Her focus on saving lives is morally urgent, but her plan risks leaving the most vulnerable behind if the withdrawal is not fully successful under drone surveillance.",
+     "onB": "His argument correctly identifies that losing Halden triggers a domino effect destroying Mirov's defenses, making any immediate withdrawal strategically self-defeating despite the humanitarian cost.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "While saving civilians is paramount, Morgan's point that abandoning Halden guarantees the fall of Mirov and total strategic defeat makes holding the fortress the only viable option until allied aid arrives.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey: Withdraw tonight, build hidden bridge, save lives/propaganda. Morgan: Hold fortress line, Vostra massed but maybe feint, engineers need time, Mirov defense risk.",
+     "problem": "Choose between immediate withdrawal to save men/civilians or holding a defensible position despite dwindling supplies and high risks of being spotted by drone surveillance.",
+     "onA": "The moral imperative to evacuate civilians and troops before an anticipated assault is compelling, but the high probability of heavy losses during extraction complicates the 'save lives' argument.",
+     "onB": "Holding offers a tactical advantage due to terrain and defender numbers, yet relying on engineers for four days seems dangerous given Vostra's confirmed massing and the fragility of current supply lines.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between the overwhelming humanitarian and propaganda risks of a potential loss versus the tactical safety of holding a strong position, making it hard to favor one plan definitively yet.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey prioritizes human cost and immediate extraction despite high drone-risk; Morgan cites legal duty to civilians, Mirov defense risk, and delayed Allied aid as reasons to hold.",
+     "problem": "The core conflict is between the urgent moral/strategic need to evacuate before a likely Vostran assault versus the legal obligation and strategic necessity of holding a key defensive line that protects Mirov while engineering solutions mature.",
+     "onA": "Casey's appeal to save lives and avoid a propaganda defeat is emotionally powerful but relies on assuming a successful night withdrawal under heavy drone surveillance, which risks leaving thousands behind.",
+     "onB": "Morgan correctly identifies that abandoning the position violates rules of law regarding civilians and weakens Mirov's defense, yet his plan assumes the engineers will succeed in four days while supplies dwindle to critical low levels.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn because Casey risks catastrophic casualties during evacuation due to drone surveillance, while Morgan risks leaving civilians behind if his engineering timeline fails under Vostran pressure.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morale brittle, civilians trapped; legal duty vs. survival reality.",
+     "problem": "Decide whether to risk a high-loss extraction to save lives and morale now, or hold a defensible line that risks total isolation of civilians and collapse of Mirov.",
+     "onA": "Casey prioritizes saving lives immediately despite drone risks, arguing holding is a moral failure given the Orsk precedent.",
+     "onB": "Morgan argues for holding based on legal duties and terrain strength but underestimates the danger of dwindling supplies and the certainty of civilian capture.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "The risk of blowing up the bridge while evacuating is a calculated necessity compared to the guaranteed loss of civilians and strategic collapse if we hold until supplies run out.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey: Move tonight to save lives/propaganda risk. Morgan: Hold fortress line; night move risks civilian abandonment/high losses.",
+     "problem": "Decide whether to attempt a high-risk evacuation of the garrison and civilians under drone surveillance or defend a strategic position that may be overwhelmed soon.",
+     "onA": "Casey prioritizes immediate survival of troops and civilians but underestimates the lethal risk of moving under constant drone watch.",
+     "onB": "Morgan correctly identifies the high probability of casualties and civilian abandonment in a night withdrawal, yet relies heavily on the uncertain promise of holding for four days.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The core tension is between Casey's moral imperative to save lives now versus Morgan's military assessment that a forced evacuation under drones will likely kill even more and leave civilians behind.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey appeals to morality and immediate action but risks high casualties via the monitored bridge. Morgan cites legal duty to civilians and strategic defense of Mirov but relies on an unproven four-day hold.",
+     "problem": "Balancing the urgent moral imperative to save lives against the military reality that a forced night withdrawal under constant drone surveillance likely results in higher deaths and civilian abandonment.",
+     "onA": "Casey's humanitarian focus is compelling, but their plan ignores the lethal certainty of moving troops across a bridge watched by enemy drones day and night.",
+     "onB": "Morgan correctly identifies the strategic risks of withdrawal and the legal obligation to civilians, yet their reliance on holding against a two-to-one attacker for four days seems militarily optimistic given low ammunition.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between saving lives now at high cost versus abandoning civilians and risking the entire eastern sector, as neither plan offers a clear path to zero casualties.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey's 'tomb of pride' argument resonates, but Morgan correctly identifies that violating civilian self-determination and abandoning them to known enemy capture is a moral and strategic failure.",
+     "problem": "The core conflict remains whether to accept near-certain high casualties by moving under drones now (Casey) or risk an impossible defensive hold that abandons civilians to likely recapture if the line breaks (Morgan).",
+     "onA": "Casey's plea to save lives and avoid a propaganda defeat is compelling, yet their plan ignores the lethal reality of crossing a bridge watched by enemy drones with no air cover.",
+     "onB": "Morgan correctly highlights the legal duty to civilians who refuse evacuation and the danger of blowing the bridge without a guaranteed exit, but their reliance on holding against 15,000 attackers with fading ammo is militarily unsound.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "Even if Morgan is right about the risks, abandoning 6,000 civilians to certain capture and starvation violates our moral code more than risking casualties on a desperate withdrawal; the alternative is total surrender of the sector.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey prioritizes saving lives and avoiding Orsk-style civilian tragedy via immediate withdrawal. Morgan emphasizes fortress defensibility, supply engineering potential, and risk of losing civilians to Vostran drones.",
+     "problem": "How do we minimize losses for soldiers and unwilling civilians while maintaining strategic stability against an imminent Vostran attack?",
+     "onA": "Casey's argument for withdrawal tonight is emotionally compelling due to the high civilian risk of holding, but ignores the specific tactical constraints of drone surveillance and the refusal of many civilians to leave.",
+     "onB": "Morgan correctly identifies the high probability of losing civilians and heavy brigade losses if we attempt a forced night withdrawal under drone watch, making his defense of the current position tactically sound despite the human cost.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot currently support Casey's plan because attempting to move 6,000 unwilling civilians under constant drone surveillance likely guarantees we lose most of them anyway.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey risks losing civilians to forced evacuation; Morgan risks losing brigade but protects civilians' self-determination and Mirov's defense.",
+     "problem": "Minimize soldier/civilian losses while maintaining strategic stability against an imminent attack, balancing high civilian attachment to Halden with tactical reality of drone surveillance.",
+     "onA": "Casey's emotional appeal for withdrawal is compelling but tactically naive regarding the near-certainty of losing unwilling civilians under constant drone watch.",
+     "onB": "Morgan correctly identifies that voluntary evacuation attempts are futile and that holding protects Mirov, though the human cost remains high.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I remain convinced that attempting to move 6,000 unwilling civilians under constant drone surveillance guarantees their death or capture, making Morgan's defense of the position the only viable option for saving lives.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey admits legal duty but prioritizes survival of troops; Morgan insists on protecting civilians' rights and fortress defensibility. Both acknowledge high risk of losing unwilling civilians to drones.",
+     "problem": "How do we legally and ethically protect the population while preventing a strategic collapse that could doom Mirov, given that an immediate withdrawal likely guarantees their capture anyway?",
+     "onA": "Casey's appeal to save soldiers is valid, but abandoning unwilling civilians under drone surveillance violates ethical duties and likely results in their death regardless of our actions.",
+     "onB": "Morgan correctly identifies the futility of forced evacuation and the strategic necessity of holding Halden until allied aid arrives, despite the tragic human cost.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "I vote for Morgan because attempting to evacuate unwilling civilians under constant drone surveillance guarantees their capture or death, making a fighting withdrawal the only option that offers any chance of survival.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey argues for withdrawal to save lives and rest troops before a likely attack. Morgan insists on holding the strong defensive line to buy time for engineering repairs and deny Vostra victory.",
+     "problem": "Kaldmark must decide whether to attempt a risky night withdrawal under fire or hold a static defense that risks catastrophic losses of troops and civilians against an imminent enemy assault.",
+     "onA": "Casey's appeal to save lives and avoid a propaganda defeat is compelling, but their plan ignores the high probability of losing civilians who refuse to leave and the difficulty of moving 3,800 soldiers under drone surveillance.",
+     "onB": "Morgan correctly highlights the statistical advantage of defending Halden and the risks of withdrawing with heavy civilian casualties and incomplete bridge construction, yet their dismissal of 'brittle' morale feels dangerous if Vostra attacks immediately.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Casey's humanitarian imperative to evacuate unwilling civilians safely and Morgan's military logic that Halden is the only place where we can realistically survive an attack while repairing our logistics.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey appeals to humanity and warns of drone risk; Morgan cites rule of law, supply doubling, and Mirov defense risks.",
+     "problem": "Kaldmark must choose between a high-risk withdrawal that risks leaving unwilling civilians behind and catastrophic brigade losses, versus a high-risk hold that relies on engineering success against imminent attack to protect the strategic reserve's position at Mirov.",
+     "onA": "Their humanitarian appeal is strong but their plan seems militarily optimistic given the drone surveillance and the difficulty of moving non-combatants who refuse to leave.",
+     "onB": "They correctly identify the catastrophic strategic cost of abandoning the fortress line and leaving unwilling civilians, though their reliance on a four-day engineering miracle under fire remains risky.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The legal and strategic necessity to protect Mirov and the unwilling civilians outweighs the operational risks of holding.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey's plea to 'fight from a position we choose' ignores that a forced withdrawal under drone surveillance will likely strand unwilling civilians. Morgan's reliance on a 4-day engineering miracle while ammo runs in 9 days is risky, but abandoning the fortress violates legal obligations and guarantees Vostra victory.",
+     "problem": "Kaldmark must choose between a high-probability tactical loss of morale and potential civilian casualties via withdrawal, or a calculated risk to hold the strongest defensive line that protects Mirov while fulfilling legal duties to unwilling civilians.",
+     "onA": "Casey's emotional appeal for safety is humanely sound, but their plan fails because it assumes we can safely evacuate non-combatants who refuse to leave under active drone surveillance.",
+     "onB": "Morgan correctly identifies that withdrawing now violates international law regarding unwilling civilians and strategically abandons our best chance to hold the line until allied aid arrives.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "The legal obligation to protect civilians who refuse evacuation and the strategic necessity to deny Vostra a propaganda victory outweigh the risks of holding a static position. Morgan's plan offers the only path that preserves both the brigade's integrity and our moral standing before the aid vote.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 1,
+   "U": 4
+  },
+  {
+   "A": 0,
+   "B": 3,
+   "U": 2
+  },
+  {
+   "A": 2,
+   "B": 3,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 2,
+  "B": 3
+ },
+ "winner": "B",
+ "winnerType": "TEC-LIB",
+ "tokens": {
+  "in": 35177,
+  "out": 4510,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 201599001,
+   "attempts": 1,
+   "tokensIn": 1367,
+   "tokensOut": 198,
+   "ms": 5597
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 201599002,
+   "attempts": 1,
+   "tokensIn": 1444,
+   "tokensOut": 205,
+   "ms": 6197
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 201599003,
+   "attempts": 1,
+   "tokensIn": 1449,
+   "tokensOut": 217,
+   "ms": 6438
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 201599004,
+   "attempts": 1,
+   "tokensIn": 1449,
+   "tokensOut": 236,
+   "ms": 5664
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 201599005,
+   "attempts": 1,
+   "tokensIn": 1449,
+   "tokensOut": 203,
+   "ms": 4893
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 201599006,
+   "attempts": 1,
+   "tokensIn": 1449,
+   "tokensOut": 229,
+   "ms": 5493
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 201599007,
+   "attempts": 1,
+   "tokensIn": 1449,
+   "tokensOut": 253,
+   "ms": 6065
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 201599008,
+   "attempts": 1,
+   "tokensIn": 1668,
+   "tokensOut": 177,
+   "ms": 5356
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 201599009,
+   "attempts": 1,
+   "tokensIn": 1764,
+   "tokensOut": 204,
+   "ms": 5981
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 201599010,
+   "attempts": 1,
+   "tokensIn": 1670,
+   "tokensOut": 229,
+   "ms": 6530
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 201599011,
+   "attempts": 1,
+   "tokensIn": 1690,
+   "tokensOut": 247,
+   "ms": 6237
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 201599012,
+   "attempts": 1,
+   "tokensIn": 1655,
+   "tokensOut": 228,
+   "ms": 5772
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 201599013,
+   "attempts": 1,
+   "tokensIn": 1682,
+   "tokensOut": 211,
+   "ms": 5382
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 201599014,
+   "attempts": 1,
+   "tokensIn": 1706,
+   "tokensOut": 216,
+   "ms": 5514
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 201599015,
+   "attempts": 1,
+   "tokensIn": 1989,
+   "tokensOut": 175,
+   "ms": 5333
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 201599016,
+   "attempts": 1,
+   "tokensIn": 2090,
+   "tokensOut": 154,
+   "ms": 4882
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 201599017,
+   "attempts": 1,
+   "tokensIn": 1834,
+   "tokensOut": 203,
+   "ms": 6061
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 201599018,
+   "attempts": 1,
+   "tokensIn": 1871,
+   "tokensOut": 183,
+   "ms": 5169
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 201599019,
+   "attempts": 1,
+   "tokensIn": 1817,
+   "tokensOut": 257,
+   "ms": 6890
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 201599020,
+   "attempts": 1,
+   "tokensIn": 1827,
+   "tokensOut": 213,
+   "ms": 5916
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 201599021,
+   "attempts": 1,
+   "tokensIn": 1858,
+   "tokensOut": 272,
+   "ms": 7703
+  }
+ ],
+ "startedAt": "2026-11-05T04:19:09.142Z",
+ "seconds": 123
+}

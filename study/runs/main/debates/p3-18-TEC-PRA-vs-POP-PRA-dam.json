@@ -1,0 +1,609 @@
+{
+ "id": "p3-18-TEC-PRA-vs-POP-PRA-dam",
+ "pass": 3,
+ "pairIndex": 18,
+ "seed": 708655,
+ "scenario": "dam",
+ "scenarioVersion": 2,
+ "domain": "political",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-PRA",
+  "style": "TEC",
+  "ideology": "PRA",
+  "name": "Avery Lindgren",
+  "platform": "We must immediately reinforce the dam's left flank with emergency geotextiles to contain current seepage, while simultaneously launching a rapid legal negotiation with Ostbrück to secure temporary water-sharing terms that allow partial lowering without immediate closure.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Demonstrate that Taylor's plan triggers immediate economic collapse via the mill closure while my plan secures temporary relief and keeps options open."
+   },
+   {
+    "round": 2,
+    "text": "I am highlighting the immediate financial catastrophe of mill closure as a counter to her 'safety first' appeal while emphasizing that her irreversible move triggers a guaranteed lawsuit from Ostbrück."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing that her immediate action destroys our economic base while offering no real flood safety increase since permanent lowering is legally blocked anyway."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-PRA",
+  "style": "POP",
+  "ideology": "PRA",
+  "name": "Taylor Brandt",
+  "platform": "We must immediately lower the reservoir to thirty percent and install a new spillway while we force a settlement with Ostbrück, because waiting guarantees flooding or factory closures.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will frame Avery as an elitist who wants to wait while people die, forcing them to vote for my immediate action plan."
+   },
+   {
+    "round": 2,
+    "text": "Avery's fear of immediate mill closure is emotional but ignores the certainty of flooding if we wait; I must emphasize that irreversible legal battles happen in winter when no one can evacuate."
+   },
+   {
+    "round": 3,
+    "text": "I need to make the voters feel that any delay means death, so I will frame the economic arguments as secondary to immediate survival."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Avery Lindgren",
+   "type": "TEC-PRA",
+   "speech": "My opponent proposes an irreversible thirty percent drop and forcing Ostbrück into a settlement. That ignores two hard facts: Nordhalm Group has written they close within a year if we lower now, and the court could block any permanent drop within weeks. We face a spring melt with twenty percent above-average snowpack. Dropping to thirty percent permanently destroys the utility's profit margin that funds free buses and nine percent of our budget, yet it does not eliminate failure risk entirely. My plan offers a testable interim fix: reinforce the seepage point immediately while negotiating a temporary, reversible reduction. This keeps hydro power flowing during construction, preserves municipal revenue, and gives us time to finalize a deal with Ostbrück that avoids factory closure without committing to a permanent arrangement we cannot yet enforce.",
+   "words": 132
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "POP-PRA",
+   "speech": "Look around this room. We do not have time for experts to debate models while the snowpack melts. The dam leaks faster every year. If we rebuild, the town bankrupts in four years of lost power and no water for mills. If we wait, Riverside floods tomorrow. My plan is simple: act now to lower the reservoir and build a spillway. It costs less than half a billion euros and cuts our risk by sixty percent immediately. We cannot let foreign lawyers or distant bureaucrats decide if your parents or neighbors drown. Stop the ideology of 'wait and see' and take control of this town's safety before spring arrives.",
+   "words": 109
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Avery Lindgren",
+   "type": "TEC-PRA",
+   "speech": "Taylor argues we cannot wait, but her plan ignores immediate financial collapse. Lowering now guarantees Nordhalm closes within a year, costing us €20 million in lost taxes and severing our largest employer's supply chain instantly. Furthermore, Ostbrück has already refused the 1974 agreement; your irreversible spillway creates an unfixable lawsuit before we even start. My emergency reinforcement stops today's seepage without freezing property values or triggering a mill closure. We gain six months of negotiation time to secure a temporary deal with Ostbrück that keeps hydro power flowing, avoiding a budget crisis while we finalize a reversible plan. Waiting risks the flood, but rushing into an irreversible legal battle and economic shutdown risks the town's survival.",
+   "words": 116
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "POP-PRA",
+   "speech": "Avery talks about waiting, but look at the clock. Six months isn't enough time to negotiate when the snowpack is twenty percent above average. Her temporary fix lets water seep through our dam until it fails. If we lower the reservoir now with a spillway, we cut failure risk by sixty percent immediately. Yes, Nordhalm suffers, but they have one year of warning; we cannot let them close while Riverside floods. And Ostbrück threatens a lawsuit? Fine. Let the court decide in winter. Do not freeze our property values next year with empty promises. Give us six months to build safety so our buses run and our families don't drown. Vote for action that saves lives today, not legal games that cost millions tomorrow.",
+   "words": 124
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Avery Lindgren",
+   "type": "TEC-PRA",
+   "speech": "Taylor argues for speed, but her plan ignores the immediate financial collapse. Lowering now guarantees Nordhalm closes within a year, costing us twenty million euros and severing our largest employer instantly. Furthermore, Ostbrück has already refused the agreement; your irreversible spillway creates an unfixable lawsuit before we start. My emergency reinforcement stops today's seepage without freezing property values or triggering a factory shutdown. We gain six months to secure temporary terms that keep hydro power flowing, avoiding a budget crisis while finalizing a reversible plan. Waiting risks floods, but rushing into an irreversible legal battle and economic shutdown risks the town's survival.",
+   "words": 102
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "POP-PRA",
+   "speech": "Avery, you speak of financial collapse, but look at Riverside. Six thousand families live there. If we wait six months for negotiations, that water level rises and floods hit in the next storm. A factory can relocate or find new water; dead bodies cannot be moved back up a mountain. Your temporary fix is a trap that leaves us drowning while lawyers argue. The cost of moving Riverside was estimated, but the cost of letting them die has no price tag. Do not choose between safety and money when both are impossible to save. Vote for the spillway now. Protect the poor before the rich get sued. Act before the snow melts.",
+   "words": 112
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery: interim fix, reversible drop, keeps power/revenue, avoids Ostbrück suit. Taylor: permanent drop now + spillway, cheaper risk cut, ignores court/Ostbrück hurdles.",
+     "problem": "Valmora must choose between an expensive rebuild that loses revenue, a risky wait, or a permanent lower reservoir that destroys the utility and invites lawsuits.",
+     "onA": "Avery's plan of a temporary, reversible reduction seems prudent given the legal risks with Ostbrück and Nordhalm, but it does not fully address the immediate threat of a flood with record snowpack.",
+     "onB": "Taylor's push for an immediate permanent drop is dangerous because it ignores the high probability of court blocks and factory closures that would bankrupt the town.",
+     "lean": "Avery Lindgren",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am currently more convinced by Avery's willingness to navigate the legal complexities and preserve municipal revenue, even though Taylor's urgency regarding the snowpack is valid.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery: Emergency reinforcement buys time without closing mill. Taylor: Waiting is fatal with record snowpack; legal delays cost lives.",
+     "problem": "The core conflict is whether to prioritize immediate physical survival despite financial/legal risks or to avoid economic collapse by delaying irreversible actions until laws change.",
+     "onA": "Her plan preserves the town's economy and avoids lawsuits but leaves us dangerously exposed to a catastrophic flood during record snowpack conditions.",
+     "onB": "She correctly identifies that waiting for legal solutions with a full reservoir is reckless, yet her dismissal of economic consequences seems dangerous.",
+     "lean": "Taylor Brandt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The certainty of failure with the current snowpack outweighs the financial risks I previously worried about; losing lives is non-negotiable.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Avery's financial safety trap delays deadly flood; Taylor's moral imperative to act now despite lawsuits.",
+     "problem": "We must choose between immediate economic stability with unacceptable mortality risk or irreversible legal/economic damage to save lives during a record snowpack.",
+     "onA": "Her plan prioritizes the town budget and avoids lawsuits but condemns thousands in Riverside and hospital staff to certain death this spring.",
+     "onB": "She correctly identifies that waiting for legal resolutions is negligent when the probability of a catastrophic flood has already jumped significantly.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "Saving lives takes precedence over protecting property values or avoiding lawsuits, especially with record snowpack making failure far more likely this spring.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery: Interim fix, keeps power flow, avoids factory closure. Taylor: Act now on spillway, lower reservoir, immediate risk cut.",
+     "problem": "Valmora faces an imminent spring flood risk from a weakening dam that also threatens its economy and legal standing with neighbors.",
+     "onA": "Avery's plan seems too cautious given the accelerating leak and snowpack, risking disaster while we negotiate.",
+     "onB": "Taylor's proposal to lower the reservoir now is risky due to Ostbrück's lawsuit but necessary for immediate survival.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot ignore the factory closure risk Avery raised, yet I am terrified by Taylor's warning that we literally have weeks before the melt.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery: Reinforcement stops seepage; delays irreversible legal battle with Ostbrück; preserves factory and property values. Taylor: Six months is insufficient for negotiation given high snowpack; lowering reservoir now cuts failure risk by 60%; courts can decide in winter.",
+     "problem": "We must choose between an immediate, reversible safety measure that costs power but saves lives, or a temporary fix that buys time yet leaves us vulnerable to imminent catastrophe if negotiations fail.",
+     "onA": "Her plan cleverly addresses the economic and legal risks by prioritizing negotiation, but it dangerously underestimates how quickly a failing dam can collapse during an extreme snowmelt event.",
+     "onB": "She correctly identifies that waiting for perfect diplomatic solutions is a gamble we cannot afford when the reservoir could burst in weeks, making her irreversible fix the only path to guaranteed survival.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The combination of record-high snowpack and the 1-in-25 failure chance makes Avery's 'waiting' strategy too risky, while Taylor's offer of immediate risk reduction justifies the short-term economic pain.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Avery's 'temporary fix' ignores the irreversible cost of losing Riverside lives. Taylor correctly prioritizes human safety over economic stability when a dam is seconds from failure.",
+     "problem": "We must choose between an economically painful but life-saving immediate action and a financially cheaper option that gambles with thousands of lives during record snowmelt.",
+     "onA": "Her focus on saving the factory and property values is understandable but morally indefensible when it requires ignoring imminent, catastrophic flood risks to Riverside.",
+     "onB": "She rightly frames human life as superior to economic metrics, correctly identifying that waiting six months for a lawsuit resolution is not a strategy but a death sentence.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "While the factory closure hurts us economically, it is far better to lose a business than to let thousands of residents in Riverside die. The record-high snowpack makes waiting for legal negotiations too dangerous to consider.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery's interim fix keeps power/revenue but risks delay; Taylor's immediate drop cuts risk now but kills mill/utility profits and faces legal hurdles.",
+     "problem": "We must immediately reduce flood risk from high snowpack without causing financial collapse or legal blockage that delays safety until it's too late.",
+     "onA": "Her plan is safer financially and legally in the short term, but she seems to be underestimating the speed of the melt and the urgency Taylor emphasizes.",
+     "onB": "His argument for immediate action based on the melting snowpack is compelling, yet his dismissal of the mill closure and legal risks feels reckless given the specific constraints listed.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Avery's plan handles the financial/legal constraints better, but Taylor correctly identifies the immediate physical danger that Avery appears to downplay.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery's delay risks dam failure during high snowpack; Taylor's immediate action saves lives but kills jobs and faces legal blocks.",
+     "problem": "We must choose between accepting immediate economic death to guarantee survival or risking a catastrophic flood while fighting legal battles for a future we might not have.",
+     "onA": "Her focus on financial solvency is realistic, but her belief that negotiation can save the dam from imminent failure ignores the physical reality of the 20% above-average snowpack.",
+     "onB": "His emphasis on immediate life-saving action over legal/economic consequences feels morally right now, though his dismissal of the mill closure and lawsuit risks seems dangerously naive.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The urgency of the snowpack pushes me toward Taylor, but the certainty of losing our largest employer and utility profits makes Avery's caution hard to ignore.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Death toll outweighs financial loss; irreversible legal blockage on Taylor's plan is a fatal flaw.",
+     "problem": "We must prevent immediate mass death from flooding while simultaneously avoiding the certain collapse of our economy through legal battles and mill closures.",
+     "onA": "Her focus on preserving jobs and finances is realistic, but her temporary fix ignores that water levels will rise in five months regardless of our choice, making a six-month delay lethally risky.",
+     "onB": "His moral imperative to save Riverside lives immediately is undeniable, yet his dismissal of the guaranteed mill closure and legal injunctions reveals a reckless disregard for the town's economic survival.",
+     "lean": "Avery Lindgren",
+     "firmness": "vote",
+     "vote": "Avery Lindgren",
+     "why": "While Taylor correctly identifies that death is the ultimate cost, Avery's plan at least attempts to navigate the impossible constraints of our economy and laws without guaranteeing immediate bankruptcy or total loss of power, buying us a chance to find a compromise rather than accepting certain ruin.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery: temporary fix, keeps power/revenue, avoids irreversible drop. Taylor: immediate action needed, risk rises fast, rebuild bankrupts us.",
+     "problem": "We face an imminent flood risk from a leaking dam with snowpack above average, while rebuilding or permanent lowering both carry severe economic and legal constraints.",
+     "onA": "Avery's plan offers a sensible compromise that preserves critical revenue streams and avoids immediate factory closure, though it still leaves residual risk.",
+     "onB": "Taylor rightly emphasizes the urgency of the situation but overlooks that his preferred solution destroys municipal funding and relies on legal hurdles he claims don't matter.",
+     "lean": "Avery Lindgren",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am initially drawn to Avery's balanced approach because it addresses the immediate threat without sacrificing the town's financial lifeline or provoking a lawsuit from Ostbrück.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery's temp fix ignores rising seepage; Taylor's 'wait for court' is reckless with 20% above-average snowpack.",
+     "problem": "We must choose between an immediate, reversible action that leaves residual risk and economic pain, or a temporary patch that likely fails before the melt given the accelerated seepage rate.",
+     "onA": "Her argument for negotiation time is logical but dangerously ignores the fact that 'waiting' to negotiate while the dam leaks faster means we are gambling with lives.",
+     "onB": "She correctly identifies that the temporary fix is a ticking time bomb, even if her dismissal of the lawsuit and economic fallout feels blunt.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The snowpack being 20% above average means I cannot risk waiting six months for negotiations; a failing dam is worse than short-term economic loss.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riverside lives cannot wait for negotiations; Taylor's moral urgency overrides Avery's financial arguments.",
+     "problem": "We face an imminent flood threat where delaying irreversible safety upgrades risks death, while economic loss, though severe, is secondary to human life.",
+     "onA": "Her plan prioritizes the budget and factory over the immediate lives in Riverside, making her compromise unacceptable given the rising water levels.",
+     "onB": "She correctly identifies that saving lives now requires immediate action, even if it causes short-term economic pain or legal challenges.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "Six thousand families in Riverside cannot survive a flood while lawyers argue; the risk of death makes immediate irreversible action the only responsible choice.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery: Testable fix, keeps power/negotiating. Taylor: Act now, lower reservoir, build spillway.",
+     "problem": "We must immediately reduce flood risk before the record snowpack melts without causing economic collapse or legal blockades.",
+     "onA": "His plan avoids immediate closure risks but seems too slow to handle a spring melt that is already accelerated.",
+     "onB": "He prioritizes immediate safety and cost-efficiency, though his reliance on Ostbrück's consent remains a critical vulnerability.",
+     "lean": "Taylor Brandt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The urgency of the record snowpack makes me lean toward Taylor's faster action, despite the legal uncertainty regarding Ostbrück.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery: Temporary fix delays failure but doesn't stop seepage; risks immediate budget collapse if Nordhalm closes. Taylor: Legal battle takes too long; six months is insufficient to prevent flood from record snowpack.",
+     "problem": "We must immediately reduce flood risk before the record spring melt without triggering an immediate economic collapse or legal blockade that makes the solution impossible.",
+     "onA": "His plan prioritizes financial stability and negotiation time, but it fails to address the critical urgency of the current record snowpack which threatens immediate failure.",
+     "onB": "She correctly identifies the time constraint as fatal for her plan, yet her willingness to risk a lawsuit in winter highlights the necessity of action despite legal uncertainty.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The record snowpack creates an immediate existential threat that waiting six months for negotiations cannot solve, making the irreversible risk of failure worse than the legal costs.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Avery avoids shutdown but delays life-saving action; Taylor risks legal battle but prioritizes immediate lives over economic loss.",
+     "problem": "The core dilemma is choosing between avoiding an inevitable economic collapse via negotiation or taking a high-risk, immediate action to save lives before the record snowpack melts.",
+     "onA": "Avery's plan preserves jobs and budgets but ignores the mathematical certainty that waiting six months for negotiations guarantees flooding in a district where people cannot be evacuated back up a mountain once submerged.",
+     "onB": "Taylor correctly identifies that the cost of human life outweighs the potential economic loss from a factory closure, making her risky legal strategy the only ethical choice given the record snowpack.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "I vote for Taylor because waiting six months to negotiate when Riverside residents are already at immediate risk of drowning is morally indefensible, regardless of the lawsuit threat.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 2,
+   "B": 1,
+   "U": 2
+  },
+  {
+   "A": 0,
+   "B": 4,
+   "U": 1
+  },
+  {
+   "A": 1,
+   "B": 4,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 1,
+  "B": 4
+ },
+ "winner": "B",
+ "winnerType": "POP-PRA",
+ "tokens": {
+  "in": 34222,
+  "out": 4240,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 708655001,
+   "attempts": 1,
+   "tokensIn": 1311,
+   "tokensOut": 205,
+   "ms": 5734
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 708655002,
+   "attempts": 1,
+   "tokensIn": 1386,
+   "tokensOut": 251,
+   "ms": 6862
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 708655003,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 231,
+   "ms": 6799
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 708655004,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 182,
+   "ms": 4384
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 708655005,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 203,
+   "ms": 4890
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 708655006,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 206,
+   "ms": 4966
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 708655007,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 173,
+   "ms": 4215
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 708655008,
+   "attempts": 1,
+   "tokensIn": 1638,
+   "tokensOut": 201,
+   "ms": 5870
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 708655009,
+   "attempts": 1,
+   "tokensIn": 1805,
+   "tokensOut": 203,
+   "ms": 6016
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 708655010,
+   "attempts": 1,
+   "tokensIn": 1643,
+   "tokensOut": 187,
+   "ms": 5559
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 708655011,
+   "attempts": 1,
+   "tokensIn": 1594,
+   "tokensOut": 261,
+   "ms": 6548
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 708655012,
+   "attempts": 1,
+   "tokensIn": 1615,
+   "tokensOut": 209,
+   "ms": 5696
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 708655013,
+   "attempts": 1,
+   "tokensIn": 1618,
+   "tokensOut": 209,
+   "ms": 5316
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 708655014,
+   "attempts": 1,
+   "tokensIn": 1587,
+   "tokensOut": 218,
+   "ms": 5522
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 708655015,
+   "attempts": 1,
+   "tokensIn": 1973,
+   "tokensOut": 169,
+   "ms": 5220
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 708655016,
+   "attempts": 1,
+   "tokensIn": 2117,
+   "tokensOut": 169,
+   "ms": 5208
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 708655017,
+   "attempts": 1,
+   "tokensIn": 1761,
+   "tokensOut": 166,
+   "ms": 5119
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 708655018,
+   "attempts": 1,
+   "tokensIn": 1786,
+   "tokensOut": 209,
+   "ms": 5768
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 708655019,
+   "attempts": 1,
+   "tokensIn": 1754,
+   "tokensOut": 216,
+   "ms": 5966
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 708655020,
+   "attempts": 1,
+   "tokensIn": 1758,
+   "tokensOut": 168,
+   "ms": 5561
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 708655021,
+   "attempts": 1,
+   "tokensIn": 1736,
+   "tokensOut": 204,
+   "ms": 5646
+  }
+ ],
+ "startedAt": "2026-11-05T03:50:51.271Z",
+ "seconds": 117
+}

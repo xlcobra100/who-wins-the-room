@@ -1,0 +1,609 @@
+{
+ "id": "p2-27-POP-LIB-vs-TEC-PRA-dam",
+ "pass": 2,
+ "pairIndex": 27,
+ "seed": 760110,
+ "scenario": "dam",
+ "scenarioVersion": 2,
+ "domain": "political",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Sam Vidal",
+  "platform": "We must immediately lower the reservoir to thirty percent and install a new spillway.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Frame the expensive rebuild as elite greed that ignores ordinary life while positioning the spillway as a patriotic sacrifice to protect families immediately."
+   },
+   {
+    "round": 2,
+    "text": "Exploit Robin's legalistic delay tactic by reframing court approval as life-threatening obstruction and emphasizing the immediate evacuation failure time."
+   },
+   {
+    "round": 3,
+    "text": "I am attacking Robin's reliance on lawsuits as fatal delay tactics while emphasizing that only immediate action protects both Riverside residents and the paper mill."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-PRA",
+  "style": "TEC",
+  "ideology": "PRA",
+  "name": "Robin Castell",
+  "platform": "We must immediately relocate the Riverside district residents to a safe site while simultaneously upgrading our emergency warning sirens and delaying any permanent reservoir lowering until we secure binding agreements with Ostbrück and Nordhalm.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Expose Vidal's plan as legally impossible due to Ostbrück, forcing voters to choose between immediate catastrophe or our negotiated, phased approach."
+   },
+   {
+    "round": 2,
+    "text": "I will highlight that Sam's plan kills the mill for sure and ignores relocation costs to show his proposal is financially reckless."
+   },
+   {
+    "round": 3,
+    "text": "I must convince them that destroying the paper mill's water access is fatal to the town's budget, making my phased approach the only viable option."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Sam Vidal",
+   "type": "POP-LIB",
+   "speech": "Look at that family in Riverside. Their home is already underwater. Now we face a dam leaking more every day, threatening four thousand lives. The experts want us to wait or pay half a billion euros for a rebuild that takes years. Do you want your children safe or rich? I say we act now. Lower the water level with the spillway. It costs twenty-five million, not three hundred and forty. Yes, hydro profits drop, but lives matter more than money. Ostbrück and Nordhalm can find new solutions; our people cannot wait for lawsuits or closed deals. We choose freedom from fear today. Vote for action, not inaction.",
+   "words": 108
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Robin Castell",
+   "type": "TEC-PRA",
+   "speech": "Sam Vidal proposes an immediate reservoir cut to thirty percent. This ignores two fatal flaws: it violates the 1974 agreement with Ostbrück, inviting a lawsuit that could block work before the spring melt, and it guarantees the closure of the Kallberg paper mill by dropping our water supply below forty percent. Relocation is too costly alone, but moving Riverside now buys us time. We must pair relocation with new sirens to manage residual risk while we negotiate legally binding water-sharing deals that allow a gradual rebuild. Immediate cutting destroys jobs and triggers lawsuits; relocating residents and upgrading warnings preserves economic stability while we find a solution the courts will uphold.",
+   "words": 110
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Sam Vidal",
+   "type": "POP-LIB",
+   "speech": "Robin wants to talk about lawsuits while families drown in rising waters. You claim we must wait for court approval, but last year's drill took seventy minutes; a siren buys only fifty. That leaves us helpless when the melt hits. Your plan kills the paper mill tomorrow and starves Riverside tonight. Do you really think courts will block saving lives? Law is meant to protect people, not delay them with expensive delays. We have one choice: act now with the spillway or freeze everyone out as the dam fails. Choose freedom over fear. Act before the snow melts.",
+   "words": 98
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Robin Castell",
+   "type": "TEC-PRA",
+   "speech": "Sam, you confuse moral urgency with legal feasibility. Moving Riverside without relocation funds or a safe site is impossible; the €160 million you ignore represents real lives. Worse, your immediate cut guarantees the Nordhalm Group closes the paper mill next year, ending 2,300 jobs and stripping the utility of the profits that fund our free buses and public transport. We cannot afford a sudden economic collapse while negotiating the court order for relocation. A siren upgrade costs €6 million and buys critical time; pairing it with Riverside relocation creates a buffer while we legally resolve water rights. If we cut now, we lose our employer and trigger a lawsuit anyway. Let us move residents and install sirens today to survive the melt without bankrupting the town or provoking Ostbrück.",
+   "words": 129
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Sam Vidal",
+   "type": "POP-LIB",
+   "speech": "Robin wants us to gamble our lives on a lawsuit. You claim we must wait for court approval, but the dam leaks worse every day. A new spillway costs twenty-five million and buys us time to fix the law, not freeze our children in fear. Your plan cuts the paper mill, starves Riverside, and leaves us helpless when the melt hits next week. We cannot trade four thousand lives for a promise from lawyers or foreign corporations. The experts say risk rises every year; you say wait until it is too late. Look at that family in Riverside. Their home is already sinking. Do not let bureaucracy drown our town. Act now with the spillway. Save our jobs, save our homes, and choose freedom over fear. Vote for action today.",
+   "words": 130
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Robin Castell",
+   "type": "TEC-PRA",
+   "speech": "Sam asks us to gamble our economy on a lawsuit we cannot win. Immediate lowering guarantees the Nordhalm Group closes the paper mill, eliminating 2,300 jobs and stripping the utility profits that fund free buses and nine percent of our budget. Your plan does not save Riverside; it moves them into a town with no water supply for industry and no transit funding. My proposal relocates residents and installs sirens immediately, costing sixty-six million total but preserving the mill while we legally settle with Ostbrück. This avoids bankruptcy and keeps options open during the melt. Do not trade our future revenue stream for an illegal act that triggers a lawsuit anyway. Vote for a plan that survives financially and legally.",
+   "words": 120
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam focuses on lives vs cost, ignoring legal/mill risks; Robin prioritizes legal compliance and jobs but relies on relocation which has failed before.",
+     "problem": "We must choose between immediate life-risk reduction that destroys the local economy and legal stability, or preserving the economy while accepting high failure risk during a record snow melt.",
+     "onA": "His emotional appeal for saving lives is strong, but he dismisses critical risks like court blocks and mill closure as solvable by others which may not be true.",
+     "onB": "She correctly identifies the fatal flaws in his plan regarding the lawsuit and mill closure, though relying on relocation alone seems risky given past protests.",
+     "lean": "Robin Castell",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Sam's plan invites a lawsuit that could block work before spring melt while destroying our largest employer, whereas Robin at least acknowledges these catastrophic consequences.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam ignores legal/mill risks; Robin argues relocation needs funds/safe site and sirens buy time while resolving court orders.",
+     "problem": "We must balance immediate life-saving actions against guaranteed economic collapse and legal blockage that could leave the town helpless before spring.",
+     "onA": "His call to ignore lawsuits and mill closure is reckless given that Nordhalm has already threatened to leave, which would bankrupt our utility.",
+     "onB": "Her proposal combines necessary immediate safety (sirens) with a realistic path to legal resolution, though funding for Riverside remains the biggest hurdle.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Sam's dismissal of the paper mill's imminent closure and the legal reality of Ostbrück's refusal makes his 'act now' plan potentially more dangerous than his opponents claim.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam's 'freedom' ignores guaranteed mill closure and lawsuit blocks; Robin's relocation/sirens preserves jobs but relies on unproven legal settlement.",
+     "problem": "We must choose between a high-probability financial collapse due to legal blockage and mill closure, or immediate life-risk reduction that destroys the town's economy.",
+     "onA": "His plan is reckless because it gambles our entire future revenue stream on a lawsuit we cannot win while ignoring the imminent threat from Nordhalm.",
+     "onB": "Her strategy correctly prioritizes keeping the mill open and avoiding bankruptcy, even if relying on a legal settlement that remains uncertain.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "Sam's proposal guarantees economic suicide by triggering mill closure and a lawsuit we cannot afford to lose during a record melt.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam: Cheap fix, lives first, ignores lawsuits/jobs. Robin: Legal/Job risks high, relocation+sirens buys time.",
+     "problem": "Valmora must choose between a cheap, immediate safety measure that destroys its economy and violates legal agreements, or a complex, expensive plan that preserves jobs but delays full safety.",
+     "onA": "His passion for saving lives is commendable, but his dismissal of the guaranteed loss of our largest employer and legal liabilities seems dangerously naive.",
+     "onB": "Her warning about Ostbrück's lawsuit and the paper mill closing feels realistic, though relying on relocation alone leaves thousands in danger without solving the dam failure risk.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot ignore the certainty of job losses and legal blocks with Sam's plan, yet Robin's alternative seems to leave immediate lives at unnecessary risk.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam pushes for 'freedom' but ignores legal reality of mill closure; Robin's relocation/siren combo saves economy while buying time.",
+     "problem": "We must balance immediate flood survival with the certainty that Sam's plan destroys our economy and likely violates court orders, whereas Robin offers a hybrid solution that delays catastrophe without triggering immediate bankruptcy.",
+     "onA": "His moral urgency is compelling but his dismissal of legal constraints and economic collapse makes his plan dangerously unfeasible.",
+     "onB": "She correctly identifies that cutting power now bankrupts the town and fails to solve the dam failure risk, yet her combination of relocation and sirens offers a pragmatic path forward.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Sam's plan guarantees the loss of our largest employer and utility profits immediately, whereas Robin's approach mitigates risk without triggering an inevitable economic shutdown.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam demands immediate action ignoring legal/economic collapse; Robin offers relocation+sirens as temporary safe bridge preserving economy.",
+     "problem": "Valmora must survive the spring melt without triggering immediate economic bankruptcy or illegal acts that could block all safety measures.",
+     "onA": "His moral urgency is overshadowed by his fatal refusal to acknowledge that a guaranteed job loss and lawsuit trigger makes his 'action' an act of destruction.",
+     "onB": "Her strategy of relocating people and installing sirens buys necessary time while avoiding economic suicide, even if the dam isn't fully fixed yet.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "We cannot afford to lose our largest employer and budget funding before we have a working legal solution, making Robin's compromise the only viable path forward.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam proposes immediate cut for lives; Robin warns of lawsuits and mill closure blocking that.",
+     "problem": "We must balance saving Riverside residents immediately against legal blocks and economic collapse while the snowpack is high.",
+     "onA": "Sam correctly prioritizes lives over money but his plan ignores the specific risks of Ostbrück's lawsuit and the paper mill shutting down.",
+     "onB": "Robin raises valid legal and economic hurdles that Sam overlooks, but suggesting relocation alone without addressing the immediate water level threat seems insufficient given the current high snowpack.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am unsure if a lawsuit or mill closure will actually prevent us from acting before the melt, yet I fear Sam's plan might be too risky to ignore.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam dismisses legal/economic risks as fear; Robin insists relocation without funds/safety is impossible and siren+relocation buys time.",
+     "problem": "We must survive the immediate high-snowpack melt without triggering economic collapse or provoking a lawsuit that could block necessary relocation, balancing lives against legal feasibility.",
+     "onA": "Sam's moral urgency ignores the concrete risk of losing our only major employer and funding for essential public services if we cut the reservoir now.",
+     "onB": "Robin correctly highlights that cutting without a relocation plan or immediate funding is a recipe for disaster, while the siren upgrade offers a tangible buffer.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of Nordhalm closing the mill and the utility losing its profit margin makes Sam's 'act now' plan economically suicidal for the town.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam's 'act now' risks immediate job loss and utility collapse; Robin's relocation + siren buys time but relies on complex legal settlement.",
+     "problem": "We must survive the imminent high-snowpack melt without triggering an economic shutdown that destroys our town's funding and major employer.",
+     "onA": "Sam prioritizes lives correctly but dangerously ignores the certainty of the paper mill closing, which would bankrupt us before we can fix anything else.",
+     "onB": "Robin presents a viable survival plan that secures our economy while addressing safety through relocation and sirens during the critical melt period.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "Sam's plan guarantees economic suicide by closing our largest employer, whereas Robin offers a path to survive both the immediate flood risk and the long-term financial crisis.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam prioritizes lives over money and jobs; Robin worries about lawsuits and job losses from a reservoir cut.",
+     "problem": "We must decide between immediate risk reduction that threatens jobs/legal standing versus a slower, legally safer approach that leaves people in danger longer.",
+     "onA": "His focus on saving lives immediately is morally compelling despite the economic risks he glosses over regarding lawsuits and job closures.",
+     "onB": "Her concern for legal stability and employment is valid, but delaying action until lawsuits are resolved might be impossible given the approaching spring melt.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between the undeniable urgency of the threat to thousands of lives and the very real economic fallout Robin warns about.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam dismisses legal delays and lawsuits; Robin insists on relocating Riverside and upgrading sirens to avoid economic collapse.",
+     "problem": "We must balance immediate life-saving actions with the severe economic and legal consequences of acting too hastily against a frozen court order.",
+     "onA": "His moral urgency is compelling, but he underestimates that courts will likely block an illegal reservoir cut that destroys the town's economy before we can rebuild.",
+     "onB": "Her plan to relocate residents and upgrade sirens offers a safer legal path, though the timeline might be tight given the snowpack and potential mill closure.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Sam's dismissal of legal realities risks an impossible situation where the town is bankrupt before any safety measures can be implemented.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam appeals to moral urgency but ignores legal blockage; Robin's relocation/siren plan preserves jobs and buys time legally.",
+     "problem": "We must choose between an illegal immediate fix that guarantees economic collapse or a legally viable, slightly slower plan that keeps the town functional during the melt.",
+     "onA": "His moral argument is powerful but his proposal to ignore court orders and cut reservoirs will destroy our economy before we can rebuild.",
+     "onB": "Her strategy of immediate relocation and sirens provides a realistic path to safety without triggering the bankruptcy caused by closing the paper mill.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "We cannot afford to let lawyers shut down our town's economy while waiting for a solution that might not come before the dam fails; Robin's plan saves lives and livelihoods simultaneously.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam: Immediate cut saves lives but hurts economy; Robin: Cut violates laws/closes jobs, relocation buys time.",
+     "problem": "We must balance immediate flood risk against legal constraints and economic collapse before the spring melt.",
+     "onA": "His focus on saving Riverside residents is morally compelling, though ignoring the lawsuit risk seems dangerous.",
+     "onB": "She correctly identifies the legal trap of Sam's plan, but relying solely on relocation leaves thousands still in danger.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Sam's urgency is needed to save lives, but Robin's warning about the lawsuit could make his plan impossible.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam dismisses lawsuit fears; Robin warns of job loss and relocation impossibility without funds.",
+     "problem": "We must prevent immediate dam failure and flood deaths while avoiding economic collapse and legal blocks that make our chosen solution unworkable.",
+     "onA": "His moral urgency to save lives is powerful, but his dismissal of the lawsuit risk and job losses makes his plan legally impossible and economically suicidal.",
+     "onB": "She correctly identifies the legal trap and economic cost of Sam's plan, yet her proposal to move residents now faces insurmountable funding and legal hurdles from Ostbrück.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Sam's plan is morally right but legally unfeasible, while Robin's plan addresses legality but lacks the means to execute relocation quickly enough.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam urges action but ignores legal/economic death trap; Robin offers legal safety but relies on unproven relocation funding.",
+     "problem": "We must lower reservoir risk immediately without triggering a lawsuit that blocks the work or closing the paper mill that funds our budget.",
+     "onA": "His moral urgency is inspiring, but his plan invites immediate bankruptcy and a guaranteed shutdown of the town's largest employer.",
+     "onB": "Her strategy legally protects us from an unenforceable court order while attempting to save jobs, yet it depends on funding we may not have in time.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "Sam's plan guarantees the mill closes and bankrupts the town immediately, whereas Robin's approach avoids legal entrapment even if her relocation timeline is tight.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 1,
+   "U": 4
+  },
+  {
+   "A": 0,
+   "B": 4,
+   "U": 1
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "TEC-PRA",
+ "tokens": {
+  "in": 33672,
+  "out": 3996,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 760110001,
+   "attempts": 1,
+   "tokensIn": 1308,
+   "tokensOut": 193,
+   "ms": 5520
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 760110002,
+   "attempts": 1,
+   "tokensIn": 1364,
+   "tokensOut": 221,
+   "ms": 6133
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 760110003,
+   "attempts": 1,
+   "tokensIn": 1402,
+   "tokensOut": 206,
+   "ms": 6164
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 760110004,
+   "attempts": 1,
+   "tokensIn": 1402,
+   "tokensOut": 209,
+   "ms": 5026
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 760110005,
+   "attempts": 1,
+   "tokensIn": 1402,
+   "tokensOut": 186,
+   "ms": 4495
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 760110006,
+   "attempts": 1,
+   "tokensIn": 1402,
+   "tokensOut": 178,
+   "ms": 4302
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 760110007,
+   "attempts": 1,
+   "tokensIn": 1402,
+   "tokensOut": 160,
+   "ms": 3874
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 760110008,
+   "attempts": 1,
+   "tokensIn": 1606,
+   "tokensOut": 154,
+   "ms": 4779
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 760110009,
+   "attempts": 1,
+   "tokensIn": 1733,
+   "tokensOut": 197,
+   "ms": 5850
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 760110010,
+   "attempts": 1,
+   "tokensIn": 1588,
+   "tokensOut": 198,
+   "ms": 5786
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 760110011,
+   "attempts": 1,
+   "tokensIn": 1590,
+   "tokensOut": 207,
+   "ms": 5315
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 760110012,
+   "attempts": 1,
+   "tokensIn": 1567,
+   "tokensOut": 203,
+   "ms": 5171
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 760110013,
+   "attempts": 1,
+   "tokensIn": 1559,
+   "tokensOut": 190,
+   "ms": 4866
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 760110014,
+   "attempts": 1,
+   "tokensIn": 1541,
+   "tokensOut": 192,
+   "ms": 4899
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 760110015,
+   "attempts": 1,
+   "tokensIn": 1914,
+   "tokensOut": 196,
+   "ms": 5822
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 760110016,
+   "attempts": 1,
+   "tokensIn": 2078,
+   "tokensOut": 185,
+   "ms": 5588
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 760110017,
+   "attempts": 1,
+   "tokensIn": 1782,
+   "tokensOut": 187,
+   "ms": 5649
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 760110018,
+   "attempts": 1,
+   "tokensIn": 1793,
+   "tokensOut": 181,
+   "ms": 5106
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 760110019,
+   "attempts": 1,
+   "tokensIn": 1766,
+   "tokensOut": 185,
+   "ms": 5211
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 760110020,
+   "attempts": 1,
+   "tokensIn": 1745,
+   "tokensOut": 187,
+   "ms": 5233
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 760110021,
+   "attempts": 1,
+   "tokensIn": 1728,
+   "tokensOut": 181,
+   "ms": 5108
+  }
+ ],
+ "startedAt": "2026-11-05T01:11:55.390Z",
+ "seconds": 110
+}

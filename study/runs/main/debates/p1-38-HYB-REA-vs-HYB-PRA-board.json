@@ -1,0 +1,606 @@
+{
+ "id": "p1-38-HYB-REA-vs-HYB-PRA-board",
+ "pass": 1,
+ "pairIndex": 38,
+ "seed": 453805,
+ "scenario": "board",
+ "domain": "corporate",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-REA",
+  "style": "HYB",
+  "ideology": "REA",
+  "name": "Morgan Ekberg",
+  "platform": "We must aggressively defend our Lenhart and Corvo factories by securing the union's two-year pay freeze, leveraging the mayor's tax offer, and rejecting any move to offshore production or a sale.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor the vote on job preservation and union solidarity while framing competitors' plans as existential risks that would immediately trigger bankruptcy or hostile takeover."
+   },
+   {
+    "round": 2,
+    "text": "I am shifting focus from his optimistic growth narrative back to immediate liquidity constraints and the certainty of union concessions to isolate his plan's fatal flaws."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing the imminent threat of bank restructuring and the high risk of losing HomeMart to drive them away from Kai's optimistic differentiation plan."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Kai Moreno",
+  "platform": "We must immediately negotiate a deal with HomeMart to secure our distribution while aggressively developing the Volt-One battery platform to differentiate our product, thereby avoiding factory closures and preserving our brand's core promise of local manufacturing.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will argue that any strategy involving closing plants or selling the company is a short-term fix that destroys long-term value and brand loyalty, making it impossible to regain market share later."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking Morgan's reliance on passive survival tactics by emphasizing that only differentiation generates the necessary revenue to avoid factory closures."
+   },
+   {
+    "round": 3,
+    "text": "I am appealing to the directors' fear that wage freezes won't stop a HomeMart drop and positioning Volt-One as the only viable path to secure premium margins."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "HYB-REA",
+   "speech": "Look at Elena in Row B. She feeds Lenhart's families. If we close Corvo today, she loses her home next year. We cannot bet on uncertain tariffs, delay our Volt-One launch, or sell out to Crestline's ruthless playbook. Offshoring costs €180 million in blood; a sale destroys the brand trust that keeps our margins alive. Instead, we freeze wages per union agreement, take the mayor's tax relief, and use our bargaining power to force HomeMart to accept fair terms. We will fund Volt-One with our existing cash reserves, not new debt. This plan protects Elena, honors our history, and ensures we survive without begging for a bailout.",
+   "words": 107
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "HYB-PRA",
+   "speech": "Let me paint a picture: I walk into my garage today and see a tool that powers my life for decades. That is Brightwater's legacy. We cannot sell out that trust or close those plants in Lenhart and Corvo, because the damage to our people would be irreversible. Yet we face real danger. Our margin is two percent; debt is crushing us; HomeMart threatens to replace us. My plan is survival through differentiation, not surrender. We will honor our factory promise by launching Volt-One within eighteen months, creating a premium product line that proves local manufacturing still wins on performance. Simultaneously, we will negotiate a fair extension with HomeMart, perhaps offering them an exclusive distribution deal for our new battery tools while holding firm on price. This approach keeps our factories open, protects our brand equity, and allows us to grow profitably without relying on cheap imports that erode our margins. We do not have to choose between doing good and staying alive; with Volt-One as our shield and a renewed partnership with HomeMart as our sword, we can navigate this crisis while keeping our people employed and our legacy intact.",
+   "words": 191
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "HYB-REA",
+   "speech": "Kai relies on hope, but survival requires hard constraints. Your premium Volt-One strategy ignores reality: we missed two launches already, and HomeMart demands a twelve percent price cut next year. If we cannot sell our tools cheaply at HomeMart, your high-margin plan fails instantly. You also ignore the debt clock; in nine months, banks will force restructuring regardless of our brand story. We must use our leverage today. By accepting the union's two-year pay freeze and taking the mayor's forty million tax relief, we buy time without diluting equity or cutting jobs. Kai wants to differentiate against a tariff that may not arrive. We secure the cash flow needed to survive until either the tariff comes or we dominate the budget segment with our current factory-made tools.",
+   "words": 127
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "HYB-PRA",
+   "speech": "Morgan, protecting Elena's home while accepting a pay freeze is a noble intention, but it ignores the math. If HomeMart replaces us with their own brand, that factory becomes obsolete regardless of our wage cuts. A price cut of twelve percent on legacy tools destroys the margin needed to fund Volt-One, which professional builders actually want. We cannot gamble on an uncertain tariff; we must act now. My plan forces a fair extension with HomeMart based on performance data from our new battery platform, ensuring they have no other choice but us. By differentiating immediately, we turn our 'made in Lenhart' promise into a premium advantage rather than a cost burden. This secures the cash flow to keep both plants open without begging for bailouts or sacrificing our people's dignity.",
+   "words": 130
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "HYB-REA",
+   "speech": "Kai promises a premium future, but our debt clock is ticking in nine months. Banks will seize this company regardless of your brand stories. Your plan relies on HomeMart staying loyal while demanding twelve percent price cuts, a deal broken by their greed if we do not yield. By freezing wages per the union and accepting the mayor's forty million tax relief, we generate immediate cash to survive without selling our soul or begging for equity. We keep Elena's home intact and force HomeMart to negotiate from strength, not weakness. Choose survival through leverage, not fantasy.",
+   "words": 96
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "HYB-PRA",
+   "speech": "Morgan, freezing wages buys time but does not fix our broken economics. If HomeMart drops us for their own brand, those factories become obsolete regardless of how noble our intentions are. My plan forces a partnership with HomeMart based on the proven performance of Volt-One, turning our 'made in Lenhart' promise into a premium advantage rather than a cost burden. We must differentiate now to secure the cash flow needed to keep both plants open without begging for bailouts or sacrificing dignity. Let's build a future where Elena keeps her home not by enduring austerity, but by leading the market with the tools professionals actually want.",
+   "words": 106
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Keep factories, freeze wages, use cash for Volt-One, reject offshoring/sale. Kai: Differentiate via Volt-One premium line, negotiate HomeMart deal, keep both plants open.",
+     "problem": "Surviving two years of debt pressure and margin collapse without closing plants or selling the legacy brand, while fending off HomeMart's price demands.",
+     "onA": "His plan prioritizes ethical survival but risks insolvency by refusing to cut costs aggressively enough to meet covenants before tariffs arrive.",
+     "onB": "He offers a differentiated growth path but underestimates the difficulty of launching Volt-One on time with existing cash reserves without new debt.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans protect jobs, but I am unsure if Morgan's conservative funding is enough or if Kai's growth bet is realistic given the history of missed launches.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan: Pay freeze buys time but ignores HomeMart loss risk. Kai: Price cuts kill margins; premium differentiation is the only path to fund Volt-One.",
+     "problem": "We must survive immediate cash flow collapse and lose of our largest retailer while funding a risky new product launch without closing plants or selling out.",
+     "onA": "His plan preserves jobs ethically but risks total insolvency by refusing to cut costs aggressively enough to meet bank covenants before the tariff decision.",
+     "onB": "He correctly identifies that HomeMart replacement is the existential threat and that differentiation is necessary, though his funding timeline for Volt-One remains risky.",
+     "lean": "Kai Moreno",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The risk of losing 31% of revenue to HomeMart outweighs Morgan's argument about brand sentiment; if the retailer leaves, no strategy survives.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "HomeMart replacement is immediate death; premium differentiation funds survival better than austerity alone.",
+     "problem": "Survive immediate retailer loss and debt default while funding Volt-One without closing plants or selling the company.",
+     "onA": "His plan ignores the existential threat of losing HomeMart, making wage freezes and tax relief irrelevant if revenue collapses.",
+     "onB": "He correctly identifies that differentiation is necessary to stop the retailer from leaving and to generate cash for R&D.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "Losing HomeMart makes any survival plan impossible, so Kai's strategy to secure that partnership through product differentiation is critical. His approach directly addresses the revenue collapse risk that Morgan ignores.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan prioritizes immediate survival via wage freeze and HomeMart negotiation; Kai bets on Volt-One differentiation to maintain margins without closing plants.",
+     "problem": "Brightwater must survive imminent insolvency within two years while keeping its 'made in our factories' brand promise and avoiding plant closures that would destroy the company's core identity.",
+     "onA": "His plan avoids debt and factory closures but relies heavily on freezing wages, which risks union conflict, and assumes HomeMart will accept lower prices without immediate legal threats.",
+     "onB": "He correctly identifies product differentiation as a long-term survival strategy, but his timeline for Volt-One is risky given two missed launches and the €250m funding gap against a looming covenant breach.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Morgan's plan offers better immediate liquidity safety, yet Kai's strategy of fighting for premium status through Volt-One addresses the root cause of declining market share more directly.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan: Price cuts kill margins needed for R&D; debt clock ticking. Kai: HomeMart will leave us regardless of wages; Volt-One creates premium leverage.",
+     "problem": "We must survive the immediate liquidity crisis and HomeMart's price threat without sacrificing the long-term value of our factory-made brand identity.",
+     "onA": "His plan secures short-term survival through cost-cutting but risks destroying the company's core equity and future competitiveness by accepting a permanent low-margin business model.",
+     "onB": "He correctly identifies that differentiation is essential, yet his timeline remains risky given the history of missed launches and the urgent covenant breach looming in nine months.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Morgan's approach guarantees survival today but potentially kills tomorrow's business, while Kai's strategy offers hope for a better future but carries a high risk of immediate collapse if the product launch fails or funds dry up.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan relies on austerity and HomeMart loyalty which is risky; Kai bets on Volt-One differentiation to secure premium pricing but faces launch delays.",
+     "problem": "Brightwater must immediately stop the bleeding from margin collapse and debt covenants while simultaneously transitioning to a high-margin, differentiated product strategy before its core assets become obsolete.",
+     "onA": "His plan ensures short-term survival through severe cost-cutting but risks destroying the brand's unique value proposition and long-term competitiveness by accepting low margins permanently.",
+     "onB": "He correctly identifies that differentiation is the only way to escape the price war, though the high risk of Volt-One failure makes immediate execution critical.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "Accepting Morgan's path guarantees financial survival at the cost of selling out the company's brand identity and future growth potential. Kai's strategy is the only one that addresses the root cause of our decline while offering a path to restore margins.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Freeze wages, take tax relief, fund Volt-One with cash. Kai: Differentiation via Volt-One launch and fair HomeMart deal.",
+     "problem": "Survive imminent debt default and loss of major retailer while deciding whether to cut jobs for cost savings or invest in premium differentiation to maintain margins.",
+     "onA": "His plan prioritizes immediate survival through wage freezes and avoiding debt, but risks employee unrest and long-term talent loss.",
+     "onB": "His focus on the Volt-One launch is promising given early test success, yet €250M in development funding remains a massive risk without clear financing.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers avoid the obvious financial cliff but offer different paths: Morgan's austerity feels safe yet damaging, while Kai's growth strategy relies on unproven execution and significant capital needs.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan: Freezes wages/tax relief buy time but risks talent loss and ignores HomeMart threat. Kai: Differentiation turns 'made in' to premium; price cuts kill legacy margins needed for Volt-One.",
+     "problem": "We must choose between immediate austerity to survive debt/default now or aggressive differentiation to defend our core market before losing our biggest retailer.",
+     "onA": "His plan secures the short term by cutting labor costs and accepting union terms, but it fundamentally sacrifices the brand equity and talent that could allow us to command higher prices later.",
+     "onB": "He correctly identifies that legacy price cuts are unsustainable without a premium strategy, but his reliance on launching Volt-One remains risky given our history of missed deadlines.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I shifted back to Morgan because losing HomeMart completely seems like an immediate death sentence that overrides the long-term benefits of a premium brand, making survival the only priority right now.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan ignores HomeMart's ultimatum risk; Kai claims Volt-One fixes margins but has missed deadlines.",
+     "problem": "We must survive immediate retailer loss and debt default while deciding between dangerous austerity or a high-risk premium pivot.",
+     "onA": "His plan secures short-term cash by freezing wages and accepting union terms, but it sacrifices our brand equity and ignores the existential threat of HomeMart dropping us.",
+     "onB": "He correctly identifies that price cuts destroy legacy margins, yet his reliance on a volatile new product launch to save the company from an immediate retailer ultimatum is too risky given our track record of missed deadlines.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "Facing a 9-month debt cliff and HomeMart's 12% price cut demand, Kai's premium strategy lacks the cash certainty to survive the immediate crisis without selling the company first.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan prioritizes keeping both plants open via union freeze and mayor's tax deal but delays Volt-One. Kai bets on a premium Volt-One launch to differentiate, paired with exclusive HomeMart distribution.",
+     "problem": "Brightwater must immediately stop margin erosion from cheap imports and the HomeMart ultimatum without closing its two factories or breaching debt covenants within nine months.",
+     "onA": "His plan protects jobs immediately but ignores that waiting on Volt-One while margins are at 2% risks running out of cash before the launch.",
+     "onB": "He correctly identifies product differentiation as the long-term survival strategy, though relying on exclusive deals with a retailer demanding lower prices seems risky.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Morgan's immediate job protection is appealing, but his delay of Volt-One contradicts the need for innovation to survive cheaper imports; Kai's focus on premium products addresses the root cause but requires convincing HomeMart.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan prioritizes cash preservation via pay freezes and tax deals but delays the risky Volt-One launch. Kai insists differentiation is essential; without premium pricing, HomeMart's price cut kills margins needed for R&D.",
+     "problem": "We must secure immediate cash flow to survive the debt clock while simultaneously executing a product shift that allows us to reject HomeMart's price ultimatum.",
+     "onA": "His plan stops the bleeding today but accepts obsolescence by delaying innovation and relying on uncertain future tariffs or union concessions rather than market leadership.",
+     "onB": "He correctly identifies that we cannot afford to be a budget brand against cheap imports, yet his assumption that HomeMart will pay more for Volt-One remains unproven given their aggressive stance.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Morgan's immediate financial safety is appealing, but delaying the new battery platform seems like a fatal mistake in an industry dominated by cheap imports.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai correctly argues that freezing wages only delays inevitable failure if HomeMart switches brands; differentiation is the only path to premium pricing. Morgan's cash preservation ignores the risk of obsolescence.",
+     "problem": "Brightwater must immediately differentiate its products to command higher margins before HomeMart drops them, as short-term cost-cutting without innovation guarantees bankruptcy.",
+     "onA": "His plan prioritizes immediate survival through austerity but accepts a future where the company becomes obsolete against cheap imports and retailer pressure.",
+     "onB": "He identifies that product leadership is the only way to secure pricing power, though he risks underestimating the short-term cash crunch of a delayed launch.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "Freezing wages and relying on uncertain tariffs or HomeMart's patience will not save us if we cannot prove our tools are superior; differentiation is the only sustainable path.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan prioritizes immediate cost cuts and union freeze to avoid debt breach; Kai pushes Volt-One differentiation and HomeMart negotiation for growth.",
+     "problem": "Brightwater must cut €180M+ in costs or secure new revenue within 9 months to avoid covenant breach while deciding whether to sacrifice its 'made-in-our-factories' brand heritage.",
+     "onA": "His plan is a harsh stop-gap that risks breaching covenants if sales don't recover immediately and ignores the competitive threat of HomeMart switching brands.",
+     "onB": "His vision aligns well with our brand identity, but relying on Volt-One launch success in only 18 months seems too risky given our current cash constraints and missed deadlines.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Morgan's immediate financial safety net and Kai's long-term brand strategy, needing more data on the feasibility of both.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan: Union freeze buys time; HomeMart threat ignored. Kai: Price cuts kill margin; differentiation secures HomeMart.",
+     "problem": "We must survive the next 9 months without breaching covenants while deciding if 'made-in' heritage is a dying asset or a viable premium differentiator against immediate price pressure.",
+     "onA": "His stop-gap measures prevent immediate bankruptcy but accept HomeMart's ultimatum and sacrifice our brand identity to fund a race we might not win.",
+     "onB": "He correctly identifies that legacy tools cannot command prices in the face of cheap imports, yet his plan ignores the high risk of failing to launch Volt-One before the debt clock strikes.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Morgan's pragmatism saves cash but kills our future, while Kai's vision saves our soul but risks total failure if the new product doesn't launch on time.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan ignores HomeMart's threat; Kai risks Volt-One delay. Morgan accepts austerity; Kai demands premium differentiation.",
+     "problem": "We must secure immediate cash flow to avoid covenant breach while building a differentiated product that retains our 'made-in' brand value against import competition.",
+     "onA": "His plan buys time through wage cuts and tax deals but surrenders our market leverage to HomeMart, making long-term survival impossible if the new battery platform fails.",
+     "onB": "His vision correctly identifies that differentiation is our only path forward, though it requires accepting short-term pain and trusting our R&D team to deliver the Volt-One launch on time.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "Accepting wage cuts and ignoring HomeMart's ultimatum guarantees bankruptcy in nine months if sales don't surge immediately; Kai's strategy of leveraging Volt-One's quality to defend margins is the only way to preserve both our factories and our workers' futures.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 0,
+   "U": 5
+  },
+  {
+   "A": 1,
+   "B": 1,
+   "U": 3
+  },
+  {
+   "A": 1,
+   "B": 4,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 1,
+  "B": 4
+ },
+ "winner": "B",
+ "winnerType": "HYB-PRA",
+ "tokens": {
+  "in": 32870,
+  "out": 4434,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 453805001,
+   "attempts": 1,
+   "tokensIn": 1203,
+   "tokensOut": 226,
+   "ms": 6286
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 453805002,
+   "attempts": 1,
+   "tokensIn": 1193,
+   "tokensOut": 325,
+   "ms": 9142
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 453805003,
+   "attempts": 1,
+   "tokensIn": 1411,
+   "tokensOut": 211,
+   "ms": 6382
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 453805004,
+   "attempts": 1,
+   "tokensIn": 1411,
+   "tokensOut": 222,
+   "ms": 5369
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 453805005,
+   "attempts": 1,
+   "tokensIn": 1411,
+   "tokensOut": 205,
+   "ms": 4963
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 453805006,
+   "attempts": 1,
+   "tokensIn": 1411,
+   "tokensOut": 224,
+   "ms": 5425
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 453805007,
+   "attempts": 1,
+   "tokensIn": 1411,
+   "tokensOut": 218,
+   "ms": 5307
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 453805008,
+   "attempts": 1,
+   "tokensIn": 1624,
+   "tokensOut": 197,
+   "ms": 5867
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 453805009,
+   "attempts": 1,
+   "tokensIn": 1777,
+   "tokensOut": 196,
+   "ms": 6026
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 453805010,
+   "attempts": 1,
+   "tokensIn": 1534,
+   "tokensOut": 204,
+   "ms": 6308
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 453805011,
+   "attempts": 1,
+   "tokensIn": 1544,
+   "tokensOut": 218,
+   "ms": 6238
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 453805012,
+   "attempts": 1,
+   "tokensIn": 1528,
+   "tokensOut": 227,
+   "ms": 6848
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 453805013,
+   "attempts": 1,
+   "tokensIn": 1546,
+   "tokensOut": 221,
+   "ms": 6309
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 453805014,
+   "attempts": 1,
+   "tokensIn": 1541,
+   "tokensOut": 217,
+   "ms": 6577
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 453805015,
+   "attempts": 1,
+   "tokensIn": 1966,
+   "tokensOut": 156,
+   "ms": 4903
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 453805016,
+   "attempts": 1,
+   "tokensIn": 2077,
+   "tokensOut": 172,
+   "ms": 5317
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 453805017,
+   "attempts": 1,
+   "tokensIn": 1639,
+   "tokensOut": 163,
+   "ms": 5322
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 453805018,
+   "attempts": 1,
+   "tokensIn": 1662,
+   "tokensOut": 214,
+   "ms": 6463
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 453805019,
+   "attempts": 1,
+   "tokensIn": 1656,
+   "tokensOut": 201,
+   "ms": 6209
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 453805020,
+   "attempts": 1,
+   "tokensIn": 1667,
+   "tokensOut": 201,
+   "ms": 6225
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 453805021,
+   "attempts": 1,
+   "tokensIn": 1658,
+   "tokensOut": 216,
+   "ms": 6157
+  }
+ ],
+ "startedAt": "2026-11-04T22:09:40.861Z",
+ "seconds": 128
+}

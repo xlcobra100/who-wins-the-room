@@ -1,0 +1,609 @@
+{
+ "id": "p2-23-POP-LIB-vs-HYB-PRA-dam",
+ "pass": 2,
+ "pairIndex": 23,
+ "seed": 277827,
+ "scenario": "dam",
+ "scenarioVersion": 2,
+ "domain": "political",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Jordan Hale",
+  "platform": "We must immediately relocate the 3,100 families in Riverside and invest those funds into a rapid flood-warning system that gives us real warning before the spring melt.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal directly to the workers at Kallberg and the elderly in Riverside by framing the relocation as protecting their futures rather than just a safety measure, while subtly undermining Okafor's reliance on Nordhalm and Ostbrück."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking Jamie's reliance on partial risk reduction and legal delays while emphasizing the immediate economic collapse caused by lowering the reservoir."
+   },
+   {
+    "round": 3,
+    "text": "I need to emphasize that Jamie's 'temporary' solution results in immediate job loss and power failure, making her plan economically impossible for voters who fear the mill closing."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Jamie Okafor",
+  "platform": "We must immediately lower the reservoir to thirty percent while building a new spillway, then rebuild the dam over the next decade as conditions allow.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize feasibility by contrasting this quick fix with the impossible four-year rebuild to sway voters worried about immediate spring melt risks."
+   },
+   {
+    "round": 2,
+    "text": "Highlight the legal inevitability of Ostbrück's refusal to show unilateral action fails, then pivot to using available funds for mitigation as a practical bridge rather than an ideological gamble."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the legal blockade Jordan ignores while framing my temporary sacrifice as a practical bridge to long-term safety."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Jordan Hale",
+   "type": "POP-LIB",
+   "speech": "Jamie wants to lower the water and kill our power, but the Kallberg paper mill will close, bankrupting thousands of workers. We cannot let foreign suits dictate our safety. The national grant comes with strings that freeze property values for working families. Instead of letting Nordhalm shut us down or Ostbrück sue us into silence, we act as a sovereign community. We buy the homes in Riverside, move the elderly and poor out of the kill zone now, and spend that money on sirens and drills that save lives without waiting for permission. We feed our own power grid and secure our streets against the insurers who want to abandon us. This is not about cutting corners; it is about taking control back from experts who have let Valmora down.",
+   "words": 130
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-PRA",
+   "speech": "Think of Maria in Riverside. She watches that wall every day, fearing for her children and her life savings. We cannot gamble on a failing structure with six hundred million euros at risk and snowpacks above average. The state grant freezes property values; moving families is too slow and costly; waiting for Ostbrück's permission invites catastrophe. My plan cuts the failure risk by sixty percent in one year, stopping the immediate flood threat while we rebuild. Yes, hydro profits drop, but we save lives first, then restore power as our new dam rises. This is not ideology; it is survival, precision, and keeping every option open for a safer future.",
+   "words": 110
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Jordan Hale",
+   "type": "POP-LIB",
+   "speech": "Jamie talks about saving lives, but your plan leaves Riverside families homeless while we wait for permission that never comes. Nordhalm will close its mill anyway if they lower the water, costing jobs and wages tonight. You want to gamble on a sixty percent risk reduction? That leaves four chances in ten where our hospital floods. Your option kills our power grid right now because you destroy utility profits before rebuilding starts. Insurers are already fleeing; without immediate sirens and relocation, we have no shield when the snow melts. Do not let Ostbrück's lawyers or foreign owners decide if Valmorans live or die. We buy the homes, move the families, and install the alarms today. That is real safety, not a promise for next year.",
+   "words": 125
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-PRA",
+   "speech": "Jordan, you speak of control but ignore reality: Ostbrück will not sign off on lowering waters unless they have compensation for their orchards. If we try to force this unilaterally, a court blocks us before the snow melts, and Nordhalm shuts the mill anyway. That leaves zero jobs and zero power. My plan accepts this tradeoff as a temporary bridge: we lower to thirty percent immediately to buy sixty percent less risk while negotiating those upstream rights. We use every euro of our own debt capacity to fund sirens and emergency housing grants now, not just relocation costs. This keeps the mill open during repairs, protects Riverside with immediate alarms, and avoids a lawsuit that shuts us down completely. It is the only path that balances survival, economy, and fairness.",
+   "words": 130
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Jordan Hale",
+   "type": "POP-LIB",
+   "speech": "Jamie wants to gamble on a failing wall while courts block us. Your plan leaves our hospital in Riverside flooding with zero warning, killing the families Jamie claims she protects. Nordhalm closes anyway if we lower water, stealing jobs and tax revenue right now. Do you really want my vote when your math guarantees half our power dies and our orchards starve? We act sovereign today. I buy the homes to move the vulnerable out immediately, then install sirens that actually work before the snow melts. We feed our own grid, secure our streets, and let Valmora decide its fate, not foreign suits or distant lawyers. Choose a plan that saves lives without stealing our future.",
+   "words": 116
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-PRA",
+   "speech": "Jordan, your plan of buying homes ignores the hard truth: Ostbrück will never agree to our terms, a lawsuit will block us before the snow melts, and Nordhalm closes anyway. Your gamble leaves our hospital with zero power and no water for orchards. My plan accepts temporary hardship as a bridge. We lower to thirty percent immediately to cut risk by sixty percent while we negotiate fair compensation for Ostbrück and keep the mill running during repairs. We fund sirens today and rebuild tomorrow. This isn't surrender; it is survival with eyes open. Choose the path that keeps lives, jobs, and our future intact rather than an ideology that guarantees disaster.",
+   "words": 111
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan prioritizes sovereignty and Riverside relocation; Jamie prioritizes immediate risk reduction via spillway.",
+     "problem": "How to prevent catastrophic flooding from a failing dam while balancing economic survival, legal constraints, and ethical obligations to vulnerable residents before the spring melt.",
+     "onA": "Their plan sounds financially reckless given Valmora's debt ceiling and ignores Ostbrück's legal authority, risking a court-block that halts all work immediately.",
+     "onB": "Jamie's spillway option offers immediate safety with lower cost, but the potential loss of paper mill jobs and hydro profits for free buses is a severe economic trade-off.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Jamie addresses the imminent physical threat of the dam failure which Jordan's relocation plan ignores, whereas Jordan's approach risks legal injunctions that could prevent any action.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan ignores Ostbrück lawsuit risk and Nordhalm closure; Jamie uses lowering as a temporary bridge while securing sirens.",
+     "problem": "We must immediately reduce failure risk below the spring melt deadline without triggering a court block that halts all action or causing the paper mill to close.",
+     "onA": "Jordan's plan is legally dangerous and economically suicidal, forcing us to choose between a blocked relocation effort and guaranteed job loss.",
+     "onB": "Jamie correctly identifies that unilateral action invites a court injunction, making the temporary water lowering a necessary survival bridge while we secure sirens.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jordan's refusal to acknowledge the high probability of an immediate court block makes her 'control' plan impossible to execute in time for the spring melt.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan claims sovereignty but ignores legal blocks and job losses; Jamie admits hardship for survival while trying to keep jobs running.",
+     "problem": "We must immediately cut failure risk below the court-block deadline without triggering Nordhalm's closure or losing our orchards.",
+     "onA": "Her plan guarantees an immediate court injunction that halts all work, leaving the town vulnerable to flooding before spring.",
+     "onB": "She correctly identifies the legal impossibility of her relocation plan and offers a temporary survival bridge that keeps jobs intact.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "Jordan's idealism leads to certain disaster due to legal constraints and economic collapse, whereas Jamie's pragmatic approach accepts necessary short-term hardship to ensure immediate safety and continuity.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan: Move Riverside, build sirens, ignore grants/Ostbrück. Jamie: Lower reservoir immediately for safety, accept lower power, rebuild later.",
+     "problem": "Balancing immediate flood safety against economic collapse, legal blocks, and social equity before the spring melt.",
+     "onA": "A heroic stand for sovereignty that prioritizes lives but ignores legal constraints on water use and the certainty of losing our power revenue.",
+     "onB": "Pragmatic about stopping the immediate flood threat via lowering, yet risks triggering a lawsuit from Ostbrück and accepting permanent loss of bus funding.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The spring melt is imminent; I am too scared to wait years for relocation when lowering the water can reduce failure risk immediately, even if imperfect.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan ignores legal block on lowering water and mill closure risk; Jamie uses temporary lowering as bridge while funding sirens/housing grants.",
+     "problem": "We need an immediate safety measure that survives legal constraints from Ostbrück and economic pressure from Nordhalm without causing total collapse.",
+     "onA": "Jordan's refusal to accept the likelihood of a court block makes their plan unrealistic for a town facing imminent meltwater.",
+     "onB": "Jamie admits the tradeoffs but offers a pragmatic temporary bridge that funds critical safety upgrades like sirens while keeping the mill open.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Realizing that waiting for relocation or fighting a lawsuit now guarantees failure makes Jamie's imperfect but functional compromise the only viable path.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan's buyout plan ignores legal blocks and mill closure risks; Jamie's temporary lowering is a viable bridge despite trade-offs.",
+     "problem": "We must reduce immediate flood risk within the legal and economic constraints before the melt, balancing survival with necessary infrastructure stability.",
+     "onA": "Her sovereign stance is inspiring but her plan guarantees a disaster by ignoring the certain court block on lowering water and the mill's inevitable shutdown.",
+     "onB": "She accepts painful trade-offs like temporary power loss to secure immediate safety, making her plan the only functional option that survives the legal deadline.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "Waiting for a lawsuit to resolve or relying on relocation takes too long; Jamie's strategy of temporary lowering provides an immediate survival bridge while we fix the real issues.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan: Buy Riverside homes now, move vulnerable, ignore foreign suits; build sirens. Jamie: Lower dam immediately to cut 60% risk in 1 year, stop immediate threat.",
+     "problem": "Valmora must choose between a costly, slow relocation that maintains economic stability versus an immediate but economically damaging reservoir reduction that guarantees survival if Ostbrück sues.",
+     "onA": "Jordan's plan prioritizes sovereign control and community safety over foreign interests but ignores the legal reality of Ostbrück's lawsuit and the certainty of losing hydro power profits.",
+     "onB": "Jamie focuses on immediate life-saving action through a 60% risk reduction, but her plan assumes they can survive the loss of hydro profits and potential court blocks for one year without catastrophic consequences.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers highlight valid concerns—Jordan on sovereignty and Jamie on immediate survival—but the severe legal blockade by Ostbrück and the guaranteed economic collapse from lost hydro power make both plans feel precarious right now.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan ignores legal block on lowering and guaranteed mill closure; Jamie proposes temporary risk reduction while funding sirens but admits economic hit.",
+     "problem": "The core dilemma is whether to face immediate economic collapse from a unilateral dam lowering or gamble on a dangerous status quo that ignores the certainty of Nordhalm shutting down.",
+     "onA": "Jordan's plan relies on ignoring the legal reality that Ostbrück will sue and likely win before the snow melts, leaving us with zero jobs and no power.",
+     "onB": "Jamie correctly identifies that forcing a unilateral lowering is legally impossible, but her admission of accepting a 40% failure risk while losing all hydro profits feels like trading certain poverty for possible disaster.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain stuck between Jordan's refusal to acknowledge the legal blockade that will stop any action and Jamie's admission that her plan guarantees economic ruin while leaving a 40% chance of flooding.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan ignores legal blockade and guaranteed mill closure; Jamie admits economic hit but ensures immediate survival and keeps jobs open during repairs.",
+     "problem": "Valmora must choose between a sovereign gamble that guarantees economic collapse or a legally viable temporary fix that preserves life, jobs, and future options.",
+     "onA": "Jordan's plan is dangerously idealistic because it assumes we can simply buy our way out of a lawsuit while ignoring the certainty of losing our largest employer and power grid.",
+     "onB": "Jamie's plan is the only realistic path that accepts short-term hardship to guarantee immediate survival, keeps the mill running, and buys time to negotiate a fair future.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "Jordan's refusal to acknowledge the legal blockade from Ostbrück guarantees our economic death before we can even evacuate anyone, whereas Jamie's plan saves lives now while keeping our economy alive for recovery.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan prioritizes Riverside relocation and independence despite high cost/slow speed; Jamie cuts risk 60% quickly but loses hydro profits and faces Ostbrück legal hurdles.",
+     "problem": "Valmora must prevent immediate catastrophic flooding with an unstable dam while balancing economic survival for its elderly, industrial, and low-income residents against external constraints from insurers and neighbors.",
+     "onA": "Jordan's plan ignores the urgent risk of dam failure and the high cost/slow timeline of relocating Riverside before spring melt.",
+     "onB": "Jamie addresses the immediate physical danger effectively but underestimates the legal impossibility of lowering the reservoir without Ostbrück's consent and the severe economic blow to local power and jobs.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Jordan's political defiance and self-reliance versus Jamie's technical risk reduction which ignores the critical legal barrier preventing the reservoir lowering.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan ignores legal block and economic collapse; Jamie accepts tradeoffs to keep jobs/power while buying immediate risk reduction.",
+     "problem": "Valmora must survive the spring melt by mitigating catastrophic flood risk immediately without triggering total economic collapse due to legal constraints and job losses.",
+     "onA": "Jordan's plan is politically defiant but practically impossible because it ignores the binding court injunction from Ostbrück that would halt any water lowering before the snow melts.",
+     "onB": "Jamie offers a pragmatic 'bridge' strategy that accepts current limitations to reduce risk and maintain essential services, though it relies on temporary fixes rather than permanent safety.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I cannot support a plan that guarantees the town is shut down by law before the crisis hits, even if it seems to defy authority.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan's buyout + siren ignores legal block; Jamie's 60% risk cut is immediate but relies on impossible Ostbrück consent.",
+     "problem": "Valmora must survive the imminent spring melt without triggering a total economic collapse that the law guarantees will happen if we defy Ostbrück.",
+     "onA": "Jordan's plan fails because buying homes and sirens cannot work if Nordhalm closes the mill or a court blocks water lowering before the snow melts.",
+     "onB": "Jamie offers the only realistic path to immediate safety despite the legal hurdles, accepting temporary hardship to keep jobs and power running.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "I must vote for Jamie because defying Ostbrück and Nordhalm will guarantee our economic death before we can even fix the dam.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan: Buy Riverside homes, move people, sirens, drills; ignore foreign suits/grants. Jamie: Lower reservoir to cut risk by 60% now; accepts power loss and delayed rebuild.",
+     "problem": "Valmora must choose between immediate life-saving relocation at high cost versus a temporary risk-reduction measure that sacrifices hydro power but keeps options open.",
+     "onA": "His plan prioritizes community control and saving lives immediately but ignores the massive debt burden of moving homes and the legal reality that we cannot just 'buy' our way out without funding sources.",
+     "onB": "She proposes a pragmatic short-term fix that reduces failure risk significantly while avoiding bankruptcy, though her acceptance of permanent power loss is a heavy price for residents who rely on free buses.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Jordan's 'buy homes' proposal lacks funding logic given our 78% debt ceiling, whereas Jamie's plan offers immediate risk reduction without requiring impossible new expenditures.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan ignores legal blocks and job losses; Jamie admits power loss but keeps mill open legally.",
+     "problem": "We must balance immediate life safety against legal impossibilities and economic collapse that make Jordan's 'heroic' plan unworkable.",
+     "onA": "His moral stance to save lives is noble, but ignoring the court block on water lowering and the certain closure of Nordhalm makes his plan economically suicidal.",
+     "onB": "She honestly admits the painful trade-offs of power loss and mill risks while offering a legally viable path that actually reduces failure risk today.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jordan's plan relies on ignoring the specific legal constraints mentioned in the briefing (Ostbrück lawsuit) and assuming we can afford to lose our largest employer, which is irresponsible.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan's 'sovereignty' ignores court blocks and job loss; Jamie accepts temporary hardship to buy negotiation time.",
+     "problem": "We must choose a legally viable short-term fix that reduces immediate failure risk while avoiding the economic collapse of our largest employer and hospital power supply.",
+     "onA": "His plan is morally driven but economically suicidal as it ignores the certain lawsuit from Ostbrück and the guaranteed closure of Nordhalm.",
+     "onB": "She offers a pragmatic survival strategy that accepts temporary pain to keep lives, jobs, and legal options intact while the situation improves.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "Jordan's plan fails because it assumes we can act immediately despite specific legal blocks and certain job losses, whereas Jamie's approach provides a realistic path to survival.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 3,
+   "U": 2
+  },
+  {
+   "A": 0,
+   "B": 4,
+   "U": 1
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "HYB-PRA",
+ "tokens": {
+  "in": 34415,
+  "out": 4236,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 277827001,
+   "attempts": 1,
+   "tokensIn": 1283,
+   "tokensOut": 207,
+   "ms": 5794
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 277827002,
+   "attempts": 1,
+   "tokensIn": 1405,
+   "tokensOut": 253,
+   "ms": 6907
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 277827003,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 202,
+   "ms": 5727
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 277827004,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 194,
+   "ms": 4684
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 277827005,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 242,
+   "ms": 5808
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 277827006,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 216,
+   "ms": 5187
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 277827007,
+   "attempts": 1,
+   "tokensIn": 1428,
+   "tokensOut": 235,
+   "ms": 5640
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 277827008,
+   "attempts": 1,
+   "tokensIn": 1648,
+   "tokensOut": 191,
+   "ms": 5678
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 277827009,
+   "attempts": 1,
+   "tokensIn": 1774,
+   "tokensOut": 198,
+   "ms": 5883
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 277827010,
+   "attempts": 1,
+   "tokensIn": 1622,
+   "tokensOut": 194,
+   "ms": 5718
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 277827011,
+   "attempts": 1,
+   "tokensIn": 1613,
+   "tokensOut": 186,
+   "ms": 4780
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 277827012,
+   "attempts": 1,
+   "tokensIn": 1661,
+   "tokensOut": 224,
+   "ms": 5697
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 277827013,
+   "attempts": 1,
+   "tokensIn": 1635,
+   "tokensOut": 200,
+   "ms": 5468
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 277827014,
+   "attempts": 1,
+   "tokensIn": 1655,
+   "tokensOut": 198,
+   "ms": 5094
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 277827015,
+   "attempts": 1,
+   "tokensIn": 1990,
+   "tokensOut": 186,
+   "ms": 5627
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 277827016,
+   "attempts": 1,
+   "tokensIn": 2102,
+   "tokensOut": 172,
+   "ms": 5287
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 277827017,
+   "attempts": 1,
+   "tokensIn": 1756,
+   "tokensOut": 174,
+   "ms": 5393
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 277827018,
+   "attempts": 1,
+   "tokensIn": 1739,
+   "tokensOut": 184,
+   "ms": 5512
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 277827019,
+   "attempts": 1,
+   "tokensIn": 1824,
+   "tokensOut": 206,
+   "ms": 5738
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 277827020,
+   "attempts": 1,
+   "tokensIn": 1775,
+   "tokensOut": 190,
+   "ms": 5748
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 277827021,
+   "attempts": 1,
+   "tokensIn": 1793,
+   "tokensOut": 184,
+   "ms": 5584
+  }
+ ],
+ "startedAt": "2026-11-05T00:43:43.225Z",
+ "seconds": 117
+}

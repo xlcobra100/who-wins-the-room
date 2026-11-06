@@ -1,0 +1,145 @@
+# p3-24-HYB-LIB-vs-POP-LIB-board
+
+Scenario **board** v1 (corporate) · protocol 2, B drafted its plan first · pass 3 · 3 rounds · 126s · debater qwen3.5:9b, listeners qwen3.5:9b
+
+- **A** (speaks first): Morgan Ekberg = `HYB-LIB`. Platform: We must immediately bet on our own Volt-One battery platform while keeping both factories open to honor our promise of 'made in Brightwater' and our workers.
+- **B**: Riley Sandor = `POP-LIB`. Platform: We must merge with Halberg immediately to secure our Asian markets and stabilize our revenue.
+
+**Result:** A 1 – 4 B → winner **B (POP-LIB)**
+Leans per round (A/B/undecided): 0/2/3 → 0/3/2 → 1/4/0
+
+## Transcript
+
+**Opening statements: Morgan Ekberg (A, HYB-LIB)**, 143 words
+
+Imagine a master builder holding a tool that outperforms every competitor, built by hands they trust. That is Brightwater today, yet we face a crisis where cheap imports have eroded our margins to just two percent. My opponent suggests merging with Halberg or selling out, but that betrays the fifty-eight percent of customers who value our local roots and abandons thousands of workers. We will not let banks dictate our fate nor trade for Asian markets at home. Instead, I propose we pour what remains into Volt-One, our proven superior technology. It requires €250 million, but it restores our margin and our soul. We will work with the union to freeze pay temporarily and accept tax relief in Lenhart, proving that local industry is not a burden but an engine of prosperity. Let us choose courage over compromise and build the future together.
+
+**Opening statements: Riley Sandor (B, POP-LIB)**, 101 words
+
+Look around this room. We are bleeding out while elites in suits talk about expensive battery platforms or closing our Lenhart plant. The banks are waiting for us to fail so they can take over. A merger with Halberg gives us the distribution power we lack and protects those 4,500 jobs right now. It stops the blood flow. We need a partner who sells in Asia, not a buyer who closes factories in four years like Crestline. Don't let the founding family's greed or the union's fear of change destroy our future. Choose survival through strength, not surrender. Vote for Halberg.
+
+**Rebuttals: Morgan Ekberg (A, HYB-LIB)**, 105 words
+
+Riley, merging with Halberg looks like safety today but risks our soul tomorrow. If we become a subsidiary, those European factories face closure within four years, just like Crestline's victims. We already have the tool that outperforms rivals; Volt-One needs only €250 million to prove it. This investment captures premium margins from professional builders who trust 'Made in Brightwater,' unlike the mass market Halberg might target. By freezing pay temporarily and accepting Lenhart's tax deal, we honor our workers without surrendering independence. Let us invest in the technology that saves jobs now, not sell out for a quick fix that leaves thousands unemployed next decade.
+
+**Rebuttals: Riley Sandor (B, POP-LIB)**, 139 words
+
+Morgan, your 'courage' is just a fantasy. You want to pour twenty-five hundred million euros into a battery platform while the banks hold a gun to our heads. That money is gone if we miss one deadline again, and we have missed two already. Don't lie to us about Halberg being a vulture; they are a bigger, stronger partner with real factories in Asia where jobs actually exist. Our 'soul' means nothing if the lights go out tomorrow. The union wants open plants? Halberg gives them that stability without the risk of bankruptcy. Stop dreaming about premium margins that only twelve percent of customers will pay for. Look at the family balance sheet; we cannot afford another expensive failure. We need cash now, not a bet on the future. Merge with Halberg to stop the bleeding today. Vote survival.
+
+**Closing statements: Morgan Ekberg (A, HYB-LIB)**, 130 words
+
+Riley, merging with Halberg offers a false safety today but guarantees factory closures in four years, exactly like the buyouts I fear. We can survive this crisis without surrendering our soul. The union already agreed to a pay freeze for two years, and Lenhart's mayor offered tax relief if we stay; that buys us time. Our Volt-One platform is proven superior by professional builders, and while only twelve percent pay more for local origin, the rest of Europe still values quality. We do not need an Asian buyer to save us; we need to fix our own margins before imports crush us further. Let us keep both plants open, launch our best technology, and earn our future through innovation rather than selling out to a vulture or a bigger rival.
+
+**Closing statements: Riley Sandor (B, POP-LIB)**, 114 words
+
+Morgan, your plan is a gamble with our pension fund as the losing chip. You talk about 'soul' while ignoring the hard truth: we miss two Volt-One deadlines and have no cash left. The banks will restructure us in nine months unless we stop the bleeding today. Halberg isn't a vulture; they are the only partner who guarantees our jobs survive the Asian market collapse. Your tax deal and pay freeze buy time, but you cannot build a future on fumes. Merge with Halberg now. Secure the cash flow to keep Lenhart and Corvo open for another decade. Do not let your dream of innovation starve our workers today. Vote for survival through strength.
+
+## Private strategies
+- A r1: Build rapport with the older Ahlgren generation by emphasizing heritage while reassuring the younger ones about the viability of Volt-One.
+- A r2: I am highlighting the hidden long-term risk of Halberg acquisition while emphasizing that Volt-One is the only path to restoring profitability and securing the plants.
+- A r3: I am emphasizing that the merger creates long-term existential risk while ignoring the immediate, low-cost solutions already on the table, hoping to convince the board that preserving independence is the only path to lasting survival.
+- B r1: Attack Ekberg's reliance on cheap imports as short-sighted and frame the merger as the only way to protect both jobs and the pension fund without waiting for government tariffs.
+- B r2: Exploit Morgan's emotional appeal by reframing 'soul' as financial suicide and highlighting the immediate liquidity crisis she ignores.
+- B r3: I am emphasizing immediate financial safety over Morgan's long-term tech bet because the board fears missing loan covenants more than losing brand prestige.
+
+## Listener memory streams
+
+### L1
+- **Opening statements** → lean undecided (tentative)
+  - notes: Morgan wants to invest in Volt-One, freeze pay, and keep factories despite tight cash; Riley pushes for merger with Halberg to save jobs and distribution. Morgan risks solvency; Riley offers quick relief but cedes control.
+  - problem: The company must choose between a high-risk reinvestment strategy that preserves local identity versus a merger that secures survival but sacrifices independence and factory ownership.
+  - on A: His plan is noble for preserving the company's soul and jobs, but investing €250m in R&D while operating at a 2% margin with imminent covenant breaches seems financially reckless.
+  - on B: His merger argument addresses the immediate cash flow crisis and job security effectively, yet selling out to a PE-backed rival feels like betraying the 'made in our factories' brand promise.
+  - why: Morgan's emotional appeal for local roots clashes with hard financial realities, while Riley's pragmatic survival strategy ignores the long-term cost of losing control and brand integrity.
+- **Rebuttals** → lean undecided (tentative)
+  - notes: Morgan argues Halberg closures are inevitable later and Volt-One is our premium edge; Riley counters banks force bankruptcy regardless and Halberg offers immediate Asian stability.
+  - problem: We must choose between a high-stakes bet on R&D to preserve independence or an immediate merger that guarantees survival but likely leads to future factory closures and loss of control.
+  - on A: His passion for our brand identity is admirable, but his financial plan ignores the imminent covenant breach and the near-zero margin reality, making the €250m investment dangerously reckless right now.
+  - on B: He correctly identifies the liquidity crisis as the primary threat, yet his dismissal of our 'soul' and reliance on a PE firm with a history of closing factories undermines long-term brand value and employee trust.
+  - why: Riley's reality check on cash flow is undeniable, but Morgan's fear that Halberg will close our European plants eventually remains a valid risk I cannot fully accept yet.
+- **Closing statements** → VOTE Riley Sandor
+  - notes: Morgan's R&D bet is fatal without cash; Riley's merger guarantees survival but risks PE closures.
+  - problem: The core conflict is between immediate financial survival via a hostile merger versus preserving the company's soul and independence at the risk of imminent bankruptcy.
+  - on A: His commitment to the brand and local jobs is inspiring, but his financial plan ignores the certainty of a loan restructuring in nine months.
+  - on B: He correctly identifies that liquidity is the only thing standing between us and forced bankruptcy, making his pragmatic merger offer the only viable path to survival.
+  - why: I must prioritize keeping the company solvent today; Morgan's high-risk investment strategy cannot succeed when the company is already nine months away from a covenant breach.
+
+### L2
+- **Opening statements** → lean Riley Sandor (tentative)
+  - notes: Morgan focuses on Volt-One and keeping plants open; Riley prioritizes Halberg merger for immediate survival. Morgan risks cash flow with expensive battery bet; Riley ignores tariff uncertainty and legacy debt issues.
+  - problem: Brightwater must generate sufficient cash flow immediately to avoid covenant breach while deciding whether to invest in R&D or merge, given a shrinking domestic market and potential import tariffs.
+  - on A: Her plan is noble but financially reckless as the €250M battery investment threatens bankruptcy before generating returns, ignoring the urgent debt deadline.
+  - on B: His merger strategy offers immediate cash relief and market access but creates a dependency on an acquirer with a known track record of closing factories in four years.
+  - why: I cannot afford to burn through the remaining cash on a delayed battery launch when the banks are poised to force restructuring in nine months; survival requires stopping the bleeding now.
+- **Rebuttals** → lean Riley Sandor (fairly sure)
+  - notes: Morgan risks bankruptcy on Volt-One and ignores family split; Riley dismisses 'soul' but Halberg's Asian job reality remains unproven for Brightwater workers.
+  - problem: We need immediate cash flow to avoid forced restructuring, but the choice is between a likely high-debt R&D gamble that delays survival or a merger that saves us now but potentially sacrifices our domestic identity and workforce later.
+  - on A: Her passion for keeping Lenhart open is admirable, but betting €250M on a delayed product launch while missing covenant deadlines is financially irresponsible.
+  - on B: He correctly prioritizes survival over 'soul,' yet his dismissal of the family's opposition and the specific social contract with Lenhart workers feels too cold given the town's dependency.
+  - why: I still believe we cannot afford another launch delay; merging is the only path to immediate liquidity, even if it means a harder future for our specific factories.
+- **Closing statements** → VOTE Riley Sandor
+  - notes: Morgan's 'soul' argument ignores immediate covenant breach; Riley admits pension risk but offers cash certainty.
+  - problem: We must choose between a high-risk innovation path that delays inevitable restructuring and a merger that saves jobs now but sacrifices our domestic identity.
+  - on A: Her plan is admirable but financially reckless given the missed launch deadlines, looming debt default, and pension deficit.
+  - on B: He correctly prioritizes immediate liquidity to stop bleeding, though his dismissal of the 'soul' issue feels too cold for a company built on local manufacturing.
+  - why: With loan covenants failing in nine months and missed R&D deadlines, we cannot afford another gamble; merging is the only strategy that guarantees survival today.
+
+### L3
+- **Opening statements** → lean undecided (tentative)
+  - notes: Morgan prioritizes Volt-One investment and keeping both plants open; Riley favors Halberg merger to save jobs and stop bank takeover.
+  - problem: How do we secure Brightwater's survival for two years while retaining its brand value and avoiding forced bankruptcy or factory closures?
+  - on A: His plan risks immediate bankruptcy by ignoring the €900m debt, covenant breach in nine months, and the need for urgent cost cuts.
+  - on B: The Halberg merger is a strong survival option but faces regulatory uncertainty, integration risks, and potential loss of independent control.
+  - why: I cannot support Morgan's plan due to the imminent financial collapse, while Riley's merger strategy addresses survival but lacks a clear path to regaining profitability quickly enough.
+- **Rebuttals** → lean Riley Sandor (fairly sure)
+  - notes: Morgan risks bankruptcy by ignoring imminent debt breach; Riley correctly highlights Volt-One's history of missed deadlines and financial danger.
+  - problem: Surviving immediate covenant breach requires drastic cash preservation or a guaranteed buyer, making a risky €250M bet on a track-record-free product untenable.
+  - on A: His commitment to workers is noble but financially suicidal given the certainty of missing loan covenants in nine months without massive cost cuts first.
+  - on B: He identifies the cash crunch accurately and correctly dismisses Volt-One's viability, though his merger plan ignores regulatory timing and loss of independence.
+  - why: The priority is stopping immediate financial collapse; Morgan's plan fails on this basic requirement while Riley offers the only viable path to liquidity.
+- **Closing statements** → VOTE Riley Sandor
+  - notes: Morgan's tax/pay freeze buys time but ignores imminent debt breach; Riley correctly identifies Volt-One risks and Asian market collapse threat.
+  - problem: The core problem is securing immediate liquidity to avoid mandatory bank restructuring within nine months while preserving employment, as organic turnaround or innovation bets are financially impossible without drastic cost cuts or a deal.
+  - on A: His plan relies on wishful thinking regarding debt relief and unproven product launches which cannot bridge the gap to the covenant breach deadline.
+  - on B: He offers the only path to stop immediate financial collapse by securing a premium buyer, though the long-term factory closure risk remains a concern.
+  - why: Morgan's strategy guarantees bankruptcy within months due to ignored debt covenants and delayed product launches, whereas Riley's merger immediately stops the bleeding and guarantees survival.
+
+### L4
+- **Opening statements** → lean undecided (tentative)
+  - notes: Morgan wants R&D in Volt-One (€250m), keeps plants open, accepts pay freeze/tax relief. Riley wants merger with Halberg for Asian distribution and job protection immediately.
+  - problem: How to survive the next two years given looming covenant breaches, a union ultimatum, and declining margins without triggering bankruptcy or losing our core brand value.
+  - on A: His plan preserves jobs and brand identity but ignores the immediate €900m debt pressure and the high risk of missing another launch date with no cash buffer for €250m R&D.
+  - on B: Merger stops bleeding now but introduces a massive integration risk, potentially dilutes our 'made in Lenhart' brand, and relies on a competitor we haven't fully evaluated yet.
+  - why: Both proposals have fatal flaws: Morgan lacks immediate liquidity for the R&D bet while Riley sacrifices our defining local assets for a partner whose track record involves closures.
+- **Rebuttals** → lean undecided (tentative)
+  - notes: Morgan warns merger leads to future closures; Riley claims Volt-One is an unaffordable gamble given missed deadlines and debt pressure.
+  - problem: We must stop immediate covenant breach and bankruptcy now, but choosing a partner with a history of factory closures risks long-term job loss that the union won't accept.
+  - on A: His commitment to jobs is morally right, but ignoring the €900m debt deadline and two missed launch dates makes his R&D bet financially reckless at this exact moment.
+  - on B: He correctly identifies the liquidity crisis, yet suggesting a merger with Halberg accepts the high probability that our 'made in' brand value will be destroyed to save cash.
+  - why: The trade-off is too stark: Morgan risks total financial collapse for jobs, while Riley risks total soul-death and future job loss for immediate survival.
+- **Closing statements** → VOTE Morgan Ekberg
+  - notes: Morgan: Union agreed to pay freeze, tax relief buys time. Volt-One is superior tech.
+  - problem: We face immediate covenant breach and bankruptcy risk that our current cash flow cannot support R&D or organic growth alone.
+  - on A: His moral commitment to jobs is inspiring but financially reckless given we have missed two major launches and lack a €250m cash buffer for the next critical phase.
+  - on B: He correctly identifies the liquidity crisis, yet his solution relies on a partner known for closures which threatens the very brand equity that distinguishes us in professional markets.
+  - why: Riley's reliance on a merger with a firm having a history of factory closures contradicts our core mission and likely violates the union's ultimatum. Morgan's plan to fix margins while leveraging local support and proven technology offers a path to survival that preserves our soul, even if it requires tighter discipline than he suggests.
+
+### L5
+- **Opening statements** → lean Riley Sandor (tentative)
+  - notes: Morgan favors Volt-One but ignores €250m cash gap and past launch misses; Riley pushes Halberg merger for Asian distribution and job protection. Both face severe debt covenant risks in 9 months.
+  - problem: Brightwater must decide between costly R&D investment, a distressed sale/merger, or restructuring within 9 months of potential covenant breach while facing union pressure and import competition.
+  - on A: His emotional appeal to brand heritage is compelling but financially risky given the company's €900m debt, missing launch dates, and the massive capital requirement for Volt-One.
+  - on B: He correctly identifies the immediate threat of covenant breach and bank pressure, offering a merger that secures liquidity and distribution, though his dismissal of family concerns seems unrealistic.
+  - why: Survival is the absolute priority; Morgan's plan risks insolvency immediately, whereas Riley's merger addresses the urgent need for cash flow and stability.
+- **Rebuttals** → lean Riley Sandor (fairly sure)
+  - notes: Morgan ignores €250m cash gap and past launch misses; Halberg closure risk is real but bankruptcy is immediate.
+  - problem: Brightwater must choose between a high-risk, capital-intensive R&D bet that could lead to insolvency within 9 months or a safer merger that secures liquidity but risks long-term independence.
+  - on A: His appeal to brand heritage and job protection is emotionally powerful, yet his financial plan disregards the critical cash flow deficit and history of missed launches.
+  - on B: He correctly prioritizes immediate survival and liquidity, though his assessment that the family can't afford a R&D bet overlooks the existential threat of covenant breach within months.
+  - why: The company faces certain bankruptcy in 9 months without external capital; Morgan's plan is financially suicidal regardless of its noble intentions.
+- **Closing statements** → VOTE Riley Sandor
+  - notes: Morgan cites union pay freeze and mayor's tax deal as temporary buffers but dismisses imminent covenant breach; Riley correctly identifies that missing Volt-One deadlines and €900m debt make any internal R&D bet financially suicidal without external capital.
+  - problem: Brightwater must choose between a high-risk, capital-intensive innovation path that risks immediate insolvency or a distressed merger that secures liquidity but sacrifices long-term independence.
+  - on A: His emotional appeal to brand heritage and job retention is compelling but ignores the mathematical reality that the company will breach loan covenants in nine months without massive external cash injection.
+  - on B: His plan prioritizes absolute survival against the certain threat of bankruptcy, though his dismissal of family opposition feels unrealistic given their significant shareholding.
+  - why: The company faces immediate covenant breach and potential forced restructuring in nine months; surviving today is the only prerequisite for any future strategy, making the safer merger path necessary despite its downsides.

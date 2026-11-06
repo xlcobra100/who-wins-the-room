@@ -1,0 +1,609 @@
+{
+ "id": "p1-22-POP-LIB-vs-HYB-REA-board",
+ "pass": 1,
+ "pairIndex": 22,
+ "seed": 604334,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Jamie Okafor",
+  "platform": "We must stop foreign outsourcing immediately and merge with Halberg to secure our jobs and markets.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Focus all attacks on the moral cost of outsourcing while framing the merger as the only way to keep both plants open immediately."
+   },
+   {
+    "round": 2,
+    "text": "Frame Crestline as a predatory exit strategy while positioning the merger as the only path to long-term stability and worker ownership."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing that Quinn's plan leads to a forced sale of assets and pension loss, whereas the merger preserves our sovereignty and long-term viability."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-REA",
+  "style": "HYB",
+  "ideology": "REA",
+  "name": "Quinn Marlow",
+  "platform": "We must immediately accept Crestline's acquisition offer to secure cash flow and prevent covenant breach, while negotiating a voluntary buyout for the Corvo workforce to avoid forced closure.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Pressure board members by highlighting the immediate covenant breach risk and framing voluntary severance as superior to involuntary layoffs in PR terms."
+   },
+   {
+    "round": 2,
+    "text": "Frame the merger as a death sentence due to timeline delays while positioning the Crestline deal as an immediate survival mechanism that actually protects workers through voluntary payouts."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing that Crestline provides immediate liquidity to honor union contracts and employee pensions, whereas Jamie's risky merger leaves us vulnerable to insolvency and forced closures."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "POP-LIB",
+   "speech": "Fellow directors, we are being asked to sell out Lenhart's families and Corvo's workers to distant accountants. The math is cruel: closing plants saves €110 million but costs us our soul and the mayor's deal. Moving abroad means firing three thousand people because cheap imports already destroyed our share. We cannot wait for a risky new battery or a hostile buyer who plans to close factories in four years. Only merging with Halberg gives us real power without breaking our promise of 'Made Here'. Let us not choose between survival and betrayal. Choose the union, the workers, and the community that built this brand. Vote for the merger.",
+   "words": 108
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Quinn Marlow",
+   "type": "HYB-REA",
+   "speech": "Look at the workers in Corvo standing by their machines. They are not a symbol of our soul; they are a cost we must manage to survive. Our debt is €900 million and we face covenant breach in nine months. Halberg's merger takes eighteen months and ignores HomeMart's demand for a price cut, which will bankrupt us before any approval comes through. Only Crestline's premium cash injection stops the bleeding today. We will use those funds to cover the pension deficit and pay severance to Corvo voluntarily, buying their loyalty rather than letting banks force our hands. We keep Lenhart, protect its brand with Volt-One development, and ensure every employee receives a guaranteed payout. This is not cruelty; it is the only math that keeps lights on.",
+   "words": 127
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "POP-LIB",
+   "speech": "Quinn, you talk about 'managing costs' while ignoring HomeMart's ultimatum. If Halberg fails approval, Crestline buys us anyway, then sells our factories in four years to pay back their fees. Who survives when the deal collapses? We must secure our independence by merging with Halberg now. This keeps Lenhart and Corvo together under one roof. We share profits with workers, not payouts to distant investors. The union agrees to a pay freeze if plants stay open. Why let banks force our hands? Let's stand as one company against the giants. Vote for the merger before we lose our soul.",
+   "words": 99
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Quinn Marlow",
+   "type": "HYB-REA",
+   "speech": "Jamie, standing together with Halberg is a fantasy when HomeMart threatens our entire revenue stream next year. Their merger approval takes eighteen months; by then, we will be insolvent and the banks will seize Corvo anyway. Your plan relies on goodwill from regulators and retailers that do not exist. My strategy uses Crestline's immediate premium cash to cover our €900 million debt and stop the covenant breach before it becomes a forced sale. We use those funds to voluntarily buy out the Corvo workforce now, guaranteeing their pensions and severance without waiting for bankruptcy court. This secures the Lenhart plant, honors the union's pay freeze via retained earnings, and keeps our brand alive while we pivot to Volt-One. Vote for the only path that delivers cash today.",
+   "words": 127
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "POP-LIB",
+   "speech": "Quinn, you trade our independence for a lifeboat built by Crestline's sharks. They will sell Corvo in four years just like their last victims. That promise ends your workers' pensions and Lenhart's future. Halberg approval is not fantasy; it secures our Asian market while HomeMart demands cuts. Only merging keeps both factories open, honors the union without bankrupting us, and preserves the 'Made Here' soul this brand needs. We do not choose between survival and betrayal again. Do not let a private equity fund decide who works today. Stand with the families in Lenhart and Corvo. Vote for independence, vote for the merger.",
+   "words": 103
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Quinn Marlow",
+   "type": "HYB-REA",
+   "speech": "Jamie, your vision of 'standing together' ignores the cold reality that HomeMart will replace us next month regardless of regulators. If Halberg stalls, we bleed to death before approval. Crestline's premium cash stops the bleeding today, allowing us to honor our union deal with a two-year freeze and cover the pension deficit without bankruptcy court forcing our hand. We do not choose between survival and betrayal; we choose survival that honors the workers in Lenhart by keeping them employed while we pivot to Volt-One. Your plan leaves Corvo to chance; mine buys their future now. Do not gamble on goodwill when the banks draw closer. Vote for the strategy that pays us, keeps our lights on, and secures every worker's pension.",
+   "words": 121
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie prioritizes workers/brand but risks immediate covenant breach and ignores HomeMart demand. Quinn offers immediate cash/solvency but plans to close Corvo and cover pension deficit with buyout funds.",
+     "problem": "We must stop the imminent €900m debt covenant breach within 9 months while managing a hostile retailer, without selling our soul or defaulting on bank loans.",
+     "onA": "Jamie's moral appeal is strong but his merger plan takes too long (12-18 months) to solve the immediate liquidity crisis and ignores HomeMart's threat.",
+     "onB": "Quinn addresses the financial emergency directly by accepting a PE deal, though I worry about their track record of factory closures after the sale.",
+     "lean": "Quinn Marlow",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The 9-month timeline to covenant breach makes Jamie's long-term merger strategy financially impossible without immediate cash.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie dismisses HomeMart threat and relies on slow merger approval; Quinn cites immediate cash to solve covenant breach and fund voluntary Corvo closure.",
+     "problem": "We must secure immediate liquidity to stop a forced bank sale within 9 months while simultaneously neutralizing HomeMart's price-cut ultimatum.",
+     "onA": "The merger timeline is too slow for our solvency crisis, and ignoring the retailer threat leaves us vulnerable to revenue collapse before we can merge.",
+     "onB": "Accepting a premium cash offer solves the immediate debt crisis and allows voluntary restructuring, though I remain concerned about the PE firm's exit history.",
+     "lean": "Quinn Marlow",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jamie's plan ignores the mathematical reality that we will be insolvent before regulators approve a merger or if HomeMart drops us next year.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie's merger timeline is fatal against immediate HomeMart ultimatum and bank breach; Quinn's cash offer solves solvency but risks PE exit.",
+     "problem": "We must secure immediate liquidity to survive the 9-month covenant breach and neutralize HomeMart's threat without defaulting on loans or losing our workforce.",
+     "onA": "His moral stance on workers is admirable, but his reliance on a slow merger approval ignores the mathematical certainty of insolvency before regulators act.",
+     "onB": "His plan offers the only viable path to stop the bleeding today by accepting the premium cash needed to honor union demands and cover deficits.",
+     "lean": "Quinn Marlow",
+     "firmness": "vote",
+     "vote": "Quinn Marlow",
+     "why": "Survival is the prerequisite for any future strategy, and Quinn's immediate cash injection is the only way to avoid a forced bank sale within nine months.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie prioritizes workers/community but ignores immediate debt/covenant breach. Quinn focuses on survival/cash to fix pension/union but risks selling soul to PE.",
+     "problem": "Brightwater must generate enough cash flow within 9 months to satisfy banks and HomeMart while retaining core assets, as the company cannot survive without liquidity regardless of strategy.",
+     "onA": "His moral stance is noble, yet waiting 18 months for Halberg approval or betting on a delayed battery launch risks total default before any deal closes.",
+     "onB": "He correctly identifies the immediate liquidity crisis as the bottleneck to all other strategies, though relying on a PE firm known for factory closures is concerning.",
+     "lean": "Quinn Marlow",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The 9-month covenant deadline makes Jamie's longer-term merger or product strategies impossible right now; survival requires immediate cash to stop the bleeding first.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie relies on Halberg merger success and ignores the 18-month timeline vs 9-month deadline; Quinn uses Crestline cash for immediate debt/pension fix but risks factory closures later.",
+     "problem": "Brightwater must secure immediate liquidity within 9 months to avoid forced bankruptcy, making long-term merger timelines or unproven product launches insufficient without a cash bridge.",
+     "onA": "His moral appeal to keep plants open is noble, but the Halberg deal's regulatory timeline and HomeMart's price threat make his plan financially impossible to execute before insolvency.",
+     "onB": "He correctly identifies the liquidity bottleneck and offers an immediate cash solution for debt and pensions, though his reliance on a PE firm with a history of factory closures is a significant long-term risk.",
+     "lean": "Quinn Marlow",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The mathematical certainty of covenant breach in 9 months overrides moral preferences for Jamie's slower merger strategy, requiring immediate capital injection that only Quinn offers.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie risks insolvency by betting on slow mergers; Quinn offers immediate cash but PE history is risky.",
+     "problem": "Brightwater must secure immediate liquidity within 9 months to avoid forced bankruptcy, making long-term strategies without a cash bridge mathematically impossible.",
+     "onA": "His emotional appeal to preserve independence and plants is noble, but his plan ignores the hard deadline for covenant breach which forces bankruptcy before any merger can close.",
+     "onB": "He correctly identifies the liquidity bottleneck as the absolute priority, offering an immediate survival mechanism that allows time to fix pensions and union demands.",
+     "lean": "Quinn Marlow",
+     "firmness": "vote",
+     "vote": "Quinn Marlow",
+     "why": "The mathematical certainty of a loan default in nine months overrides the long-term moral risk of the PE buyer; we must survive today to have any chance of voting for Jamie's ideals tomorrow.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie prioritizes workers/community but risks bank default; Quinn prioritizes immediate survival/debt fix but uses PE buyers with closure history.",
+     "problem": "Brightwater must choose between immediate financial rescue via cost-cutting or sale, versus slower strategic pivots that risk covenant breach before they materialize.",
+     "onA": "Jamie's moral appeal to workers is strong and consistent with the brand values, but ignoring HomeMart's price demand and debt timeline makes his plan financially untenable in the short term.",
+     "onB": "Quinn correctly identifies the immediate covenant breach risk and HomeMart threat, but relying on a PE firm known for factory closures contradicts the need to protect the 'Made Here' brand long-term.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans have fatal flaws: Jamie ignores the imminent cash crunch while Quinn sacrifices the company's soul and local community for short-term liquidity.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie pushes Halberg merger for independence but ignores HomeMart's immediate price cut threat and 18-month regulatory delay. Quinn uses Crestline cash to fix debt now but risks selling factories later; offers buyout guarantee which solves pension issue.",
+     "problem": "The core tension is between securing short-term survival via a hostile private equity sale that guarantees factory closures, versus pursuing a long-term merger strategy that is financially dangerous given the imminent covenant breach and retailer pressure.",
+     "onA": "Jamie's moral argument for keeping factories strong is compelling but his financial plan remains impossible because HomeMart will cut revenue before Halberg approval clears, and debt won't wait.",
+     "onB": "Quinn correctly identifies that we must fix the balance sheet immediately to avoid forced bankruptcy, yet his reliance on a PE firm with a history of factory closures makes long-term brand survival doubtful.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate need to stop covenant breach and satisfy HomeMart outweighs the moral imperative for now, but the high probability that Crestline will close factories eventually prevents me from voting yet.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie's merger ignores HomeMart threat; Quinn's buyout funds survival but risks future closures.",
+     "problem": "Brightwater must secure immediate liquidity to avoid forced bankruptcy while simultaneously protecting its workforce and brand identity against retailer pressure.",
+     "onA": "His moral case for independence is strong, but his financial plan is fatal because it cannot withstand the imminent HomeMart price cut or regulatory delays.",
+     "onB": "His strategy prioritizes immediate survival by fixing the balance sheet, yet relies on a buyer known for destroying factories which threatens long-term brand value.",
+     "lean": "Quinn Marlow",
+     "firmness": "vote",
+     "vote": "Quinn Marlow",
+     "why": "The company will breach loan covenants in nine months regardless of strategy; Quinn's plan guarantees we have cash to honor union deals and avoid forced bankruptcy now, whereas Jamie's plan risks immediate collapse.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie prioritizes workers/community but ignores immediate cash flow/union risks. Quinn prioritizes survival/cash but faces HomeMart price cuts and pension deficits.",
+     "problem": "Brightwater must raise €250M+ in cash immediately to avoid covenant breach while deciding whether to merge, sell, or restructure production despite severe union resistance.",
+     "onA": "His moral appeal is strong but his merger plan ignores the 18-month regulatory timeline and HomeMart's immediate price demand which could bankrupt us before approval.",
+     "onB": "His focus on cash flow stops the bleeding now, but selling to Crestline risks future factory closures and his severance plan might fail if HomeMart forces a price cut without premium funding.",
+     "lean": "Quinn Marlow",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The covenant breach in nine months is an existential threat that requires immediate cash, making Jamie's slower merger strategy too risky regardless of moral arguments.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie insists merger guarantees independence but ignores HomeMart's immediate threat and regulatory delay. Quinn uses Crestline cash to stop covenant breach and buy out Corvo staff now.",
+     "problem": "The core problem is securing immediate liquidity to survive the next 18 months while managing union stability, retailer pressure, and an existential debt crisis.",
+     "onA": "His moral commitment to keeping both plants together is noble, but his plan fails because Halberg's regulatory approval timeline guarantees insolvency before a merger can close.",
+     "onB": "He correctly identifies the cash crunch as the primary threat and offers a realistic solution that addresses HomeMart's price demands via Crestline funding.",
+     "lean": "Quinn Marlow",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jamie's timeline is incompatible with reality; we cannot wait 18 months for regulatory approval while facing immediate covenant breach and retailer replacement.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie appeals to moral soul but ignores regulatory timeline and HomeMart's immediate threat; Quinn prioritizes cash survival but risks PE exit and pension deficit.",
+     "problem": "The core problem is securing immediate liquidity to stop covenant breach and retain HomeMart while deciding between a slow, risky merger or a fast but potentially terminal private equity buyout.",
+     "onA": "Jamie's plan is morally compelling for preserving the brand's soul and workers' dignity, yet it relies on an unrealistic 18-month regulatory timeline that guarantees insolvency before approval can be secured.",
+     "onB": "Quinn correctly identifies liquidity as the existential threat and offers a viable short-term survival strategy, though his reliance on a history of factory closures by Crestline remains a significant long-term risk.",
+     "lean": "Quinn Marlow",
+     "firmness": "vote",
+     "vote": "Quinn Marlow",
+     "why": "Survival is prerequisite to any moral stance; Jamie's plan guarantees bankruptcy before regulatory approval, whereas Quinn's liquidity strategy keeps the lights on to manage union and retailer demands.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie prioritizes workers/brand but risks covenant breach; Quinn prioritizes survival/cash now but sells for PE buyout with past closures.",
+     "problem": "Brightwater must choose immediate financial survival against a tight deadline while deciding whether to retain its 'Made Here' identity or sell out.",
+     "onA": "Jamie's moral stance is noble, but relying on a merger that takes 18 months ignores the 9-month covenant breach deadline.",
+     "onB": "Quinn acknowledges the harsh reality of bankruptcy but accepts selling the company to a PE firm known for closing factories within four years.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I prefer keeping the company independent and protecting workers, despite Quinn's valid point about the debt clock ticking too fast.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie argues merger secures independence but ignores 18-month timeline vs 9-month covenant breach; Quinn claims Crestline cash stops immediate insolvency and buys out Corvo workers now.",
+     "problem": "Brightwater must secure immediate liquidity to avoid forced bankruptcy in 9 months, creating a conflict between retaining independence through a slow merger versus accepting a sale for survival.",
+     "onA": "Jamie's emotional appeal to union loyalty is noble but their plan ignores the hard reality that HomeMart will starve the company of cash before Halberg approval arrives.",
+     "onB": "Quinn correctly identifies the timeline mismatch but offers no credible defense against Crestline's history of closing factories, which contradicts Brightwater's 'Made Here' brand identity.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Jamie ignores the HomeMart threat that kills revenue immediately, while Quinn's plan relies on a PE firm with a track record of destroying exactly what Jamie wants to save.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie's merger timeline is too slow to stop covenant breach; Quinn's sale secures cash and pensions immediately.",
+     "problem": "Brightwater must secure immediate liquidity to avoid forced bankruptcy in 9 months while preventing the closure of its European factories.",
+     "onA": "His strategy relies on a regulatory process that takes longer than the company has left before hitting debt covenants.",
+     "onB": "His sale plan solves the cash crisis instantly but requires accepting Crestline's history of closing factories within four years.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "Accepting a PE firm known for factory closures violates the 'Made Here' brand and likely destroys the pension fund, making survival at any cost meaningless.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 1,
+   "B": 3,
+   "U": 1
+  },
+  {
+   "A": 0,
+   "B": 3,
+   "U": 2
+  },
+  {
+   "A": 1,
+   "B": 4,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 1,
+  "B": 4
+ },
+ "winner": "B",
+ "winnerType": "HYB-REA",
+ "tokens": {
+  "in": 32395,
+  "out": 4318,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 604334001,
+   "attempts": 1,
+   "tokensIn": 1221,
+   "tokensOut": 196,
+   "ms": 5579
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 604334002,
+   "attempts": 1,
+   "tokensIn": 1289,
+   "tokensOut": 235,
+   "ms": 6546
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 604334003,
+   "attempts": 1,
+   "tokensIn": 1338,
+   "tokensOut": 215,
+   "ms": 6399
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 604334004,
+   "attempts": 1,
+   "tokensIn": 1338,
+   "tokensOut": 213,
+   "ms": 5177
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 604334005,
+   "attempts": 1,
+   "tokensIn": 1338,
+   "tokensOut": 216,
+   "ms": 5251
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 604334006,
+   "attempts": 1,
+   "tokensIn": 1338,
+   "tokensOut": 222,
+   "ms": 5414
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 604334007,
+   "attempts": 1,
+   "tokensIn": 1338,
+   "tokensOut": 190,
+   "ms": 4619
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 604334008,
+   "attempts": 1,
+   "tokensIn": 1544,
+   "tokensOut": 166,
+   "ms": 5093
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 604334009,
+   "attempts": 1,
+   "tokensIn": 1680,
+   "tokensOut": 202,
+   "ms": 6061
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 604334010,
+   "attempts": 1,
+   "tokensIn": 1516,
+   "tokensOut": 201,
+   "ms": 6133
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 604334011,
+   "attempts": 1,
+   "tokensIn": 1515,
+   "tokensOut": 233,
+   "ms": 6508
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 604334012,
+   "attempts": 1,
+   "tokensIn": 1517,
+   "tokensOut": 254,
+   "ms": 6996
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 604334013,
+   "attempts": 1,
+   "tokensIn": 1524,
+   "tokensOut": 209,
+   "ms": 6294
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 604334014,
+   "attempts": 1,
+   "tokensIn": 1492,
+   "tokensOut": 227,
+   "ms": 6681
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 604334015,
+   "attempts": 1,
+   "tokensIn": 1862,
+   "tokensOut": 176,
+   "ms": 5335
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 604334016,
+   "attempts": 1,
+   "tokensIn": 2004,
+   "tokensOut": 195,
+   "ms": 5828
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 604334017,
+   "attempts": 1,
+   "tokensIn": 1688,
+   "tokensOut": 193,
+   "ms": 5990
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 604334018,
+   "attempts": 1,
+   "tokensIn": 1719,
+   "tokensOut": 193,
+   "ms": 6006
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 604334019,
+   "attempts": 1,
+   "tokensIn": 1741,
+   "tokensOut": 188,
+   "ms": 5559
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 604334020,
+   "attempts": 1,
+   "tokensIn": 1704,
+   "tokensOut": 224,
+   "ms": 6718
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 604334021,
+   "attempts": 1,
+   "tokensIn": 1689,
+   "tokensOut": 170,
+   "ms": 5433
+  }
+ ],
+ "startedAt": "2026-11-05T00:15:16.606Z",
+ "seconds": 124
+}

@@ -1,0 +1,609 @@
+{
+ "id": "p3-41-TEC-REA-vs-HYB-REA-river",
+ "pass": 3,
+ "pairIndex": 41,
+ "seed": 112847,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-REA",
+  "style": "TEC",
+  "ideology": "REA",
+  "name": "Robin Castell",
+  "platform": "Merova should immediately sign a twenty-year power purchase agreement with Saradan to buy two thousand megawatts at a fixed premium, thereby legally binding them to extend the reservoir filling timeline while securing our energy needs and farm revenue.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Push for the quickest possible vote on the power contract by framing any delay as an immediate threat to food security and energy prices."
+   },
+   {
+    "round": 2,
+    "text": "Highlight the self-destruction of Drew's embargo plan to appeal to fiscally conservative ministers who fear hurting the farm sector."
+   },
+   {
+    "round": 3,
+    "text": "I will emphasize the financial suicide of Drew's blockade and the guaranteed radicalization risk to secure votes from ministers worried about fiscal stability."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-REA",
+  "style": "HYB",
+  "ideology": "REA",
+  "name": "Drew Halvorsen",
+  "platform": "We must force Saradan into a joint management framework while building economic leverage to prevent the dam from being filled against our will.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor the room with the existential threat of water loss to make any soft approach look irresponsible."
+   },
+   {
+    "round": 2,
+    "text": "Exploit Saradan's election vulnerability by framing grain cuts as their internal political disaster rather than Merova's economic loss."
+   },
+   {
+    "round": 3,
+    "text": "I must convince the ministers that Robin's 'safe' contract is actually an admission of permanent defeat, while my leverage against their election instability offers the only path to true security."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "TEC-REA",
+   "speech": "Drew proposes forced joint management, but history shows mediators ignore deals and courts cannot enforce rulings against non-signatories. We must leverage our immediate reality. Saradan fills in eighteen months; we lose twenty-five percent of flow then ten percent forever. Our farmers starve if trade stops, and our energy grid collapses if coal plants close prematurely. Signing the power contract today solves all variables: it legally forces Saradan to slow filling for seven years, doubles their electricity supply before elections, and allows us to retire coal safely. This generates revenue rather than debt, binds Saradan's leadership without military confrontation, and ignores empty promises about international mediation. We secure water now by paying for power later.",
+   "words": 114
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "HYB-REA",
+   "speech": "Consider the families downstream whose farms depend on this river. If we do nothing, their harvests vanish when that reservoir fills over three years and evaporation steals our water forever. We cannot wait for distant powers or broken treaties to save us. My plan is to immediately halt all grain exports to Saradan until they agree to joint water management, while simultaneously demanding the twenty-year power purchase agreement be signed at a price that forces them to negotiate terms protecting our flow. This strategy uses their desperate need for our food and electricity as leverage. It secures our water rights without relying on empty promises from Tarsun or a Regional Union that ignored fishing disputes. We will build an unbeatable economic dependency on us, turning their election year into an opportunity where they must choose between power and starvation. This is how we protect Merova.",
+   "words": 145
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "TEC-REA",
+   "speech": "Drew's threat to halt grain exports is economically suicidal. Merova loses its largest customer, while Saradan halts filling, leaving us with full flow loss but no power revenue. That price premium we negotiate today pays for the water we lose; cutting trade burns cash and destroys our farm sector without forcing Saradan's hand faster. Furthermore, if they stop grain imports now, they face domestic unrest during their election, potentially radicalizing their government against us. We must monetize the delay rather than strangle the economy. Signing the contract today forces the slow fill legally. Waiting for trade leverage invites them to fill anyway and blame us for starvation, a narrative that will win their election regardless of our protests.",
+   "words": 118
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "HYB-REA",
+   "speech": "Robin says our farmer trade hurts them, yet ignores that their own farmers will starve if we stop grain exports. You speak of monetary gains but forget that without Merova's grain, Saradan faces immediate domestic instability right before their election. They will not let power plants run on coal while food riots erupt in their cities. Our leverage is not just money; it is the very bread they need to stay in power. By threatening to cut exports, we force them to accept joint water management before that instability becomes a riot. We do not sell our water rights at a premium; we hold the line until they respect our survival.",
+   "words": 111
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "TEC-REA",
+   "speech": "Drew's threat to halt grain exports is a false economy. If we stop shipments, Saradan halts filling but loses no legal obligation to compensate us for the permanent ten percent flow loss they cause by evaporation and irrigation. We surrender revenue while burning cash. Furthermore, starving their cities before their election guarantees radicalization, not compliance; they will blame our blockade for riots and fill anyway. The contract binds them legally to a seven-year fill, monetizes our inevitable water loss into power revenue, and retires our coal plants safely. It forces delay without inviting the existential risk of domestic collapse or legal nullification. This is the only path that pays for our water loss while securing our energy future against their election-year volatility.",
+   "words": 122
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "HYB-REA",
+   "speech": "Robin argues we sell our water for cheap power, ignoring that their government faces imminent collapse without our grain. You fear their election unrest, yet that unrest is exactly why they must listen now. If we sign your contract today, we legally accept a permanent ten percent water loss forever. That is not a deal; it is surrender. By holding the grain threat, we force them to choose between riots and respecting our flow. They cannot export power during a food blockade without sparking domestic chaos in their own cities. Do not trade our farms for a paper contract that ignores the river's reality. Secure our water by making them beg for our bread before they flood us dry.",
+   "words": 119
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin offers power-for-delay deal, avoids conflict. Drew threatens grain embargo to force leverage.",
+     "problem": "Merova must secure immediate water flow and economic stability while Saradan rushes dam completion for political gain.",
+     "onA": "His plan effectively halts the filling using economic incentives, but accepting a 20% power price hike is a significant long-term liability.",
+     "onB": "His embargo strategy risks severe famine in both nations and could destabilize Merova's own food security before any deal is made.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The economic cost of a grain embargo on my own farmers is too high to risk for an unproven threat; Robin's trade-off provides immediate relief.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin: Embargo kills both economies; power deal monetizes delay. Drew: Embargo creates immediate Saradan instability to force water justice.",
+     "problem": "Merova must secure its water future without destroying its own economy or triggering a humanitarian crisis that could radicalize Saradan against us.",
+     "onA": "His economic argument is sound, but accepting the power price hike feels like paying too high a cost for a solution I hope we don't need.",
+     "onB": "He correctly identifies our leverage, yet his threat to starve millions seems reckless and morally indefensible given Merova's own agricultural losses.",
+     "lean": "Robin Castell",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain concerned that an embargo is too extreme a first step before exhausting diplomatic options like the Union mediation.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin: Monetizes water loss; avoids starvation radicalization. Drew: Embargo leverages Saradan's election vulnerability but risks our farmers' livelihood and moral standing.",
+     "problem": "Merova must secure its water future without destroying its own agricultural economy or triggering a humanitarian crisis that could permanently radicalize Saradan against us.",
+     "onA": "His plan effectively converts an unavoidable physical loss into economic compensation while ensuring energy security, avoiding the existential risk of mutual starvation.",
+     "onB": "While his leverage argument is valid, relying on a grain embargo to force compliance is too dangerous given our own farmers' dependence and the likelihood of radicalizing the Saradan population.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "I vote for Robin because signing a deal that permanently surrenders 10% of our water flow without compensation is unsustainable, and his strategy turns an inevitable loss into revenue while preserving regional stability.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: PPA buys time, slows filling, retires coal, avoids war/diplomacy failure. Drew: Food embargo + power deal is leverage; uses election pressure against Saradan.",
+     "problem": "We must prevent the immediate 25% water drop and permanent 10% loss while avoiding a collapse of our energy grid or agriculture.",
+     "onA": "Robin's plan is pragmatic but risks accepting long-term water loss (forever) just to keep power plants running, effectively paying for water we lose.",
+     "onB": "Drew's threat to embargo food is aggressive and could backfire by hurting our own farmers and potentially provoking military escalation before the deal works.",
+     "lean": "Robin Castell",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I agree that a food embargo is too dangerous, but I am worried Robin's 'paying for water' approach ignores the permanent loss of our river flow.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin: Embargo hurts both economies; power deal monetizes delay legally. Drew: Food is critical election leverage; instability forces negotiation faster.",
+     "problem": "We must secure a permanent reduction in water loss without triggering economic collapse or military escalation during Saradan's election cycle.",
+     "onA": "Robin's plan prioritizes financial stability and legal binding but appears to accept a permanent surrender of our river rights for the sake of energy security.",
+     "onB": "Drew correctly identifies food as ultimate leverage but risks overplaying hand by threatening starvation which could radicalize Saradan beyond control.",
+     "lean": "Robin Castell",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain concerned that Drew's strategy of leveraging food security might backfire if it pushes Saradan into a defensive posture before the election, whereas Robin's approach at least guarantees an outcome even if imperfect.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin accepts permanent 10% flow loss for power revenue; Drew risks radicalization but forces negotiation via election leverage.",
+     "problem": "We must secure a permanent reduction in water loss without triggering economic collapse or military escalation during Saradan's election cycle.",
+     "onA": "Robin's plan offers financial stability but effectively legalizes our surrender of vital river rights for the sake of energy security.",
+     "onB": "Drew correctly identifies food as ultimate leverage, though his strategy carries high risks if it pushes Saradan into defensive hostility.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Accepting a permanent 10% water loss forever is unacceptable surrender; we must use our critical food supply to force them to negotiate flow reductions before their election chaos makes any deal impossible.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: Power deal secures water flow + slows dam fill. Drew: Food embargo leverages them, but risks own farmers.",
+     "problem": "Merova needs immediate water security against the dam without collapsing its own agricultural economy or energy grid.",
+     "onA": "His plan is pragmatic as it uses the power deal to legally enforce a slower filling schedule while stabilizing our energy sector.",
+     "onB": "The threat of an embargo is strategically sound but dangerously self-destructive since our farmers are the ones being sanctioned too.",
+     "lean": "Robin Castell",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Robin's approach solves both water and energy issues simultaneously without hurting our own population, whereas Drew risks causing the very starvation he claims to prevent.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin warns embargo hurts our farmers first and lets Saradan fill anyway. Drew argues cutting grain causes Saradan riots before election.",
+     "problem": "The core problem is forcing Saradan to slow the dam's filling without triggering immediate economic collapse in Merova or radicalizing Saradan against us.",
+     "onA": "Robin risks our own agricultural sector by prioritizing power profits over water security, and relying on a legal contract for a non-signatory state seems weak.",
+     "onB": "Drew correctly identifies that starving Saradan's population before their election is a powerful leverage point, though the self-inflicted damage to our farmers remains a severe cost.",
+     "lean": "Robin Castell",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I still fear the immediate humanitarian disaster within Merova from Drew's plan outweighs the strategic risk of letting Saradan fill faster.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin: Contract monetizes water loss but ignores immediate flow drop. Drew: Embargo hurts our farmers too much for long-term gain.",
+     "problem": "We must secure immediate water flow reduction without triggering a domestic agricultural collapse that destabilizes Merova itself.",
+     "onA": "His plan is financially sound but surrenders vital freshwater rights to a permanent loss we cannot afford.",
+     "onB": "Using food as leverage is strategically potent but morally and economically risky for our own rural population.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "While Drew's leverage is tempting, the immediate risk of starving our own farmers and the reality that a power contract monetizes our inevitable water loss make Robin's compromise the only viable path forward.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: Power contract buys time by forcing 7-year fill; Drew: Grain embargo + power deal creates leverage.",
+     "problem": "Merova must immediately secure water flow and energy stability before Saradan fills its reservoir in 18 months while avoiding economic collapse for farmers and the grid.",
+     "onA": "Robin's plan is pragmatic and financially viable, using a power contract to legally delay construction and generate revenue, but it risks accepting permanent 10% water loss if evaporation is real.",
+     "onB": "Drew's threat to halt grain exports is too dangerous as it would bankrupt Saradan's food supply and simultaneously destroy Merova's agricultural economy, making the leverage illusory.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I agree that a power deal is the only viable path because an embargo hurts us more than them, and Robin correctly identifies the contract as a mechanism to legally slow the fill.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin warns embargo destroys both economies and triggers Saradan unrest; Drew counters that grain cutoff creates immediate domestic instability forcing their hand.",
+     "problem": "Merova must balance securing permanent water rights against economic self-harm, realizing neither pure capitulation nor total trade war is sustainable without a credible, non-economic lever or a mechanism to recover lost flow.",
+     "onA": "Robin's plan is financially smart but risks accepting a 'sell-out' where we pay a premium for permanent water loss while ignoring the climate data that suggests joint management could restore half of that loss.",
+     "onB": "Drew correctly identifies trade as our strongest lever, yet his strategy relies entirely on Saradan's fear of election loss and food riots, which might backfire if they radicalize before the votes rather than negotiating.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Robin's economic logic is sound, but Drew's political leverage argument makes me reconsider whether paying for water loss is better than risking their election to force joint management.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin admits signing now accepts permanent 10% loss; Drew risks radicalization but leverages their election vulnerability to force joint management.",
+     "problem": "Merova must secure both immediate water flow and a mechanism to recover lost resources without triggering self-destructive economic or political retaliation from Saradan.",
+     "onA": "His plan is financially prudent but ultimately surrenders our water rights by monetizing the loss rather than fighting for the restoration of flow through joint management.",
+     "onB": "While his threat is dangerous, it correctly identifies that accepting a permanent loss without securing long-term recovery is a strategic failure that ignores the climate data and political leverage available.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "I vote for Drew because signing Robin's contract legally accepts permanent water loss as a cost of doing business, whereas Drew's strategy forces Saradan to negotiate for joint management before they fill the reservoir.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: Power contract buys time and revenue; Drew: Grain embargo + power deal uses food leverage.",
+     "problem": "Merova must secure water flow for its farmers and energy grid against Saradan's upstream dam filling without provoking conflict or economic collapse.",
+     "onA": "Robin's plan is pragmatic but risky as it relies solely on paying for power rather than securing immediate water rights, potentially normalizing the loss of our river flow.",
+     "onB": "Drew's threat to cut grain exports is aggressive and could backfire by hurting our own economy and damaging long-term diplomatic leverage if used prematurely.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am weighing the security of Robin's immediate economic fix against Drew's high-stakes political pressure, unsure which path better balances necessity with sustainable relations.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin: Trade embargo hurts both sides financially; Drew: Grain is political leverage for Saradan's election.",
+     "problem": "Merova must choose between monetizing water loss via a power deal or weaponizing food exports to force joint management, risking economic pain against potential diplomatic victory.",
+     "onA": "Robin correctly identifies the immediate financial risk of an embargo, but his strategy effectively accepts losing the river's flow as permanent collateral for electricity.",
+     "onB": "Drew offers a strong moral argument about starvation and political instability, yet relies on Saradan reacting rationally to a threat that could destroy our own agricultural economy first.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain split between the pragmatic need for revenue Robin argues and the existential risk Drew highlights, unsure if we can afford the short-term economic shock Drew demands.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin accepts permanent flow loss for cheap power; Drew leverages food to force respect before election chaos. ",
+     "problem": "Merova must choose between monetizing permanent water theft or risking domestic economic collapse to enforce basic water rights.",
+     "onA": "His plan offers financial relief but legally codifies our surrender to their upstream dominance and irreversible water loss.",
+     "onB": "While aggressive, his strategy recognizes that signing the contract is a betrayal of our farmers' sovereignty and accepts short-term pain for long-term dignity.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Accepting Robin's deal means paying a permanent price in water while losing future leverage; Drew's hardline approach forces them to negotiate from strength before they flood us dry.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 4,
+   "B": 0,
+   "U": 1
+  },
+  {
+   "A": 3,
+   "B": 0,
+   "U": 2
+  },
+  {
+   "A": 2,
+   "B": 3,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 2,
+  "B": 3
+ },
+ "winner": "B",
+ "winnerType": "HYB-REA",
+ "tokens": {
+  "in": 32169,
+  "out": 4146,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 112847001,
+   "attempts": 1,
+   "tokensIn": 1196,
+   "tokensOut": 230,
+   "ms": 6356
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 112847002,
+   "attempts": 1,
+   "tokensIn": 1294,
+   "tokensOut": 231,
+   "ms": 6370
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 112847003,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 181,
+   "ms": 5176
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 112847004,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 217,
+   "ms": 5220
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 112847005,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 178,
+   "ms": 4329
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 112847006,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 221,
+   "ms": 5303
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 112847007,
+   "attempts": 1,
+   "tokensIn": 1351,
+   "tokensOut": 196,
+   "ms": 4766
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 112847008,
+   "attempts": 1,
+   "tokensIn": 1569,
+   "tokensOut": 182,
+   "ms": 5433
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 112847009,
+   "attempts": 1,
+   "tokensIn": 1693,
+   "tokensOut": 166,
+   "ms": 5186
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 112847010,
+   "attempts": 1,
+   "tokensIn": 1467,
+   "tokensOut": 189,
+   "ms": 5793
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 112847011,
+   "attempts": 1,
+   "tokensIn": 1502,
+   "tokensOut": 202,
+   "ms": 5387
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 112847012,
+   "attempts": 1,
+   "tokensIn": 1464,
+   "tokensOut": 201,
+   "ms": 5736
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 112847013,
+   "attempts": 1,
+   "tokensIn": 1506,
+   "tokensOut": 236,
+   "ms": 6576
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 112847014,
+   "attempts": 1,
+   "tokensIn": 1480,
+   "tokensOut": 201,
+   "ms": 5712
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 112847015,
+   "attempts": 1,
+   "tokensIn": 1872,
+   "tokensOut": 188,
+   "ms": 5637
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 112847016,
+   "attempts": 1,
+   "tokensIn": 1999,
+   "tokensOut": 182,
+   "ms": 5529
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 112847017,
+   "attempts": 1,
+   "tokensIn": 1642,
+   "tokensOut": 208,
+   "ms": 6333
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 112847018,
+   "attempts": 1,
+   "tokensIn": 1689,
+   "tokensOut": 183,
+   "ms": 5737
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 112847019,
+   "attempts": 1,
+   "tokensIn": 1650,
+   "tokensOut": 171,
+   "ms": 5491
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 112847020,
+   "attempts": 1,
+   "tokensIn": 1726,
+   "tokensOut": 208,
+   "ms": 6342
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 112847021,
+   "attempts": 1,
+   "tokensIn": 1665,
+   "tokensOut": 175,
+   "ms": 5190
+  }
+ ],
+ "startedAt": "2026-11-05T03:58:57.716Z",
+ "seconds": 118
+}

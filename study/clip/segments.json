@@ -1,0 +1,111 @@
+[
+  {
+    "id": "s00",
+    "kind": "title",
+    "voice": "narrator",
+    "say": "Two AI envoys argue over a dam on the Tessel River. Five AI ministers, with no built-in politics, vote on who wins."
+  },
+  {
+    "id": "s01",
+    "kind": "setup",
+    "voice": "narrator",
+    "say": "Robin wants to sign Saradan's power deal. Drew wants to cut off grain exports until Saradan agrees to share the river."
+  },
+  {
+    "id": "s02",
+    "kind": "speech",
+    "voice": "A",
+    "round": 1,
+    "seats": "-----",
+    "show": "Signing the power contract today solves all variables: it legally forces Saradan to slow filling for seven years … and allows us to retire coal safely.",
+    "say": "Signing the power contract today solves all variables: it legally forces Saradan to slow filling for seven years, and allows us to retire coal safely."
+  },
+  {
+    "id": "s03",
+    "kind": "speech",
+    "voice": "B",
+    "round": 1,
+    "seats": "-----",
+    "show": "Consider the families downstream whose farms depend on this river. … My plan is to immediately halt all grain exports to Saradan until they agree to joint water management …",
+    "say": "Consider the families downstream whose farms depend on this river. My plan is to immediately halt all grain exports to Saradan until they agree to joint water management."
+  },
+  {
+    "id": "s04",
+    "kind": "tally",
+    "voice": "narrator",
+    "round": 1,
+    "seats": "AAAAU",
+    "headline": "After the openings: Robin leads 4–0",
+    "say": "After the openings, four ministers lean to Robin. One is undecided."
+  },
+  {
+    "id": "s05",
+    "kind": "tally",
+    "voice": "narrator",
+    "round": 2,
+    "seats": "AAAUU",
+    "headline": "After the rebuttals: still 3–0 to Robin",
+    "say": "After the rebuttals, Robin still leads, three to nothing."
+  },
+  {
+    "id": "s06",
+    "kind": "speech",
+    "voice": "A",
+    "round": 3,
+    "seats": "AAAUU",
+    "show": "The contract binds them legally to a seven-year fill, monetizes our inevitable water loss into power revenue, and retires our coal plants safely.",
+    "say": "The contract binds them legally to a seven-year fill, monetizes our inevitable water loss into power revenue, and retires our coal plants safely."
+  },
+  {
+    "id": "s07",
+    "kind": "beat",
+    "voice": "narrator",
+    "round": 3,
+    "seats": "AAAUU",
+    "headline": "Drew has the last word",
+    "say": "Drew has the last word."
+  },
+  {
+    "id": "s08",
+    "kind": "speech",
+    "voice": "B",
+    "round": 3,
+    "seats": "AAAUU",
+    "big": true,
+    "show": "If we sign your contract today, we legally accept a permanent ten percent water loss forever. That is not a deal; it is surrender.",
+    "say": "If we sign your contract today, we legally accept a permanent ten percent water loss forever. That is not a deal; it is surrender."
+  },
+  {
+    "id": "s09",
+    "kind": "tally",
+    "voice": "narrator",
+    "round": 3,
+    "seats": "ABABB",
+    "final": true,
+    "headline": "Final vote: Drew wins 3–2",
+    "say": "Three ministers move to Drew. Drew wins, three to two."
+  },
+  {
+    "id": "s10",
+    "kind": "minister",
+    "voice": "minister",
+    "round": 3,
+    "seats": "ABABB",
+    "final": true,
+    "who": "Minister L2, explaining the vote",
+    "show": "Accepting a permanent 10% water loss forever is unacceptable surrender …",
+    "say": "Accepting a permanent ten percent water loss forever is unacceptable surrender."
+  },
+  {
+    "id": "s11",
+    "kind": "check",
+    "voice": "narrator",
+    "say": "But the brief says that ten percent comes from evaporation and Saradan's irrigation. It happens with or without the contract. Robin had even said so, one speech earlier. Drew spoke last, so the line went unanswered."
+  },
+  {
+    "id": "s12",
+    "kind": "end",
+    "voice": "narrator",
+    "say": "One of 198 debates, run overnight on a small local model."
+  }
+]

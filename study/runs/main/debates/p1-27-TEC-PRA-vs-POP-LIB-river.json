@@ -1,0 +1,609 @@
+{
+ "id": "p1-27-TEC-PRA-vs-POP-LIB-river",
+ "pass": 1,
+ "pairIndex": 27,
+ "seed": 101016,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-PRA",
+  "style": "TEC",
+  "ideology": "PRA",
+  "name": "Morgan Ekberg",
+  "platform": "Merova must accept Saradan's seven-year fill schedule contingent on a legally binding power purchase agreement and a joint technical commission to optimize river releases, while simultaneously initiating talks with Tarsun to prevent naval encroachment.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on the immediate economic gains of the power deal and frame all other options as delayed or impossible due to Saradan's election timeline."
+   },
+   {
+    "round": 2,
+    "text": "Emphasize the economic unviability of Quinn's solar pivot while framing the power contract as a bridge to fund mitigation rather than surrender."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the financial cost of Quinn's solar/rationing plan versus the revenue from the power deal to sway fiscally conservative ministers."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Quinn Marlow",
+  "platform": "Merova must refuse Saradan's power deal and fill the reservoir immediately over three years while enforcing strict emergency water rationing to protect our farmers.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Attack Morgan's 'joint commission' as bureaucratic delay that ignores the urgency of the election cycle and appeal directly to the farmers in the room who fear losing their harvest."
+   },
+   {
+    "round": 2,
+    "text": "Appeal to immediate economic reality and emotional urgency for farmers while framing the opponent's 'joint commission' as an excuse for surrender."
+   },
+   {
+    "round": 3,
+    "text": "I need to emphasize immediate economic survival against Morgan's long-term leverage argument while attacking the moral cost of his deal."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "TEC-PRA",
+   "speech": "I propose we immediately accept Saradan's seven-year reservoir fill timeline, provided they sign a twenty-year power contract. This yields immediate benefits: Merova buys clean energy at manageable prices and retires coal plants now. The reduced flow during filling is an unavoidable temporary cost; the permanent ten percent loss is mitigated by evaporation, but joint management studies suggest coordinated releases could recover half that loss later. We cannot wait for a treaty or court case Saradan ignores. Accepting power buys time to negotiate release schedules. Meanwhile, we must reject Tarsun's naval demands now before they escalate. This phased approach secures our farmers' water long-term while avoiding the political explosion of total rejection.",
+   "words": 111
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Quinn Marlow",
+   "type": "POP-LIB",
+   "speech": "Morgan, you want a seven-year delay buying expensive electricity from a dictator who ignores us. That plan costs families at the kitchen table their bread. We will not pay Tarsun's price for peace built on coercion. Saradan faces elections; they need water now for their people, not a slow fill that starves our fields. Our farmers feed forty percent of Saradanis. If we let them hoard water, they starve us anyway. We take control today. We ration strictly, build solar backups, and tell Tarsun to back off or face real consequences. Do not trade our sovereignty for a broken power deal. Vote for immediate action that saves our jobs now.",
+   "words": 110
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "TEC-PRA",
+   "speech": "Quinn, rationing destroys the very farms Tarsun's port traffic depends on, and we lack the capital for solar at that scale today. Your plan ignores the seven-year fill window: rejecting power now locks us into coal emissions and sky-high rates while our river shrinks. Accepting the contract buys immediate revenue to fund mitigation without starving our sector. A joint technical commission is not surrender; it is data-driven engineering to maximize flow during your critical planting seasons. Tarsun's naval demands are a non-negotiable separate issue we address independently. Voting for immediate rationing risks economic collapse before we can build alternatives, whereas the power deal stabilizes our energy grid and finances the very infrastructure you claim lacks. We secure water rights through binding agreements, not unilateral cuts that invite retaliation.",
+   "words": 128
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Quinn Marlow",
+   "type": "POP-LIB",
+   "speech": "Morgan, you call our farmers' sacrifice 'mitigation' while ignoring who pays the bill. Your joint commission is just another elite talking past the family at the kitchen table. You say rationing destroys farms, but do you see the water already disappearing into Saradan's reservoir? Letting them fill it in three years forces us to accept their terms or starve. We build solar now because buying power from a dictator who ignores treaties is not cooperation, it is extortion. Do not let Tarsun's loans dictate our river. Stand with our farmers today before the water runs dry and we have no choice left.",
+   "words": 102
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "TEC-PRA",
+   "speech": "Quinn, your plan trades immediate economic collapse for a theoretical sovereignty that Saradan has already discarded by building this dam. Rationing destroys our farmers and the food exports that stabilize their election year. Your solar alternative lacks the capital today to offset a twenty-five percent flow drop during filling. My proposal accepts the power deal not as surrender, but as leverage: revenue funds joint engineering to recover half the lost flow later. We avoid a three-year court deadlock Saradan ignores. The power contract pays for our mitigation; rationing bankrupts us before we can build alternatives. We secure water rights through binding technical agreements, not unilateral cuts that invite retaliation. Vote for the plan that stabilizes our grid and finances our survival.",
+   "words": 121
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Quinn Marlow",
+   "type": "POP-LIB",
+   "speech": "Morgan, you offer a false choice. You trade our farmers' bread for expensive power from a dictator who ignores international law. Your 'joint commission' is just elite talk while the reservoir fills and swallows our livelihoods. Do not sell out Merova's sovereignty to Tarsun or Saradan. The court will take years, but action today saves jobs now. Let the river fill in three years as they planned, but ration strictly so our families eat. Your deal bankrupts us; mine keeps us standing. Look at the fields dying upstream of your logic. We do not pay for water theft. We build solar, we stand firm, and we refuse to be held hostage by loans and dams. Vote for the plan that feeds our people today.",
+   "words": 124
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan offers delayed fill + power deal but rejects Tarsun naval demand. Quinn pushes immediate rationing/solar and opposes paying a dictator; fears long-term water theft.",
+     "problem": "Balancing urgent agricultural survival against the economic benefit of cheap green energy while maintaining sovereignty.",
+     "onA": "His plan offers concrete energy solutions and accepts temporary pain, but trading sovereignty for power is risky if Saradan ignores treaties.",
+     "onB": "She correctly highlights the immediate threat to farmers, yet her refusal to consider the power deal ignores a major source of future revenue and grid stability.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both sides ignore the reality that climate change will reduce rainfall regardless, so locking in a water-saving joint management now might be wiser than either extreme.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan: Power deal funds mitigation; joint commission is engineering not surrender; rejects Tarsun naval demand. Quinn: Buying power from treaty-violators is extortion; rationing hurts farmers immediately; solar lacks capital.",
+     "problem": "Balancing immediate agricultural survival against long-term water security while securing revenue without sacrificing sovereignty to a neighbor who ignores treaties.",
+     "onA": "His argument that a technical commission manages flow scientifically rather than politically is convincing, and the power deal provides crucial cash for infrastructure we lack.",
+     "onB": "She correctly identifies the moral hazard of paying Saradan while they ignore treaties, but her dismissal of solar capital constraints and immediate water theft risks seems unrealistic.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The practical necessity of funding green energy transitions and accepting the 7-year window to buy time for solar makes Morgan's pragmatic compromise superior to Quinn's purely ideological stance.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn's 'stand firm' ignores imminent farm bankruptcy; Morgan's deal funds mitigation while buying time for solar.",
+     "problem": "The core dilemma is securing immediate agricultural survival and sovereign stability against a neighbor who already violates treaties, without falling into an economic collapse that leaves no future options.",
+     "onA": "Morgan correctly identifies that ideological purity cannot stop the reservoir from filling, so his pragmatic deal funds the transition we desperately need.",
+     "onB": "Quinn's plan is morally consistent but economically fatal; refusing to pay for mitigation guarantees immediate mass unemployment in our agrarian sector.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "I vote for Morgan because his proposal accepts the reality of water theft to fund our survival, whereas Quinn's refusal forces us into ruin before we can build our own solar grid.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Trade power for time; accept 7-year fill but reject Tarsun. Quinn: Reject deal immediately; focus on rationing/solar and sovereignty.",
+     "problem": "Balancing immediate agricultural survival against long-term energy security while preventing coercion by external powers.",
+     "onA": "His plan offers a pragmatic compromise that secures clean energy and buys time, though the short-term water cost is painful for farmers.",
+     "onB": "His stance protects current farmer livelihoods and sovereignty but risks economic isolation and ignores the long-term climate threat to rainfall.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am unsure which risk is worse: immediate food shortages or accepting a high-power-cost deal with a non-compliant neighbor.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan: Rationing hurts farmers and trade; power deal funds mitigation. Quinn: Deal is extortion; focus on solar sovereignty now.",
+     "problem": "Balancing immediate agricultural survival against the long-term necessity of securing energy and water rights without succumbing to economic coercion or political blackmail.",
+     "onA": "His argument that the power deal provides crucial capital for transition and prevents immediate starvation of the farming sector is compelling given our lack of current solar capital.",
+     "onB": "His appeal to sovereignty and rejection of 'dictator' terms is emotionally resonant but risky, as his proposed alternatives (solar/rationing) ignore the hard reality of our current economic constraints.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Morgan's pragmatic admission that we lack the capital for immediate solar transition makes his deal look like a necessary bridge to survival rather than surrender.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Deal funds mitigation; rationing bankrupts us before building alternatives.",
+     "problem": "We must balance immediate agricultural survival against the hard reality that we lack capital for solar while facing a forced water cut, making the power deal a necessary financial bridge rather than surrender.",
+     "onA": "His pragmatic admission of our current economic constraints makes the power deal look like an essential lifeline to fund long-term solutions instead of a surrender.",
+     "onB": "His appeal to sovereignty is noble but his plan ignores our lack of immediate capital, risking total agricultural collapse during the critical three-year filling period.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "I vote for Morgan because accepting the deal provides the necessary revenue to fund mitigation and energy transition, whereas Quinn's insistence on strict rationing without funds will bankrupt our farming sector before we can build any alternatives.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Power deal mitigates long-term loss; reject Tarsun now. Quinn: Reject power deal as extortion; focus on farmer survival and sovereignty.",
+     "problem": "Merova must balance immediate agricultural collapse against future energy security while preventing a hostile superpower (Tarsun) from gaining influence.",
+     "onA": "His plan offers a pragmatic path to clean energy and climate resilience, but risks making Merova dependent on a regime that ignores international law.",
+     "onB": "He prioritizes farmers' livelihoods correctly but dismisses the economic relief of buying power and underestimates the difficulty of building solar backups so quickly.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Both speakers address the core tension, yet Morgan's long-term viability clashes with Quinn's urgent protection of local farmers, leaving me torn between short-term survival and future stability.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan argues rationing kills farms and solar is too slow; power deal funds mitigation. Quinn calls power deal extortion by a dictator; joint commissions are just elite talk.",
+     "problem": "Merova must choose between immediate agricultural survival and long-term energy security, while avoiding dependency on an authoritarian neighbor or a superpower.",
+     "onA": "His economic logic regarding the slow build-out of solar and the funding gap is compelling, yet his dismissal of the sovereignty issue feels dangerous.",
+     "onB": "He correctly identifies the moral hazard of buying power from a regime that ignores treaties, but his rejection of the deal leaves farmers with no buffer against crop failure.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Morgan's point about the impossibility of scaling solar fast enough to replace coal is a hard constraint I cannot ignore, but Quinn's warning about political extortion remains valid.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Power deal funds mitigation; rationing bankrupts farmers before solar is ready.",
+     "problem": "Merova must choose between immediate agricultural survival and long-term energy security while avoiding dependency on an authoritarian neighbor or a superpower.",
+     "onA": "His plan offers a pragmatic path to clean energy and climate resilience, but risks making Merova dependent on a regime that ignores international law.",
+     "onB": "He prioritizes farmers' livelihoods correctly but dismisses the economic relief of buying power and underestimates the difficulty of building solar backups so quickly.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "The capital gap for rapid solar expansion is a hard constraint that rationing cannot solve, making the power deal's revenue essential for funding our survival strategy.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Accept 7yr fill for 20yr power deal; reject Tarsun naval demands. Quinn: Immediate action, solar/rations; refuse to pay/coerce; farmers feed Saradan.",
+     "problem": "Balancing immediate agricultural water security and farmer livelihoods against the long-term economic benefits of cheap clean energy and avoiding regional isolation.",
+     "onA": "Pragmatic but accepts significant short-term loss for potential future gain, assuming 'diplomacy' works despite Saradan's history of ignoring treaties.",
+     "onB": "Patriotic focus on immediate farmer livelihoods is compelling, yet the solution of 'rationing' and 'solar backups' seems economically disruptive and politically risky without a clear implementation plan.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans have merits; I am weighing the immediate economic pain Quinn warns against against Morgan's reliance on future negotiations that Saradan may not honor.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan argues rationing destroys farms and capital for solar is lacking; claims power deal buys revenue for mitigation. Quinn rejects buying from a 'dictator' ignoring treaties; insists on immediate action to stop water loss.",
+     "problem": "Balancing the immediate, existential threat of losing river water to Saradan's rapid dam fill against the long-term economic benefits of cheap energy and the risk that diplomatic concessions may not be honored by an election-year government.",
+     "onA": "Morgan offers a pragmatic economic stabilization plan but relies heavily on future cooperation from Saradan and assumes our capital markets can fund solar quickly enough to offset immediate water loss.",
+     "onB": "Quinn's moral stance against paying for water theft is inspiring, yet their reliance on unproven rapid solar deployment and total trade rejection risks severe short-term famine without a concrete fallback plan.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Quinn's solution of rationing immediately threatens the very agricultural sector that funds Merova, whereas Morgan's power deal provides immediate revenue to adapt while allowing us to negotiate technical water releases rather than accepting total loss.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan argues rationing bankrupts farmers now; Quinn insists sovereignty means refusing to pay for water theft.",
+     "problem": "The core conflict is whether to accept immediate economic pain and revenue loss via a power deal to fund adaptation, or refuse the deal entirely risking agricultural collapse for theoretical sovereignty against an uncooperative neighbor.",
+     "onA": "Morgan's pragmatic plan acknowledges the financial reality of our farmers but assumes Saradan will honor technical agreements which history suggests it won't.",
+     "onB": "Quinn's moral stance on sovereignty is inspiring, yet their refusal to engage economically while rejecting unproven rapid solar deployment risks a famine that no amount of principle can solve.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "Morgan's plan offers the only viable path to fund immediate agricultural adaptation and energy security without risking total economic collapse; Quinn's hardline approach ignores the immediate reality that we cannot afford to ration our way out of a crisis while Saradan fills the reservoir.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Accepts 7yr fill for power deal; rejects Tarsun naval demands; relies on joint management later. Quinn: Rejects power deal as coercion; wants immediate action, solar backups, and rationing; warns of sovereignty loss.",
+     "problem": "The core conflict is balancing immediate agricultural security against long-term energy security while maintaining sovereignty against Saradan's pressure and Tarsun's interference.",
+     "onA": "Morgan offers a pragmatic compromise that secures clean energy now but risks farmer morale by accepting water reduction.",
+     "onB": "Quinn correctly identifies the political danger of paying for water control, yet their 'immediate action' ignores the reality that Saradan will likely fill the dam regardless without a deal.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot fully support Quinn's rejection of the power contract given the election context and lack of alternatives, but Morgan's acceptance of water loss pains me for our farming sector.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan argues rationing kills farms and rejects solar due to capital; claims joint commission is data-driven. Quinn insists paying for water is extortion and calls Morgan's farmers 'sacrifice' victims of elite talks.",
+     "problem": "The core conflict remains balancing immediate agricultural survival against long-term energy security while avoiding economic coercion by Saradan without viable alternatives.",
+     "onA": "Morgan presents a pragmatic financial solution but underestimates the political toxicity of accepting water reduction from a neighbor with no treaty respect.",
+     "onB": "Quinn correctly identifies the sovereignty risk in buying water rights but offers unrealistic immediate solutions like solar that ignore current budget constraints.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Morgan's financial logic is sound, yet Quinn's warning about 'extortion' makes accepting a deal with an election-bound dictatorship morally difficult.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan argues rationing bankrupts us; his power deal funds mitigation. Quinn calls it water theft but solar lacks immediate capital.",
+     "problem": "We must secure our grid and food supply now against immediate water reduction, using the power contract as a funding mechanism for future mitigation rather than accepting unilateral loss.",
+     "onA": "His plan is financially pragmatic and uses the unavoidable deal to fund the very joint management we need later, avoiding total agricultural collapse.",
+     "onB": "While his sovereignty warning is valid, his rejection of the power deal leaves us with no funding for alternatives while our fields starve in the immediate water drop.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "I vote for Morgan because accepting the power contract generates the capital needed to build solar and negotiate joint management, whereas Quinn's plan leaves Merova economically stranded during the critical three-year filling period.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 0,
+   "U": 5
+  },
+  {
+   "A": 3,
+   "B": 0,
+   "U": 2
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 5,
+  "B": 0
+ },
+ "winner": "A",
+ "winnerType": "TEC-PRA",
+ "tokens": {
+  "in": 32335,
+  "out": 4325,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 101016001,
+   "attempts": 1,
+   "tokensIn": 1192,
+   "tokensOut": 232,
+   "ms": 6577
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 101016002,
+   "attempts": 1,
+   "tokensIn": 1320,
+   "tokensOut": 223,
+   "ms": 6164
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 101016003,
+   "attempts": 1,
+   "tokensIn": 1327,
+   "tokensOut": 192,
+   "ms": 5797
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 101016004,
+   "attempts": 1,
+   "tokensIn": 1327,
+   "tokensOut": 183,
+   "ms": 4419
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 101016005,
+   "attempts": 1,
+   "tokensIn": 1327,
+   "tokensOut": 208,
+   "ms": 5007
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 101016006,
+   "attempts": 1,
+   "tokensIn": 1327,
+   "tokensOut": 223,
+   "ms": 5353
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 101016007,
+   "attempts": 1,
+   "tokensIn": 1327,
+   "tokensOut": 228,
+   "ms": 5481
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 101016008,
+   "attempts": 1,
+   "tokensIn": 1531,
+   "tokensOut": 201,
+   "ms": 5924
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 101016009,
+   "attempts": 1,
+   "tokensIn": 1705,
+   "tokensOut": 165,
+   "ms": 5097
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 101016010,
+   "attempts": 1,
+   "tokensIn": 1493,
+   "tokensOut": 217,
+   "ms": 6275
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 101016011,
+   "attempts": 1,
+   "tokensIn": 1484,
+   "tokensOut": 212,
+   "ms": 5755
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 101016012,
+   "attempts": 1,
+   "tokensIn": 1509,
+   "tokensOut": 211,
+   "ms": 5732
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 101016013,
+   "attempts": 1,
+   "tokensIn": 1522,
+   "tokensOut": 260,
+   "ms": 6879
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 101016014,
+   "attempts": 1,
+   "tokensIn": 1527,
+   "tokensOut": 204,
+   "ms": 5572
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 101016015,
+   "attempts": 1,
+   "tokensIn": 1849,
+   "tokensOut": 188,
+   "ms": 5635
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 101016016,
+   "attempts": 1,
+   "tokensIn": 2007,
+   "tokensOut": 192,
+   "ms": 5796
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 101016017,
+   "attempts": 1,
+   "tokensIn": 1696,
+   "tokensOut": 190,
+   "ms": 5634
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 101016018,
+   "attempts": 1,
+   "tokensIn": 1681,
+   "tokensOut": 195,
+   "ms": 5752
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 101016019,
+   "attempts": 1,
+   "tokensIn": 1705,
+   "tokensOut": 177,
+   "ms": 5323
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 101016020,
+   "attempts": 1,
+   "tokensIn": 1765,
+   "tokensOut": 223,
+   "ms": 6410
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 101016021,
+   "attempts": 1,
+   "tokensIn": 1714,
+   "tokensOut": 201,
+   "ms": 5956
+  }
+ ],
+ "startedAt": "2026-11-04T23:41:46.300Z",
+ "seconds": 121
+}

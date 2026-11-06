@@ -1,0 +1,606 @@
+{
+ "id": "p1-51-HYB-IDE-vs-HYB-LIB-river",
+ "pass": 1,
+ "pairIndex": 51,
+ "seed": 274359,
+ "scenario": "river",
+ "domain": "diplomatic",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-IDE",
+  "style": "HYB",
+  "ideology": "IDE",
+  "name": "Casey Rowan",
+  "platform": "Merova must immediately join Saradan in a joint water management framework to delay reservoir filling until seven years while securing our power deal and trade terms.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Frame joint management as the only way to keep power costs low while appealing to ministers worried about immediate economic pain from a prolonged dispute."
+   },
+   {
+    "round": 2,
+    "text": "I will emphasize that Avery's vague promise of trust fails against Saradan's urgent political and energy needs, making my concrete deal the only viable path."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the immediate necessity of the power deal to counter Avery's suggestion of waiting, framing the delay as a guaranteed outcome of my plan rather than a passive gamble."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-LIB",
+  "style": "HYB",
+  "ideology": "LIB",
+  "name": "Avery Lindgren",
+  "platform": "We must sign a twenty-year power contract to stretch the dam's filling over seven years while establishing a joint commission to manage river flows for our shared future.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor the discussion on long-term stability and economic mutual benefit to appeal to all five ministers regardless of their initial stance."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing that Casey's 'urgency' is actually risky because it ignores the economic leverage we have now, while her plan offers no alternative if Saradan hardens its stance post-election."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the immediate risk of waiting on Saradan's politics while highlighting how my commission actively recovers water today rather than promising it in the future."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "HYB-IDE",
+   "speech": "Imagine a farmer in my hometown, Elias, whose fields depend on the Tessel. If we rush this dam, his harvest fails not just from less water, but from lost futures. We cannot simply fight; we must build. Our plan is to join Saradan now in joint management. This delays filling until seven years, recovers half the water loss through coordination, and lets us buy their power to close our coal plants. Yes, it costs us a year of tension, but it protects Elias's livelihood and our children's water. We accept short-term hardship for long-term justice. Let us stop a war of attrition and build a partnership that heals our shared basin before the rains decline by 2050.",
+   "words": 117
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Avery Lindgren",
+   "type": "HYB-LIB",
+   "speech": "Imagine a farmer in the valley watching the Tessel shrink, his fields dusted by wind because upstream water vanishes. That family faces a crisis we cannot ignore. Yet, rushing into conflict or lawsuits ignores reality. Saradan needs our grain, and we need their power; fighting only burns us both. Our plan buys seven years to build trust while guaranteeing electricity that closes our coal plants. A joint commission lets us coordinate releases against future droughts, protecting our farms without coercion. We trade cooperation for security, turning a looming disaster into an opportunity for shared prosperity under fair rules.",
+   "words": 98
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "HYB-IDE",
+   "speech": "Ministers, Avery offers a beautiful fantasy of 'trust' but ignores the hard reality of power. Saradan faces an election in ten months with forty percent without electricity; they will not stop filling the reservoir unless we solve their crisis immediately. Their plan to 'build trust' is passive while our farms dry up. By contrast, my proposal forces a concrete solution: we delay filling until seven years, securing a guaranteed power deal that closes our coal plants and stabilizes the market. We trade short-term political friction for tangible security. Let us not wait for Saradan's election to change their minds; let our firm offer of partnership be the catalyst. Vote yes on joint management now, before the water level rises.",
+   "words": 119
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Avery Lindgren",
+   "type": "HYB-LIB",
+   "speech": "Casey, you mistake urgency for wisdom. Waiting for Saradan's election in ten months does not mean we passively accept a flooded valley while they consolidate power. Their current desperation guarantees cooperation only if we offer a lifeline today, not tomorrow. My plan delivers exactly that: a twenty-year power contract solves their crisis by closing our coal plants and lowering prices, removing the need for coercion. Meanwhile, my joint commission isn't passive; it is an active tool to recover half the lost water through coordinated releases, protecting Elias's fields against future droughts. We are not delaying action; we are trading a costly war of attrition for a guaranteed solution that stabilizes both our basins and our economies.",
+   "words": 116
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "HYB-IDE",
+   "speech": "Ministers, Avery calls for waiting on trust while our farmers watch their harvests vanish. But Saradan faces an election in ten months with forty percent lacking power; they will not pause without a deal today. My plan forces that deal immediately. We secure their energy, closing our coal plants, and delay filling until seven years through joint management. This is not passive hope; it is an active contract that guarantees water recovery against coming droughts while stopping a war of attrition. We solve their desperation now so we can save our future together. Do not let political friction drown our basins. Vote for the partnership that delivers both justice and security.",
+   "words": 111
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Avery Lindgren",
+   "type": "HYB-LIB",
+   "speech": "Ministers, Casey promises a deal but ignores who pays for it. His plan relies on Saradan pausing a massive flood to wait for our election cycle, forcing us to fund their political gamble while their citizens suffer. My strategy is different: I secure the water immediately through a binding joint commission that recovers half the lost flow today, not tomorrow. We do not trade our farmers' livelihoods for political leverage; we buy them security with cheap power while they build the reservoir under fair rules. This guarantees Elias his harvest without coercion or waiting on an election. We turn a potential disaster into shared prosperity, protecting our water and their energy under transparent agreements that neither side can break later.",
+   "words": 120
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey proposes joint management for a 7-year fill and power buy; Avery emphasizes shared prosperity and trust but avoids specifying enforcement mechanisms. Both highlight immediate water loss vs. long-term climate solutions.",
+     "problem": "Merova must secure its 25% immediate river flow reduction while preventing future drought vulnerability without triggering war or economic collapse from losing Saradan's grain or power.",
+     "onA": "Casey offers a concrete, actionable path that directly addresses the water loss and coal plant closure needs with specific terms.",
+     "onB": "Avery's rhetoric is strong on 'shared prosperity' but feels vague on how to enforce guarantees against Saradan filling the dam anyway.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Casey's plan provides a tangible mechanism (joint management + power contract) to physically mitigate the water loss, whereas Avery's appeal to 'trust' is insufficient given Saradan's election-driven urgency and lack of ICJ standing.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery correctly links coal closure to economic stability, but Casey still insists on a specific timeline rather than trusting Saradan's election outcome.",
+     "problem": "Merova must secure immediate water flow guarantees and long-term climate resilience without triggering war or economic collapse from losing trade/power, balancing hard leverage with viable cooperation.",
+     "onA": "Casey's plan remains concrete and actionable but still relies on Saradan complying with a timeline they are politically incentivized to ignore until after their election.",
+     "onB": "Avery successfully reframed the 'trust' argument as an active economic lifeline (coal closure + water recovery) that makes cooperation rational for Saradan right now, not just post-election.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Despite Avery's better rhetorical framing of the election dynamic, I still feel uneasy relying on a political promise from an opponent facing an election rather than a binding joint management mechanism that physically controls water releases.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey relies on a specific timeline and contract to force Saradan's hand before their election. Avery offers immediate joint commission water recovery without waiting for political cycles.",
+     "problem": "How can Merova secure immediate water flow guarantees and long-term climate resilience without triggering war or economic collapse?",
+     "onA": "Casey's plan effectively uses Saradan's election desperation as leverage to enforce a binding timeline for water recovery via joint management.",
+     "onB": "Avery correctly identifies the risk of relying on political promises but fails to explain how their 'binding' commission works if Saradan refuses to sign or ignores it.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "Casey's strategy directly exploits the unique political pressure point (Saradan's election) to force immediate compliance, whereas Avery's vague reliance on trust and future cooperation offers no concrete shield against a hostile Saradan government.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey: Joint management + 7yr fill delay. Avery: Commission for releases + buy power deal.",
+     "problem": "Balancing immediate water security for farms against long-term energy needs and climate risks while avoiding war or failed litigation.",
+     "onA": "Casey's plan prioritizes stopping the rapid reservoir filling to save current agriculture, accepting short-term energy costs.",
+     "onB": "Avery combines cooperation with the economic benefit of buying Saradan's power, framing it as a security guarantee.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans propose joint management, but I need to weigh if delaying filling is essential or if the power deal alone secures enough water.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey frames power deal as security/trade-off vs war; Avery counters that waiting for election is risky and active commission recovers water.",
+     "problem": "I must choose between forcing a 7-year fill delay to save current farms (Casey) or accepting immediate short-term drop while securing long-term water recovery via an active commission and power deal (Avery).",
+     "onA": "His plan relies on the dangerous assumption that Saradan will accept our demands before their election, ignoring that we might be too weak to enforce it.",
+     "onB": "Her commission approach directly addresses the water loss issue rather than just delaying the inevitable, making the power deal a complement not a replacement for action.",
+     "lean": "Avery Lindgren",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Casey's reliance on Saradan changing their mind before an election is too passive, whereas Avery's active commission guarantees water recovery regardless of political timelines.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Avery's active commission recovers water today; Casey relies on Saradan pausing before election.",
+     "problem": "Securing immediate agricultural water recovery through an enforceable technical commission rather than relying on Saradan's political timeline or unenforced contracts.",
+     "onA": "Casey's plan risks our farmers' livelihoods by trading them for a political gamble that assumes Saradan will honor a deal solely to win an election.",
+     "onB": "Avery correctly identifies that waiting is dangerous and proposes a binding technical solution that guarantees water recovery regardless of Saradan's political changes.",
+     "lean": "Avery Lindgren",
+     "firmness": "vote",
+     "vote": "Avery Lindgren",
+     "why": "Her strategy secures our farmers' survival immediately through an active commission while using the power deal as a supplementary benefit rather than our only hope.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey wants joint management to delay filling and save water; Avery seeks a commission for security + power deal. Both agree on avoiding war but differ on 'partnership' vs 'fair rules'.",
+     "problem": "Merova must secure its water supply against the upcoming dam fill while managing energy needs and economic interdependence with Saradan.",
+     "onA": "Casey's plan directly addresses the immediate water crisis by delaying filling and implementing joint management to recover lost flows.",
+     "onB": "Avery emphasizes security guarantees and an energy deal but is less explicit about how a commission alone solves the 10% permanent water loss without specific release mechanisms.",
+     "lean": "Casey Rowan",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Casey's explicit mention of recovering half the water losses through coordination aligns better with the hydrologists' advice than Avery's general focus on trust.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey conflates election timing with inevitable filling; Avery correctly links power deal to removing coercion need. Both agree commission recovers half water loss.",
+     "problem": "Securing immediate water flow recovery while resolving Saradan's energy crisis before their election without triggering conflict or trade collapse.",
+     "onA": "Casey's argument that 'trust' is passive ignores the fact that his proposed power deal and seven-year delay directly solve the very urgency he claims exists.",
+     "onB": "Avery successfully reframed the timeline, proving that offering a solution now prevents the need for coercion later while explicitly including water recovery mechanisms.",
+     "lean": "Avery Lindgren",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Avery dismantled Casey's distinction between 'active' and 'passive' trust by showing that the power deal + commission is the only way to make cooperation voluntary rather than forced.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey conflates trust with waiting; Avery correctly links power deal to ending coercion.",
+     "problem": "Merova must secure immediate water recovery and prevent Saradan's coerced filling without sacrificing its own energy or economic interests.",
+     "onA": "His plan effectively forces a deal by addressing Saradan's election desperation, but it risks leaving Merova dependent on their political cycle for water security.",
+     "onB": "He offers a stronger strategy by securing immediate water recovery through a binding commission while using the power deal to remove the need for coercion entirely.",
+     "lean": "Avery Lindgren",
+     "firmness": "vote",
+     "vote": "Avery Lindgren",
+     "why": "Avery's plan guarantees water recovery immediately rather than waiting for an election outcome, effectively removing the risk of forced filling through financial leverage.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey pushes for immediate joint management to delay filling and recover water; Avery emphasizes trading cooperation for security while guaranteeing power. Both accept the 7-year fill but differ on the speed of engagement.",
+     "problem": "Merova must secure its water rights and economic stability against Saradan's rapid dam construction while avoiding conflict with a neighbor that has superior military backing from a great power.",
+     "onA": "Casey's plan is morally compelling for farmers but risks being too aggressive given the current political climate and Saradan's election-driven popularity for the dam.",
+     "onB": "Avery's approach offers a pragmatic path that secures immediate economic benefits (power) while building the necessary trust to prevent conflict.",
+     "lean": "Avery Lindgren",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Avery's framing of 'trading cooperation for security' seems more politically viable given Saradan's upcoming election and the immediate need to close coal plants without provoking hostility.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey insists election timing doesn't mean inaction; Avery counters that offering a lifeline now is more effective than waiting.",
+     "problem": "Merova must secure water rights and energy independence without triggering conflict, requiring immediate economic incentives for Saradan rather than relying solely on political pressure.",
+     "onA": "Casey's push to vote on joint management immediately feels risky given Saradan's election-driven urgency and the lack of an enforceable mechanism yet.",
+     "onB": "Avery successfully reframed the 'delay' as a strategic investment in security, using the power deal to solve Saradan's electricity crisis proactively.",
+     "lean": "Avery Lindgren",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Avery's argument that offering a lifeline today prevents future coercion aligns better with the need for immediate economic stability than Casey's reactive stance.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey promises immediate deal but relies on Saradan's election urgency; Avery demands binding commission now to recover water immediately without funding their political gamble.",
+     "problem": "Merova must secure its water rights and economic stability against an upstream neighbor with a superior military ally by offering immediate, enforceable incentives rather than relying on Saradan's electoral timeline.",
+     "onA": "Casey's plan effectively uses Saradan's election desperation to force a quick deal, but risks Merova funding a project that might not honor our water recovery if the new government shifts.",
+     "onB": "Avery correctly identifies that relying on Saradan's election is dangerous for us and proposes an immediate binding mechanism to recover water while still providing the power deal.",
+     "lean": "Avery Lindgren",
+     "firmness": "vote",
+     "vote": "Avery Lindgren",
+     "why": "Avery's insistence on securing water recovery immediately through a binding commission, rather than waiting for or depending on Saradan's political cycle, better protects Merova's farmers and long-term security.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey proposes joint management to delay filling and recover lost water; Avery suggests a trade deal for power while building trust. Both acknowledge economic interdependence.",
+     "problem": "Balancing immediate agricultural water security against energy needs requires a strategy that prevents upstream coercion while ensuring long-term climate resilience.",
+     "onA": "Casey's focus on 'joint management' and delaying the dam is prudent for water security, but her reliance on Saradan's goodwill ignores their current political instability and potential use of force.",
+     "onB": "Avery's trade deal offers immediate energy security but risks creating a dependency that could weaken Merova's negotiating position if relations sour later.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans address different facets of the crisis (water vs. energy), but I am unsure which risk mitigation strategy is more robust given Saradan's election cycle and military preparations.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey insists on immediate action via election leverage but risks coercion; Avery argues trust and water recovery are active tools, not passive delays. Both admit interdependence.",
+     "problem": "Merova must secure agricultural water rights immediately while preventing Saradan's desperation from forcing a suboptimal deal or military escalation, balancing short-term survival with long-term climate resilience.",
+     "onA": "Her plan offers a concrete power solution but relies on Saradan's election outcome which is too uncertain to guarantee their cooperation before water levels rise.",
+     "onB": "She correctly identifies that offering a lifeline now addresses both their energy crisis and our water loss through active joint management, avoiding the trap of waiting for political shifts.",
+     "lean": "Avery Lindgren",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Avery's strategy mitigates immediate desperation by solving Saradan's power crisis today while actively recovering water, whereas Casey's reliance on their upcoming election feels like gambling with our farmers' livelihoods.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey uses election leverage for a deal but risks delay; Avery secures water immediately via joint commission and buys power.",
+     "problem": "Merova must secure agricultural water rights today while preventing Saradan from using desperation or force to dictate terms.",
+     "onA": "Her plan relies too heavily on Saradan's upcoming election outcome, which creates unacceptable risk for our farmers waiting years.",
+     "onB": "She correctly prioritizes immediate water recovery through active joint management rather than passive negotiation during their political cycle.",
+     "lean": "Avery Lindgren",
+     "firmness": "vote",
+     "vote": "Avery Lindgren",
+     "why": "Avery's approach guarantees farmer security immediately by recovering water now, whereas Casey's strategy gambles our livelihoods on an election that might not yield cooperation in time.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 2,
+   "B": 1,
+   "U": 2
+  },
+  {
+   "A": 1,
+   "B": 4,
+   "U": 0
+  },
+  {
+   "A": 1,
+   "B": 4,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 1,
+  "B": 4
+ },
+ "winner": "B",
+ "winnerType": "HYB-LIB",
+ "tokens": {
+  "in": 31790,
+  "out": 4246,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 274359001,
+   "attempts": 1,
+   "tokensIn": 1187,
+   "tokensOut": 223,
+   "ms": 6157
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 274359002,
+   "attempts": 1,
+   "tokensIn": 1187,
+   "tokensOut": 193,
+   "ms": 5447
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 274359003,
+   "attempts": 1,
+   "tokensIn": 1313,
+   "tokensOut": 229,
+   "ms": 6661
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 274359004,
+   "attempts": 1,
+   "tokensIn": 1313,
+   "tokensOut": 173,
+   "ms": 4177
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 274359005,
+   "attempts": 1,
+   "tokensIn": 1313,
+   "tokensOut": 209,
+   "ms": 5030
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 274359006,
+   "attempts": 1,
+   "tokensIn": 1313,
+   "tokensOut": 224,
+   "ms": 5382
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 274359007,
+   "attempts": 1,
+   "tokensIn": 1313,
+   "tokensOut": 211,
+   "ms": 5099
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 274359008,
+   "attempts": 1,
+   "tokensIn": 1496,
+   "tokensOut": 189,
+   "ms": 5651
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 274359009,
+   "attempts": 1,
+   "tokensIn": 1650,
+   "tokensOut": 197,
+   "ms": 5857
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 274359010,
+   "attempts": 1,
+   "tokensIn": 1528,
+   "tokensOut": 226,
+   "ms": 6512
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 274359011,
+   "attempts": 1,
+   "tokensIn": 1473,
+   "tokensOut": 219,
+   "ms": 5918
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 274359012,
+   "attempts": 1,
+   "tokensIn": 1507,
+   "tokensOut": 208,
+   "ms": 5676
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 274359013,
+   "attempts": 1,
+   "tokensIn": 1523,
+   "tokensOut": 202,
+   "ms": 5519
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 274359014,
+   "attempts": 1,
+   "tokensIn": 1511,
+   "tokensOut": 227,
+   "ms": 6142
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 274359015,
+   "attempts": 1,
+   "tokensIn": 1815,
+   "tokensOut": 180,
+   "ms": 5461
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 274359016,
+   "attempts": 1,
+   "tokensIn": 1955,
+   "tokensOut": 185,
+   "ms": 5577
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 274359017,
+   "attempts": 1,
+   "tokensIn": 1708,
+   "tokensOut": 203,
+   "ms": 5955
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 274359018,
+   "attempts": 1,
+   "tokensIn": 1646,
+   "tokensOut": 182,
+   "ms": 5450
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 274359019,
+   "attempts": 1,
+   "tokensIn": 1668,
+   "tokensOut": 174,
+   "ms": 5228
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 274359020,
+   "attempts": 1,
+   "tokensIn": 1678,
+   "tokensOut": 221,
+   "ms": 6329
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 274359021,
+   "attempts": 1,
+   "tokensIn": 1693,
+   "tokensOut": 171,
+   "ms": 5163
+  }
+ ],
+ "startedAt": "2026-11-04T22:28:21.588Z",
+ "seconds": 118
+}

@@ -1,0 +1,609 @@
+{
+ "id": "p3-38-HYB-PRA-vs-HYB-REA-dam",
+ "pass": 3,
+ "pairIndex": 38,
+ "seed": 246012,
+ "scenario": "dam",
+ "scenarioVersion": 2,
+ "domain": "political",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Drew Halvorsen",
+  "platform": "We must immediately lower the reservoir to thirty percent while rushing a new spillway and securing emergency flood protections, then negotiate with Ostbrück on water shares before committing to any full rebuild.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on immediate safety to neutralize flood fear, then pivot to cost efficiency to counter any opposition focused on budget constraints."
+   },
+   {
+    "round": 2,
+    "text": "I am highlighting that Jordan's bond-funded relocation is financially reckless given our debt ceiling, while simultaneously undermining her lawsuit threat against Nordhalm by pointing out their pre-emptive closure letter proves they will not play long-term anyway."
+   },
+   {
+    "round": 3,
+    "text": "Pivot from the bond argument by emphasizing that my plan is the only one avoiding immediate job losses and bankruptcy while still solving the crisis."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-REA",
+  "style": "HYB",
+  "ideology": "REA",
+  "name": "Jordan Hale",
+  "platform": "We must keep the reservoir at forty percent, accept a temporary power cut to fund the rebuild, and immediately relocate the Riverside district while demanding Nordhalm stay open or face immediate litigation.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on immediate relocation of Riverside to bypass the legal deadlock with Ostbrück and frame the Nordhalm closure as a solvable business dispute rather than an existential threat."
+   },
+   {
+    "round": 2,
+    "text": "I am pivoting from attacking Nordhalm's bluff to highlighting the insurance crisis as the fatal flaw in his plan, while framing my bond approach as the only sustainable financing method for an already insolvent town."
+   },
+   {
+    "round": 3,
+    "text": "I am attacking Drew's reliance on uncertain future negotiations and insurance withdrawal to make his plan look like a fatal gamble rather than a smart trade-off."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Drew Halvorsen",
+   "type": "HYB-PRA",
+   "speech": "Think of Mrs. Gable in Riverside, seventy-two years old, who wakes up terrified every spring knowing the dam might burst above her. Her fear is real, but our reaction must be smart, not desperate. We cannot afford a four-year rebuild that costs three hundred forty million and kills our hydro power; we cannot wait for Ostbrück to agree to a permanent drop that hurts their orchards. My plan acts now: lower the water to thirty percent today with a quick spillway fix for twenty-five million, buying us critical time. This cuts failure risk significantly while we negotiate a fair water share deal with Ostbrück and get grants without freezing housing markets. We protect Mrs. Gable, keep the lights on, and avoid bankruptcy by taking phased steps that actually work.",
+   "words": 129
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "HYB-REA",
+   "speech": "My neighbor Mrs. Gable in Riverside has lived there for sixty years; she cannot wait another decade for safety. Drew wants to lower water now, but Ostbrück will sue within weeks under our 1974 agreement, and Nordhalm will close the mill if the water drops. We lose jobs, budget profits, and time in that lawsuit. Instead, we keep the water high enough to hold the dam and power the town while we use municipal bonds for Riverside relocation now. This buys us years to rebuild properly without freezing our economy or leaving families exposed to a lawsuit-driven blackout.",
+   "words": 98
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Drew Halvorsen",
+   "type": "HYB-PRA",
+   "speech": "Jordan, you offer comfort but leave Mrs. Gable exposed while we bleed cash on bonds and jobs vanish in a lawsuit. You ignore the math: Nordhalm has already written they will close if water drops permanently, but maintaining the status quo guarantees closure within a year anyway. Their bluff is weak; a court battle over relocation costs far more than our hydro profits. My spillway fix buys exactly the time needed to negotiate a new water-sharing deal with Ostbrück that protects their orchards while saving Riverside. We act now with low risk, not by gambling on bonds we cannot afford. Let's build a future where industry and safety both survive.",
+   "words": 110
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "HYB-REA",
+   "speech": "Drew, your math is clean, but it ignores who pays when the clock stops. You claim Nordhalm's bluff is weak because they close anyway next year. That is not a bluff; it is a contract clause triggered by water levels dropping below forty percent permanently. If we lower now, we force their hand today rather than facing a legal shutdown after our new power lines are finished. More critically, your bond plan fails because insurance companies have already announced they will pull flood coverage next year. Without that coverage, relocating Riverside becomes impossible, and Mrs. Gable remains trapped in an uninsured death zone while the bank forecloses on her home due to the insurer's exit. My plan keeps the reservoir full enough to maintain our utility profits, which currently fund those free buses for all families. We finance relocation with municipal bonds secured by future revenue streams from a rebuilt dam, not by gambling on temporary cuts that leave us vulnerable to lawsuits and market collapse. Do not let Drew convince you that desperation is clever; Mrs. Gable cannot afford a clever gamble on her safety.",
+   "words": 186
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Drew Halvorsen",
+   "type": "HYB-PRA",
+   "speech": "Jordan, your fear of a lawsuit is real, but it assumes Ostbrück will win every time. A court battle over relocation costs far more than our hydro profits, and losing Nordhalm means losing 2,300 jobs tomorrow. My plan stops the bleeding now: lower to thirty percent immediately to buy time while securing the state grant that freezes no housing markets. This gives us a fair deal with Ostbrück without bankrupting Valmora. We do not gamble Mrs. Gable's life on bonds or legal risks; we act decisively today to keep power, jobs, and safety for everyone.",
+   "words": 95
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "HYB-REA",
+   "speech": "Drew offers a temporary truce that is already broken. The insurers pulling coverage means Mrs. Gable will be stranded in an uninsured death zone the moment we lower the water, regardless of your negotiations. Nordhalm does not bluff; they are legally bound to close if we drop permanently. Your plan trades today's safety for tomorrow's bankruptcy and job losses. My plan keeps the reservoir full enough to fund our relocation bonds and keep the mill running while we rebuild properly. We do not gamble on Ostbrück's goodwill or a court battle that could last months. We act now with full water to secure Riverside's future, protect the hospital, and ensure Valmora has the budget for its free buses when the new dam stands. Vote for safety that actually lasts.",
+   "words": 129
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew: low water now saves risk/power; Jordan: relocation bonds avoid lawsuit/mill shutdown.",
+     "problem": "We must choose between immediate safety/economic loss or financial ruin/legal blockage, with spring melt approaching in five months.",
+     "onA": "His plan buys time and cuts risk immediately but relies on a fragile negotiation with Ostbrück that might fail before the melt.",
+     "onB": "He prioritizes keeping the economy running now, but his plan leaves thousands of people vulnerable to a likely dam failure within weeks.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between accepting Jordan's economic stability at the cost of immediate human safety and Drew's risky hope that a lawsuit will not block our only quick fix.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew: Spillway buys time but relies on fragile Ostbrück deal; Nordhalm likely closes regardless. Jordan: Low water kills utility profits/buses and leaves Mrs. Gable uninsured as insurers leave.",
+     "problem": "We face an immediate choice between a risky, legally threatened fix that saves lives but cripples the economy, or maintaining the status quo which risks catastrophic failure while funding relocation bonds we cannot afford without insurance.",
+     "onA": "His plan offers technical safety now but feels like a high-stakes gamble on a legal victory against Ostbrück that might fail before the melt.",
+     "onB": "He protects our economy and utility profits but explicitly leaves thousands of vulnerable residents in an uninsured death zone with no immediate safety upgrade.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between the moral imperative to save Riverside immediately versus the economic reality that Jordan's plan destroys our utility funding and leaves us defenseless if a lawsuit blocks his bond strategy.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew claims court battles cost more than power profits; Jordan insists insurers abandon low-water residents and Nordhalm is legally bound to close.",
+     "problem": "We must choose between a precarious legal gamble that sacrifices immediate safety for economic survival, or maintaining the status quo which guarantees an uninsured death zone.",
+     "onA": "His argument that litigation costs exceed hydro profits ignores the immediate reality that insurance withdrawals leave thousands of vulnerable residents unprotected before any court ruling happens.",
+     "onB": "His refusal to lower water now forces us to accept a 60% failure risk while promising an economic future that requires a rebuild we cannot afford if the mill closes immediately.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "While Drew's plan relies on a fragile legal victory, Jordan's approach at least keeps the economy running and buys time for a proper rebuild rather than condemning thousands to immediate danger.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew offers cheap quick fix but risks losing jobs and power; Jordan suggests expensive immediate relocation to avoid lawsuits.",
+     "problem": "Valmora must balance immediate safety against economic collapse caused by either a lawsuit over water levels or the loss of essential hydro power and mill employment.",
+     "onA": "His plan is financially viable and keeps the economy running, but it leaves Riverside residents exposed while waiting for a legal resolution with Ostbrück.",
+     "onB": "Relocating the poor Riverside district immediately solves the safety issue but costs €160 million, wipes out utility profits, and likely fails due to past protest resistance.",
+     "lean": "Drew Halvorsen",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Jordan's proposal to relocate Riverside now ignores the legal barrier from Ostbrück and the high cost of destroying the town's main revenue stream.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew claims Nordhalm bluff is weak and court battle costs more than bond interest; Jordan insists dropping below 40% triggers immediate mill closure contractually and insurance exit makes relocation impossible.",
+     "problem": "Valmora must prevent Riverside deaths without triggering the irreversible loss of hydro power, municipal funding, or the town's largest employer via a contractual shutdown.",
+     "onA": "His argument that Nordhalm will close anyway is logical but ignores that a permanent drop under 40% legally binds the mill to shut down immediately, making his 'negotiation time' irrelevant if the contract clause is strict.",
+     "onB": "She correctly identifies the contractual threat to the mill and the insurance risk, yet her plan to finance relocation via bonds seems risky given the town's debt ceiling and her reliance on future revenue that might vanish.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Drew's dismissal of the specific contractual closure clause risks condemning Riverside residents to death before any lawsuit resolution, which outweighs his financial efficiency points.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew risks immediate death to negotiate; Jordan prioritizes survival but faces high costs and insurance collapse.",
+     "problem": "The core conflict is preventing Riverside deaths now without triggering irreversible economic collapse from mill closure or utility bankruptcy.",
+     "onA": "His plan ignores that insurers will drop coverage immediately, leaving residents defenseless against a dam failure while he negotiates.",
+     "onB": "Her plan acknowledges the fatal flaws in Drew's approach but relies on expensive bonds and assumes Ostbrück won't block work.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Drew's strategy gambles lives on unresolved legal risks and vanished insurance, whereas Jordan accepts the hard choice of maintaining water levels to fund relocation and keep jobs while rebuilding.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew: Low water now (€25m), fixes time for deals. Jordan: High water + bonds to move Riverside, avoids Nordhalm/Ostbrück lawsuits.",
+     "problem": "Immediate safety vs. economic collapse from lawsuits and power loss if reservoir is lowered or town is rebuilt slowly.",
+     "onA": "His plan addresses the immediate threat but ignores the legal block from Ostbrück that could stop lowering water entirely.",
+     "onB": "He prioritizes stability against lawsuits but leaves Mrs. Gable dangerously exposed while waiting for a court victory on relocation.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans have fatal flaws regarding legal realities and immediate safety that I need more data to resolve.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew claims Nordhalm bluff is weak; Jordan counters contract clause forces closure if water drops permanently. Jordan highlights insurance exit blocks relocation funding.",
+     "problem": "We must balance immediate safety and legal certainty against the risk of triggering an immediate shutdown of the mill and loss of flood insurance for residents.",
+     "onA": "His plan buys time but ignores that maintaining high water now is a direct trigger for Nordhalm's closure contract and leaves us unable to fund relocation without insurance.",
+     "onB": "He prioritizes legal safety and utility profits, yet his bond strategy relies on future revenue from a dam that might need rebuilding while leaving residents stranded if insurers leave.",
+     "lean": "Jordan Hale",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Drew's dismissal of the insurance exit and immediate job loss risks seems too dangerous for a town already at its debt ceiling.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew: Lowering now secures grant/freezing housing but risks Nordhalm closure and uninsured residents immediately. Jordan: Keeping water high triggers lawsuits/insurer exits, leaving towns stranded with no funds for relocation.",
+     "problem": "We must choose between immediate economic collapse from legal threats or gambling on a court victory to save lives while the town has zero insurance coverage.",
+     "onA": "His plan ignores that dropping water today instantly cuts off our only funding source for Riverside relocation, trapping residents in an uninsured death zone.",
+     "onB": "Keeping the dam full is financially suicide given the debt ceiling and insurer exits, yet it is the only way to buy time for a court victory before the floodwaters arrive.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Drew's plan admits we are already losing our economy and insurance coverage by lowering water now, whereas Jordan at least keeps the utility running while we fight for a legal solution.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew offers fast 30% drop + spillway for time; risks lawsuit from Ostbrück and mill closure. Jordan proposes high water + bonds to relocate Riverside now; risks bankruptcy and immediate job loss if dam fails.",
+     "problem": "We must prevent a catastrophic flood before spring melt while avoiding economic collapse, though we lack time to fully rebuild or move residents safely on our own terms.",
+     "onA": "His plan buys critical time with cheap engineering fixes but legally ignores the near-certain lawsuit from Ostbrück that could block execution within weeks.",
+     "onB": "Her approach avoids legal risk and keeps jobs now, yet keeping high water leaves Riverside vulnerable to a likely failure that insurers are already abandoning.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am stuck between the near-immediate legal threat to Drew's plan and the unacceptable human risk of Jordan's plan if the dam fails this spring.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew claims Nordhalm bluff but Jordan cites contract clause; Drew ignores imminent lawsuit from Ostbrück blocking work within weeks.",
+     "problem": "We must secure Riverside safety before the spring melt while simultaneously navigating an unavoidable legal blockade that prevents Drew's engineering fix from being built in time.",
+     "onA": "His plan is technically sound for long-term resilience but legally impossible to execute now because Ostbrück will block construction immediately.",
+     "onB": "Her strategy of keeping water high avoids the lawsuit but gambles with Mrs. Gable's life and leaves Riverside uninsured and economically stranded by impending utility loss.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The legal blockade makes Drew's plan inactionable right now, yet Jordan's plan leaves the town exposed to a guaranteed catastrophic failure this spring.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew claims lawsuit isn't certain and offers fair deal; Jordan insists Nordhalm won't bluff and insurers make low water a death zone.",
+     "problem": "We must prevent an immediate catastrophic flood this spring while avoiding the economic collapse that either high risk (Jordan) or inevitable legal/contractual blockades (Drew) seem to cause.",
+     "onA": "His plan is technically necessary for long-term safety but remains legally unexecutable right now because Ostbrück will likely block construction before we can lower water safely.",
+     "onB": "Her strategy keeps the mill and jobs today by avoiding a lawsuit, yet it knowingly leaves Riverside uninsured and vulnerable to failure this spring despite insurers withdrawing coverage.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Even if Ostbrück sues, the cost of waiting is certain death and economic ruin; I must gamble on getting the work done now to save lives and keep power.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew: Lower water now for time/negotiation; Jordan: Keep water high/move residents/rebuild safely. Drew risks mill closure and lawsuits; Jordan risks immediate failure if relocation fails.",
+     "problem": "We must balance immediate flood risk against economic collapse from losing hydro power and closing the Kallberg mill.",
+     "onA": "His plan saves time but critically ignores that dropping water now forces Nordhalm to close the mill, bankrupting the town before we can rebuild.",
+     "onB": "He correctly identifies that lowering water violates contracts with Ostbrück and Nordhalm, potentially causing immediate economic ruin.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Drew's core strategy of lowering water fails immediately because the mill owner has already threatened closure, making his solution economically fatal.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew argues Nordhalm's threat is a bluff and bonds are safer than legal shutdowns. Jordan insists lower water violates contracts, bankrupts utility/buses, and leaves Mrs. Gable in an uninsured death zone.",
+     "problem": "We must choose between immediate economic collapse from lowering water now versus catastrophic flooding if we fail to act before the spring melt given our lack of insurance.",
+     "onA": "His argument that Nordhalm's threat is a bluff is risky, but his point about insurance companies leaving us vulnerable next year without coverage is a critical new risk I hadn't weighed enough.",
+     "onB": "He correctly highlights the contract violation with Ostbrück and the loss of utility profits funding free buses, yet his reliance on bonds feels like gambling when our debt is already near the legal ceiling.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "While Drew's insurance argument is compelling, I still fear that violating the 1974 agreement with Ostbrück or forcing Nordhalm to close immediately would trigger a total economic shutdown we cannot survive.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew claims court battles cost more than profits and Nordhalm bluffs; Jordan warns insurers leave us in a death zone and Nordhalm is legally bound to close.",
+     "problem": "We must choose between immediate economic suffocation from lowering the reservoir now versus catastrophic flooding next year due to vanishing insurance coverage.",
+     "onA": "His argument that legal risks are minor compared to mill closure ignores that losing insurance creates an immediate, unavoidable death zone for residents regardless of our budget.",
+     "onB": "He correctly identifies that dropping water triggers total economic collapse via contract violations and insurer withdrawal, leaving no time to negotiate or rebuild safely.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Drew's plan trades short-term safety for immediate financial ruin and uninsured risk, whereas Jordan's strategy of maintaining full reservoir levels avoids the guaranteed closure of the mill and loss of flood insurance.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 1,
+   "B": 1,
+   "U": 3
+  },
+  {
+   "A": 0,
+   "B": 3,
+   "U": 2
+  },
+  {
+   "A": 1,
+   "B": 4,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 1,
+  "B": 4
+ },
+ "winner": "B",
+ "winnerType": "HYB-REA",
+ "tokens": {
+  "in": 34529,
+  "out": 4374,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 246012001,
+   "attempts": 1,
+   "tokensIn": 1283,
+   "tokensOut": 237,
+   "ms": 6507
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 246012002,
+   "attempts": 1,
+   "tokensIn": 1398,
+   "tokensOut": 210,
+   "ms": 5877
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 246012003,
+   "attempts": 1,
+   "tokensIn": 1421,
+   "tokensOut": 183,
+   "ms": 5259
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 246012004,
+   "attempts": 1,
+   "tokensIn": 1421,
+   "tokensOut": 201,
+   "ms": 4847
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 246012005,
+   "attempts": 1,
+   "tokensIn": 1421,
+   "tokensOut": 179,
+   "ms": 4353
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 246012006,
+   "attempts": 1,
+   "tokensIn": 1421,
+   "tokensOut": 218,
+   "ms": 5244
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 246012007,
+   "attempts": 1,
+   "tokensIn": 1421,
+   "tokensOut": 195,
+   "ms": 4707
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 246012008,
+   "attempts": 1,
+   "tokensIn": 1616,
+   "tokensOut": 193,
+   "ms": 5721
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 246012009,
+   "attempts": 1,
+   "tokensIn": 1769,
+   "tokensOut": 275,
+   "ms": 7678
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 246012010,
+   "attempts": 1,
+   "tokensIn": 1644,
+   "tokensOut": 231,
+   "ms": 6595
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 246012011,
+   "attempts": 1,
+   "tokensIn": 1662,
+   "tokensOut": 243,
+   "ms": 6506
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 246012012,
+   "attempts": 1,
+   "tokensIn": 1640,
+   "tokensOut": 202,
+   "ms": 5952
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 246012013,
+   "attempts": 1,
+   "tokensIn": 1679,
+   "tokensOut": 197,
+   "ms": 5075
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 246012014,
+   "attempts": 1,
+   "tokensIn": 1656,
+   "tokensOut": 250,
+   "ms": 6677
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 246012015,
+   "attempts": 1,
+   "tokensIn": 1999,
+   "tokensOut": 166,
+   "ms": 5172
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 246012016,
+   "attempts": 1,
+   "tokensIn": 2145,
+   "tokensOut": 200,
+   "ms": 5965
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 246012017,
+   "attempts": 1,
+   "tokensIn": 1781,
+   "tokensOut": 200,
+   "ms": 6012
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 246012018,
+   "attempts": 1,
+   "tokensIn": 1811,
+   "tokensOut": 169,
+   "ms": 5244
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 246012019,
+   "attempts": 1,
+   "tokensIn": 1748,
+   "tokensOut": 213,
+   "ms": 6219
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 246012020,
+   "attempts": 1,
+   "tokensIn": 1780,
+   "tokensOut": 212,
+   "ms": 6201
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 246012021,
+   "attempts": 1,
+   "tokensIn": 1813,
+   "tokensOut": 200,
+   "ms": 5951
+  }
+ ],
+ "startedAt": "2026-11-05T04:51:39.692Z",
+ "seconds": 122
+}

@@ -1,0 +1,609 @@
+{
+ "id": "p1-15-HYB-LIB-vs-POP-PRA-river",
+ "pass": 1,
+ "pairIndex": 15,
+ "seed": 116897,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-LIB",
+  "style": "HYB",
+  "ideology": "LIB",
+  "name": "Sasha Lund",
+  "platform": "We must reject binding power contracts in favor of immediate Regional Union mediation and voluntary joint water management agreements to protect our farmers while preserving future cooperation.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize economic sovereignty and farmer welfare to appeal to ministers concerned about domestic stability and trade independence."
+   },
+   {
+    "round": 2,
+    "text": "I need to dismantle Morgan's reliance on buying power by highlighting its long-term cost and lack of sovereignty, while positioning voluntary cooperation as the only sustainable solution."
+   },
+   {
+    "round": 3,
+    "text": "I am framing Morgan's power contract as a long-term economic surrender while emphasizing that voluntary climate adaptation is the only way to guarantee water security for both nations."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-PRA",
+  "style": "POP",
+  "ideology": "PRA",
+  "name": "Morgan Ekberg",
+  "platform": "We must sign a binding power purchase agreement with Saradan to delay the dam's filling and secure our water needs immediately.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Push the 'buy electricity' plan hard by framing the dam filling as an immediate crisis we can only solve through commerce, avoiding any mention of military strength to prevent escalation."
+   },
+   {
+    "round": 2,
+    "text": "I need to paint voluntary mediation as useless delay since they ignored it before, while showing the PPA is actually cheaper than losing farm income."
+   },
+   {
+    "round": 3,
+    "text": "I am attacking Sasha's reliance on failed mediation and voluntary cooperation as dangerous delay tactics while emphasizing the immediate economic threat of delayed action."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Sasha Lund",
+   "type": "HYB-LIB",
+   "speech": "Imagine a Merovan farmer watching the Tessel river shrink, fearing their livelihoods vanish behind concrete. While Saradan's dam brings electricity, forcing a twenty-year power purchase locks us into expensive imports at the cost of our own agricultural heartland. Morgan proposes binding contracts that sacrifice our economic sovereignty for temporary relief. Instead, I propose immediate mediation through the Regional Union to establish voluntary, flexible release schedules. This approach protects our farmers from price shocks and respects Saradan's need for water security without coercion. By choosing partnership over forced deals, we secure both nations' futures against climate change while honoring the freedom of our people to choose fair trade.",
+   "words": 107
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Morgan Ekberg",
+   "type": "POP-PRA",
+   "speech": "Look around this room. What do you see? You see families at kitchen tables running out of water for their gardens, and workers on night shifts losing their jobs because the coal plants must close. We cannot wait years for a court case Saradan refuses to respect, nor can we let a distant power like Tarsun pull the strings from afar. The dam is already built; the reservoir is coming. Our only choice is to buy their electricity at a fair price. This stops the rush-fill schedule that drains our farms dry. It pays for the deal with Saradan's election year, and it gives us leverage. We choose action over empty promises, and we choose the agreement that keeps water in our pipes while keeping our farmers employed.",
+   "words": 128
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Sasha Lund",
+   "type": "HYB-LIB",
+   "speech": "Morgan argues that buying power saves our farms by slowing the reservoir fill, yet this ignores the immediate financial hit. Locking us into a twenty-year contract at prices twenty percent above market effectively subsidizes Saradan's electricity with Merova's agricultural decline. We cannot afford to trade our future food security for today's relief while their leaders court election votes. Our strategy shifts focus from expensive imports to voluntary joint management through the Regional Union. This approach leverages climate science to recover half our water losses without coercion, preserving fair trade rights and protecting both our farmers and Saradan's grid from market volatility.",
+   "words": 101
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Morgan Ekberg",
+   "type": "POP-PRA",
+   "speech": "Sasha, you talk about 'subsidizing' them while ignoring the math. If we delay filling for just two years, we save our farmers enough money to pay that premium and still come out ahead. You want a voluntary deal with a Regional Union that took four years on a fishing dispute and produced nothing? Do not insult our patience. You claim joint management recovers half the water loss, but without binding release schedules enforced by our contract, it is just empty talk. Saradan is facing an election; they care about results, not your noble ideals. Give me the power deal that stops the rush fill right now. Let us buy time to build real leverage while their politicians fight for votes. Then we have a farmer who eats and a worker with a job.",
+   "words": 133
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Sasha Lund",
+   "type": "HYB-LIB",
+   "speech": "Morgan offers a temporary truce that trades our farmers' future security for a twenty-year price hike on Saradan's surplus power. You call empty promises, yet your binding contract is the very promise we fear. That deal locks us into paying more while their politicians court votes; it surrenders our agricultural independence to an upstream neighbor. My plan avoids this trap by seeking immediate Regional Union mediation for voluntary joint management. We already know climate change will shrink river flows regardless of politics; cooperation recovers half those losses through flexible schedules, not coercion. Let us choose a partnership that respects both our food sovereignty and their energy needs, securing a durable peace without surrendering our rights to expensive imports.",
+   "words": 118
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Morgan Ekberg",
+   "type": "POP-PRA",
+   "speech": "Sasha, your 'partnership' is a polite way of saying we wait while our fields turn to dust. A fishing dispute stalled for four years with no deal; you want us to wait on this life-or-water issue again? Climate change will drain the river regardless, but only a binding contract stops Saradan from rushing the fill today. Your 'flexible schedules' mean nothing without teeth; they are just wishful thinking while workers lose their jobs. Look at the reality: buy the power, force them to slow the reservoir, and pay for our water now. Don't trade our farmers' future for empty promises. Vote for the plan that keeps food in our homes and electricity in our grid.",
+   "words": 115
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sasha favors Regional Union mediation and voluntary schedules to protect farmers; Morgan urges immediate power purchase deal to stop rush-fill and leverage Saradan's election.",
+     "problem": "Merova must decide between pursuing diplomatic flexibility via the Regional Union or an immediate economic contract with Saradan to mitigate water loss before the reservoir fills.",
+     "onA": "Sasha's plan prioritizes long-term climate resilience and sovereignty but risks delaying critical action given Saradan's likely rush-fill schedule and the Regional Union's poor track record.",
+     "onB": "Morgan's plan addresses the immediate physical threat of water loss by buying power, which could slow the reservoir filling while providing a concrete lever against Saradan's election pressures.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The urgency of the dam filling in 18 months makes waiting for voluntary schedules or ineffective regional mediation too dangerous for our farmers and economy.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sasha warns of long-term financial drain and ignores binding enforcement; Morgan counters that delay costs less than the premium, leveraging Saradan's election.",
+     "problem": "Merova must choose between an immediate, enforceable economic contract to physically slow reservoir filling or a voluntary mediation strategy that risks irreversible water loss before gains can be made.",
+     "onA": "Sasha's reliance on voluntary cooperation and regional mediation is dangerously naive given the Regional Union's history of failure and Saradan's lack of binding authority recognition.",
+     "onB": "Morgan correctly identifies the mathematical reality that delaying the fill via power purchases saves money while creating critical political leverage against Saradan's election cycle.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Sasha's refusal to accept a binding contract ignores the immediate physical threat, whereas Morgan's plan offers a tangible mechanism to stop the rush-fill while exploiting Saradan's political vulnerability.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sasha's voluntary cooperation relies on a historically failed mediator; Morgan's contract physically forces Saradan to slow filling while leveraging their election fears.",
+     "problem": "The immediate physical threat of irreversible water loss in 18 months outweighs the theoretical long-term benefits of voluntary climate adaptation talks.",
+     "onA": "Her strategy is dangerously naive given the Regional Union's track record of failure and Saradan's unwillingness to accept binding constraints.",
+     "onB": "He correctly identifies that only a binding economic contract can physically stop the rush-fill while providing critical political leverage against Saradan's election.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "We cannot afford to wait for voluntary cooperation when our farmers face immediate water loss; Morgan's plan offers a concrete mechanism to slow the reservoir filling and protect our economy.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sasha favors Regional Union mediation and flexible schedules to protect farmers from shocks. Morgan pushes for an immediate 20-year power deal to stop the rush-fill and keep coal plants running.",
+     "problem": "Merova must prevent a 10% permanent water loss while managing economic fallout from closing coal plants, likely requiring negotiation with Saradan rather than court cases or empty mediation promises.",
+     "onA": "Her plan is idealistic; relying on voluntary releases from a hostile neighbor and a failed mediator risks delaying critical infrastructure decisions too long.",
+     "onB": "His strategy directly addresses the immediate threat of water diversion by leveraging Saradan's upcoming election to secure a deal that preserves both water and jobs.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The reality of an already-built dam and Saradan's election year suggests we need concrete leverage now, not another years-long mediation process.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sasha claims high-price power deal subsidizes Saradan but ignores immediate financial hit; Morgan counters delay costs more than premium and Regional Union mediation failed previously.",
+     "problem": "Merova must immediately secure binding water flow guarantees and energy access before Saradan's election-driven rush-fill destroys our farms, making the power deal a necessary short-term fix rather than an idealistic fantasy.",
+     "onA": "Her reliance on voluntary joint management ignores Saradan's hostile stance and the proven failure of the Regional Union to enforce deals.",
+     "onB": "He correctly identifies that delaying construction for empty promises costs more in lost harvests than the premium power price, offering a pragmatic path to survival.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The math on water loss versus contract cost favors stopping the rush-fill now, and I cannot trust voluntary agreements with a neighbor that rejected our treaties.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sasha's 'partnership' ignores Saradan's hostility and past mediation failures; Morgan correctly identifies that voluntary releases are worthless without enforcement teeth.",
+     "problem": "Merova must secure immediate, binding water flow guarantees to prevent permanent agricultural collapse while avoiding reliance on failed mediators or unenforceable court cases.",
+     "onA": "Her plan relies entirely on the goodwill of a neighbor who rejects our treaties and has already shown they will ignore Regional Union mediation, making her 'partnership' a dangerous fantasy.",
+     "onB": "He offers the only pragmatic solution that leverages Saradan's election year to force a slowdown in reservoir filling, directly protecting our farmers from immediate disaster.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "I vote for Morgan because waiting for voluntary cooperation or failed mediation will result in permanent water loss and farmer joblessness, whereas his binding contract forces Saradan to slow the fill today.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sasha proposes Regional Union mediation for flexible schedules; Morgan pushes immediate power purchase deal to stop rush-fill.",
+     "problem": "Merova must balance imminent water loss from the dam against economic leverage and future climate risks while avoiding dependency on Saradan or Tarsun.",
+     "onA": "Her plan prioritizes diplomatic flexibility but risks delaying critical action given that Saradan's election is in 10 months and the reservoir will fill soon regardless of mediation.",
+     "onB": "His strategy offers immediate relief to farmers by slowing the reservoir fill, though locking us into a long-term expensive power contract raises concerns about sovereignty and climate impact.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The urgency of the situation—with only 18 months before filling starts—makes waiting for mediation too dangerous, so I favor Morgan's action-oriented approach despite its costs.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sasha argues the power deal subsidizes Saradan while destroying our farmers; Morgan counters that delaying fill saves enough money and their election politics are a lever we can use.",
+     "problem": "Merova must secure its water supply before the imminent dam filling starts while deciding between costly immediate mitigation or long-term diplomatic pressure that may fail due to past precedents.",
+     "onA": "Her plan ignores the critical time window and relies on a mediation process that has historically failed, risking irreversible damage to our agriculture.",
+     "onB": "His strategy offers a tangible, immediate solution to stop the reservoir fill and leverages Saradan's upcoming election, though the long-term power contract remains a financial burden.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The urgency of the next 18 months makes waiting for failed mediation unacceptable, so I will accept the high cost of the power deal as a necessary bridge to stop the water loss.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sasha's partnership risks irreversible water loss while waiting for failed mediation; Morgan's deal secures immediate fill slowdown but locks us into expensive power imports.",
+     "problem": "Merova must immediately halt the reservoir filling to save its agriculture, accepting a costly power contract as the only viable lever against Saradan's rush.",
+     "onA": "Her reliance on voluntary mediation ignores the critical time window and historical failure of regional processes to stop immediate threats to national security.",
+     "onB": "While the long-term power deal is financially burdensome, it is the only concrete mechanism that forces Saradan to delay the fill and protect our farmers today.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "The imminent threat of water loss outweighs the cost of the power contract, as waiting for diplomatic flexibility guarantees the collapse of our agricultural sector.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sasha: Mediation via Regional Union; flexible release schedules; avoids coercion but relies on unproven voluntary cooperation. Morgan: Buy power deal to stop rush-fill; leverages Saradan's election year; immediate action over empty promises.",
+     "problem": "Merova must secure its water supply for agriculture and existing hydro plants before the dam fills, choosing between a slow diplomatic process and an immediate economic bargain with an adversarial neighbor.",
+     "onA": "Their plan prioritizes long-term partnership but risks delaying critical action while Saradan accelerates construction, potentially letting water levels drop irreversibly before any voluntary agreement is reached.",
+     "onB": "The power purchase deal offers concrete leverage to slow the filling schedule and preserve local energy sovereignty, though locking into expensive imports is a significant economic cost.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat of the reservoir filling in three years makes waiting for voluntary mediation or court cases too risky; stopping the rush-fill is the priority.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sasha claims power deal subsidizes them while ignoring farmer losses vs. long-term water loss; Morgan counters delay pays off and criticizes RU mediation history.",
+     "problem": "Merova must stop the immediate reservoir fill to save agriculture, choosing between a costly but binding economic lever and an unproven diplomatic process.",
+     "onA": "Their appeal to voluntary cooperation is dangerously idealistic given Saradan's election year politics and the historical failure of similar mediation efforts.",
+     "onB": "They correctly identify that even a short delay from the power deal makes the economics work, turning an adversary into a necessary partner for our own security.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The math on delaying the fill outweighs the cost of imported power, and waiting for mediation risks irreversible water loss before any deal is signed.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sasha trades food security for vague future cooperation; Morgan forces a slow-fill deal that saves water now.",
+     "problem": "Merova must immediately stop the reservoir fill to save agriculture, requiring a binding contract rather than voluntary diplomacy.",
+     "onA": "Their reliance on voluntary cooperation and Regional Union mediation is dangerously naive given Saradan's election year politics and the failure of past mediations.",
+     "onB": "The power purchase deal is the only viable lever to force a delay in filling, providing concrete security despite the cost of imported electricity.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "Waiting for voluntary cooperation or mediation risks irreversible water loss before any agreement is reached, whereas Morgan's plan offers immediate, enforceable protection for our farmers.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sasha favors flexible mediation and voluntary schedules to protect farmers and sovereignty. Morgan insists on buying electricity immediately to stop the rush-fill and keep coal plants open.",
+     "problem": "Merova must secure sufficient water for its agriculture and energy grid against Saradan's incoming dam, while navigating economic pressure and diplomatic constraints.",
+     "onA": "Her plan prioritizes long-term cooperation and climate resilience but risks being too soft if Saradan ignores voluntary proposals or proceeds with the rapid fill anyway.",
+     "onB": "His approach offers immediate leverage by buying power to slow the filling process, directly addressing the urgent threat to water flow and coal jobs.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The urgency of Saradan's planned rapid reservoir fill makes waiting for voluntary mediation or court cases too risky for Merova's immediate water security.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sasha warns high power price hurts farmers; Morgan claims delay covers premium and stops rush fill.",
+     "problem": "Merova must immediately stop Saradan's rapid dam fill to protect agriculture, deciding between costly immediate leverage or voluntary climate-based cooperation.",
+     "onA": "Her reliance on voluntary Regional Union mediation is risky given the organization's history of inefficiency and failure to enforce deals.",
+     "onB": "His argument that a two-year delay generates enough savings to offset the power premium makes economic sense despite the long-term cost.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat of a rushed fill renders voluntary talks too slow, making Morgan's strategy of buying time through a power deal the only viable short-term option.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sasha fears long-term dependency on expensive power; Morgan argues a delay saves money and stops immediate flooding.",
+     "problem": "Merova must immediately stop Saradan's rapid reservoir fill to protect agriculture, requiring a binding mechanism rather than failed voluntary mediation.",
+     "onA": "Her plan relies too heavily on ineffective voluntary cooperation and ignores the catastrophic risk of waiting while farmers lose their livelihoods.",
+     "onB": "His strategy provides immediate leverage to force a slowdown in filling while securing energy, making the short-term cost of power premiums economically viable.",
+     "lean": "Morgan Ekberg",
+     "firmness": "vote",
+     "vote": "Morgan Ekberg",
+     "why": "Given Saradan's political election timeline and the Regional Union's history of failure, only a binding contract can guarantee we stop the rush-fill before our food security is destroyed.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "POP-PRA",
+ "tokens": {
+  "in": 32013,
+  "out": 4207,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 116897001,
+   "attempts": 1,
+   "tokensIn": 1211,
+   "tokensOut": 228,
+   "ms": 6279
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 116897002,
+   "attempts": 1,
+   "tokensIn": 1272,
+   "tokensOut": 198,
+   "ms": 5574
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 116897003,
+   "attempts": 1,
+   "tokensIn": 1322,
+   "tokensOut": 215,
+   "ms": 6366
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 116897004,
+   "attempts": 1,
+   "tokensIn": 1322,
+   "tokensOut": 214,
+   "ms": 5154
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 116897005,
+   "attempts": 1,
+   "tokensIn": 1322,
+   "tokensOut": 206,
+   "ms": 4955
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 116897006,
+   "attempts": 1,
+   "tokensIn": 1322,
+   "tokensOut": 235,
+   "ms": 5647
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 116897007,
+   "attempts": 1,
+   "tokensIn": 1322,
+   "tokensOut": 201,
+   "ms": 4842
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 116897008,
+   "attempts": 1,
+   "tokensIn": 1506,
+   "tokensOut": 167,
+   "ms": 5054
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 116897009,
+   "attempts": 1,
+   "tokensIn": 1657,
+   "tokensOut": 199,
+   "ms": 5889
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 116897010,
+   "attempts": 1,
+   "tokensIn": 1502,
+   "tokensOut": 217,
+   "ms": 6260
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 116897011,
+   "attempts": 1,
+   "tokensIn": 1503,
+   "tokensOut": 212,
+   "ms": 5755
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 116897012,
+   "attempts": 1,
+   "tokensIn": 1495,
+   "tokensOut": 222,
+   "ms": 6010
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 116897013,
+   "attempts": 1,
+   "tokensIn": 1524,
+   "tokensOut": 201,
+   "ms": 5539
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 116897014,
+   "attempts": 1,
+   "tokensIn": 1490,
+   "tokensOut": 183,
+   "ms": 5472
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 116897015,
+   "attempts": 1,
+   "tokensIn": 1814,
+   "tokensOut": 186,
+   "ms": 5567
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 116897016,
+   "attempts": 1,
+   "tokensIn": 1983,
+   "tokensOut": 184,
+   "ms": 5555
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 116897017,
+   "attempts": 1,
+   "tokensIn": 1696,
+   "tokensOut": 187,
+   "ms": 5654
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 116897018,
+   "attempts": 1,
+   "tokensIn": 1695,
+   "tokensOut": 209,
+   "ms": 5758
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 116897019,
+   "attempts": 1,
+   "tokensIn": 1697,
+   "tokensOut": 191,
+   "ms": 5713
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 116897020,
+   "attempts": 1,
+   "tokensIn": 1705,
+   "tokensOut": 174,
+   "ms": 6736
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 116897021,
+   "attempts": 1,
+   "tokensIn": 1653,
+   "tokensOut": 178,
+   "ms": 5337
+  }
+ ],
+ "startedAt": "2026-11-04T23:33:48.471Z",
+ "seconds": 119
+}

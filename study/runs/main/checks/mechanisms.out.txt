@@ -1,0 +1,12 @@
+debates 161
+R1 leans: A(first) 195  B(second/last) 198  U 412  -> B share of decided 50%
+R2 leans: A(first) 242  B(second/last) 341  U 222  -> B share of decided 58%
+R3 leans: A(first) 353  B(second/last) 452  U 0  -> B share of decided 56%
+R1 decided lean == final vote: 83% (327/393)
+switch rate from decided lean: R1->R2 17%  R2->R3 12%
+final why shares a 4-gram with VOTED side speech  R1 5%  R2 6%  R3 15%
+final why shares a 4-gram with OTHER side speech   R1 1%  R2 2%  R3 3%
+style POP: 2.5 number-words per 100 words; 1.2 people/elite words per 100; mean 122 words/speech
+style HYB: 3.2 number-words per 100 words; 0.5 people/elite words per 100; mean 119 words/speech
+style TEC: 4.6 number-words per 100 words; 0.1 people/elite words per 100; mean 120 words/speech
+5-0 debates 52%

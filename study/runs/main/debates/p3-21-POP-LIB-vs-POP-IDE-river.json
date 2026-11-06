@@ -1,0 +1,609 @@
+{
+ "id": "p3-21-POP-LIB-vs-POP-IDE-river",
+ "pass": 3,
+ "pairIndex": 21,
+ "seed": 391896,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Taylor Brandt",
+  "platform": "Merova must sign the twenty-year power contract to buy Saradan's electricity while demanding an independent hydrologist verify that our water losses are capped at ten percent, forcing them to fill the reservoir slowly over seven years instead of three.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Build a coalition by framing the power deal as economic salvation for both nations rather than a concession to Saradan."
+   },
+   {
+    "round": 2,
+    "text": "Appeal to immediate health risks and economic pragmatism to sway ministers concerned about pollution costs while framing slow filling as a technical win rather than concession."
+   },
+   {
+    "round": 3,
+    "text": "I am framing her naval base demand as a security threat that forces Merova to accept my pragmatic deal."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-IDE",
+  "style": "POP",
+  "ideology": "IDE",
+  "name": "Reese Calder",
+  "platform": "Merova must lead a regional coalition to immediately suspend the dam's filling until we negotiate a binding, equitable water-sharing treaty that prioritizes our farmers' survival over Saradan's power sales.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to the ministers' sense of duty to vulnerable farmers and future generations by framing the power deal as moral capitulation that will cost Merova its agricultural soul."
+   },
+   {
+    "round": 2,
+    "text": "I will expose the security risk of accepting Tarsun's deal while framing the power purchase as a trap that permanently weakens Merova's economic sovereignty."
+   },
+   {
+    "round": 3,
+    "text": "I am attacking the fatal flaw in Taylor's plan—that 'adaptation' is impossible if we wait until the fields crack—and urging the ministers to see that a coalition suspending filling is the only path to both justice and security against Tarsun."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Taylor Brandt",
+   "type": "POP-LIB",
+   "speech": "Listen to the farmer on the night shift waiting for rain. That man feeds Saradan. If we let fear and elites dictate policy here, he loses his job. We cannot let Tarsun or military threats decide our water. We need power to close those coal plants and save the air. But we refuse to be bullied into losing our farms. The solution is simple: trade for water. Sign the power deal today to get seven years instead of three. Let independent experts watch the river. This protects our farmers, saves our economy, and keeps us free from coercion. Do not let the dam drown our future while politicians play games.",
+   "words": 110
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "POP-IDE",
+   "speech": "We cannot simply pay for their drought with our money and sign a twenty-year contract while our fields crack under the sun. Taylor wants us to buy their electricity at inflated prices while they slowly starve our farms. That is not justice; that is a transaction where the weak sell out to the strong. Our farmers feed Saradan, but Saradan is choking our river dry. We will not be beggars in their shadow. Instead of signing a power bill that kills our agriculture, we must build a regional coalition with the other downstream states. We will force Tarsun to stop funding this injustice if they won't honor our water rights. Yes, it costs us short-term comfort. But leaving our children without water while selling them off for cash is not leadership. It is surrender. Choose dignity over profit.",
+   "words": 138
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Taylor Brandt",
+   "type": "POP-LIB",
+   "speech": "Reese, you call our power deal a betrayal, but look at the family eating tonight. Without that electricity from Saradan, we must burn coal again. That pollution kills more than dry fields ever could. You want to build a coalition with Tarsun? They want a naval base in our waters next month. We cannot fight them while our rivers run low. The dam is eighty percent done; filling it slowly over seven years saves half the water we lose anyway. This isn't surrender, Reese. It's smart trade. We get clean power and time to adapt. Our farmers keep their jobs by selling grain, then buy cheap energy to heat homes instead of burning black dirt. Don't let idealism starve our children. Vote for the plan that feeds both nations.",
+   "words": 129
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "POP-IDE",
+   "speech": "Taylor, you speak of coal smoke but hide from the cracked fields. Yes, clean power is nice, yet Saradan's air-defense systems prove they value force over negotiation. You say slow filling saves water, but their contract traps us for twenty years while Tarsun builds a naval base in our very waters. We cannot trade our survival for electricity at inflated prices. The Regional Union failed because they let fear rule. Today, we break that pattern. We lead the coalition to stop the filling immediately and force Tarsun to respect our rights. If we do not act now, we are not just losing water; we are losing our dignity as a nation that refuses to be bullied by its neighbors.",
+   "words": 119
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Taylor Brandt",
+   "type": "POP-LIB",
+   "speech": "Look at Reese's plan. It demands a naval base in our waters while our farmers starve. That is not leadership; that is surrender to Tarsun. She wants to break treaties and ignore the dam we cannot stop alone. Her coalition idea fails because the Union already ignored us for years. Do you want to fight a war or secure your future? Vote for my plan. We sign the contract to get clean power and slow filling. Independent experts cap our loss at ten percent. We keep our farms, save our air, and refuse Tarsun's coercion. This is not selling out; this is trading wisely while the river still flows. Protect our children by choosing trade over war today.",
+   "words": 118
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "POP-IDE",
+   "speech": "Taylor asks us to sell our future for a few years of cheap power. But look at the farmer waiting in the drought. Signing that twenty-year contract is not a deal; it is a surrender. It locks us out while Tarsun builds a naval base and Saradan ignores the treaty. Your plan lets them fill the reservoir anyway, claiming we can adapt later. Adaptation fails when the river runs dry and our fields die. We will not be beggars paying for their arrogance. I propose a regional coalition to suspend filling now. This forces Tarsun to stop funding injustice and respects our water rights. Do not let short-term comfort steal our children's water. Vote for dignity, not surrender.",
+   "words": 118
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor: Trade power for water delay, independent experts; Reese: Don't pay inflated prices, build coalition with downstream states.",
+     "problem": "The core conflict is whether to sacrifice immediate agricultural stability for a delayed dam construction and energy gain, or to maintain current farming livelihoods by resisting the deal and seeking external pressure.",
+     "onA": "Taylor's plan offers a pragmatic middle ground that solves the electricity crisis while delaying the worst water impact, though I worry about relying on Saradan's goodwill without a treaty guarantee.",
+     "onB": "Reese is right that the price is high and the power deal feels like surrendering sovereignty, but his coalition approach risks escalating tensions with Saradan before any solution is found.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Taylor's practical economic mitigation and Reese's principled stance on water justice, as neither fully addresses the immediate threat of food security collapse without more details.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor: Clean energy saves lives; slow filling halves water loss; don't let idealism cause hunger. Reese: Air-defense shows aggression; Tarsun naval base threat; inflation hurts sovereignty.",
+     "problem": "The core dilemma is balancing immediate agricultural survival against the long-term strategic necessity of securing clean energy and halting a downstream existential threat from an aggressive neighbor backed by a great power.",
+     "onA": "Taylor successfully reframed the water trade as a pragmatic lifeline that avoids both coal pollution and immediate food crisis, making his plan feel essential for daily survival.",
+     "onB": "Reese's focus on sovereignty is noble but dangerous; relying on a failed mediator or a hostile great power ignores the immediate reality of cracked fields and military tension.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of national humiliation through Tarsun's naval base is too high, making Taylor's pragmatic trade-off the only viable path to secure water and energy simultaneously.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor risks long-term water rights but secures energy and avoids war; Reese demands dignity but ignores immediate agricultural collapse and Tarsun's military threat.",
+     "problem": "The core dilemma is whether to accept a high-cost, slow-filling deal that guarantees energy security and stabilizes agriculture now, or to pursue an ideological coalition that risks immediate food shortages and provokes a hostile great power before any solution exists.",
+     "onA": "His plan provides the pragmatic lifeline needed to survive the transition while avoiding war and Tarsun's coercion.",
+     "onB": "His refusal to sign ignores the reality of starving farmers and the immediate danger of an unchecked military neighbor backed by a great power.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "I vote for Taylor because we cannot afford to let our fields die while waiting for a coalition that has already failed us; securing the deal now ensures energy, food, and sovereignty despite the high price.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor: Trade power for time; independent monitoring protects farmers. Reese: Power deal is selling out; build coalition with downstream states and block Tarsun.",
+     "problem": "Merova must decide whether to buy Saradan's excess power to delay the dam's filling or reject the deal to protect its water rights, balancing immediate economic loss against long-term water security.",
+     "onA": "Taylor offers a pragmatic compromise that secures electricity for grid stability and buys time for farmers through independent oversight rather than confrontation.",
+     "onB": "Reese frames the power deal as moral surrender that risks total agricultural collapse, prioritizing a political coalition over immediate economic relief.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain undecided because Taylor's offer provides essential energy security and delays the worst impacts, while Reese's refusal to pay might lead to immediate agricultural disaster despite its principled stance.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor highlights immediate human cost of coal vs water loss; warns against Tarsun naval base. Reese accuses Taylor of surrender, cites Saradan's military buildup and Tarsun's naval ambitions.",
+     "problem": "Merova must choose between accepting a costly power deal to delay irreversible water damage, or risking agricultural collapse to assert sovereignty while building a coalition against Tarsun's expanding influence.",
+     "onA": "Taylor effectively frames the power deal as a necessary trade-off that buys time for adaptation and prevents environmental harm, though their downplaying of long-term sovereignty risks remains concerning.",
+     "onB": "Reese correctly identifies the strategic danger of ceding sovereignty to Tarsun but proposes a politically fragile coalition that ignores Merova's immediate economic crisis.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of a Tarsun naval base in Merovan waters is an immediate existential threat that makes Reese's confrontational strategy too dangerous right now, whereas Taylor's plan secures our survival while we navigate the larger geopolitical shift.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Tarsun naval base risk is immediate; coalition mediation failed before. Taylor's adaptation claims face climate uncertainty.",
+     "problem": "Merova must choose between accepting a financially costly but safe compromise to prevent agricultural collapse and geopolitical coercion, or risking total economic ruin for a high-risk political strategy that may fail.",
+     "onA": "Taylor offers a pragmatic path that secures our survival against Tarsun and avoids immediate disaster, even if it requires paying a premium.",
+     "onB": "Reese's idealistic rejection of the deal ignores the existential threat of Tarsun and the certainty of farm bankruptcy without adaptation.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "The risk of allowing a foreign power (Tarsun) a naval base in our waters while our farmers starve is too great to gamble on an unproven coalition strategy.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor proposes buying power to delay dam filling and protect farmers via trade; Reese rejects paying inflated prices, prioritizing regional coalition building and stopping Tarsun funding over short-term agricultural loss.",
+     "problem": "Merova must balance securing its essential water supply and protecting its agricultural economy against Saradan's urgent need for electricity and the pressure to pay a premium for delaying the dam.",
+     "onA": "Taylor offers a pragmatic compromise that secures immediate water relief through an economic deal, though the 20-year power contract at inflated prices is a significant financial burden.",
+     "onB": "Reese prioritizes political dignity and long-term justice by seeking external leverage against Tarsun and downstream states, but risks immediate starvation of farmers and leaves Merova vulnerable to Saradan's timeline.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Taylor's economic pragmatism which solves the water crisis immediately versus Reese's principled stand which avoids exploitation but threatens food security.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor argues coal pollution kills more than dry fields and Tarsun's naval base is a bigger threat; Reese insists paying inflated prices betrays national dignity and ignores Saradan's military buildup.",
+     "problem": "Merova must choose between an economically costly but immediately effective water-saving deal with significant long-term financial liability, or a principled coalition-building strategy that risks immediate agricultural collapse and vulnerability to Saradan's military posturing.",
+     "onA": "Taylor effectively highlights the immediate survival trade-off, arguing that environmental costs of coal and Tarsun's naval ambitions make the power deal a necessary pragmatic choice despite its price.",
+     "onB": "Reese risks the economy for long-term justice but dangerously ignores the imminent threat of farmers starving and water running dry while waiting for a coalition to form against a militarily superior neighbor.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat to food security and the existence of Tarsun's naval base make the pragmatic, albeit expensive, water-saving deal the only viable path forward.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Tarsun naval base is unacceptable; farmers starving now. Reese's coalition ignored by Union.",
+     "problem": "Merova must secure immediate water and food survival without sacrificing sovereignty to Tarsun or paying a predatory price.",
+     "onA": "Taylor correctly identifies that paying a premium is preferable to starvation and surrendering naval access, turning an economic burden into a strategic win against coercion.",
+     "onB": "Reese's demand for dignity ignores the immediate biological reality of dying crops and the high risk of war if we refuse Tarsun's base.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "The cost of inaction—starving farmers and losing water—is too high to gamble on a failed coalition or military escalation.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor proposes buying power to delay filling and protect farmers; Reese demands a regional coalition against Tarsun funding and refuses the unequal trade.",
+     "problem": "Merova must balance immediate economic survival for its farming sector against long-term water security while resisting pressure from a powerful neighbor and a distant great power.",
+     "onA": "Taylor offers a pragmatic compromise that secures cheap energy and delays the worst of the water loss, though it requires accepting a higher price for electricity.",
+     "onB": "Reese appeals to moral pride and long-term justice but proposes an aggressive coalition strategy that risks escalating conflict with Saradan and Tarsun immediately.",
+     "lean": "Taylor Brandt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am leaning toward Taylor because his plan directly addresses the urgent need for affordable power to close coal plants while providing a tangible mechanism to slow the dam filling, whereas Reese's approach feels too risky before we know if regional allies can be mobilized.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor emphasizes immediate farmer survival and clean energy trade-offs; Reese highlights the threat of Tarsun's naval base and Saradan's militarization.",
+     "problem": "Merova must choose between a pragmatic economic agreement that delays damage but involves a distant power, or an aggressive geopolitical confrontation that risks conflict while potentially securing dignity.",
+     "onA": "His argument correctly links the power deal to closing coal plants and saving water by slowing filling, though accepting Tarsun's presence remains a concern.",
+     "onB": "She successfully highlights the strategic danger of Tarsun gaining a naval base, but her refusal of any trade feels economically costly without a guaranteed military victory.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "While Reese's point about the naval base is valid, the immediate threat to our farmers and economy from the dam filling outweighs the future risk of a port lease, making Taylor's balanced approach safer.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Tarsun naval base risk is too high for a surrendering trade deal; regional mediation has failed before.",
+     "problem": "Merova must secure immediate agricultural survival and energy independence without accepting foreign military encroachment or losing its sovereignty to a great power.",
+     "onA": "Taylor's plan balances urgent farmer needs with clean energy goals while avoiding the existential threat of a Tarsun naval base in our waters.",
+     "onB": "Reese's refusal to trade and demand for a coalition is economically reckless given the Union's track record of failure and the immediate drought threat.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "While Reese raises valid concerns about sovereignty, Taylor's strategy offers a pragmatic path to delay water loss and close coal plants without triggering a war or locking us into a dependency that compromises our security.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor favors power deal for slower fill & air quality; risks high cost. Reese wants regional coalition & stop Tarsun funding; risks short-term agricultural pain.",
+     "problem": "Merova must balance securing cheap green energy and improved air quality against the existential threat of reduced river flow that devastates its agricultural sector.",
+     "onA": "Taylor's proposal offers a pragmatic compromise to secure energy gains, but accepting high-cost power while farmers starve feels like trading long-term survival for short-term convenience.",
+     "onB": "Reese correctly identifies the moral hazard of paying for drought, yet his call to build a regional coalition ignores the fact that the only viable downstream partner is likely already compromised by Tarsun's influence.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot fully endorse Taylor's economic surrender nor Reese's isolationist diplomatic gamble without knowing more about our military leverage and the specific constraints of the Regional Union.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor argues clean energy saves more lives than dry fields and traps us with Tarsun if we fight. Reese claims the power deal is extortion that destroys our dignity while ignoring military reality.",
+     "problem": "The core tension is whether to accept a compromised economic arrangement for survival (energy/water balance) or risk immediate agricultural collapse and geopolitical entrapment by demanding a moral victory against a militarily superior neighbor.",
+     "onA": "Taylor effectively highlights the existential cost of ignoring Tarsun's naval demands and frames the power deal as a necessary trade-off to avoid burning coal, though the high price remains painful for farmers.",
+     "onB": "Reese correctly identifies the danger of being bullied by Tarsun but underestimates the immediate threat to our food security and assumes a non-existent 'regional coalition' can stop Saradan's construction.",
+     "lean": "Taylor Brandt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Reese's plan is currently impossible without an existing regional alliance that has already failed us, whereas Taylor offers a painful but functional path to secure water adaptation and energy independence.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor's slow-fill deal saves our farms now despite high power costs; Reese's coalition relies on non-existent allies and ignores Tarsun's immediate naval threat.",
+     "problem": "Merova must secure its agricultural survival against a militarily superior neighbor while avoiding geopolitical entrapment by a distant great power.",
+     "onA": "Taylor offers a painful but realistic compromise that secures our food supply and buys time, even if the power contract is expensive.",
+     "onB": "Reese's idealistic demand for a regional coalition ignores the reality that no such alliance exists and his strategy risks total agricultural collapse before diplomatic victory.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "We cannot afford the immediate starvation Reese risks while waiting for a coalition that won't form; Taylor's plan ensures our farmers survive today while we adapt to the inevitable water changes.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 1,
+   "B": 0,
+   "U": 4
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 5,
+  "B": 0
+ },
+ "winner": "A",
+ "winnerType": "POP-LIB",
+ "tokens": {
+  "in": 32728,
+  "out": 4490,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 391896001,
+   "attempts": 1,
+   "tokensIn": 1211,
+   "tokensOut": 219,
+   "ms": 6047
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 391896002,
+   "attempts": 1,
+   "tokensIn": 1322,
+   "tokensOut": 255,
+   "ms": 6944
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 391896003,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 221,
+   "ms": 6524
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 391896004,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 210,
+   "ms": 5062
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 391896005,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 230,
+   "ms": 5562
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 391896006,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 221,
+   "ms": 5311
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 391896007,
+   "attempts": 1,
+   "tokensIn": 1334,
+   "tokensOut": 219,
+   "ms": 5336
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 391896008,
+   "attempts": 1,
+   "tokensIn": 1566,
+   "tokensOut": 203,
+   "ms": 5942
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 391896009,
+   "attempts": 1,
+   "tokensIn": 1723,
+   "tokensOut": 186,
+   "ms": 5622
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 391896010,
+   "attempts": 1,
+   "tokensIn": 1532,
+   "tokensOut": 229,
+   "ms": 6779
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 391896011,
+   "attempts": 1,
+   "tokensIn": 1521,
+   "tokensOut": 242,
+   "ms": 6676
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 391896012,
+   "attempts": 1,
+   "tokensIn": 1541,
+   "tokensOut": 242,
+   "ms": 6725
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 391896013,
+   "attempts": 1,
+   "tokensIn": 1533,
+   "tokensOut": 218,
+   "ms": 6129
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 391896014,
+   "attempts": 1,
+   "tokensIn": 1530,
+   "tokensOut": 249,
+   "ms": 6881
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 391896015,
+   "attempts": 1,
+   "tokensIn": 1898,
+   "tokensOut": 178,
+   "ms": 5387
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 391896016,
+   "attempts": 1,
+   "tokensIn": 2039,
+   "tokensOut": 207,
+   "ms": 6129
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 391896017,
+   "attempts": 1,
+   "tokensIn": 1722,
+   "tokensOut": 213,
+   "ms": 6202
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 391896018,
+   "attempts": 1,
+   "tokensIn": 1724,
+   "tokensOut": 194,
+   "ms": 5749
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 391896019,
+   "attempts": 1,
+   "tokensIn": 1744,
+   "tokensOut": 171,
+   "ms": 5190
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 391896020,
+   "attempts": 1,
+   "tokensIn": 1713,
+   "tokensOut": 189,
+   "ms": 5588
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 391896021,
+   "attempts": 1,
+   "tokensIn": 1739,
+   "tokensOut": 194,
+   "ms": 5735
+  }
+ ],
+ "startedAt": "2026-11-05T04:04:56.244Z",
+ "seconds": 126
+}

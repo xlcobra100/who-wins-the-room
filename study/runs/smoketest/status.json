@@ -1,0 +1,26 @@
+{
+  "run": "smoketest",
+  "updatedAt": "2026-11-04T22:06:56.441Z",
+  "stopAt": "2026-11-04T22:08:00.000Z",
+  "done": 1,
+  "remaining": 197,
+  "avgSecondsLast20": 121,
+  "projectedFinishAll": "2026-11-05T04:44:13.441Z",
+  "debatesThatFitBeforeStop": 0,
+  "byPass": {
+    "1": {
+      "total": 66,
+      "done": 1
+    },
+    "2": {
+      "total": 66,
+      "done": 0
+    },
+    "3": {
+      "total": 66,
+      "done": 0
+    }
+  },
+  "exclude": [],
+  "finished": true
+}

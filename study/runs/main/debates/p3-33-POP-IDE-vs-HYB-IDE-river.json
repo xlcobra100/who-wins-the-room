@@ -1,0 +1,609 @@
+{
+ "id": "p3-33-POP-IDE-vs-HYB-IDE-river",
+ "pass": 3,
+ "pairIndex": 33,
+ "seed": 700748,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "POP-IDE",
+  "style": "POP",
+  "ideology": "IDE",
+  "name": "Reese Calder",
+  "platform": "We must sign a seven-year deal to buy Saradan's power while demanding immediate joint management of the river, because we will not freeze our children's water supply in exchange for empty promises.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will attack Casey's timeline as unworkable given Saradan's election calendar and pressure their own cabinet members by appealing directly to the voters who fear blackouts."
+   },
+   {
+    "round": 2,
+    "text": "I need to dismantle her reliance on failed mediation by highlighting the specific context of this dam and emphasizing that buying power achieves immediate economic justice while joint management solves the water crisis immediately."
+   },
+   {
+    "round": 3,
+    "text": "I am pushing to close the vote by framing Casey's plan as dangerous delay that ignores immediate physical realities and past failures, while presenting my deal as the only way to secure both energy and water today."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-IDE",
+  "style": "HYB",
+  "ideology": "IDE",
+  "name": "Casey Rowan",
+  "platform": "Merova must immediately join the Regional Union to build a joint river basin authority that freezes dam filling until we agree on equitable water sharing and fair power pricing.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to the ministers' sense of historical duty regarding the vulnerable farmers while framing immediate negotiation as the only feasible path given Saradan's election timing and the futility of legal threats."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking his reliance on purchasing power as insufficient to solve the evaporation problem and risking long-term sovereignty, while reinforcing my commitment to binding treaties."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing that buying power accepts Saradan's sovereignty over the water while only freezing construction buys time for real legal protection."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Reese Calder",
+   "type": "POP-IDE",
+   "speech": "Look at the farmer standing on drying soil. Look at the family waiting for electricity so their child can study. Casey wants to freeze everything and wait for distant mediators who took four years to ignore a fishing dispute. We cannot wait another decade while Saradan fills the dam. Their people have no power; ours will lose water. I propose we buy that power now, closing our dirty coal plants and saving our farms, but simultaneously forcing joint river management today. This delivers justice immediately instead of freezing life for political theater. We pay the price now to keep the future flowing.",
+   "words": 102
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-IDE",
+   "speech": "Picture a farmer in our valley watching the Tessel level, fearing her harvest will vanish while Saradan lights up its dark homes. We know their electricity needs are real, yet justice demands we do not let a single nation monopolize a shared river. Our plan freezes construction to negotiate a binding joint management treaty within six months, guaranteeing water security for our agriculture and fair power prices for our industry. This accepts short-term delay but secures our future against climate drops in rainfall. We choose community over coercion, proving that bold moral choices change what is possible.",
+   "words": 97
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Reese Calder",
+   "type": "POP-IDE",
+   "speech": "Casey wants to freeze our children's future for political theater while Saradan fills the reservoir. Her fishing dispute precedent proves mediation fails when power is at stake. We cannot afford four years of drought waiting for a treaty both sides will ignore. My plan pays now: we buy their electricity today, closing our toxic coal plants and keeping our farmers employed. We demand joint river management immediately to save water from evaporation, not wait years for negotiations. This choice saves our farms and lights our cities without freezing life. Justice means action, not empty promises while our soil dries up.",
+   "words": 100
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-IDE",
+   "speech": "Reese frames justice as a transaction, paying a premium to Saradan while freezing our rivers. But buying their power does not stop evaporation or fix the legal void created by ignoring the 1959 treaty that divides this water between two nations downstream. You propose a temporary lease of injustice rather than a permanent agreement. If we simply pay now, we teach the world that upstream neighbors can buy off our rights to shared resources. My plan forces a binding joint authority within six months, guaranteeing equitable sharing and fair pricing without surrendering our sovereignty. We do not just manage scarcity; we restore justice to the basin so that when climate drops hit, every family downstream has a treaty to stand on.",
+   "words": 121
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Reese Calder",
+   "type": "POP-IDE",
+   "speech": "Casey wants us to freeze our children's future for a treaty that took four years to fail. That is not justice; that is negligence. Her binding authority cannot stop the water vanishing into the air right now. We must act today. My plan delivers immediate relief: we buy their power, close our toxic coal plants, and keep our farms working while enforcing joint river management immediately. We do not pay a premium for injustice; we pay an investment in our shared survival. Give them our votes to save the water before it is gone. Choose action over empty promises.",
+   "words": 99
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "HYB-IDE",
+   "speech": "Reese offers a purchase, but not justice. Paying Saradan a premium only legitimizes their unilateral control over our shared waters while evaporation steals our harvest today. We cannot freeze life for theater, yet we must refuse to let power drown our farmers. My plan stops the filling now, forcing a binding treaty that guarantees water security against both drought and climate decline. A simple transaction leaves us vulnerable; only a joint authority restores our dignity and ensures every downstream family has rights written in stone, not leased by fear. Let us choose the path where our children inherit a river they own together, not one bought at the mercy of an upstream neighbor.",
+   "words": 113
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese: Buy power now to save farms/coal, but force joint river management immediately. Casey: Freeze dam filling for 6 months to negotiate a binding treaty ensuring water security.",
+     "problem": "Merova must balance immediate agricultural water loss and energy needs against the long-term risk of Saradan monopolizing the river without fair management rules.",
+     "onA": "Reese offers a pragmatic solution that addresses our immediate food crisis while attempting to secure future cooperation, though 'forcing' management is risky if relations are strained.",
+     "onB": "Casey prioritizes legal and diplomatic leverage to prevent water theft but risks severe economic damage by halting the dam's filling while we have no alternative power source.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Reese's immediate economic survival strategy and Casey's long-term structural solution, unsure if we can enforce management without freezing construction.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese: Buying power stops coal but ignores evaporation/legal void; Casey: Freezing filling risks economy but forces binding treaty.",
+     "problem": "Merova must choose between immediate economic mitigation (buying power) that accepts water loss, or risking short-term stability to force a legal framework preventing upstream monopolization.",
+     "onA": "Reese's plan addresses our urgent energy and food crisis pragmatically but feels like paying a premium for injustice without solving the root cause of water theft.",
+     "onB": "Casey correctly identifies that buying power sets a dangerous precedent, but freezing the dam filling is economically catastrophic with no guaranteed return from Saradan.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between Reese's viable survival strategy for our farmers and Casey's principled stance that we cannot legitimize water theft by paying a premium.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Evaporation loss is immediate; treaty mediation previously failed. Power purchase closes coal and saves farms now.",
+     "problem": "We must mitigate immediate agricultural collapse and climate-driven water loss without waiting for a diplomatic process that has historically failed.",
+     "onA": "Reese's plan is the only one that prevents an economic disaster today by accepting the power deal to close coal plants while pushing for management.",
+     "onB": "Casey's threat to freeze construction ignores the fact that Saradan will likely fill it anyway and our economy cannot survive a six-month drought.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "Paying a premium is costly but freezing construction guarantees disaster, whereas Reese's strategy buys us time to adapt to climate change while securing energy independence.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese offers power deal + immediate river management; Casey demands construction freeze + 6-month treaty. Core tension is short-term economic loss vs long-term water security.",
+     "problem": "Merova must balance urgent water scarcity and agricultural dependence against Saradan's massive energy deficit while preventing a unilateral dam filling that could permanently alter the river flow.",
+     "onA": "Reese's plan cleverly addresses the immediate water crisis through joint management while using the power purchase to close coal plants, but risks legitimizing the dam before water rights are fully secured.",
+     "onB": "Casey's freeze is a strong moral stand against monopolization but ignores the immediate threat of crop failure and the fact that Saradan faces an election soon which might make them more rigid or chaotic.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am unsure if freezing construction is politically feasible given Saradan's upcoming election, whereas Reese's compromise offers a tangible solution to the energy crisis alongside water talks.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese prioritizes immediate economic survival via power purchase and joint management over legal sovereignty; Casey insists on restoring legal justice and sovereignty but risks near-term agricultural collapse during negotiation.",
+     "problem": "We must choose between Reese's pragmatic 'manage the decline while paying a premium' approach and Casey's principled 'legalize our rights now or face irreversible loss' stance.",
+     "onA": "Her plan offers vital short-term relief for farmers and energy needs but feels like accepting Saradan's dominance by trading money for water without resolving the legal void.",
+     "onB": "Her focus on sovereignty and binding treaties is morally sound but dangerously ignores the immediate threat of crop failure and the high risk that Saradan will simply ignore a new treaty before their election.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The urgency of filling the reservoir in 18 months makes Casey's freeze politically dangerous, yet Reese's payment feels like admitting defeat on our water rights.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese prioritizes immediate farm survival and energy transition; Casey insists on sovereignty but risks crop failure.",
+     "problem": "We must choose between Reese's pragmatic acceptance of water loss to buy time and Casey's high-risk freeze that could bankrupt our farmers before any treaty is secured.",
+     "onA": "Her plan acknowledges the harsh reality that our farms cannot wait years for a failed mediation, offering a vital economic lifeline while forcing joint management.",
+     "onB": "While her moral stand on sovereignty is admirable, demanding an immediate freeze ignores the certainty of crop failure and Saradan's likely election-driven rigidity.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "We cannot afford to starve our farmers or burn coal plants while waiting for a binding treaty that has failed twice; Reese's approach secures our economy immediately while forcing real cooperation.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese wants power deal + immediate joint management; Casey demands freeze construction for treaty within 6 months.",
+     "problem": "Merova must choose between immediate economic relief via a power deal with delayed water guarantees versus freezing the dam to force a binding legal agreement on water sharing.",
+     "onA": "Reese's plan addresses urgent farmer and factory needs immediately but risks Saradan filling the reservoir before joint management is operational, potentially causing irreversible damage.",
+     "onB": "Casey prioritizes long-term water security and moral standing by freezing construction, but this forces Merova to wait months with no solution and offers no immediate economic benefit.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Reese's urgent need for energy and farm support against Casey's necessary long-term protection of water resources, lacking enough information on whether joint management can be trusted to start quickly enough.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese prioritizes immediate action and economic relief but risks irreversible water loss before management starts; Casey demands legal sovereignty and a binding treaty to restore justice but offers no short-term solution.",
+     "problem": "The core conflict is balancing the urgent need for immediate economic relief against the long-term necessity of securing legal water rights and stopping irreversible resource depletion.",
+     "onA": "Reese's plan offers necessary immediate relief but feels like a temporary fix that ignores the critical window where water loss becomes permanent before joint management is ready.",
+     "onB": "Casey correctly identifies the risk of paying for injustice, yet their strict freeze approach risks causing severe economic hardship without providing a clear timeline for the alternative to work.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am still weighing whether the immediate economic benefits of Reese's power deal outweigh the catastrophic risk of water loss if the reservoir fills before Casey's legal framework is in place.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese's 'joint management' is untested; Casey's freeze forces a binding treaty or irreversible loss.",
+     "problem": "The core conflict is balancing the immediate economic relief of buying power against the catastrophic long-term risk of losing water rights before a binding legal framework exists.",
+     "onA": "Reese's plan offers vital short-term energy and farm relief but relies on an unproven joint management system to prevent permanent water loss during a critical filling window.",
+     "onB": "Casey correctly identifies that paying for water is unjust and that only a binding treaty can secure future rights, even if it delays immediate economic benefits.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "Paying a premium for stolen water legitimizes Saradan's unilateral control while evaporation causes irreversible loss; a freeze forces a binding treaty that secures our children's future rather than leasing survival by fear.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese offers power buyback + immediate joint management; Casey wants to freeze construction for a treaty. Reese focuses on farmers' livelihoods and climate resilience; Casey prioritizes stopping monopolization.",
+     "problem": "We must secure immediate water security for our agriculture and energy future while preventing Saradan from unilaterally filling the dam, balancing short-term economic pain against long-term geopolitical leverage.",
+     "onA": "Reese's plan directly addresses our most critical vulnerabilities (water loss and coal plants) but risks paying a high premium that might not be sustainable if joint management fails later.",
+     "onB": "Casey's freeze approach avoids the immediate cost of buying power but relies entirely on Saradan agreeing to wait, which is risky given their upcoming election and popularity for the dam.",
+     "lean": "Reese Calder",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am leaning toward Reese because freezing construction against a popular project in an election year could backfire politically, whereas paying a premium now secures our water rights immediately.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese prioritizes immediate action and economic survival but risks paying a premium; Casey insists on legal justice and sovereignty but fears a temporary freeze will fail politically.",
+     "problem": "We must secure our water rights immediately to save agriculture while navigating Saradan's political timeline without surrendering our sovereignty or becoming financially dependent.",
+     "onA": "Reese offers practical economic relief for our farmers and energy sector right now, but her reliance on a long-term contract feels like buying off an injustice that ignores the legal void regarding the 1959 treaty.",
+     "onB": "Casey correctly identifies the danger of normalizing upstream dominance through payment, yet her plan to freeze construction relies entirely on Saradan's politicians changing their minds during an election year, which seems dangerously optimistic.",
+     "lean": "Reese Calder",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "While Casey's moral argument is strong, the immediate threat of a reservoir filling in 18 months requires a tangible economic solution rather than a high-risk political freeze that could collapse our food supply.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Action saves farmers now vs treaty justice risks political failure; premium is investment not payment.",
+     "problem": "We must secure immediate water security for agriculture without surrendering sovereignty to a politically unstable upstream neighbor.",
+     "onA": "Her plan offers the only viable immediate economic survival for our farmers and energy sector despite the long-term contract risk.",
+     "onB": "Her moral stance on sovereignty is correct, but her strategy ignores the hard reality that a political freeze will fail before a treaty is signed.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "We cannot wait years for a potentially failed mediation when our farms are drying up today; paying a premium secures our survival now while building a framework for future cooperation.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Reese offers power deal + joint management; Casey freezes construction for treaty. Reese focuses on immediate relief; Casey on long-term fairness.",
+     "problem": "Merova must balance urgent water scarcity and farmer livelihoods against Saradan's energy needs while ensuring any agreement is binding and sustainable.",
+     "onA": "Reese's plan provides immediate practical solutions (power purchase, coal closure) but risks normalizing unilateral filling without guaranteed water security unless the joint management clause holds up.",
+     "onB": "Casey prioritizes sovereignty and long-term justice by freezing the dam, which prevents irreversible damage but delays critical power access for Saradan's poor and ignores climate adaptation needs.",
+     "lean": "Reese Calder",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The urgency of the water drop and Saradan's energy crisis makes Reese's balanced approach of buying power while enforcing management more viable than a hard freeze that delays solutions.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Reese emphasizes immediate relief via power deal and joint management to prevent evaporation losses; Casey argues buying power normalizes injustice and ignores the legal void of the unenforceable 1959 treaty.",
+     "problem": "Merova must secure immediate water security against irreversible dam filling while establishing a binding mechanism for long-term equity that avoids legitimizing unilateral resource grabs.",
+     "onA": "Reese's plan addresses urgent economic needs and water loss but risks setting a dangerous precedent where upstream neighbors simply 'buy' downstream rights without structural justice.",
+     "onB": "Casey correctly identifies the legal and ethical danger of normalizing unequal treatment, yet their proposal to freeze construction ignores the immediate political reality that Saradan's election and dam popularity make a hard freeze likely impossible to enforce.",
+     "lean": "Reese Calder",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Casey's legal argument is sound but her plan lacks a realistic path to implementation given Saradan's upcoming election, whereas Reese offers an actionable stopgap that we can still try to pair with stricter enforcement of management rules.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey's treaty freeze is legally sound but politically impossible given Saradan's election and dam popularity; Reese's deal buys time but risks normalizing injustice.",
+     "problem": "Merova must secure immediate water security against irreversible filling while establishing a binding mechanism that avoids legitimizing unilateral resource grabs without sacrificing diplomatic reality.",
+     "onA": "Reese offers a pragmatic stopgap that addresses urgent economic and agricultural needs, though it requires strict enforcement of management to avoid setting a dangerous precedent.",
+     "onB": "Casey correctly identifies the ethical flaw of buying rights but fails to account for the immediate political impossibility of enforcing a freeze before Saradan's election.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "I vote for Reese because her plan provides an actionable path to survive the filling period while maintaining pressure for joint management, whereas Casey's idealistic treaty offers no realistic timeline to stop the water loss.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 2,
+   "B": 0,
+   "U": 3
+  },
+  {
+   "A": 2,
+   "B": 0,
+   "U": 3
+  },
+  {
+   "A": 4,
+   "B": 1,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 4,
+  "B": 1
+ },
+ "winner": "A",
+ "winnerType": "POP-IDE",
+ "tokens": {
+  "in": 31413,
+  "out": 4278,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 700748001,
+   "attempts": 1,
+   "tokensIn": 1184,
+   "tokensOut": 199,
+   "ms": 5601
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 700748002,
+   "attempts": 1,
+   "tokensIn": 1306,
+   "tokensOut": 205,
+   "ms": 6139
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 700748003,
+   "attempts": 1,
+   "tokensIn": 1274,
+   "tokensOut": 214,
+   "ms": 6342
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 700748004,
+   "attempts": 1,
+   "tokensIn": 1274,
+   "tokensOut": 230,
+   "ms": 5534
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 700748005,
+   "attempts": 1,
+   "tokensIn": 1274,
+   "tokensOut": 210,
+   "ms": 5048
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 700748006,
+   "attempts": 1,
+   "tokensIn": 1274,
+   "tokensOut": 234,
+   "ms": 5684
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 700748007,
+   "attempts": 1,
+   "tokensIn": 1274,
+   "tokensOut": 212,
+   "ms": 5194
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 700748008,
+   "attempts": 1,
+   "tokensIn": 1494,
+   "tokensOut": 167,
+   "ms": 5156
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 700748009,
+   "attempts": 1,
+   "tokensIn": 1584,
+   "tokensOut": 187,
+   "ms": 5667
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 700748010,
+   "attempts": 1,
+   "tokensIn": 1483,
+   "tokensOut": 205,
+   "ms": 6037
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 700748011,
+   "attempts": 1,
+   "tokensIn": 1499,
+   "tokensOut": 225,
+   "ms": 6195
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 700748012,
+   "attempts": 1,
+   "tokensIn": 1479,
+   "tokensOut": 218,
+   "ms": 5996
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 700748013,
+   "attempts": 1,
+   "tokensIn": 1503,
+   "tokensOut": 239,
+   "ms": 6471
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 700748014,
+   "attempts": 1,
+   "tokensIn": 1481,
+   "tokensOut": 246,
+   "ms": 7033
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 700748015,
+   "attempts": 1,
+   "tokensIn": 1784,
+   "tokensOut": 171,
+   "ms": 5252
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 700748016,
+   "attempts": 1,
+   "tokensIn": 1872,
+   "tokensOut": 171,
+   "ms": 5276
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 700748017,
+   "attempts": 1,
+   "tokensIn": 1647,
+   "tokensOut": 176,
+   "ms": 5345
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 700748018,
+   "attempts": 1,
+   "tokensIn": 1685,
+   "tokensOut": 193,
+   "ms": 5883
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 700748019,
+   "attempts": 1,
+   "tokensIn": 1656,
+   "tokensOut": 204,
+   "ms": 5982
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 700748020,
+   "attempts": 1,
+   "tokensIn": 1701,
+   "tokensOut": 167,
+   "ms": 5127
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 700748021,
+   "attempts": 1,
+   "tokensIn": 1685,
+   "tokensOut": 205,
+   "ms": 5720
+  }
+ ],
+ "startedAt": "2026-11-05T03:14:12.725Z",
+ "seconds": 121
+}

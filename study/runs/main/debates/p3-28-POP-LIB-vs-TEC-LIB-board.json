@@ -1,0 +1,609 @@
+{
+ "id": "p3-28-POP-LIB-vs-TEC-LIB-board",
+ "pass": 3,
+ "pairIndex": 28,
+ "seed": 640977,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Morgan Ekberg",
+  "platform": "We must stay in Lenhart and Corvo to keep our jobs and dignity.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on worker dignity to sway union-supportive directors while framing Crestline and offshoring as moral failures that ignore community stability."
+   },
+   {
+    "round": 2,
+    "text": "I will emphasize that Avery's financial pragmatism ignores moral bankruptcy and likely leads to total job loss under Crestline, while reinforcing my unique leverage against their buyout threats."
+   },
+   {
+    "round": 3,
+    "text": "I am framing the sale as an existential threat to the pension fund to silence the cost argument and force directors to choose between their families' future security and Avery's abstract liquidity plan."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-LIB",
+  "style": "TEC",
+  "ideology": "LIB",
+  "name": "Avery Lindgren",
+  "platform": "Accept Crestline Capital's acquisition offer immediately to halt the company's financial collapse and avoid covenant breaches.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize the imminent covenant breach to create fear of total loss if Morgan's plan fails, while acknowledging the pain of closure to appear reasonable but firm on the financial necessity."
+   },
+   {
+    "round": 2,
+    "text": "I need to shift the board's focus from moral arguments about workers to cold financial realities by highlighting that Morgan's plan risks insolvency regardless of union concessions."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing that Morgan's political gambles leave the pension fund exposed and offer no real cash, while my deal guarantees pension payments even if factories close later."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "POP-LIB",
+   "speech": "Listen. We are not a number on a spreadsheet; we are families eating cold dinners because imports ate our profits. Selling out for cash or closing factories is surrender. I propose we fight. We demand the trade ministry impose tariffs on cheap imports to level the playing field. We negotiate with the union: pay freezes, yes, but we keep both plants open and invest in our Volt-One battery platform instead of abandoning it. The banks will not touch a company without its own factories. Don't let them force us into the hands of predatory buyers who close doors tomorrow. Choose pride over panic. Choose our workers over quick profits.",
+   "words": 109
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Avery Lindgren",
+   "type": "TEC-LIB",
+   "speech": "Morgan insists on staying in our Lenhart and Corvo factories, but current operations breach loan covenants in nine months without major restructuring. Closing these plants saves us approximately one hundred ten million euros annually against eighteen zero million in exit costs. While job losses are severe, the alternative is insolvency where all positions vanish. An acquisition by Crestline provides immediate liquidity, stops the bleeding from HomeMart's price demands, and secures our brand value without the eighteen to twenty four month delay required for a merger or new battery platform launch. We must choose survival over dignity when the bank threatens to seize assets in six months.",
+   "words": 106
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "POP-LIB",
+   "speech": "Avery talks about bleeding out, but that is a choice. A sale means strangers lock our doors and sell us like used cars. Crestline already closed factories in their last two deals. We are not numbers; we are fathers eating cold dinners because of them. The banks won't force closure if we show them we can survive with tariffs and the union's pay freeze. We have a deal for both plants open, guaranteed by the mayor's tax relief. Don't let greed shut down our doors. Fight for the workers in Lenhart and Corvo. Choose life over liquidation today.",
+   "words": 98
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Avery Lindgren",
+   "type": "TEC-LIB",
+   "speech": "Morgan appeals to emotion, but bankruptcy offers no dignity; it offers total loss. Your plan relies on unproven tariffs that may not materialize before we default. The union's offer includes a pay freeze and no guarantee of survival. We face immediate covenant breach in nine months regardless of your fight. Crestline provides instant liquidity, stops HomeMart's price demands, and preserves our brand without the eighteen to twenty-four month delay of a merger or battery launch. Selling is not surrender; it is the only rational path to prevent total liquidation. I urge you to accept the offer now.",
+   "words": 97
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "POP-LIB",
+   "speech": "Avery talks about bankruptcy, but he forgets who pays the bill. It is not just our balance sheet; it is the pension deficit. If we sell now, that €140 million debt leaves the union holding a poisoned arrow while workers lose their pensions forever. Crestline closes factories in four years regardless of the deal. My plan keeps the plants open and uses the trade ministry's tariff decision to stop cheap imports from crushing us. We negotiate with our union on pay freezes but we guarantee both jobs stay. This is not a dream; it is the only way to honor our workers' past sacrifice. Do not let financial engineering erase twenty years of history. Vote for survival with pride, not a quick exit that abandons those who built this company.",
+   "words": 130
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Avery Lindgren",
+   "type": "TEC-LIB",
+   "speech": "Morgan's plan relies on three unproven variables: tariffs, union acceptance without survival guarantees, and bank forbearance. We face a covenant breach in nine months regardless of political maneuvers. The €140 million pension liability is an immediate threat to all stakeholders, not just the workers; selling now provides the liquidity required to settle these obligations and prevents forced liquidation where the union receives nothing. Crestline acquires the company as is, but they close factories within four years. Morgan promises survival, yet his strategy offers no mechanism to raise the €250 million needed for Volt-One or meet HomeMart's demands without capital injection. Accepting the sale today preserves the brand value and ensures pension funds are honored. Voting for a plan based on uncertain future revenue is financially irresponsible when an immediate solution exists. Vote for liquidity now.",
+   "words": 135
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Tariffs + keep plants + invest in Volt-One. Avery: Close factories for liquidity, reject Crestline acquisition as too aggressive, ignore HomeMart pressure.",
+     "problem": "Brightwater must choose between immediate survival via cost-cutting/acquisition or fighting to preserve its manufacturing base and brand identity despite imminent insolvency.",
+     "onA": "His plan relies on uncertain external factors (tariffs) and ignores the hard reality that current operations breach loan covenants in nine months, making his 'fight' financially impossible.",
+     "onB": "She prioritizes immediate liquidity to avoid forced bankruptcy but dismisses Crestline's history of factory closures, which contradicts Brightwater's core brand values.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Morgan's moral imperative to save the company's soul and Avery's pragmatic fear that we will be forced into insolvency within nine months if we do not cut costs immediately.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan ignores imminent covenant breach; relies on uncertain tariffs and union pay freeze without survival guarantee. Avery dismisses Crestline's closure history but offers immediate liquidity to stop forced bankruptcy.",
+     "problem": "We must choose between an emotionally resonant fight for our factories that likely leads to default, or a financially pragmatic sale that saves the company's assets but sacrifices its manufacturing soul.",
+     "onA": "His appeal to human dignity is powerful, yet his financial roadmap remains dangerously optimistic given the hard deadline of loan covenant breach in nine months.",
+     "onB": "She correctly identifies the fatal risk of waiting for uncertain government tariffs or unproven product launches when we are already one missed payment away from collapse.",
+     "lean": "Avery Lindgren",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "No strategy can survive nine months of covenant breach without immediate cash injection; selling to Crestline is the only way to avoid forced liquidation, even if it hurts our brand.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan raises pension liability but relies on uncertain tariffs; Avery notes forced liquidation risk if we wait.",
+     "problem": "We must choose between a morally resonant but financially impossible fight for the plants and a pragmatic sale that avoids immediate insolvency, even if it risks future job losses.",
+     "onA": "His moral appeal is powerful, yet his plan ignores the hard reality that we will be forced into default in nine months without guaranteed external relief.",
+     "onB": "She correctly identifies the fatal risk of waiting for uncertain outcomes when an immediate liquidity injection exists to honor our debts and pensions.",
+     "lean": "Avery Lindgren",
+     "firmness": "vote",
+     "vote": "Avery Lindgren",
+     "why": "We cannot afford to wait nine months for uncertain tariff decisions or unproven product launches while facing mandatory covenant breaches; selling now ensures we pay our pension debts rather than letting creditors seize the assets.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Tariffs + keep plants + Volt-One. Avery: Sell to Crestline now for cash/liquidity.",
+     "problem": "How to secure immediate survival against covenant breach and HomeMart pressure without triggering total insolvency or job loss.",
+     "onA": "His moral stance is noble, but keeping plants open while breaching covenants in 9 months seems financially suicidal given the €180m exit cost vs. €110m savings gap.",
+     "onB": "His focus on immediate liquidity and covenant relief is pragmatic, though the history of quick resales by Crestline makes me worry about long-term stability after year four.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Morgan's risk of total collapse due to debt and Avery's risk of short-term survival followed by asset stripping.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan: Emotionally appeals to workers, but relies on unproven tariffs and ignores immediate covenant breach. Avery: Highlights that Morgan's plan leads to insolvency despite moral arguments; selling prevents total loss.",
+     "problem": "Surviving the next two years requires securing immediate cash flow to avoid forced restructuring while managing the risk of losing brand equity or long-term viability through a sale.",
+     "onA": "His emotional appeal for keeping plants is noble, but financially reckless given the looming covenant breach and uncertain tariff timeline.",
+     "onB": "He correctly identifies that Morgan's plan is financially suicidal, though his reliance on Crestline risks short-term survival followed by quick asset stripping.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between the certainty of financial collapse under Morgan's risky hold strategy and the uncertainty of long-term stability after a sale to Crestline.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan ignores covenant breach reality and pension deficit risks; Avery offers liquidity but accepts short-term job losses.",
+     "problem": "The core problem is securing immediate survival against a forced restructuring while responsibly addressing the €140m pension liability without relying on uncertain political tariffs.",
+     "onA": "His emotional appeal for keeping plants is noble, but his plan is financially suicidal given the imminent covenant breach and lack of capital to cover debts.",
+     "onB": "He correctly identifies that Morgan's strategy fails the math, though accepting a PE buyout does mean sacrificing long-term stability for immediate solvency.",
+     "lean": "Avery Lindgren",
+     "firmness": "vote",
+     "vote": "Avery Lindgren",
+     "why": "Surviving the next two years requires immediate liquidity to meet banking covenants and pension obligations, which only selling provides; relying on uncertain tariffs is too risky when insolvency is imminent.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: tariffs + keep plants + invest in Volt-One. Avery: move production to contract manufacturer + Crestline buyout for immediate liquidity.",
+     "problem": "Surviving the next two years without breaching loan covenants while retaining enough brand equity and operational stability to avoid insolvency.",
+     "onA": "His focus on pride and worker retention is emotionally compelling, but ignoring the €900M debt and imminent covenant breach makes his plan financially reckless without clear funding sources.",
+     "onB": "His proposal addresses the immediate liquidity crisis and covenant risk pragmatically, though closing factories and selling to a PE firm with a history of closures threatens long-term brand value.",
+     "lean": "Avery Lindgren",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Morgan's plan ignores the hard reality that we face insolvency in nine months; Avery at least addresses the immediate threat of the banks seizing assets, even if his solution involves painful restructuring.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan relies on uncertain tariffs and emotional appeals; Avery argues selling prevents total loss and solves immediate covenant breach.",
+     "problem": "We must solve the immediate €900M debt/covenant breach crisis within 9 months while deciding whether to fight for a potentially insolvent status quo or sell to ensure survival.",
+     "onA": "His plan ignores the mathematical certainty of default if tariffs fail, making reliance on them financially reckless regardless of worker sentiment.",
+     "onB": "He correctly identifies that selling is the only way to stop immediate bankruptcy, though his history of closures remains a significant brand risk.",
+     "lean": "Avery Lindgren",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Morgan's refusal to acknowledge the hard math of our debt makes his 'fight' a fantasy that leads to guaranteed liquidation.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan risks pension loss and forced liquidation if tariffs fail; Avery's sell-off honors liabilities but guarantees future factory closures.",
+     "problem": "We must prevent immediate insolvency while ensuring worker pensions are secured, as Morgan's 'fight' ignores the certainty of bank seizure without external funding.",
+     "onA": "His emotional appeal to pride is noble, but his strategy relies on three unproven variables (tariffs, union acceptance, bank forbearance) that will likely lead to a chaotic bankruptcy where pensions are wiped out anyway.",
+     "onB": "While closing factories hurts our brand identity, selling to Crestline provides the immediate liquidity needed to honor the €140m pension deficit and avoid forced liquidation, even if they eventually sell the assets later.",
+     "lean": "Avery Lindgren",
+     "firmness": "vote",
+     "vote": "Avery Lindgren",
+     "why": "We cannot afford to gamble the company's survival on uncertain political tariffs; selling now is the only way to guarantee that workers' pensions are paid rather than lost in a fire sale.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan prioritizes pride, tariffs, union guarantees, and Volt-One investment but ignores looming insolvency; Avery proposes closing Corvo/shrinking Lenhart for liquidity via Crestline buyout to stop covenant breach.",
+     "problem": "Brightwater must choose between a high-risk strategy of staying put to fight imports or a painful restructuring/acquisition to survive immediate insolvency threats.",
+     "onA": "His emotional appeal for workers is noble but his financial plan is dangerous given the 9-month covenant deadline and lack of immediate cash.",
+     "onB": "He presents a hard but logical survival case, acknowledging that staying open leads to total collapse without urgent liquidity.",
+     "lean": "Avery Lindgren",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of breaching loan covenants in nine months makes Morgan's 'fight' financially impossible without immediate external funding or restructuring.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan relies on uncertain tariffs and unguaranteed union deals; Avery highlights immediate insolvency risk despite emotional appeals.",
+     "problem": "Brightwater must secure immediate liquidity to avoid covenant breach within nine months, as long-term survival strategies without cash are financially fatal.",
+     "onA": "His plan is an impossible gamble on external factors like tariffs and vague union promises while the company faces certain financial collapse in less than a year.",
+     "onB": "He correctly identifies that selling to Crestline is the only rational way to stop immediate liquidation, even though their past track record of closures is concerning.",
+     "lean": "Avery Lindgren",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Morgan's reliance on uncertain future events like tariff implementation cannot solve the concrete deadline of nine months until covenant breach.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan risks pension solvency and ignores immediate covenant breach; Avery offers liquidity but acknowledges inevitable factory closures.",
+     "problem": "Brightwater must resolve immediate insolvency and covenant breach within nine months before considering long-term brand preservation or strategic pivots.",
+     "onA": "His emotional appeal for workers is compelling, but his strategy financially contradicts the reality of an imminent bank takeover that would leave pensions unpaid.",
+     "onB": "He correctly prioritizes stopping the immediate financial collapse, even if it means accepting a hard truth about future factory closures.",
+     "lean": "Avery Lindgren",
+     "firmness": "vote",
+     "vote": "Avery Lindgren",
+     "why": "Given the certainty of covenant breach in nine months and the risk of forced liquidation wiping out pension funds, liquidity is the only lever available to preserve value today.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan wants tariffs, union agreement, and Volt-One investment but ignores the 9-month covenant breach. Avery proposes closing Corvo/Lenhart to save cash, sell to Crestline for liquidity, and stop HomeMart price pressure immediately.",
+     "problem": "Brightwater must survive a 9-month covenant breach and imminent insolvency while balancing the choice between costly survival (fighting) and immediate liquidity via restructuring or sale.",
+     "onA": "His plan is noble but financially reckless as he ignores the hard fact that operations will default on loans in nine months without drastic cost cuts first.",
+     "onB": "His argument that staying open guarantees bankruptcy unless costs are cut drastically by closing plants or selling makes immediate financial restructuring seem necessary.",
+     "lean": "Avery Lindgren",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The 9-month deadline for loan covenant breaches creates an urgency that Morgan's 'fight' strategy ignores, making Avery's focus on immediate liquidity and cost reduction more pragmatic for survival.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan appeals to emotion and ignores the hard deadline; Avery argues sale is rational survival, not surrender.",
+     "problem": "Surviving a 9-month covenant breach requires immediate liquidity, making emotional appeals insufficient without addressing insolvency first.",
+     "onA": "His emotional plea about dignity is moving but dangerously flawed because it relies on unproven external factors like tariffs to fix an imminent cash flow collapse.",
+     "onB": "His focus on immediate liquidity and the rational reality of Crestline's offer acknowledges the harsh truth that fighting without cash guarantees failure.",
+     "lean": "Avery Lindgren",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I cannot afford to bet the company on unproven tariffs or vague union guarantees when a premium sale offers guaranteed survival.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Crestline closes factories later anyway; selling now avoids forced liquidation and honors pension liabilities.",
+     "problem": "The core issue is immediate liquidity to avoid mandatory restructuring within nine months, which overrides noble but unproven long-term survival strategies.",
+     "onA": "His plan relies on too many external uncertainties like tariffs and union trust while ignoring the absolute hard deadline for loan default.",
+     "onB": "His strategy prioritizes financial survival and honoring pension obligations by securing immediate liquidity, even if future restructuring is likely.",
+     "lean": "Avery Lindgren",
+     "firmness": "vote",
+     "vote": "Avery Lindgren",
+     "why": "I must choose the plan that guarantees we have cash to meet our nine-month deadline, as Morgan's reliance on uncertain tariffs is financially reckless. The premium sale provides the necessary resources to honor pension deficits and avoid a forced bankruptcy where workers get nothing.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 3,
+   "U": 2
+  },
+  {
+   "A": 0,
+   "B": 4,
+   "U": 1
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "TEC-LIB",
+ "tokens": {
+  "in": 31786,
+  "out": 4196,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 640977001,
+   "attempts": 1,
+   "tokensIn": 1220,
+   "tokensOut": 189,
+   "ms": 5361
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 640977002,
+   "attempts": 1,
+   "tokensIn": 1278,
+   "tokensOut": 202,
+   "ms": 5673
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 640977003,
+   "attempts": 1,
+   "tokensIn": 1298,
+   "tokensOut": 223,
+   "ms": 6201
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 640977004,
+   "attempts": 1,
+   "tokensIn": 1298,
+   "tokensOut": 203,
+   "ms": 4885
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 640977005,
+   "attempts": 1,
+   "tokensIn": 1298,
+   "tokensOut": 219,
+   "ms": 5263
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 640977006,
+   "attempts": 1,
+   "tokensIn": 1298,
+   "tokensOut": 205,
+   "ms": 4936
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 640977007,
+   "attempts": 1,
+   "tokensIn": 1298,
+   "tokensOut": 228,
+   "ms": 5479
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 640977008,
+   "attempts": 1,
+   "tokensIn": 1503,
+   "tokensOut": 170,
+   "ms": 5159
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 640977009,
+   "attempts": 1,
+   "tokensIn": 1614,
+   "tokensOut": 164,
+   "ms": 5031
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 640977010,
+   "attempts": 1,
+   "tokensIn": 1478,
+   "tokensOut": 222,
+   "ms": 6351
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 640977011,
+   "attempts": 1,
+   "tokensIn": 1458,
+   "tokensOut": 209,
+   "ms": 5697
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 640977012,
+   "attempts": 1,
+   "tokensIn": 1473,
+   "tokensOut": 193,
+   "ms": 5314
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 640977013,
+   "attempts": 1,
+   "tokensIn": 1460,
+   "tokensOut": 190,
+   "ms": 5255
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 640977014,
+   "attempts": 1,
+   "tokensIn": 1483,
+   "tokensOut": 181,
+   "ms": 4665
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 640977015,
+   "attempts": 1,
+   "tokensIn": 1775,
+   "tokensOut": 205,
+   "ms": 6037
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 640977016,
+   "attempts": 1,
+   "tokensIn": 1919,
+   "tokensOut": 215,
+   "ms": 6278
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 640977017,
+   "attempts": 1,
+   "tokensIn": 1758,
+   "tokensOut": 194,
+   "ms": 5820
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 640977018,
+   "attempts": 1,
+   "tokensIn": 1725,
+   "tokensOut": 193,
+   "ms": 5714
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 640977019,
+   "attempts": 1,
+   "tokensIn": 1723,
+   "tokensOut": 226,
+   "ms": 6513
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 640977020,
+   "attempts": 1,
+   "tokensIn": 1707,
+   "tokensOut": 177,
+   "ms": 5023
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 640977021,
+   "attempts": 1,
+   "tokensIn": 1722,
+   "tokensOut": 188,
+   "ms": 5609
+  }
+ ],
+ "startedAt": "2026-11-05T04:33:29.192Z",
+ "seconds": 116
+}

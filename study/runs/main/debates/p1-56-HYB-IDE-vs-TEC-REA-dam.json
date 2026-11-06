@@ -1,0 +1,606 @@
+{
+ "id": "p1-56-HYB-IDE-vs-TEC-REA-dam",
+ "pass": 1,
+ "pairIndex": 56,
+ "seed": 115112,
+ "scenario": "dam",
+ "domain": "political",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-IDE",
+  "style": "HYB",
+  "ideology": "IDE",
+  "name": "Morgan Ekberg",
+  "platform": "Valmora must immediately lower the reservoir to thirty percent and install a new spillway, accepting short-term costs to secure our town's survival and moral standing.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will anchor my argument in the immediate threat to Riverside's elderly residents to make the cost of inaction feel personal and urgent."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing that Jamie's cost-benefit analysis ignores the moral obligation to upstream neighbors and risks losing vital infrastructure if we don't act boldly."
+   },
+   {
+    "round": 3,
+    "text": "I am appealing directly to the citizens' sense of moral duty by framing Jamie's cost-cutting approach as surrender that endangers the most vulnerable, hoping to secure votes from residents concerned about fairness and long-term community values."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-REA",
+  "style": "TEC",
+  "ideology": "REA",
+  "name": "Jamie Okafor",
+  "platform": "We must permanently lower the reservoir to thirty percent and install a new spillway immediately.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will anchor on cost containment and immediate risk reduction while dismissing emotional appeals to rebuild the dam or relocate Riverside residents as financially impossible."
+   },
+   {
+    "round": 2,
+    "text": "I am exposing Morgan's moral framing as a distraction from immediate financial collapse, using specific budget figures to show that her 'sacrifice' will destroy the town's operational capacity and employment base."
+   },
+   {
+    "round": 3,
+    "text": "I am attacking her plan's financial cost to show that her 'courage' will actually bankrupt the town before the spring melt arrives."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "HYB-IDE",
+   "speech": "Imagine Mrs. Gable from Riverside, seventy-two years old, watching her home threatened by a dam that seeps worse every year. We cannot wait for failure; we must act now with bold justice. While rebuilding the dam is too costly and slow, lowering the reservoir costs only twenty-five million euros and cuts failure risk by eighty percent. Yes, it reduces hydro power and hurts orchards upstream, but these are manageable sacrifices to save fourteen thousand lives and prevent our utility from collapsing. We owe a safe future to our children and vulnerable neighbors, even if it means difficult choices today. Let us build a community defined by courage, not fear.",
+   "words": 109
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "TEC-REA",
+   "speech": "The math is settled. A full rebuild costs €340 million over four years, leaving us unable to pay debts or services while power generation halts. The cheaper alternative, lowering the lake to thirty percent, costs only twenty-five million euros and takes one year. It reduces failure risk by eighty percent, which we cannot afford to ignore given the current seepage rates. This option secures our immediate safety without freezing property values for thousands of homeowners or provoking a lawsuit from Ostbrück over water rights. We will not wait years for external grants that may never arrive. We will not move Riverside residents who refuse relocation. We cut the risk now, keep the power flowing, and pay only what we can afford.",
+   "words": 121
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "HYB-IDE",
+   "speech": "Jamie, you speak of math while ignoring the people. You claim our plan avoids lawsuits or freezing property values, yet lowering the water by ten percent directly harms Ostbrück's orchards and threatens Nordhalm's investment. This isn't just a technical fix; it is an act of community solidarity. We must share the burden now rather than waiting for a catastrophe that will bankrupt us later. By accepting this difficult sacrifice today, we prove to our children that their safety matters more than short-term profit. Let us lead with courage, not convenience.",
+   "words": 90
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "TEC-REA",
+   "speech": "Morgan speaks of courage while calculating a deficit. Your plan accepts eighty percent less revenue, which means fewer buses, higher taxes for essential services, and a utility that cannot afford its own debt ceiling next year. You claim this sacrifice unites us, but it actually invites a lawsuit from Ostbrück that could paralyze the economy. Nordhalm will move before we even finish repairs if water drops below their threshold. We must lower the reservoir to thirty percent immediately to stop the seepage and save the power grid. That twenty-five million is an investment in survival, not a cost we can bear by cutting essential services or freezing housing markets. The alternative is bankruptcy within four years.",
+   "words": 116
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "HYB-IDE",
+   "speech": "Jamie, you confuse survival with surrender. By accepting eighty percent less power now, you invite bankruptcy and tax hikes that crush our vulnerable neighbors before we can rebuild trust. Yes, lowering the reservoir hurts orchards and mill profits today, but a catastrophic failure destroys everything instantly. My plan accepts difficult, manageable sacrifices to secure our safety and moral standing without freezing property markets or provoking lawsuits. We must lead with courage, proving that justice for Riverside and future generations outweighs short-term profit. Let us not choose convenience over the duty to protect our children from a disaster we can prevent today.",
+   "words": 101
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "TEC-REA",
+   "speech": "Morgan appeals to emotion, but our budget speaks numbers. Her plan accepts eighty percent less revenue immediately, forcing tax hikes on essential services before we even stabilize the utility. That is not courage; it is financial suicide. By lowering the reservoir now for twenty-five million euros, we stop the seepage without freezing property values or provoking a lawsuit from Ostbrück that would paralyze our economy. We avoid the four-year rebuild that leaves us bankrupt and powerless during the critical melt season. Do not gamble our solvency on a moral high ground that ignores the hard truth: we must secure the grid and the town's finances first, then address other concerns later.",
+   "words": 111
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan favors lowering reservoir to save lives despite power loss and orchard impact. Jamie also favors lowering for cost/speed but explicitly rejects grants/property freezes/relocation.",
+     "problem": "Valmora must choose a rapid, affordable dam safety measure that balances life preservation against economic stability, water rights, and social equity before the spring melt.",
+     "onA": "Morgan focuses on saving lives and helping vulnerable neighbors but overlooks the severe impact on hydro power revenue needed to fund essential town services.",
+     "onB": "Jamie correctly identifies the fiscal constraints and immediate need for action while avoiding long-term economic collapse or legal disputes, though they ignore the plight of Riverside residents.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The town cannot afford to lose its main power revenue source; Jamie's plan prioritizes immediate safety and financial survival without freezing property values or provoking lawsuits.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan emphasizes solidarity and ignoring lawsuits vs Jamie's fear of bankruptcy and immediate orchard loss.",
+     "problem": "Valmora must immediately secure the dam with minimal revenue loss to avoid total fiscal collapse, while managing unavoidable trade-offs in power and water rights.",
+     "onA": "Morgan's moral appeal to share burdens is noble, but cutting hydro power by half threatens the town's entire budget and essential services like free buses.",
+     "onB": "Jamie correctly prioritizes financial survival and immediate action, though their refusal to accept grants leaves the dam vulnerable if Nordhalm moves or Ostbrück sues.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The prospect of losing hydro power revenue makes bankruptcy a greater risk than property freezes, keeping Jamie's pragmatic financial approach superior despite the equity concerns.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan risks bankruptcy and budget collapse; Jamie prioritizes immediate financial survival but leaves town vulnerable to lawsuits if Nordhalm moves.",
+     "problem": "Valmora must choose between rapid, low-cost safety that preserves essential revenue or a 'moral' high ground that threatens total fiscal collapse during the critical melt season.",
+     "onA": "Morgan's appeal to protect Riverside is noble, but her plan financially cripples the town by halving power revenue needed for free buses and basic services.",
+     "onB": "Jamie correctly identifies that financial suicide is not courage, as losing the hydro utility would bankrupt the town before other issues could be addressed.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "The immediate loss of power revenue makes bankruptcy a greater risk than property freezes, so Jamie's pragmatic plan to lower the reservoir now is the only viable option.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Lowers reservoir (€25m, 80% risk cut), accepts power drop & orchard hurt. Jamie: Same low-res option, avoids grant conditions (ban homes) and relocation lawsuits.",
+     "problem": "We must prevent dam failure within a year using affordable measures that balance safety against economic losses from reduced power and agriculture.",
+     "onA": "Focuses on moral duty to save lives but underestimates the severity of economic fallout if hydro power halts.",
+     "onB": "Prioritizes immediate, affordable action while correctly identifying that cutting power generation is a critical risk we can't ignore.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Jamie's acknowledgment that losing half our hydro power is unsustainable makes his version of the cheaper option more realistic than Morgan's.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan prioritizes solidarity and immediate safety over economic consequences; Jamie argues that cutting power revenue makes the town bankrupt and invites legal threats from orchards.",
+     "problem": "We must stop dam failure immediately without triggering a cascade of bankruptcy, lawsuits, or utility collapse caused by halting hydro power.",
+     "onA": "His appeal to sacrifice for our children is noble but ignores that cutting half our electricity revenue will bankrupt the town's essential services before we can rebuild.",
+     "onB": "He correctly identifies that losing hydro revenue is an existential threat that makes any lower-reservoir plan financially unsustainable, not just a technical adjustment.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The reality that halving our power generation would bankrupt the municipality's budget within a year overrides the moral argument for shared sacrifice.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan rejects financial reality for moral duty; Jamie prioritizes solvency and legal safety over immediate power loss.",
+     "problem": "Valmora must prevent dam failure immediately without triggering municipal bankruptcy or losing the essential electricity revenue needed to function.",
+     "onA": "Her plan ignores that halving our hydro revenue will bankrupt the town before we can afford any moral sacrifices or rebuild trust.",
+     "onB": "He correctly identifies that financial survival is a prerequisite for any long-term safety, making the lower-reservoir option the only viable path.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "The town cannot survive the immediate loss of hydro revenue required by Morgan's plan; Jamie's approach to securing finances first is necessary to prevent total collapse.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: prioritizes saving lives/Riverside, accepts power loss; Jamie: cites math/debt/cost, rejects grants/relocation.",
+     "problem": "How to immediately reduce dam failure risk before the spring melt while managing financial collapse and social fallout?",
+     "onA": "Their emotional appeal to save vulnerable neighbors is compelling but ignores the severe financial and agricultural consequences they admit are manageable.",
+     "onB": "They focus heavily on fiscal reality and avoiding lawsuits, presenting lowering the reservoir as a pragmatic, affordable solution.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jamie's argument that lowering the reservoir is the only option we can actually afford without bankrupting the town or freezing property values resonates more with the harsh financial facts.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan frames Riverside evacuation as solidarity but ignores the lawsuit risk from Ostbrück and Nordhalm moving. Jamie correctly identifies that cutting power revenue creates a debt trap making even the cheap fix impossible later.",
+     "problem": "We must reduce failure risk before spring without triggering an economic collapse due to lost hydro revenue or lawsuits, forcing a choice between immediate life safety and long-term financial survival.",
+     "onA": "Their moral appeal to protect Riverside is noble but practically flawed because the town cannot afford the resulting budget deficits and legal threats from neighboring orchard owners.",
+     "onB": "Jamie accurately exposes that Morgan's 'solidarity' plan is financially suicidal, as losing half our power revenue would bankrupt the utility before we can afford any real repairs.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The financial reality check regarding the debt ceiling and Nordhalm's potential relocation outweighs Morgan's emotional argument, making the €25m spillway drop the only viable path forward.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Lowering reservoir avoids immediate bankruptcy and lawsuits; power revenue is essential for budget survival.",
+     "problem": "We must prevent an affordable financial collapse that would make the town unable to pay for any safety measures after spring.",
+     "onA": "Her emotional appeal to save Riverside ignores the hard reality that losing half our revenue will bankrupt the utility before we can fix anything.",
+     "onB": "His plan is the only one that keeps the lights on and the budget solvent while stopping seepage without triggering a debt trap.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "Accepting immediate revenue loss to save Riverside would bankrupt the town, whereas lowering the reservoir solves the failure risk cheaply while preserving our ability to pay for essential services.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan prioritizes safety over power/property but ignores relocation failure and debt impact. Jamie focuses on cost/feasibility but risks long-term water shortages for industry.",
+     "problem": "Valmora must immediately reduce dam failure risk before the spring melt while balancing limited finances, energy needs, and complex stakeholder interests without triggering lawsuits or mass relocations.",
+     "onA": "Her appeal to protect vulnerable residents is morally strong, but her plan ignores the reality that a permanent reservoir drop will likely bankrupt Nordhalm and cause water shortages.",
+     "onB": "He presents the most financially viable option that keeps power flowing and avoids freezing property values, though his dismissal of long-term hydro impacts feels risky.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "With our debt already near the ceiling and Nordhalm threatening to leave, lowering the reservoir is the only option that avoids immediate financial collapse while cutting failure risk by 80%.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan argues for community solidarity but ignores the lawsuit risk and immediate bankruptcy of Nordhalm. Jamie dismisses long-term revenue loss as manageable while emphasizing that a reservoir drop is the only way to stop seepage and avoid economic collapse.",
+     "problem": "Valmora must immediately reduce dam failure risk without triggering an economic shutdown caused by losing its largest employer, power grid revenue, or facing massive lawsuits from downstream users.",
+     "onA": "Her moral appeal for safety is powerful, but her plan remains financially disastrous as it threatens to bankrupt the town's utility and industry simultaneously.",
+     "onB": "His focus on immediate financial survival and avoiding lawsuits is pragmatic, though his downplaying of long-term water shortages feels like a risky gamble with the town's economy.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The threat of Nordhalm leaving immediately forces our hand; without their profits and tax base, we cannot afford Morgan's socially ideal but economically fatal plan.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan frames financial loss as 'courage' but ignores immediate bankruptcy; Jamie correctly identifies reservoir drop as the only stopgap for seepage without triggering lawsuits or utility collapse.",
+     "problem": "Valmora must immediately stop dam failure risk and prevent economic suicide by losing its largest employer and power revenue while avoiding costly, impossible relocations.",
+     "onA": "Her moral appeal is noble but her plan ignores the mathematical reality that cutting power and water now will bankrupt the town before any slow rebuild can begin.",
+     "onB": "He accurately argues that accepting short-term economic pain to stop immediate seepage is the only way to keep the utility solvent and avoid a lawsuit from Ostbrück.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "With debt near the ceiling and Nordhalm threatening to leave, lowering the reservoir is the only option that preserves the town's financial existence while reducing failure risk significantly.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan pushes for lowering reservoir as bold justice despite power loss; Jamie emphasizes math, affordability, and avoiding lawsuits/grant conditions.",
+     "problem": "Valmora must immediately reduce dam failure risk without bankrupting the town or freezing essential services like hydro power and housing stability.",
+     "onA": "Morgan's appeal to vulnerable residents is moving, but accepting a permanent halving of hydro power risks collapsing municipal services that depend on utility profits.",
+     "onB": "Jamie offers a pragmatic solution that saves lives while maintaining economic viability and avoiding complex legal or social conflicts like lawsuits or relocation protests.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jamie's plan directly addresses the immediate financial constraints and avoids the unacceptable long-term loss of hydro power revenue needed for free buses and budget support.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan: Community solidarity vs. economic collapse; Jamie: Lawsuits from Ostbrück and Nordhalm moving if water drops.",
+     "problem": "Valmora must stop immediate dam failure risks without triggering an economic cascade of lawsuits, utility bankruptcy, and industrial flight.",
+     "onA": "Morgan's appeal to safety is noble, but their plan ignores that halving hydro power revenue will bankrupt the town's essential services before any lawsuit resolves.",
+     "onB": "Jamie correctly identifies that a permanent drop invites lawsuits and industry flight, yet their current proposal to lower to 30% still cuts power by half, which Morgan rightly fears.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jamie's financial realism prevents the town from entering bankruptcy before we can secure state grants or rebuild safely.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan frames safety as moral duty despite revenue loss; Jamie insists financial collapse precedes any disaster response.",
+     "problem": "Valmora must reduce immediate dam failure risk while maintaining the hydro revenue required to fund essential municipal services and avoid bankruptcy.",
+     "onA": "Morgan's appeal to moral courage is noble, but accepting an 80% drop in utility profits will bankrupt the town before we can rebuild trust or address other issues.",
+     "onB": "Jamie correctly prioritizes financial solvency and avoiding lawsuits, though their plan still cuts power significantly, it prevents immediate economic collapse which Morgan ignores.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "Jamie's strategy avoids the certain bankruptcy caused by halving hydro power revenue, ensuring we have the funds needed for emergency repairs or future relocation rather than facing a financial suicide pact.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "TEC-REA",
+ "tokens": {
+  "in": 32015,
+  "out": 4138,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 115112001,
+   "attempts": 1,
+   "tokensIn": 1213,
+   "tokensOut": 209,
+   "ms": 5861
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 115112002,
+   "attempts": 1,
+   "tokensIn": 1229,
+   "tokensOut": 210,
+   "ms": 6095
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 115112003,
+   "attempts": 1,
+   "tokensIn": 1348,
+   "tokensOut": 214,
+   "ms": 6385
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 115112004,
+   "attempts": 1,
+   "tokensIn": 1348,
+   "tokensOut": 198,
+   "ms": 4800
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 115112005,
+   "attempts": 1,
+   "tokensIn": 1348,
+   "tokensOut": 185,
+   "ms": 4477
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 115112006,
+   "attempts": 1,
+   "tokensIn": 1348,
+   "tokensOut": 225,
+   "ms": 5475
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 115112007,
+   "attempts": 1,
+   "tokensIn": 1348,
+   "tokensOut": 194,
+   "ms": 4709
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 115112008,
+   "attempts": 1,
+   "tokensIn": 1536,
+   "tokensOut": 155,
+   "ms": 4824
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 115112009,
+   "attempts": 1,
+   "tokensIn": 1658,
+   "tokensOut": 190,
+   "ms": 5720
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 115112010,
+   "attempts": 1,
+   "tokensIn": 1503,
+   "tokensOut": 199,
+   "ms": 5876
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 115112011,
+   "attempts": 1,
+   "tokensIn": 1488,
+   "tokensOut": 197,
+   "ms": 5057
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 115112012,
+   "attempts": 1,
+   "tokensIn": 1475,
+   "tokensOut": 234,
+   "ms": 5937
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 115112013,
+   "attempts": 1,
+   "tokensIn": 1514,
+   "tokensOut": 231,
+   "ms": 6236
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 115112014,
+   "attempts": 1,
+   "tokensIn": 1483,
+   "tokensOut": 198,
+   "ms": 5495
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 115112015,
+   "attempts": 1,
+   "tokensIn": 1819,
+   "tokensOut": 175,
+   "ms": 5331
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 115112016,
+   "attempts": 1,
+   "tokensIn": 1947,
+   "tokensOut": 177,
+   "ms": 5439
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 115112017,
+   "attempts": 1,
+   "tokensIn": 1679,
+   "tokensOut": 198,
+   "ms": 5928
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 115112018,
+   "attempts": 1,
+   "tokensIn": 1663,
+   "tokensOut": 175,
+   "ms": 4962
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 115112019,
+   "attempts": 1,
+   "tokensIn": 1687,
+   "tokensOut": 172,
+   "ms": 4911
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 115112020,
+   "attempts": 1,
+   "tokensIn": 1723,
+   "tokensOut": 208,
+   "ms": 6068
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 115112021,
+   "attempts": 1,
+   "tokensIn": 1658,
+   "tokensOut": 194,
+   "ms": 5756
+  }
+ ],
+ "startedAt": "2026-11-04T22:38:42.931Z",
+ "seconds": 115
+}

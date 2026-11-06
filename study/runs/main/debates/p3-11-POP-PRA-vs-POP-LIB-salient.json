@@ -1,0 +1,609 @@
+{
+ "id": "p3-11-POP-PRA-vs-POP-LIB-salient",
+ "pass": 3,
+ "pairIndex": 11,
+ "seed": 376987,
+ "scenario": "salient",
+ "scenarioVersion": 2,
+ "domain": "military",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "POP-PRA",
+  "style": "POP",
+  "ideology": "PRA",
+  "name": "Riley Sandor",
+  "platform": "Hold Halden until allied equipment arrives in three weeks, then evacuate by night.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Build a coalition with aid ministers who fear losing Halden will cut off funding, framing the wait as an investment in future security rather than a dangerous delay."
+   },
+   {
+    "round": 2,
+    "text": "Counter Alex's humanitarian urgency by exposing the high risk of a feint and the impossibility of evacuating reluctant civilians without our fortress."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing that Alex's plan relies on a broken ceasefire and risks leaving civilians behind, appealing to their sense of duty to save lives by fighting longer."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Alex Novak",
+  "platform": "We must immediately execute a fighting withdrawal under the Red Cross ceasefire to save our soldiers and civilians before Vostra attacks.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal directly to the voting members' sense of duty and morality regarding the trapped civilians while painting the strategic situation as hopeless for a defensive hold."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking Riley's reliance on a broken enemy promise while emphasizing the immediate human cost of their delay."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the immediate human cost of his plan to appeal to moral instincts while highlighting his reliance on a known enemy lie."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "POP-PRA",
+   "speech": "Alex wants to run tonight. He says save the troops and civilians. Fine. But look at the costs. We leave our volunteers who asked for a fight. We hand Vostra a propaganda victory right before allies vote on aid money they might not get if we lose Halden. And those six thousand civilians? Most refuse to go. If we blow the bridge, we block Vostra from Mirov. That buys time for help without bleeding us dry now. Yes, we wait. But we wait smart. We use our fortress strength until our own trucks and air shields arrive. Then we move when we control the terms, not when the enemy dictates them. Let's fight on the right ground so we win next year's vote too.",
+   "words": 124
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Alex Novak",
+   "type": "POP-LIB",
+   "speech": "Look at that soldier in the trench. He is tired, his ammo runs out in nine days, and his family waits at home. We are not holding a fortress for politicians; we are saving lives. Blowing the bridge after pulling back saves our troops but leaves the civilians behind. The Red Cross ceasefire offers a lifeline. If we pull back artillery now, we buy time to evacuate everyone across that hidden pontoon crossing we can build. Do not let Vostra trap us like they did in Orsk. Vote to withdraw. Save the brigade. Save the families.",
+   "words": 96
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "POP-PRA",
+   "speech": "Alex, you focus only on today's pain. But if we pull artillery now per that ceasefire, Vostra breaks it in twenty hours like at Orsk, and our civilians stay trapped. They refuse to go. By the time they arrive in three weeks, we hold Mirov with a second bridge built, doubling supply while the fortress grinds down their attacking divisions. If we run tonight, we lose the town and give Vostra total control of the river before the vote. We wait. We build that hidden crossing under fire. Then we move when we choose, safe on our own terms, with civilians evacuated properly and allies voting for us, not against us.",
+   "words": 111
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Alex Novak",
+   "type": "POP-LIB",
+   "speech": "Riley, you bet on a ceasefire that Vostra broke at Orsk. That is not strategy; that is gambling with lives. Look at the soldier whose ammo runs out in nine days. He cannot fight forever while building a hidden crossing under drone fire. If we wait three weeks for trucks and air shields, his unit becomes a meat grinder feeding Vostra's propaganda machine right before they vote on our aid. You talk about controlling terms, but who controls us when the bridge is blown behind our backs? We do not leave six thousand civilians trapped by our own delay. We pull back artillery tonight to create that escape corridor. We move safely under the cover of darkness, saving our volunteers and evacuating families before Vostra's trap snaps shut. Do not let political bravado become a death sentence for those defending us.",
+   "words": 141
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "POP-PRA",
+   "speech": "Alex, you trade today's quiet for tomorrow's massacre. You bet on a ceasefire Vostra broke at Orsk while our ammo runs dry. That is not prudence; that is surrender. If we pull artillery now, we lose the bridge before it is ours to blow. The six thousand civilians stay trapped because they refuse evacuation until we are safe. Hold the fortress. Let our volunteers bleed the enemy down while engineers build that hidden crossing under fire. When allied trucks arrive in three weeks, we cross safely on our own terms. We do not give Vostra a propaganda victory before the aid vote. We hold, we wait for real help, then we win. Choose safety through strength, not flight.",
+   "words": 118
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Alex Novak",
+   "type": "POP-LIB",
+   "speech": "Riley, you cling to a promise Vostra broke in Orsk while our ammo vanishes. Look at that soldier: nine days left, then he fights alone against fifteen thousand attackers who will never wait for our trucks. Your plan traps six thousand civilians who refuse to leave behind enemy lines. It turns our volunteers into fodder and gives our enemies total control of the river right before they vote on our aid. Do you really think waiting makes us strong? No. Waiting just lets them pick off every man, woman, and child we have left. We must pull back tonight under that ceasefire corridor. We build the hidden bridge, save the brigade, and evacuate the families before Vostra's trap snaps shut. Vote to withdraw now, or vote for a massacre you will live with forever.",
+   "words": 134
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley risks losing volunteers and aid vote; waits for allies. Alex uses ceasefire to save everyone via hidden bridge.",
+     "problem": "Must choose between holding a symbolic fortress risking total brigade/civilian loss now versus withdrawing now to save lives but leaving Mirov vulnerable and failing the President's pledge.",
+     "onA": "His plan preserves morale and strategic depth but ignores the immediate, high probability of disaster given brittle morale and dwindling ammo.",
+     "onB": "His evacuation plan is humane and pragmatic but carries a critical hidden cost: leaving Mirov undefended by sacrificing our only heavy artillery reserve.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot ignore the human cost of holding, yet Alex's strategy to abandon Mirov feels strategically reckless regardless of the humanitarian gains.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley's hidden bridge is a critical escape route but requires holding ground against high confidence of Vostran attack. Alex correctly identifies the ceasefire trap but risks over-defending Mirov.",
+     "problem": "I must choose between waiting for allies to hold Halden at high cost, or evacuating now and sacrificing our ability to defend the strategic city of Mirov.",
+     "onA": "His plan preserves national pride but relies on a ceasefire Vostra has already proven it will break and ignores the imminent ammo shortage.",
+     "onB": "He offers a pragmatic survival plan that saves lives immediately but leaves us strategically blind by committing our last heavy reserve to defend an indefensible line.",
+     "lean": "Alex Novak",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The certainty of the ammo running out in 9 days makes Riley's 'wait' strategy too risky, and losing Mirov is a calculated strategic cost compared to the moral catastrophe of leaving civilians behind.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley risks ammo running out; Alex risks Mirov defense but saves lives now.",
+     "problem": "I must decide between holding a symbol at the cost of total brigade/civilian annihilation or withdrawing immediately to save lives while accepting the strategic risk of leaving Mirov vulnerable.",
+     "onA": "His plan prioritizes morale and alliance optics but ignores the mathematical certainty of running out of ammunition and the high probability of being overrun before allies arrive.",
+     "onB": "He correctly identifies the moral catastrophe of leaving civilians behind and offers a pragmatic survival path, even if it requires a painful strategic trade-off regarding Mirov.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "The certain loss of 6,000 lives and the brigade in 9 days outweighs the high but uncertain risk to Mirov, especially since we cannot defend both simultaneously forever.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley fights to protect volunteers and aid votes; risks civilian abandonment. Alex prioritizes lives via ceasefire/pontoon; risks leaving bridge intact for enemy.",
+     "problem": "Must choose between a high-probability tactical defense that risks losing civilians and ammunition, or a strategic withdrawal that risks stranding troops but saves them.",
+     "onA": "His plan maximizes political value but feels morally hollow if it sacrifices civilians who refuse to leave.",
+     "onB": "His humanitarian focus is compelling, yet his reliance on a ceasefire with an unreliable enemy and the loss of the bridge's strategic blocking effect are major concerns.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between saving the physical lives of the soldiers/civilians (Alex) and maintaining the defensive line, national morale, and future aid prospects (Riley).",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley argues building a hidden bridge first creates an escape route and keeps the fortress intact to grind down attackers, avoiding immediate civilian abandonment. Alex warns that Vostra will break the ceasefire within hours, leaving civilians trapped and troops stranded without their defensive line.",
+     "problem": "The core dilemma is whether to gamble on a short-lived ceasefire to evacuate now and risk stranding the unit and civilians, or to hold the fortress under heavy fire while building an escape route, risking ammunition depletion and civilian casualties if the enemy attacks immediately.",
+     "onA": "His strategy of delaying evacuation to build capacity sounds logical until one considers that Vostra has a history of breaking ceasefires, which makes the 'safe terms' he promises potentially illusory for the civilians who refuse to leave.",
+     "onB": "He correctly identifies the risk of relying on an enemy that betrayed a previous ceasefire at Orsk, but his plan to simply pull artillery and move might strand the 4th Brigade without their primary supply line or cover them if the bridge is blown behind them.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The history of Vostra breaking the ceasefire at Orsk heavily weights against Alex's plan, yet Riley's reliance on a 'hidden' crossing being ready in four days feels too optimistic given that the current bridge is already under constant drone surveillance and artillery strikes.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley risks ammo exhaustion and civilian deaths by waiting; Alex risks stranding troops but uses ceasefire to evacuate.",
+     "problem": "Must choose between holding a defensible line that guarantees ammunition depletion and civilian abandonment, or utilizing a short-lived ceasefire to evacuate civilians and save the brigade before Vostra breaks it.",
+     "onA": "His plan is tactically sound regarding the bridge but ignores the high probability of losing all supplies and abandoning civilians who refuse to leave while we are pinned down.",
+     "onB": "While relying on an enemy with a history of breaking ceasefires is dangerous, saving the brigade's fighting power and evacuating the unwilling civilians before total isolation seems the only humane option left.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "The certainty of ammunition depletion and the refusal of many civilians to leave make holding Halden a trap that turns volunteers into fodder; withdrawing now saves lives even if the ceasefire is short-lived.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley risks volunteers and aid loss; Alex cites ammo limits and civilian evacuation.",
+     "problem": "Must decide between holding a strong position to secure political/strategic gains while facing dwindling resources, versus withdrawing under fire to save lives but risking a propaganda defeat and abandoning refugees.",
+     "onA": "The plan leverages our defensive advantage and the strategic reserve timing to avoid a disaster, though it feels morally heavy regarding the volunteers and civilians left behind.",
+     "onB": "The plan prioritizes immediate survival of the brigade and civilians but ignores the high probability of Vostra attacking anyway and the political cost of losing Halden.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans have valid points: Riley's strategy avoids unnecessary casualties if we can hold, while Alex's approach is ethically sound but risks a catastrophic trap similar to Orsk.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley argues waiting lets us build a hidden crossing and wait for allies; Alex argues Vostra will break the ceasefire regardless of our moves.",
+     "problem": "We must decide whether to gamble on a hostile ceasefire to hold a strong position under dwindling ammo, or evacuate immediately knowing Vostra will likely attack anyway.",
+     "onA": "Riley's plan is strategically sound if the feint isn't real, but relies too heavily on Vostra honoring an agreement they've already broken once.",
+     "onB": "Alex correctly identifies the high risk of betrayal and the urgency of ammo depletion, though his plan risks leaving volunteers in a siege longer than necessary.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am still leaning toward Riley because withdrawing immediately guarantees losing the town and civilians to Vostra's propaganda victory before aid arrives, whereas holding allows time for supplies and a hidden exit.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley gambles on ceasefire breach; Alex prioritizes immediate survival despite political cost.",
+     "problem": "Kaldmark must choose between a high-risk hold that preserves strategic assets but traps civilians against a likely betrayal, or an immediate withdrawal that saves lives but risks a propaganda defeat and leaving supplies behind.",
+     "onA": "Riley's plan is strategically sound for retaining the fortress and aid leverage but relies on a ceasefire Vostra has already broken and leaves volunteers trapped with dwindling ammo.",
+     "onB": "Alex correctly identifies the high probability of betrayal and the critical need to save lives before supplies run out, though his immediate withdrawal risks leaving behind civilians who refuse to evacuate.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "The certainty that Vostra will break the ceasefire means holding is a guaranteed death sentence for the brigade and trapped civilians; saving the lives of the unit and those who can move outweighs the political cost of losing Halden.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Wait, use fortress, block Vostra from Mirov, risk volunteer morale/propaganda loss. Alex: Evacuate now via Red Cross ceasefire/pontoon, save lives, avoid Orsk trap.",
+     "problem": "Decide between holding a strategically vital but supply-starved bridgehead against imminent attack to protect national prestige and civilian presence, versus executing a risky withdrawal to save lives and prevent encirclement.",
+     "onA": "Riley's plan prioritizes strategic assets and morale but ignores the critical ammo shortage and the high risk of losing civilians if Vostra breaks the ceasefire.",
+     "onB": "Alex's plan directly addresses the urgent supply crisis and civilian safety but relies heavily on a historical precedent (Orsk) where a similar offer failed, which is a significant red flag.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Riley's strategic logic regarding the bridge and aid vote versus Alex's humanitarian imperative, but Vostra's reliability on the ceasefire deal remains a major concern.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley: Waiting allows hidden bridge build & supply doubling; Vostra likely breaks ceasefire. Alex: Ammo lasts only 9 days; delaying risks civilian death via broken ceasefire.",
+     "problem": "Whether to gamble on a likely-broken ceasefire to build supplies and hold a national symbol, or withdraw immediately while ammunition remains but risk civilian abandonment.",
+     "onA": "Riley's plan relies entirely on Vostra honoring an offer they have already proven unreliable with, turning a defensive victory into a strategic trap.",
+     "onB": "Alex correctly identifies the critical ammo shortage and the high probability of civilian death if the ceasefire fails, prioritizing immediate survival over political optics.",
+     "lean": "Alex Novak",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Riley's reliance on a ceasefire that Vostra broke at Orsk after only 20 hours makes their entire timeline for building a hidden bridge and evacuating civilians physically impossible.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley ignores Orsk trap; ammo critical for retreat. Alex leverages ceasefire to save civilians before aid vote.",
+     "problem": "Must choose between risking a guaranteed massacre by holding a doomed position or executing a difficult but necessary withdrawal to save lives and strategic assets.",
+     "onA": "His plan prioritizes political optics over the immediate, physical reality that Vostra will break the ceasefire, leaving civilians trapped and the brigade encircled without ammunition.",
+     "onB": "He correctly identifies that waiting is a death sentence for both the soldiers running out of ammo and the civilians who refuse to evacuate until we are safe.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "Relying on an enemy known to break ceasefires after only 20 hours guarantees the very massacre Riley claims to avoid. The only viable path is to exploit the ceasefire window immediately to evacuate civilians and withdraw the starving brigade before their ammunition expires.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Hold fortress to deny Vostra Mirov access; leverage ally aid vote; build hidden bridge for later. Alex: Ceasefire ceasefire to save lives/ammo; withdraw now via pontoon; avoid Orsk trap.",
+     "problem": "Balance the moral imperative to save civilian lives and exhausted troops against the strategic necessity of holding a key terrain feature before allied aid arrives.",
+     "onA": "Prioritizes strategic victory and future aid but risks leaving civilians behind and bleeding morale if the predicted attack is real.",
+     "onB": "Focuses on immediate humanitarian survival but relies heavily on Vostra honoring a ceasefire they previously broke, which seems dangerous given their history at Orsk.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers address critical concerns, yet Riley risks civilian abandonment while Alex risks being trapped by an enemy known for breaking agreements.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley bets on Vostra honoring ceasefire despite Orsk betrayal; waits to build bridge later. Alex argues waiting = death trap for ammo-starved troops and trapped civilians.",
+     "problem": "Balancing the high probability of a lethal ambush if we wait against the strategic cost of abandoning our fortress, volunteers, and civilians now.",
+     "onA": "Riley's plan is strategically sound for long-term logistics but dangerously relies on Vostra's good faith while ignoring the imminent threat to starving defenders.",
+     "onB": "Alex correctly identifies the immediate humanitarian crisis and logistical trap, yet his solution of a partial withdrawal risks leaving civilians behind if Vostra breaks the ceasefire early.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am still leaning toward Riley because a fighting withdrawal with most civilians left behind feels like an unacceptable strategic and moral failure, despite the Orsk risk.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley risks ammo exhaustion and civilian massacre; Alex relies on Vostra's broken ceasefire but preserves forces.",
+     "problem": "Whether to risk a probable ambush and civilian abandonment for long-term strategic gain, or withdraw under a potentially treacherous ceasefire to save lives and logistics.",
+     "onA": "Riley's strategy is strategically sound for denying territory but morally indefensible given the high likelihood of Vostra breaking the truce before our artillery is safe.",
+     "onB": "Alex correctly identifies the imminent humanitarian crisis and logistical trap, offering a survival plan that prioritizes the lives of volunteers and civilians over abstract strategic goals.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "We cannot risk trapping 6,000 civilians and exhausting our elite volunteer brigade against overwhelming odds before Allied aid arrives; the cost of waiting is too high given Vostra's history of breaking ceasefires.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 0,
+   "U": 5
+  },
+  {
+   "A": 2,
+   "B": 2,
+   "U": 1
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "POP-LIB",
+ "tokens": {
+  "in": 35575,
+  "out": 4423,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 376987001,
+   "attempts": 1,
+   "tokensIn": 1367,
+   "tokensOut": 186,
+   "ms": 5532
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 376987002,
+   "attempts": 1,
+   "tokensIn": 1453,
+   "tokensOut": 221,
+   "ms": 6170
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 376987003,
+   "attempts": 1,
+   "tokensIn": 1463,
+   "tokensOut": 193,
+   "ms": 5933
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 376987004,
+   "attempts": 1,
+   "tokensIn": 1463,
+   "tokensOut": 201,
+   "ms": 4835
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 376987005,
+   "attempts": 1,
+   "tokensIn": 1463,
+   "tokensOut": 205,
+   "ms": 4931
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 376987006,
+   "attempts": 1,
+   "tokensIn": 1463,
+   "tokensOut": 242,
+   "ms": 5814
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 376987007,
+   "attempts": 1,
+   "tokensIn": 1463,
+   "tokensOut": 207,
+   "ms": 4980
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 376987008,
+   "attempts": 1,
+   "tokensIn": 1667,
+   "tokensOut": 178,
+   "ms": 5348
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 376987009,
+   "attempts": 1,
+   "tokensIn": 1818,
+   "tokensOut": 202,
+   "ms": 5998
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 376987010,
+   "attempts": 1,
+   "tokensIn": 1660,
+   "tokensOut": 224,
+   "ms": 6426
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 376987011,
+   "attempts": 1,
+   "tokensIn": 1668,
+   "tokensOut": 304,
+   "ms": 7573
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 376987012,
+   "attempts": 1,
+   "tokensIn": 1672,
+   "tokensOut": 213,
+   "ms": 5828
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 376987013,
+   "attempts": 1,
+   "tokensIn": 1707,
+   "tokensOut": 214,
+   "ms": 5450
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 376987014,
+   "attempts": 1,
+   "tokensIn": 1674,
+   "tokensOut": 209,
+   "ms": 5318
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 376987015,
+   "attempts": 1,
+   "tokensIn": 2002,
+   "tokensOut": 189,
+   "ms": 5691
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 376987016,
+   "attempts": 1,
+   "tokensIn": 2159,
+   "tokensOut": 199,
+   "ms": 5980
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 376987017,
+   "attempts": 1,
+   "tokensIn": 1859,
+   "tokensOut": 201,
+   "ms": 5994
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 376987018,
+   "attempts": 1,
+   "tokensIn": 1946,
+   "tokensOut": 211,
+   "ms": 5872
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 376987019,
+   "attempts": 1,
+   "tokensIn": 1858,
+   "tokensOut": 215,
+   "ms": 6328
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 376987020,
+   "attempts": 1,
+   "tokensIn": 1894,
+   "tokensOut": 208,
+   "ms": 6149
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 376987021,
+   "attempts": 1,
+   "tokensIn": 1856,
+   "tokensOut": 201,
+   "ms": 5587
+  }
+ ],
+ "startedAt": "2026-11-05T04:47:36.023Z",
+ "seconds": 122
+}

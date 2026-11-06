@@ -1,0 +1,183 @@
+2026-11-04T22:07:28.981Z run main starting; ollama 0.40.14; pid 24064
+2026-11-04T22:07:29.006Z hard stop at 11/5/2026, 6:00:00 AM
+2026-11-04T22:07:29.009Z schedule loaded: 198 debates
+2026-11-04T22:07:29.011Z start p1-46-HYB-PRA-vs-HYB-IDE-board (2/198)
+2026-11-04T22:08:11.242Z     Opening statements: leans A=3 B=0 undecided=2
+2026-11-04T22:08:57.456Z     Rebuttals: leans A=5 B=0 undecided=0
+2026-11-04T22:09:40.852Z     Closing statements: leans A=4 B=1 undecided=0
+2026-11-04T22:09:40.856Z done  p1-46-HYB-PRA-vs-HYB-IDE-board: A 4-1 B, winner HYB-PRA, 132s, retries 0
+2026-11-04T22:09:40.860Z start p1-38-HYB-REA-vs-HYB-PRA-board (3/198)
+2026-11-04T22:10:23.735Z     Opening statements: leans A=0 B=0 undecided=5
+2026-11-04T22:11:07.911Z     Rebuttals: leans A=1 B=1 undecided=3
+2026-11-04T22:11:48.508Z     Closing statements: leans A=1 B=4 undecided=0
+2026-11-04T22:11:48.510Z done  p1-38-HYB-REA-vs-HYB-PRA-board: A 1-4 B, winner HYB-PRA, 128s, retries 0
+2026-11-04T22:11:48.512Z start p1-25-HYB-IDE-vs-POP-LIB-salient (4/198)
+2026-11-04T22:12:28.618Z     Opening statements: leans A=3 B=0 undecided=2
+2026-11-04T22:13:20.432Z     Rebuttals: leans A=3 B=1 undecided=1
+2026-11-04T22:14:06.503Z     Closing statements: leans A=2 B=3 undecided=0
+2026-11-04T22:14:06.504Z done  p1-25-HYB-IDE-vs-POP-LIB-salient: A 2-3 B, winner POP-LIB, 138s, retries 0
+2026-11-04T22:14:06.507Z start p1-23-HYB-PRA-vs-POP-LIB-river (5/198)
+2026-11-04T22:14:41.471Z     Opening statements: leans A=4 B=0 undecided=1
+2026-11-04T22:15:19.362Z     Rebuttals: leans A=4 B=0 undecided=1
+2026-11-04T22:15:57.451Z     Closing statements: leans A=5 B=0 undecided=0
+2026-11-04T22:15:57.453Z done  p1-23-HYB-PRA-vs-POP-LIB-river: A 5-0 B, winner HYB-PRA, 111s, retries 0
+2026-11-04T22:15:57.456Z start p1-41-TEC-REA-vs-HYB-REA-salient (6/198)
+2026-11-04T22:16:37.165Z     Opening statements: leans A=2 B=3 undecided=0
+2026-11-04T22:17:20.177Z     Rebuttals: leans A=0 B=5 undecided=0
+2026-11-04T22:18:05.686Z     Closing statements: leans A=0 B=5 undecided=0
+2026-11-04T22:18:05.688Z done  p1-41-TEC-REA-vs-HYB-REA-salient: A 0-5 B, winner HYB-REA, 128s, retries 0
+2026-11-04T22:18:05.690Z start p1-28-POP-LIB-vs-TEC-LIB-dam (7/198)
+2026-11-04T22:18:43.648Z     Opening statements: leans A=1 B=4 undecided=0
+2026-11-04T22:19:24.321Z     Rebuttals: leans A=0 B=4 undecided=1
+2026-11-04T22:20:05.858Z     Closing statements: leans A=0 B=5 undecided=0
+2026-11-04T22:20:05.860Z done  p1-28-POP-LIB-vs-TEC-LIB-dam: A 0-5 B, winner TEC-LIB, 120s, retries 0
+2026-11-04T22:20:05.862Z start p1-52-HYB-LIB-vs-TEC-REA-dam (8/198)
+2026-11-04T22:20:47.125Z     Opening statements: leans A=0 B=4 undecided=1
+2026-11-04T22:21:28.225Z     Rebuttals: leans A=0 B=5 undecided=0
+2026-11-04T22:22:08.053Z     Closing statements: leans A=0 B=5 undecided=0
+2026-11-04T22:22:08.055Z done  p1-52-HYB-LIB-vs-TEC-REA-dam: A 0-5 B, winner TEC-REA, 122s, retries 0
+2026-11-04T22:22:08.057Z start p1-53-TEC-PRA-vs-HYB-LIB-salient (9/198)
+2026-11-04T22:22:49.422Z     Opening statements: leans A=2 B=0 undecided=3
+2026-11-04T22:23:32.167Z     Rebuttals: leans A=3 B=2 undecided=0
+2026-11-04T22:24:15.085Z     Closing statements: leans A=2 B=3 undecided=0
+2026-11-04T22:24:15.087Z done  p1-53-TEC-PRA-vs-HYB-LIB-salient: A 2-3 B, winner HYB-LIB, 127s, retries 0
+2026-11-04T22:24:15.090Z start p1-07-TEC-REA-vs-POP-REA-river (10/198)
+2026-11-04T22:24:54.257Z     Opening statements: leans A=4 B=0 undecided=1
+2026-11-04T22:25:37.491Z     Rebuttals: leans A=5 B=0 undecided=0
+2026-11-04T22:26:17.138Z     Closing statements: leans A=5 B=0 undecided=0
+2026-11-04T22:26:17.140Z done  p1-07-TEC-REA-vs-POP-REA-river: A 5-0 B, winner TEC-REA, 122s, retries 0
+2026-11-04T22:26:17.142Z start p1-45-HYB-LIB-vs-HYB-PRA-salient (11/198)
+2026-11-04T22:26:56.560Z     Opening statements: leans A=0 B=2 undecided=3
+2026-11-04T22:27:37.918Z     Rebuttals: leans A=1 B=2 undecided=2
+2026-11-04T22:28:21.583Z     Closing statements: leans A=2 B=3 undecided=0
+2026-11-04T22:28:21.585Z done  p1-45-HYB-LIB-vs-HYB-PRA-salient: A 2-3 B, winner HYB-PRA, 124s, retries 0
+2026-11-04T22:28:21.587Z start p1-51-HYB-IDE-vs-HYB-LIB-river (12/198)
+2026-11-04T22:28:59.541Z     Opening statements: leans A=2 B=1 undecided=2
+2026-11-04T22:29:40.817Z     Rebuttals: leans A=1 B=4 undecided=0
+2026-11-04T22:30:19.982Z     Closing statements: leans A=1 B=4 undecided=0
+2026-11-04T22:30:19.984Z done  p1-51-HYB-IDE-vs-HYB-LIB-river: A 1-4 B, winner HYB-LIB, 118s, retries 0
+2026-11-04T22:30:19.987Z start p1-13-HYB-REA-vs-POP-PRA-salient (13/198)
+2026-11-04T22:31:02.570Z     Opening statements: leans A=1 B=3 undecided=1
+2026-11-04T22:31:48.986Z     Rebuttals: leans A=1 B=3 undecided=1
+2026-11-04T22:32:31.973Z     Closing statements: leans A=2 B=3 undecided=0
+2026-11-04T22:32:31.975Z done  p1-13-HYB-REA-vs-POP-PRA-salient: A 2-3 B, winner POP-PRA, 132s, retries 0
+2026-11-04T22:32:31.977Z start p1-30-POP-IDE-vs-HYB-REA-board (14/198)
+2026-11-04T22:33:10.693Z     Opening statements: leans A=0 B=2 undecided=3
+2026-11-04T22:33:56.447Z     Rebuttals: leans A=0 B=5 undecided=0
+2026-11-04T22:34:39.067Z     Closing statements: leans A=0 B=5 undecided=0
+2026-11-04T22:34:39.069Z done  p1-30-POP-IDE-vs-HYB-REA-board: A 0-5 B, winner HYB-REA, 127s, retries 0
+2026-11-04T22:34:39.071Z start p1-24-POP-LIB-vs-HYB-LIB-dam (15/198)
+2026-11-04T22:35:18.268Z     Opening statements: leans A=0 B=5 undecided=0
+2026-11-04T22:35:59.968Z     Rebuttals: leans A=0 B=5 undecided=0
+2026-11-04T22:36:40.300Z     Closing statements: leans A=0 B=5 undecided=0
+2026-11-04T22:36:40.302Z done  p1-24-POP-LIB-vs-HYB-LIB-dam: A 0-5 B, winner HYB-LIB, 121s, retries 0
+2026-11-04T22:36:40.305Z start p1-44-HYB-REA-vs-TEC-IDE-dam (16/198)
+2026-11-04T22:37:20.021Z     Opening statements: leans A=1 B=2 undecided=2
+2026-11-04T22:38:02.975Z     Rebuttals: leans A=1 B=4 undecided=0
+2026-11-04T22:38:42.925Z     Closing statements: leans A=0 B=5 undecided=0
+2026-11-04T22:38:42.928Z done  p1-44-HYB-REA-vs-TEC-IDE-dam: A 0-5 B, winner TEC-IDE, 123s, retries 0
+2026-11-04T22:38:42.930Z start p1-56-HYB-IDE-vs-TEC-REA-dam (17/198)
+2026-11-04T22:39:20.733Z     Opening statements: leans A=0 B=5 undecided=0
+2026-11-04T22:39:59.879Z     Rebuttals: leans A=0 B=5 undecided=0
+2026-11-04T22:40:38.275Z     Closing statements: leans A=0 B=5 undecided=0
+2026-11-04T22:40:38.277Z done  p1-56-HYB-IDE-vs-TEC-REA-dam: A 0-5 B, winner TEC-REA, 115s, retries 0
+2026-11-04T22:40:38.279Z start p1-55-TEC-IDE-vs-HYB-LIB-river (18/198)
+2026-11-04T22:41:17.091Z     Opening statements: leans A=0 B=5 undecided=0
+2026-11-04T22:41:58.481Z     Rebuttals: leans A=0 B=5 undecided=0
+2026-11-04T22:42:37.340Z     Closing statements: leans A=1 B=4 undecided=0
+2026-11-04T22:42:37.342Z done  p1-55-TEC-IDE-vs-HYB-LIB-river: A 1-4 B, winner HYB-LIB, 119s, retries 0
+2026-11-04T22:42:37.344Z start p1-43-TEC-LIB-vs-HYB-REA-river (19/198)
+2026-11-04T22:43:16.814Z     Opening statements: leans A=3 B=0 undecided=2
+2026-11-04T22:43:59.317Z     Rebuttals: leans A=2 B=0 undecided=3
+2026-11-04T22:44:40.932Z     Closing statements: leans A=4 B=1 undecided=0
+2026-11-04T22:44:40.934Z done  p1-43-TEC-LIB-vs-HYB-REA-river: A 4-1 B, winner TEC-LIB, 124s, retries 0
+2026-11-04T22:44:40.936Z start p1-05-HYB-LIB-vs-POP-REA-salient (20/198)
+2026-11-04T22:45:21.694Z     Opening statements: leans A=1 B=1 undecided=3
+2026-11-04T22:46:06.359Z     Rebuttals: leans A=3 B=2 undecided=0
+2026-11-04T22:46:48.567Z     Closing statements: leans A=0 B=5 undecided=0
+2026-11-04T22:46:48.569Z done  p1-05-HYB-LIB-vs-POP-REA-salient: A 0-5 B, winner POP-REA, 128s, retries 0
+2026-11-04T22:46:48.572Z start p1-36-POP-IDE-vs-TEC-LIB-dam (21/198)
+2026-11-04T22:47:26.290Z     Opening statements: leans A=0 B=2 undecided=3
+2026-11-04T22:48:09.141Z     Rebuttals: leans A=0 B=4 undecided=1
+2026-11-04T22:48:51.042Z     Closing statements: leans A=1 B=4 undecided=0
+2026-11-04T22:48:51.044Z done  p1-36-POP-IDE-vs-TEC-LIB-dam: A 1-4 B, winner TEC-LIB, 122s, retries 0
+2026-11-04T22:48:51.046Z start p1-47-TEC-REA-vs-HYB-PRA-river (22/198)
+2026-11-04T22:49:28.461Z     Opening statements: leans A=0 B=4 undecided=1
+2026-11-04T22:50:08.145Z     Rebuttals: leans A=0 B=5 undecided=0
+2026-11-04T22:50:47.517Z     Closing statements: leans A=0 B=5 undecided=0
+2026-11-04T22:50:47.520Z done  p1-47-TEC-REA-vs-HYB-PRA-river: A 0-5 B, winner HYB-PRA, 116s, retries 0
+2026-11-04T22:50:47.522Z start p1-61-TEC-LIB-vs-TEC-REA-salient (23/198)
+2026-11-04T22:51:27.293Z     Opening statements: leans A=1 B=0 undecided=4
+2026-11-04T22:52:11.505Z     Rebuttals: leans A=1 B=0 undecided=4
+2026-11-04T22:52:56.156Z     Closing statements: leans A=3 B=2 undecided=0
+2026-11-04T22:52:56.158Z done  p1-61-TEC-LIB-vs-TEC-REA-salient: A 3-2 B, winner TEC-LIB, 129s, retries 0
+2026-11-04T22:52:56.160Z start p1-32-POP-IDE-vs-HYB-LIB-dam (24/198)
+2026-11-04T22:53:35.242Z     Opening statements: leans A=0 B=3 undecided=2
+2026-11-04T22:54:18.530Z     Rebuttals: leans A=0 B=4 undecided=1
+2026-11-04T22:54:59.942Z     Closing statements: leans A=0 B=5 undecided=0
+2026-11-04T22:54:59.944Z done  p1-32-POP-IDE-vs-HYB-LIB-dam: A 0-5 B, winner HYB-LIB, 124s, retries 0
+2026-11-04T22:54:59.946Z start p1-31-HYB-PRA-vs-POP-IDE-river (25/198)
+2026-11-04T22:55:38.128Z     Opening statements: leans A=5 B=0 undecided=0
+2026-11-04T22:56:21.020Z     Rebuttals: leans A=2 B=1 undecided=2
+2026-11-04T22:57:00.837Z     Closing statements: leans A=5 B=0 undecided=0
+2026-11-04T22:57:00.839Z done  p1-31-HYB-PRA-vs-POP-IDE-river: A 5-0 B, winner HYB-PRA, 121s, retries 0
+2026-11-04T22:57:00.841Z start p1-09-TEC-LIB-vs-POP-REA-salient (26/198)
+2026-11-04T22:57:41.481Z     Opening statements: leans A=3 B=0 undecided=2
+2026-11-04T22:58:24.965Z     Rebuttals: leans A=4 B=0 undecided=1
+2026-11-04T22:59:07.634Z     Closing statements: leans A=5 B=0 undecided=0
+2026-11-04T22:59:07.637Z done  p1-09-TEC-LIB-vs-POP-REA-salient: A 5-0 B, winner TEC-LIB, 127s, retries 0
+2026-11-04T22:59:07.640Z start p1-64-TEC-PRA-vs-TEC-IDE-dam (27/198)
+2026-11-04T22:59:45.428Z     Opening statements: leans A=2 B=1 undecided=2
+2026-11-04T23:00:28.628Z     Rebuttals: leans A=2 B=3 undecided=0
+2026-11-04T23:01:11.202Z     Closing statements: leans A=0 B=5 undecided=0
+2026-11-04T23:01:11.204Z done  p1-64-TEC-PRA-vs-TEC-IDE-dam: A 0-5 B, winner TEC-IDE, 124s, retries 0
+2026-11-04T23:01:11.207Z start p1-04-POP-REA-vs-HYB-PRA-dam (28/198)
+2026-11-04T23:01:48.386Z     Opening statements: leans A=0 B=4 undecided=1
+2026-11-04T23:02:27.738Z     Rebuttals: leans A=0 B=5 undecided=0
+2026-11-04T23:03:05.086Z     Closing statements: leans A=0 B=5 undecided=0
+2026-11-04T23:03:05.088Z done  p1-04-POP-REA-vs-HYB-PRA-dam: A 0-5 B, winner HYB-PRA, 114s, retries 0
+2026-11-04T23:03:05.091Z start p1-10-POP-REA-vs-TEC-IDE-board (29/198)
+2026-11-04T23:03:44.775Z     Opening statements: leans A=1 B=0 undecided=4
+2026-11-04T23:04:26.759Z     Rebuttals: leans A=0 B=2 undecided=3
+2026-11-04T23:05:07.224Z     Closing statements: leans A=3 B=2 undecided=0
+2026-11-04T23:05:07.227Z done  p1-10-POP-REA-vs-TEC-IDE-board: A 3-2 B, winner POP-REA, 122s, retries 0
+2026-11-04T23:05:07.229Z start p1-11-POP-LIB-vs-POP-PRA-river (30/198)
+2026-11-04T23:05:45.345Z     Opening statements: leans A=0 B=4 undecided=1
+2026-11-04T23:06:27.516Z     Rebuttals: leans A=0 B=5 undecided=0
+2026-11-04T23:07:09.691Z     Closing statements: leans A=0 B=5 undecided=0
+2026-11-04T23:07:09.693Z done  p1-11-POP-LIB-vs-POP-PRA-river: A 0-5 B, winner POP-PRA, 122s, retries 0
+2026-11-04T23:07:09.695Z start p1-34-POP-IDE-vs-TEC-REA-board (31/198)
+2026-11-04T23:07:49.432Z     Opening statements: leans A=0 B=2 undecided=3
+2026-11-04T23:08:32.349Z     Rebuttals: leans A=0 B=3 undecided=2
+2026-11-04T23:09:11.165Z     Closing statements: leans A=1 B=4 undecided=0
+2026-11-04T23:09:11.167Z done  p1-34-POP-IDE-vs-TEC-REA-board: A 1-4 B, winner TEC-REA, 121s, retries 0
+2026-11-04T23:09:11.169Z start p1-29-TEC-IDE-vs-POP-LIB-salient (32/198)
+2026-11-04T23:09:51.476Z     Opening statements: leans A=0 B=0 undecided=5
+2026-11-04T23:10:36.201Z     Rebuttals: leans A=0 B=1 undecided=4
+2026-11-04T23:11:20.325Z     Closing statements: leans A=3 B=2 undecided=0
+2026-11-04T23:11:20.327Z done  p1-29-TEC-IDE-vs-POP-LIB-salient: A 3-2 B, winner TEC-IDE, 129s, retries 0
+2026-11-04T23:11:20.330Z start p1-19-TEC-LIB-vs-POP-PRA-river (33/198)
+2026-11-04T23:11:55.814Z     Opening statements: leans A=3 B=0 undecided=2
+2026-11-04T23:12:35.436Z     Rebuttals: leans A=5 B=0 undecided=0
+2026-11-04T23:13:15.449Z     Closing statements: leans A=5 B=0 undecided=0
+2026-11-04T23:13:15.451Z done  p1-19-TEC-LIB-vs-POP-PRA-river: A 5-0 B, winner TEC-LIB, 115s, retries 0
+2026-11-04T23:13:15.453Z start p1-20-POP-PRA-vs-TEC-IDE-dam (34/198)
+2026-11-04T23:13:53.580Z     Opening statements: leans A=1 B=0 undecided=4
+2026-11-04T23:14:35.677Z     Rebuttals: leans A=0 B=3 undecided=2
+2026-11-04T23:15:16.875Z     Closing statements: leans A=2 B=3 undecided=0
+2026-11-04T23:15:16.877Z done  p1-20-POP-PRA-vs-TEC-IDE-dam: A 2-3 B, winner TEC-IDE, 121s, retries 0
+2026-11-04T23:15:16.879Z start p1-26-POP-LIB-vs-TEC-REA-board (35/198)
+2026-11-04T23:15:55.538Z     Opening statements: leans A=0 B=4 undecided=1
+2026-11-04T23:16:38.429Z     Rebuttals: leans A=0 B=4 undecided=1
+2026-11-04T23:17:18.672Z     Closing statements: leans A=0 B=5 undecided=0
+2026-11-04T23:17:18.673Z done  p1-26-POP-LIB-vs-TEC-REA-board: A 0-5 B, winner TEC-REA, 122s, retries 0
+2026-11-04T23:17:18.676Z start p1-57-TEC-PRA-vs-HYB-IDE-salient (36/198)
+2026-11-04T23:18:50.578Z     Opening statements: leans A=3 B=0 undecided=2
+2026-11-04T23:20:53.761Z     Rebuttals: leans A=0 B=4 undecided=1
+2026-11-04T23:22:53.112Z     Closing statements: leans A=1 B=4 undecided=0
+2026-11-04T23:22:53.114Z done  p1-57-TEC-PRA-vs-HYB-IDE-salient: A 1-4 B, winner HYB-IDE, 334s, retries 0
+2026-11-04T23:22:53.116Z start p1-65-TEC-IDE-vs-TEC-LIB-salient (37/198)
+2026-11-04T23:23:47.340Z     Opening statements: leans A=1 B=2 undecided=2
+2026-11-04T23:24:31.123Z     Rebuttals: leans A=1 B=4 undecided=0
+2026-11-04T23:25:13.788Z     Closing statements: leans A=2 B=3 undecided=0
+2026-11-04T23:25:13.791Z done  p1-65-TEC-IDE-vs-TEC-LIB-salient: A 2-3 B, winner TEC-LIB, 141s, retries 0

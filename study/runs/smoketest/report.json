@@ -1,0 +1,313 @@
+{
+ "n": 1,
+ "votes": 5,
+ "firstShare": 0.4,
+ "bt": {
+  "POP-REA": 0,
+  "POP-PRA": 0,
+  "POP-LIB": 0,
+  "POP-IDE": 0,
+  "HYB-REA": 0,
+  "HYB-PRA": -29.190776950650122,
+  "HYB-LIB": 0,
+  "HYB-IDE": 0,
+  "TEC-REA": 0,
+  "TEC-PRA": 29.190776950650015,
+  "TEC-LIB": 0,
+  "TEC-IDE": 0
+ },
+ "btCI": {
+  "POP-REA": [
+   0,
+   0
+  ],
+  "POP-PRA": [
+   0,
+   0
+  ],
+  "POP-LIB": [
+   0,
+   0
+  ],
+  "POP-IDE": [
+   0,
+   0
+  ],
+  "HYB-REA": [
+   0,
+   0
+  ],
+  "HYB-PRA": [
+   -29.190776950650122,
+   -29.190776950650122
+  ],
+  "HYB-LIB": [
+   0,
+   0
+  ],
+  "HYB-IDE": [
+   0,
+   0
+  ],
+  "TEC-REA": [
+   0,
+   0
+  ],
+  "TEC-PRA": [
+   29.190776950650015,
+   29.190776950650015
+  ],
+  "TEC-LIB": [
+   0,
+   0
+  ],
+  "TEC-IDE": [
+   0,
+   0
+  ]
+ },
+ "fac": {
+  "first": -0.1347806872446264,
+  "s:POP": 0,
+  "s:HYB": -0.1347806872446264,
+  "s:TEC": 0.1347806872446264,
+  "i:REA": 0,
+  "i:PRA": 0,
+  "i:LIB": 0,
+  "i:IDE": 0
+ },
+ "facCI": {
+  "first": [
+   -0.1347806872446264,
+   -0.1347806872446264
+  ],
+  "s:POP": [
+   0,
+   0
+  ],
+  "s:HYB": [
+   -0.1347806872446264,
+   -0.1347806872446264
+  ],
+  "s:TEC": [
+   0.1347806872446264,
+   0.1347806872446264
+  ],
+  "i:REA": [
+   0,
+   0
+  ],
+  "i:PRA": [
+   0,
+   0
+  ],
+  "i:LIB": [
+   0,
+   0
+  ],
+  "i:IDE": [
+   0,
+   0
+  ]
+ },
+ "typeTable": {
+  "POP-REA": {
+   "debates": 0,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "votesFor": 0,
+   "votesAll": 0,
+   "firstRoundFor": 0,
+   "firstRoundAll": 0,
+   "gained": 0,
+   "lost": 0
+  },
+  "POP-PRA": {
+   "debates": 0,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "votesFor": 0,
+   "votesAll": 0,
+   "firstRoundFor": 0,
+   "firstRoundAll": 0,
+   "gained": 0,
+   "lost": 0
+  },
+  "POP-LIB": {
+   "debates": 0,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "votesFor": 0,
+   "votesAll": 0,
+   "firstRoundFor": 0,
+   "firstRoundAll": 0,
+   "gained": 0,
+   "lost": 0
+  },
+  "POP-IDE": {
+   "debates": 0,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "votesFor": 0,
+   "votesAll": 0,
+   "firstRoundFor": 0,
+   "firstRoundAll": 0,
+   "gained": 0,
+   "lost": 0
+  },
+  "HYB-REA": {
+   "debates": 0,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "votesFor": 0,
+   "votesAll": 0,
+   "firstRoundFor": 0,
+   "firstRoundAll": 0,
+   "gained": 0,
+   "lost": 0
+  },
+  "HYB-PRA": {
+   "debates": 1,
+   "wins": 0,
+   "losses": 1,
+   "ties": 0,
+   "votesFor": 2,
+   "votesAll": 5,
+   "firstRoundFor": 1,
+   "firstRoundAll": 5,
+   "gained": 2,
+   "lost": 1
+  },
+  "HYB-LIB": {
+   "debates": 0,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "votesFor": 0,
+   "votesAll": 0,
+   "firstRoundFor": 0,
+   "firstRoundAll": 0,
+   "gained": 0,
+   "lost": 0
+  },
+  "HYB-IDE": {
+   "debates": 0,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "votesFor": 0,
+   "votesAll": 0,
+   "firstRoundFor": 0,
+   "firstRoundAll": 0,
+   "gained": 0,
+   "lost": 0
+  },
+  "TEC-REA": {
+   "debates": 0,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "votesFor": 0,
+   "votesAll": 0,
+   "firstRoundFor": 0,
+   "firstRoundAll": 0,
+   "gained": 0,
+   "lost": 0
+  },
+  "TEC-PRA": {
+   "debates": 1,
+   "wins": 1,
+   "losses": 0,
+   "ties": 0,
+   "votesFor": 3,
+   "votesAll": 5,
+   "firstRoundFor": 2,
+   "firstRoundAll": 5,
+   "gained": 2,
+   "lost": 1
+  },
+  "TEC-LIB": {
+   "debates": 0,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "votesFor": 0,
+   "votesAll": 0,
+   "firstRoundFor": 0,
+   "firstRoundAll": 0,
+   "gained": 0,
+   "lost": 0
+  },
+  "TEC-IDE": {
+   "debates": 0,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "votesFor": 0,
+   "votesAll": 0,
+   "firstRoundFor": 0,
+   "firstRoundAll": 0,
+   "gained": 0,
+   "lost": 0
+  }
+ },
+ "h2h": {
+  "HYB-PRA": {
+   "TEC-PRA": {
+    "for": 2,
+    "all": 5,
+    "n": 1
+   }
+  },
+  "TEC-PRA": {
+   "HYB-PRA": {
+    "for": 3,
+    "all": 5,
+    "n": 1
+   }
+  }
+ },
+ "byScStyle": {
+  "dam": {
+   "HYB": {
+    "for": 2,
+    "all": 5
+   },
+   "TEC": {
+    "for": 3,
+    "all": 5
+   }
+  }
+ },
+ "byScIdeo": {},
+ "dynamics": {
+  "switchRate": 0.4,
+  "undecidedByRound": [
+   0.4,
+   0.2,
+   0
+  ],
+  "leaderHeld": 1,
+  "comebacks": 0,
+  "leaderN": 1
+ },
+ "dist": {
+  "5-0": 0,
+  "4-1": 0,
+  "3-2": 1
+ },
+ "energy": {
+  "hours": 0.03338805555555555,
+  "gpuWh": 3.7707232125,
+  "gpuAvgW": 112.93629262793581,
+  "gpuPeakW": 125.27,
+  "gpuAvgUtil": 83.12,
+  "maxTemp": 73,
+  "cpuAvgUtil": 27.245833333333337
+ }
+}

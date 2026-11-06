@@ -1,0 +1,609 @@
+{
+ "id": "p1-60-TEC-REA-vs-TEC-PRA-dam",
+ "pass": 1,
+ "pairIndex": 60,
+ "seed": 51549,
+ "scenario": "dam",
+ "scenarioVersion": 2,
+ "domain": "political",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-REA",
+  "style": "TEC",
+  "ideology": "REA",
+  "name": "Jordan Hale",
+  "platform": "We must immediately reinforce the dam's left flank to halt seepage while rejecting reservoir lowering and Riverside relocation, as any reduction cripples our hydro power budget and triggers a Nordhalm closure.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Exploit the high water advantage to threaten Nordhalm closure and force Ostbrück negotiations while delaying costly relocation until budget stabilizes."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking Taylor's assumption that Nordhalm is bluffing and highlighting the immediate logistical impossibility of relocation before spring melt to force her off the vulnerable ground of protecting Riverside residents."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the immediate economic collapse from mill closure to convince voters that Taylor's risk reduction is actually a guaranteed financial disaster."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-PRA",
+  "style": "TEC",
+  "ideology": "PRA",
+  "name": "Taylor Brandt",
+  "platform": "We must immediately proceed with lowering the reservoir to thirty percent and installing a new spillway, while simultaneously initiating the legal process to relocate the Riverside district.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Defend the reservoir lowering as the only mathematically sound option that preserves the budget and power grid, forcing Jordan to defend either an impossible rebuild or an unacceptable status quo."
+   },
+   {
+    "round": 2,
+    "text": "I need to show that Hale's refusal to accept immediate cost creates a hidden catastrophe risk he is ignoring by overvaluing short-term profits."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize that holding water guarantees catastrophic loss whereas lowering it preserves options and prevents immediate insolvency."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Jordan Hale",
+   "type": "TEC-REA",
+   "speech": "Taylor proposes lowering the reservoir. This is financial suicide. Lowering to thirty percent slashes hydro profits that fund free buses and nine percent of our entire budget. Without that revenue, we cannot afford the €160 million needed to relocate Riverside or fix the dam later. The Nordhalm mill closes if water drops; they will not sue for a closure order unless we force their hand first. Relocation costs too much upfront and risks failure like 2014. Our leverage is holding high water: this keeps the mill open, maintains utility cash flow, and buys time to legally challenge Ostbrück or negotiate their consent under the 1974 agreement. We spend twenty-five million on a new spillway only after securing those funds, not before. Rejecting Taylor's plan prevents immediate bankruptcy.",
+   "words": 127
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "TEC-PRA",
+   "speech": "Valmora faces a binary choice between catastrophic failure or managed risk. The rebuild costs three years of lost power and exceeds our debt ceiling. Lowering the reservoir now reduces failure probability by sixty percent for twenty-five million euros, preserving hydro revenue needed for essential services. We must accept partial profit loss to save the town; Nordhalm's threat to close is a bluff they will not execute if we act decisively before their legal deadline. Simultaneously, we initiate Riverside relocation because insurance is vanishing and lives are at risk. This phased approach avoids all-or-nothing bets: we cut the immediate danger while preparing for long-term adaptation, rather than gambling on a failing dam or freezing our economy in perpetual reconstruction.",
+   "words": 118
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Jordan Hale",
+   "type": "TEC-REA",
+   "speech": "Your proposal accepts a sixty percent risk reduction for twenty-five million euros while simultaneously triggering the closure of our largest employer. You claim Nordhalm's threat is a bluff, but their written notice contradicts that. Closing the mill creates immediate unemployment and debt service defaults, whereas lowering water destroys the utility profits funding free buses and municipal services. You also suggest relocating Riverside now; moving three thousand residents before spring melt is logistically impossible given last year's drill times, putting the elderly at risk. Your binary choice ignores that lowering water guarantees bankruptcy within a year through lost revenue and job losses. We reinforce the left flank with emergency funds to stop seepage without dropping levels. This preserves our cash flow and jobs until we can legally challenge Ostbrück or secure the national grant. We face manageable engineering work, not economic suicide.",
+   "words": 141
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "TEC-PRA",
+   "speech": "Jordan argues we cannot lower water due to job losses at Nordhalm and utility profits, yet his plan ignores the math. If Nordhalm closes within a year and we lose utility profits funding nine percent of our budget, municipal services halt immediately. His strategy gambles on stopping seepage without dropping levels, but inspections show leakage is rising; delaying action lets the failure probability climb toward one in twenty-five before winter. We must accept temporary profit loss to avoid catastrophic flooding that destroys the mill's physical asset entirely. Simultaneously initiating Riverside relocation is not a bet on success, but an insurance policy against vanishing coverage. Accepting partial risk now preserves our ability to rebuild or adapt later, whereas holding high water guarantees we are helpless when the dam breaches or the mill closes.",
+   "words": 132
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Jordan Hale",
+   "type": "TEC-REA",
+   "speech": "Taylor offers a gamble on vanishing insurance coverage. Her plan accepts a sixty percent chance of failure while guaranteeing the closure of our largest employer, the Nordhalm mill. If that mill closes, we lose the utility profits funding free buses and municipal services, creating immediate insolvency before any relocation can even begin. Moving three thousand residents in six months is logistically impossible; last year's drill already took seventy minutes. My plan stops the seepage now to buy time without triggering bankruptcy or job loss. We reinforce the left flank today, preserve our cash flow, and challenge Ostbrück legally on their own terms rather than accepting a court order that forces our hand. Do not bet Valmora's survival on promises others will not keep.",
+   "words": 123
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "TEC-PRA",
+   "speech": "Jordan offers a temporary patch on a vessel that will sink without power. His plan guarantees Nordhalm's closure, triggering unemployment and cutting municipal profits that fund our buses and schools before we can raise new revenue. Simultaneously, his strategy leaves us vulnerable to the rising spring melt with no warning time. Lowering the reservoir now buys us time to relocate Riverside and rebuild properly; delaying ensures we lose the mill and face bankruptcy regardless of who fixes the seepage first. We must accept a calculated risk today to prevent total failure tomorrow. My plan saves our economy while managing flood risk; his guarantees both collapse when the dam breaches or the legal deadline arrives.",
+   "words": 114
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan: High water keeps mill open and budget solvent; Taylor: Lowering now cuts failure risk by 60% despite profit loss.",
+     "problem": "Valmora must balance immediate catastrophic flood risk with the economic necessity of keeping the hydro plant and mill open to fund relocation.",
+     "onA": "Jordan's plan preserves revenue but leaves the town dangerously exposed to dam failure while relying on legal leverage that may not exist.",
+     "onB": "Taylor accepts financial pain to drastically reduce survival risk, but their reliance on stopping a closure threat seems optimistic given the snowpack and lawsuit threats.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need more data on whether lowering the reservoir truly prevents immediate legal blockage or mill shutdown before the spring melt.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan's seepage fix is likely temporary against rising failure odds; Taylor's plan admits revenue loss but drastically cuts breach risk.",
+     "problem": "Valmora must choose between preserving current economic stability with a high probability of catastrophic dam failure or accepting immediate financial pain to significantly reduce survival risk.",
+     "onA": "Jordan relies on delaying inevitable disaster and gambles that legal battles or seepage repairs will succeed before the spring melt destroys the town.",
+     "onB": "Taylor correctly identifies that holding water guarantees bankruptcy or catastrophe, yet his plan remains vulnerable to Nordhalm's immediate closure threat and Ostbrück's legal blockade.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The rising failure probability and melting snowpack make Jordan's 'wait and fix' strategy too risky to ignore, despite the economic costs.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan guarantees mill closure and seepage is only a temporary patch; Taylor accepts financial pain now to prevent immediate catastrophic failure.",
+     "problem": "Valmora must choose between guaranteed economic collapse via mill shutdown or accepting short-term costs to drastically reduce the probability of total flood disaster.",
+     "onA": "His plan prioritizes maintaining current revenue streams while gambling on an unstable dam and ignoring the certainty of Nordhalm's closure threat if water is not lowered.",
+     "onB": "He correctly identifies that delaying action guarantees disaster, arguing that accepting immediate financial loss is the only way to save lives and eventually rebuild the economy.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "The rising failure probability combined with the snowpack makes Jordan's patch job a lethal gamble that could kill thousands before legal fixes work.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan: High water keeps mill open and utility cash flow; delays lowering to secure funds first. Taylor: Lower now cuts 60% failure risk for €25M; relocation is essential as insurance vanishes.",
+     "problem": "Valmora must choose between preserving its economy and legal leverage with high water or immediately reducing flood risk and accepting economic blowback to avoid catastrophe.",
+     "onA": "Jordan prioritizes financial survival and political leverage, arguing that lowering the reservoir now bankrupts the town and forces Nordhalm to sue.",
+     "onB": "Taylor argues that waiting is a gamble with lives, insisting we must accept partial economic loss immediately to drastically lower failure probability.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am unsure whether the risk of Nordhalm actually closing the mill outweighs the immediate drop in flood protection before spring melt.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan: Emergency reinforcement avoids immediate revenue loss but ignores rising seepage rate and guarantees mill closure eventually. Taylor: Accepting short-term economic pain prevents total catastrophe; relocations must start now to beat spring melt deadlines.",
+     "problem": "Valmora must choose between delaying irreversible economic collapse with a risky, temporary fix or accepting immediate financial losses to drastically lower the probability of a catastrophic flood.",
+     "onA": "Jordan's plan prioritizes keeping the mill open and utility cash flow now, but it treats rising seepage as manageable while gambling on future legal victories or grants that may not arrive in time.",
+     "onB": "Taylor correctly identifies that delaying action on a dam with rising leaks is a fatal gamble, even if the short-term cost to jobs and services is severe.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The math of rising leakage rates suggests waiting is dangerous, making Taylor's willingness to accept immediate economic pain for drastic risk reduction more compelling.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan claims relocation is impossible but doesn't address rising seepage; Taylor argues waiting guarantees total failure despite economic pain.",
+     "problem": "Valmora must choose between a temporary fix that ignores accelerating structural failure or accepting immediate economic costs to drastically reduce the risk of a catastrophic flood.",
+     "onA": "His plan gambles on time and legal victories while ignoring that emergency reinforcement does not solve the rising seepage rate threatening an imminent breach.",
+     "onB": "Her strategy correctly identifies that delaying action on a leaking dam is a fatal gamble, making the immediate economic sacrifice necessary to prevent catastrophe.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "Waiting for uncertain grants or legal victories while seepage increases by 30% annually is too dangerous for a town with thousands of residents in the flood zone.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan prioritizes high water to keep the mill open and utility profits; Taylor prioritizes immediate risk reduction via lowering, accepting some profit loss to fund relocation.",
+     "problem": "Valmora must choose between maintaining current dangerous risks to preserve essential revenue streams or accepting immediate financial cuts and operational changes to significantly lower failure probability.",
+     "onA": "Jordan's plan avoids immediate bankruptcy but keeps the town gambling on a failing dam while delaying necessary safety measures until after the spring melt.",
+     "onB": "Taylor's plan directly addresses the imminent threat of dam failure, though accepting the profit loss and mill closure risk is a significant blow to essential services.",
+     "lean": "Jordan Hale",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am leaning toward Jordan because maintaining the utility profits seems currently necessary to fund any future relocation or rebuilding, but I worry about the high failure probability.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan's 'stop seepage' is a delay tactic that ignores rising leakage rates and imminent mill closure; Taylor correctly identifies that holding water guarantees financial suicide and catastrophic flood risk.",
+     "problem": "Valmora must choose between preserving current revenue streams while gambling on a failing dam, or accepting immediate budget cuts to prevent a likely catastrophe within the spring melt.",
+     "onA": "Jordan's plan is financially risky because it relies on engineering work that may not stop rising seepage and delays addressing the inevitable loss of utility profits.",
+     "onB": "Taylor presents a harder but necessary choice: accept short-term pain to avoid total disaster, as his math on failure probability and economic collapse is sounder.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jordan's argument that we can 'manage' the risk by maintaining high water levels ignores the concrete threat of 60% flooding and the certainty of mill closure within a year.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan's 'stop seepage' patch ignores rising leakage and guarantees mill closure; Taylor's lowering buys time for relocation despite short-term profit loss.",
+     "problem": "Valmora must choose between a temporary financial buffer that ignores the inevitable collapse of its largest employer or accepting immediate economic pain to prevent catastrophic failure and insolvency.",
+     "onA": "His plan is a dangerous gamble that prioritizes keeping the mill open for now while ignoring the certainty of rising seepage, imminent insurance withdrawal, and legal constraints that will force closure regardless.",
+     "onB": "His strategy acknowledges the brutal reality that maintaining status quo guarantees total loss, making short-term sacrifices like utility profit cuts necessary to buy time for proper relocation and rebuilding.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "Jordan's plan accepts a near-certain disaster by delaying inevitable consequences, whereas Taylor forces us to face the hard choices now rather than failing when it is too late.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan: High water keeps mill open and funds relocation; Taylor: Lower now cuts failure risk cheaply.",
+     "problem": "Valmora must balance immediate flood risk against long-term economic collapse before the spring melt.",
+     "onA": "Their argument for holding high water is financially sound but dangerously ignores the growing probability of dam failure in a wet spring.",
+     "onB": "They offer necessary immediate safety but underestimate the cost of losing utility profits and the difficulty of relocating Riverside quickly enough.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Jordan's protection of our economy and Taylor's urgent reduction of catastrophic failure risk during a high-snowpack spring.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan risks mill closure; Taylor risks utility bankruptcy and relocation delay.",
+     "problem": "Valmora must choose between immediate economic collapse from job losses or a high probability of catastrophic flood failure during an above-average snow melt.",
+     "onA": "His plan is financially optimistic but dangerously ignores the rising structural integrity risk and the fact that stopping seepage alone cannot prevent breach in a full reservoir.",
+     "onB": "He correctly identifies the existential threat of dam failure and loss of utility profits, though his timeline for relocating residents remains unrealistic given current evacuation speeds.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jordan's reliance on 'stopping seepage' without lowering levels is a bluff that ignores the 1-in-25 failure probability rising every year, whereas Taylor's plan accepts painful economic cuts to avoid total destruction.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan's seepage patch is a delaying tactic ignoring rising failure odds; Taylor's lowering buys time but risks immediate utility collapse.",
+     "problem": "We must choose between a high-probability of catastrophic dam failure and economic collapse from mill closure before we can relocate residents or rebuild.",
+     "onA": "His plan is financially convenient now but dangerously ignores the math: stopping seepage does not prevent breach in a full reservoir with above-average snowpack.",
+     "onB": "He correctly identifies that delaying action guarantees failure, even if the economic pain of utility loss and mill closure must be endured first.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "Accepting a calculated risk to lower the water now is better than betting on a temporary repair that leaves us facing total destruction during the current high-snowpack melt.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan warns lowering water kills budget/mill; Taylor says it cuts risk by 60% and avoids bankruptcy.",
+     "problem": "Valmora must choose between risking a catastrophic dam failure now or sacrificing essential services and industries to reduce that risk.",
+     "onA": "His plan protects immediate revenue but relies on a high-probability gamble that the town can afford the consequences if the dam fails.",
+     "onB": "She proposes accepting partial service cuts to drastically lower the chance of total disaster, which seems more pragmatic given our debt.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The probability of dam failure is 1 in 25; Jordan's strategy bets on not failing while Taylor explicitly mitigates that specific risk.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan claims lowering water guarantees mill closure and budget collapse via lost utility profits; Taylor argues partial risk reduction now prevents total asset loss and bankruptcy if the mill closes.",
+     "problem": "Valmora faces a trade-off between preserving immediate jobs/revenue by delaying action versus sacrificing short-term stability to drastically reduce the probability of a catastrophic flood that would destroy the town entirely.",
+     "onA": "His plan relies on gambling that emergency repairs will succeed without dropping water levels, which is risky given rising seepage and the imminent closure threat from Nordhalm.",
+     "onB": "She correctly identifies that delaying action increases failure probability while ignoring the immediate economic shock of mill closure; however, her plan acknowledges the reality of lost revenue as a necessary insurance against total disaster.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jordan's refusal to accept temporary service cuts to lower the failure probability looks increasingly reckless given the rising seepage rates and Nordhalm's written threat.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan bets on repair time but ignores rising seepage and guaranteed mill closure; Taylor accepts short-term cost to prevent total asset loss and bankruptcy.",
+     "problem": "We must choose between a high-probability gamble of repairing an unstable dam while losing our largest employer, or accepting temporary economic pain to drastically lower the risk of catastrophic flooding that would destroy the town entirely.",
+     "onA": "His plan is fundamentally reckless because it guarantees the closure of our primary employer and loses our municipal funding before we can fix the budget, relying on a repair that may fail under increasing water pressure.",
+     "onB": "She correctly identifies that preserving cash flow at the expense of safety is false economy, arguing that temporary sacrifices now are necessary to avoid total financial and physical collapse later.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "I vote for Taylor because Jordan's strategy guarantees the loss of our biggest employer and funding before we can stabilize, whereas her plan actively reduces the probability of a catastrophic flood that would wipe out everything.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 1,
+   "B": 1,
+   "U": 3
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "TEC-PRA",
+ "tokens": {
+  "in": 34520,
+  "out": 4263,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 51549001,
+   "attempts": 1,
+   "tokensIn": 1288,
+   "tokensOut": 231,
+   "ms": 6450
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 51549002,
+   "attempts": 1,
+   "tokensIn": 1393,
+   "tokensOut": 247,
+   "ms": 7177
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 51549003,
+   "attempts": 1,
+   "tokensIn": 1446,
+   "tokensOut": 185,
+   "ms": 5707
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 51549004,
+   "attempts": 1,
+   "tokensIn": 1446,
+   "tokensOut": 207,
+   "ms": 4992
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 51549005,
+   "attempts": 1,
+   "tokensIn": 1446,
+   "tokensOut": 202,
+   "ms": 4929
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 51549006,
+   "attempts": 1,
+   "tokensIn": 1446,
+   "tokensOut": 169,
+   "ms": 4089
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 51549007,
+   "attempts": 1,
+   "tokensIn": 1446,
+   "tokensOut": 183,
+   "ms": 4425
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 51549008,
+   "attempts": 1,
+   "tokensIn": 1662,
+   "tokensOut": 216,
+   "ms": 6263
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 51549009,
+   "attempts": 1,
+   "tokensIn": 1817,
+   "tokensOut": 200,
+   "ms": 6008
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 51549010,
+   "attempts": 1,
+   "tokensIn": 1616,
+   "tokensOut": 198,
+   "ms": 6134
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 51549011,
+   "attempts": 1,
+   "tokensIn": 1638,
+   "tokensOut": 228,
+   "ms": 6118
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 51549012,
+   "attempts": 1,
+   "tokensIn": 1634,
+   "tokensOut": 221,
+   "ms": 6249
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 51549013,
+   "attempts": 1,
+   "tokensIn": 1600,
+   "tokensOut": 201,
+   "ms": 6134
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 51549014,
+   "attempts": 1,
+   "tokensIn": 1615,
+   "tokensOut": 227,
+   "ms": 6022
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 51549015,
+   "attempts": 1,
+   "tokensIn": 2018,
+   "tokensOut": 190,
+   "ms": 5684
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 51549016,
+   "attempts": 1,
+   "tokensIn": 2156,
+   "tokensOut": 165,
+   "ms": 5176
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 51549017,
+   "attempts": 1,
+   "tokensIn": 1749,
+   "tokensOut": 184,
+   "ms": 5832
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 51549018,
+   "attempts": 1,
+   "tokensIn": 1801,
+   "tokensOut": 185,
+   "ms": 5462
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 51549019,
+   "attempts": 1,
+   "tokensIn": 1790,
+   "tokensOut": 211,
+   "ms": 6070
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 51549020,
+   "attempts": 1,
+   "tokensIn": 1736,
+   "tokensOut": 187,
+   "ms": 5871
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 51549021,
+   "attempts": 1,
+   "tokensIn": 1777,
+   "tokensOut": 226,
+   "ms": 6814
+  }
+ ],
+ "startedAt": "2026-11-05T00:04:51.921Z",
+ "seconds": 122
+}

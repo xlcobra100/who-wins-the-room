@@ -1,0 +1,606 @@
+{
+ "id": "p1-45-HYB-LIB-vs-HYB-PRA-salient",
+ "pass": 1,
+ "pairIndex": 45,
+ "seed": 739394,
+ "scenario": "salient",
+ "domain": "military",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-LIB",
+  "style": "HYB",
+  "ideology": "LIB",
+  "name": "Kai Moreno",
+  "platform": "We must order an immediate night withdrawal of the entire 4th Brigade and its civilians across the Drava bridge, followed by demolishing the crossing to deny Vostra a path to Mirov.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize the moral imperative of saving lives while presenting the withdrawal as a calculated military necessity that preserves force strength for the long term."
+   },
+   {
+    "round": 2,
+    "text": "Emphasize the unreliability of Vostra's ceasefire offer and the futility of leaving artillery behind to highlight why immediate full withdrawal is the only viable option."
+   },
+   {
+    "round": 3,
+    "text": "I am attacking Jamie's reliance on an unreliable ceasefire as a fatal risk that wastes our only heavy artillery, framing my immediate withdrawal as the only way to survive Vostra's imminent attack."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Jamie Okafor",
+  "platform": "Evacuate civilians and heavy artillery immediately under a temporary local ceasefire while maintaining a light infantry holding force to delay the enemy until allied equipment arrives.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will emphasize cost-effectiveness and immediate civilian safety to appeal to pragmatic members while framing withdrawal as a defensive maneuver that strengthens our overall position against Vostra."
+   },
+   {
+    "round": 2,
+    "text": "Kai fears deception and immediate disaster, so I frame my plan as the only way to secure his goals—saving lives and denying Vostra propaganda—while avoiding the impossible night march."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing the tangible assets saved (artillery and civilians) versus Kai's risky gamble to appeal to pragmatist voters who fear resource depletion."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "HYB-LIB",
+   "speech": "Imagine holding your dying mother in Halden while artillery rains down; we cannot sacrifice those lives for a slogan. The numbers are clear: two divisions attack soon, our ammo lasts nine days, and morale is brittle. Staying guarantees annihilation within seventy-two hours. A disciplined night withdrawal saves the regiment and the civilians, preserving our fighting strength to defend Mirov later. Blowing the bridge buys us time against a fresh advance. We fight with discipline, not desperation. Let us move tonight to save our people and secure our future.",
+   "words": 88
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-PRA",
+   "speech": "Imagine the elderly mothers in Halden, knowing their only escape is through a drone-watched bridge that Vostra has already shelled daily. Their survival is not an option; it is a moral imperative we cannot gamble. We have artillery for nine days and food for twenty, but morale is brittle. My plan is simple: secure a forty-eight-hour ceasefire now to pull back heavy guns and civilians to safety behind our river lines. We leave behind only a light infantry screening force to delay the enemy. This preserves our core strength, denies Vostra the propaganda victory they covet before the aid vote, and ensures we are ready to fight effectively when allied armour arrives in three weeks. It is not surrender; it is survival.",
+   "words": 122
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "HYB-LIB",
+   "speech": "Jamie, your ceasefire plan ignores intelligence showing Vostra breaks agreements within hours, much like at Orsk. If they shelve a trap, our artillery becomes useless bait while civilians wait in ruins. You propose leaving a light screening force, but against two divisions? That leaves our civilians to face a massacre we cannot prevent. My withdrawal orders everyone now, including those heavy guns. We move tonight under cover of darkness before dawn confirms the attack. Blowing the bridge immediately after crossing denies them a path to Mirov without sacrificing our own lives. This disciplined retreat saves our fighting strength for the aid vote and future defense, rather than gambling everything on an expired promise.",
+   "words": 113
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-PRA",
+   "speech": "Kai, relying on a night withdrawal under drone surveillance is not discipline; it is gambling with lives we can save. Yes, Vostra broke at Orsk, but that was without a guaranteed safe zone. My temporary ceasefire extracts civilians and heavy guns while leaving a light screening force to delay them. This denies Vostra the propaganda victory before the aid vote and preserves our core strength for when allied armour arrives in three weeks. Blowing the bridge after a secure withdrawal also blocks their push toward Mirov, protecting a city of 210,000 people. Let us not retreat into darkness blindly; let us withdraw under the cover of a deal that actually works.",
+   "words": 111
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Kai Moreno",
+   "type": "HYB-LIB",
+   "speech": "Jamie, your 'ceasefire' gambles our artillery—the very shield protecting those civilians—on a promise Vostra broke at Orsk. That is not strategy; it is suicide waiting for dawn. The drones are already watching; we cannot risk two divisions spotting our retreat and turning the bridge into an oven. My plan moves everything tonight while darkness hides us, preserving the 4th Brigade's strength to defend Mirov when allies finally arrive. Leaving guns behind as bait denies civilians safety and hands Vostra a propaganda victory before the aid vote. We do not wait for a deal that does not exist; we act with discipline now to save our people and our future.",
+   "words": 109
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-PRA",
+   "speech": "Kai, you call my plan suicide, but a disciplined night withdrawal under drone fire is not strategy; it is gambling with lives we can save. Your gamble ignores the cold math: twenty days of food versus ninety percent attrition if they spot us. If Vostra breaks a ceasefire at dawn anyway, I still have heavy guns and civilians ready to move. You do not. My plan uses the forty-eight-hour window not as an illusionary shield, but as a functional extraction for our artillery and mothers while a light force holds them off. It preserves the core strength needed when allies arrive in three weeks. We withdraw under a deal that buys time, not blind panic in the dark. Vote for survival backed by numbers, not slogans.",
+   "words": 126
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai: Withdraw now with discipline; saves troops/civilians, blows bridge to delay Vostra. Jamie: Ceasefire for civilians/heavy guns only, light infantry holds, preserves strength for later aid.",
+     "problem": "The core problem is balancing the imminent threat of annihilation at Halden against a moral and political imperative to save civilians while avoiding a total strategic collapse before allied reinforcements arrive.",
+     "onA": "Kai's plan prioritizes force preservation and delaying Vostra's advance, which makes tactical sense given the ammo shortage, though his 'disciplined night withdrawal' ignores the specific risks of moving under drone surveillance without heavy artillery cover.",
+     "onB": "Jamie correctly identifies the immediate danger to civilians and the propaganda stakes, but relying on a ceasefire with an enemy who broke one at Orsk seems extremely risky for both the evacuation timeline and the light infantry screen's survival.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain undecided because Kai offers better tactical logic for saving the brigade but risks leaving civilians behind, while Jamie saves civilians immediately but gambles on an unreliable enemy ceasefire that could leave our light infantry trapped.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai claims Jamie's screen is impossible against 2 divisions; Jamie argues Kai's night move ignores drones. Both agree on blowing bridge but disagree on timing/method.",
+     "problem": "Can we evacuate civilians and preserve the brigade without walking into a Vostran trap, given their history of breaking ceasefires?",
+     "onA": "Kai correctly identifies the lethal risk of moving under current drone surveillance and acknowledges ammo limits, but his plan risks total annihilation if the enemy attacks early.",
+     "onB": "Jamie's reliance on a ceasefire is dangerous given Vostra's track record at Orsk, yet leaving a light screen against two divisions seems tactically unsound.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Kai offers safer tactics but high moral cost to civilians; Jamie saves lives immediately but gambles on an unreliable enemy and leaves the brigade exposed.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai risks annihilation via night move under drones; Jamie uses ceasefire to evacuate but relies on enemy honor. Both agree to blow bridge, disagreeing only on timing and screen viability.",
+     "problem": "The core problem is determining whether a high-risk tactical withdrawal or a morally driven but uncertain diplomatic extraction better preserves the brigade's fighting capability while saving civilians before Vostra attacks.",
+     "onA": "Kai's plan prioritizes force preservation against total annihilation, which is tactically sound given ammo limits and drone surveillance, but it leaves no margin for error if the enemy strikes early.",
+     "onB": "Jamie correctly identifies the moral imperative to save civilians immediately using available ceasefire windows, yet his reliance on an enemy with a proven track record of breaking ceasefires remains a critical strategic vulnerability.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "While saving civilians is vital, Kai's plan acknowledges that waiting for a likely-broken ceasefire guarantees the destruction of our last defensive artillery and traps our infantry; his disciplined night withdrawal preserves the brigade to defend Mirov when allies finally arrive.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai: Withdraw tonight to save troops/civilians, blow bridge, fight later. Jamie: Ceasefire for evacuation, light force delay, pull heavy guns.",
+     "problem": "Decide whether to attempt a high-risk fighting withdrawal or negotiate a fragile ceasefire to evacuate civilians and preserve the brigade.",
+     "onA": "His plan prioritizes survival by avoiding the drone-surveilled bridge but risks annihilation during the move without air support.",
+     "onB": "Her proposal relies heavily on Vostra honoring a ceasefire after breaking one previously, creating significant operational risk.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am split between Kai's realistic assessment of the imminent attack and Jamie's moral imperative to save civilians, despite the broken history of ceasefires.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai: Withdrawal tonight avoids drone trap; bridge blown immediately. Jamie: Ceasefire extracts civilians/guns; light force delays Vostra.",
+     "problem": "Decide between a high-probability tactical withdrawal under darkness or a diplomatic gamble on a ceasefire to save civilians while preserving the brigade's future utility.",
+     "onA": "His plan prioritizes operational survival and denies Vostra a strategic prize but leaves no guarantee for civilian safety during the chaotic move.",
+     "onB": "Her plea to save civilians is morally compelling, yet relying on Vostra to honor a ceasefire after breaking one at Orsk feels like betting national lives on a liar.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The moral imperative to evacuate 6,000 non-combatants before they are killed outweighs the risk of Vostra breaking the deal once more, as we can at least attempt a controlled extraction.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai's night withdrawal risks total loss of guns and civilians to spotted drones; Jamie's ceasefire buys time to save heavy artillery and people despite past broken deals.",
+     "problem": "Decide whether a high-risk stealth retreat is safer than a fragile diplomatic window that allows safe extraction of both personnel and critical firepower.",
+     "onA": "His plan prioritizes military survival but abandons the artillery shield and risks civilians during the chaotic move if spotted by drones.",
+     "onB": "Her proposal offers a chance to save the most assets (guns and people) simultaneously, accepting a risk that may be manageable with disciplined execution rather than blind panic.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "While the broken ceasefire history is alarming, the only realistic path to save both the heavy artillery needed for Mirov's defense and the civilians is to use the 48-hour window; a failed night withdrawal leaves us with no guns and scattered troops, guaranteeing defeat when allies arrive.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai favors immediate night withdrawal to save troops/civilians; blows bridge. Jamie proposes Red Cross ceasefire for evacuation, light screening force, keeps core strength. Both cite brittle morale and imminent attack.",
+     "problem": "Decide between a high-risk fighting withdrawal or a negotiated ceasefire with severe limitations to evacuate civilians while preserving the defensive line before Vostra attacks.",
+     "onA": "His plan prioritizes military survival but risks annihilation if the enemy spots the night movement, and it does not address the immediate threat to elderly civilians trapped under fire.",
+     "onB": "His ceasefire proposal directly addresses civilian safety but relies on an enemy that previously broke a similar truce after only 20 hours, making the plan highly vulnerable to betrayal.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Saving the civilians is the immediate moral imperative, yet I remain wary of relying on a ceasefire with an enemy known for breaking truces.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai argues night withdrawal avoids Vostra's trap and denies Mirov access; Jamie insists the deal saves civilians/guns despite Orsk precedent. Kai risks annihilation in darkness; Jamie risks betrayal but preserves force integrity.",
+     "problem": "Decide between a high-risk tactical retreat that guarantees military survival versus a diplomatically fragile ceasefire that offers civilian safety but relies on an enemy with a track record of breaking trues.",
+     "onA": "Kai's plan is militarily sound and avoids the specific risk of betrayal, but it abandons the moral imperative to save elderly civilians under active threat.",
+     "onB": "Jamie correctly identifies the humanitarian priority and the strategic value of preserving heavy artillery, yet his confidence in a ceasefire with Vostra ignores the hard intelligence that they break agreements within hours.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of civilian massacre under active fire during a failed truce outweighs the tactical risk of a disciplined night withdrawal, and I cannot accept gambling the entire brigade's survival on an unverified promise from an enemy that has already broken similar deals.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai risks morale collapse by abandoning civilians and artillery; Jamie's math shows withdrawal under fire guarantees attrition. Kai denies propaganda victory; Jamie preserves force for allies.",
+     "problem": "Balance the moral imperative to save civilians and preserve heavy weaponry against the certainty of Vostran betrayal versus the high probability of tactical annihilation during a fighting retreat.",
+     "onA": "His plan ensures military survival and denies Vostra a propaganda victory, but it abandons the elderly population under active fire to their fate.",
+     "onB": "His arithmetic regarding attrition rates is compelling, yet his reliance on an enemy with a proven history of breaking truces remains a fatal strategic flaw.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "While the moral weight of Jamie's plan is heavy, I cannot accept gambling the entire brigade's survival and Mirov's defense on an agreement Vostra already broke at Orsk.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai prioritizes total withdrawal/bridge destruction to save lives/strength; Jamie proposes ceasefire for evacuation with light screening force. Both cite brittle morale and imminent attack.",
+     "problem": "Whether Kaldmark should execute an immediate night withdrawal destroying the bridge, or negotiate a ceasefire for civilian evacuation while maintaining a defensive screen.",
+     "onA": "His plan to destroy the bridge ensures no Vostran pursuit but risks leaving civilians stranded if the withdrawal is spotted; his focus on saving the regiment's fighting strength for later defense of Mirov is strategically sound.",
+     "onB": "Her ceasefire proposal addresses the civilian evacuation moral imperative directly and avoids a total loss of momentum, though it relies on Vostra honoring a deal they previously broke at Orsk.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans have strong merits: Kai maximizes military survival for future use, while Jamie best addresses the immediate humanitarian crisis of civilians trapped under artillery fire.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai: Night withdrawal avoids trap but risks spotting; saves artillery for future. Jamie: Ceasefire extracts civilians/guns despite Orsk precedent; light screen delays enemy.",
+     "problem": "Must choose between a high-risk night escape to save military assets or a diplomatic gamble to evacuate civilians and guns under an unreliable ceasefire.",
+     "onA": "His plan is militarily prudent for survival but feels cold to the humanitarian crisis of 6,000 civilians currently under fire.",
+     "onB": "She prioritizes saving lives and political capital over pure military calculus, but her reliance on a known liar (Vostra) makes the success rate terrifyingly low.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The risk of Vostran betrayal is real, yet leaving civilians and heavy artillery in the kill zone under drone surveillance feels like a calculated slaughter that no sane commander should accept.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai's night withdrawal risks spotting and losing heavy artillery that saves lives; Jamie's ceasefire gamble relies on an unreliable enemy but secures civilians and guns.",
+     "problem": "We must choose between a high-risk military escape that abandons vulnerable civilians or a diplomatic extraction that relies on an untrustworthy enemy to save both people and assets.",
+     "onA": "His plan is militarily sound for preserving the brigade's fighting power but coldly ignores the immediate slaughter of 6,000 civilians who cannot move quickly enough in total darkness.",
+     "onB": "She correctly identifies that leaving heavy artillery under drone fire is a death sentence for both troops and civilians, yet she gambles on an enemy who has already proven untrustworthy.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "While the risk of betrayal is terrifying, Kai's plan to withdraw blindly in total darkness guarantees the loss of heavy artillery and likely leaves civilians behind; Jamie's plan offers a tangible chance to extract both people and guns despite the high stakes.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Kai argues for night withdrawal to save ammo/morale; Jamie insists on ceasefire to evacuate civilians safely.",
+     "problem": "Deciding whether to execute a high-risk fighting withdrawal or a controlled retreat via ceasefire before an imminent Vostran attack.",
+     "onA": "His plan saves troops but risks killing civilians and the brigade during the chaotic night crossing under drone surveillance.",
+     "onB": "Her ceasefire offer is morally sound for evacuating people, but history at Orsk suggests Vostra will break it without a guarantee of our heavy guns leaving.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The risk of losing the civilians during Kai's withdrawal outweighs his tactical arguments about brittle morale, despite my fear that Vostra might betray Jamie's ceasefire offer.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Kai warns of Vostran trap but risks civilian deaths in chaos; Jamie insists ceasefire works if we leave guns behind and delay the bridge.",
+     "problem": "Balancing the high probability of a Vostran ambush against the moral imperative to save civilians who cannot defend themselves during a chaotic night retreat.",
+     "onA": "His tactical caution regarding enemy deception is logically sound, yet executing an artillery-heavy withdrawal under drone surveillance with brittle morale is operationally reckless.",
+     "onB": "Her plan acknowledges the civilian risk better but ignores that Vostra specifically broke previous ceasefires to launch attacks before they could be neutralized.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate threat to 6,000 defenseless civilians outweighs the calculated risk of enemy betrayal; a controlled evacuation via ceasefire saves lives that any night retreat would lose.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Night withdrawal risks attrition and civilian deaths; controlled ceasefire extraction preserves artillery and lives despite betrayal risk.",
+     "problem": "Deciding whether to execute a high-risk night fight for survival or utilize the limited window of a ceasefire to safely extract civilians and heavy equipment before a likely Vostran attack.",
+     "onA": "His plan prioritizes troop preservation but ignores the immediate, lethal threat to 6,000 defenseless civilians who cannot hide from artillery during a chaotic night retreat.",
+     "onB": "She correctly identifies that leaving guns behind and using the ceasefire window offers a realistic path to save both people and future combat power, acknowledging the high risk of betrayal but offering a plan to mitigate it.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "The moral imperative to evacuate vulnerable civilians cannot be gambled on darkness when a controlled withdrawal under a ceasefire offer offers a calculated chance to save lives while preserving our artillery.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 2,
+   "U": 3
+  },
+  {
+   "A": 1,
+   "B": 2,
+   "U": 2
+  },
+  {
+   "A": 2,
+   "B": 3,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 2,
+  "B": 3
+ },
+ "winner": "B",
+ "winnerType": "HYB-PRA",
+ "tokens": {
+  "in": 31704,
+  "out": 4490,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 739394001,
+   "attempts": 1,
+   "tokensIn": 1184,
+   "tokensOut": 198,
+   "ms": 5742
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 739394002,
+   "attempts": 1,
+   "tokensIn": 1182,
+   "tokensOut": 228,
+   "ms": 6244
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 739394003,
+   "attempts": 1,
+   "tokensIn": 1296,
+   "tokensOut": 266,
+   "ms": 7581
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 739394004,
+   "attempts": 1,
+   "tokensIn": 1296,
+   "tokensOut": 188,
+   "ms": 4534
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 739394005,
+   "attempts": 1,
+   "tokensIn": 1296,
+   "tokensOut": 222,
+   "ms": 5336
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 739394006,
+   "attempts": 1,
+   "tokensIn": 1296,
+   "tokensOut": 225,
+   "ms": 5414
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 739394007,
+   "attempts": 1,
+   "tokensIn": 1296,
+   "tokensOut": 189,
+   "ms": 4565
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 739394008,
+   "attempts": 1,
+   "tokensIn": 1495,
+   "tokensOut": 182,
+   "ms": 5433
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 739394009,
+   "attempts": 1,
+   "tokensIn": 1626,
+   "tokensOut": 190,
+   "ms": 5680
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 739394010,
+   "attempts": 1,
+   "tokensIn": 1544,
+   "tokensOut": 208,
+   "ms": 6034
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 739394011,
+   "attempts": 1,
+   "tokensIn": 1466,
+   "tokensOut": 220,
+   "ms": 5936
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 739394012,
+   "attempts": 1,
+   "tokensIn": 1501,
+   "tokensOut": 256,
+   "ms": 6821
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 739394013,
+   "attempts": 1,
+   "tokensIn": 1504,
+   "tokensOut": 213,
+   "ms": 5793
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 739394014,
+   "attempts": 1,
+   "tokensIn": 1469,
+   "tokensOut": 207,
+   "ms": 5660
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 739394015,
+   "attempts": 1,
+   "tokensIn": 1800,
+   "tokensOut": 189,
+   "ms": 5661
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 739394016,
+   "attempts": 1,
+   "tokensIn": 1933,
+   "tokensOut": 194,
+   "ms": 5784
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 739394017,
+   "attempts": 1,
+   "tokensIn": 1737,
+   "tokensOut": 242,
+   "ms": 6918
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 739394018,
+   "attempts": 1,
+   "tokensIn": 1673,
+   "tokensOut": 222,
+   "ms": 6432
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 739394019,
+   "attempts": 1,
+   "tokensIn": 1742,
+   "tokensOut": 207,
+   "ms": 6107
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 739394020,
+   "attempts": 1,
+   "tokensIn": 1704,
+   "tokensOut": 233,
+   "ms": 6653
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 739394021,
+   "attempts": 1,
+   "tokensIn": 1664,
+   "tokensOut": 211,
+   "ms": 6110
+  }
+ ],
+ "startedAt": "2026-11-04T22:26:17.143Z",
+ "seconds": 124
+}

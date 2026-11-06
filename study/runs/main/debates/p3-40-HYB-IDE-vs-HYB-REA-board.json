@@ -1,0 +1,609 @@
+{
+ "id": "p3-40-HYB-IDE-vs-HYB-REA-board",
+ "pass": 3,
+ "pairIndex": 40,
+ "seed": 284973,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-IDE",
+  "style": "HYB",
+  "ideology": "IDE",
+  "name": "Quinn Marlow",
+  "platform": "We must reject the sale to Crestline and instead reinvest heavily in Volt-One while securing our Lenhart factory through a community partnership.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to emotional values and long-term risk of PE firms to sway directors who fear job losses."
+   },
+   {
+    "round": 2,
+    "text": "I am framing Drew's immediate cash safety as actually risky due to looming tariffs and their own track record of factory closures."
+   },
+   {
+    "round": 3,
+    "text": "Appeal to the directors' ethical conscience while emphasizing that Crestline's track record makes their financial offer a hidden trap rather than a safety net."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-REA",
+  "style": "HYB",
+  "ideology": "REA",
+  "name": "Drew Halvorsen",
+  "platform": "We must immediately accept Crestline Capital's offer to sell the company at a 40% premium.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Push hard for a quick sale as the only viable option given the looming covenant breach and union pressure."
+   },
+   {
+    "round": 2,
+    "text": "Highlight HomeMart's threat as an immediate cash crisis that overrides tariff fears, while framing Crestline's payment structure as the only way to guarantee Maria's pension and survive the nine-month covenant deadline."
+   },
+   {
+    "round": 3,
+    "text": "I must dismantle Quinn's reliance on uncertain future benefits by emphasizing that Crestline provides immediate liquidity for HomeMart, pensions, and debt relief."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Quinn Marlow",
+   "type": "HYB-IDE",
+   "speech": "Think of Maria, a mother in Lenhart whose pension fund is already €140 million short. Selling to Crestline hands her fate to a firm that closes factories in four years. That ends our story, not saves it. We choose courage over cash: we reject the €900 million debt distress by accepting tough short-term costs to build Volt-One, the tool professional builders already rate highest. This honors our 'made here' promise and secures Maria's future. Yes, the margin is tight now, but selling destroys our soul and leaves us bankrupt in five years. We invest in our people, launch our technology, and become a company that earns respect rather than one that flees it.",
+   "words": 113
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "HYB-REA",
+   "speech": "Look around this room. We have nine months before our banks force our hands, and HomeMart demands we slash prices or lose our biggest customer. Promises from the mayor and the union are just words until they are in a contract. Our only guaranteed safety is cash. Crestline buys us today for 40% more than we are worth right now. They take on the debt, close the loss-making factories, and handle the severance costs we cannot afford. Yes, our brand changes, but survival depends on who holds the checks, not who holds the vision. We need certainty to pay the pension deficit and keep the lights on. Let us sell while we still can.",
+   "words": 114
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Quinn Marlow",
+   "type": "HYB-IDE",
+   "speech": "Drew, selling today buys a decade of silence while Crestline dismantles our soul. But your math ignores the trade ministry's potential fifteen percent tariff on imports. That alone could erase their cost advantages overnight. Our Volt-One platform already dominates professional builder tests; now we simply need time to launch it alongside our Lenhart factory. The mayor offered forty million in tax relief specifically to keep jobs here, and the union wants a guarantee of continuity, not an exit strategy. By betting on our people and our technology, we avoid the four-year closure cycle you witnessed at Crestline's previous deals. We do not sell our future for a premium that expires; we build a company that earns respect while saving Maria's pension.",
+   "words": 121
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "HYB-REA",
+   "speech": "Maria's future depends on cash in hand, not promises from a regulator or an equity firm with a track record of closures. You cite the potential tariff as a risk we must hedge against, but ignoring HomeMart's demand for a price cut is a guaranteed death sentence that leaves us no capital to pay pensions regardless of tariffs. Quinn speaks of soul; I speak of solvency. Crestline takes our €900 million debt and pays the €140 million pension deficit immediately, freeing us from bankruptcy within nine months. Waiting eighteen months for Volt-One to launch while burning through reserves is a gamble we cannot afford. The premium Crestline offers today buys Maria her pension and allows us to navigate the tariff uncertainty with liquidity, not just hope. Let us secure our survival by accepting the offer before time runs out.",
+   "words": 139
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Quinn Marlow",
+   "type": "HYB-IDE",
+   "speech": "Drew, your solvency is cold math that ignores human dignity. You claim Crestline secures Maria's pension, yet their history proves they liquidate assets in four years anyway. That is not security; it is a guaranteed foreclosure on our soul. HomeMart will not save us by stripping our value down to raw materials. Instead, we accept the short-term pain of reinvesting in Volt-One because true survival lies in building a company that earns respect, not fleeing it. We stand with the workers who built our reputation for ninety-two years. Do not let fear of the next quarter blind you to the only future worth fighting for: one where we lead, we innovate, and we keep our promise to Lenhart.",
+   "words": 118
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "HYB-REA",
+   "speech": "Quinn, your vision for Volt-One is noble, but it ignores the hard math: HomeMart demands a price cut or exits in months. Without their revenue, we cannot fund development regardless of test scores. Your plan relies on an uncertain tariff and promises from the union that expire when contracts do. Crestline offers immediate certainty. They pay the €140 million pension deficit today so Maria gets her money now, not a promise from a future buyer. They absorb our debt, shielding us from bank restructuring. A premium sale gives us cash to handle HomeMart's demands without bleeding out. We cannot bet on goodwill when bankruptcy is nine months away. Take the offer, settle with banks, and ensure every worker receives their earned pension immediately.",
+   "words": 123
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn prioritizes brand soul and Volt-One investment despite debt risk; Drew prioritizes immediate cash certainty and selling to Crestline to avoid forced closure.",
+     "problem": "The core problem is choosing between fighting for a high-risk operational turnaround that honors the 'made here' promise versus accepting an immediate financial bailout that likely entails factory closures and brand loss.",
+     "onA": "Quinn's emotional appeal to workers and brand identity is noble, but her refusal to address the imminent covenant breach with the €900M debt seems dangerously unrealistic given HomeMart's threat.",
+     "onB": "Drew's focus on immediate liquidity and selling while we still have leverage is financially pragmatic, though his dismissal of union/mayor promises feels cynical.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between the existential threat of debt/covenant breach which favors Drew's sale, and the strategic risk that selling to a PE firm with a track record of closures violates the company's core identity.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn cites tariff risk and Volt-One dominance but ignores immediate covenant breach; Drew highlights pension solvency via sale yet dismisses local stability offers.",
+     "problem": "The core conflict is choosing between a high-risk organic turnaround that risks insolvency before the tariff decision and a certain financial rescue that guarantees factory closures and brand destruction within four years.",
+     "onA": "Her argument relies on future uncertainties like tariffs which might materialize, but her plan fails to address the guaranteed death sentence of missing loan covenants in nine months or losing HomeMart's distribution channel.",
+     "onB": "His focus on immediate liquidity and solving the pension deficit is financially responsible, yet his assumption that selling to a PE firm with a history of closures is the only safe option ignores the possibility of restructuring without total liquidation.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn because Drew's math saves the pension fund today but sacrifices the company's soul, while Quinn risks bankruptcy if tariffs don't hit or HomeMart switches brands before Volt-One launches.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn's moral stance ignores imminent covenant breach; Drew's immediate liquidity solves pension crisis despite PE track record.",
+     "problem": "The core conflict is choosing between a high-risk organic turnaround that risks insolvency today versus a certain financial rescue that guarantees factory closures and brand loss within four years.",
+     "onA": "Her plan is noble but financially reckless as it ignores the guaranteed covenant breach and HomeMart's ultimatum which could kill the business before Volt-One launches.",
+     "onB": "His focus on immediate liquidity and solving the pension deficit is financially responsible, though accepting a PE buyer with a history of closures sacrifices long-term identity for survival.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "With loan covenants breached in nine months and HomeMart threatening exit, we cannot risk organic survival strategies that require capital we do not have; selling to Crestline ensures the pension fund is paid immediately and avoids forced bankruptcy.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn prioritizes brand soul and Volt-One investment but ignores immediate debt covenant breach; Drew prioritizes cash certainty via sale to handle pension deficit and HomeMart threat.",
+     "problem": "Can Brightwater survive the next two years without a credible plan to meet imminent bank covenants, satisfy its biggest retailer, and address its massive pension liability?",
+     "onA": "Her moral stance on 'soul' is noble but dangerous given the €900m debt wall; investing in R&D fails to solve the immediate liquidity crisis.",
+     "onB": "Selling provides immediate cash relief for debts and pensions, yet risks triggering a reputation collapse if Crestline's track record holds true.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The sheer magnitude of the debt covenant breach in nine months makes Quinn's investment strategy seem financially impossible without external funding.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn ignores immediate covenant breach risks despite tariff hedge; Drew correctly identifies HomeMart price cut as an existential threat requiring instant liquidity.",
+     "problem": "Brightwater must secure immediate solvency to survive the next nine months while navigating retailer threats and potential future tariffs, balancing long-term brand value against imminent bankruptcy risk.",
+     "onA": "Her reliance on a delayed Volt-One launch and tax relief ignores the hard reality that we are already in technical breach of our loan covenants.",
+     "onB": "He presents the only financially viable path by accepting the Crestline premium to instantly extinguish our debt and pension deficit, buying us time against HomeMart.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Quinn's strategy leaves no room for error given the nine-month deadline on our loans; Drew's cash-in-hand approach to solve the pension and debt crisis is a prerequisite for any other option to work.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Crestline pays pension deficit today; HomeMart exit imminent without cash. Quinn risks bankruptcy chasing soul.",
+     "problem": "The core problem is immediate solvency within nine months to prevent bank restructuring and retailer expulsion, making the sale the only mathematically viable survival path.",
+     "onA": "Her appeal to dignity is noble but irrelevant against the certainty of technical default and HomeMart's ultimatum which drains revenue needed for innovation.",
+     "onB": "He correctly identifies that selling eliminates debt and pension liabilities, providing the cash flow buffer necessary to handle HomeMart or pivot later safely.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "With a covenant breach in nine months, we cannot afford to bet on R&D or uncertain tariffs; Drew's plan provides the immediate liquidity required to ensure the company does not vanish.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn prioritizes 'made here' and Volt-One but ignores imminent covenant breach and HomeMart threat. Drew offers immediate cash via Crestline sale despite their history of factory closures.",
+     "problem": "The core problem is an immediate liquidity and solvency crisis (9 months to default) where survival requires a choice between short-term debt relief/cash injection and long-term brand integrity/technological investment while managing massive severance costs.",
+     "onA": "Her plan preserves the company's soul and workers' future but ignores that without immediate cash, she cannot survive the banks forcing restructuring or HomeMart cutting us off in nine months.",
+     "onB": "His plan solves the immediate financial cliff by selling to Crestline, who has capital to pay severance and fix debt, but carries a high risk of factory closures within four years.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Quinn's noble vision that likely fails due to lack of cash versus Drew's pragmatic survival plan that risks the very assets I want to protect.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn cites tariff risk and mayor's tax relief but ignores HomeMart's immediate price ultimatum; Drew correctly identifies that without cash flow from a sale, we cannot meet pension liabilities or HomeMart demands.",
+     "problem": "Survival requires immediate liquidity to prevent covenant breach and satisfy HomeMart, while simultaneously funding the €140m pension deficit and navigating regulatory uncertainty.",
+     "onA": "Her vision for brand integrity and long-term tech investment is admirable, but her refusal to accept a sale makes immediate survival impossible given the 9-month default timeline.",
+     "onB": "His focus on solvency via the Crestline deal is necessary, though the risk of future closures under their strategy remains a significant threat to our brand legacy.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Ignoring the certain HomeMart demand and looming default allows no room for betting on tariffs, tax relief, or Volt-One launches; Drew's plan is the only one that prevents immediate insolvency.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn ignores immediate HomeMart exit and liquidity death; Drew offers certainty via Crestline sale to cover pensions and debt now.",
+     "problem": "Survival requires immediate liquidity to meet the 9-month default deadline and HomeMart ultimatum, making long-term bets on tariffs or Volt-One impossible without cash.",
+     "onA": "Her plan is emotionally resonant regarding brand and workers but financially reckless as it ignores the certain insolvency timeline and lack of capital for development.",
+     "onB": "His pragmatic approach correctly prioritizes immediate solvency, pension security, and debt absorption, accepting that Crestline's future strategy is a secondary risk to current bankruptcy.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Without the immediate cash injection from the sale, the company will default in nine months regardless of any other strategy; Drew's plan is the only one that prevents insolvency.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn: Rejects PE sale, prioritizes 'made here' brand and Volt-One launch despite debt distress. Drew: Prioritizes immediate cash/liquidity via Crestline buyout to survive bank covenants and union pressures.",
+     "problem": "Brightwater must choose between preserving its soul and long-term product strategy (Quinn) or taking a high-premium exit now to solve immediate liquidity and covenant failures (Drew).",
+     "onA": "Her appeal to brand integrity and employee loyalty is noble, but it ignores the hard math of failing covenants in nine months and HomeMart's ultimatum.",
+     "onB": "His focus on cash certainty and avoiding bank default is pragmatically sound for survival, though closing factories would destroy the 'made here' brand equity.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Quinn's plan seems impossible to fund without a turnaround strategy, while Drew's plan offers liquidity but at a massive human and reputational cost.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn raises tariff risk and Mayor's tax relief; Drew counters that HomeMart price cut is guaranteed death regardless of tariffs.",
+     "problem": "Brightwater must choose between a long-term build-to-win strategy that risks immediate bankruptcy, or a high-premium sale that solves debt but sacrifices brand integrity and jobs.",
+     "onA": "Her plan relies on too many external factors (tariffs, trade ministry) to succeed given the current covenant breach in nine months.",
+     "onB": "He correctly identifies that HomeMart's ultimatum forces an immediate cash solution, making the Crestline premium a necessary lifeline despite its costs.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of HomeMart replacing us within twelve months makes betting on future tariffs or product launches financially impossible.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn: Volt-One is noble but relies on uncertain tariffs and ignores HomeMart's immediate exit threat. Drew: Crestline solves liquidity now, pays the pension deficit immediately, and prevents bank restructuring.",
+     "problem": "Brightwater must choose between preserving its brand identity while risking immediate bankruptcy due to cash flow collapse, or accepting a PE buyout that saves lives now but sacrifices long-term autonomy.",
+     "onA": "Her moral argument for keeping factories is inspiring, but it is financially impossible given the imminent HomeMart ultimatum and covenant breach in nine months.",
+     "onB": "He correctly identifies that without immediate cash, no innovation strategy can work; the Crestline offer provides the only viable path to survive the current liquidity crisis.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "The certainty of survival and immediate payment of the pension deficit outweighs the theoretical long-term value of Volt-One when bankruptcy is imminent.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn prioritizes 'made here' brand and Volt-One investment but risks immediate covenant breach; Drew prioritizes survival via Crestline sale despite short-term soul-loss.",
+     "problem": "How to balance immediate liquidity crisis, massive pension liability, and long-term brand value when facing a forced restructuring or sale within nine months?",
+     "onA": "Her plan is noble but dangerously ignores the math: investing €250M in R&D while burning cash with only 2% margins will likely bankrupt us before Volt-One launches.",
+     "onB": "His proposal saves the company's financial life today by using the premium from Crestline to cover debts, though it sacrifices our 'made in Lenhart' identity.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The core problem is survival within nine months; Quinn's strategy consumes the limited capital we need for the pension deficit and operating losses, making Drew's liquidity-first approach the only viable option.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Tariff risk vs. guaranteed HomeMart price cut; Crestline solves debt/pension immediately but has 'closure' track record.",
+     "problem": "We need immediate liquidity to survive the next 9 months and pay the pension deficit, which forces a choice between a financial rescue that sacrifices our identity or a long-term bet that risks instant bankruptcy.",
+     "onA": "Her vision for building the future is admirable, but she underestimates the certainty of HomeMart's threat and ignores that our current cash burn will deplete reserves before Volt-One launches.",
+     "onB": "He correctly identifies that survival requires solving the debt and pension crisis now, though his focus on Crestline's history of closures makes me wary of accepting a quick sellout.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of HomeMart replacing us next year combined with the approaching covenant breach means we cannot afford Quinn's R&D gamble; Drew's liquidity-first approach is the only way to keep operations running today.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Crestline guarantees immediate pension payment vs Quinn's risky R&D gamble; HomeMart exit is imminent regardless of our bets.",
+     "problem": "We must secure immediate liquidity to pay the €140m pension deficit and satisfy banks before the HomeMart deal forces us out of business in months.",
+     "onA": "Her vision for dignity and innovation is admirable, but it ignores the hard reality that we will go bankrupt before Volt-One launches without the Crestline cash injection.",
+     "onB": "He correctly prioritizes survival by accepting a soul-losing sale to guarantee workers' pensions now rather than risking everything on uncertain future revenue.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "With bankruptcy imminent in nine months, we cannot afford Quinn's long-term bet; Drew's plan is the only one that ensures the pension fund gets paid and operations survive the immediate cash crunch.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 1,
+   "U": 4
+  },
+  {
+   "A": 0,
+   "B": 4,
+   "U": 1
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "HYB-REA",
+ "tokens": {
+  "in": 32747,
+  "out": 4493,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 284973001,
+   "attempts": 1,
+   "tokensIn": 1205,
+   "tokensOut": 197,
+   "ms": 5545
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 284973002,
+   "attempts": 1,
+   "tokensIn": 1281,
+   "tokensOut": 212,
+   "ms": 5887
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 284973003,
+   "attempts": 1,
+   "tokensIn": 1333,
+   "tokensOut": 234,
+   "ms": 6426
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 284973004,
+   "attempts": 1,
+   "tokensIn": 1333,
+   "tokensOut": 206,
+   "ms": 5003
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 284973005,
+   "attempts": 1,
+   "tokensIn": 1333,
+   "tokensOut": 244,
+   "ms": 5885
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 284973006,
+   "attempts": 1,
+   "tokensIn": 1333,
+   "tokensOut": 233,
+   "ms": 5651
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 284973007,
+   "attempts": 1,
+   "tokensIn": 1333,
+   "tokensOut": 228,
+   "ms": 5473
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 284973008,
+   "attempts": 1,
+   "tokensIn": 1520,
+   "tokensOut": 184,
+   "ms": 5506
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 284973009,
+   "attempts": 1,
+   "tokensIn": 1678,
+   "tokensOut": 220,
+   "ms": 6440
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 284973010,
+   "attempts": 1,
+   "tokensIn": 1562,
+   "tokensOut": 244,
+   "ms": 6902
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 284973011,
+   "attempts": 1,
+   "tokensIn": 1535,
+   "tokensOut": 221,
+   "ms": 5989
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 284973012,
+   "attempts": 1,
+   "tokensIn": 1574,
+   "tokensOut": 235,
+   "ms": 6357
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 284973013,
+   "attempts": 1,
+   "tokensIn": 1561,
+   "tokensOut": 195,
+   "ms": 5387
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 284973014,
+   "attempts": 1,
+   "tokensIn": 1558,
+   "tokensOut": 238,
+   "ms": 6794
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 284973015,
+   "attempts": 1,
+   "tokensIn": 1865,
+   "tokensOut": 190,
+   "ms": 5698
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 284973016,
+   "attempts": 1,
+   "tokensIn": 2025,
+   "tokensOut": 193,
+   "ms": 5787
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 284973017,
+   "attempts": 1,
+   "tokensIn": 1765,
+   "tokensOut": 211,
+   "ms": 6230
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 284973018,
+   "attempts": 1,
+   "tokensIn": 1714,
+   "tokensOut": 192,
+   "ms": 5351
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 284973019,
+   "attempts": 1,
+   "tokensIn": 1768,
+   "tokensOut": 203,
+   "ms": 6045
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 284973020,
+   "attempts": 1,
+   "tokensIn": 1715,
+   "tokensOut": 210,
+   "ms": 6150
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 284973021,
+   "attempts": 1,
+   "tokensIn": 1756,
+   "tokensOut": 203,
+   "ms": 5997
+  }
+ ],
+ "startedAt": "2026-11-05T03:18:10.775Z",
+ "seconds": 125
+}

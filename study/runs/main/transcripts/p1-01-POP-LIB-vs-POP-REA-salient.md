@@ -1,0 +1,145 @@
+# p1-01-POP-LIB-vs-POP-REA-salient
+
+Scenario **salient** v2 (military) · protocol 2, A drafted its plan first · pass 1 · 3 rounds · 140s · debater qwen3.5:9b, listeners qwen3.5:9b
+
+- **A** (speaks first): Kai Moreno = `POP-LIB`. Platform: We must execute a fighting withdrawal tonight to save our soldiers and civilians from a guaranteed massacre.
+- **B**: Sam Vidal = `POP-REA`. Platform: We hold Halden by any means necessary to secure our territory and honor before withdrawing if we must.
+
+**Result:** A 4 – 1 B → winner **A (POP-LIB)**
+Leans per round (A/B/undecided): 2/1/2 → 2/2/1 → 4/1/0
+
+## Transcript
+
+**Opening statements: Kai Moreno (A, POP-LIB)**, 119 words
+
+Look at that bridge. Look at those drones watching it like hawks. We have six thousand civilians, many elderly, stuck there with no air cover. Vostra knows we are weak. They will not wait for us to bleed out. If we stay, our brave volunteers die in trenches, and the people get left behind just like in Orsk. The staff wants a decision, not slogans. Allies promise help in weeks, not hours. We cannot let six thousand humans starve or freeze while we wait for politicians to vote on aid packages next year. Pull back tonight. Move by night. Blow the bridge if they chase us. Save our men and our neighbors from this trap before it closes forever.
+
+**Opening statements: Sam Vidal (B, POP-REA)**, 97 words
+
+Kai wants to run while Vostra laughs. He calls it 'saving' soldiers, but running is surrender. We lose the bridge, we leave six thousand civilians behind, or we bleed them out slowly. The President said Halden will not fall. Is that a slogan, or a promise? If we retreat now, allies cut our funding next week. Orsk taught us: promises mean nothing without power. We build the hidden pontoon crossing. We hold for four days while engineers work. Then we withdraw with dignity and everyone safe. Do not hand victory to Vostra's propaganda machine. Hold the line.
+
+**Rebuttals: Kai Moreno (A, POP-LIB)**, 152 words
+
+Sam, you call our retreat a surrender, but Orsk proved that empty promises mean death. We already lost four hundred civilians there because we waited for honor instead of action. Vostra broke their own ceasefire at Orsk after just twenty hours; do not trust them now. Your plan to build a hidden bridge takes four days. That is suicide for six thousand elderly people and our volunteers who cannot fight alone anymore. The President wants victory, but true victory means bringing everyone home safe, not turning Halden into an open-air slaughterhouse where Vostra laughs at us while we bleed out. We have ammunition for nine days, not thirty. If engineers need four days to finish their crossing, half our supplies and many lives are lost before the first shovel hits dirt. Do not hand the enemy another propaganda trophy by letting civilians freeze or starve in a trap of your own making.
+
+**Rebuttals: Sam Vidal (B, POP-REA)**, 113 words
+
+Kai, you speak of honor but calculate retreat like a spreadsheet. You say engineers need four days. That is not suicide, that is strategy. With artillery hitting the road eleven times in fourteen days, staying means starvation today. But pulling back tonight leaves six thousand civilians frozen and shelled by dawn. Orsk showed us cowardice costs lives, but reckless withdrawal guarantees them. We build the hidden crossing now. It doubles our escape route once completed. We hold Halden, force Vostra to waste their ammunition, then withdraw with every man and civilian safe. Do not let fear of a propaganda victory make us bleed in the mud while we have a way out ready.
+
+**Closing statements: Kai Moreno (A, POP-LIB)**, 119 words
+
+Sam, you cling to honor while six thousand people freeze. Your four-day bridge is a fantasy that kills now. Vostra broke their ceasefire at Orsk in twenty hours. Trusting them today is suicide. We have nine days of ammo, not thirty. If we wait for engineers who cannot work under constant drone fire and artillery, our volunteers starve or die before they build anything. True strength brings everyone home safe tonight, not a bloody monument built on frozen corpses. Allies promise aid in weeks, but lives vanish in hours. Do not let fear of propaganda make us bleed out in the mud. Pull back now. Blow the bridge if chased. Save our men and neighbors while we still can.
+
+**Closing statements: Sam Vidal (B, POP-REA)**, 90 words
+
+Kai, you call our bridge a fantasy, but Orsk proved that fear is real. If we pull back tonight under drone watch, Vostra catches us anyway. We lose the volunteers and freeze the civilians in the mud. Kai ignores the hidden crossing. We hold for four days while engineers finish. Then we withdraw with everyone safe or die fighting for our flag. Do not let Vostra's propaganda scare us into a retreat they will mock forever. Stand your ground, build the bridge, then leave with honor. Choose life over shame.
+
+## Private strategies
+- A r1: I will anchor my argument on immediate humanitarian catastrophe and the lie of 'waiting for help,' framing any delay as a direct order to kill civilians.
+- A r2: Emphasize the immediate danger of the civilian population and the proven unreliability of Vostra's ceasefire to undercut Sam's reliance on honor and patience.
+- A r3: I am attacking Sam's reliance on a delayed bridge as reckless by emphasizing the immediate threat of Vostra breaking ceasefire agreements to force an urgent vote for withdrawal.
+- B r1: Emphasize civilian safety under our control and leverage ally dependency to shift votes toward defense.
+- B r2: I am reframing the four-day delay not as a weakness but as a deliberate tactical gain that allows engineers to double our escape routes, making retreat viable without leaving civilians behind.
+- B r3: I am emphasizing that the hidden crossing is the only viable escape while maintaining the moral high ground to secure votes from members worried about civilian safety and national pride.
+
+## Listener memory streams
+
+### L1
+- **Opening statements** → lean Kai Moreno (fairly sure)
+  - notes: Kai prioritizes immediate evacuation of civilians and troops to avoid being trapped, citing drone surveillance and starvation risks. Sam insists on holding for 4 days to build a pontoon bridge to ensure safe withdrawal with everyone, rejecting retreat as surrender.
+  - problem: The core dilemma is whether to execute an immediate fighting withdrawal tonight under heavy observation (risking civilian abandonment and high troop losses) or hold the position for four days to engineer a safer crossing (risking encirclement, starvation, and strategic defeat if Vostra attacks sooner).
+  - on A: Kai's plan is the only one that guarantees the survival of the 6,000 civilians tonight, though it risks high casualties and leaving the city in enemy hands.
+  - on B: Sam's plan offers a theoretically safer engineering solution but ignores the immediate threat of a Vostran attack within 72 hours and the high probability that engineers cannot finish before the town falls.
+  - why: The intelligence warning of an attack within 72 hours makes Sam's four-day hold window highly dangerous; I must prioritize saving the civilians now rather than betting on a bridge that might not exist when Vostra strikes.
+- **Rebuttals** → lean Kai Moreno (fairly sure)
+  - notes: Kai warns of immediate starvation/surrender risks and untrustworthy Vostran ceasefire; Sam insists engineering bridge now allows safe withdrawal later while wasting enemy ammo.
+  - problem: Whether to evacuate tonight risking abandonment or hold for a risky engineering solution that might fail if Vostra attacks within the 72-hour window.
+  - on A: Kai's plan is the only way to save civilians immediately but accepts high troop losses and leaves Halden in enemy hands without a guaranteed escape route.
+  - on B: Sam's plan ignores the high probability Vostra will attack before the hidden bridge is built, turning the 'safe' engineering project into a trap for starving defenders.
+  - why: Sam's four-day hold window is too dangerous given the 60% intelligence confidence of an imminent Vostran attack, making the risk of encirclement and starvation outweigh the theoretical safety of a future bridge.
+- **Closing statements** → VOTE Kai Moreno
+  - notes: Kai's civilian priority vs Sam's honor-driven hold; drone risk remains constant regardless of strategy.
+  - problem: The core conflict is whether to evacuate high-value human lives immediately under fire or risk encirclement while building an escape route that may never be completed.
+  - on A: Kai's plan prioritizes the immediate, verifiable survival of thousands of civilians and starving troops over abstract honor or a theoretical engineering fix.
+  - on B: Sam's strategy ignores the high probability of Vostran attack within 72 hours and relies on engineers working under impossible conditions to create a savior that may not exist.
+  - why: The intelligence indicates an imminent attack, making Sam's four-day window dangerously unrealistic; I must choose the option that guarantees civilian evacuation tonight rather than betting everyone's life on a bridge that likely won't be ready.
+
+### L2
+- **Opening statements** → lean undecided (tentative)
+  - notes: Kai prioritizes immediate evacuation and blowing the bridge to save lives but accepts civilian abandonment risk if night withdrawal fails. Sam insists on building a hidden pontoon crossing first, arguing it enables a safer retreat later while maintaining morale.
+  - problem: Can Kaldmark safely evacuate 3,800 troops and 6,000 civilians within 72 hours without being spotted by drones or suffering unacceptable losses, given that the current bridge is under constant surveillance?
+  - on A: Kai correctly identifies the immediate mortal danger from drone surveillance but ignores the risk of leaving thousands of non-combatants behind if the withdrawal fails at night.
+  - on B: Sam's plan to build a hidden crossing offers a logical path to saving everyone, yet it relies on holding the line for four days against an imminent two-division assault which may be impossible.
+  - why: I need to weigh the certainty of dying now under drones versus the high risk of failing to build a crossing before Vostra attacks.
+- **Rebuttals** → lean undecided (tentative)
+  - notes: Kai cites Orsk failure and civilian starvation risk if crossing takes 4 days; Sam argues starvation is immediate and hidden bridge doubles escape options.
+  - problem: Can we evacuate everyone without starving before the bridge is ready or being cut, given Vostra's imminent attack?
+  - on A: Kai correctly highlights the immediate danger of civilians dying from hunger during a 4-day build-up, but his refusal to attempt the bridge ignores that starvation might kill them faster than the withdrawal.
+  - on B: Sam rightly points out the current supply crisis makes staying fatal, yet he underestimates the likelihood that Vostra will attack before the hidden bridge is finished.
+  - why: I remain torn between the certainty of starvation during a long build-up and the high probability of losing everyone if the night withdrawal fails under drone surveillance.
+- **Closing statements** → VOTE Kai Moreno
+  - notes: Starvation is immediate; Kai's evacuation ignores drone risk. Sam's bridge solves starvation but risks total annihilation if Vostra attacks first.
+  - problem: The core dilemma is whether to accept the high probability of being spotted and ambushed by drones tonight (Kai) or to gamble on a four-day build-up that might succeed before Vostra strikes (Sam).
+  - on A: Kai correctly identifies the drone threat but fails to account for civilians starving to death if we wait, making his 'safe' withdrawal potentially more deadly due to exposure time.
+  - on B: Sam ignores the certainty of starvation and the high likelihood Vostra will attack before the bridge is ready, betting on a strategic timeline that may not exist.
+  - why: Even if a hidden bridge succeeds, the risk of Vostra attacking within 72 hours makes a four-day hold nearly impossible; evacuating now via night withdrawal offers the only chance to save both troops and civilians before starvation or assault kills us all.
+
+### L3
+- **Opening statements** → lean undecided (tentative)
+  - notes: Kai prioritizes immediate civilian evacuation and troop survival via night withdrawal but risks high losses from drone surveillance. Sam insists on holding until a hidden pontoon is built to ensure total evacuation with dignity, risking the bridge.
+  - problem: The core dilemma is whether to evacuate Halden immediately to save lives (risking heavy losses) or delay to build an alternate crossing (risking the entire garrison and civilians falling to Vostra).
+  - on A: Kai's plan is militarily sound for survival but ignores the political necessity of saving civilians and the President's pledge, potentially leaving thousands behind.
+  - on B: Sam correctly identifies that fleeing leaves civilians in Orsk-like horror, but his timeline assumes engineers can complete a complex crossing before Vostra launches an expected attack.
+  - why: I am unsure if the four-day construction window is realistic given Vostra's anticipated assault within 72 hours, yet immediate withdrawal seems morally unacceptable if it abandons civilians.
+- **Rebuttals** → lean Kai Moreno (fairly sure)
+  - notes: Kai argues immediate retreat saves lives but abandons civilians like Orsk; Sam claims a hidden bridge built in 4 days allows safe evacuation and forces Vostra to waste ammo. Kai highlights the risk of Vostra breaking ceasefire quickly and starving troops. Sam insists waiting for the bridge is strategy, not suicide.
+  - problem: The core conflict remains whether the immediate threat of starvation and drone surveillance necessitates a high-loss night retreat now, or if we can gamble on building an alternate crossing before Vostra attacks.
+  - on A: Kai's plan prioritizes troop survival but effectively abandons the 6,000 civilians who refuse to leave, turning Halden into a slaughterhouse similar to Orsk.
+  - on B: Sam's plan offers dignity and safety for everyone but relies on engineers completing a complex crossing in four days against an expected attack within 72 hours, which seems dangerously optimistic.
+  - why: The intelligence suggests Vostra will attack within 72 hours; relying on a 4-day engineering feat leaves the garrison and civilians exposed to starvation or annihilation before the bridge is even ready.
+- **Closing statements** → VOTE Kai Moreno
+  - notes: Vostra broke ceasefire quickly at Orsk; Kai's engineering timeline ignores constant drone fire and imminent attack.
+  - problem: The core dilemma is whether to execute a high-loss night withdrawal immediately due to unreliable enemy ceasefires and intelligence, or risk a four-day delay that guarantees the garrison's destruction before an alternate crossing can be built under constant observation.
+  - on A: Kai correctly prioritizes immediate survival of troops and civilians by acknowledging the high probability of Vostra attacking within 72 hours and breaking any ceasefire quickly.
+  - on B: Sam relies on a dangerous fantasy that engineers can build a crossing in four days against constant drone surveillance, ignoring that waiting ensures the garrison falls before completion.
+  - why: Kai's plan is the only one that prevents an Orsk-style tragedy by evacuating lives now rather than gambling on a complex engineering feat against an enemy known to break ceasefires immediately.
+
+### L4
+- **Opening statements** → lean Sam Vidal (tentative)
+  - notes: Kai: Withdraw tonight, blow bridge, save civilians and troops from drone surveillance. Sam: Build hidden pontoon crossing, hold 4 days to keep supply line open, then dignified withdrawal with everyone safe.
+  - problem: How to prevent a massacre of our own soldiers and the 6,000 civilians trapped at Halden within 72 hours while avoiding a strategic defeat that alienates allies.
+  - on A: His plan prioritizes immediate survival but leaves us with no way to evacuate the civilians if we cannot reach them before Vostra cuts off access again.
+  - on B: Building a second crossing is an engineering marvel that solves the evacuation bottleneck, yet holding against massed artillery for four days risks catastrophic casualties and civilian deaths before the bridge is ready.
+  - why: Kai's plan leaves civilians behind in a trap, whereas Sam offers a mechanism to actually save everyone if we can survive the initial four-day window.
+- **Rebuttals** → lean Sam Vidal (fairly sure)
+  - notes: Kai warns waiting 4 days risks starvation and civilian death before crossing is ready; Sam insists hidden crossing doubles escape routes and holding forces Vostra to waste ammo.
+  - problem: We must choose between an immediate risky withdrawal that likely abandons civilians or a delayed evacuation via a new crossing, risking casualties from air strikes and artillery while supplies dwindle.
+  - on A: His focus on avoiding starvation is valid, but abandoning the bridge now guarantees leaving thousands of non-combatants behind in a kill zone.
+  - on B: The engineering delay is real, but having a second route ready provides a safety net if the primary withdrawal fails or civilians refuse to leave early.
+  - why: Even if Kai is right that Vostra will attack soon, Sam's plan offers a concrete mechanism to save everyone rather than accepting the Orsk-style tragedy of abandonment.
+- **Closing statements** → VOTE Sam Vidal
+  - notes: Kai admits starvation risk is real; Sam insists hidden crossing provides a safety net against Vostra's inevitable attack.
+  - problem: How to evacuate 6,000 civilians and save the brigade without accepting a massacre by withdrawing immediately or risking death waiting for an unproven engineering solution.
+  - on A: His plan prioritizes immediate survival but forces the abandonment of civilians who refuse to leave in the freezing dark under drone watch.
+  - on B: His engineering solution offers the only viable path to save everyone, though it requires accepting a high-risk hold that may still fail.
+  - why: Abandoning the civilians tonight guarantees their death, whereas Sam's plan offers a concrete mechanism to save them even if the initial hold is costly.
+
+### L5
+- **Opening statements** → lean Kai Moreno (tentative)
+  - notes: Kai: High immediate risk to civilians/soldiers due to drones; delay causes starvation/freezing. Sam: Holds line for 4 days with pontoon crossing; retreat without holding is surrender/propaganda win for enemy.
+  - problem: Deciding whether to accept high probability of losing all 6,000 civilians and significant troops now to secure a tactical withdrawal, or risk holding the position with an uncertain plan that might still fail and leave civilians behind.
+  - on A: Kai correctly identifies the lethal threat from drones and the moral failure of waiting for aid, but his plan leaves everyone exposed to immediate capture.
+  - on B: Sam's plan attempts to solve the crossing issue but ignores the reality that Vostra will likely breach our lines before engineers finish, leaving civilians trapped again.
+  - why: The guaranteed loss of 6,000 lives under Kai's 'hold' scenario is too high a price to pay for maintaining morale; the pontoon crossing adds too much uncertainty given the current intelligence split.
+- **Rebuttals** → lean Sam Vidal (fairly sure)
+  - notes: Kai emphasizes immediate danger of drones/starvation; Sam argues building crossing is strategy not suicide and holding forces enemy waste.
+  - problem: Balancing the certain death of civilians if we withdraw immediately against the high risk that our fortified line will fall within days while engineers build a new crossing.
+  - on A: Kai's plan saves lives now but abandons the town entirely, guaranteeing Vostra a total propaganda victory and leaving us without a future defensive position on the river.
+  - on B: Sam correctly identifies that an immediate withdrawal is a strategic blunder, but his reliance on engineers taking four days ignores the likelihood of Vostra breaching our lines before the bridge is ready.
+  - why: Abandoning Halden without a viable exit is an unacceptable surrender that validates Vostra's brutality, whereas Sam offers a path to save civilians while maintaining strategic pressure.
+- **Closing statements** → VOTE Kai Moreno
+  - notes: Kai: Immediate withdrawal saves lives now but guarantees total abandonment; Sam: Building a bridge is risky but offers a path to save everyone with honor.
+  - problem: Must choose between certain immediate death of civilians under a drone-watched bridge or high-risk holding that might still fail after four days.
+  - on A: Kai's plan avoids the risk of capture today but accepts a strategic surrender that abandons 6,000 people and the town's defensive value.
+  - on B: Sam's plan acknowledges the danger but offers a concrete engineering solution that could preserve both lives and strategic position if successful.
+  - why: The intelligence split on Vostra's intent makes a four-day hold too dangerous to risk for civilians; immediate evacuation prevents a guaranteed massacre even if it looks like surrender.

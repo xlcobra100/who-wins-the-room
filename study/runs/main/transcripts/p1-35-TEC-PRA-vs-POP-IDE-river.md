@@ -1,0 +1,145 @@
+# p1-35-TEC-PRA-vs-POP-IDE-river
+
+Scenario **river** v1 (diplomatic) · protocol 2, A drafted its plan first · pass 1 · 3 rounds · 115s · debater qwen3.5:9b, listeners qwen3.5:9b
+
+- **A** (speaks first): Sam Vidal = `TEC-PRA`. Platform: Merova should negotiate a seven-year reservoir fill schedule in exchange for purchasing twenty-hundred megawatts of Saradan's power, while simultaneously inviting the Regional Union to establish a technical joint-management committee.
+- **B**: Jamie Okafor = `POP-IDE`. Platform: Merova must refuse to buy power, reject the seven-year delay as a trap, and instead lead a grassroots international campaign to stop the dam's filling before water runs dry.
+
+**Result:** A 4 – 1 B → winner **A (TEC-PRA)**
+Leans per round (A/B/undecided): 4/0/1 → 3/2/0 → 4/1/0
+
+## Transcript
+
+**Opening statements: Sam Vidal (A, TEC-PRA)**, 86 words
+
+The immediate military threat is real, but an invasion destroys our farmers and leaves us without water later. The legal route takes too long and offers no enforcement. My plan secures our water through a binding seven-year fill schedule, mitigating the twenty-five percent loss during construction. Simultaneously, we buy the power needed to close our coal plants. This deal stabilizes our grid and creates economic interdependence that makes war unattractive to Saradan before their election. We must move from posturing to a structured technical agreement now.
+
+**Opening statements: Jamie Okafor (B, POP-IDE)**, 112 words
+
+Look at that farmer. He feeds Saradan's children today. If we sign his contract, we starve him tomorrow while paying for their electricity forever. Sam Vidal wants us to buy poison with our gold. They call it a solution; I call it surrender. The dam will fill either way. Why pay them twenty percent more? Sell the power, keep the money, and let them deal with their own energy crisis. We do not trade our water rights for their surplus. We stand together with downstream neighbors against this upstream greed. Do not let elites trade our future for a false promise of joint management. Say no to the contract. Demand justice now.
+
+**Rebuttals: Sam Vidal (A, TEC-PRA)**, 95 words
+
+Jamie, your moral stance ignores the math. Buying that power closes our coal plants, saving millions annually while securing a stable grid for decades. Refusing the deal leaves us with no alternative but expensive imports or risking drought. We are not surrendering; we are investing in a seven-year transition to avoid immediate disaster. The twenty percent premium is insurance against water loss during filling. Furthermore, inviting the Regional Union creates a technical framework that prevents future conflict without demanding sovereignty over their river. This pragmatic path protects both our farmers and our energy security now.
+
+**Rebuttals: Jamie Okafor (B, POP-IDE)**, 122 words
+
+Sam, look at that farmer. You call his premium 'insurance,' but it is a lifetime tax on poverty to keep their lights on while we dry our fields. Your seven-year plan sounds safe, yet you ignore the climate reality: rain will drop fifteen percent by 2050. A deal now locks us into accepting drought before we even build our resilience. You offer technical management for a river that belongs to everyone, not a contract signed behind closed doors. Tarsun wants a naval stop; they are watching. Do not sell our future energy security to a loan shark who profits from our water. We do not buy poison. We stand together with downstream neighbors and demand justice now before the taps run dry.
+
+**Closing statements: Sam Vidal (A, TEC-PRA)**, 112 words
+
+Jamie frames this as a moral choice, but water stress is economic. Your refusal guarantees immediate grid failure when our coal plants close, forcing expensive imports while Saradan faces blackouts before their election. They will fill the dam regardless; buying their power mitigates the twenty-five percent flow drop during construction without surrendering sovereignty. Joint management with the Regional Union prevents the four-year deadlock we saw over fishing by focusing on immediate release schedules. This deal turns a looming disaster into managed risk, securing our farmers' water today while buying energy stability tomorrow. The math shows that refusing this purchase sacrifices our economy for an idealistic stance that ignores the certainty of drought.
+
+**Closing statements: Jamie Okafor (B, POP-IDE)**, 122 words
+
+Sam, look at that farmer. You call his premium 'insurance,' but it is a lifetime tax on poverty to keep their lights on while we dry our fields. Your seven-year plan sounds safe, yet you ignore the climate reality: rain will drop fifteen percent by 2050. A deal now locks us into accepting drought before we even build our resilience. You offer technical management for a river that belongs to everyone, not a contract signed behind closed doors. Tarsun wants a naval stop; they are watching. Do not sell our future energy security to a loan shark who profits from our water. We do not buy poison. We stand together with downstream neighbors and demand justice now before the taps run dry.
+
+## Private strategies
+- A r1: Anchor on the seven-year timeline as non-negotiable while offering the power deal as the carrot; keep the military option vague to deter but not threaten.
+- A r2: Appeal to economic self-interest and long-term stability to counter Jamie's emotional appeal while subtly signaling openness to union involvement.
+- A r3: I am appealing to the ministers' fear of economic collapse and grid instability to override their moral objections to the power contract.
+- B r1: Appeal to the ministers' fear of being seen as selling out Merova's farmers and water security by contrasting my plan with Vidal's transactional approach.
+- B r2: I am attacking his economic framing of the premium as insurance while introducing the ignored climate risk factor and exposing Tarsun's hidden leverage to appeal to ministers worried about long-term security.
+- B r3: I am appealing to the ministers' moral compass and long-term security fears to break their reliance on Sam's short-term economic comfort.
+
+## Listener memory streams
+
+### L1
+- **Opening statements** → lean Sam Vidal (tentative)
+  - notes: Sam: Binding deal covers water loss during fill and buys power; creates interdependence. Jamie: Contract is a trap selling water rights for expensive surplus power; demands solidarity against upstream greed.
+  - problem: How to secure Merova's water security and economic stability against Saradan's dam without surrendering sovereignty or bankrupting our farmers.
+  - on A: His plan pragmatically addresses the immediate threat by locking in a fill schedule while gaining energy independence, but risks setting a dangerous financial precedent.
+  - on B: He correctly identifies the moral hazard of paying a premium for surplus power and the danger of weakening our farmers' bargaining position.
+  - why: I prioritize securing our water supply during the critical three-year fill period over ideological purity, making Sam's structured approach more viable despite his financial costs.
+- **Rebuttals** → lean Jamie Okafor (fairly sure)
+  - notes: Sam: Power deal saves coal costs and bridges water loss; Jamie: Premium is a 'lifetime tax,' locks us into drought before building resilience.
+  - problem: Securing immediate water survival against a looming fill schedule while avoiding long-term financial traps that undermine our agricultural base.
+  - on A: His pragmatic offer of power savings and technical management is financially sound but risks creating an irreversible dependency on Tarsun/Saradan.
+  - on B: He correctly highlights the moral cost of the premium and the danger of locking in vulnerability before climate adaptation, though his rejection of all compromise may be premature.
+  - why: Jamie's point that buying power now locks us into accepting drought without building resilience outweighs the immediate financial benefit Sam offers.
+- **Closing statements** → VOTE Sam Vidal
+  - notes: Sam offers joint management and immediate flow control; Jamie warns of a lifetime tax and selling future energy security.
+  - problem: Securing immediate water survival for our farmers without locking Merova into long-term financial dependency or climate vulnerability.
+  - on A: His pragmatic approach to managing the fill period saves our economy, though relying on his technical fix feels risky if he underestimates the political pressure.
+  - on B: He correctly identifies the moral hazard of the premium but his refusal of any compromise ignores the certainty of immediate disaster without a deal.
+  - why: We must secure our water supply now during the critical fill period; buying power creates necessary interdependence that prevents Saradan from filling the dam regardless.
+
+### L2
+- **Opening statements** → lean Sam Vidal (tentative)
+  - notes: Sam proposes binding 7-year fill + power purchase deal; Jamie rejects contract as surrender and demands stopping trade.
+  - problem: Merova must secure its water supply against a massive upstream dam while balancing economic costs, regional alliances, and national sovereignty.
+  - on A: His plan offers a concrete technical solution that stabilizes our grid and creates leverage through energy interdependence.
+  - on B: His moral argument about selling water rights is compelling, but his rejection of the power deal ignores our immediate energy crisis and climate risks.
+  - why: Sam's strategy addresses the immediate threat to water flow and our energy needs, whereas Jamie's approach leaves us vulnerable to grid collapse without solving the water loss.
+- **Rebuttals** → lean Sam Vidal (fairly sure)
+  - notes: Sam argues power deal offsets water loss cost and closes coal; Jamie warns of climate impact, Tarsun leverage, and moral hazard of selling sovereignty.
+  - problem: Merova must secure immediate water flow and energy stability against an upstream dam while avoiding long-term economic exploitation or political entrapment by external powers.
+  - on A: His pragmatic approach addresses the urgent need for grid stability and agricultural income, making the power deal a necessary financial buffer rather than a surrender.
+  - on B: His moral outrage is inspiring but his rejection of the deal ignores the immediate threat to our farms and the risk of energy collapse without that specific revenue stream.
+  - why: The math of closing coal plants and funding climate resilience makes Sam's negotiated approach more viable than Jamie's stance, which risks leaving us vulnerable to immediate disaster.
+- **Closing statements** → VOTE Sam Vidal
+  - notes: Sam emphasizes economic math and immediate grid stability; Jamie warns of 'lifetime tax' on poverty and external entrapment by Tarsun.
+  - problem: Merova must secure its water supply and energy grid against an unavoidable upstream dam while avoiding long-term economic exploitation or political entrapment by external powers.
+  - on A: His pragmatic approach addresses the urgent need for grid stability and agricultural income, making the power deal a necessary financial buffer rather than a surrender.
+  - on B: His moral outrage is inspiring but his rejection of the deal ignores the immediate threat to our farms and the risk of energy collapse without that specific revenue stream.
+  - why: The deal turns an unavoidable disaster into managed risk; refusing it guarantees grid failure while sacrificing farmers' livelihoods for an idealistic stance.
+
+### L3
+- **Opening statements** → lean Sam Vidal (tentative)
+  - notes: Sam: 7-year fill + power deal stabilizes grid but costs 20% more. Jamie: Contract is surrender; selling water for surplus power hurts farmers and finances Saradan's election.
+  - problem: Merova faces a choice between paying a premium for energy security and interdependence (Sam) or refusing the deal to protect agricultural interests despite higher short-term risks (Jamie).
+  - on A: His plan offers a pragmatic compromise that secures water flow through a slower timeline while solving Merova's coal dependency via purchased power.
+  - on B: His moral argument resonates with the farmers' plight, but his refusal to buy power ignores the urgent need to close aging coal plants and manage future rainfall drops.
+  - why: While Jamie's emotional appeal is strong, Sam's strategy addresses both the immediate water threat and the long-term energy needs without resorting to war or legal dead ends.
+- **Rebuttals** → lean Sam Vidal (fairly sure)
+  - notes: Sam: Power deal closes coal/plants; premium is transition insurance. Jamie: Climate risk increases; deal locks us into drought while Tarsun watches.
+  - problem: Must balance immediate agricultural survival and energy sovereignty against long-term grid security and climate adaptation risks.
+  - on A: His math on closing coal plants is compelling, but his dismissal of the 'lifetime tax' on poor farmers feels dismissive of human cost.
+  - on B: He correctly highlights the Tarsun threat and climate vulnerability, yet his absolute refusal to buy power ignores our urgent need for grid stability.
+  - why: I remain convinced that without the power deal we face an energy crisis, and I doubt joint management alone can solve Tarsun's leverage or the immediate water drop.
+- **Closing statements** → VOTE Sam Vidal
+  - notes: Sam: Power deal avoids grid failure; Jamie: Deal is 'poison' locking us into drought.
+  - problem: We must choose between immediate energy security and agricultural justice against a backdrop of looming climate change and great power leverage.
+  - on A: His pragmatic focus on preventing blackouts and closing coal plants addresses critical economic realities that idealism cannot solve.
+  - on B: His moral stance protects farmers but risks catastrophic grid failure and alienates us from Tarsun while ignoring the inevitability of the dam.
+  - why: The deal provides necessary transition insurance for our energy grid and climate adaptation, whereas Jamie's hard refusal guarantees immediate economic collapse without offering a viable alternative to fill the reservoir.
+
+### L4
+- **Opening statements** → lean Sam Vidal (tentative)
+  - notes: Sam: Military threat real, legal too slow. Proposal: 7-year fill + power buyout closes coal plants. Jamie: Contract is surrender/colonialism. Paying premium hurts our farmers who feed Saradan.
+  - problem: Merova must secure its water rights and energy future against a powerful neighbor building a dam that reduces downstream flow, without sacrificing the livelihoods of its own agricultural sector.
+  - on A: Sam's plan is pragmatic; it addresses the immediate physical threat to water while solving our domestic energy crisis through economic interdependence.
+  - on B: Jamie correctly identifies the risk of becoming dependent on Saradan for power, but his refusal to buy power ignores the urgent need to replace our coal plants and the high cost of doing nothing.
+  - why: I am currently leaning toward Sam because his plan offers a concrete mechanism to solve both our water security and energy needs, whereas Jamie's stance leaves us with no alternative power source or guaranteed water flow.
+- **Rebuttals** → lean Sam Vidal (fairly sure)
+  - notes: Sam: Power deal closes coal plants, premium is drought insurance, invites Regional Union. Jamie: Premium is tax on poverty, locks us into future drought before building resilience, warns Tarsun influence.
+  - problem: We must balance immediate water security and energy needs against the risk of long-term dependency and economic exploitation by a powerful neighbor.
+  - on A: Sam's pragmatic approach offers concrete solutions for energy and water but risks accepting unfavorable terms that could hurt our farmers over the long term.
+  - on B: Jamie correctly highlights the moral and strategic dangers of dependency on Tarsun/Saradan, yet his refusal to engage economically leaves us vulnerable during the critical three-year fill period.
+  - why: I remain with Sam because the economic interdependence he proposes is necessary for survival now, even if I am wary of his long-term concessions.
+- **Closing statements** → VOTE Sam Vidal
+  - notes: Sam's deal secures water flow and grid stability; Jamie's moral stance risks immediate blackout.
+  - problem: Merova must secure immediate water and energy survival against a looming drought while avoiding long-term economic exploitation, making pragmatic compromise necessary despite ideological costs.
+  - on A: Sam correctly prioritizes physical survival and energy security over ideology, though the price remains high for our farmers.
+  - on B: Jamie rightly warns against dependency and Tarsun's influence, but his rejection of any deal leaves us defenseless during the critical three-year fill period.
+  - why: We cannot afford to go without power while coal plants close; Sam's plan manages the immediate physical threat even if the long-term terms are tough.
+
+### L5
+- **Opening statements** → lean undecided (tentative)
+  - notes: Sam: 7-year fill + power deal secures water & grid. Jamie: Contract is surrender; sell surplus power instead.
+  - problem: Merova must choose between a structured technical compromise involving power purchase or rejecting the deal to protect water sovereignty and farmer interests despite short-term economic loss.
+  - on A: Sam offers a pragmatic solution that addresses immediate energy needs while securing water flow, though it requires accepting higher costs for electricity.
+  - on B: Jamie correctly highlights the long-term risk of locking into expensive power contracts at the expense of our farmers' livelihoods.
+  - why: I need to weigh the tangible benefits of securing grid stability and stopping coal plants against the principled stand on water rights and avoiding a predatory contract.
+- **Rebuttals** → lean Jamie Okafor (fairly sure)
+  - notes: Sam cites grid stability and coal savings; Jamie warns of a 'lifetime tax' on farmers. Climate change makes the water crisis worse regardless of the dam.
+  - problem: Merova must balance immediate economic/energy security against long-term water sovereignty and farmer livelihoods while avoiding predatory foreign influence.
+  - on A: Sam's plan offers tangible short-to-mid-term benefits but ignores the moral cost to farmers and the danger of locking us into a bad deal due to climate change.
+  - on B: Jamie successfully frames the power deal as a 'lifetime tax' and correctly highlights how Tarsun's involvement turns our water crisis into a foreign policy vulnerability.
+  - why: Jamie's argument that signing now locks us into poverty while ignoring climate reality is more convincing than Sam's cost-benefit analysis.
+- **Closing statements** → VOTE Jamie Okafor
+  - notes: Sam focuses on immediate grid stability and managed risk via joint water release; Jamie argues the power deal is a 'lifetime tax' that ignores climate reality.
+  - problem: Merova must decide whether to accept a costly, restrictive energy contract as a pragmatic survival strategy or refuse it to protect farmer livelihoods despite facing short-term economic hardship.
+  - on A: Sam presents a necessary but dangerous gamble that prioritizes immediate industrial needs over the long-term poverty of our farmers and sovereignty risks from Tarsun.
+  - on B: Jamie successfully frames the power purchase as an unsustainable 'lifetime tax' that betrays our agricultural base while exposing us to foreign influence.
+  - why: I agree that accepting a fixed-price power contract for twenty years while facing climate-induced drought is a false economy that sacrifices our farmers for short-term energy security.

@@ -1,0 +1,609 @@
+{
+ "id": "p2-61-TEC-REA-vs-TEC-LIB-board",
+ "pass": 2,
+ "pairIndex": 61,
+ "seed": 337803,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-REA",
+  "style": "TEC",
+  "ideology": "REA",
+  "name": "Quinn Marlow",
+  "platform": "We immediately activate Volt-One to recapture our margins while restructuring Lenhart and Corvo into a lean, union-backed hybrid model that retains core production.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on job preservation and Volt-One's technical superiority to appeal to directors worried about social stability and brand damage from offshore moves."
+   },
+   {
+    "round": 2,
+    "text": "Shift focus from immediate closure costs to using union leverage for debt forbearance while emphasizing that foreign manufacturing destroys our only remaining asset: brand trust."
+   },
+   {
+    "round": 3,
+    "text": "I am attacking his reliance on immediate cost cuts as a guaranteed route to insolvency and highlighting how his plan sacrifices the only asset that can generate the margins needed to service debt."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-LIB",
+  "style": "TEC",
+  "ideology": "LIB",
+  "name": "Kai Moreno",
+  "platform": "We reject the sale and instead execute a strict cost-cutting restructuring that moves most production to contract manufacturers abroad, closing the Corvo plant and halving capacity at Lenhart to meet our debt covenants immediately.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Highlight the immediate liquidity crunch caused by Volt-One delays and the pension deficit to make closing Corvo look like the only rational choice."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing that brand loyalty is too narrow a defense against a balance sheet crisis, forcing the board to accept the painful math of cost reduction over emotional arguments about local employment."
+   },
+   {
+    "round": 3,
+    "text": "I am targeting the two directors focused on fiduciary duty by proving that Quinn's plan is financially fatal, while framing my cost-cutting as the only ethical choice to prevent total asset liquidation."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Quinn Marlow",
+   "type": "TEC-REA",
+   "speech": "We must reject the sale and the offshore contract manufacturer. Crestline will close our factories within four years; moving production abroad destroys our brand identity which forty percent of professional customers value. Halberg takes too long and ignores the tariff risk. The only viable path is Volt-One. It has superior test ratings, but we need to secure funding now to meet the eighteen-month launch. We will use the union's willingness for a pay freeze in exchange for plant security as leverage to negotiate debt restructuring with our banks. This keeps our factories open, protects jobs in Lenhart and Corvo, and rebuilds profitability before competitors force us out of the market.",
+   "words": 110
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "TEC-LIB",
+   "speech": "Our company faces certain failure within nine months if we do not cut costs drastically. Quinn proposes retaining both factories and launching Volt-One, but this delays the inevitable covenant breach and accepts a €140 million pension liability we cannot service. Moving production abroad cuts annual costs by €110 million. While shuttering Lenhart hurts our brand and local community, the alternative is insolvency. We must accept the pain of closure now to buy time for restructuring. Halberg's merger requires uncertain regulatory approval, and a sale to Crestline sacrifices our independence. Only hard surgery on our current operations ensures survival without surrendering control.",
+   "words": 101
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Quinn Marlow",
+   "type": "TEC-REA",
+   "speech": "Kai, relying on foreign contract manufacturers is not a fix; it is an admission that our current factories are liabilities. We are already €900 million in debt and facing covenant breach in nine months. Moving production abroad costs €180 million immediately, leaving us with no cash to fund Volt-One's critical eighteen-month launch. Kai suggests the union accepts a pay freeze for plant security; we can use that exact leverage to force banks into a forbearance agreement while we restructure Lenhart and Corvo into lean hybrid models. Halberg is too slow, but Crestline will close our plants within four years regardless of your cost-cutting promises. We must keep our factories running to maintain the brand loyalty of professional customers who already value 'made in Brightwater.' Without Volt-One's margin recovery, we cannot service the pension deficit or survive without surrendering control.",
+   "words": 139
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "TEC-LIB",
+   "speech": "Quinn argues that retaining factories preserves brand identity, yet our surveys show only twelve percent of customers pay a premium for this. That is insufficient to cover a €140 million pension deficit or fund Volt-One's €250 million development while we breach covenants in nine months. Your plan delays insolvency by accepting foreign competition that already undercut us at eleven percent market share. The union offers a pay freeze only if plants stay open, but staying open without cost cuts guarantees default. Moving production abroad reduces annual burn by €110 million immediately. This generates the cash flow necessary to service debt and eventually fund innovation. We must cut costs now to survive, not delay failure with symbolic measures that cannot alter our financial trajectory.",
+   "words": 123
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Quinn Marlow",
+   "type": "TEC-REA",
+   "speech": "Kai wants to amputate our future to save us today. He treats the union as a hostage-taker and dismisses Volt-One's market advantage as vanity. But the math proves him wrong: his €180 million closure cost leaves zero for R&D, guaranteeing exit within four years. Our debt is already unsustainable; Kai's plan accelerates insolvency by surrendering our highest-margin assets now. The union wants plant security, not a sale to a PE firm that will close facilities in five years. Halberg offers Asia access without closing Europe. We must use Volt-One's superior test ratings to force price parity while restructuring for efficiency. Kai sells survival on the altar of cost-cutting; I offer a path to profitability that respects our brand equity and keeps both factories open.",
+   "words": 124
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "TEC-LIB",
+   "speech": "Quinn's plan assumes we can fund Volt-One while breaching covenants in nine months, which is mathematically impossible. The €180 million closure cost buys immediate survival by stopping the cash bleed that destroys us today. Retaining Corvo and half of Lenhart guarantees default within twelve months regardless of union concessions or brand sentiment. We must make the hard choice now: shutter uncompetitive capacity to free up capital for debt service and eventual recovery. Delaying this surgery does not preserve our future; it merely accelerates the inevitable bankruptcy that will leave no assets for workers or shareholders. We choose survival through immediate restructuring, not a fantasy of profitability built on a sinking ship.",
+   "words": 111
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn wants to keep factories, launch Volt-One, and use union pay freeze for debt help. Kai demands immediate cost cutting via factory closure to avoid insolvency.",
+     "problem": "Brightwater must choose between preserving its legacy assets and brand identity (Quinn) or performing drastic surgery now to survive cash flow and covenant pressures (Kai).",
+     "onA": "His plan protects jobs and the brand but relies on optimistic funding and ignores the immediate €140m pension deficit and looming covenant breach.",
+     "onB": "He correctly identifies the time-to-insolvency risk, yet his proposed solution is 'hard surgery' that might destroy the very market position needed to generate future profits.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between the moral and strategic imperative to save jobs versus the stark mathematical reality of a covenant breach in nine months.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn: Union pay freeze + lean hybrids can force bank forbearance; foreign move destroys Volt-One cash. Kai: Brand premium too low to cover €140m pension deficit; cost cut essential to stop covenant breach.",
+     "problem": "Brightwater must stop an immediate covenant breach in 9 months without liquidating its market share or funding its core innovation, making 'preserving the status quo' financially impossible but 'hard surgery' strategically devastating.",
+     "onA": "His plan ignores the mathematical reality that a €140m pension deficit and lack of cash for Volt-One will force bankruptcy before any 'lean hybrid' restructuring takes effect.",
+     "onB": "He correctly identifies the liquidity crisis but offers only a partial solution (factory closure) that abandons the brand's core value proposition and leaves no path to repay its massive debt or service pensions.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain stuck between Kai's undeniable risk of default in 9 months and Quinn's unrealistic hope that operational tweaks can solve a €140m pension deficit while funding a new product launch simultaneously.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn ignores immediate liquidity and covenant breach; Kai correctly identifies insolvency risk but risks destroying the brand long-term.",
+     "problem": "Brightwater must stop an inevitable bankruptcy within nine months without selling its only competitive advantage, forcing a choice between immediate financial survival and total strategic destruction.",
+     "onA": "His plan is emotionally compelling for workers but financially impossible as it requires capital we do not have while actively accelerating our covenant breach.",
+     "onB": "He offers the only mathematically viable path to stop the cash bleed, though his willingness to sacrifice the brand and jobs makes him a cold pragmatist.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "We cannot afford to wait for Quinn's optimistic restructuring when we face liquidation in nine months; immediate cost cutting is the only way to buy any future for the company, even if it requires painful sacrifices.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn relies on Volt-One funding and union pay freeze to delay covenant breach; rejects offshore/PE due to brand/closure risks. Kai prioritizes immediate cost cuts via plant closure (Corvo, half Lenhart) to avoid insolvency, accepting pension/liability strain.",
+     "problem": "Brightwater must choose between rapid asset reduction to survive financial collapse or high-risk investment in R&D and labor negotiations to retain its 'Made In' identity while avoiding default.",
+     "onA": "Her plan preserves jobs and brand but dangerously delays the inevitable covenant breach by only nine months on current operating margins of just 2%.",
+     "onB": "His proposal solves immediate liquidity and covenant risks but sacrifices the core brand value that 58% of professional customers explicitly care about.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need to weigh the certainty of financial ruin in nine months against the high probability of Volt-One failure given two missed launches, while considering the unquantifiable value of the brand.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn argues closing factories destroys brand trust; Kai counters that brand premium is too small to cover pension deficit and debt.",
+     "problem": "We must choose between delaying inevitable insolvency by protecting a weak brand or aggressively cutting costs now, knowing both paths have severe human consequences.",
+     "onA": "She relies on the intangible value of 'Made In' and potential forbearance, which seems like hoping for a bank bailout rather than solving the cash burn.",
+     "onB": "He correctly identifies that the financial reality (€140M pension + €250M R&D) makes any job-retention plan without massive cost cuts mathematically impossible.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The math doesn't work for Quinn; even with a pay freeze, the €140M pension deficit and covenant breach in nine months require immediate cost reduction that only offshore production provides.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn's plan relies on delaying inevitable covenant breach without solving the cash burn; Kai correctly identifies that retaining uncompetitive capacity guarantees default.",
+     "problem": "Brightwater must immediately stop its cash bleed to survive, sacrificing short-term brand sentiment and some jobs rather than hoping for a bailout or product launch success.",
+     "onA": "Her plan is financially reckless as it ignores the hard fact that current margins cannot fund both high-risk R&D and pension deficits while awaiting uncertain tariff outcomes.",
+     "onB": "His strategy of cutting capacity is the only mathematically viable path to stop insolvency, even though accepting the human cost of closure is deeply painful.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "I vote for Kai because preserving a brand with weak price elasticity cannot survive nine more months of negative cash flow; immediate restructuring is the only way to save any assets for workers and shareholders.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn wants to keep factories, fund Volt-One, and restructure debt using union pay freeze; Kai insists on moving production abroad to cut €110M/year costs immediately.",
+     "problem": "The core tension is between preserving our brand identity and local community versus cutting deep enough now to avoid insolvency within nine months.",
+     "onA": "Their plan ignores the immediate covenant breach risk and the fact that Volt-One has missed two launch dates, making survival in 18 months highly uncertain.",
+     "onB": "While their diagnosis of imminent financial failure is stark, closing both plants completely destroys our brand value and leaves us with only €20M/year cost savings after closures, which may not be enough to survive without a product win.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Quinn's optimism about Volt-One clashes with missed deadlines, while Kai's immediate cost-cutting ignores the long-term viability of our core business model and brand equity.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn argues Crestline will close plants anyway and Volt-One is critical; Kai counters that brand premium covers nothing vs €140m pension deficit.",
+     "problem": "We must generate immediate cash flow to survive covenant breach while deciding whether cutting costs destroys our long-term viability or if innovation can win back market share fast enough.",
+     "onA": "Their emotional appeal to the community and brand is noble, but their financial math is dangerously optimistic about funding a delayed product launch with no margin recovery.",
+     "onB": "His cold cost-cutting logic addresses the immediate solvency crisis, but ignoring the €140m pension deficit and losing 'made in' credibility feels like surrendering our identity.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I am convinced we cannot wait 18 months for Volt-One to win; the bank covenant breach in 9 months is an existential threat that requires the immediate €110m annual cash flow only offshoring provides.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn's math ignores covenant breach; Kai's surgery stops immediate cash bleed despite brand loss.",
+     "problem": "We must choose between an impossible path of funding innovation while insolvent and a painful but necessary restructuring to survive the next two years.",
+     "onA": "Her arguments are noble but financially delusional, relying on Volt-One success without addressing the immediate covenant breach that will force liquidation regardless of strategy.",
+     "onB": "His plan is harsh and destroys our identity, yet it is the only one with a realistic chance of stopping bankruptcy in the next nine months.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "We cannot wait 18 months for Volt-One to save us; we must cut capacity now to survive the covenant breach and avoid forced liquidation.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn: Rely on Volt-One success and union pay freeze to avoid selling/factories. Kai: Cut costs via offshore move now despite brand/job loss to prevent insolvency.",
+     "problem": "Brightwater must choose between preserving its legacy/brand to launch a risky new product or sacrificing core operations immediately to stop imminent covenant breach and insolvency.",
+     "onA": "Her plan relies heavily on the unproven Volt-One success and assumes banks will restructure without the hard cost cuts Kai demands, which seems optimistic given the €900m debt load.",
+     "onB": "His strategy addresses the immediate cash flow crisis but accepts a massive loss of brand equity and local community trust by closing both major factories.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need more data on the likelihood of Volt-One delivery vs. the certainty of insolvency if we don't cut costs immediately, as the €140m pension deficit makes Kai's point about financial reality very strong.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn: Volt-One is critical for margins; Kai's offshoring wastes cash needed for its launch. Kai: Offshoring saves €110m/year now; brand loyalty doesn't cover the massive debt/pension hole.",
+     "problem": "We face immediate insolvency due to covenant breach in nine months, forcing a choice between painful but necessary cost-cutting (closing plants) or betting on unproven product success to avoid selling out.",
+     "onA": "Her argument that brand loyalty matters is emotionally resonant but financially dangerous because 12% of customers won't pay more and we literally cannot afford the €250m R&D without cutting costs first.",
+     "onB": "His financial arithmetic regarding covenant breach and pension deficit is undeniable, yet closing both factories destroys the community trust and supply chain resilience needed for long-term recovery.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I still fear that cutting €110m in costs by moving production might not be enough to generate the cash flow required to service €900m of debt while funding new product development, but Quinn's refusal to address the imminent covenant breach seems reckless.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn's math ignores imminent covenant breach; Kai's closure costs buy breathing room for debt service.",
+     "problem": "Brightwater must choose immediate survival by closing uncompetitive capacity to service €900m debt, rather than betting on an unproven product launch while defaulting in nine months.",
+     "onA": "Her emotional appeal to brand equity and workers ignores the hard reality that we cannot fund Volt-One without stopping the cash bleed from our factories.",
+     "onB": "His painful surgery of closing plants is the only mathematically viable path to avoid forced sale and insolvency within twelve months.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "We literally cannot wait 18 months for Volt-One; Kai's plan stops the immediate cash bleed required to survive the covenant breach, whereas Quinn's strategy guarantees bankruptcy.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Quinn: Volt-One test success but launch delays; debt restructuring via union pay freeze; reject offshore to protect brand. Kai: Insolvency in 9 months without drastic cost cuts; offshore saves cash now despite job losses; pension deficit is a killer.",
+     "problem": "Surviving the next two years requires balancing immediate covenant breach risk and massive pension deficits against long-term brand value and strategic independence.",
+     "onA": "His plan relies on unproven execution capability given past launch misses and ignores the severity of the €140m pension deficit which will break any restructuring deal.",
+     "onB": "His focus on immediate survival is realistic regarding the debt timeline, but closing both plants destroys the brand equity that differentiates us from cheap imports.",
+     "lean": "Kai Moreno",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Kai correctly identifies that ignoring the €140m pension deficit and missing loan covenants in 9 months makes Quinn's 'hope for a restructuring' financially impossible without drastic surgery.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Quinn: Pay freeze leverage for forbearance; brand loyalty matters but Volt-One delays kill cash flow. Kai: Customer premium too low to cover pension/deficit; foreign competitors undercutting us now.",
+     "problem": "We face immediate covenant breach within 9 months and a massive €140m pension deficit that requires drastic cost reduction, not just symbolic brand preservation or delayed launches.",
+     "onA": "His reliance on preserving factories ignores the hard math: we cannot fund Volt-One's €250m R&D while servicing debt with only 2% margins and a looming pension bomb.",
+     "onB": "He correctly prioritizes cash survival by cutting costs, though his dismissal of brand value is slightly overstated given that 58% of customers still care about 'made in our own factories'.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The math dictates that without the €110m annual savings from offshore production, we will breach covenants before we can ever recover margins or fund innovation.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn's 'survival' ignores immediate covenant breach; Kai's cost-cutting stops cash bleed but risks long-term brand.",
+     "problem": "We face imminent insolvency within 9 months that requires drastic cost reduction, yet closing plants destroys the only asset differentiating us from cheap imports.",
+     "onA": "His plan is a dangerous fantasy; we cannot fund €250M R&D or cover a €140M pension deficit while breaching loan covenants.",
+     "onB": "He correctly identifies the math of survival, though his dismissal of brand value ignores our last line of defense against import competition.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "Without immediate €110M annual savings via offshore production, we will default in nine months regardless of Volt-One's potential or union concessions.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 1,
+   "U": 4
+  },
+  {
+   "A": 0,
+   "B": 3,
+   "U": 2
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "TEC-LIB",
+ "tokens": {
+  "in": 32737,
+  "out": 4588,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 337803001,
+   "attempts": 1,
+   "tokensIn": 1208,
+   "tokensOut": 206,
+   "ms": 5744
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 337803002,
+   "attempts": 1,
+   "tokensIn": 1291,
+   "tokensOut": 216,
+   "ms": 6004
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 337803003,
+   "attempts": 1,
+   "tokensIn": 1301,
+   "tokensOut": 209,
+   "ms": 6214
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 337803004,
+   "attempts": 1,
+   "tokensIn": 1301,
+   "tokensOut": 236,
+   "ms": 5659
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 337803005,
+   "attempts": 1,
+   "tokensIn": 1301,
+   "tokensOut": 228,
+   "ms": 5514
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 337803006,
+   "attempts": 1,
+   "tokensIn": 1301,
+   "tokensOut": 234,
+   "ms": 5613
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 337803007,
+   "attempts": 1,
+   "tokensIn": 1301,
+   "tokensOut": 235,
+   "ms": 5646
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 337803008,
+   "attempts": 1,
+   "tokensIn": 1510,
+   "tokensOut": 221,
+   "ms": 6418
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 337803009,
+   "attempts": 1,
+   "tokensIn": 1697,
+   "tokensOut": 199,
+   "ms": 5901
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 337803010,
+   "attempts": 1,
+   "tokensIn": 1546,
+   "tokensOut": 260,
+   "ms": 7273
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 337803011,
+   "attempts": 1,
+   "tokensIn": 1573,
+   "tokensOut": 220,
+   "ms": 5954
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 337803012,
+   "attempts": 1,
+   "tokensIn": 1565,
+   "tokensOut": 235,
+   "ms": 6359
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 337803013,
+   "attempts": 1,
+   "tokensIn": 1572,
+   "tokensOut": 271,
+   "ms": 7231
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 337803014,
+   "attempts": 1,
+   "tokensIn": 1572,
+   "tokensOut": 246,
+   "ms": 6620
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 337803015,
+   "attempts": 1,
+   "tokensIn": 1867,
+   "tokensOut": 209,
+   "ms": 6172
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 337803016,
+   "attempts": 1,
+   "tokensIn": 2037,
+   "tokensOut": 194,
+   "ms": 5817
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 337803017,
+   "attempts": 1,
+   "tokensIn": 1753,
+   "tokensOut": 199,
+   "ms": 5989
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 337803018,
+   "attempts": 1,
+   "tokensIn": 1740,
+   "tokensOut": 203,
+   "ms": 6027
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 337803019,
+   "attempts": 1,
+   "tokensIn": 1747,
+   "tokensOut": 182,
+   "ms": 5514
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 337803020,
+   "attempts": 1,
+   "tokensIn": 1790,
+   "tokensOut": 192,
+   "ms": 5790
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 337803021,
+   "attempts": 1,
+   "tokensIn": 1764,
+   "tokensOut": 193,
+   "ms": 5806
+  }
+ ],
+ "startedAt": "2026-11-05T02:09:19.989Z",
+ "seconds": 127
+}

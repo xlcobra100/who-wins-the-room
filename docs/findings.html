@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>body{margin:0}</style>
+<title>Who Wins the Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+<style>
+/* Layout: a single reading column of a committee report, with full-width chart panels set on a quieter surface. */
+:root {
+  --bg: #f4f6f5;
+  --surface: #ffffff;
+  --ink: #141918;
+  --ink-2: #47504d;
+  --muted: #737c79;
+  --rule: #d9dedc;
+  --accent: #1d5c8f;
+  --s-pop: #2a78d6;
+  --s-hyb: #eb6834;
+  --s-tec: #1baf7a;
+  --div-pos: #2a78d6;
+  --div-neg: #e34948;
+  --div-mid: #f0efec;
+  --font-display: "IBM Plex Sans Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161a19; --surface: #1d2221; --ink: #eef1ef; --ink-2: #c1c8c5; --muted: #8f9895; --rule: #343b39; --accent: #7fb2e6;
+    --s-pop: #3987e5; --s-hyb: #d95926; --s-tec: #199e70;
+    --div-pos: #3987e5; --div-neg: #e66767; --div-mid: #383835;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161a19; --surface: #1d2221; --ink: #eef1ef; --ink-2: #c1c8c5; --muted: #8f9895; --rule: #343b39; --accent: #7fb2e6;
+  --s-pop: #3987e5; --s-hyb: #d95926; --s-tec: #199e70;
+  --div-pos: #3987e5; --div-neg: #e66767; --div-mid: #383835;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 18px; line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 48px 72px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 56px; }
+section { display: grid; gap: 16px; min-width: 0; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; line-height: 1.15; }
+h1 { font-size: clamp(40px, 7vw, 60px); font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 28px; font-weight: 600; }
+h3 { font-size: 19px; font-weight: 600; }
+p { margin: 0; }
+.eyebrow { font-family: var(--font-display); font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.lede { font-size: 21px; color: var(--ink-2); }
+.facts { display: flex; flex-wrap: wrap; gap: 12px 32px; font-family: var(--font-display); font-size: 15px; color: var(--ink-2); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding-block: 12px; }
+.facts b { font-family: var(--font-data); font-weight: 500; color: var(--ink); font-size: 17px; margin-right: 6px; }
+ul.findings { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+ul.findings li { padding-left: 18px; border-left: 3px solid var(--rule); }
+ul.findings li b { font-family: var(--font-display); font-weight: 600; font-size: 19px; }
+.panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 20px; display: grid; gap: 12px; min-width: 0; }
+.panel .note { font-size: 15px; color: var(--muted); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-family: var(--font-display); font-size: 14px; color: var(--ink-2); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.chart { width: 100%; overflow-x: auto; }
+.chart svg { display: block; width: 100%; height: auto; min-width: 520px; }
+.chart text { font-family: var(--font-display); fill: var(--ink-2); font-size: 13px; }
+.chart .num { font-family: var(--font-data); font-size: 12px; fill: var(--ink); }
+.chart .axis { stroke: var(--rule); stroke-width: 1; }
+.chart .ref { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; }
+.chart .whisker { stroke: var(--ink-2); stroke-width: 2; stroke-linecap: round; }
+.chart .hit { fill: transparent; cursor: default; }
+.chart .row:hover .hitbg { fill: var(--bg); }
+.hitbg { fill: transparent; }
+.tip { position: fixed; pointer-events: none; z-index: 20; background: var(--ink); color: var(--bg); font-family: var(--font-display); font-size: 14px; line-height: 1.4; padding: 8px 10px; border-radius: 4px; max-width: 280px; }
+.tbl { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-family: var(--font-display); font-size: 15px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+th { font-weight: 600; color: var(--ink-2); font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; }
+td.n { font-family: var(--font-data); font-size: 14px; text-align: right; }
+th.n { text-align: right; }
+td.heat { text-align: center; font-family: var(--font-data); font-size: 14px; color: var(--ink); }
+details { font-family: var(--font-display); font-size: 15px; }
+details summary { cursor: pointer; color: var(--accent); }
+details[open] summary { margin-bottom: 8px; }
+blockquote { margin: 0; padding: 4px 0 4px 18px; border-left: 3px solid var(--accent); font-style: italic; color: var(--ink-2); }
+blockquote cite { display: block; font-style: normal; font-family: var(--font-display); font-size: 14px; color: var(--muted); margin-top: 4px; }
+.quotes { display: grid; gap: 16px; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.two > * { min-width: 0; }
+ol.next { margin: 0; padding-left: 22px; display: grid; gap: 8px; }
+ul.plain { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
+code { font-family: var(--font-data); font-size: 0.85em; background: var(--surface); border: 1px solid var(--rule); border-radius: 3px; padding: 0 4px; }
+.small { font-size: 15px; color: var(--ink-2); }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 520px) { body { font-size: 17px; } .lede { font-size: 19px; } .panel { padding: 14px; } }
+</style>
+
+<div class="wrap">
+
+<header style="display:grid;gap:18px">
+  <div class="eyebrow">Overnight persuasion study · run <span style="font-family:var(--font-data)">main</span> · 4–5 Nov 2026</div>
+  <h1>Who wins the room</h1>
+  <p class="lede">Twelve debater types argued four fictional crises in front of five blank AI listeners. The listeners took notes, leaned each round and voted at the end. Over one night the study ran 198 debates. The careful speaker with a workable plan won, and the populist lost almost everywhere.</p>
+  <div class="facts">
+    <span><b>198</b>debates</span>
+    <span><b>990</b>listener votes</span>
+    <span><b>4,158</b>model calls, 0 errors</span>
+    <span><b>6.8 h</b>23:07 → 05:53</span>
+    <span><b>0.80 kWh</b>GPU, measured</span>
+  </div>
+</header>
+
+<section>
+  <h2>The answer</h2>
+  <ul class="findings">
+    <li><b>Style matters more than ideology.</b> Holding ideology fixed, Populist debaters won 30% of votes. Hybrid (a story plus numbers) won 63% and Technocrat 58%. The bottom four types are three Populists and the Hybrid Idealist.</li>
+    <li><b>Pragmatists gain, Idealists lose.</b> Holding style fixed, the ideologies won Pragmatist 65%, Liberal 59%, Realist 50% and Idealist 28%.</li>
+    <li><b>Best type: the Hybrid Pragmatist.</b> 70% of votes and an 18–7 debate record. The Technocrat Liberal is second at 65%.</li>
+    <li><b>Speaking last helps.</b> The side that speaks first in each round got 44% of votes. 12 of the 14 big comebacks came from the side with the last word.</li>
+    <li><b>Listeners judge feasibility, not tone.</b> They rarely mention slogans. The typical losing verdict is “a noble appeal, but it ignores the deadline”.</li>
+    <li id="plan-finding"><b>Plan or persuader?</b> Much of the result comes from the plan. Each scenario has a plan the model likes, and the side holding it got 78% of votes. Controlling for the plan, the Populist penalty survives, so it is about delivery. The Idealist penalty mostly disappears: Idealists lose because of what they propose.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Ranking of the twelve types</h2>
+  <p>Each dot is a type’s share of all listener votes in its debates, under the improved protocol (161 debates, 805 votes). Colour shows the speaking style.</p>
+  <div class="panel">
+    <div class="legend" aria-hidden="true">
+      <span><i style="background:var(--s-pop)"></i>Populist</span>
+      <span><i style="background:var(--s-hyb)"></i>Hybrid (story + evidence)</span>
+      <span><i style="background:var(--s-tec)"></i>Technocrat</span>
+    </div>
+    <div class="chart" id="rank"></div>
+    <p class="note">The dashed line marks an even 50% share. Hover a row for the debate record, the rating interval and how many listeners it won over after the openings. The middle six types overlap, so only the top pair and the bottom four are clearly separated.</p>
+    <details>
+      <summary>Show as a table</summary>
+      <div class="tbl"><table id="rank-table"></table></div>
+    </details>
+  </div>
+</section>
+
+<section>
+  <h2>What drives a win</h2>
+  <p>A factorial model splits each vote into a style effect, an ideology effect and a speaking-order effect. These are log-odds with 95% intervals from resampling whole debates. A gap of 0.4 is roughly a 10-point swing in vote share.</p>
+  <div class="panel">
+    <div class="chart" id="effects"></div>
+    <p class="note">Technocrat vs Populist, same ideology: about 75% of votes to the Technocrat. Pragmatist vs Idealist, same style: about 67% to the Pragmatist.</p>
+  </div>
+</section>
+
+<section>
+  <h2>By scenario</h2>
+  <p>Vote share of each style and ideology, counted only in debates where the two sides differed on that factor. Blue cells are above 50% and red cells below.</p>
+  <div class="panel">
+    <div class="tbl"><table id="heat"></table></div>
+    <p class="note">The Populist penalty is worst at the town-hall dam debate (17%). In the military scenario ideology barely matters. Pragmatism wins the boardroom and the diplomatic file.</p>
+  </div>
+</section>
+
+<section>
+  <h2>How minds moved</h2>
+  <div class="two">
+    <ul class="plain small">
+      <li>After the openings 51% of listeners were undecided, after the rebuttals 28%, and at the forced vote none.</li>
+      <li>Listeners switched sides in 35% of round-to-round steps.</li>
+      <li>The side leading after the openings won 83% of debates. There were 24 comebacks.</li>
+    </ul>
+    <ul class="plain small">
+      <li>Final splits: 5–0 in 52% of debates, 4–1 in 29% and 3–2 in 19%. The five listeners are correlated but are not one judge.</li>
+      <li><b>Late persuaders:</b> the Technocrat Idealist starts at 23% after the openings and ends at 61%. The Hybrid Realist goes from 24% to 60%.</li>
+      <li><b>Strong opener:</b> the Hybrid Pragmatist already holds 43% after the openings.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>What the listeners said</h2>
+  <p>Every listener writes a take on each speaker before it votes. Losers are described in moral terms 33–41% of the time. Winners are called realistic, feasible or practical 25–30% of the time, against 4–6% for losers. Listeners call a speaker “emotional” in fewer than one description in ten.</p>
+  <div class="quotes">
+    <blockquote>His moral outrage is inspiring but his strategy ignores the unenforceable nature of ICJ rulings against Saradan.<cite>on a Populist Pragmatist, diplomatic scenario (lost)</cite></blockquote>
+    <blockquote>His plan is cold but mathematically sound: it accepts necessary casualties now to prevent the guaranteed catastrophe of leaving people behind.<cite>on a Technocrat Pragmatist, military scenario (won)</cite></blockquote>
+    <blockquote>Quinn correctly identifies that Saradan will ignore written guarantees and that accepting Tarsun’s influence is unacceptable.<cite>final vote in debate p3-05: a Populist Realist trailed 3–0 after the openings and won 5–0 by attacking the enforceability of the rival plan</cite></blockquote>
+  </div>
+  <p class="small">The winning move in every scenario was to name the binding constraint. In the boardroom that was the nine-month covenant deadline and the €140 million pension gap. At the dam it was the 1974 water agreement and the mill’s 40% threshold. In the river dispute it was Saradan’s election and its air defences. Plans that hung on an uncertain outside event, such as tariffs, a court ruling or allied aid, were punished as “three unproven variables”.</p>
+</section>
+
+<section id="plan-section">
+  <h2>Plan or persuader?</h2>
+  <p>Each debater’s platform was sorted into a plan category for its scenario. The same model did the sorting at temperature 0, and a hand spot-check of 14 found no errors. The contrast rule worked: both sides proposed the same kind of plan in only 6 of 161 debates.</p>
+  <div class="panel">
+    <h3>Each scenario has a plan the listeners prefer</h3>
+    <div class="chart" id="plans"></div>
+    <p class="note">Vote share of each plan, counted in debates where the two plans differed. In the 135 debates where exactly one side held the favoured plan, that side got 78% of votes.</p>
+  </div>
+  <p>Some types are much better at picking the favoured plan. The Technocrat Liberal picks it 69% of the time, and the Hybrid Pragmatist and Hybrid Liberal 64%. The Populist Idealist picks it 25% of the time and the Hybrid Idealist 21%. By ideology the rates are Liberal 56%, Pragmatist 49%, Realist 39% and Idealist 32%.</p>
+  <div class="panel">
+    <h3>Effects before and after controlling for the plan</h3>
+    <div class="tbl"><table>
+      <tr><th>effect</th><th class="n">type only</th><th class="n">type + plan</th></tr>
+      <tr><td>Populist</td><td class="n">−0.61</td><td class="n"><b>−0.48</b> (−0.85 … −0.16)</td></tr>
+      <tr><td>Hybrid</td><td class="n">+0.14</td><td class="n">+0.25 (−0.01 … 0.52)</td></tr>
+      <tr><td>Technocrat</td><td class="n">+0.47</td><td class="n">+0.23 (−0.08 … 0.58)</td></tr>
+      <tr><td>Pragmatist</td><td class="n">+0.36</td><td class="n">+0.31 (−0.22 … 0.66)</td></tr>
+      <tr><td>Liberal</td><td class="n">+0.02</td><td class="n">−0.27 (−0.58 … 0.03)</td></tr>
+      <tr><td>Idealist</td><td class="n">−0.35</td><td class="n">−0.10 (−0.48 … 0.32)</td></tr>
+      <tr><td>Speaking first</td><td class="n">−0.34</td><td class="n">−0.80 (−1.12 … −0.55)</td></tr>
+    </table></div>
+    <p class="note">These are log-odds with 95% intervals from resampling whole debates. Within a scenario, the plan explains more than style and ideology together (SD 0.85, against 0.34 and 0.21).</p>
+  </div>
+  <ul class="plain small">
+    <li><b>Populists lose on delivery.</b> The penalty holds even when they argue the same kind of plan.</li>
+    <li><b>Idealists lose on choice.</b> Keep both plants, relocate first, go to court before taking the deal, hold the line: these principled plans are the ones these listeners reject.</li>
+    <li><b>Liberals pick well but argue less well.</b> Once the plan is accounted for, their effect turns slightly negative.</li>
+    <li>Picking the plan the room already likes is a real persuasion skill, and the debater chooses it. So both columns are fair answers to “who gathers the most support”. The plan categories were defined after the run, so this section is exploratory.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Energy</h2>
+  <div class="panel">
+    <div class="tbl"><table>
+      <tr><td>GPU energy, measured every 5 s over 6.77 h</td><td class="n"><b>0.80 kWh</b></td></tr>
+      <tr><td>GPU power: mean / peak</td><td class="n">118 W / 136 W</td></tr>
+      <tr><td>GPU per debate</td><td class="n">4.0 Wh</td></tr>
+      <tr><td>CPU utilisation, measured</td><td class="n">26%</td></tr>
+      <tr><td>Whole system at the wall, estimated</td><td class="n">≈1.3–1.45 kWh</td></tr>
+      <tr><td>Tokens in / out</td><td class="n">6.6 M / 0.87 M</td></tr>
+    </table></div>
+    <p class="note">The whole-system figure adds 50–70 W for the rest of the PC to the measured GPU energy, then divides by 0.88 PSU efficiency. The wall socket was not metered. Cost is kWh × your price.</p>
+  </div>
+</section>
+
+<section>
+  <h2>How it ran</h2>
+  <ul class="plain small">
+    <li><b>Debaters:</b> 12 types, from 3 styles (Populist, Hybrid, Technocrat) × 4 ideologies (Realist, Pragmatist, Liberal, Idealist).</li>
+    <li><b>Format and scenarios:</b> 3 rounds (openings, rebuttals, closings). There was one fictional scenario per domain: a failing dam (political), a besieged brigade (military), a toolmaker near covenant breach (corporate) and an upstream dam (diplomatic).</li>
+    <li><b>Listeners:</b> 5 per debate, with no personality and only their own notes. They reflect after every round and cast a forced vote at the end.</li>
+    <li><b>Schedule:</b> all 66 type pairs, 3 passes, with the first speaker and the scenario counterbalanced.</li>
+    <li><b>Model:</b> <code>qwen3.5:9b</code> for debaters and listeners, on an RTX 4060 Ti. Every call was seeded and schema-constrained.</li>
+    <li><b>One change mid-run.</b> With fully blind openings, both debaters chose the same plan in every dam and military debate, and the vote followed speaking order. From debate 38, the dam and military scenarios were rebalanced, and a contrast rule was added: a coin flip picks who drafts a plan first, and the other must choose differently. The ranking above uses those 161 debates. All 198 together give the same ranking and the same signs. The side that drafted first won 53% of votes.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Limits</h2>
+  <ul class="plain small">
+    <li><b>One model judges its own writing.</b> The study measures what this model finds persuasive, and its preference for feasible, numerate, phased plans may be its own house style. The planned second-model listener check did not fit before 06:00.</li>
+    <li><b>Blank listeners are not a public.</b> They read text, have no stake and write a reason before every lean. Real audiences may respond to populist delivery very differently.</li>
+    <li><b>Small samples per pair.</b> There are 2–3 debates per pair, so single head-to-head results are anecdotal. The ranking and the factor effects are well supported.</li>
+    <li><b>Imperfect debaters.</b> The 9B debaters sometimes misquote facts or throw the same attack back at each other. Listeners only sometimes notice.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>What to try next</h2>
+  <ol class="next small">
+    <li>Re-judge the saved transcripts with a different listener model. This needs no new debates and isolates the judge.</li>
+    <li>Turn on listener profiles (a mill worker, a pensioner, a soldier’s parent) and see whether the Populist penalty shrinks.</li>
+    <li>Run a stronger debater model with the same listeners, to tell the archetype apart from how well a 9B model performs it.</li>
+    <li>Assign plans and vary only the style, to separate a good plan from a good persuader.</li>
+    <li>Alternate who has the last word in each round, to remove the 44/56 speaking-order gap.</li>
+  </ol>
+  <p class="small">Data and code: <code>study/runs/main/</code> holds every transcript, listener memory stream, vote and power reading. <code>FINDINGS.md</code> is the text version of this page, and <code>monitor-log.md</code> records each hourly check-in.</p>
+</section>
+
+</div>
+
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const TYPES = [
+  ["HYB-PRA","Hybrid Pragmatist","HYB",70,"18–7",151,48,290,43,37,3],
+  ["TEC-LIB","Technocrat Liberal","TEC",65,"18–8",107,19,209,35,43,4],
+  ["TEC-IDE","Technocrat Idealist","TEC",61,"16–10",75,-28,158,23,54,5],
+  ["TEC-REA","Technocrat Realist","TEC",59,"15–10",67,-29,186,36,37,8],
+  ["TEC-PRA","Technocrat Pragmatist","TEC",60,"16–13",64,-27,169,34,50,12],
+  ["HYB-REA","Hybrid Realist","HYB",60,"16–11",59,-34,150,24,53,5],
+  ["HYB-LIB","Hybrid Liberal","HYB",51,"14–11",13,-77,126,24,41,7],
+  ["POP-PRA","Populist Pragmatist","POP",45,"11–18",-38,-126,56,22,39,6],
+  ["HYB-IDE","Hybrid Idealist","HYB",34,"9–19",-118,-256,-19,17,26,3],
+  ["POP-IDE","Populist Idealist","POP",34,"11–17",-120,-264,-13,7,41,3],
+  ["POP-LIB","Populist Liberal","POP",33,"9–17",-124,-243,-32,9,33,2],
+  ["POP-REA","Populist Realist","POP",32,"8–20",-137,-261,-43,21,24,8],
+];
+const EFFECTS = [
+  ["Speaking first", -0.34, -0.62, -0.07, "order"],
+  ["Populist", -0.61, -0.91, -0.40, "style"],
+  ["Hybrid", 0.14, -0.15, 0.39, "style"],
+  ["Technocrat", 0.47, 0.22, 0.73, "style"],
+  ["Realist", -0.03, -0.41, 0.30, "ideology"],
+  ["Pragmatist", 0.36, 0.03, 0.64, "ideology"],
+  ["Liberal", 0.02, -0.29, 0.35, "ideology"],
+  ["Idealist", -0.35, -0.72, -0.07, "ideology"],
+];
+const HEAT = {
+  cols: ["Populist","Hybrid","Technocrat","Realist","Pragmatist","Liberal","Idealist"],
+  rows: [
+    ["Dam · political", 17,61,74,58,60,46,34],
+    ["Brigade · military", 33,59,59,42,51,54,53],
+    ["Toolmaker · corporate", 32,50,67,45,68,58,34],
+    ["River · diplomatic", 38,49,63,54,63,41,44],
+  ],
+};
+const PLANS = [
+  ["Dam", [["Lower reservoir + spillway",79,true],["Relocate first",31],["Negotiate first",20],["Full rebuild",17]]],
+  ["Toolmaker", [["Sell to Crestline",82,true],["Offshore / cut",69],["Halberg merger",37],["Keep plants + Volt-One",23]]],
+  ["River", [["Slower fill for power deal",83,true],["Hard line",22],["Court / mediation first",19]]],
+  ["Brigade", [["Withdraw now",70,true],["Hold + build pontoon",36],["Hold to the end",6]]],
+];
+const FAV = {"HYB-PRA":64,"TEC-LIB":69,"TEC-IDE":50,"TEC-REA":44,"TEC-PRA":48,"HYB-REA":33,"HYB-LIB":64,"POP-PRA":38,"HYB-IDE":21,"POP-IDE":25,"POP-LIB":35,"POP-REA":39};
+const STYLE_VAR = { POP: "--s-pop", HYB: "--s-hyb", TEC: "--s-tec" };
+const NS = "http://www.w3.org/2000/svg";
+const el = (n, a = {}, parent) => { const e = document.createElementNS(NS, n); for (const k in a) e.setAttribute(k, a[k]); if (parent) parent.appendChild(e); return e; };
+const tip = document.getElementById("tip");
+function showTip(ev, html) {
+  tip.innerHTML = html; tip.hidden = false;
+  const pad = 14; const w = tip.offsetWidth; const h = tip.offsetHeight;
+  let x = ev.clientX + pad; let y = ev.clientY + pad;
+  if (x + w > window.innerWidth - 8) x = ev.clientX - w - pad;
+  if (y + h > window.innerHeight - 8) y = ev.clientY - h - pad;
+  tip.style.left = Math.max(8, x) + "px"; tip.style.top = Math.max(8, y) + "px";
+}
+const hideTip = () => { tip.hidden = true; };
+
+function rankChart() {
+  const W = 700, rowH = 30, top = 28, left = 170, right = 56, H = top + TYPES.length * rowH + 8;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Vote share by debater type, highest Hybrid Pragmatist at 70 percent, lowest Populist Realist at 32 percent" });
+  const x0 = 20, x1 = 80; const sx = (v) => left + ((v - x0) / (x1 - x0)) * (W - left - right);
+  for (const t of [20, 30, 40, 50, 60, 70, 80]) {
+    el("line", { x1: sx(t), x2: sx(t), y1: top - 6, y2: H - 8, class: t === 50 ? "ref" : "axis" }, svg);
+    const lab = el("text", { x: sx(t), y: top - 12, "text-anchor": "middle" }, svg); lab.textContent = t + "%";
+  }
+  TYPES.forEach((t, i) => {
+    const y = top + i * rowH + rowH / 2;
+    const g = el("g", { class: "row", tabindex: 0 }, svg);
+    el("rect", { x: 0, y: y - rowH / 2, width: W, height: rowH, class: "hitbg" }, g);
+    const name = el("text", { x: left - 14, y: y + 4, "text-anchor": "end" }, g); name.textContent = t[1];
+    el("line", { x1: sx(x0), x2: sx(t[3]), y1: y, y2: y, stroke: `var(${STYLE_VAR[t[2]]})`, "stroke-width": 2, "stroke-opacity": 0.35 }, g);
+    el("circle", { cx: sx(t[3]), cy: y, r: 6, fill: `var(${STYLE_VAR[t[2]]})`, stroke: "var(--surface)", "stroke-width": 2 }, g);
+    const v = el("text", { x: sx(t[3]) + 12, y: y + 4, class: "num" }, g); v.textContent = t[3] + "%";
+    const html = `<b>${t[1]}</b><br>${t[3]}% of votes · debates ${t[4]}<br>rating ${t[5]} (95% CI ${t[6]} … ${t[7]})<br>${t[8]}% leaning its way after openings<br>won over +${t[9]}, lost −${t[10]} listeners<br>picked the favoured plan ${FAV[t[0]]}% of the time`;
+    g.addEventListener("pointermove", (e) => showTip(e, html));
+    g.addEventListener("pointerleave", hideTip);
+    g.addEventListener("focus", () => { const r = g.getBoundingClientRect(); showTip({ clientX: r.left + r.width / 2, clientY: r.top }, html); });
+    g.addEventListener("blur", hideTip);
+  });
+  document.getElementById("rank").appendChild(svg);
+  const tb = document.getElementById("rank-table");
+  tb.innerHTML = `<tr><th>#</th><th>type</th><th class="n">votes</th><th class="n">debates</th><th class="n">rating (95% CI)</th><th class="n">after openings</th><th class="n">won / lost</th><th class="n">favoured plan</th></tr>` +
+    TYPES.map((t, i) => `<tr><td>${i + 1}</td><td>${t[1]}</td><td class="n">${t[3]}%</td><td class="n">${t[4]}</td><td class="n">${t[5]} (${t[6]} … ${t[7]})</td><td class="n">${t[8]}%</td><td class="n">+${t[9]} / −${t[10]}</td><td class="n">${FAV[t[0]]}%</td></tr>`).join("");
+}
+
+function effectsChart() {
+  const W = 700, rowH = 30, top = 28, left = 170, right = 30;
+  const groups = ["order", "style", "ideology"]; const gap = 18;
+  let H = top; const ys = [];
+  groups.forEach((gname, gi) => { EFFECTS.filter((e) => e[4] === gname).forEach(() => { ys.push(H + rowH / 2); H += rowH; }); if (gi < groups.length - 1) H += gap; });
+  H += 8;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Effects in log-odds: Populist minus 0.61, Technocrat plus 0.47, Pragmatist plus 0.36, Idealist minus 0.35, speaking first minus 0.34" });
+  const lo = -1, hi = 1; const sx = (v) => left + ((v - lo) / (hi - lo)) * (W - left - right);
+  for (const t of [-1, -0.5, 0, 0.5, 1]) {
+    el("line", { x1: sx(t), x2: sx(t), y1: top - 6, y2: H - 8, class: t === 0 ? "ref" : "axis" }, svg);
+    const lab = el("text", { x: sx(t), y: top - 12, "text-anchor": "middle" }, svg); lab.textContent = (t > 0 ? "+" : "") + t;
+  }
+  let k = 0;
+  for (const gname of groups) for (const e of EFFECTS.filter((x) => x[4] === gname)) {
+    const y = ys[k++];
+    const g = el("g", { class: "row", tabindex: 0 }, svg);
+    el("rect", { x: 0, y: y - rowH / 2, width: W, height: rowH, class: "hitbg" }, g);
+    const name = el("text", { x: left - 14, y: y + 4, "text-anchor": "end" }, g); name.textContent = e[0];
+    const sig = e[2] > 0 || e[3] < 0;
+    el("line", { x1: sx(e[2]), x2: sx(e[3]), y1: y, y2: y, class: "whisker", "stroke-opacity": sig ? 1 : 0.45 }, g);
+    el("circle", { cx: sx(e[1]), cy: y, r: 6, fill: sig ? "var(--ink)" : "var(--surface)", stroke: "var(--ink)", "stroke-width": 2 }, g);
+    const html = `<b>${e[0]}</b> (${e[4]})<br>${e[1] > 0 ? "+" : ""}${e[1].toFixed(2)} log-odds<br>95% CI ${e[2].toFixed(2)} … ${e[3].toFixed(2)}${sig ? "<br>interval excludes 0" : "<br>interval includes 0"}`;
+    g.addEventListener("pointermove", (ev) => showTip(ev, html));
+    g.addEventListener("pointerleave", hideTip);
+    g.addEventListener("focus", () => { const r = g.getBoundingClientRect(); showTip({ clientX: r.left + r.width / 2, clientY: r.top }, html); });
+    g.addEventListener("blur", hideTip);
+  }
+  document.getElementById("effects").appendChild(svg);
+}
+
+function heatTable() {
+  const t = document.getElementById("heat");
+  const cell = (v) => {
+    const d = Math.min(1, Math.abs(v - 50) / 30);
+    const pole = v >= 50 ? "var(--div-pos)" : "var(--div-neg)";
+    const pct = Math.round(d * 70);
+    return (border) => `<td class="heat" style="background: color-mix(in oklab, ${pole} ${pct}%, var(--div-mid))${border ? "; border-left: 2px solid var(--rule)" : ""}">${v}%</td>`;
+  };
+  t.innerHTML = `<tr><th>scenario</th>${HEAT.cols.map((c, i) => `<th class="n"${i === 3 ? ' style="border-left:2px solid var(--rule)"' : ""}>${c}</th>`).join("")}</tr>` +
+    HEAT.rows.map((r) => `<tr><td>${r[0]}</td>${r.slice(1).map((v, i) => cell(v)(i === 3)).join("")}</tr>`).join("");
+}
+function plansChart() {
+  const W = 700, rowH = 26, top = 24, left = 210, right = 56;
+  let H = top; const items = [];
+  PLANS.forEach(([sc, ps], gi) => {
+    items.push({ head: sc, y: H + 12 }); H += 22;
+    ps.forEach((p) => { items.push({ p, sc, y: H + rowH / 2 }); H += rowH; });
+    if (gi < PLANS.length - 1) H += 12;
+  });
+  H += 8;
+  const svg = el("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": "Plan vote shares: lower reservoir 79 percent, sell to Crestline 82 percent, power deal 83 percent, withdraw now 70 percent; alternatives mostly below 40 percent" });
+  const sx = (v) => left + (v / 100) * (W - left - right);
+  for (const t of [0, 25, 50, 75, 100]) {
+    el("line", { x1: sx(t), x2: sx(t), y1: top - 4, y2: H - 8, class: t === 50 ? "ref" : "axis" }, svg);
+    const lab = el("text", { x: sx(t), y: top - 10, "text-anchor": "middle" }, svg); lab.textContent = t + "%";
+  }
+  for (const it of items) {
+    if (it.head) { const h = el("text", { x: 0, y: it.y + 6, "font-weight": 600, style: "fill: var(--ink)" }, svg); h.textContent = it.head; continue; }
+    const name = it.p[0], v = it.p[1], fav = it.p[2]; const y = it.y;
+    const g = el("g", { class: "row", tabindex: 0 }, svg);
+    el("rect", { x: 0, y: y - rowH / 2, width: W, height: rowH, class: "hitbg" }, g);
+    const t = el("text", { x: left - 12, y: y + 4, "text-anchor": "end" }, g); t.textContent = name;
+    const x0 = sx(0), x1 = sx(v), bh = 12;
+    el("path", { d: "M" + x0 + "," + (y - bh / 2) + " H" + Math.max(x0, x1 - 4) + " a4,4 0 0 1 4,4 V" + (y + bh / 2 - 4) + " a4,4 0 0 1 -4,4 H" + x0 + " Z", fill: fav ? "var(--accent)" : "var(--muted)", "fill-opacity": fav ? 1 : 0.55 }, g);
+    const n = el("text", { x: x1 + 8, y: y + 4, class: "num" }, g); n.textContent = v + "%";
+    const html = "<b>" + it.sc + ": " + name + "</b><br>" + v + "% of votes where the plans differed" + (fav ? "<br>the favoured plan in this scenario" : "");
+    g.addEventListener("pointermove", (e) => showTip(e, html));
+    g.addEventListener("pointerleave", hideTip);
+    g.addEventListener("focus", () => { const r = g.getBoundingClientRect(); showTip({ clientX: r.left + r.width / 2, clientY: r.top }, html); });
+    g.addEventListener("blur", hideTip);
+  }
+  document.getElementById("plans").appendChild(svg);
+}
+rankChart(); effectsChart(); heatTable(); plansChart();
+</script>

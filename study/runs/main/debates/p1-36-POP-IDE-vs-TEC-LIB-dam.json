@@ -1,0 +1,606 @@
+{
+ "id": "p1-36-POP-IDE-vs-TEC-LIB-dam",
+ "pass": 1,
+ "pairIndex": 36,
+ "seed": 716993,
+ "scenario": "dam",
+ "domain": "political",
+ "rounds": 3,
+ "A": {
+  "type": "POP-IDE",
+  "style": "POP",
+  "ideology": "IDE",
+  "name": "Riley Sandor",
+  "platform": "We must immediately lower the reservoir to thirty percent and build a new spillway, because waiting for a full rebuild condemns families in Riverside to death while promising false hope.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on the moral necessity of saving Riverside residents immediately, framing any delay or alternative plan as an abandonment of the poor to corporate and government indifference."
+   },
+   {
+    "round": 2,
+    "text": "Highlight Sasha's reliance on economic metrics while emphasizing that human life cannot be calculated, aiming to sway voters who feel abandoned by her cold pragmatism."
+   },
+   {
+    "round": 3,
+    "text": "I need to frame her economic arguments as moral betrayal to sway voters who care about fairness over pure fiscal theory."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-LIB",
+  "style": "TEC",
+  "ideology": "LIB",
+  "name": "Sasha Lund",
+  "platform": "We must immediately lower the reservoir to thirty percent and install a new spillway.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Defend the plan by emphasizing voluntary market choices over government coercion and highlight the hidden costs of the grant condition."
+   },
+   {
+    "round": 2,
+    "text": "I must convince voters that accepting Nordhalm's exit and municipal bankruptcy is a worse outcome than the temporary utility loss caused by lowering the dam."
+   },
+   {
+    "round": 3,
+    "text": "I am leveraging the threat of Nordhalm's relocation and the siren time deficit to prove that his emotional appeal hides an economically catastrophic plan that is also practically unsafe."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "POP-IDE",
+   "speech": "Look at that map. That flood zone holds hospitals, schools, and thousands of terrified parents. The experts tell us there is a one-in-twenty-five chance of failure this spring. They say 'it might not happen.' I say it will if we keep filling the dam. We cannot mortgage our children's safety for cheap hydro power or frozen property values. We must drain the lake to thirty percent now. Yes, upstream orchards suffer and the paper mill grumbles. But do their lawsuits matter more than the families waiting for the sirens? Do their profits matter more than lives? This is not about complex models or elite consultants. It is about duty. We choose life over profit today.",
+   "words": 115
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Sasha Lund",
+   "type": "TEC-LIB",
+   "speech": "Valmora faces a mathematical choice with a full spring melt expected. The national grant requiring a freeze on construction is politically popular but economically suicidal; freezing housing supply collapses property values for five thousand households, destroying municipal revenue needed for free buses. Relocation of Riverside is impossible without the state paying over one hundred sixty million euros, and the 2014 precedent proves it fails when people resist coercion. Therefore, voluntary adaptation is superior. Lowering the reservoir to thirty percent with a new spillway costs twenty-five million euros and takes only one year. This reduces failure probability by eighty percent according to engineers. While hydro profits halve, this temporary reduction in income is the only fair way to preserve our budget flexibility without seizing private property or forcing citizens into unwanted housing relocations.",
+   "words": 132
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "POP-IDE",
+   "speech": "Sasha, you speak of mathematical choices as if numbers mean safety. But a math model cannot save a mother waking at three in the morning because her child is trapped. You call freezing housing 'suicidal,' yet our debt is already at seventy-eight percent of the ceiling! We are bankrupt before we even start. Your plan keeps the dam full and profits high while telling Riverside families to wait in fear. That is not adaptation; that is gambling with lives for a few million euros. Do you want a town where the rich keep their orchards and the poor bleed out? No. We drain the lake now, lose some power, and rebuild our soul. Stop protecting the past and save the future.",
+   "words": 121
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Sasha Lund",
+   "type": "TEC-LIB",
+   "speech": "Mr. Sandor, your appeal to fear ignores the concrete financial reality. If we drain to thirty percent immediately, Nordhalm moves its 2,300 workers, and our utility cannot pay for free buses or ninety percent of the municipal budget. That fiscal collapse is unavoidable, whereas lowering the level now avoids the catastrophic €340 million rebuild if failure occurs. You claim freezing housing is suicidal because of debt; yet selling frozen homes yields nothing to service that debt. By choosing voluntary lowering and a spillway, we avoid seizing property or coercing Riverside residents. This plan pays for itself by preventing total bankruptcy while maintaining essential services through reduced but not eliminated power sales. We act on known engineering data rather than emotional gambles.",
+   "words": 121
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "POP-IDE",
+   "speech": "Sasha says we act on engineering data, but she ignores the human cost of letting our children wait in fear. You call freezing housing 'suicidal,' yet your plan does exactly that: it starves our schools and hospitals while the dam holds its deadly weight. A math model cannot save a family when the levee breaks. Your strategy protects orchard profits and paper mill jobs at the expense of Riverside residents who have no power to sue. We choose action over illusion. We lower the water now, accept the temporary pain of reduced power, and build a spillway that saves our soul. Do not let greed drown us. Vote for life, vote for justice, and drain that lake before the spring melt.",
+   "words": 121
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Sasha Lund",
+   "type": "TEC-LIB",
+   "speech": "Mr. Sandor appeals to emotion, but we face an actuarial choice. Lowering the reservoir now costs twenty-five million euros and reduces failure risk by eighty percent. Your alternative drains immediately, triggering a lawsuit from Ostbrück that halts irrigation, forcing Nordhalm to relocate its two thousand three hundred employees. This economic collapse would bankrupt the town regardless of our power revenue loss. Furthermore, your plan ignores the siren system: last year's drill took seventy minutes with no warning; you offer only sixty minutes before water arrives. By accepting a temporary reduction in hydro profits rather than seizing property or inducing mass panic, we preserve essential municipal services while engineering a safer outcome. We choose fiscal responsibility and voluntary adaptation over coercion and guaranteed economic ruin.",
+   "words": 124
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley prioritizes lives over orchards/mill; Sasha cites budget collapse from housing freeze and failed relocation history.",
+     "problem": "We must choose between immediate safety measures that hurt the economy vs. expensive relocations, balancing lives against financial survival.",
+     "onA": "Riley's moral urgency is compelling, but ignoring economic collapse risks long-term survival for everyone.",
+     "onB": "Sasha acknowledges the human cost of orchard damage while correctly identifying housing freezes as financially destructive.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot ignore the risk to lives, but I must also ensure the town has money to function after any crisis.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley: Moral urgency against math models; draining now avoids catastrophic rebuild cost. Sasha: Fiscal collapse inevitable if draining; voluntary lowering saves utility profits and essential services like free buses.",
+     "problem": "We must balance immediate human safety risks from a full reservoir against the certain economic paralysis that follows either extreme of emptying the dam or rebuilding it.",
+     "onA": "His moral argument about saving lives is powerful, but his dismissal of financial reality ignores that without money for utilities and buses, the town cannot function even if we survive the flood.",
+     "onB": "She correctly identifies that draining the reservoir now would trigger a chain reaction of job losses and service cuts that could bankrupt the town before spring even starts.",
+     "lean": "Sasha Lund",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Riley's plan requires draining the lake immediately, which Sasha proves will cause Nordhalm to move and the utility to fail, leaving no money to evacuate Riverside families when disaster strikes.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley ignores fiscal reality and risks Nordhalm moving/insurers leaving; Sasha's voluntary lowering saves services while reducing risk significantly.",
+     "problem": "Valmora must balance immediate flood safety with the absolute necessity of keeping essential municipal services funded to evacuate anyone if needed.",
+     "onA": "His moral appeal is insufficient because draining now guarantees economic paralysis that leaves no money for evacuation or repairs when disaster strikes.",
+     "onB": "She correctly identifies that a temporary, voluntary lowering saves critical revenue while mathematically reducing failure risk and avoiding legal/economic ruin.",
+     "lean": "Sasha Lund",
+     "firmness": "vote",
+     "vote": "Sasha Lund",
+     "why": "Riley's plan sacrifices the town's ability to function and pay for evacuations, whereas Sasha offers a safer engineering solution that preserves essential services.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Prioritize lives over profit/property; drain to 30% despite orchard/mill complaints. Sasha: National grant too costly economically; voluntary reservoir drop + spillway saves budget and avoids forced relocation.",
+     "problem": "Valmora must balance an imminent high-risk dam failure against severe economic losses from cutting hydro power, freezing housing, or relocating the poor Riverside district before the spring melt.",
+     "onA": "His moral imperative to protect lives is compelling, but ignoring the orchard lawsuits and mill's threat to move could create immediate long-term chaos.",
+     "onB": "Her economic analysis of the grant's cost versus the voluntary solution is smart, yet she downplays the sheer terror of a potential flood in the hospital zone.",
+     "lean": "Sasha Lund",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am still undecided on the moral weight of lives vs. economy, but Sasha's plan seems more politically and legally viable without triggering lawsuits or mass protests.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley: Moral fear vs fiscal reality; Sasha: Bankruptcy inevitability if draining now.",
+     "problem": "Valmora must avoid immediate economic collapse from moving the mill or freezing housing while preventing a flood that kills lives before the spring melt.",
+     "onA": "His moral urgency is stirring, but his plan risks causing an immediate fiscal suicide by losing the utility's income needed for essential services right now.",
+     "onB": "Her financial pragmatism highlights the danger of draining immediately, yet she still underestimates the human cost of keeping a failing dam full just to save budget numbers.",
+     "lean": "Sasha Lund",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am held back by the immediate threat of Nordhalm moving and the utility bankruptcy, but I fear a flood more; Sasha's plan seems less likely to trigger an instant economic crash before we can act.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley's moral appeal is strong but risks immediate bankruptcy; Sasha's fiscal prudence ignores human cost of losing jobs.",
+     "problem": "Valmora must prevent a fatal flood before spring melt without triggering an economic collapse that bankrupts the town through lawsuits and mill relocation.",
+     "onA": "His plan saves lives theoretically but forces the town into immediate financial ruin by provoking lawsuits and mass unemployment before we can rebuild.",
+     "onB": "She correctly identifies that our budget cannot survive a lawsuit from Ostbrück or Nordhalm moving, making her gradual approach the only viable survival strategy.",
+     "lean": "Sasha Lund",
+     "firmness": "vote",
+     "vote": "Sasha Lund",
+     "why": "While Riley's fear of flood is valid, his plan guarantees economic suicide before we can act; Sasha's measured approach allows us to survive the melt and implement safety measures without triggering the lawsuits that would bankrupt us.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley prioritizes lives but ignores orchard losses and paper mill risks. Sasha offers a cheaper, faster technical fix but admits power cuts and property value hits.",
+     "problem": "We must balance the immediate, high-probability risk of dam failure against severe economic and social costs to specific industries and households.",
+     "onA": "Riley's moral appeal to save lives is powerful, yet their dismissal of valid economic consequences feels irresponsible given our tight budget.",
+     "onB": "Sasha presents a pragmatic engineering solution that addresses the risk quickly without seizing property or relocating residents against their will.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Riley's urgent warning about human safety and Sasha's realistic assessment of our financial inability to fund a full rebuild or forced relocations.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley ignores financial ruin of Nordhalm leaving 2,300 jobs and utility bankruptcy; Sasha admits economic pain but argues it prevents total fiscal collapse better than freezing property.",
+     "problem": "We must choose between immediate catastrophic human risk from a full dam versus severe but manageable long-term economic contraction that avoids seizing homes or relocating the elderly.",
+     "onA": "Riley's moral urgency is compelling, but their plan ignores the guaranteed financial ruin caused by losing our largest employer and municipal revenue sources.",
+     "onB": "Sasha presents a harsh but necessary triage: accepting significant economic loss now to avoid the much larger risk of total societal collapse later.",
+     "lean": "Sasha Lund",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of Nordhalm moving and utility bankruptcy makes Riley's 'save lives' argument impractical, as a bankrupt town cannot fund emergency services regardless of the dam status.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley's emotional appeal ignores guaranteed economic collapse; Sasha admits pain but prevents total bankruptcy and legal gridlock.",
+     "problem": "We must choose between immediate engineering mitigation that preserves municipal solvency versus a moral imperative that triggers certain financial ruin through lawsuits and corporate flight.",
+     "onA": "While their concern for Riverside residents is valid, their plan of lowering water without building the spillway ignores the lawsuit threat from Ostbrück that would force Nordhalm to leave anyway.",
+     "onB": "Sasha correctly identifies that accepting short-term economic pain now avoids the catastrophic long-term loss of our largest employer and utility revenue.",
+     "lean": "Sasha Lund",
+     "firmness": "vote",
+     "vote": "Sasha Lund",
+     "why": "A bankrupt town cannot protect anyone regardless of the dam's status, so her plan to secure fiscal solvency while reducing failure risk is the only viable path.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley prioritizes lives over orchards/mill profits but ignores economic fallout; Sasha proposes lowering reservoir to save budget/property values but risks water shortages and farm lawsuits.",
+     "problem": "We must immediately reduce the dam's failure risk before the massive spring melt while balancing severe economic consequences for the town's power, farmers, and workers.",
+     "onA": "Their emotional appeal to save lives is strong, yet their willingness to accept total loss of hydro power and farm livelihoods feels reckless given our budget crisis.",
+     "onB": "They offer a mathematically sound risk reduction with manageable costs, but their dismissal of forced relocation implies accepting human suffering in the flood zone.",
+     "lean": "Sasha Lund",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need to keep the lights on and the municipal utility solvent; Sasha's plan to lower the reservoir saves both lives and money, whereas Riley's plan risks bankruptcy.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley emphasizes moral duty to save lives and freeze housing is wrong; Sasha argues fiscal collapse from draining power sales and Nordhalm leaving makes voluntary lowering the only viable option.",
+     "problem": "We must prevent immediate dam failure during the high snowpack melt while avoiding total municipal bankruptcy caused by losing hydroelectric revenue and industrial jobs.",
+     "onA": "Their moral urgency is compelling but their refusal to accept any power loss ignores the reality that without electricity, free buses stop, the budget collapses, and the town cannot function.",
+     "onB": "They correctly identify that total drainage kills the municipal utility's ability to pay for essential services, making a partial reduction with a new spillway the only economically sustainable path to safety.",
+     "lean": "Sasha Lund",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I am convinced that we cannot afford the total economic shutdown Riley proposes, so Sasha's balanced approach of lowering the reservoir just enough to ensure survival while preserving essential services is the only workable solution.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley calls freezing housing 'suicidal' and prioritizes moral duty; Sasha warns of Ostbrück lawsuits, Nordhalm relocation, and that a siren system is insufficient without fiscal stability.",
+     "problem": "We must reduce immediate dam failure risk before the massive spring melt while preventing total municipal bankruptcy caused by losing hydro revenue and industrial jobs.",
+     "onA": "Their moral appeal is powerful but their plan ignores the reality that draining power completely cripples essential services like free buses and hospital funding.",
+     "onB": "Sasha offers a balanced approach that reduces risk significantly through a spillway while preserving economic viability, though their reluctance to force relocation remains troubling.",
+     "lean": "Sasha Lund",
+     "firmness": "vote",
+     "vote": "Sasha Lund",
+     "why": "I vote for Sasha because their plan provides an immediate 80% risk reduction with manageable costs, whereas Riley's total drainage would bankrupt the town and leave us vulnerable despite good intentions.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley prioritizes safety/lives over orchards/mill; risks property values. Sasha accepts lower power/revenue to avoid relocation costs/ban on homes.",
+     "problem": "Valmora must immediately reduce dam failure risk before the record snowmelt without triggering economic collapse or violating water rights.",
+     "onA": "Morally compelling focus on lives but ignores that draining now causes immediate, total loss of power revenue which might bankrupt services we rely on.",
+     "onB": "Pragmatic approach to financial survival, yet accepting a high remaining risk (20%) seems dangerous given the 14,000 people in the flood zone.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Riley's moral imperative to save lives immediately and Sasha's realistic warning that we cannot afford to lose our power revenue and housing economy.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley: Emotional appeal ignores Nordhalm/Utility bankruptcy; Sasha: Lowering now avoids total fiscal collapse but leaves high failure risk.",
+     "problem": "Valmora must balance immediate financial survival against the unacceptable risk of dam failure during a record snowmelt, with no option for a perfect solution.",
+     "onA": "Morally driven argument about lives is compelling but his plan ignores that losing all power revenue now will bankrupt essential services immediately.",
+     "onB": "Her fiscal pragmatism acknowledges the economic reality, yet accepting a 20% failure chance with full reservoirs seems dangerously negligent given the hospital and schools involved.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between the necessity of keeping the utility solvable versus the moral imperative to eliminate the risk to 14,000 lives before the snowmelt.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley ignores economic collapse from Nordhalm/Ostbrück lawsuits; Sasha underestimates moral cost of freezing property values but offers viable financial path.",
+     "problem": "Valmora must reduce immediate dam failure risk during record snowmelt without triggering an economic collapse that bankrupts essential municipal services.",
+     "onA": "His emotional appeal to save lives is noble, but his plan risks immediate bankruptcy by ignoring the lawsuit threats and total loss of utility revenue needed for hospitals and schools.",
+     "onB": "Her fiscal pragmatism acknowledges the impossible economic trade-offs, yet her acceptance of a 20% failure risk with a full reservoir seems dangerously negligent given the hospital and schools in the flood zone.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "While Sasha's plan saves money, accepting an 80% remaining failure risk during a record snowmelt is morally indefensible when lives are at stake; the temporary financial pain of reduced power revenue is preferable to the certainty of losing citizens to a flood.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 2,
+   "U": 3
+  },
+  {
+   "A": 0,
+   "B": 4,
+   "U": 1
+  },
+  {
+   "A": 1,
+   "B": 4,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 1,
+  "B": 4
+ },
+ "winner": "B",
+ "winnerType": "TEC-LIB",
+ "tokens": {
+  "in": 32735,
+  "out": 4287,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 716993001,
+   "attempts": 1,
+   "tokensIn": 1236,
+   "tokensOut": 225,
+   "ms": 6221
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 716993002,
+   "attempts": 1,
+   "tokensIn": 1216,
+   "tokensOut": 213,
+   "ms": 5929
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 716993003,
+   "attempts": 1,
+   "tokensIn": 1365,
+   "tokensOut": 164,
+   "ms": 5213
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 716993004,
+   "attempts": 1,
+   "tokensIn": 1365,
+   "tokensOut": 228,
+   "ms": 5509
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 716993005,
+   "attempts": 1,
+   "tokensIn": 1365,
+   "tokensOut": 193,
+   "ms": 4732
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 716993006,
+   "attempts": 1,
+   "tokensIn": 1365,
+   "tokensOut": 213,
+   "ms": 5151
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 716993007,
+   "attempts": 1,
+   "tokensIn": 1365,
+   "tokensOut": 205,
+   "ms": 4962
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 716993008,
+   "attempts": 1,
+   "tokensIn": 1583,
+   "tokensOut": 188,
+   "ms": 5632
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 716993009,
+   "attempts": 1,
+   "tokensIn": 1695,
+   "tokensOut": 192,
+   "ms": 5803
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 716993010,
+   "attempts": 1,
+   "tokensIn": 1491,
+   "tokensOut": 225,
+   "ms": 6689
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 716993011,
+   "attempts": 1,
+   "tokensIn": 1557,
+   "tokensOut": 207,
+   "ms": 5921
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 716993012,
+   "attempts": 1,
+   "tokensIn": 1520,
+   "tokensOut": 215,
+   "ms": 6453
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 716993013,
+   "attempts": 1,
+   "tokensIn": 1542,
+   "tokensOut": 229,
+   "ms": 6442
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 716993014,
+   "attempts": 1,
+   "tokensIn": 1533,
+   "tokensOut": 207,
+   "ms": 5910
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 716993015,
+   "attempts": 1,
+   "tokensIn": 1908,
+   "tokensOut": 182,
+   "ms": 5495
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 716993016,
+   "attempts": 1,
+   "tokensIn": 2021,
+   "tokensOut": 200,
+   "ms": 5990
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 716993017,
+   "attempts": 1,
+   "tokensIn": 1692,
+   "tokensOut": 177,
+   "ms": 5665
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 716993018,
+   "attempts": 1,
+   "tokensIn": 1741,
+   "tokensOut": 196,
+   "ms": 5814
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 716993019,
+   "attempts": 1,
+   "tokensIn": 1710,
+   "tokensOut": 192,
+   "ms": 6019
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 716993020,
+   "attempts": 1,
+   "tokensIn": 1748,
+   "tokensOut": 206,
+   "ms": 6344
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 716993021,
+   "attempts": 1,
+   "tokensIn": 1717,
+   "tokensOut": 230,
+   "ms": 6573
+  }
+ ],
+ "startedAt": "2026-11-04T22:46:48.572Z",
+ "seconds": 122
+}

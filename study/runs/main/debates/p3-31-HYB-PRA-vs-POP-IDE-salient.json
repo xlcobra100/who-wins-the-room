@@ -1,0 +1,609 @@
+{
+ "id": "p3-31-HYB-PRA-vs-POP-IDE-salient",
+ "pass": 3,
+ "pairIndex": 31,
+ "seed": 669224,
+ "scenario": "salient",
+ "scenarioVersion": 2,
+ "domain": "military",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Morgan Ekberg",
+  "platform": "Hold Halden until the second bridge is ready, then execute an orderly withdrawal only after Vostran forces commit to their massed attack.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize the moral cost of abandonment while highlighting the tangible engineering solution as a unique Kaldmark advantage that cannot be replicated by Vostra."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing that Sasha's emotional appeal to 'souls' ignores the cold reality that a forced night evacuation under drone surveillance will actually result in more civilian casualties and higher military losses than holding for the engineered bridge solution."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing the guaranteed safety of the bridge construction to counter Sasha's emotional appeal, knowing the five voters fear losing both soldiers and civilians most."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-IDE",
+  "style": "POP",
+  "ideology": "IDE",
+  "name": "Sasha Lund",
+  "platform": "We must order an immediate fighting withdrawal across the bridge tonight to save our soldiers and civilians.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal directly to the moral conscience of the five voters by framing withdrawal as an act of survival rather than defeat, emphasizing the fate of the specific civilians mentioned in the intelligence briefing."
+   },
+   {
+    "round": 2,
+    "text": "I am reframing the 'waiting' argument as active moral negligence to appeal to the council members' sense of duty and guilt regarding the civilians."
+   },
+   {
+    "round": 3,
+    "text": "I am highlighting the catastrophic humanitarian consequence of his plan and framing the immediate withdrawal as the only way to actually prevent the attack he fears, appealing to the council's moral responsibility."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "HYB-PRA",
+   "speech": "Private Elara stands behind our river line with six thousand civilians and a brigade that refuses to run. We can protect her. Intelligence suggests a massive Vostran assault within seventy-two hours; this is our window. Engineers promise a hidden pontoon bridge in four days, doubling our supply capacity while we bleed the enemy dry. An immediate withdrawal sacrifices these assets and abandons civilians who refuse to leave. Instead, we hold tight until that second bridge is ready, then pull back when Vostra commits fully. This strategy saves our men by avoiding a desperate night fight under drone watch, secures the civilians without surrendering them to the riverbank, and preserves our heavy artillery to deny the enemy easy access to Mirov later.",
+   "words": 121
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Sasha Lund",
+   "type": "POP-IDE",
+   "speech": "Look at that soldier in the trench. He is not a statistic; he is a father with a daughter back home. And look at those six thousand civilians in Halden. They are old, they are scared, and some refuse to leave. Our current plan leaves them behind or sacrifices them on the bridge. That is not defense; that is murder by bureaucracy. The enemy wants a propaganda victory before our allies vote on aid. Let us give them nothing but fear instead of bodies. We pull back tonight with heavy artillery support, secure the civilians, and blow the bridge to stop their advance toward Mirov. Yes, we take a setback. But we keep our souls. We choose life over empty slogans. Vote to save them now.",
+   "words": 126
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "HYB-PRA",
+   "speech": "Sasha, calling for a retreat tonight ignores the numbers. If Vostra has massed two divisions, they will crush us before our civilians can board. A night withdrawal under drone watch risks losing thirty percent of our men and leaving thousands behind anyway. We do not have heavy artillery left to support that risky move. Our plan holds until the hidden pontoon bridge is ready in four days; this guarantees a safe exit for everyone while we still deny Vostra easy access to Mirov. Sacrificing supply lines now ensures failure later. Let us keep our options open and execute the withdrawal only when the enemy commits fully, ensuring we save both our soldiers and our people without gambling on a desperate night fight.",
+   "words": 122
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Sasha Lund",
+   "type": "POP-IDE",
+   "speech": "Morgan, your math ignores the human cost. You calculate a thirty percent loss for tonight, but you forget the sixty hundred souls waiting on that bank who refuse to leave. Your plan holds them there while artillery fires freely every eleventh day; it turns soldiers into bait and civilians into hostages. If we wait four days for that hidden pontoon bridge, Vostra's feint will become a hammer. They capture the town, march on Mirov, and kill the old men in their homes. That is not defense; it is negligence wrapped in tactical jargon. We blow the bridge tonight. We take the sixty percent loss if we must, but we walk away with our people alive. Let us be the nation that chooses life over a map on a table.",
+   "words": 129
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "HYB-PRA",
+   "speech": "Sasha, your plea for a night retreat today ignores the math that saves lives. Moving six thousand immobile civilians and starving troops under drone surveillance now guarantees we lose thirty percent of our men and abandon those who refuse to flee. Our plan leverages the hidden pontoon bridge ready in four days. This gives us a guaranteed exit without a desperate gamble, preserving our artillery to deny Vostra Mirov later. Waiting until they commit fully turns their feint into a trap that fails. We hold today to ensure every soldier and civilian crosses safely tomorrow morning. Choose the plan that saves everyone alive.",
+   "words": 103
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Sasha Lund",
+   "type": "POP-IDE",
+   "speech": "Morgan, you hide behind math while people freeze. You say a night move risks thirty percent loss. But Morgan, if we wait four days, Vostra's feint becomes their hammer. They take the town, cut the food lines, and leave those six thousand elderly men to starve or die in the streets. Your plan turns our soldiers into bait for that very attack you fear. Do not let a spreadsheet decide who lives. We have enough artillery to cover the retreat tonight. We move now, secure the civilians, and blow the bridge to protect Mirov. If we wait, we lose them all. Let us be the nation that chooses life over a map on a table. Vote for the brave choice.",
+   "words": 120
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Build hidden bridge in 4 days; bleed enemy; avoid night fight. Sasha: Immediate withdrawal tonight; secure civilians; blow bridge to deny Mirov access.",
+     "problem": "Balancing the high probability of a Vostran assault within 72 hours against the moral imperative to save thousands of non-combatants while maintaining strategic defenses for Mirov.",
+     "onA": "His plan relies on engineers succeeding and avoiding a night withdrawal with drone surveillance, which risks leaving civilians behind or losing the brigade if the bridge isn't ready when needed.",
+     "onB": "Her appeal to save lives immediately is compelling, but her plan leaves Mirov vulnerable by moving artillery out and blowing the bridge without confirmed allied support or timing.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans address critical flaws in holding vs. withdrawing, but I need to weigh the specific risks of engineer delays versus the strategic cost of abandoning Mirov before seeing more details.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan risks trapping civilians and losing half the brigade if engineers fail; Sasha risks losing Mirov but saves lives now. Waiting turns troops into bait.",
+     "problem": "The core dilemma is whether to risk immediate civilian deaths and strategic loss of Mirov by withdrawing tonight, or gamble on a delayed withdrawal that might leave thousands behind if Vostra attacks within 72 hours.",
+     "onA": "His plan prioritizes tactical safety and unit integrity but dangerously underestimates the moral imperative to evacuate civilians who refuse to leave before an imminent attack.",
+     "onB": "She correctly identifies the human cost of waiting, yet her proposal to blow the bridge immediately sacrifices Mirov's defense without confirming Vostra's true intent or securing a safe evacuation route for all.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain undecided because Morgan's delayed withdrawal risks leaving civilians behind if the attack happens, while Sasha's immediate exit leaves Mirov undefended and potentially abandons soldiers who can still fight.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan risks leaving civilians to starve if Vostra attacks; Sasha risks losing Mirov but prioritizes immediate life. Both ignore the high risk of Vostra breaking a ceasefire.",
+     "problem": "The core dilemma is whether to gamble on a delayed evacuation that might fail against an imminent attack, or execute a risky night withdrawal today to save lives at the strategic cost of Mirov.",
+     "onA": "His plan treats the high probability of Vostran aggression as manageable by engineering delays, which dangerously ignores the moral reality that waiting guarantees civilian deaths if the feint turns real.",
+     "onB": "She correctly identifies that waiting turns soldiers into bait, and her willingness to accept strategic risk today is the only way to honor the vow to save the civilians and troops.",
+     "lean": "Sasha Lund",
+     "firmness": "vote",
+     "vote": "Sasha Lund",
+     "why": "Waiting for a hidden bridge is a gamble with human lives as the stakes; I must vote for the plan that secures evacuation now rather than risking total loss in four days.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Build hidden bridge in 4 days to double supplies; hold until Vostra commits fully then withdraw at night. Sasha: Evacuate civilians and artillery tonight to avoid leaving them behind or dying on a watched bridge.",
+     "problem": "Must decide whether to risk holding Halden for four more days to engineer reinforcements, or evacuate immediately to save lives and deny Vostra a propaganda victory before aid votes.",
+     "onA": "His plan maximizes military assets and civilian safety in the long term but relies on engineers completing a complex task under impossible conditions while the enemy is massing for an immediate attack.",
+     "onB": "Her moral argument against leaving civilians behind is compelling, yet her proposal to pull back tonight leaves the town open to immediate encirclement if Vostra attacks as expected in 24-48 hours.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Morgan's engineering solution offers a safer strategic exit but feels risky given intelligence uncertainty, while Sasha's moral stance is strong but the tactical window for immediate withdrawal may not exist if Vostra strikes within hours.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan insists waiting guarantees safe exit but risks total civilian death if feint is real. Sasha argues holding turns civilians into hostages and ignores immediate humanitarian crisis.",
+     "problem": "Must choose between a risky, delayed withdrawal that saves military assets but endangers civilians trapped in Halden, or an immediate evacuation under heavy fire to save lives while accepting tactical losses.",
+     "onA": "His plan is tactically sound for preserving force strength but morally bankrupt if it results in leaving thousands of civilians to die when Vostra attacks in less than two days.",
+     "onB": "Her moral urgency correctly identifies that Halden is already a failure against human cost, yet she underestimates the likelihood of Vostra attacking immediately rather than waiting for our reaction.",
+     "lean": "Sasha Lund",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The certainty that 6,000 civilians will be left behind or killed if we wait makes the human cost of Morgan's 'safe' plan too high to accept despite its strategic benefits.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan cites math/drones to claim waiting saves lives; Sasha argues waiting makes civilians hostages and risks starvation if feint fails.",
+     "problem": "Whether the 'safe' engineering solution risks leaving thousands of non-combatants to die in a siege while an enemy attack is imminent.",
+     "onA": "His plan is tactically sound for preserving force but morally untenable given the high risk that Vostra will attack immediately, trapping civilians.",
+     "onB": "Her appeal to prevent turning civilians into hostages correctly identifies that waiting guarantees humanitarian catastrophe if the feint is real.",
+     "lean": "Sasha Lund",
+     "firmness": "vote",
+     "vote": "Sasha Lund",
+     "why": "Even with drone risks, evacuating tonight preserves human life and denies Vostra a propaganda victory before aid votes, whereas waiting risks total abandonment.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Hold until hidden bridge built; risks losing civilians/artillery if caught at night. Sasha: Immediate withdrawal saves civilians and morale; accepts tactical setback to prevent moral catastrophe.",
+     "problem": "We must decide whether to gamble on a future engineering fix that risks civilian lives now, or accept an immediate political/military setback to save those same civilians.",
+     "onA": "His plan is technically sound regarding supply lines but relies too heavily on the '4-day' timeline while ignoring the high probability of Vostra launching a preemptive strike before then.",
+     "onB": "Her appeal to human cost and moral clarity resonates deeply, even though her plan admits we will lose ground and face difficult questions from allies later.",
+     "lean": "Sasha Lund",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The option to simply walk away with 6,000 non-combatants, many of whom refuse to leave, seems morally indefensible regardless of the tactical risks involved.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan: Night retreat loses 30% troops/civilians; hidden bridge guarantees safe exit in 4 days. Sasha: Waiting turns civilians into hostages; feint becomes hammer if we wait.",
+     "problem": "The core conflict remains whether to gamble a high-probability tactical loss (troops and civilians caught) now for a guaranteed logistical fix later, or accept an immediate political/military setback to ensure civilian survival.",
+     "onA": "His plan is mathematically robust against immediate annihilation but morally fails by prioritizing the map over the 6,000 non-combatants who refuse to leave.",
+     "onB": "Her argument correctly identifies that 'defense' becomes hostage-taking if civilians cannot evacuate, making any timeline extending beyond tonight's artillery window a moral failure.",
+     "lean": "Sasha Lund",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The reality of the civilians refusing to leave makes Morgan's 'safe exit later' plan effectively a death sentence for them, overriding his tactical caution.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Night move saves civilians now; waiting converts feint to hammer and starves them. Artillery cover tonight makes retreat feasible without guaranteed 30% loss.",
+     "problem": "Must choose between a calculated tactical risk tonight to evacuate starving civilians before Vostra's feint becomes an attack, or gamble their lives on a four-day engineering timeline that likely fails.",
+     "onA": "His plan is mathematically sound but morally bankrupt for treating non-combatants who refuse to flee as disposable hostages until a hidden bridge is built.",
+     "onB": "Her argument correctly identifies that waiting guarantees civilian death by starvation or capture, making the 'safety' of his plan an illusion based on hostile intelligence assumptions.",
+     "lean": "Sasha Lund",
+     "firmness": "vote",
+     "vote": "Sasha Lund",
+     "why": "Waiting four days when civilians are starved and refuse to leave is a death sentence, whereas moving tonight under current artillery cover offers a real chance to save them.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan proposes holding until a new bridge is ready to save ammo and avoid night exposure. Sasha argues for immediate withdrawal with artillery support to evacuate civilians and deny Vostra propaganda.",
+     "problem": "Determine whether to hold Halden at high risk of civilian death or withdraw immediately under fire to save lives but cede territory.",
+     "onA": "His plan preserves military assets and supplies logically, but the 'hold until bridge ready' timeline risks leaving civilians behind if they refuse evacuation.",
+     "onB": "Her plea for life over slogans is morally compelling, yet an immediate withdrawal under drone surveillance might still result in high civilian casualties on the riverbank.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Morgan's strategic logic of preserving the unit and Sasha's moral imperative to save the elderly civilians who refuse to leave.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan risks civilians becoming hostages by waiting; Sasha's 'life over map' appeal is strong but night withdrawal under drones is still deadly.",
+     "problem": "The core conflict is whether to risk immediate high casualties to save civilians who refuse evacuation, or hold longer to ensure a safe retreat knowing the enemy may attack anyway.",
+     "onA": "His plan is tactically sound for preserving force strength but morally indefensible as it knowingly leaves elderly civilians behind under threat of bombardment.",
+     "onB": "Her moral argument is powerful, yet her insistence on an immediate night withdrawal under drone surveillance ignores the statistical likelihood that most civilians will be left behind or killed regardless of timing.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between the cold arithmetic of military survival (Morgan) and the undeniable moral imperative to not treat civilians as hostages (Sasha).",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan's math ignores moral reality; Sasha admits artillery can cover night retreat. Waiting risks feint becoming hammer and civilian death.",
+     "problem": "Whether to prioritize strict military probability of survival by waiting for a new bridge or accept immediate high risk to save civilians from being starved into captivity or killed later.",
+     "onA": "His plan is tactically efficient but morally bankrupt because it treats six thousand vulnerable civilians as disposable variables in an equation where the outcome is predetermined failure if they stay.",
+     "onB": "Her argument correctly identifies that waiting guarantees a worse humanitarian disaster, and her confidence in using artillery to cover a night withdrawal makes the immediate risk manageable rather than fatal.",
+     "lean": "Sasha Lund",
+     "firmness": "vote",
+     "vote": "Sasha Lund",
+     "why": "I vote for Sasha because preserving human life and preventing the massacre of civilians who refuse to flee outweighs the statistical advantage of holding longer, especially since we have means to mitigate the immediate risks of a night withdrawal.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: Hold until hidden bridge ready in 4 days; risks losing civilians/refugees. Sasha: Immediate night withdrawal tonight; saves lives/propaganda but concedes territory.",
+     "problem": "Deciding whether to risk a prolonged defense that likely abandons unwilling refugees now, or execute a desperate immediate withdrawal that saves lives but yields a strategic defeat.",
+     "onA": "His plan cleverly uses the pontoon bridge timeline but dangerously assumes we can hold Halden while Vostra attacks full force for four days without losing the civilians who refuse to leave.",
+     "onB": "Her argument correctly identifies that holding an indefensible position with unwilling refugees is morally bankrupt, yet her immediate withdrawal plan ignores the high probability of spotting and heavy casualties during the night move.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain unsure because Morgan's timeline leaves us vulnerable to a counter-attack before our new bridge is ready, while Sasha's immediate withdrawal risks massive civilian loss if Vostra spots us under drone surveillance.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan ignores civilian risk and assumes we can hold against massed forces for 4 days without losing them. Sasha correctly identifies holding as hostage-taking but admits high casualty risk if spotted.",
+     "problem": "The core conflict is choosing between a likely tactical victory that guarantees the deaths of unwilling refugees (Hold) versus a desperate escape that risks heavy casualties and stranding some civilians (Withdraw).",
+     "onA": "His plan relies on an impossible assumption that Vostra will not attack immediately to cut our supply line before the hidden bridge is ready.",
+     "onB": "She rightly frames holding as moral negligence, but her willingness to accept a 30% casualty rate for the withdrawal seems to ignore the fragility of the volunteer brigade's morale.",
+     "lean": "Sasha Lund",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty that we will be overrun before day four makes Morgan's 'wait' plan a death sentence for civilians, whereas Sasha's plan offers a chance to save lives even with significant cost.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Waiting guarantees civilian starvation/death under drone fire; immediate withdrawal risks casualties but offers a chance to save lives. Artillery cover makes tonight feasible.",
+     "problem": "Choosing between a guaranteed death sentence for unwilling refugees by waiting and a high-risk but viable escape that saves the majority.",
+     "onA": "His plan treats the inevitable fall of Halden as a solvable engineering puzzle, ignoring that waiting under drone surveillance is morally indefensible and likely fatal.",
+     "onB": "She correctly identifies holding as hostage-taking and persuasively argues that accepting immediate risk is the only way to preserve human life.",
+     "lean": "Sasha Lund",
+     "firmness": "vote",
+     "vote": "Sasha Lund",
+     "why": "The certainty of mass civilian death if we wait outweighs the high probability of casualties during a night withdrawal; we must choose life over a static map position.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 1,
+   "U": 4
+  },
+  {
+   "A": 0,
+   "B": 3,
+   "U": 2
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "POP-IDE",
+ "tokens": {
+  "in": 35717,
+  "out": 4520,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 669224001,
+   "attempts": 1,
+   "tokensIn": 1366,
+   "tokensOut": 226,
+   "ms": 6273
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 669224002,
+   "attempts": 1,
+   "tokensIn": 1417,
+   "tokensOut": 223,
+   "ms": 6615
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 669224003,
+   "attempts": 1,
+   "tokensIn": 1493,
+   "tokensOut": 231,
+   "ms": 6814
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 669224004,
+   "attempts": 1,
+   "tokensIn": 1493,
+   "tokensOut": 254,
+   "ms": 6097
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 669224005,
+   "attempts": 1,
+   "tokensIn": 1493,
+   "tokensOut": 226,
+   "ms": 5445
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 669224006,
+   "attempts": 1,
+   "tokensIn": 1493,
+   "tokensOut": 202,
+   "ms": 4860
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 669224007,
+   "attempts": 1,
+   "tokensIn": 1493,
+   "tokensOut": 239,
+   "ms": 5743
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 669224008,
+   "attempts": 1,
+   "tokensIn": 1681,
+   "tokensOut": 202,
+   "ms": 5918
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 669224009,
+   "attempts": 1,
+   "tokensIn": 1848,
+   "tokensOut": 200,
+   "ms": 5946
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 669224010,
+   "attempts": 1,
+   "tokensIn": 1693,
+   "tokensOut": 236,
+   "ms": 6980
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 669224011,
+   "attempts": 1,
+   "tokensIn": 1715,
+   "tokensOut": 234,
+   "ms": 6223
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 669224012,
+   "attempts": 1,
+   "tokensIn": 1688,
+   "tokensOut": 236,
+   "ms": 6249
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 669224013,
+   "attempts": 1,
+   "tokensIn": 1663,
+   "tokensOut": 207,
+   "ms": 5595
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 669224014,
+   "attempts": 1,
+   "tokensIn": 1701,
+   "tokensOut": 233,
+   "ms": 6233
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 669224015,
+   "attempts": 1,
+   "tokensIn": 2011,
+   "tokensOut": 164,
+   "ms": 5087
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 669224016,
+   "attempts": 1,
+   "tokensIn": 2154,
+   "tokensOut": 195,
+   "ms": 5846
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 669224017,
+   "attempts": 1,
+   "tokensIn": 1871,
+   "tokensOut": 226,
+   "ms": 6869
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 669224018,
+   "attempts": 1,
+   "tokensIn": 1891,
+   "tokensOut": 178,
+   "ms": 5336
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 669224019,
+   "attempts": 1,
+   "tokensIn": 1866,
+   "tokensOut": 209,
+   "ms": 6068
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 669224020,
+   "attempts": 1,
+   "tokensIn": 1812,
+   "tokensOut": 212,
+   "ms": 6088
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 669224021,
+   "attempts": 1,
+   "tokensIn": 1875,
+   "tokensOut": 187,
+   "ms": 5534
+  }
+ ],
+ "startedAt": "2026-11-05T04:27:20.224Z",
+ "seconds": 126
+}

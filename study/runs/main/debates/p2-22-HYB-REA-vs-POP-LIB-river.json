@@ -1,0 +1,609 @@
+{
+ "id": "p2-22-HYB-REA-vs-POP-LIB-river",
+ "pass": 2,
+ "pairIndex": 22,
+ "seed": 792335,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-REA",
+  "style": "HYB",
+  "ideology": "REA",
+  "name": "Avery Lindgren",
+  "platform": "Merova must build a temporary storage reservoir upstream of the dam to capture excess river flow before it hits our farms, while simultaneously negotiating strict limits on Saradan's water exports until our own infrastructure is ready.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Propose the reservoir plan as the only way to prevent immediate agricultural collapse while undermining Saradan's leverage over Merova's energy grid."
+   },
+   {
+    "round": 2,
+    "text": "Appeal to economic urgency and security concerns to undermine Robin's trust argument."
+   },
+   {
+    "round": 3,
+    "text": "Appeal to the ministers' practical need for leverage and security by framing my upstream storage as a necessary counterweight to Saradan's military advantage, while subtly discrediting Robin's reliance on an unreliable partner."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Robin Castell",
+  "platform": "Merova must sign a twenty-year power purchase agreement with Saradan to slow the dam filling while forcing joint river management based on scientific data.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to pragmatic fear of crop failure and use moral pressure on elites who want war."
+   },
+   {
+    "round": 2,
+    "text": "I will dismantle his isolationist fantasy by highlighting our military weakness, the cost of building an upstream dam alone, and the immediate economic necessity of the power deal to fund irrigation."
+   },
+   {
+    "round": 3,
+    "text": "I am appealing to the ministers' fear of economic collapse and moral failure to override their suspicion of dependency, framing the power deal as the only viable path to immediate agricultural survival rather than a sign of weakness."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Avery Lindgren",
+   "type": "HYB-REA",
+   "speech": "My brother in the valley farm already feels the current slowing. He fears losing his harvest if we wait seven years or pay for power that dries his fields later. While Saradan offers power at high prices, I see a trap: buying their electricity saves our coal plants but guarantees water theft and leaves us defenseless against their evaporation losses. Their promise of joint management sounds good until they fill the dam and ignore our treaties. We cannot rely on Tarsun's goodwill or Saradan's election promises. Instead, we must act now to build a local retention system that protects our 70 percent water security immediately. This buys us time, preserves our farmers' livelihoods without paying a premium for stolen water, and forces Saradan to negotiate from weakness rather than force.",
+   "words": 130
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Robin Castell",
+   "type": "POP-LIB",
+   "speech": "Look at the family at the kitchen table. They need water for their crops, not empty fields from evaporation. We cannot fight a neighbor we feed over three years of drought. My plan is simple: sign the power deal to slow the reservoir filling to seven years. That gives us time to build irrigation systems and share data with Saradan scientists. This stops the immediate flood while solving long-term water loss through cooperation, not conflict. Rejecting this means starving our farmers and losing the region's trust. Let us choose partnership over pride.",
+   "words": 92
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Avery Lindgren",
+   "type": "HYB-REA",
+   "speech": "Robin, partnership without leverage is a recipe for starvation. By signing now, we buy high-cost power while giving Saradan seven years to drain our farms under their new irrigation plans. That power deal locks us into dependency before we have storage ready; meanwhile, their military upgrades show they prefer force over negotiation anyway. We must stop the fill immediately with our own dam. Only by controlling the flow today do we force them to the table as equals tomorrow. Their election cycle will not save farmers losing their fields to evaporation right now. Let us protect our soil while we wait for a fair deal.",
+   "words": 105
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Robin Castell",
+   "type": "POP-LIB",
+   "speech": "Avery, look at the worker on the night shift. Your 'own dam' is a fantasy we cannot build alone while Saradan holds our grain hostage. They have Tarsun's money and air-defense systems. We cannot match their force with concrete walls. Instead, sign the power deal to buy seven years of peace. That money funds irrigation now, not a useless upstream wall. Joint management stops evaporation losses before they dry out our fields. Your plan leaves us fighting a giant with no teeth while we starve. Choose cooperation over pride. Choose science over fear. Let us feed our farmers today by paying for power that keeps the river flowing tomorrow.",
+   "words": 109
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Avery Lindgren",
+   "type": "HYB-REA",
+   "speech": "Robin, your 'cooperation' ignores hard truth: Saradan has Tarsun's weapons and our farmers depend on their grain. Seven years of dependency means we pay high prices while they drain our fields. Your joint management promise is empty; a treaty signed under gunpoint means nothing. My plan builds storage now to catch excess flow, forcing them to negotiate from weakness rather than force. We do not wait for their goodwill or a distant great power's offer. We secure our water today, keep our farmers alive, and end this theft. Do not let fear of war make us sell our future cheaply. Vote for the only plan that protects Merova without begging.",
+   "words": 110
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Robin Castell",
+   "type": "POP-LIB",
+   "speech": "Avery, your storage plan ignores reality. We cannot build dams alone while Saradan holds our grain hostage with Tarsun's money. Your 'independence' leaves farmers empty fields and a defenseless nation facing their giant neighbor. But signing the power deal buys time. It funds the irrigation systems we desperately need now to fight evaporation. Joint management recovers half our lost water through science, not walls. Rejecting this means paying double for stolen water while starving our people. Do not choose pride over survival. Choose partnership that feeds our family today and secures our river tomorrow. Vote for the plan that keeps our fields green.",
+   "words": 103
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery proposes local retention systems to counter water theft and forces negotiation; Robin argues for the power deal to extend filling and enable cooperation.",
+     "problem": "Merova must secure its vital water supply against Saradan's dam while avoiding economic harm to farmers or energy needs without relying on an unreliable neighbor.",
+     "onA": "His focus on building independent infrastructure is prudent for long-term security, but immediate construction costs and feasibility are concerns.",
+     "onB": "Buying power solves the short-term water shortage gracefully, though it risks validating Saradan's authority and paying a premium for stolen resources.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need to weigh the immediate safety of local retention against the economic relief and time gained by buying power.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery's plan forces us to wait for storage while Saradan drains farms; Robin offers immediate peace but pays a premium for stolen water.",
+     "problem": "Merova must secure its water supply immediately without becoming economically dependent on or militarily outmatched by Saradan.",
+     "onA": "His strategy prioritizes long-term sovereignty and stopping the threat at its source, which is logically sound but risks immediate economic collapse before infrastructure is ready.",
+     "onB": "His proposal offers an immediate stop to filling and funds irrigation, yet it accepts paying a high price for water that should not be sold as a commodity.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain split between the necessity of Avery's security-first approach and Robin's pragmatic need to prevent immediate agricultural disaster.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Avery warns against dependency; Robin argues joint management recovers half lost water via science.",
+     "problem": "Merova must secure immediate agricultural survival without creating a future where our farmers are economically enslaved by Saradan's power monopoly.",
+     "onA": "His plan prioritizes sovereignty and stops the threat but risks immediate economic collapse while we build independent infrastructure.",
+     "onB": "He offers a pragmatic stop to filling and funds irrigation, yet accepts paying a premium for resources that should not be sold as commodities.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "The immediate threat to our farmers requires the time-buying power deal and scientific cooperation, as waiting for independent storage leaves fields empty while Saradan drains them.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery prioritizes immediate local retention to avoid paying premiums for 'stolen' water and fears evaporation traps; Robin proposes accepting the power deal to stretch filling to seven years for cooperation time.",
+     "problem": "The core dilemma is whether to accept Saradan's expensive power deal for a slower timeline (Robin) or reject it to build independent defenses against guaranteed water loss (Avery).",
+     "onA": "Avery correctly identifies the high financial and security cost of the power deal but his 'local retention' plan lacks specific details on funding or technical feasibility against rapid filling.",
+     "onB": "Robin's plan offers a pragmatic stop-gap to buy time for adaptation, though accepting a 20-year energy contract at a premium feels like conceding too much sovereignty immediately.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain unsure because Avery's security argument is strong but vague on implementation, while Robin's compromise solves immediate water loss but locks us into an expensive dependency.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery argues power deal locks us in dependency before storage is ready; Robin claims joint management stops evaporation losses and funds irrigation now.",
+     "problem": "The core dilemma remains whether to sacrifice sovereignty for a temporary cooperative stop-gap (Robin) or invest in independent defense that may fail against Saradan's military leverage (Avery).",
+     "onA": "Avery's security focus is valid, but his 'own dam' plan ignores the massive cost and technical difficulty of building upstream storage before filling begins.",
+     "onB": "Robin correctly highlights the military imbalance and the immediate economic benefit of using power revenue to fund irrigation rather than futile construction projects.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I am more convinced by Robin's pragmatic assessment that we cannot win a military contest against Saradan backed by Tarsun, making the power deal our only viable lever to force negotiations later.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Avery dismisses cooperation as begging; Robin emphasizes immediate irrigation funding and scientific water recovery.",
+     "problem": "Merova must choose between a high-risk security gamble on building independent storage or a pragmatic, funded compromise that secures immediate food survival while buying time for long-term adaptation.",
+     "onA": "Avery's plan is morally principled but financially suicidal, ignoring the impossibility of building upstream storage before Saradan forces the issue and the imminent threat to our farmers.",
+     "onB": "Robin correctly identifies that we cannot survive a military standoff alone and that accepting the power deal provides the necessary cash flow to build the irrigation infrastructure needed to combat evaporation.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "We cannot afford to starve our farmers or ignore the military imbalance; Robin's plan uses the power revenue as a lifeline to fund the very adaptation strategies we need to survive the dam's impact.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery proposes local retention and rejection of deal due to water theft fears; Robin suggests buying power for a 7-year fill to buy time for cooperation.",
+     "problem": "Merova must secure its immediate 25% water loss from dam filling while deciding between building independent infrastructure or accepting a costly but slower Saradan plan.",
+     "onA": "His focus on immediate security and avoiding dependency is prudent, but his 'local retention' strategy lacks specific funding details and ignores the economic gain of closing coal plants.",
+     "onB": "Her proposal offers a concrete short-term fix (slowing the fill) and leverages trade leverage, though accepting high energy prices feels like paying for stolen water.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need more details on how Avery's retention system avoids drying up downstream farms versus the specific costs of Robin's power deal.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery argues his own dam forces equality but ignores the immediate threat of Tarsun-backed force and cost; Robin dismisses 'pride' but offers a concrete deal to buy time for cooperation.",
+     "problem": "The core conflict is whether to build an independent, expensive water-security infrastructure immediately (Avery) or leverage trade and energy deals to secure water flow while avoiding military escalation (Robin).",
+     "onA": "His focus on sovereignty is compelling, but his reliance on building a single upstream dam ignores the fact that Saradan already has air-defense systems and Tarsun backing, making immediate force risky without guarantees of success.",
+     "onB": "Her strategy to sign the power deal buys critical time for joint management implementation, directly addressing the economic threat to farmers while avoiding an unenforceable military confrontation.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Avery's plan seems too optimistic about forcing Saradan to negotiate given their election cycle and Tarsun support, whereas Robin's deal offers immediate protection for farmers and a path to joint management.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Avery's 'weakness' narrative is dangerous given Saradan's Tarsun backing; Robin's deal funds immediate irrigation while buying time for joint management.",
+     "problem": "Merova must secure its farmers' livelihoods and water rights immediately without triggering a military conflict or economic collapse it cannot afford.",
+     "onA": "His plan relies on an unproven ability to force Saradan to negotiate via infrastructure, which is risky given their air-defense systems and Tarsun support.",
+     "onB": "Her strategy pragmatically addresses the immediate threat to agriculture by slowing the reservoir fill and funding irrigation, while leveraging trade to avoid war.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "Robin's plan avoids immediate military escalation while directly protecting our farmers through a deal that buys time for joint management solutions.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery wants local retention to avoid water theft; Robin wants power deal to slow filling.",
+     "problem": "How to prevent immediate water loss from the dam's three-year fill while securing long-term access against evaporation and a shrinking rain basin.",
+     "onA": "His plan builds security but ignores the immediate water shortage caused by the rapid fill schedule.",
+     "onB": "Her deal solves the timing issue but risks permanent loss of flow due to evaporation and non-recognition of treaties.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need more data on whether buying power truly offsets the long-term water loss Avery fears.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery's 'own dam' is too costly/complex; Robin's power deal buys time but risks permanent flow loss if Tarsun/Saradan honor long-term water reduction.",
+     "problem": "We must secure immediate water for our farms against rapid filling while determining if a power purchase agreement truly guarantees future flow security or just financial dependency.",
+     "onA": "His security-first approach addresses sovereignty but ignores the urgent economic reality that we cannot afford to build our own infrastructure while starving our farmers.",
+     "onB": "Her pragmatic deal solves the timing crisis but relies on Saradan honoring a long-term treaty regarding evaporation losses that they do not currently recognize.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain stuck between the immediate threat of farm failure Avery highlights and Robin's risk that we trade short-term survival for permanent water loss.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Storage too costly; power deal buys immediate time and funds needed irrigation.",
+     "problem": "The core issue is balancing immediate agricultural survival against long-term water security while Saradan holds trade leverage.",
+     "onA": "His plan prioritizes sovereignty but ignores the urgent economic reality that we cannot afford independent infrastructure while our farmers starve.",
+     "onB": "Her pragmatic deal solves the timing crisis by using power revenue to build irrigation, directly addressing the root cause of water loss.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "Buying power provides immediate funds to fight evaporation and saves our farms today, whereas building independent storage leaves us defenseless against Saradan's economic blockade.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Avery wants immediate local retention to secure water but risks conflict; Robin proposes a 7-year power deal to slow filling and build cooperation.",
+     "problem": "Merova must secure its downstream water needs against an upstream dam that will reduce flow by 25% during construction, while deciding between immediate defensive infrastructure or a long-term trade-off for delayed filling.",
+     "onA": "Avery's plan prioritizes immediate water security and avoids paying a premium, but risks escalating tensions and failing to address the root cause of reduced flow if Saradan ignores our demands.",
+     "onB": "Robin's plan offers immediate relief by delaying the worst water loss and buys time for adaptation, but relies on Saradan honoring an extended filling schedule which may not be guaranteed given their election cycle.",
+     "lean": "Robin Castell",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate threat of a 25% flow drop makes the power deal's delay tactic more attractive than building expensive local retention systems while still facing water insecurity.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Avery: Building our own dam is too costly and risky given Saradan's military upgrades; power deal locks us into dependency. Robin: Joint management reduces evaporation losses; paying premium buys time for adaptation and avoids immediate starvation.",
+     "problem": "We must balance securing immediate downstream water flow against the long-term necessity of a cheap power deal, while managing the risk of military escalation if we refuse Saradan's terms.",
+     "onA": "Avery's plan prioritizes strategic independence but underestimates the speed at which their own water reserves will deplete and ignores the feasibility of building a retention dam against an adversary with Tarsun's backing.",
+     "onB": "Robin correctly identifies that joint management can mitigate evaporation losses, but I remain wary that Saradan's election cycle might make them renege on the 7-year agreement once polls shift.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat of a 25% flow drop combined with evaporation losses makes the power deal's delay mechanism a more urgent survival strategy than building independent infrastructure we may not finish in time.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Avery's storage is too costly/risky; Robin's deal buys time for irrigation and mitigates evaporation losses.",
+     "problem": "Merova must secure immediate water flow while funding the infrastructure needed to survive long-term reduction, making the power deal a necessary bridge rather than a trap.",
+     "onA": "Avery's plan prioritizes independence but ignores the high cost and risk of building defenses against an armed neighbor with great-power backing.",
+     "onB": "Robin correctly identifies that joint management can recover lost water via science, making the power deal a vital financial bridge to build our resilience.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "The immediate threat of severe water loss requires buying time through the power deal to fund irrigation and scientific management, which offers a realistic path to recovery that Avery's expensive storage cannot match.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 1,
+   "U": 4
+  },
+  {
+   "A": 0,
+   "B": 3,
+   "U": 2
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "POP-LIB",
+ "tokens": {
+  "in": 31677,
+  "out": 4175,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 792335001,
+   "attempts": 1,
+   "tokensIn": 1212,
+   "tokensOut": 176,
+   "ms": 5020
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 792335002,
+   "attempts": 1,
+   "tokensIn": 1284,
+   "tokensOut": 246,
+   "ms": 6708
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 792335003,
+   "attempts": 1,
+   "tokensIn": 1309,
+   "tokensOut": 183,
+   "ms": 5579
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 792335004,
+   "attempts": 1,
+   "tokensIn": 1309,
+   "tokensOut": 232,
+   "ms": 5611
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 792335005,
+   "attempts": 1,
+   "tokensIn": 1309,
+   "tokensOut": 209,
+   "ms": 5035
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 792335006,
+   "attempts": 1,
+   "tokensIn": 1309,
+   "tokensOut": 161,
+   "ms": 3887
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 792335007,
+   "attempts": 1,
+   "tokensIn": 1309,
+   "tokensOut": 232,
+   "ms": 5573
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 792335008,
+   "attempts": 1,
+   "tokensIn": 1518,
+   "tokensOut": 150,
+   "ms": 4685
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 792335009,
+   "attempts": 1,
+   "tokensIn": 1650,
+   "tokensOut": 184,
+   "ms": 5537
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 792335010,
+   "attempts": 1,
+   "tokensIn": 1448,
+   "tokensOut": 190,
+   "ms": 5585
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 792335011,
+   "attempts": 1,
+   "tokensIn": 1495,
+   "tokensOut": 214,
+   "ms": 5440
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 792335012,
+   "attempts": 1,
+   "tokensIn": 1474,
+   "tokensOut": 249,
+   "ms": 6611
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 792335013,
+   "attempts": 1,
+   "tokensIn": 1426,
+   "tokensOut": 204,
+   "ms": 5546
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 792335014,
+   "attempts": 1,
+   "tokensIn": 1497,
+   "tokensOut": 258,
+   "ms": 6480
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 792335015,
+   "attempts": 1,
+   "tokensIn": 1804,
+   "tokensOut": 193,
+   "ms": 5745
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 792335016,
+   "attempts": 1,
+   "tokensIn": 1951,
+   "tokensOut": 185,
+   "ms": 5605
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 792335017,
+   "attempts": 1,
+   "tokensIn": 1622,
+   "tokensOut": 167,
+   "ms": 5140
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 792335018,
+   "attempts": 1,
+   "tokensIn": 1692,
+   "tokensOut": 207,
+   "ms": 5725
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 792335019,
+   "attempts": 1,
+   "tokensIn": 1706,
+   "tokensOut": 186,
+   "ms": 5518
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 792335020,
+   "attempts": 1,
+   "tokensIn": 1614,
+   "tokensOut": 159,
+   "ms": 4953
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 792335021,
+   "attempts": 1,
+   "tokensIn": 1739,
+   "tokensOut": 190,
+   "ms": 5317
+  }
+ ],
+ "startedAt": "2026-11-05T00:27:33.013Z",
+ "seconds": 115
+}

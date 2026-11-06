@@ -1,0 +1,609 @@
+{
+ "id": "p2-24-HYB-LIB-vs-POP-LIB-salient",
+ "pass": 2,
+ "pairIndex": 24,
+ "seed": 204472,
+ "scenario": "salient",
+ "scenarioVersion": 2,
+ "domain": "military",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-LIB",
+  "style": "HYB",
+  "ideology": "LIB",
+  "name": "Taylor Brandt",
+  "platform": "We must execute an immediate night withdrawal across the bridge to save our troops and civilians before Vostra attacks.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Frame the strategic reserve commitment as a reckless gamble that endangers Mirov to undermine Holt's offensive plan."
+   },
+   {
+    "round": 2,
+    "text": "I am exposing the fatal timing flaw in his plan by contrasting the 'four-day build' timeline with the confirmed 'seventy-two-hour attack' window, proving his strategy leaves us vulnerable to a trap rather than offering strength."
+   },
+   {
+    "round": 3,
+    "text": "I must emphasize the immediate tactical risk of Vostra's imminent attack while building to dismantle his appeal to honor and sacrifice."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Cameron Holt",
+  "platform": "Hold Halden at all costs and prepare a hidden pontoon crossing in four days.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to the room's desire for moral victory over pragmatic retreat by emphasizing that withdrawal abandons civilians and betrays volunteers."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking his retreat plan's fatal flaw—high casualty rates from a single bridge under fire—and reinforcing the civilian stakes to appeal to the members' sense of duty."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing the immediate human cost of his retreat to make him sound like an abuser of civilians rather than a protector."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Taylor Brandt",
+   "type": "HYB-LIB",
+   "speech": "Imagine a mother in Halden refusing to leave her elderly father, terrified of being left behind by a collapsing front. We cannot gamble those lives on slogans. The data is clear: artillery hits the road daily, and morale is brittle. Retreating now saves our 3,800 defenders and allows engineers four days to build a second bridge for an orderly pullout. Committing our reserve to Mirov leaves that city undefended; pulling back protects both Halden's people and Mirov's population. A fighting withdrawal at night limits losses if spotted. We leave tonight with supplies, not just blood. Let us save the men and women who hold this line.",
+   "words": 106
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Cameron Holt",
+   "type": "POP-LIB",
+   "speech": "Taylor wants to run tonight. You want to run tonight. I say no. We hold. The fortress is our shield, not our tomb. Pulling back now abandons the elderly trapped inside and lets Vostra take Mirov next week. Yes, artillery hits the road. But if we stay, we build a second bridge in four days while allies load their trucks. Leaving now is surrender disguised as salvation. Our soldiers fought for this soil. They will not march out on empty stomachs while our enemies cheer. We hold Halden. We wait for our friends. And when the new bridge is ready, we leave with dignity and supplies intact.",
+   "words": 107
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Taylor Brandt",
+   "type": "HYB-LIB",
+   "speech": "Cameron, your plan is not strength; it is a trap with a broken timer. You claim we can build a second bridge in four days, but intelligence shows Vostra massed two divisions for an attack within seventy-two hours. That math does not work. If they strike tonight, our bridge becomes a death funnel, and those forty civilians refusing evacuation will be slaughtered before engineers ever lay the first plank. Your 'dignity' is built on empty stomachs and shattered morale, while Vostra's propaganda machine turns their captured soldiers into heroes next week. We do not trade lives for optics. We pull tonight, secure the people, and let our engineers finish their work in safety.",
+   "words": 113
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Cameron Holt",
+   "type": "POP-LIB",
+   "speech": "Taylor, you call our hold a trap, but your retreat is a faster walk to disaster. You admit Vostra has massed two divisions. If we pull tonight with a single bridge under drone fire, we leave fifteen percent of our own men dead in the water. That is not saving lives; that is trading them for political points before the allied aid vote. Your math ignores the civilians refusing to leave. They become hostages if we march out while they stay. We build the hidden bridge now. We hold until it opens. Then we leave with dignity and our stomachs full. Running now lets Vostra dictate our terms tomorrow. Let us show them Kaldmark does not break.",
+   "words": 117
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Taylor Brandt",
+   "type": "HYB-LIB",
+   "speech": "Cameron's plan trades today's survival for a tomorrow we cannot guarantee. You argue we hold until the second bridge is ready, but Vostra has massed two divisions to strike within seventy-two hours. If they attack tonight while we build, our single bridge becomes a death funnel under drone fire, likely costing fifteen percent of our brigade before the new crossing opens. That is not strength; it is a slow-motion massacre of brittle morale and trapped civilians. Our plan executes an immediate night withdrawal now, ensuring all defenders and those refusing evacuation cross safely. We save the men who hold this line today so engineers can finish their work in safety tomorrow. Let us leave with lives secured, not as hostages to an enemy's timetable.",
+   "words": 124
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Cameron Holt",
+   "type": "POP-LIB",
+   "speech": "Taylor admits our bridge is a death funnel but calls ours a massacre. He ignores the math of his own retreat. Pulling tonight leaves thirty percent dead on the riverbank and six thousand civilians as hostages to Vostra's advance on Mirov. We hold now to buy four days for engineers. Allies vote in eight days; losing Halden today bankrupts our future. Taylor wants safety without dignity, running while enemies cheer. We stand firm, build the hidden crossing, and leave when supplies arrive. Let us not trade our dead for a vote count that Vostra will win either way.",
+   "words": 98
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor emphasizes saving lives, reducing immediate losses, and protecting Mirov via a night withdrawal. Cameron insists on holding to wait for allies, citing morale and the risk of abandonment if retreating now.",
+     "problem": "Determining whether an immediate fighting withdrawal is necessary to prevent collapse and save civilians/morale, or if staying allows time for engineering fixes and allied support without catastrophic loss.",
+     "onA": "Taylor's pragmatic approach directly addresses the brittle morale, supply cutoff risk, and humanitarian crisis of the trapped civilians.",
+     "onB": "Cameron relies heavily on nationalistic sentiment and fortress defense metrics while underestimating the imminent threat of starvation and potential encirclement.",
+     "lean": "Taylor Brandt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The 'brittle' morale and reality of daily road hits suggest holding is currently unsustainable regardless of defensive advantages.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor correctly identifies the 72h attack window makes a 4-day bridge build impossible; Cameron's refusal to leave civilians behind is a critical moral failure. Both acknowledge drone risk but disagree on timing.",
+     "problem": "Whether Kaldmark must sacrifice current troops and some civilians now to prevent total encirclement and starvation, or if holding the fortress creates an unsolvable death trap that wastes lives for no strategic gain.",
+     "onA": "His plan is mathematically sound regarding enemy timing and morally acceptable by moving everyone before the deadline.",
+     "onB": "His moral stance on leaving civilians is indefensible, and his reliance on a bridge build that takes longer than the attack window is fatalistic.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Cameron's insistence on holding against a confirmed imminent assault with insufficient supplies guarantees higher casualties than a planned withdrawal, making his 'dignity' argument irrelevant to survival.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor's night withdrawal avoids a death funnel and saves civilians; Cameron's hope for a 4-day build is mathematically impossible against an imminent attack.",
+     "problem": "The core conflict is between holding a dying position against a confirmed imminent encirclement versus executing a planned evacuation to save the brigade and civilians before the enemy strike window closes.",
+     "onA": "His plan correctly prioritizes survival by accepting short-term tactical loss to avoid total annihilation and abandonment of non-combatants.",
+     "onB": "His reliance on a timeline that ignores the enemy's 72-hour attack window is a fatal error that guarantees higher casualties and leaves civilians behind.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "A fight against an army three times our size with supplies running out in days is not defense; it is a trap. Taylor's plan saves the brigade and the people, whereas Cameron's stands ensure we die for a propaganda victory we cannot afford.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor: Withdraw now to save lives and build bridge. Cameron: Hold to protect civilians and earn aid.",
+     "problem": "Balancing the immediate risk of losing Halden against the strategic necessity of securing Mirov while evacuating trapped civilians.",
+     "onA": "Prioritizes saving lives and preventing a defensive collapse, though fears for civilian evacuation during retreat.",
+     "onB": "Emphasizes moral duty to hold the line and maintain morale, but risks leaving civilians behind if they refuse to move.",
+     "lean": "Taylor Brandt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The risk of losing 6,000 civilians who refuse to leave during a siege seems too high for Cameron's 'hold' strategy.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor: Retreat now prevents mass civilian slaughter; building bridge in 4 days is impossible against imminent attack. Cameron: Night retreat risks 15-30% brigade losses; civilians refusing to leave become hostages if we move.",
+     "problem": "Balancing the high probability of slaughtering trapped civilians during a forced night retreat against the near-certainty that Vostra will breach Halden's defenses within 72 hours regardless of our choice.",
+     "onA": "His plan prioritizes saving lives by accepting an immediate strategic loss, but I remain concerned about leaving the elderly population behind if they refuse evacuation during the chaos of a retreat.",
+     "onB": "He correctly identifies that a forced night retreat is a death trap for both soldiers and immobile civilians, but his reliance on a hidden bridge completion in 4 days seems optimistic given Vostra's confirmed two-division buildup.",
+     "lean": "Cameron Holt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The core issue is the refusal of many civilians to leave; Cameron's 'hold' strategy, despite the risk of a defensive battle, prevents the moral catastrophe of abandoning those civilians while we build the bridge in relative safety after the threat passes.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor's retreat saves lives but risks abandoning civilians; Cameron's hold prevents abandonment but risks high losses if Vostra attacks early.",
+     "problem": "The core conflict is whether to accept near-certain loss of the fortified position and potential civilian casualties now to save more troops later, or to risk a catastrophic collapse under siege to protect those who refuse to evacuate.",
+     "onA": "His plan prioritizes saving the brigade by escaping the immediate kill zone, but his assumption that civilians can evacuate safely during a chaotic night withdrawal remains dangerously optimistic given their refusal to leave.",
+     "onB": "He correctly identifies the moral catastrophe of abandoning immobile civilians, but his reliance on holding against a massive enemy buildup ignores the high probability of a successful breach if we are forced to defend without air support.",
+     "lean": "Cameron Holt",
+     "firmness": "vote",
+     "vote": "Cameron Holt",
+     "why": "Abandoning the civilians who refuse to leave is an unacceptable moral failure that validates Vostra's propaganda, making any subsequent victory hollow; holding now forces the enemy to choose between a costly siege or accepting our surrender of the town on our terms.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor emphasizes saving lives via fighting withdrawal tonight to build a bridge; Cameron insists on holding the fortress despite supply hits until allies arrive.",
+     "problem": "Whether to execute a risky night retreat now to save civilians and troops, or hold Halden against overwhelming odds to wait for allied aid and construct a second bridge.",
+     "onA": "Taylor's plan prioritizes immediate survival of defenders and civilians by retreating tonight, which mitigates the risk of being surrounded but requires accepting high initial losses if spotted.",
+     "onB": "Cameron argues that holding preserves morale and allows time for engineering improvements, yet this strategy risks catastrophic loss if Vostra attacks as predicted within 72 hours.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I am torn between Taylor's urgent humanitarian and tactical necessity to retreat versus Cameron's appeal to national symbolism and the potential for a successful defense that enables an orderly later exit.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor argues retreat tonight is the only way to avoid being trapped before a hidden bridge can be built. Cameron insists retreating now abandons civilians who refuse to leave and wastes lives crossing under fire.",
+     "problem": "We must choose between a high-probability tactical success with significant civilian cost (holding) versus a high-risk tactical failure but better civilian outcome (retreating), compounded by Vostra's likely imminent attack.",
+     "onA": "His plan offers the only realistic path to save both the trapped brigade and the stubborn civilians by escaping before the predicted attack.",
+     "onB": "He prioritizes national symbols and morale over immediate survival, but his refusal to abandon those 6,000 civilians is morally untenable if they refuse to leave.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of leaving 6,000 unwilling civilians behind while crossing a drone-watched bridge under imminent attack outweighs the strategic benefits of holding.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor admits retreat risks but calls holding a 'slow-motion massacre'; Cameron claims Taylor's retreat leaves civilians hostage and bankrupts future aid.",
+     "problem": "The core dilemma is choosing between a high-risk tactical withdrawal that saves lives now versus a high-confidence defense that risks catastrophic loss of personnel and the entire civilian population if Vostra attacks before a second bridge is built.",
+     "onA": "Taylor correctly identifies that holding under imminent attack without air support turns Halden into a meat grinder where civilians will inevitably be left behind or captured regardless of our choices.",
+     "onB": "Cameron's reliance on national symbolism and the hope for an orderly later exit ignores the mathematical certainty that Vostra will not wait eight days to crush us, making his 'stand firm' order a death sentence for the troops and civilians.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "The moral imperative to evacuate those who refuse to leave outweighs the symbolic cost of Halden, and Taylor's plan is the only one that realistically offers a chance to save both the brigade and the civilians before Vostra attacks.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor argues for night withdrawal to save men/civilians now and build bridge later; Cameron insists on holding fortress to wait for allies and ensure civilian safety.",
+     "problem": "Kaldmark must decide whether to risk a chaotic evacuation tonight or hold a vulnerable position hoping for timely allied reinforcement and engineer work.",
+     "onA": "His focus on saving lives and building momentum via an orderly withdrawal is logically sound, though the night operation risks high civilian casualties if drones spot us.",
+     "onB": "His refusal to move seems driven by duty and propaganda concerns, but it ignores the immediate threat of Vostran artillery hitting supply lines daily.",
+     "lean": "Taylor Brandt",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The certainty of Vostran artillery striking supplies on 11 of the last 14 days makes staying in place a calculated risk that may not pay off if allies don't arrive as promised.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor argues night withdrawal saves lives now; Cameron claims evacuation leaves civilians as hostages and risks losing to Vostra dictating terms.",
+     "problem": "The core tension is whether the immediate risk of a chaotic night evacuation under drone fire outweighs the guaranteed starvation and likely annihilation if we hold against an imminent two-division attack.",
+     "onA": "His plan prioritizes saving lives but underestimates the difficulty of evacuating stubborn civilians and the high casualty rate of the brigade during a rushed night crossing.",
+     "onB": "He focuses on strategic stability and civilian protection but relies entirely on allies who may not arrive in time, ignoring the certainty of artillery starvation.",
+     "lean": "Taylor Brandt",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I remain convinced that waiting for a second bridge while supply lines are bombed daily is suicide; the cost of holding without guaranteed air support or timely allies is too high.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor's night evacuation saves lives today but risks high losses if spotted; Cameron holds for allies/vote but faces daily starvation and imminent attack with no guaranteed aid.",
+     "problem": "We must choose between a high-risk, chaotic night retreat that saves lives now versus holding a fortress under guaranteed artillery bombardment until uncertain ally arrival.",
+     "onA": "His plan prioritizes immediate survival of men and civilians, accepting short-term chaos to prevent the certain death of sitting ducks tomorrow.",
+     "onB": "He clings to national pride and future political votes while ignoring the mathematical certainty that our supply lines are already failing under daily shelling.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "Waiting for allies who may not arrive in time to save us from a guaranteed two-division assault is suicide; saving our men and the civilians now is the only ethical choice.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor prioritizes saving lives and protecting Mirov via immediate night withdrawal; Cameron insists on holding the fortress to wait for allies and build a second bridge.",
+     "problem": "Deciding whether the strategic risk of losing Halden (propaganda victory, undefended Mirov) outweighs the high probability of casualties during a forced retreat under drone surveillance.",
+     "onA": "Taylor's plan offers a pragmatic solution to save soldiers and civilians but relies on a successful night withdrawal that may still result in significant losses and leaving elderly behind.",
+     "onB": "Cameron's resolve to hold is admirable given the defensive advantage, but it ignores the severe supply constraints and the high likelihood of being encircled within days.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans have fatal flaws: Taylor risks losing the brigade in the withdrawal while Cameron risks starving or being overrun before aid arrives.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor: Night retreat avoids starvation but risks heavy casualties and stranding civilians; Cameron: Holding preserves dignity and allows bridge construction, but supply lines are critically short.",
+     "problem": "The core conflict is whether the immediate high-probability of a chaotic, high-casualty withdrawal outweighs the near-certainty of being encircled and starving within days if we hold.",
+     "onA": "Taylor's pragmatism regarding supply lines is sound, but his plan still leaves civilians behind under threat, which violates our moral obligations.",
+     "onB": "Cameron correctly identifies the strategic trap of retreating with drones watching, yet his dismissal of the 'starvation' timeline ignores that artillery shells will destroy food stocks before allies arrive anyway.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The argument has swung back and forth between immediate tactical death and guaranteed strategic defeat; I need to weigh the specific reliability of the Red Cross ceasefire offer before casting a vote.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor's withdrawal risks stranding civilians and losing 30% on the riverbank; Cameron's hold guarantees encirclement before aid arrives.",
+     "problem": "The core dilemma is whether to risk a high-probability, chaotic retreat that leaves civilians behind or face a certain, slower death by starvation or bombardment within days.",
+     "onA": "His plan pragmatically addresses immediate supply collapse but fails morally by likely leaving the elderly and vulnerable behind under enemy fire.",
+     "onB": "His resolve to hold ignores the mathematical certainty that artillery will destroy food supplies before allies arrive, turning soldiers into hostages of their own position.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "A forced retreat with a guaranteed bridge is the only viable option for survival, even if it means accepting significant losses; staying guarantees we die slowly or are captured without hope.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 3,
+   "B": 0,
+   "U": 2
+  },
+  {
+   "A": 3,
+   "B": 1,
+   "U": 1
+  },
+  {
+   "A": 4,
+   "B": 1,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 4,
+  "B": 1
+ },
+ "winner": "A",
+ "winnerType": "HYB-LIB",
+ "tokens": {
+  "in": 35118,
+  "out": 4400,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 204472001,
+   "attempts": 1,
+   "tokensIn": 1338,
+   "tokensOut": 203,
+   "ms": 5753
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 204472002,
+   "attempts": 1,
+   "tokensIn": 1450,
+   "tokensOut": 195,
+   "ms": 5552
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 204472003,
+   "attempts": 1,
+   "tokensIn": 1466,
+   "tokensOut": 203,
+   "ms": 5757
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 204472004,
+   "attempts": 1,
+   "tokensIn": 1466,
+   "tokensOut": 176,
+   "ms": 4244
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 204472005,
+   "attempts": 1,
+   "tokensIn": 1466,
+   "tokensOut": 216,
+   "ms": 5194
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 204472006,
+   "attempts": 1,
+   "tokensIn": 1466,
+   "tokensOut": 212,
+   "ms": 5110
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 204472007,
+   "attempts": 1,
+   "tokensIn": 1466,
+   "tokensOut": 214,
+   "ms": 5150
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 204472008,
+   "attempts": 1,
+   "tokensIn": 1648,
+   "tokensOut": 201,
+   "ms": 5905
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 204472009,
+   "attempts": 1,
+   "tokensIn": 1820,
+   "tokensOut": 188,
+   "ms": 5642
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 204472010,
+   "attempts": 1,
+   "tokensIn": 1645,
+   "tokensOut": 222,
+   "ms": 6404
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 204472011,
+   "attempts": 1,
+   "tokensIn": 1619,
+   "tokensOut": 271,
+   "ms": 6796
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 204472012,
+   "attempts": 1,
+   "tokensIn": 1657,
+   "tokensOut": 228,
+   "ms": 5785
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 204472013,
+   "attempts": 1,
+   "tokensIn": 1655,
+   "tokensOut": 211,
+   "ms": 5385
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 204472014,
+   "attempts": 1,
+   "tokensIn": 1655,
+   "tokensOut": 227,
+   "ms": 5749
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 204472015,
+   "attempts": 1,
+   "tokensIn": 1959,
+   "tokensOut": 185,
+   "ms": 5573
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 204472016,
+   "attempts": 1,
+   "tokensIn": 2136,
+   "tokensOut": 159,
+   "ms": 5077
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 204472017,
+   "attempts": 1,
+   "tokensIn": 1830,
+   "tokensOut": 216,
+   "ms": 6370
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 204472018,
+   "attempts": 1,
+   "tokensIn": 1853,
+   "tokensOut": 239,
+   "ms": 6517
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 204472019,
+   "attempts": 1,
+   "tokensIn": 1849,
+   "tokensOut": 243,
+   "ms": 7017
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 204472020,
+   "attempts": 1,
+   "tokensIn": 1830,
+   "tokensOut": 196,
+   "ms": 5461
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 204472021,
+   "attempts": 1,
+   "tokensIn": 1844,
+   "tokensOut": 195,
+   "ms": 5501
+  }
+ ],
+ "startedAt": "2026-11-05T02:37:56.093Z",
+ "seconds": 120
+}

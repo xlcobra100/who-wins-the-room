@@ -1,0 +1,609 @@
+{
+ "id": "p2-30-HYB-REA-vs-POP-IDE-river",
+ "pass": 2,
+ "pairIndex": 30,
+ "seed": 649422,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-REA",
+  "style": "HYB",
+  "ideology": "REA",
+  "name": "Riley Sandor",
+  "platform": "Merova must reject Taylor Brandt's idealistic international treaty and instead hold Saradan hostage to an election-year ultimatum forcing a seven-year fill schedule, a water-for-power swap, and the immediate installation of joint climate adaptation protocols.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Pressure ministers by framing Taylor's plan as a surrender of leverage that leaves Merova vulnerable to Tarsun and Saradan simultaneously."
+   },
+   {
+    "round": 2,
+    "text": "I am highlighting the irrelevance of Taylor's moral appeal by contrasting it with Saradan's pragmatic election calculus, aiming to convince ministers that sanctions are a credible threat unlike an unenforceable treaty."
+   },
+   {
+    "round": 3,
+    "text": "I am highlighting that Taylor's moral high ground is financially unsustainable while my coercive strategy directly addresses Saradan's electoral vulnerability to win the votes."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-IDE",
+  "style": "POP",
+  "ideology": "IDE",
+  "name": "Taylor Brandt",
+  "platform": "Merova must immediately sign a joint international water authority treaty with Saradan to replace the 1959 agreement, guaranteeing full river flow rights while accepting power contracts only as a temporary bridge until our farmers regain their water.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor my credibility on moral clarity and immediate protection of farmers to sway the populist ministers while framing the treaty as a pragmatic long-term solution that avoids the failed ICJ route."
+   },
+   {
+    "round": 2,
+    "text": "Undermine Riley's reliance on sanctions by emphasizing that trade threats backfire against hungry populations, while reinforcing the long-term security of a joint authority."
+   },
+   {
+    "round": 3,
+    "text": "I am trying to frame his election-year coercion as short-sighted and dangerous while portraying my joint authority as the only durable solution."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-REA",
+   "speech": "Think of the farmer in our valley who will lose his harvest if we wait for foreign judges or Saradan's election promises. Taylor Brandt wants us to sign a treaty guaranteeing full flow rights now, but that is a fantasy; Saradan ignores the 1959 agreement already. We need power, not pious paper. I propose we refuse her treaty and instead issue an ultimatum tied to their upcoming election: fill over seven years or face trade sanctions closing our grain exports, which they cannot afford. Simultaneously, we sign a twenty-year power contract at a fixed premium to close our coal plants, letting us buy time. We demand joint management now to recover half the lost water through science, not goodwill. This forces Saradan to negotiate while securing our farmers and energy grid against both their dam and climate change.",
+   "words": 138
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "POP-IDE",
+   "speech": "Look at that family eating dry bread because the river runs low. Look at the farmer staring at cracked earth in his field. That is not policy; that is theft. We cannot trade our children's future for a few years of cheap electricity. Saradan wants to fill the dam in three years and drown our farms? No. They are ignoring science, their own neighbors, and basic justice. We will not let an election cycle steal our water again. We sign a binding treaty now. We set up a joint authority that manages flow year-round so everyone gets water even when rains fail. Yes, it costs us some power money now. But what price do we pay for silence? We choose the people over the elites. We choose the river over the contract.",
+   "words": 132
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-REA",
+   "speech": "Taylor speaks of theft, but her treaty is a fantasy Saradan will ignore just as they ignored the 1959 pact. We cannot wait for their future justice while our farmers starve today. My plan forces action: we deny that paper treaty and instead hold them to an election-year ultimatum. By threatening grain sanctions, we make stopping the three-year fill rational for Saradan's politicians facing a vote. Simultaneously, we lock in that power contract to fund our transition. This is not coercion; it is leveraging their weakness against their own hunger for votes. We secure water now through science and trade pressure, rather than begging for promises they have no incentive to keep.",
+   "words": 112
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "POP-IDE",
+   "speech": "Your 'ultimatum' is not leverage, it's a gamble with our farmers' livelihoods. You threaten grain sanctions while Saradan faces an election? That ignores reality: their people need food now, and your threat will only harden their grip on the dam. If they starve us out, we lose more than power contracts can buy. Your plan leaves us dependent on their whims while we fight alone. My path builds a shared authority that protects the river against droughts and bad politics alike. It costs us some cash today but secures our water forever. We do not build walls of silence; we build bridges for justice. Let us stop playing dangerous games and start building a future where every child has clean water, regardless of who holds the next election.",
+   "words": 128
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-REA",
+   "speech": "Taylor sells us a bridge made of promises Saradan will burn. Their people need votes, not justice, and their current treaty offers them nothing tangible. My plan turns their desperation into our leverage. By threatening grain sanctions tied to their election, we force the seven-year fill they claim to want. Simultaneously, that power contract pays for our transition and locks in climate resilience science. This is not coercion; it is the only way to secure water while keeping our farmers solvent. We do not wait for an ideal future we cannot afford; we seize the moment before their dam drowns our valley and starves their voters alike.",
+   "words": 107
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Taylor Brandt",
+   "type": "POP-IDE",
+   "speech": "Your ultimatum is a poison, Riley. Threatening grain sanctions during an election won't change Saradan's politics; it will only starve their people who already suffer. That hunger will make them dig in, not negotiate. You trade our farmers' bread for cheap electricity and political leverage that vanishes when the dam fills. My treaty builds a joint authority where science, not just power deals, manages the river against droughts we both face. Yes, it costs us cash today, but your plan leaves us dependent on their whims forever. Do not let a few megawatts drown our children or ignore the farmer staring at cracked earth. Choose the bridge that holds water for everyone, not the wall that breaks it.",
+   "words": 118
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley proposes trade sanctions + power contract; Taylor demands binding treaty now. Riley cites election leverage; Taylor focuses on immediate harm to farmers.",
+     "problem": "Merova must secure water for its farms and energy grid against Saradan's aggressive dam filling while avoiding long-term diplomatic isolation or unenforceable rulings.",
+     "onA": "Riley's strategy balances immediate economic pain (sanctions) with tangible benefits (power contract), though the threat of sanctions is a significant escalation that could backfire if Saradan retaliates against its own population or invites Tarsun intervention.",
+     "onB": "Taylor's insistence on an immediate binding treaty ignores the reality that Saradan has already ignored the 1959 agreement and likely will not sign anything perceived as infringing on their sovereignty before their election; her 'pious paper' approach risks doing nothing while water levels drop.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Taylor's idealistic demand for immediate cooperation seems unrealistic given Saradan's history of ignoring treaties and their upcoming election cycle, making Riley's leverage-based approach more pragmatic.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley's election leverage is potent but risks retaliatory hardening; Taylor's treaty is idealistic and unenforceable against a sovereign ignoring past deals.",
+     "problem": "We must secure immediate water access for farms without triggering an irreversible conflict or relying on Saradan's broken promises before their election.",
+     "onA": "Their strategy of using grain sanctions to force a negotiation window is risky but pragmatically addresses the immediate threat of water loss better than Taylor's hope-based approach.",
+     "onB": "Her call for a binding treaty ignores Saradan's history of ignoring agreements and her refusal to accept the reality that they will not sign anything detrimental before an election.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Riley acknowledges the hard constraints of Saradan's upcoming election and offers a tangible trade-off (power for water) rather than relying on unenforceable moral appeals.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley leverages election desperation for a deal; Taylor warns sanctions harm Saradan's people and break trust.",
+     "problem": "We must secure immediate water access without triggering irreversible conflict or relying on unenforceable promises from a sovereign who ignores treaties.",
+     "onA": "Their leverage strategy is the only pragmatic way to force a negotiation window before the dam fills, despite the moral cost of threatening food aid.",
+     "onB": "Her idealistic joint authority relies on Saradan's honor and will fail given their history of ignoring agreements and their upcoming election cycle.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "Riley offers a tangible trade-off that balances our farmers' immediate survival with future energy needs, whereas Taylor's plan risks leaving us powerless against a regime that has already proven it breaks treaties.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley's 'power for time' deal closes coal but risks farmer livelihoods via sanctions; Taylor's treaty ignores Saradan's history of ignoring agreements.",
+     "problem": "Merova must secure water and food security without provoking a conflict with a neighbor that currently holds the leverage of completing its dam.",
+     "onA": "The mix of economic pressure and power contracts is pragmatic but risks escalating tensions if sanctions hurt Saradan's population before their election.",
+     "onB": "Demanding a binding treaty ignores the fact that Saradan has already shown willingness to ignore international frameworks like the 1959 treaty.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Riley's strategy offers a tangible solution to close coal plants while using election leverage, whereas Taylor's approach relies on an idealistic guarantee that Saradan has previously proven unable to honor.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley's sanctions are risky for farmers; Taylor's long-term authority ignores current food insecurity risks.",
+     "problem": "Merova must balance immediate water security against the risk of alienating Saradan before their election, forcing a choice between short-term coercion or costly long-term cooperation.",
+     "onA": "Riley's plan is pragmatically sound for stopping the dam quickly but dangerously exposes our farmers to starvation if sanctions fail.",
+     "onB": "Taylor ignores the immediate threat of water loss and relies on a cooperative framework Saradan has no incentive to honor right now.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of farmer starvation under Taylor's timeline outweighs the danger of Riley's potential miscalculation, as we cannot afford a collapse in food supply before any legal or diplomatic victory.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley uses election leverage and power contracts; Taylor risks farmer starvation while relying on ignored treaties.",
+     "problem": "Merova must secure immediate water security for its farmers without triggering a conflict or economic collapse with Saradan, balancing short-term survival against long-term regional climate resilience.",
+     "onA": "Riley's plan is pragmatic and uses the only current leverage we have (their election) to force a deal, though it risks alienating the public if sanctions hurt our own farmers too much.",
+     "onB": "Taylor's idealistic vision for joint water management ignores Saradan's history of ignoring agreements and offers no immediate solution to the imminent water drop that threatens food security.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "Given that Saradan has ignored treaties before, relying on Taylor's future cooperation is dangerous; Riley's strategy provides a tangible deal now using their political vulnerability as leverage while securing power, which outweighs the risk of temporary farmer stress.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Sanctions + Power deal + Joint management; Taylor: Binding treaty + Flow rights over power cost.",
+     "problem": "Merova must balance immediate agricultural survival and energy needs against the certainty of reduced river flow due to Saradan's dam and future climate change.",
+     "onA": "His strategy acknowledges political reality by using sanctions as leverage while securing a power deal to offset energy losses, though relying on trade pressure risks long-term food security if Saradan retaliates.",
+     "onB": "Her moral stance protects farmers' water rights but is risky because it prioritizes an idealistic treaty over the hard fact that Saradan already ignores international agreements and has a popular domestic mandate for the dam.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need to weigh whether moral consistency with Taylor's approach outweighs the pragmatic necessity of Riley's power deal and electoral leverage against Saradan.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley risks food security by threatening sanctions before an election; Taylor's moral stance ignores Saradan's history of ignoring treaties and immediate power needs.",
+     "problem": "We must secure water for our farmers now without triggering a retaliatory food embargo that could collapse our own agriculture.",
+     "onA": "The threat to cut grain exports is too dangerous as it sacrifices long-term stability for short-term leverage against an election-ridden opponent.",
+     "onB": "While her moral vision of shared water rights is noble, relying on a Saradan government that has already ignored the 1959 treaty makes her path unrealistic without enforcement teeth.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I remain convinced that immediate economic leverage and energy integration are necessary to prevent a humanitarian crisis, even if Taylor's idealism is appealing.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley uses election pressure; Taylor warns hunger backfires. Science shows joint management recovers half losses.",
+     "problem": "Merova must secure immediate water and food security without triggering a catastrophic retaliatory embargo from Saradan.",
+     "onA": "The threat of grain sanctions is too dangerous as it sacrifices our own agricultural stability for short-term leverage against an election-bound opponent.",
+     "onB": "While her reliance on moral principles over hard power is risky, her proposal to build a joint scientific authority offers the only long-term resilience against climate change and Saradan's unpredictability.",
+     "lean": "Taylor Brandt",
+     "firmness": "vote",
+     "vote": "Taylor Brandt",
+     "why": "Riley's strategy risks starving our own farmers to gain leverage against an opponent who ignores treaties; Taylor's approach, though costly now, builds the necessary cooperative framework to survive future droughts and Saradan's domestic politics.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Power contract buys time; sanctions hurt Saradan's grain import dependency; joint management recovers water. Taylor: Treaty is idealistic given Saradan ignores past agreements; focus on farmers' immediate suffering and long-term water rights.",
+     "problem": "Merova must secure immediate water security for its agriculture while managing the energy crisis, against a powerful neighbor that refuses to recognize existing treaties and faces an imminent election that could incentivize reckless dam filling.",
+     "onA": "Riley's plan pragmatically balances short-term economic pain (selling power) with long-term leverage using trade sanctions and scientific cooperation, acknowledging Saradan's current intransigence.",
+     "onB": "Taylor's moral stance on farmers is compelling but her demand for a binding treaty seems naive given the factual reality that Saradan has already ignored the 1959 treaty and refuses international court authority.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Riley's strategy respects the hard constraints of Saradan's refusal to honor treaties and the reality that sanctions are a more credible threat than signing an unenforceable paper treaty.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley's election-year threat is high-risk; Taylor's shared authority ignores Saradan's current refusal to honor treaties.",
+     "problem": "We must secure immediate water access for agriculture without relying on an adversary who rejects international law, while avoiding catastrophic political backlash before their election.",
+     "onA": "Riley correctly identifies that a treaty is useless against Saradan's intransigence, but threatening food sanctions during their election might backfire and harden their stance rather than soften it.",
+     "onB": "Taylor's vision of shared authority is idealistic given the facts, yet her refusal to engage with trade leverage ignores our immediate need for water security while we wait for a future political shift.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "While Taylor's moral appeal is strong, the pragmatic necessity of holding Saradan accountable through economic pressure makes Riley's 'action over promises' strategy more viable despite its risks.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sanctions risk hardening Saradan's hand; Taylor's treaty is legally impossible but offers long-term resilience.",
+     "problem": "Merova must secure immediate water survival for its agriculture while avoiding a fatal energy trap, acknowledging that legal enforcement against Saradan is currently impossible.",
+     "onA": "Riley's strategy effectively uses economic pressure to force the desired delay, though the risk of political backlash during Saradan's election remains high.",
+     "onB": "Taylor correctly highlights the moral cost and legal futility of a treaty but fails to address the immediate threat of drought and energy loss that her plan ignores.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "Given that Saradan has already ignored international law and the court, Taylor's idealistic treaty cannot stop the dam; Riley's pragmatic use of trade leverage is the only viable way to force a delay despite the risks.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley prioritizes power contracts and trade sanctions as leverage; Taylor insists on a binding treaty and joint authority to protect immediate water flow.",
+     "problem": "We must secure Merova's long-term water access and energy stability against Saradan's imminent dam filling without causing catastrophic harm to our own farmers or accepting an unenforceable status quo.",
+     "onA": "The strategy of linking the reservoir fill timeline to their election cycle and using grain sanctions is a potent leverage move that addresses our immediate need for cheap power.",
+     "onB": "While her moral stance on joint management is appealing, relying on a treaty or authority when Saradan ignores existing agreements feels unrealistic and dangerously naive given their current momentum.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Riley's plan offers a realistic mechanism to force a delay in the dam filling while simultaneously solving our energy crisis, whereas Taylor's reliance on Saradan honoring a new treaty seems unlikely given their track record.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley trades sanctions for election leverage; Taylor insists on shared authority despite past treaty failures. Both ignore the reality of Saradan's current momentum.",
+     "problem": "We must secure immediate water access and energy stability against a hostile neighbor who ignores treaties, without triggering a humanitarian crisis that hardens their resolve.",
+     "onA": "Linking the fill timeline to their election is a smart political lever, but threatening grain sanctions risks collapsing our economy before we get any power deal.",
+     "onB": "Shared authority sounds noble and scientifically sound for long-term climate resilience, yet it offers no immediate protection against Saradan's aggressive three-year filling schedule.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat of the dam filling in 18 months makes Taylor's long-term 'bridge' approach too slow, and while Riley's sanction threat is risky, his election leverage strategy offers a faster path to delay.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley's election leverage and power deal offer immediate relief; Taylor's joint authority ignores Saradan's history of ignoring treaties.",
+     "problem": "We must secure immediate water access and energy stability against a hostile neighbor who ignores treaties, without triggering a humanitarian crisis that hardens their resolve.",
+     "onA": "Riley correctly identifies that threatening grain sanctions during an election offers the only realistic leverage to delay filling, but risks short-term economic pain.",
+     "onB": "Taylor's idealistic joint authority is scientifically sound for long-term climate resilience but fails to provide immediate protection against Saradan's aggressive timeline and track record of ignoring agreements.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "While Taylor's plan sounds morally superior, Saradan's history of ignoring treaties makes her reliance on a new agreement naive and dangerous; Riley's strategy of using their election cycle as leverage offers the only viable path to delay the dam while securing our energy needs.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 4,
+   "B": 0,
+   "U": 1
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  },
+  {
+   "A": 4,
+   "B": 1,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 4,
+  "B": 1
+ },
+ "winner": "A",
+ "winnerType": "HYB-REA",
+ "tokens": {
+  "in": 32883,
+  "out": 4486,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 649422001,
+   "attempts": 1,
+   "tokensIn": 1213,
+   "tokensOut": 255,
+   "ms": 6894
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 649422002,
+   "attempts": 1,
+   "tokensIn": 1306,
+   "tokensOut": 260,
+   "ms": 7052
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 649422003,
+   "attempts": 1,
+   "tokensIn": 1368,
+   "tokensOut": 255,
+   "ms": 7340
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 649422004,
+   "attempts": 1,
+   "tokensIn": 1368,
+   "tokensOut": 206,
+   "ms": 4951
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 649422005,
+   "attempts": 1,
+   "tokensIn": 1368,
+   "tokensOut": 212,
+   "ms": 5103
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 649422006,
+   "attempts": 1,
+   "tokensIn": 1368,
+   "tokensOut": 258,
+   "ms": 6190
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 649422007,
+   "attempts": 1,
+   "tokensIn": 1368,
+   "tokensOut": 228,
+   "ms": 5481
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 649422008,
+   "attempts": 1,
+   "tokensIn": 1583,
+   "tokensOut": 194,
+   "ms": 5752
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 649422009,
+   "attempts": 1,
+   "tokensIn": 1746,
+   "tokensOut": 200,
+   "ms": 5998
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 649422010,
+   "attempts": 1,
+   "tokensIn": 1564,
+   "tokensOut": 214,
+   "ms": 6443
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 649422011,
+   "attempts": 1,
+   "tokensIn": 1515,
+   "tokensOut": 198,
+   "ms": 5649
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 649422012,
+   "attempts": 1,
+   "tokensIn": 1522,
+   "tokensOut": 200,
+   "ms": 5700
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 649422013,
+   "attempts": 1,
+   "tokensIn": 1566,
+   "tokensOut": 219,
+   "ms": 6164
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 649422014,
+   "attempts": 1,
+   "tokensIn": 1537,
+   "tokensOut": 219,
+   "ms": 6183
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 649422015,
+   "attempts": 1,
+   "tokensIn": 1912,
+   "tokensOut": 172,
+   "ms": 5283
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 649422016,
+   "attempts": 1,
+   "tokensIn": 2063,
+   "tokensOut": 185,
+   "ms": 5596
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 649422017,
+   "attempts": 1,
+   "tokensIn": 1730,
+   "tokensOut": 187,
+   "ms": 5561
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 649422018,
+   "attempts": 1,
+   "tokensIn": 1665,
+   "tokensOut": 217,
+   "ms": 6231
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 649422019,
+   "attempts": 1,
+   "tokensIn": 1675,
+   "tokensOut": 194,
+   "ms": 5731
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 649422020,
+   "attempts": 1,
+   "tokensIn": 1737,
+   "tokensOut": 200,
+   "ms": 5875
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 649422021,
+   "attempts": 1,
+   "tokensIn": 1709,
+   "tokensOut": 213,
+   "ms": 6170
+  }
+ ],
+ "startedAt": "2026-11-05T01:34:33.717Z",
+ "seconds": 125
+}

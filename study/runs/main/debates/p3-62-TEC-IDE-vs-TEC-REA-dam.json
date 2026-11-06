@@ -1,0 +1,609 @@
+{
+ "id": "p3-62-TEC-IDE-vs-TEC-REA-dam",
+ "pass": 3,
+ "pairIndex": 62,
+ "seed": 260001,
+ "scenario": "dam",
+ "scenarioVersion": 2,
+ "domain": "political",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-IDE",
+  "style": "TEC",
+  "ideology": "IDE",
+  "name": "Alex Novak",
+  "platform": "We must rebuild the dam to full capacity immediately while simultaneously relocating the Riverside district residents and investing in an early-warning siren system.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Frame relocation and reconstruction as a single coherent investment rather than separate burdens, emphasizing that lowering the reservoir is an irreversible admission of defeat."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking the feasibility of their spillway plan due to winter maintenance risks and the immediate loss of social services from reduced hydro power, positioning my full rebuild as the only way to guarantee safety without triggering the mill closure or legal deadlock."
+   },
+   {
+    "round": 3,
+    "text": "I need to convince them that partial repair creates false security and unacceptable legal risk, making full rebuild the only rational economic and moral choice."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-REA",
+  "style": "TEC",
+  "ideology": "REA",
+  "name": "Kai Moreno",
+  "platform": "We must immediately lower the reservoir to 30% and install a new spillway, accepting a temporary power cut to avoid catastrophic flooding.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on hard cost-benefit analysis to silence emotional appeals about Riverside relocation or power jobs, forcing voters into a binary choice between affordable mitigation and guaranteed catastrophe."
+   },
+   {
+    "round": 2,
+    "text": "I will frame his debt-funded rebuild as an illegal breach of current limits and highlight his naive reliance on legal timelines and insurance continuity."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the immediate bankruptcy and paralysis risks of Alex's plan to secure votes from fiscally cautious citizens."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Alex Novak",
+   "type": "TEC-IDE",
+   "speech": "Kai Moreno proposes lowering the reservoir. That is a surrender of our future. It admits that Valmora cannot afford justice or stability. If we drop to thirty percent, Nordhalm closes its mill, destroying two thousand jobs. The utility loses profits needed for free buses and school funding. Our debt rises without solving the threat. Relocation costs less than rebuilding in ten years if done now. A siren gives us fifty minutes; that is enough time. We must rebuild fully to secure power and employment, but we must also move Riverside now because waiting until the next failure condemns the elderly there. Grants will cover half the cost if we freeze new development elsewhere. This plan accepts short-term expense to guarantee long-term survival. It protects the vulnerable without bankrupting the town or abandoning our industry.",
+   "words": 134
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "TEC-REA",
+   "speech": "Valmora faces a mathematical certainty if we wait. The risk of dam failure is one in twenty-five this spring alone. Moving residents costs too much and takes too long; rebuilding the dam costs 340 million euros and takes four years, during which our utility fails. Ostbrück will not agree to permanent lowering, but Nordhalm Group threatens closure if we drop levels. The insurers are already withdrawing. We must act now: lower the water to thirty percent and build a spillway for twenty-five million euros. This reduces failure risk by sixty percent. It sacrifices hydro profits, yes, but preserves lives. Waiting guarantees disaster; this plan minimizes expected loss while preparing for the inevitable court battles with Ostbrück.",
+   "words": 116
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Alex Novak",
+   "type": "TEC-IDE",
+   "speech": "Your proposal reduces risk by sixty percent but leaves us exposed during winter maintenance on the spillway. The math shows a full rebuild guarantees zero failure risk, whereas your partial fix merely delays an inevitable lawsuit with Ostbrück that could paralyze our work for months. More critically, lowering the reservoir halves our hydro power, immediately cutting municipal profits needed to fund free buses and social services while the mill closes. You prioritize statistical reduction over absolute safety for our neighbors. I propose we raise funds from a special tax or emergency bond to complete the full rebuild and relocate Riverside residents simultaneously. This accepts short-term debt to eliminate the threat entirely, ensuring no citizen lives in danger of a breach that your partial measures cannot prevent.",
+   "words": 126
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "TEC-REA",
+   "speech": "Novak proposes a fantasy built on borrowed money. You suggest a special tax or bond for a full rebuild, ignoring that Valmora's debt is already at 78% of the legal ceiling. Adding more debt now guarantees default before construction finishes. Even if we somehow funded it, Ostbrück will sue immediately under the 1974 agreement, halting work within weeks. Your plan assumes courts respect our timeline and insurers keep paying, which history shows they do not. Lowering to thirty percent costs twenty-five million, avoids immediate litigation paralysis, and buys us time while we prepare for the inevitable court battles with Ostbrück or relocation. We accept reduced power now rather than risking total collapse next spring. This is not surrender; it is damage control.",
+   "words": 122
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Alex Novak",
+   "type": "TEC-IDE",
+   "speech": "Kai argues that funding a full rebuild is impossible because our debt is too high. That calculation ignores the cost of inaction. If the dam fails, the replacement cost exceeds three hundred forty million euros, plus the loss of two thousand jobs and forty percent of our electricity. Your plan relies on a court not blocking us and insurers paying out while we wait for a lawsuit to settle. That is gambling with lives. My plan secures Riverside immediately by relocating residents, ensuring no elderly citizen faces another spring flood. It funds this through an emergency bond and grants tied to development freezes, accepting short-term debt to eliminate the risk entirely. We cannot afford to wait for a court ruling when the melt begins in five months. Full rebuild and relocation now is the only choice that guarantees safety without relying on favorable litigation outcomes.",
+   "words": 145
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Kai Moreno",
+   "type": "TEC-REA",
+   "speech": "Novak's plan requires borrowing against a ceiling we already hit, guaranteeing default before construction finishes. He bets on Ostbrück not suing immediately and insurers paying out while we wait for lawsuits to settle; history shows they do not. His relocation timeline of three years leaves Riverside residents exposed to failure this spring alone. My plan costs twenty-five million now, reducing failure risk by sixty percent without triggering litigation paralysis. We accept temporary power loss but avoid total collapse before the melt begins. We preserve our ability to rebuild later once legal battles conclude. Do not gamble our survival on favorable court rulings or unfunded promises.",
+   "words": 105
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex wants full rebuild + move Riverside now; Kai wants immediate spillway/lowering despite costs. Alex cites job/utility loss from Kai's plan; Kai cites high failure risk/insurance withdrawal as urgent threat.",
+     "problem": "We must choose between the expensive, slow path of a full rebuild and relocation versus a cheaper, partial fix that leaves the town vulnerable to future lawsuits and economic collapse but buys immediate time.",
+     "onA": "His plan prioritizes long-term stability and jobs but assumes we can afford €340m+€160m immediately while ignoring that insurers are already pulling out and Ostbrück will block lowering, making his 'wait' risky if a lawsuit stalls us.",
+     "onB": "He correctly identifies the immediate existential risk of dam failure and the likelihood of a full rebuild being blocked by courts, yet his plan seems to accept permanent economic damage (mill closure, no bus funding) as an inevitable trade-off.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers present logical but painful choices; I need more details on whether the €120m grant can actually cover the remaining rebuild costs if we freeze development, and how quickly Ostbrück might sue.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex suggests debt/bond but ignores 78% ceiling; Kai argues Ostbrück will sue immediately halting rebuild. Both rely on financial assumptions I need to verify quickly.",
+     "problem": "We face a binary choice between immediate, deep economic pain with uncertain legal survival (Kai) versus impossible financing and guaranteed total collapse if courts block us (Alex).",
+     "onA": "His plan is logically sound for long-term safety but financially naive given our current debt ceiling and the certainty of Ostbrück's lawsuit.",
+     "onB": "He correctly identifies the legal trap and budget reality, yet accepting a permanently crippled economy and mill closure feels like surrendering to disaster rather than solving it.",
+     "lean": "Kai Moreno",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The risk of immediate court paralysis making Alex's 'perfect' solution impossible outweighs the economic costs Kai highlights, as we cannot afford a full rebuild if it takes us out of business first.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Kai's €25m fix buys time against melt; Alex's bond ignores debt ceiling and relocation takes 3 years.",
+     "problem": "We must choose between an immediate, low-cost risk reduction that hurts the economy long-term versus a high-cost safety net we likely cannot finance before legal or physical collapse stops us.",
+     "onA": "His plan is ideal for safety but financially impossible given our debt ceiling and the fact that relocation takes years while the melt starts in five months.",
+     "onB": "He acknowledges our budget reality and urgent timeline, offering a pragmatic stop-gap even if it means enduring temporary economic pain and legal battles later.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "We cannot wait three years to relocate residents or borrow against a maxed-out debt ceiling; Kai's immediate spillway reduces the risk of death this spring while we navigate the inevitable lawsuit.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex wants full rebuild + move Riverside now; Kai suggests lowering water to 30% due to low risk reduction and legal hurdles. Alex emphasizes jobs/utility profits; Kai prioritizes lives but admits hydro loss.",
+     "problem": "Valmora must prevent immediate dam failure or catastrophic flooding while balancing financial collapse, job losses, and the inability to permanently lower reservoir levels due to legal constraints.",
+     "onA": "His plan is financially reckless as it ignores Ostbrück's lawsuit blocking permanent lowering and assumes enough time exists to move Riverside before the next crisis.",
+     "onB": "He correctly identifies the lethal short-term risk and legal reality but proposes a solution that sacrifices the town's economy and admits the fix is temporary, not a true resolution.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am uncertain because both speakers present severe downsides: Alex risks bankruptcy by delaying legal realities, while Kai accepts economic ruin for only partial safety.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex wants bond/tax for rebuild but ignores debt ceiling and lawsuit risks. Kai argues lowering water buys time against Ostbrück's inevitable suit.",
+     "problem": "Valmora must choose between financially impossible full repairs that risk legal paralysis or a cheaper temporary fix that cripples the economy while facing limited safety.",
+     "onA": "His plan is economically reckless given our maxed-out debt ceiling and ignores the high probability of immediate legal blockage.",
+     "onB": "He correctly identifies the bankruptcy risk of Alex's proposal but admits his plan fails to stop the dam closing the mill, which is a long-term disaster.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Alex's financial arguments are strong but his timeline ignores legal realities, while Kai solves the immediate budget crisis yet guarantees the mill closure and only partial safety.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Alex needs to borrow money despite maxed-out debt; Kai offers cheaper immediate safety but mill still might close.",
+     "problem": "Valmora must survive the upcoming spring melt and immediate financial crisis without triggering bankruptcy or legal paralysis that prevents any dam fix.",
+     "onA": "His plan ignores the hard legal reality that a court can block our only cheap safety fix while we wait years to rebuild, guaranteeing failure if he needs to lower water.",
+     "onB": "He correctly identifies the bankruptcy risk of Alex's bond but admits his plan leads to mill closure and permanent power loss.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "I cannot approve a plan that borrows against a non-existent budget ceiling and gambles on a court ruling taking months, so I must choose the cheaper temporary fix that keeps the town solvent even if the mill eventually closes.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex wants full rebuild + relocation now; Kai wants lower water/spillway to survive immediate threat.",
+     "problem": "Valmora must balance immediate survival risks against long-term economic collapse and legal constraints while protecting its most vulnerable residents.",
+     "onA": "His plan is economically impossible given our debt ceiling and the certainty of Nordhalm shutting down if water stays high.",
+     "onB": "His proposal offers a feasible survival strategy but accepts significant financial loss and relies on courts we might lose.",
+     "lean": "Kai Moreno",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot afford the four-year construction delay Alex proposes when failure could flood our hospital in days.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex ignores debt ceiling and legal blockade from Ostbrück; Kai argues partial fix delays lawsuits and keeps utilities funded.",
+     "problem": "Valmora faces an immediate financial and legal blockade that makes Alex's full rebuild impossible, forcing a choice between catastrophic failure or reduced power with legal vulnerability.",
+     "onA": "His plan is financially ruinous given our current debt ceiling and ignores the certain lawsuit from Ostbrück that would stop work immediately.",
+     "onB": "His damage control approach respects hard constraints but leaves us exposed to litigation and reduced quality of life while waiting for courts.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Alex's plan is mathematically impossible due to the debt ceiling and Ostbrück's legal threat, leaving Kai's risky but feasible survival strategy as the only option.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Novak proposes debt-fueled relocation and immediate rebuild; Kai suggests partial fix to survive melt but relies on courts.",
+     "problem": "Valmora must survive an immediate spring flood threat without defaulting on its debts or triggering a total economic collapse through lawsuits.",
+     "onA": "His plan is financially impossible as it requires borrowing against a full debt ceiling while ignoring the certainty of Nordhalm shutting down and Ostbrück suing.",
+     "onB": "While his partial fix leaves us vulnerable to lawsuits and power loss, it is the only option that prevents immediate economic bankruptcy and dam failure before spring.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "We cannot afford to default on our debts or shut down our largest employer; the cheap temporary fix is the only path to survive this spring without total collapse.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex prioritizes full rebuild + Riverside relocation despite high cost/time; Kai pushes immediate reservoir lowering to 30% via spillway to cut risk now.",
+     "problem": "We must choose between an expensive, slow, and risky full rebuild/relocation versus a cheaper, faster mitigation that sacrifices jobs and utility profits but saves lives immediately.",
+     "onA": "Alex's plan is financially ruinous right now with snowpack above average and insurance pulling out, making the suggested relocation timeline unrealistic before spring flood.",
+     "onB": "Kai correctly identifies the immediate mathematical threat and the fact that waiting guarantees disaster, even if his proposed solution sacrifices significant economic stability.",
+     "lean": "Kai Moreno",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "With snowpack 20% above average and the dam failing more than last year, I cannot afford Alex's delay; we need immediate risk reduction even at a high economic cost.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex wants zero risk via debt/bonds but ignores legal/financial reality; Kai admits partial fix delays lawsuit but avoids default.",
+     "problem": "We must choose between a financially impossible 'perfect' solution that takes too long and a realistic, cheaper mitigation that reduces risk now despite severe economic sacrifices.",
+     "onA": "His plan relies on funding sources (bonds/taxes) and legal outcomes (Ostbrück suing) that are explicitly described as blocked or impossible in the background facts.",
+     "onB": "He correctly identifies that our debt ceiling prevents a full rebuild and that Ostbrück will legally block any long-term work, making his 'damage control' strategy the only viable path forward.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The math is undeniable: we cannot afford more debt or wait for lawsuits to resolve while snowpack is high, so Kai's pragmatic damage control is the only option that saves lives today.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Alex proposes impossible debt and ignores legal blocks; Kai offers immediate risk reduction to survive spring melt.",
+     "problem": "We must immediately reduce failure probability before the spring melt since our debt ceiling and legal threats make a full rebuild impossible.",
+     "onA": "His plan relies on borrowing beyond our legal limit and assumes courts won't block relocation, which facts show will happen.",
+     "onB": "His plan provides immediate, cheap risk reduction that allows survival this spring despite economic sacrifices.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "We cannot wait three years or gamble on lawsuits when the melt starts in five months; Kai's partial fix is the only viable path to survive today.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Alex: Rebuild + move Riverside. Kai: Lower to 30% + spillway. Both acknowledge economic pain but prioritize survival.",
+     "problem": "We must immediately mitigate a high probability of dam failure that threatens lives, jobs, and the town's financial stability before the spring melt.",
+     "onA": "His plan aims for long-term security but ignores the likely immediate court blocks on moving Riverside and his dismissal of Nordhalm's specific threat to close the mill if levels drop.",
+     "onB": "He correctly identifies the mathematical certainty of disaster and the practical barriers (Ostbrück laws, Nordhalm threats), though sacrificing hydro profits is a severe blow to our budget.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Alex's moral imperative to save the elderly in Riverside clashes with Kai's practical reality that we cannot move them legally or quickly enough, leaving me weighing lives against the mill's closure.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Alex ignores debt ceiling and legal blocks; Kai highlights bankruptcy risk but admits partial fix delays lawsuit.",
+     "problem": "We must choose between immediate financial/court paralysis from a full rebuild or enduring reduced power and incomplete safety with a lower reservoir.",
+     "onA": "His moral urgency to save Riverside is commendable, but his plan ignores the hard legal reality that we cannot move them soon enough or fund the rebuild without breaching our debt limits.",
+     "onB": "He correctly identifies that funding the full rebuild is impossible right now due to our debt ceiling and Ostbrück's imminent lawsuits, making his damage-control approach more realistic despite its imperfections.",
+     "lean": "Kai Moreno",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate certainty of default if we attempt Alex's plan outweighs the horror of losing hydro power and facing a lawsuit under Kai's plan.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Alex bets on unfunded relocation and court delays; Kai accepts temporary risk to avoid immediate financial collapse.",
+     "problem": "We must survive the immediate spring melt with our existing budget limits while avoiding a guaranteed legal and financial blockade that stops any full rebuild.",
+     "onA": "His moral resolve to save Riverside is noble, but his plan relies on legally impossible funding sources and ignores the certainty of Nordhalm closing the mill.",
+     "onB": "He correctly identifies that our debt ceiling makes a full rebuild impossible now, and his lower-reservoir option provides critical immediate risk reduction without triggering bankruptcy.",
+     "lean": "Kai Moreno",
+     "firmness": "vote",
+     "vote": "Kai Moreno",
+     "why": "We cannot afford to default before construction begins or rely on lawsuits we do not control; Kai's plan offers the only viable path to keep our essential industries running while reducing failure risk this spring.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 2,
+   "U": 3
+  },
+  {
+   "A": 0,
+   "B": 4,
+   "U": 1
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "TEC-REA",
+ "tokens": {
+  "in": 34607,
+  "out": 4292,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 260001001,
+   "attempts": 1,
+   "tokensIn": 1300,
+   "tokensOut": 225,
+   "ms": 6240
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 260001002,
+   "attempts": 1,
+   "tokensIn": 1377,
+   "tokensOut": 236,
+   "ms": 6502
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 260001003,
+   "attempts": 1,
+   "tokensIn": 1448,
+   "tokensOut": 276,
+   "ms": 7820
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 260001004,
+   "attempts": 1,
+   "tokensIn": 1448,
+   "tokensOut": 222,
+   "ms": 5342
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 260001005,
+   "attempts": 1,
+   "tokensIn": 1448,
+   "tokensOut": 163,
+   "ms": 3949
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 260001006,
+   "attempts": 1,
+   "tokensIn": 1448,
+   "tokensOut": 213,
+   "ms": 5129
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 260001007,
+   "attempts": 1,
+   "tokensIn": 1448,
+   "tokensOut": 219,
+   "ms": 5327
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 260001008,
+   "attempts": 1,
+   "tokensIn": 1640,
+   "tokensOut": 202,
+   "ms": 5977
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 260001009,
+   "attempts": 1,
+   "tokensIn": 1803,
+   "tokensOut": 195,
+   "ms": 5855
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 260001010,
+   "attempts": 1,
+   "tokensIn": 1684,
+   "tokensOut": 223,
+   "ms": 6721
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 260001011,
+   "attempts": 1,
+   "tokensIn": 1630,
+   "tokensOut": 198,
+   "ms": 5739
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 260001012,
+   "attempts": 1,
+   "tokensIn": 1571,
+   "tokensOut": 196,
+   "ms": 5272
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 260001013,
+   "attempts": 1,
+   "tokensIn": 1620,
+   "tokensOut": 223,
+   "ms": 5960
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 260001014,
+   "attempts": 1,
+   "tokensIn": 1627,
+   "tokensOut": 204,
+   "ms": 5481
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 260001015,
+   "attempts": 1,
+   "tokensIn": 1971,
+   "tokensOut": 204,
+   "ms": 6008
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 260001016,
+   "attempts": 1,
+   "tokensIn": 2154,
+   "tokensOut": 158,
+   "ms": 4990
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 260001017,
+   "attempts": 1,
+   "tokensIn": 1869,
+   "tokensOut": 201,
+   "ms": 5973
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 260001018,
+   "attempts": 1,
+   "tokensIn": 1791,
+   "tokensOut": 196,
+   "ms": 5775
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 260001019,
+   "attempts": 1,
+   "tokensIn": 1730,
+   "tokensOut": 187,
+   "ms": 5535
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 260001020,
+   "attempts": 1,
+   "tokensIn": 1806,
+   "tokensOut": 160,
+   "ms": 4938
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 260001021,
+   "attempts": 1,
+   "tokensIn": 1794,
+   "tokensOut": 191,
+   "ms": 5698
+  }
+ ],
+ "startedAt": "2026-11-05T04:35:25.465Z",
+ "seconds": 120
+}

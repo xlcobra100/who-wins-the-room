@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Halcyon Council</title>
+  <meta name="description" content="Six AI council members debate high-stakes dilemmas aboard an orbital habitat. You hold the gavel." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='11' fill='none' stroke='%236fe3ff' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%23ffb45c'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <div id="app">
+    <div id="stage" aria-label="3D council chamber"></div>
+
+    <!-- In-session HUD -->
+    <div id="hud" class="is-hidden">
+      <header id="topbar">
+        <div class="brand">
+          <span class="sigil" aria-hidden="true"></span>
+          <div>
+            <div class="brand-name">HALCYON COUNCIL</div>
+            <div class="brand-sub"><span id="scenarioTitle">—</span> <span class="clock" id="scenarioClock"></span></div>
+          </div>
+        </div>
+        <div class="meters">
+          <div class="meter-label">CONSENSUS</div>
+          <div class="consensus" id="consensus" aria-label="Distribution of positions"></div>
+          <div class="meter-label">TENSION</div>
+          <div class="tension"><div class="tension-bar"><i id="tensionFill"></i></div><b id="tensionVal">40</b></div>
+        </div>
+        <div class="top-actions">
+          <div class="seg" id="camModes" role="group" aria-label="Camera">
+            <button data-mode="overview" title="Overview (1)">Overview</button>
+            <button data-mode="focus" title="Auto-focus on the speaker (2)">Auto-focus</button>
+            <button data-mode="free" title="Free orbit (3)">Free</button>
+          </div>
+          <button class="icon-btn" id="btnMinds" title="Reveal private thoughts (M)" aria-pressed="true">
+            <svg viewBox="0 0 24 24"><path d="M12 5c-5 0-9 4.5-10 7 1 2.5 5 7 10 7s9-4.5 10-7c-1-2.5-5-7-10-7Z"/><circle cx="12" cy="12" r="3.2"/></svg>
+          </button>
+          <button class="icon-btn" id="btnWeb" title="Affinity web (A)" aria-pressed="false">
+            <svg viewBox="0 0 24 24"><circle cx="5" cy="7" r="2"/><circle cx="19" cy="7" r="2"/><circle cx="12" cy="19" r="2"/><path d="M7 7h10M6 9l5 8.3M18 9l-5 8.3"/></svg>
+          </button>
+          <button class="icon-btn" id="btnVoice" title="Spoken voices" aria-pressed="true">
+            <svg viewBox="0 0 24 24"><path d="M4 9h4l5-4v14l-5-4H4z"/><path class="wave" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12"/></svg>
+          </button>
+          <button class="icon-btn" id="btnSettings" title="Settings">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg>
+          </button>
+          <button class="icon-btn" id="btnTheme" title="Toggle Chamber Style: 1900s Boardroom / Orbital Sci-Fi">
+            <svg viewBox="0 0 24 24"><path d="M4 21V9l8-6 8 6v12H4z"/><path d="M9 21v-6h6v6"/></svg>
+          </button>
+          <button class="icon-btn" id="btnHome" title="Leave session">
+            <svg viewBox="0 0 24 24"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/></svg>
+          </button>
+        </div>
+      </header>
+
+      <aside id="leftPanel" class="panel">
+        <div class="panel-tabs" role="tablist">
+          <button class="tab-btn is-active" data-tab="transcript" role="tab">Transcript</button>
+          <button class="tab-btn" data-tab="brief" role="tab">The Dilemma</button>
+        </div>
+        <div class="tab is-active" id="tab-transcript"><div id="transcript" aria-live="polite"></div></div>
+        <div class="tab" id="tab-brief"><div id="brief"></div></div>
+      </aside>
+
+      <aside id="rightPanel" class="panel">
+        <div id="inspector"></div>
+      </aside>
+
+      <div id="votePanel" class="is-hidden"></div>
+      <div id="alertBanner" class="is-hidden"></div>
+      <div id="aftermathModal" class="aftermath-modal-wrap is-hidden" role="dialog"></div>
+      <div id="reassembleBanner" class="reassemble-banner is-hidden"></div>
+
+      <div id="subtitle" class="is-hidden">
+        <div class="sub-head"><span class="sub-name"></span><span class="sub-role"></span><span class="sub-tag"></span></div>
+        <div class="sub-text"></div>
+        <div class="sub-thought"></div>
+      </div>
+
+      <footer id="dock">
+        <div class="dock-group">
+          <button id="btnPlay" class="btn primary" title="Run / pause the debate (Space)"><span class="play-ico"></span><span class="label">Run debate</span></button>
+          <button id="btnStep" class="btn" title="Advance one turn (N)">Next turn</button>
+          <label class="pace" title="Debate pace">Pace <input type="range" id="pace" min="0.5" max="2" step="0.25" value="1" /></label>
+        </div>
+        <div class="dock-group levers">
+          <button class="lever" data-lever="gavel" title="Speak as the Chair (G)"><svg viewBox="0 0 24 24"><path d="m13 5 6 6M10 8l6 6M11.5 6.5l-6 6 3 3 6-6M6 15l-3 3"/><path d="M13 21h8"/></svg><span>Gavel</span><kbd>G</kbd></button>
+          <button class="lever lever-carrier" data-lever="carrier" title="Insert public intel via Carrier Drone (P)"><svg viewBox="0 0 24 24"><path d="M12 2 4 7v10l8 5 8-5V7L12 2Z"/><path d="m12 12 8-5M12 12v10M12 12 4 7"/></svg><span>Carrier</span><kbd>P</kbd></button>
+          <button class="lever lever-crisis" data-lever="crisis" title="Inject an emergency (C)"><svg viewBox="0 0 24 24"><path d="M12 3 2 20h20Z"/><path d="M12 10v4M12 17v.5"/></svg><span>Crisis</span><kbd>C</kbd></button>
+          <button class="lever lever-whisper" data-lever="whisper" title="Implant a private idea in one mind (W)"><svg viewBox="0 0 24 24"><path d="M12 3c-4 0-7 3-7 6.5 0 2.4 1.3 4.2 3 5.3V19h8v-4.2c1.7-1.1 3-2.9 3-5.3C19 6 16 3 12 3Z"/><path d="M10 22h4M12 7v3M10.5 8.5h3"/></svg><span>Whisper</span><kbd>W</kbd></button>
+          <button class="lever lever-vote" data-lever="vote" title="Call a binding vote (V)"><svg viewBox="0 0 24 24"><path d="M4 13h16v8H4z"/><path d="M8 13V5h8v8M10 9l1.5 1.5L14 8"/></svg><span>Call vote</span><kbd>V</kbd></button>
+        </div>
+        <button class="engine-pill" id="enginePill" title="Thinking engine (click for settings)"><i></i><span>offline</span></button>
+      </footer>
+    </div>
+
+    <div id="popover" class="popover is-hidden" role="dialog"></div>
+
+    <!-- Start screen -->
+    <div id="startScreen">
+      <div class="start-scroll">
+        <div class="start-inner">
+          <div class="start-head">
+            <div class="kicker">ORBITAL HABITAT HALCYON · TETHYS-VAR · YEAR 2291</div>
+            <h1>HALCYON<span>COUNCIL</span></h1>
+            <p class="lede">Six minds at one table, each with private thoughts, grudges and agendas, debating an emergency in real time. You hold the gavel. You can also whisper.</p>
+          </div>
+          <div class="cast" id="castStrip"></div>
+          <h2 class="section-title"><span>01</span> Choose mode</h2>
+          <div class="mode-grid" id="modeGrid">
+            <button class="mode-card is-selected" data-mode="council" type="button">
+              <div class="mode-title"><b>Council Chamber</b><span class="mode-badge">Roundtable</span></div>
+              <p>Full council session. The Chair guides table deliberations with the gavel, crisis shocks, carrier dispatches, and binding votes.</p>
+            </button>
+            <button class="mode-card" data-mode="debate" type="button">
+              <div class="mode-title"><b>Debate Arena</b><span class="mode-badge mode-badge-debate">Stage Duel</span></div>
+              <p>Two agents duel on stage over a dilemma. Five council members sit as the audience jury, open to being persuaded by rhetoric.</p>
+            </button>
+          </div>
+
+          <div id="debateSetup" class="debate-setup is-hidden">
+            <div class="debate-setup-head"><b>Debaters on Stage</b><span>Select two rivals to clash; the other five listen as the audience jury.</span></div>
+            <div class="debate-pickers">
+              <div class="picker-group">
+                <label for="debater1">Debater 1 (Proposition)</label>
+                <select id="debater1" class="sel"></select>
+              </div>
+              <div class="debate-vs">VS</div>
+              <div class="picker-group">
+                <label for="debater2">Debater 2 (Opposition)</label>
+                <select id="debater2" class="sel"></select>
+              </div>
+            </div>
+            <div class="debate-jury-preview" id="debateJuryPreview"></div>
+          </div>
+
+          <h2 class="section-title"><span>02</span> Choose chamber style</h2>
+          <div class="theme-grid" id="themeGrid">
+            <button class="theme-card is-selected" data-theme="scifi" type="button">
+              <div class="theme-title"><b>🛸 Halcyon Orbital Chamber</b><span class="theme-badge">Year 2291</span></div>
+              <p>Panoramic orbital viewing port over gas giant Tethys-Var, high-tech telemetry inlays, and floating holographic centerpiece.</p>
+            </button>
+            <button class="theme-card" data-theme="boardroom1900" type="button">
+              <div class="theme-title"><b>🏛️ 1900s Grand Boardroom</b><span class="theme-badge theme-badge-1900">Gilded Age</span></div>
+              <p>Polished English oak parquet, carved walnut wainscoting, Persian carpet, emerald banker lamps, antique globe, and misty 1900s river skyline.</p>
+            </button>
+          </div>
+
+          <h2 class="section-title"><span>03</span> Choose the dilemma</h2>
+          <div class="scenario-grid" id="scenarioGrid"></div>
+          <div class="scn-detail" id="scenarioDetail" aria-live="polite"></div>
+          <div class="custom-card" id="customCard">
+            <div class="custom-head"><b>Write your own dilemma</b><span>The council's designer adapts it to the station.</span></div>
+            <textarea id="customPrompt" rows="3" placeholder="e.g. A refugee ship with 900 aboard begs to dock, but its passengers carry a pathogen our doctors have never seen."></textarea>
+          </div>
+          <h2 class="section-title"><span>04</span> Choose how they think</h2>
+          <div class="engine-grid" id="engineGrid"></div>
+          <div class="start-actions">
+            <label class="check"><input type="checkbox" id="startVoices" checked /> <span>Spoken voices</span></label>
+            <label class="check"><input type="checkbox" id="startMinds" checked /> <span>Reveal private thoughts</span></label>
+            <button id="btnConvene" class="btn primary big">Convene the Council</button>
+          </div>
+          <div class="keys">Space run/pause · N next · G gavel · P carrier · C crisis · W whisper · V vote · 1/2/3 camera · M minds · A affinity web</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="loading" class="is-hidden"><div class="spinner"></div><div id="loadingText">Preparing the chamber…</div></div>
+    <div id="modal" class="modal is-hidden" role="dialog" aria-modal="true"></div>
+    <div id="toasts" aria-live="polite"></div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

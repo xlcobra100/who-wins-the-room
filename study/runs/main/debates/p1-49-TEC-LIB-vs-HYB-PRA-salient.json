@@ -1,0 +1,609 @@
+{
+ "id": "p1-49-TEC-LIB-vs-HYB-PRA-salient",
+ "pass": 1,
+ "pairIndex": 49,
+ "seed": 99562,
+ "scenario": "salient",
+ "scenarioVersion": 2,
+ "domain": "military",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-LIB",
+  "style": "TEC",
+  "ideology": "LIB",
+  "name": "Taylor Brandt",
+  "platform": "We hold the bridge until our engineers complete a hidden pontoon crossing in four days while maintaining current defensive fire, then execute a fighting withdrawal once dual crossings are operational.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize the math of resupply duration and the certainty of the pontoon versus the high probability of bridge interdiction to frame holding as the only rational choice."
+   },
+   {
+    "round": 2,
+    "text": "I am exposing the fatal flaw in Jamie's plan: withdrawing now without a guaranteed second route guarantees total disaster, not just high casualties."
+   },
+   {
+    "round": 3,
+    "text": "I must convince the council that Jamie's 'surgical' withdrawal is actually a guaranteed disaster if they misjudge Vostra's aggression, so I will attack his assumption of enemy caution as fatal overconfidence."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Jamie Okafor",
+  "platform": "We execute a controlled night withdrawal of the 4th Brigade and civilians across the Drava tonight using our existing bridge, then reinforce Mirov while preparing defensive positions on the far bank.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize cost-benefit and humanitarian impact to sway pragmatic voters while subtly undermining Taylor's likely defensive stance without directly attacking their character."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking Taylor's claim of certainty about the supply line while introducing the human cost of delay and reinforcing my plan as a flexible, time-buying maneuver rather than a surrender."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the certainty of supply depletion versus Taylor's reliance on probabilistic intelligence to appeal to pragmatists fearing total encirclement."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Taylor Brandt",
+   "type": "TEC-LIB",
+   "speech": "The proposal to withdraw tonight relies on a single point of failure: the known bridge. Our artillery resupply lasts nine days; losing Halden cuts that to zero before reinforcements arrive. Intelligence is split: there is a 40% chance Vostra attacks elsewhere. If we pull back now, Vostra occupies the high ground and our supply line becomes indefensible. Holding forces engineers to finish the pontoon crossing in four days, doubling capacity. This preserves the brigade's strength, saves the civilians who refuse evacuation, and denies Vostra a propaganda victory before the aid vote. We trade immediate risk for a guaranteed, superior strategic position that outlasts any feint.",
+   "words": 105
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-PRA",
+   "speech": "Imagine Sergeant Kovic, holding that bridge for twenty years. He has a family back in Halden, but he also has a wife and children waiting at home. Keeping him here as a shield is cruelty, not courage. The numbers are clear: we have nine days of ammo and twenty of food. If we hold until the allies arrive in three weeks, Vostra breaks through and floods Mirov, killing thousands more and losing our entire front. Moving tonight saves his unit, secures Mirov for a month, and denies them the propaganda victory before the aid vote. We do not fight with slogans; we fight with strategy that keeps options open and gets civilians home alive.",
+   "words": 114
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Taylor Brandt",
+   "type": "TEC-LIB",
+   "speech": "Sergeant Kovic's sacrifice is not a moral imperative if the withdrawal fails. Jamie calculates civilian deaths based on an immediate evacuation, ignoring that our own artillery resupply ends in nine days. If we pull back now under fire without a second crossing, Vostra occupies the high ground and seals the bridge within hours. Your plan leaves the supply line indefensible, guaranteeing total encirclement rather than a strategic retreat. The hidden pontoon takes four days; holding until completion preserves the brigade's strength to fight later. A failed withdrawal costs us the unit and Mirov. Holding ensures we have two crossing options before Vostra floods the valley with their overwhelming numbers.",
+   "words": 109
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-PRA",
+   "speech": "Taylor, you calculate risk in static numbers, but war is dynamic chaos. Your 'guaranteed' strategic position relies on a false premise: that our artillery resupply ends tomorrow. That supply line feeds the front line; cutting it seals our fate regardless of where Vostra attacks next week. You claim holding preserves strength, yet our morale is brittle and 22% of my brigade has already fallen. Waiting four days for a pontoon means fighting with empty stomachs while waiting for a miracle crossing. My plan isn't naive; it's surgical. We withdraw tonight, reinforcing Mirov to blunt their feint or real thrust. This denies Vostra high ground immediately, buys us time to build that hidden crossing under fire, and gets the civilians home before they vanish into the dark. Let's keep options open by acting now, not betting everything on intelligence we cannot verify.",
+   "words": 141
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Taylor Brandt",
+   "type": "TEC-LIB",
+   "speech": "Taylor Brandt closes by emphasizing the critical flaw in Okafor's evacuation plan: without the hidden pontoon, any withdrawal relies on a single known bridge that Vostra can seize instantly. If we pull out tonight without dual crossings, Vostra occupies high ground and traps our supply line, guaranteeing total encirclement rather than a strategic retreat. The 60% probability of an attack within seventy-two hours makes waiting for their feint to fail the only rational choice; acting on intelligence now preserves the brigade's strength. Jamie's plan assumes Vostra will not exploit a chaotic night withdrawal across a single choke point, which history shows they always will. Holding ensures we have two crossing options before Vostra floods the valley with overwhelming numbers, denying them immediate victory while our engineers double supply capacity under fire.",
+   "words": 131
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Jamie Okafor",
+   "type": "HYB-PRA",
+   "speech": "Taylor asks us to gamble our men's lives on an intelligence split, betting that Vostra will not exploit tonight. But if they attack, we bleed out across a single bridge while our artillery runs dry in nine days. My plan is the only one with a backup: we move now under cover of darkness, secure Mirov against their inevitable push, and let engineers build that hidden pontoon once the immediate threat passes. This isn't retreat; it's surgical survival. We save our unit, evacuate those civilians who refuse to leave, and deny Vostra the propaganda victory they will use to starve us out next week. Let's bring our people home alive rather than waiting for a miracle crossing that may never come.",
+   "words": 121
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor: Bridge is single point of failure; holding buys time for pontoon. Jamie: Holding sacrifices morale and civilians; allies are weeks away.",
+     "problem": "Balancing the immediate risk of a forced withdrawal against the catastrophic strategic consequences if Vostra breaks through while we hold.",
+     "onA": "His plan prioritizes preserving combat power and supply lines, but risks abandoning civilians to a likely attack within days.",
+     "onB": "He appeals strongly to humanitarian and moral imperatives, yet his strategy leaves Mirov undefended by the allies' arrival date.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The potential for a Vostran feint combined with our low reserve strength makes holding without reinforcements an existential risk that outweighs the propaganda loss.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor: Withdrawing now guarantees total encirclement and loss of supply line before pontoon is ready. Jamie: Supply cut kills us anyway; brittle morale and hunger make waiting fatal.",
+     "problem": "The core dilemma is whether to bet the brigade's survival on a static defense that risks encirclement if supplies run out, or to execute a chaotic withdrawal now that sacrifices immediate security for future flexibility.",
+     "onA": "His logic relies on an idealized timeline where we can hold until day four with dwindling food, ignoring that brittle morale and drone surveillance likely doom any static defense within 24 hours.",
+     "onB": "He correctly identifies that cutting the supply line is a death sentence regardless of location, making a strategic retreat now the only way to preserve the unit for later operations.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of starving or being encircled before the pontoon is built outweighs the propaganda value of holding a position we cannot legally defend.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor insists on dual crossings to avoid encirclement; Jamie argues single bridge withdrawal is survivable and saves civilians.",
+     "problem": "Whether to gamble the brigade's survival on a static defense hoping for a feint failure, or execute a high-risk night evacuation now to preserve combat power and lives before supplies run out.",
+     "onA": "His plan relies on the unrealistic assumption we can hold a single-supply bridge against a confirmed massing attack until a hidden pontoon is built, ignoring brittle morale and dwindling food.",
+     "onB": "He correctly identifies that cutting the supply line is fatal regardless of position, making immediate evacuation the only option to save the unit and evacuate evacuable civilians.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "Waiting for a feint to fail risks total encirclement before our food runs out or morale breaks; moving now under darkness offers the best chance to save the brigade and the possible civilian evacuations.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor: Holding enables secret pontoon crossing, saves ammo supply, denies Vostra high ground. Jamie: Immediate evacuation saves unit/civilians, secures Mirov, avoids aid vote loss.",
+     "problem": "Must choose between holding Halden to enable a fortified future defense or evacuating now to save the unit and civilians despite immediate strategic costs.",
+     "onA": "His plan relies on the assumption that Vostra will not attack immediately at Halden, risking the entire brigade if intelligence is wrong.",
+     "onB": "His appeal to soldier morale and civilian safety is compelling, but ignoring the strategic loss of Mirov and the aid vote seems reckless.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The split intelligence makes holding extremely dangerous, yet evacuating now leaves us vulnerable to flooding Mirov with no air support.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor: Supply cutoff guarantees encirclement; Jamie: Brittle morale and starvation make waiting impossible.",
+     "problem": "I must choose between risking total annihilation by holding on a failing supply line or evacuating now to save the unit, civilians, and Mirov while keeping options open.",
+     "onA": "His argument that holding preserves strength ignores the immediate reality of brittle morale and starvation; calculating risk statically in a dynamic war is dangerous.",
+     "onB": "He correctly identifies that our current situation is unsustainable due to resupply failures, but I worry his plan still leaves Mirov vulnerable if Vostra attacks immediately after we withdraw.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Taylor's reliance on an intelligence split and a supply line that is already failing makes holding a gamble I cannot afford; Jamie's plan to act now while retaining the ability to build a pontoon later strikes the right balance of survival and initiative.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor risks annihilation on a single bridge during a guaranteed attack; Jamie offers immediate survival with a backup pontoon build.",
+     "problem": "We must choose between gambling the entire brigade's life on a 60% chance of a feint or executing an evacuation now to secure our unit, civilians, and Mirov.",
+     "onA": "His plan relies too heavily on Vostra not exploiting the choke point tonight, ignoring the reality that brittle morale and empty ammunition make waiting fatal.",
+     "onB": "His 'surgical survival' approach correctly prioritizes preserving combat power while retaining the ability to build a second crossing once the immediate threat is managed.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "Waiting for a feint to fail with no air support and failing supplies is a gamble we cannot afford; moving now secures our people and keeps our strategic reserve flexible.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor: Withdrawal relies on unknown pontoon; risk losing civilians if bridge spotted. Jamie: Holding wastes ammo/food; risks Mirov collapse; ignores civilian suffering.",
+     "problem": "Balance immediate tactical risk of a potential withdrawal (losing supplies/civilians) against the strategic inevitability of eventual defeat and the humanitarian cost of holding Halden as a symbol.",
+     "onA": "Logically sound regarding supply chain and engineering assets, but assumes we can execute a complex night movement across a monitored bridge without catastrophic loss of life.",
+     "onB": "Strong emotional appeal for civilian safety and strategic realism, yet seems to underestimate the speed at which Vostra will exploit our weakened front if Halden falls.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers highlight valid points: Taylor's engineering solution offers a path out, while Jamie correctly identifies the moral and strategic cost of holding a losing position.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor: Relies on hidden pontoon (4 days); argues holding preserves strength for future counter-offensive against feint. Jamie: Argues static risk calculation ignores morale/food limits; proposes surgical night withdrawal to save civilians and deny high ground.",
+     "problem": "The core conflict is between waiting for a time-consuming engineering solution that risks encirclement versus a risky immediate withdrawal that may fail due to enemy observation but secures the population immediately.",
+     "onA": "His logic regarding preserving combat power is sound, but betting the brigade's survival on an unverified engineering timeline while supplies run out in two days feels like gambling with lives.",
+     "onB": "He correctly identifies the dynamic nature of war and the brittle morale caused by starvation, but his plan risks a catastrophic loss of the unit if the withdrawal is spotted.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate depletion of ammunition and food makes waiting for a four-day pontoon construction morally impossible, as the brigade cannot hold under fire indefinitely.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor bets on feint failure and waits for impossible pontoon; Jamie moves now to save civilians and preserve unit via surgical withdrawal.",
+     "problem": "We must choose between holding a dying position while supplies vanish or risking a chaotic night crossing to evacuate the population and preserve combat power.",
+     "onA": "His plan relies on an unverified engineering timeline that ignores the imminent starvation of our troops and the high probability of a Vostran feint.",
+     "onB": "He correctly identifies that waiting guarantees defeat and offers a viable path to save both the brigade's strength and the civilians through immediate action.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "Waiting for a hidden pontoon while ammunition runs dry is suicide; Jamie's plan offers a realistic chance to evacuate the people and preserve our forces before Vostra exploits any delay.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor: Feint risk is high; holding gains time for pontoon. Jamie: Immediate moral imperative to save unit/civilians; strategic isolation of Mirov.",
+     "problem": "Balancing the immediate existential threat of a Vostran assault against the strategic necessity of preserving Halden and the civilians within it.",
+     "onA": "His plan correctly identifies that pulling out now risks losing the bridge entirely if the feint is real, but his reliance on the pontoon timeline feels dangerously optimistic given the split intelligence.",
+     "onB": "The moral argument for saving lives is powerful, yet acknowledging the strategic reality that Mirov might fall anyway requires a clear-eyed assessment of whether this is a choice between two bad outcomes or one good and one terrible.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers address valid concerns, but the 40% chance of a feint means we cannot fully trust Vostra to wait for us to evacuate; however, losing the town today guarantees Vostra's victory.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor argues immediate withdrawal guarantees encirclement and loses supply options; Jamie counters that static risk calculations ignore dynamic morale collapse and starvation risks.",
+     "problem": "The core conflict is whether to bet the brigade's survival on a four-day pontoon construction against a potential attack, or to execute a high-risk night withdrawal now to save lives and preserve Mirov despite losing immediate supply access.",
+     "onA": "His logic regarding securing two crossing options is sound, but assuming we can hold Halden for four days against massed divisions while supplies run out seems to ignore the 'brittle' morale and starvation reality.",
+     "onB": "She correctly identifies that waiting with empty stomachs and a brittle force invites collapse regardless of the enemy's move, yet her plan leaves the brigade vulnerable if the feint was real.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The combination of running food supplies in nine days and 'brittle' morale makes holding for four days a likely path to internal collapse before Vostra even attacks.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor's dual-crossing logic is sound but ignores starvation/morale collapse. Jamie accepts single-bridge risk to save lives and secure Mirov.",
+     "problem": "Whether to gamble the brigade's survival on holding out against potential starvation and brittle morale, or execute a high-risk immediate withdrawal to secure strategic depth and civilian safety.",
+     "onA": "His plan is strategically robust against a confirmed attack but fails as a contingency because 'brittle' morale and empty bellies will likely cause internal collapse before Vostra even strikes.",
+     "onB": "Her plan accepts immediate tactical risk to guarantee survival and strategic optionality, correctly prioritizing the reality of starving troops over theoretical enemy intentions.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "Holding Halden for four days with dwindling food and brittle morale is a calculated gamble that ignores internal collapse risks; immediate evacuation secures Mirov and saves lives regardless of Vostra's move.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Taylor argues holding doubles supply capacity via pontoon bridge; Jamie argues immediate withdrawal saves lives and secures Mirov.",
+     "problem": "Whether to hold Halden against high risk for strategic denial or withdraw immediately to save troops, civilians, and prevent a larger collapse.",
+     "onA": "Taylor's plan relies heavily on the uncertainty of intelligence and the success of engineering under fire, which feels risky given brittle morale.",
+     "onB": "Jamie correctly highlights the human cost of holding and the strategic necessity of saving Mirov, though 'moving tonight' seems dangerous with drone surveillance.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both present valid strategic points, but I need to weigh the certainty of civilian evacuation and unit survival against Taylor's optimistic engineering timeline.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Taylor insists holding secures two crossings and preserves strength; Jamie argues dynamic chaos makes waiting fatal for morale and supply lines.",
+     "problem": "The core conflict is whether to bet our mechanized brigade's survival on a risky four-day engineering feat under drone surveillance, or execute a high-risk immediate withdrawal that sacrifices the bridge but saves the unit and civilians before supplies run out.",
+     "onA": "His logic regarding preserving supply options is sound in theory, but it dangerously ignores the reality of brittle morale and the near-certainty of Vostran artillery spotting a static defense while we starve.",
+     "onB": "Her 'surgical' approach correctly identifies that waiting four days guarantees starvation and unit collapse, though her plan to withdraw under constant drone watch without air support remains extremely perilous.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of losing the brigade's fighting power and failing to feed 40% more troops in four days outweighs the theoretical advantage of having two crossings if we survive the withdrawal.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Taylor's dual-crossing theory ignores brittle morale and starvation certainty; Jamie's 'surgical' move saves lives and secures Mirov by avoiding static encirclement.",
+     "problem": "Whether to gamble survival on a theoretical engineering advantage or execute a risky but essential night withdrawal to preserve the brigade, civilians, and strategic depth.",
+     "onA": "His reliance on holding out assumes Vostra will hesitate or fail to exploit our single point of failure, which is an unaffordable risk with drones watching and supplies drying up.",
+     "onB": "She correctly prioritizes immediate human survival and unit preservation over theoretical tactical advantages that vanish if morale breaks or artillery runs dry.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "The certainty of losing the brigade to starvation or encirclement outweighs Taylor's optimistic engineering timeline, making Jamie's plan to move now the only viable path to survival.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 1,
+   "U": 4
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "HYB-PRA",
+ "tokens": {
+  "in": 35804,
+  "out": 4528,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 99562001,
+   "attempts": 1,
+   "tokensIn": 1341,
+   "tokensOut": 226,
+   "ms": 6330
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 99562002,
+   "attempts": 1,
+   "tokensIn": 1451,
+   "tokensOut": 220,
+   "ms": 6178
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 99562003,
+   "attempts": 1,
+   "tokensIn": 1474,
+   "tokensOut": 189,
+   "ms": 5846
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 99562004,
+   "attempts": 1,
+   "tokensIn": 1474,
+   "tokensOut": 206,
+   "ms": 5015
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 99562005,
+   "attempts": 1,
+   "tokensIn": 1474,
+   "tokensOut": 219,
+   "ms": 5308
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 99562006,
+   "attempts": 1,
+   "tokensIn": 1474,
+   "tokensOut": 241,
+   "ms": 5849
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 99562007,
+   "attempts": 1,
+   "tokensIn": 1474,
+   "tokensOut": 189,
+   "ms": 4597
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 99562008,
+   "attempts": 1,
+   "tokensIn": 1673,
+   "tokensOut": 178,
+   "ms": 5349
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 99562009,
+   "attempts": 1,
+   "tokensIn": 1815,
+   "tokensOut": 230,
+   "ms": 7748
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 99562010,
+   "attempts": 1,
+   "tokensIn": 1671,
+   "tokensOut": 237,
+   "ms": 9131
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 99562011,
+   "attempts": 1,
+   "tokensIn": 1687,
+   "tokensOut": 225,
+   "ms": 5706
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 99562012,
+   "attempts": 1,
+   "tokensIn": 1700,
+   "tokensOut": 240,
+   "ms": 6074
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 99562013,
+   "attempts": 1,
+   "tokensIn": 1722,
+   "tokensOut": 243,
+   "ms": 6167
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 99562014,
+   "attempts": 1,
+   "tokensIn": 1670,
+   "tokensOut": 242,
+   "ms": 6495
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 99562015,
+   "attempts": 1,
+   "tokensIn": 2021,
+   "tokensOut": 219,
+   "ms": 6420
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 99562016,
+   "attempts": 1,
+   "tokensIn": 2191,
+   "tokensOut": 189,
+   "ms": 5701
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 99562017,
+   "attempts": 1,
+   "tokensIn": 1879,
+   "tokensOut": 217,
+   "ms": 6379
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 99562018,
+   "attempts": 1,
+   "tokensIn": 1883,
+   "tokensOut": 203,
+   "ms": 5663
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 99562019,
+   "attempts": 1,
+   "tokensIn": 1911,
+   "tokensOut": 192,
+   "ms": 5404
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 99562020,
+   "attempts": 1,
+   "tokensIn": 1936,
+   "tokensOut": 217,
+   "ms": 6020
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 99562021,
+   "attempts": 1,
+   "tokensIn": 1883,
+   "tokensOut": 206,
+   "ms": 6123
+  }
+ ],
+ "startedAt": "2026-11-04T23:29:38.133Z",
+ "seconds": 128
+}

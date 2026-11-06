@@ -1,0 +1,609 @@
+{
+ "id": "p1-40-HYB-REA-vs-HYB-IDE-dam",
+ "pass": 1,
+ "pairIndex": 40,
+ "seed": 668789,
+ "scenario": "dam",
+ "scenarioVersion": 2,
+ "domain": "political",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-REA",
+  "style": "HYB",
+  "ideology": "REA",
+  "name": "Riley Sandor",
+  "platform": "We must immediately lower the reservoir to thirty percent and install a new spillway while simultaneously moving Riverside residents.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on Mrs. Gable's vulnerability to make the risk tangible and dismiss legal/foreign excuses as unacceptable delays."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking the feasibility of her court-dependent timeline and reframing 'dignity' as a false comfort when immediate survival is at stake, aiming to split her coalition of business owners and elderly voters who fear total collapse."
+   },
+   {
+    "round": 3,
+    "text": "I am attacking Avery's reliance on external goodwill (grants, Ostbrück consent) by framing it as immediate existential risk to highlight why my self-reliant lowering strategy is the only viable path."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-IDE",
+  "style": "HYB",
+  "ideology": "IDE",
+  "name": "Avery Lindgren",
+  "platform": "We must rebuild the dam to full capacity while freezing new construction in the flood zone and implementing a mandatory early-warning siren system.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Frame Riverside protection as achievable only through full-scale rebuilding, not abandonment."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking their cost-benefit analysis by showing how lowering the reservoir creates immediate fiscal paralysis that makes any eventual relocation financially impossible, while emphasizing that partial fixes leave the fatal risk intact."
+   },
+   {
+    "round": 3,
+    "text": "I need to convince them that Riley's stopgap destroys the town's finances and trust, while my plan actually secures long-term safety through grants and immediate warning systems."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-REA",
+   "speech": "Look at Mrs. Gable in Riverside; she is sixty-eight and watches the dam like a hawk. We cannot risk her life for abstract agreements. The math is stark: leaving the dam full risks flooding fourteen thousand lives with one chance in twenty-five. Ostbrück lawyers will block us, Nordhalm will leave, but our people must survive today. Lowering now costs twenty-five million and halves our power profits, yet rebuilding costs three hundred forty million and takes four years. We cannot wait four years while six thousand families freeze or lose their buses. We act now on our own terms, secure the valley floor, and force foreign interests to respect our survival.",
+   "words": 110
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Avery Lindgren",
+   "type": "HYB-IDE",
+   "speech": "Mrs. Gable in Riverside raised her hand when asked if she feared losing her home. That fear is real, but fleeing destroys our community's soul. Riley proposes lowering the water today, which kills our hydro power, costs jobs at Kallberg, and tears apart our neighbors in Ostbrück without fully stopping the flood risk. Our budget cannot survive another cut to essential services while paying for an incomplete fix. I propose a dignified rebuild with state grants tied to halting new homes in the danger zone, paired immediately with installing the €6 million siren system that actually gives us time to evacuate. This plan protects Riverside through reconstruction rather than abandonment, saves our economy, and honors our duty to leave a safe world for future generations.",
+   "words": 125
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-REA",
+   "speech": "Avery speaks of dignity, yet dignity means nothing when the water rises. Your plan leaves us with a leaking dam and no power to run hospitals or buses. The state grant requires freezing home values, hurting thousands of families who cannot afford to move anyway. We have only five months before the melt; waiting for a court battle over Ostbrück guarantees failure. Riverside residents are not asking to be abandoned; they are asking for survival. Lowering the reservoir now buys us time while we relocate them permanently and rebuild properly later. We will not let abstract agreements or foreign lawsuits drown our people. Vote for the only plan that saves lives today.",
+   "words": 112
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Avery Lindgren",
+   "type": "HYB-IDE",
+   "speech": "Riley, lowering the water doesn't just delay the reckoning; it bankrupts us before we start. Halving our hydro power cuts our revenue in half right now, meaning free buses stop and hospital generators fail while we wait for Ostbrück to sue. You claim this buys time, but a dam running at thirty percent with sixty percent remaining risk is not a safety net; it is a ticking time bomb that leaves Riverside exposed to a catastrophe we cannot afford to fix later. My plan freezes new homes to unlock the state grants needed for a full rebuild, funds the siren system immediately so we actually have warning time, and keeps our economy running. We build with our future in mind, not just a desperate stopgap that destroys our community today.",
+   "words": 130
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-REA",
+   "speech": "Avery, you speak of dignity while proposing a community that cannot afford its own survival. Your plan leaves Riverside exposed to a catastrophic failure because Ostbrück will never agree to lower the water, and Nordhalm has already signaled they will close if power drops. Waiting for grants or court rulings guarantees we freeze, lose our hospital generators, and watch homes flood. Lowering the reservoir now costs us money but saves lives by creating immediate evacuation space and forcing the hand of foreign corporations. We act on our own terms today. Do not gamble forty thousand lives on a neighbor's goodwill or an insurer who plans to leave us high and dry. Vote for the plan that secures the valley floor right now.",
+   "words": 122
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Avery Lindgren",
+   "type": "HYB-IDE",
+   "speech": "Riley asks us to gamble our hospital generators on a neighbor's goodwill. But my plan unlocks state grants by freezing new homes in the flood zone, securing the funds we desperately need for a full rebuild. Riley's approach bankrupts our utility today, stopping free buses and leaving hospitals vulnerable while Ostbrück sues. I propose siring sirens now to give us real evacuation time without dismantling our economy or abandoning Riverside. We do not live on borrowed time; we build a legacy where justice and safety go hand in hand. Please vote for the plan that saves our community's soul and its future.",
+   "words": 102
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley prioritizes immediate survival but risks jobs and power; Avery prioritizes economy/community but delays safety and relies on contested grants.",
+     "problem": "Valmora faces an imminent threat of dam failure that conflicts directly with its economic stability, legal constraints, and social cohesion.",
+     "onA": "Riley's plan is morally compelling for immediate safety but ignores the severe economic fallout from losing hydro power and mill jobs before a full rebuild.",
+     "onB": "Avery protects the town's economy correctly but proposes a dangerous delay that leaves residents vulnerable during the upcoming heavy melt season.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The snowpack is 20% above average, creating immediate pressure that makes both options risky: Riley's cuts power too soon while Avery ignores the rising failure probability.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley: Lowers water now to save lives immediately but kills power/mill and delays full fix; Avery: Freezes homes for grants, keeps power/jobs running, adds sirens, but admits high risk remains until rebuild.",
+     "problem": "We must balance immediate survival against economic collapse caused by losing hydro power and mill jobs before a full rebuild is possible.",
+     "onA": "Riley's plan prioritizes life over livelihoods, but accepting the loss of free buses and hospital power during the melt seems unsustainable for a struggling town.",
+     "onB": "Avery correctly highlights that cutting power now destroys our budget before we can rebuild, yet their reliance on a contested court case and high remaining risk feels dangerous.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat to Riverside clashes with the reality that losing the utility's revenue will bankrupt the town before any full rebuild can be funded or completed.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley prioritizes immediate survival over economy; Avery prioritizes economic stability but relies on contested grants and delays safety.",
+     "problem": "Valmora must choose between immediate life-saving measures that cripple its finances or financial stability that leaves thousands vulnerable to imminent catastrophic dam failure.",
+     "onA": "Riley's plan is the only one that prevents a guaranteed catastrophe this spring, even if it causes severe short-term economic pain.",
+     "onB": "Avery's plan ignores the rising probability of failure and relies on external factors like court rulings and neighborly goodwill that cannot be trusted in time for the melt.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "With snowpack already 20% above average, delaying safety measures to save money or property values is a gamble with 41,000 lives that we cannot afford to take.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley prioritizes immediate life safety but ignores economic collapse and Ostbrück/Nordhalm lawsuits. Avery prioritizes economy/community but delays safety with a partial fix; siren alone may not save Riverside.",
+     "problem": "We must balance immediate survival of Riverside residents against catastrophic economic loss, legal blockades, and the likelihood that a €25M fix is insufficient before the spring melt.",
+     "onA": "Riley's call to act immediately saves lives but risks bankrupting the town and failing our neighbors in Ostbrück due to the lawsuit threat.",
+     "onB": "Avery's plan preserves jobs and community spirit but leaves us vulnerable to flooding if the €25M fix fails or gets blocked, potentially dooming Riverside anyway.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am stuck between Riley's undeniable urgency for life versus Avery's warning that their 'dignified' rebuild plan might legally block the only quick fix before the snow melts.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley: Lowering water saves lives now but ruins economy; grant deal hurts poor homeowners. Avery: Partial fix bankrupts us immediately via power loss and doesn't eliminate flood risk.",
+     "problem": "We face an impossible choice between immediate life safety that destroys our economy versus economic survival that leaves thousands at high risk of flooding.",
+     "onA": "Riley's urgency for saving lives is undeniable, but their dismissal of the economic collapse and the legal threat from Ostbrück ignores the reality that we cannot rebuild if the utility goes bankrupt first.",
+     "onB": "Avery correctly highlights the financial suicide of halving our hydro power before a rebuild is complete, yet their reliance on a siren for Riverside while the dam still has high failure risk feels dangerously negligent.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain stuck because Riley's plan risks bankruptcy before we can act, while Avery's plan leaves Riverside vulnerable to a catastrophic flood that the siren might not mitigate in time.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley prioritizes immediate life safety but risks total economic collapse and legal defeat; Avery's plan preserves economy but leaves Riverside vulnerable to a catastrophic failure the siren may not mitigate.",
+     "problem": "We must choose between immediate evacuation space that bankrupts our utility versus an economically viable plan that likely cannot prevent a fatal flood before the spring melt.",
+     "onA": "Riley's urgency saves lives now but ignores the reality that we cannot rebuild without hydro power revenue or facing immediate legal blockades from Ostbrück and Nordhalm.",
+     "onB": "Avery correctly identifies the financial suicide of halving our power, yet their reliance on a siren to save Riverside while accepting high failure risk feels dangerously negligent given the imminent melt.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "Despite the economic devastation, losing thousands of lives in a full-flooding event is unacceptable; I must prioritize saving the town's immediate future over preserving jobs that cannot function if everyone is dead.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley prioritizes immediate survival and accepts total loss of power/jobs. Avery wants a dignified rebuild via grants but risks blocking by Ostbrück.",
+     "problem": "The core tension is between the necessity of a permanent, expensive fix that destroys the local economy versus an incomplete short-term fix that leaves the town vulnerable to a likely dam failure.",
+     "onA": "Riley's plan guarantees immediate survival but sacrifices the town's entire electricity supply and budget stability for four years.",
+     "onB": "Avery's plan preserves the economy but fails to address the high probability of dam failure if Ostbrück legally blocks the work.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am unsure whether I can accept four years without buses and electricity (Riley) or risk a catastrophic flood because neighbors will block the fix (Avery).",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley prioritizes immediate survival and accepts power loss; Avery argues lowering water bankrupts us now and leaves high risk. Riley emphasizes stopping Riverside abandonment; Avery claims siren system and grants fund a dignified rebuild.",
+     "problem": "We must choose between an immediate safety measure that destroys our economy (lowering the reservoir) versus a full rebuild that risks legal blockage by neighbors, with only five months before the deadly spring melt.",
+     "onA": "Riley's plan is the only one that guarantees physical survival for Riverside residents today, even though the economic sacrifice of losing power and jobs is devastating.",
+     "onB": "Avery correctly identifies that lowering the reservoir without moving Riverside destroys our future economy and leaves us vulnerable to a lawsuit we cannot afford to fight, but their plan still leaves the dam at high risk until Ostbrück consents.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "With the snowpack 20% above average and melt starting in five weeks, I cannot accept Avery's gamble of keeping the dam at high risk while our neighbors legally block a solution that leaves thousands of people dying.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley demands immediate safety over economy; Avery seeks grants but risks legal blockage.",
+     "problem": "We must choose between immediate survival via costly power loss or a fragile economic plan that might fail if neighbors sue.",
+     "onA": "Their plan sacrifices our future for guaranteed physical survival, which is the only option when the neighbor will surely block us.",
+     "onB": "Their plea for dignity ignores the reality that we cannot wait for grants or lawsuits while 14,000 people face imminent flood risk.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "With the snowpack high and Ostbrück refusing to lower water levels, there is no time to gamble on a plan that leaves our hospital vulnerable and risks catastrophic failure.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley prioritizes immediate safety for Riverside despite power/cost losses; Avery pushes rebuilding + sirens but risks lawsuits/power cuts.",
+     "problem": "Valmora must choose between immediate life-saving measures that sacrifice its economy or a slower rebuild that leaves thousands at risk of flooding now.",
+     "onA": "Riley's focus on saving Riverside lives immediately is compelling given the high failure probability, though their plan hurts the budget significantly.",
+     "onB": "Avery correctly identifies the economic collapse from losing hydro power and jobs but ignores that lowering water now leaves thousands vulnerable to a flood within 90 minutes.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of 14,000 lives at risk in the next five months outweighs the long-term economic pain of lower profits and job losses.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley's stopgap lowers water to save lives but bankrupts the town via lost power revenue and stops free buses/hospital generators; Avery risks leaving Riverside exposed to immediate failure while fighting lawsuits, though his plan keeps economy running.",
+     "problem": "We must balance saving 14,000 potential lives today against the risk of collapsing our economy and essential services (power/buses) immediately if we cut hydro profits.",
+     "onA": "His argument that dignity is irrelevant when water rises is morally compelling, but his plan admits we will have no power to run hospitals or buses during this dangerous five-month window.",
+     "onB": "He correctly identifies the financial suicide of losing hydro profits and stopping free buses, yet his timeline seems impossible given Ostbrück's refusal to consent and the approaching melt.",
+     "lean": "Riley Sandor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I cannot accept a plan that guarantees our hospitals lose power while we wait for a court case, even if the long-term solution is better.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley's immediate safety ignores bankrupting hospitals; Avery's grant strategy depends on risky lawsuits and Ostbrück's refusal.",
+     "problem": "The core conflict is choosing between immediate life-saving evacuation space that risks economic collapse versus a legally blocked rebuild that leaves lives exposed to certain failure.",
+     "onA": "Riley correctly prioritizes saving the 14,000 vulnerable residents now but proposes a plan that guarantees our hospital generators and free buses will fail immediately.",
+     "onB": "Avery's reliance on grants and ignoring Ostbrück's refusal to lower water makes his plan impossible to execute before the spring melt.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "Even though Avery's plan is economically safer, I must vote for Riley because waiting for a court case or neighborly goodwill leaves thousands certain death in the next five months.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley prioritizes immediate safety via lowering/evacuation but accepts job/power loss; Avery argues for grants/rebuild/sirens to preserve community and economy. Both acknowledge risks: Riley ignores Ostbrück/Kallberg; Avery ignores immediate failure risk.",
+     "problem": "The core conflict is balancing the immediate threat of dam failure and flood against the severe long-term economic and social costs of either drastic mitigation (lowering/relocation) or a stalled rebuild that loses vital revenue and stability.",
+     "onA": "Riley's plan addresses the most urgent survival risk but seems to dismiss the unacceptable loss of jobs, power profits, and community integrity required to achieve it.",
+     "onB": "Avery correctly identifies the economic and social devastation of Riley's plan but downplays the certainty of a catastrophic flood if we wait for a full rebuild without interim safety measures.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between saving lives immediately as Riley suggests and preserving our town's soul and economy as Avery proposes, making it hard to choose yet.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley's lowering plan ignores Ostbrück lawsuit risk and immediate power loss; Avery's rebuild delays safety but keeps economy alive.",
+     "problem": "Balancing the immediate certainty of a catastrophic flood against the long-term economic collapse caused by drastic mitigation measures that ignore legal constraints.",
+     "onA": "Riley's urgency is morally sound for saving lives, but their plan appears legally impossible due to Ostbrück and economically suicidal due to halved revenue needed for hospital/buses.",
+     "onB": "Avery correctly highlights the economic suicide of Riley's plan and the legal trap of ignoring Ostbrück, yet still underestimates the imminent physical danger of the current leaky dam.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I am stuck because Avery's plan seems legally viable but dangerously slow for a failing dam, while Riley's plan saves lives now but likely violates laws and bankrupts the town.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley ignores legal impossibility and economic suicide; Avery offers legal path but lacks immediate mitigation for current leak.",
+     "problem": "The core conflict is choosing between an legally blocked yet life-saving emergency measure versus a legally viable but dangerously delayed recovery that risks catastrophic failure before the rebuild finishes.",
+     "onA": "Riley's plan is morally urgent but practically impossible due to legal blocks and economic collapse, making it a dangerous gamble on neighbors' goodwill.",
+     "onB": "Avery correctly identifies the legal and economic realities but fails to address the immediate physical threat of the leaking dam before spring melt.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "Despite the legal hurdles, the certainty of a catastrophic flood within weeks outweighs the long-term economic costs; I cannot accept gambling our hospital's lives on an unsecured neighbor.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 1,
+   "B": 0,
+   "U": 4
+  },
+  {
+   "A": 2,
+   "B": 0,
+   "U": 3
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 5,
+  "B": 0
+ },
+ "winner": "A",
+ "winnerType": "HYB-REA",
+ "tokens": {
+  "in": 34191,
+  "out": 4394,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 668789001,
+   "attempts": 1,
+   "tokensIn": 1295,
+   "tokensOut": 200,
+   "ms": 5618
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 668789002,
+   "attempts": 1,
+   "tokensIn": 1368,
+   "tokensOut": 208,
+   "ms": 5853
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 668789003,
+   "attempts": 1,
+   "tokensIn": 1429,
+   "tokensOut": 194,
+   "ms": 5509
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 668789004,
+   "attempts": 1,
+   "tokensIn": 1429,
+   "tokensOut": 230,
+   "ms": 5523
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 668789005,
+   "attempts": 1,
+   "tokensIn": 1429,
+   "tokensOut": 203,
+   "ms": 4903
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 668789006,
+   "attempts": 1,
+   "tokensIn": 1429,
+   "tokensOut": 201,
+   "ms": 4848
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 668789007,
+   "attempts": 1,
+   "tokensIn": 1429,
+   "tokensOut": 246,
+   "ms": 6556
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 668789008,
+   "attempts": 1,
+   "tokensIn": 1617,
+   "tokensOut": 189,
+   "ms": 5628
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 668789009,
+   "attempts": 1,
+   "tokensIn": 1748,
+   "tokensOut": 205,
+   "ms": 6018
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 668789010,
+   "attempts": 1,
+   "tokensIn": 1586,
+   "tokensOut": 219,
+   "ms": 6308
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 668789011,
+   "attempts": 1,
+   "tokensIn": 1622,
+   "tokensOut": 233,
+   "ms": 5936
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 668789012,
+   "attempts": 1,
+   "tokensIn": 1595,
+   "tokensOut": 262,
+   "ms": 6567
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 668789013,
+   "attempts": 1,
+   "tokensIn": 1593,
+   "tokensOut": 237,
+   "ms": 5986
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 668789014,
+   "attempts": 1,
+   "tokensIn": 1638,
+   "tokensOut": 217,
+   "ms": 5519
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 668789015,
+   "attempts": 1,
+   "tokensIn": 1931,
+   "tokensOut": 198,
+   "ms": 5867
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 668789016,
+   "attempts": 1,
+   "tokensIn": 2074,
+   "tokensOut": 172,
+   "ms": 5304
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 668789017,
+   "attempts": 1,
+   "tokensIn": 1760,
+   "tokensOut": 197,
+   "ms": 5836
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 668789018,
+   "attempts": 1,
+   "tokensIn": 1810,
+   "tokensOut": 223,
+   "ms": 6096
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 668789019,
+   "attempts": 1,
+   "tokensIn": 1812,
+   "tokensOut": 174,
+   "ms": 5327
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 668789020,
+   "attempts": 1,
+   "tokensIn": 1787,
+   "tokensOut": 196,
+   "ms": 5488
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 668789021,
+   "attempts": 1,
+   "tokensIn": 1810,
+   "tokensOut": 190,
+   "ms": 5356
+  }
+ ],
+ "startedAt": "2026-11-04T23:39:46.246Z",
+ "seconds": 120
+}

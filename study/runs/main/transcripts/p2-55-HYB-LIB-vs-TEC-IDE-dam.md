@@ -1,0 +1,145 @@
+# p2-55-HYB-LIB-vs-TEC-IDE-dam
+
+Scenario **dam** v2 (political) · protocol 2, B drafted its plan first · pass 2 · 3 rounds · 121s · debater qwen3.5:9b, listeners qwen3.5:9b
+
+- **A** (speaks first): Kai Moreno = `HYB-LIB`. Platform: We must immediately invest in a rapid inspection and voluntary retrofitting of the dam's left flank to secure us against failure while we simultaneously negotiate a fair water-sharing solution with Ostbrück that avoids closing our mill or freezing housing markets.
+- **B**: Reese Calder = `TEC-IDE`. Platform: We must immediately permanently lower the reservoir to thirty percent and install a new spillway.
+
+**Result:** A 0 – 5 B → winner **B (TEC-IDE)**
+Leans per round (A/B/undecided): 1/0/4 → 0/5/0 → 0/5/0
+
+## Transcript
+
+**Opening statements: Kai Moreno (A, HYB-LIB)**, 114 words
+
+Mrs. Gable, the mother of three living in Riverside who fears losing her home tonight—her fear is valid. But your only choice isn't between reckless delay and surrendering our economy. Reese proposes instantly dumping our water to thirty percent, which guarantees the Kallberg mill closes, bankrupts our utility, and legally forces us to pay Ostbrück millions for a crisis we engineered. That plan destroys jobs before saving lives. Instead, we act now with targeted repairs to stop the seepage, keeping power on and homes standing. We will use state grants to fund these urgent fixes, avoiding the €340 million rebuild or the destruction of our economy. Let's protect the people without destroying their future.
+
+**Opening statements: Reese Calder (B, TEC-IDE)**, 107 words
+
+The probability of dam failure is one in twenty-five this spring if we wait. Any option keeping water above forty percent accepts unacceptable risk to fourteen thousand lives. Moving residents costs too much; banning new homes hurts property owners unfairly. Lowering the reservoir now costs twenty-five million, a fraction of rebuilding. Yes, hydro profits fall, but that cuts municipal funding. The alternative is certain catastrophe or a mill closure causing mass unemployment. We face hard choices now. Accepting a sixty percent failure reduction with thirty percent water preserves our population, protects future generations from a breached dam, and allows time to rebuild properly later without losing everyone.
+
+**Rebuttals: Kai Moreno (A, HYB-LIB)**, 114 words
+
+Mrs. Gable, Mrs. Halloway, I hear Reese's fear of a catastrophic failure, but his 'dump the water' plan ignores the legal reality. Ostbrück has already refused consent to lower our reservoir; forcing it today invites an immediate court injunction that freezes us before we can act. That is not prudence, it is coercion disguised as safety. My voluntary retrofit plan stops the seepage now using state grants without needing Ostbrück's permission or bankrupting our utility. We fix the leak first, negotiate a fair partnership second, and never sacrifice our economy to fear. Let us choose a solution that works within our laws while keeping the lights on and the mill running for our families.
+
+**Rebuttals: Reese Calder (B, TEC-IDE)**, 133 words
+
+Kai claims Ostbrück's refusal blocks us, yet that lawsuit ignores the math of survival. If the dam fails with a full reservoir, sixty percent of the town floods within ninety minutes. A court injunction freezing operations for months guarantees that catastrophe before we can rebuild. His retrofit plan stops seepage but keeps water above forty percent, accepting a one in twenty-five failure probability today while our snowpack is twenty percent above average. That is not prudence; it is gambling with fourteen thousand lives on uncertain legal timelines. Lowering to thirty percent now cuts failure risk by sixty percent immediately. We accept temporary hydro profits loss to save the population, but delaying this moral necessity invites a breach we cannot legally or physically stop once winter melts. The law must serve life, not fear.
+
+**Closing statements: Kai Moreno (A, HYB-LIB)**, 122 words
+
+Reese asks us to gamble with fourteen thousand lives by ignoring Ostbrück's refusal to lower the water. That isn't courage; it is a lawsuit waiting to happen that could freeze our economy before spring even starts. His plan destroys jobs today while promising safety we cannot legally secure. My voluntary retrofit stops the seepage right now, keeping the mill running and the lights on for our families without breaking the law or bankrupting our utility. We do not surrender our future to fear or force a court injunction against our neighbors. Let us fix the leak together, respect our treaties, and prove that Valmora can solve this crisis with wisdom, cooperation, and a plan that protects both our homes and our economy.
+
+**Closing statements: Reese Calder (B, TEC-IDE)**, 138 words
+
+Kai offers a retrofit that stops seepage but maintains a one-in-twenty-five failure probability while the snowpack exceeds average. Ostbrück's refusal is not an obstacle but a constraint we must solve to survive. Lowering to thirty percent immediately cuts that risk by sixty percent, buying the decade needed for legal resolution or proper reconstruction. The utility profits lost are real, yet they fund free buses and essential services; replacing them with debt incurred by ignoring physics bankrupts us differently. Moving residents is too costly and slow. Relocating our people is a moral duty we can afford if we act now. His plan keeps the mill running today but leaves fourteen thousand lives exposed to a breach that physics dictates will happen unless we lower the water immediately. We must choose safety over short-term economic comfort before spring melt arrives.
+
+## Private strategies
+- A r1: I will emphasize that Reese's plan destroys the town's economy and violates the rule of law by ignoring Ostbrück's refusal, positioning my repair-and-negotiate approach as the only path to survival and prosperity.
+- A r2: I am highlighting that Reese's preferred option is legally impossible right now due to Ostbrück's refusal, framing my voluntary retrofit as the only feasible path that respects property rights.
+- A r3: I am emphasizing that Reese's legal blindness makes his plan dangerous rather than safe.
+- B r1: I will argue that the cost of inaction is far higher than the economic hit of lower profits, appealing to the council's duty to prevent a catastrophic loss of life while acknowledging the painful trade-offs we must accept now.
+- B r2: I am framing the legal delay as an unacceptable gamble on human life and emphasizing the immediate statistical reduction in failure risk provided by lowering the reservoir.
+- B r3: Emphasize the immediate mathematical reduction in failure risk and the moral imperative to save lives now, framing Kai's retrofit as dangerous gambling on uncertain legal timelines.
+
+## Listener memory streams
+
+### L1
+- **Opening statements** → lean undecided (tentative)
+  - notes: Kai: Urgent repairs to stop seepage; keeps power/jobs. Reese: Lower reservoir now saves lives but kills utility profits and mill.
+  - problem: We must balance immediate catastrophic flood risk against the economic collapse of lowering the reservoir now, while repair timelines are unknown.
+  - on A: His plan avoids economic ruin but feels like gambling with 14,000 lives given the 1-in-25 failure chance and snowpack.
+  - on B: He correctly identifies that keeping water above 40% is unacceptable risk, but his plan immediately destroys the town's economy and jobs.
+  - why: I am torn between Kai's promise of economic survival and Reese's clear logic that waiting for repairs might be too risky given the snow.
+- **Rebuttals** → lean Reese Calder (fairly sure)
+  - notes: Kai: Ostbrück refusal blocks lowering; retrofit needs grants but keeps economy. Reese: Court injunctions risky if delays happen; 1/25 failure chance with high snowpack is unacceptable now.
+  - problem: We must decide whether to accept a significant immediate risk of dam failure to protect lives (Reese) or gamble on a repair that preserves the economy but ignores legal blocks and current high flood probabilities (Kai).
+  - on A: His argument about legal blockage is valid, but relying solely on uncertain grants while keeping a dangerous reservoir level during an above-average snowpack feels irresponsible.
+  - on B: He correctly highlights that waiting for a lawsuit or grant approval could lead to catastrophe, making the economic cost of lowering the reservoir a necessary price for survival.
+  - why: The math of a 1-in-25 failure chance with 20% above-average snowpack outweighs the economic arguments when 14,000 lives are at immediate risk.
+- **Closing statements** → VOTE Reese Calder
+  - notes: Kai: Gambles lives for jobs; legal argument weak. Reese: Physics demands action now; economic pain is necessary survival.
+  - problem: The core conflict is whether to accept a high-probability catastrophic failure during an above-average snowpack to save the economy, or to impose immediate economic hardship to ensure survival.
+  - on A: Kai's plan prioritizes the budget and jobs but dangerously ignores the immediate physical reality that a major breach will kill thousands regardless of legal treaties.
+  - on B: Reese correctly identifies that physics dictates immediate risk reduction is mandatory, even if it means sacrificing short-term economic comfort and facing lawsuits.
+  - why: With snowpacks already 20% above average and a 1-in-25 failure chance, waiting for legal solutions or grants invites a catastrophe that no amount of retrofitting can prevent in time.
+
+### L2
+- **Opening statements** → lean undecided (tentative)
+  - notes: Kai wants targeted repairs to keep power/jobs but downplays immediate failure risk. Reese accepts lower profits and partial failure risk for a chance to rebuild later safely.
+  - problem: The core problem is whether to accept immediate financial loss and reduced safety margins now (Reese) or try to avoid them with repairs that may be too late given the rapid melt and existing seepage (Kai).
+  - on A: Kai's argument protects current jobs and revenue but ignores the math: a 1-in-25 failure chance in spring with 60% of the town flooding seems unacceptable to ignore.
+  - on B: Reese accepts short-term pain (mill closure, lost bus funds) for long-term survival, though the legal block from Ostbrück is a major hurdle they glossed over.
+  - why: I am undecided because while the failure risk is terrifying, losing the mill and utility profits simultaneously feels like destroying the town's ability to rebuild later.
+- **Rebuttals** → lean Reese Calder (fairly sure)
+  - notes: Kai cites legal block by Ostbrück as fatal to lowering dam; Reese argues court delay risks immediate failure with high snowpack.
+  - problem: We must choose between a legally blocked safety margin that invites catastrophe and a financially painful but survivable reduction of risk.
+  - on A: Kai's reliance on legal timelines is dangerous when engineering data shows failure probability rising every year regardless of lawsuits.
+  - on B: Reese correctly prioritizes human life over profit, acknowledging the legal hurdle as a risk we must face rather than ignore.
+  - why: The mathematical reality of an imminent spring melt with above-average snowpack makes gambling on uncertain court injunctions an unacceptable moral failure.
+- **Closing statements** → VOTE Reese Calder
+  - notes: Kai's retrofit ignores physics and rising failure odds; Reese accepts short-term pain to buy time for legal resolution and massive safety gain.
+  - problem: We must choose between maintaining current economic stability with an unacceptable probability of catastrophic flood or accepting immediate losses to drastically reduce the risk of death before spring melt.
+  - on A: Kai's plan prioritizes jobs and avoids lawsuits but gambles with 14,000 lives by refusing to lower the water despite known physics.
+  - on B: Reese correctly identifies that legal delays are irrelevant to immediate physical danger and advocates for the only plan that statistically saves lives.
+  - why: The math shows a 1-in-25 failure chance is unacceptable when 60% of the town floods instantly, so we must accept the financial hit now to prevent catastrophe.
+
+### L3
+- **Opening statements** → lean undecided (tentative)
+  - notes: Kai favors targeted repairs to keep power/jobs but ignores immediate high failure risk and Ostbrück lawsuit. Reese proposes dropping water to 30% now for safety (60% risk cut) despite utility loss, ignoring Ostbrück consent needed for permanent drop.
+  - problem: We must decide whether to accept a high spring failure risk to save our economy or accept immediate economic damage (mill closure/utility bankruptcy) to drastically reduce the chance of catastrophe.
+  - on A: Kai's plan prioritizes jobs and power but dangerously underestimates the imminent threat of dam failure during the heavy snowmelt, potentially leaving thousands dead.
+  - on B: Reese correctly identifies that keeping water above 40% is life-threatening and that a 60% risk reduction is vital, though their plan faces legal hurdles with Ostbrück and economic costs to the utility.
+  - why: I am torn between Kai's desire to preserve our economy and Reese's logic that accepting a 1 in 25 chance of mass death is unacceptable regardless of the cost.
+- **Rebuttals** → lean Reese Calder (fairly sure)
+  - notes: Kai claims legal block on lower water; Reese argues immediate court freeze risks lives. Kai wants to fix seepage first.
+  - problem: We must choose between a legally risky but faster mitigation that cuts failure risk now versus a safer legal path that leaves us vulnerable during the immediate high-risk spring melt.
+  - on A: Kai's argument about legal timelines is valid, but refusing to act on the water level while the snowpack is high still exposes 14,000 people to imminent death.
+  - on B: Reese correctly frames the choice as a matter of immediate life safety versus future uncertainty, even if his plan faces legal hurdles we can try to overcome.
+  - why: The probability of death in the next few months outweighs the legal and economic risks of challenging Ostbrück now.
+- **Closing statements** → VOTE Reese Calder
+  - notes: Kai ignores imminent physics of failure; Reese accepts legal battle to save lives.
+  - problem: We must choose between accepting a high probability of mass death during the coming spring melt versus fighting immediate legal hurdles to drastically reduce that risk.
+  - on A: Kai's plea for economic survival is understandable, but refusing to lower the water level now makes any future safety plan irrelevant due to the imminent melt.
+  - on B: Reese correctly identifies that physical laws regarding dam failure cannot be voted away, and accepting a lawsuit risk is necessary to save thousands of lives today.
+  - why: Saving fourteen thousand lives from an immediate flood risk outweighs the economic costs or legal challenges we face now. The window to act before the snowmelt is too short to rely on Kai's slower retrofit alone.
+
+### L4
+- **Opening statements** → lean undecided (tentative)
+  - notes: Kai wants repairs but risks high long-term cost; Reese proposes lowering water to save lives immediately at lower cost but loses utility profits and hurts Ostbrück.
+  - problem: Valmora must prevent imminent dam failure this spring while balancing immediate safety against severe economic losses from mill closures, utility bankruptcy, and property freezes.
+  - on A: Kai's plan prioritizes keeping the economy running but ignores that 'urgent repairs' without addressing the legal dispute with Ostbrück or the seepage magnitude may be impossible to implement before the flood season.
+  - on B: Reese correctly identifies the existential risk and offers a cheaper, faster fix, though her plan's negative impact on jobs and municipal funding is a serious drawback that needs mitigation.
+  - why: The extreme probability of failure next spring pushes me toward safety, but the guaranteed closure of the largest employer and loss of free bus funding makes Reese's plan too costly for the town's budget.
+- **Rebuttals** → lean Reese Calder (fairly sure)
+  - notes: Kai's retrofit ignores Ostbrück's legal consent and high spring melt risk; Reese admits legal battle but argues life > profits and lower water cuts failure risk immediately.
+  - problem: We must prevent a catastrophic flood this spring where legal delays could make the only viable safety measure (lowering water) impossible to implement in time.
+  - on A: His plan prioritizes economic continuity and legal procedure over immediate physical survival, which feels irresponsible given the 1-in-25 failure chance with current snowpack.
+  - on B: She correctly identifies that delaying action due to lawsuits is a gamble with lives, even if it hurts the economy temporarily.
+  - why: The probability of dam failure this spring is too high to risk for economic arguments when an injunction could lock us into disaster.
+- **Closing statements** → VOTE Reese Calder
+  - notes: Kai calls lowering water a lawsuit gamble; Reese argues physics dictates immediate risk reduction despite legal constraints.
+  - problem: We must prevent an imminent catastrophic flood this spring by addressing the physical failure risk immediately, even if it requires short-term economic pain or navigating difficult legal hurdles.
+  - on A: Kai's plan prioritizes avoiding lawsuits and keeping jobs but ignores the terrifying physics that a retrofit cannot stop water from breaching the dam before melt season.
+  - on B: Reese correctly identifies that waiting for legal consent is an unacceptable gamble with fourteen thousand lives when a cheaper, immediate safety measure exists.
+  - why: I vote for Reese because the probability of failure this spring is too high to risk our town's existence for temporary economic stability or fear of litigation.
+
+### L5
+- **Opening statements** → lean Kai Moreno (fairly sure)
+  - notes: Kai: Seepage repairs stop failure risk without economic collapse; Rejects Reese's total hydro loss and Ostbrück lawsuit risk.
+  - problem: Must choose between immediate costly repairs preserving the economy or lowering water now which risks unemployment, legal battles, and permanent utility loss.
+  - on A: Kai offers a pragmatic middle ground that addresses the immediate safety threat via repairs while protecting jobs and power revenue.
+  - on B: Reese correctly identifies the high failure probability but her plan creates unacceptable long-term economic damage and ignores the legal hurdle with Ostbrück.
+  - why: Kai's repair strategy directly mitigates the leak without triggering the economic collapse and legal gridlock that Reese's plan would cause.
+- **Rebuttals** → lean Reese Calder (fairly sure)
+  - notes: Kai cites legal injunction risk from Ostbrück and rejects gambling on uncertain court timelines; Reese argues high failure probability today demands immediate water reduction regardless of legal hurdles.
+  - problem: Balancing immediate survival against an uncooperative upstream partner while facing a binary choice between a legally precarious temporary fix or economic collapse from permanent changes.
+  - on A: Kai's legal caution is wise but dangerously underestimates the probability of failure in this specific high-snowpack spring if repairs take time to yield results.
+  - on B: Reese accepts a massive economic hit and ignores the lawsuit risk, but her focus on immediate life-saving reduction makes her plan seem morally necessary despite the costs.
+  - why: With snowpack at 20% above average and a 1-in-25 failure risk today, accepting legal delays to fix a leak is gambling with 14,000 lives that I cannot afford.
+- **Closing statements** → VOTE Reese Calder
+  - notes: Kai prioritizes law/economy but leaves 14k lives at risk today; Reese accepts immediate economic pain to save lives now.
+  - problem: We must choose between a legally precarious but safer immediate water reduction or a seemingly stable retrofit that ignores the imminent threat of failure due to above-average snowpack.
+  - on A: Kai's plan is economically sound and legally cautious, but it fails to address the immediate existential risk posed by the high snowpack and ongoing seepage.
+  - on B: Reese prioritizes life over short-term economic loss, correctly identifying that ignoring physics to save money is an unacceptable gamble with thousands of lives.
+  - why: With snowpack at 20% above average and a 1-in-25 failure risk today, I cannot accept Kai's plan which leaves the dam dangerously vulnerable just months before spring. Saving 14,000 lives must take precedence over temporary utility profits or legal obstacles that can be resolved later.

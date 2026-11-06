@@ -1,0 +1,606 @@
+{
+ "id": "p1-64-TEC-PRA-vs-TEC-IDE-dam",
+ "pass": 1,
+ "pairIndex": 64,
+ "seed": 810139,
+ "scenario": "dam",
+ "domain": "political",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-PRA",
+  "style": "TEC",
+  "ideology": "PRA",
+  "name": "Morgan Ekberg",
+  "platform": "I propose we immediately authorize the permanent reduction of the reservoir to 30% combined with a new spillway, while simultaneously negotiating a binding agreement with Ostbrück and Nordhalm to offset their losses.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Attack the rebuild option's cost and delay; offer a side-benefit of power conservation as a bridge to national grants if needed."
+   },
+   {
+    "round": 2,
+    "text": "Emphasize the €25 million cost saving and immediate risk reduction to undercut her fear-based framing while acknowledging the unavoidable economic pain of other sectors."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing the absolute financial impossibility of rebuilding versus lowering the dam to avoid losing votes from residents fearing bankruptcy or service cuts."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-IDE",
+  "style": "TEC",
+  "ideology": "IDE",
+  "name": "Reese Calder",
+  "platform": "Valmora must immediately lower the reservoir to thirty percent and install a new spillway, accepting a near-term loss of hydro power to eliminate the imminent risk of catastrophic failure.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor firmly on the statistical inevitability of disaster if status quo continues, framing my plan as the only rational choice that avoids existential loss despite economic pain."
+   },
+   {
+    "round": 2,
+    "text": "I am exposing that Morgan's cost savings exclude mandatory relocation expenses and utility bankruptcy risks while attacking her reliance on future contractual promises during an immediate emergency."
+   },
+   {
+    "round": 3,
+    "text": "Highlight that Morgan's plan risks utility bankruptcy by cutting power completely later, whereas my plan keeps partial revenue to maintain essential services like sirens."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "TEC-PRA",
+   "speech": "We face a mathematical certainty: doing nothing risks 14,000 lives. Rebuilding costs €340 million and guarantees four years of power cuts, which bankrupts the municipal utility. The cheaper alternative lowers the reservoir to 30% for €25 million, cutting failure risk by 80% immediately. Yes, this reduces hydro power and hurts farmers, but moving Riverside is impossible without massive funding we lack. We must accept the trade-off: half the current power output now rather than zero power and dead bodies later. I will personally lead negotiations to compensate Ostbrück and Nordhalm, ensuring no lawsuits derail our survival. This is not an ideal solution, it is the only one that works within our budget and risk tolerance.",
+   "words": 115
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "TEC-IDE",
+   "speech": "We stand at a mathematical certainty. The current structure fails with a one-in-twenty-five probability this spring. A full rebuild takes four years; a relocation takes three. Both leave us vulnerable during the peak melt when snowpack is twenty percent above average. My plan lowers the reservoir to thirty percent now, cutting failure risk by eighty percent for twenty-five million euros in one year. This accepts a significant short-term reduction in electricity and water volume, costs we can absorb to avoid losing sixteen thousand lives. We choose a lower probability of extinction over a higher promise of comfort. The alternative is gambling with the town's existence because it is cheaper to rebuild than to live within the risk. We must act before the melt.",
+   "words": 123
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "TEC-PRA",
+   "speech": "Reese, your rhetoric about extinction is theatrical nonsense. The reservoir at thirty percent reduces failure risk by eighty percent immediately. That single statistic alone makes your argument for immediate reconstruction financially reckless. A full rebuild costs €340 million and requires four years of partial damming; that guarantees bankruptcy before the project finishes. We cannot afford a decade of power cuts while debt sits at seventy-eight percent of the ceiling. Your plan ignores the hard math: lowering the reservoir now saves us two hundred fifteen million euros compared to reconstruction, even after compensation payments. Yes, farmers and millers face hardship, but we negotiate binding contracts rather than gamble on structural integrity. The alternative is not comfort; it is insolvent ruin. I will lead these negotiations personally because we must manage trade-offs, not pretend they do not exist.",
+   "words": 136
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "TEC-IDE",
+   "speech": "Morgan argues that lowering the reservoir saves two hundred fifteen million euros compared to reconstruction. That calculation ignores the cost of moving Riverside residents, which we cannot finance now, and the loss of municipal profits that fund free buses and public services. If our utility goes bankrupt next year, who maintains the siren system currently forty minutes short of drill standards? You propose binding contracts with Nordhalm and Ostbrück to manage trade-offs. These are future promises during an immediate crisis. A partial rebuild for four years leaves us vulnerable while debt hits ninety percent. We must accept the power cut now to ensure the dam holds through this record snowpack. I will negotiate compensation, but we cannot gamble on structural integrity by pretending the financial math accounts for human displacement and utility collapse.",
+   "words": 133
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Morgan Ekberg",
+   "type": "TEC-PRA",
+   "speech": "Reese argues we cannot afford the power cut. He is wrong because bankruptcy guarantees zero power, whereas this plan preserves partial revenue to fund emergency services like the siren system. His fear of displacement ignores that Riverside relocation requires money we literally do not have and has failed before. My plan accepts a calculated trade-off: eighty percent less risk for one year. We pay compensation now to keep Ostbrück and Nordhalm, securing our jobs and water. Rebuilding costs €340 million and takes four years; that is financial suicide during record snowpacks. I am betting on immediate survival with available funds. If you choose the rebuild, you bet on a future we cannot afford. Vote for the plan that keeps us alive, solvent, and operational.",
+   "words": 124
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "TEC-IDE",
+   "speech": "Morgan insists our plan is financially reckless, yet his proposal accepts a guaranteed loss of utility profits while promising compensation we cannot currently fund. If we bankrupt the municipal utility now, who pays for the free buses and maintains the siren system that is already forty minutes short of drill standards? His strategy relies on binding contracts with Ostbrück and Nordhalm during an active crisis, assuming negotiations will succeed without delay. My plan accepts a calculable cost reduction immediately rather than risking total structural failure and human displacement later. We cannot gamble our existence on future promises when the snowpack is twenty percent above average. Lowering the reservoir now preserves the town's ability to function, pay its debts, and evacuate safely if needed. It is not a choice between life and solvency; it is a choice between immediate survival and delayed, unaffordable catastrophe.",
+   "words": 143
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Both speakers propose lowering reservoir to 30% for immediate safety, differing only in negotiation style regarding Ostbrück/Nordhalm.",
+     "problem": "We must immediately reduce failure risk before the high-snowpack melt without triggering insolvency or lawsuits.",
+     "onA": "Emphasizes financial reality and willingness to personally handle difficult negotiations with upstream stakeholders.",
+     "onB": "Focuses on the existential nature of the threat and frames safety as a non-negotiable priority over comfort.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans are identical in action, so I remain neutral until they explain how they will specifically address the lawsuits and power shortages.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan cites €215M savings vs reconstruction but ignores human costs and utility collapse; Reese highlights that bankrupt utility breaks free buses/sirens.",
+     "problem": "We must lower the dam immediately for structural safety while ensuring we don't trigger municipal bankruptcy or essential service failure through financial miscalculation.",
+     "onA": "Morgan's hard-nosed financial logic is compelling but feels cold because it treats human displacement and utility collapse as acceptable trade-offs.",
+     "onB": "Reese correctly identifies that a bankrupt utility means no money for siren maintenance, making the 'financial math' incomplete until human survival is secured.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I still believe Morgan's calculation of immediate savings outweighs Reese's concerns because we literally cannot afford a decade-long rebuild, and I trust Morgan to handle the difficult negotiations personally.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan bets on future compensation; Reese prioritizes current solvency and existing evacuation capability.",
+     "problem": "We must lower the dam immediately to prevent structural failure, but doing so cannot bankrupt the town or render essential services like sirens and buses inoperable.",
+     "onA": "His financial logic is sound, but his willingness to accept a potentially unpayable debt burden for utility collapse makes his plan dangerously optimistic about future negotiations.",
+     "onB": "He correctly identifies that immediate solvency ensures we can maintain critical life-saving infrastructure like the siren system even while operating at reduced capacity.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "Given the record snowpack and existing siren deficit, I cannot gamble the town's survival on a compensation package we may not be able to fund later; Reese's focus on preserving current operational capability is the only safe choice.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Rebuild bankrupts utility; relocation impossible without funding. Reese's €25M fix cuts risk 80% immediately vs extinction.",
+     "problem": "We must prevent dam failure and mass flooding before the spring melt while avoiding municipal bankruptcy and insolvency.",
+     "onA": "Morgan correctly identifies that rebuilding bankrupts us and moving Riverside is currently impossible, making the reservoir lower the only viable immediate path.",
+     "onB": "Reese's plan aligns perfectly with Morgan's but frames it as a necessity to avoid extinction rather than just a budget constraint.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both speakers advocate the same core action (lowering the reservoir), so my preference depends on which specific details they emphasize in future rounds.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Both argue for lowering reservoir; Morgan emphasizes financial math while Reese worries about siren/utility collapse and human displacement.",
+     "problem": "We must secure immediate structural safety against record snowpack while balancing unavoidable financial losses, utility risks, and social displacement without causing municipal insolvency.",
+     "onA": "Morgan's argument is strong on the hard facts but dismisses the real risk of utility collapse and public panic by focusing solely on euros saved.",
+     "onB": "Reese correctly highlights that saving money means nothing if the utility goes bankrupt or the siren system fails, making her concern for human safety paramount.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Reese's warning that a bankrupt utility cannot maintain critical life-saving systems like the siren outweighs Morgan's optimistic financial calculations.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan claims partial revenue funds sirens; Reese says bankrupt utility kills critical services and future promises are unreliable during crisis.",
+     "problem": "We must prevent immediate dam failure and keep the town's essential infrastructure operational without relying on unguaranteed future funding or negotiations.",
+     "onA": "His financial optimism ignores the reality that a bankrupt utility cannot fund life-saving systems regardless of theoretical revenue streams.",
+     "onB": "She correctly identifies that preserving our ability to function and evacuate safely now outweighs calculated trade-offs with unguaranteed compensation.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "I vote for Reese because her plan ensures we can actually pay for critical safety systems like the siren while avoiding total municipal collapse, whereas Morgan's reliance on future contracts is too risky for a record snowpack.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Both speakers propose lowering reservoir to 30% now for €25M; full rebuild is too costly/slow. Morgan emphasizes compensation negotiation while Reese focuses on immediate risk reduction.",
+     "problem": "We must immediately reduce the 1-in-25 dam failure probability before the heavy snowmelt without bankrupting the town or losing essential power.",
+     "onA": "His plan mirrors the facts but his promise to personally negotiate compensation feels like a distraction from the immediate engineering crisis.",
+     "onB": "She clearly articulates the trade-off between short-term economic loss and the existential threat of dam failure, which aligns with our survival needs.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Reese's direct acknowledgment that we are choosing a lower probability of extinction over comfort resonates more than Morgan's focus on future negotiations when lives are at stake today.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan claims lowering saves €215M vs rebuild but ignores utility bankruptcy and displacement costs; Reese counters that partial rebuild leaves us vulnerable with record snowpack.",
+     "problem": "We must balance immediate structural survival against the risk of long-term financial collapse from losing essential power revenue while displacing residents.",
+     "onA": "His argument that we can negotiate contracts away is dangerous because it treats human lives and utility bankruptcy as mere trade-offs to be managed later.",
+     "onB": "She correctly identifies that pretending the math works while ignoring utility collapse and displaced families during a record snowpack is financially reckless.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Morgan's dismissal of immediate human displacement and utility failure as just 'management trade-offs' undermines his financial math, whereas Reese's insistence on accepting short-term pain for survival is vital.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan claims he saves utility funds but ignores immediate displacement costs and unprovable contract guarantees. Reese correctly identifies that bankrupting the utility now destroys emergency services like sirens.",
+     "problem": "The core problem is choosing between immediate structural survival with acceptable financial pain versus a high-risk gamble on future negotiations during a record snowpack.",
+     "onA": "His argument that partial revenue keeps the town solvent is misleading because displacing Riverside residents and losing utility profits instantly collapses our ability to fund critical emergency services.",
+     "onB": "She accurately frames this as an existential choice where delaying action or gambling on future contracts threatens lives when we literally cannot afford a bankruptcy.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "Her plan accepts calculable costs now to ensure immediate survival, whereas Morgan's reliance on unguaranteed compensation and displaced residents during a crisis is financially reckless.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Rebuild costs too much and takes too long; relocation protests failed. Both Morgan's compensation promise and Reese's direct action aim to survive the melt.",
+     "problem": "How can Valmora prevent catastrophic flooding this spring while managing severe financial constraints and competing stakeholder interests?",
+     "onA": "His plan is financially sound but relies heavily on his ability to successfully negotiate with powerful external entities like Nordhalm and Ostbrück, which is a significant risk.",
+     "onB": "He proposes the same immediate engineering fix as Morgan but lacks the specific political strategy to handle the lawsuits and water disputes that could derail the plan.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I prefer his explicit plan to actively compensate affected groups, as I am worried Reese's approach might not be enough to stop lawsuits from Ostbrück or Nordhalm.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Rebuild guarantees bankruptcy; Morgan's contracts are just future promises during a crisis. Relocation costs ignored by both.",
+     "problem": "Valmora must survive an immediate record snowpack flood risk while facing inevitable utility collapse and lawsuits that neither financial math nor contracts can fully solve.",
+     "onA": "His hard-nosed financial logic is seductive, but relying on negotiated contracts to stop a catastrophic failure in a record-melt season feels like gambling with human lives.",
+     "onB": "He correctly identifies that financial savings cannot justify risking the dam's integrity when structural failure is imminent and lawsuits are likely regardless of compensation promises.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I am convinced that no amount of financial planning or contract negotiation can guarantee safety if the dam fails during a record-melt, making Reese's refusal to accept 'comfort' as an alternative to ruin the more responsible choice.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan's compensation is unenforceable during a crisis; bankruptcy guarantees zero power while Reese preserves emergency funds.",
+     "problem": "Valmora must prevent catastrophic flooding this spring without bankrupting the town or failing to maintain essential public services like free buses and early warnings.",
+     "onA": "His plan ignores the immediate risk of structural failure and relies on future promises that cannot be enforced when lives are at stake.",
+     "onB": "He correctly identifies that preserving the utility's financial viability is essential for survival, even if it means accepting a manageable power cut and water shortage.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "I choose Reese because his plan prioritizes immediate structural safety and keeps the municipal utility solvent to fund essential emergency services like the siren system, whereas Morgan's reliance on future contracts during an active crisis is too risky.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Morgan: €25m/30% level cuts risk 80%, accepts power loss to save lives, promising to negotiate with farmers/mill. Reese: Agrees on lowing reservoir immediately, frames choice as avoiding 'extinction' vs comfort.",
+     "problem": "We must choose between immediate economic hardship (power cut/water shortage) and the high probability of catastrophic failure that kills thousands.",
+     "onA": "His plan is practical and addresses economic survival while saving lives, though his promise to negotiate compensation is a risky claim without guaranteed funding.",
+     "onB": "Her rhetoric is dramatic ('extinction') but effectively summarizes the necessity of the cheaper option, though she offers less detail on managing the fallout.",
+     "lean": "Morgan Ekberg",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I lean toward Morgan because he acknowledges the severe economic costs more realistically and promises to actively manage the political fallout with neighboring towns.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Morgan: Claims €215m savings vs rebuild, offers to lead negotiations personally. Reese: Highlights ignored costs of Riverside relocation and utility bankruptcy; warns against gambling on structural integrity.",
+     "problem": "We must balance immediate economic collapse (utility failure, displacement) against the high probability of a deadly dam breach, knowing that promises alone cannot fix infrastructure or fund evacuations.",
+     "onA": "His focus on the hard math and willingness to lead negotiations is pragmatic, though his dismissal of 'theatrical' concerns feels like he is underestimating the cost of human displacement.",
+     "onB": "She correctly exposes that financial savings are illusory if we ignore the cost of moving Riverside residents and maintaining essential public services, but her plan lacks a concrete strategy to prevent utility bankruptcy.",
+     "lean": "Morgan Ekberg",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I remain with Morgan because his promise to personally lead negotiations provides a necessary mechanism to address the very human costs Reese rightly identifies, whereas her plan risks paralyzing the town in bureaucratic debate.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Morgan: Bankruptcy risks are real but partial revenue funds sirens. Reese: Guarantees structural safety but ignores utility collapse and unfunded compensation.",
+     "problem": "We must choose between the high cost of relocating Riverside and the guaranteed economic paralysis of a bankrupt utility versus the high probability of death if we do nothing.",
+     "onA": "His pragmatic acceptance of partial power loss is financially necessary, yet his promise to personally fund compensation without specific sources remains a dangerous gamble.",
+     "onB": "She correctly identifies that municipal bankruptcy destroys essential services like buses and sirens, making the cheaper option impossible if we ignore long-term utility viability.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "Morgan's reliance on future compensation agreements during an active crisis is too risky; Reese's plan prioritizes keeping the town solvent and operational while still saving lives through immediate structural intervention.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 2,
+   "B": 1,
+   "U": 2
+  },
+  {
+   "A": 2,
+   "B": 3,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "TEC-IDE",
+ "tokens": {
+  "in": 33022,
+  "out": 4311,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 810139001,
+   "attempts": 1,
+   "tokensIn": 1215,
+   "tokensOut": 241,
+   "ms": 6583
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 810139002,
+   "attempts": 1,
+   "tokensIn": 1216,
+   "tokensOut": 230,
+   "ms": 6307
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 810139003,
+   "attempts": 1,
+   "tokensIn": 1366,
+   "tokensOut": 168,
+   "ms": 5270
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 810139004,
+   "attempts": 1,
+   "tokensIn": 1366,
+   "tokensOut": 184,
+   "ms": 4435
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 810139005,
+   "attempts": 1,
+   "tokensIn": 1366,
+   "tokensOut": 209,
+   "ms": 5037
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 810139006,
+   "attempts": 1,
+   "tokensIn": 1366,
+   "tokensOut": 205,
+   "ms": 4938
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 810139007,
+   "attempts": 1,
+   "tokensIn": 1366,
+   "tokensOut": 217,
+   "ms": 5218
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 810139008,
+   "attempts": 1,
+   "tokensIn": 1571,
+   "tokensOut": 206,
+   "ms": 6012
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 810139009,
+   "attempts": 1,
+   "tokensIn": 1735,
+   "tokensOut": 198,
+   "ms": 5960
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 810139010,
+   "attempts": 1,
+   "tokensIn": 1521,
+   "tokensOut": 209,
+   "ms": 6275
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 810139011,
+   "attempts": 1,
+   "tokensIn": 1535,
+   "tokensOut": 193,
+   "ms": 5515
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 810139012,
+   "attempts": 1,
+   "tokensIn": 1561,
+   "tokensOut": 204,
+   "ms": 6227
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 810139013,
+   "attempts": 1,
+   "tokensIn": 1558,
+   "tokensOut": 215,
+   "ms": 6458
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 810139014,
+   "attempts": 1,
+   "tokensIn": 1569,
+   "tokensOut": 243,
+   "ms": 6752
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 810139015,
+   "attempts": 1,
+   "tokensIn": 1919,
+   "tokensOut": 195,
+   "ms": 5810
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 810139016,
+   "attempts": 1,
+   "tokensIn": 2073,
+   "tokensOut": 215,
+   "ms": 6391
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 810139017,
+   "attempts": 1,
+   "tokensIn": 1711,
+   "tokensOut": 201,
+   "ms": 6199
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 810139018,
+   "attempts": 1,
+   "tokensIn": 1709,
+   "tokensOut": 186,
+   "ms": 5825
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 810139019,
+   "attempts": 1,
+   "tokensIn": 1747,
+   "tokensOut": 198,
+   "ms": 6162
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 810139020,
+   "attempts": 1,
+   "tokensIn": 1757,
+   "tokensOut": 194,
+   "ms": 6032
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 810139021,
+   "attempts": 1,
+   "tokensIn": 1795,
+   "tokensOut": 200,
+   "ms": 6154
+  }
+ ],
+ "startedAt": "2026-11-04T22:59:07.640Z",
+ "seconds": 124
+}

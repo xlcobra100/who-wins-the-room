@@ -1,0 +1,206 @@
+{
+ "n": 161,
+ "same": 6,
+ "plans": {
+  "board:SELL": {
+   "f": 107,
+   "a": 130,
+   "n": 26,
+   "ideo": {
+    "REA": 6,
+    "PRA": 5,
+    "LIB": 12,
+    "IDE": 3
+   }
+  },
+  "board:KEEP_INVEST": {
+   "f": 38,
+   "a": 165,
+   "n": 39,
+   "ideo": {
+    "REA": 9,
+    "PRA": 8,
+    "LIB": 4,
+    "IDE": 18
+   }
+  },
+  "salient:WITHDRAW": {
+   "f": 130,
+   "a": 185,
+   "n": 39,
+   "ideo": {
+    "REA": 6,
+    "PRA": 9,
+    "LIB": 13,
+    "IDE": 11
+   }
+  },
+  "salient:HOLD": {
+   "f": 2,
+   "a": 35,
+   "n": 7,
+   "ideo": {
+    "REA": 2,
+    "PRA": 1,
+    "LIB": 2,
+    "IDE": 2
+   }
+  },
+  "salient:HOLD_BUILD": {
+   "f": 54,
+   "a": 150,
+   "n": 30,
+   "ideo": {
+    "REA": 9,
+    "PRA": 10,
+    "LIB": 5,
+    "IDE": 6
+   }
+  },
+  "river:DEAL": {
+   "f": 150,
+   "a": 180,
+   "n": 40,
+   "ideo": {
+    "REA": 10,
+    "PRA": 12,
+    "LIB": 10,
+    "IDE": 8
+   }
+  },
+  "river:HARDLINE": {
+   "f": 14,
+   "a": 65,
+   "n": 13,
+   "ideo": {
+    "REA": 7,
+    "PRA": 2,
+    "LIB": 1,
+    "IDE": 3
+   }
+  },
+  "river:MULTILATERAL": {
+   "f": 26,
+   "a": 135,
+   "n": 27,
+   "ideo": {
+    "REA": 4,
+    "PRA": 4,
+    "LIB": 9,
+    "IDE": 10
+   }
+  },
+  "dam:LOWER": {
+   "f": 142,
+   "a": 180,
+   "n": 36,
+   "ideo": {
+    "REA": 9,
+    "PRA": 15,
+    "LIB": 8,
+    "IDE": 4
+   }
+  },
+  "dam:REBUILD": {
+   "f": 10,
+   "a": 60,
+   "n": 12,
+   "ideo": {
+    "REA": 4,
+    "PRA": 1,
+    "LIB": 2,
+    "IDE": 5
+   }
+  },
+  "dam:NEGOTIATE": {
+   "f": 10,
+   "a": 50,
+   "n": 10,
+   "ideo": {
+    "REA": 3,
+    "PRA": 4,
+    "LIB": 3,
+    "IDE": 0
+   }
+  },
+  "board:HALBERG": {
+   "f": 22,
+   "a": 60,
+   "n": 12,
+   "ideo": {
+    "REA": 4,
+    "PRA": 2,
+    "LIB": 4,
+    "IDE": 2
+   }
+  },
+  "dam:RELOCATE": {
+   "f": 28,
+   "a": 90,
+   "n": 18,
+   "ideo": {
+    "REA": 5,
+    "PRA": 2,
+    "LIB": 2,
+    "IDE": 9
+   }
+  },
+  "salient:CEASEFIRE": {
+   "f": 4,
+   "a": 10,
+   "n": 2,
+   "ideo": {
+    "REA": 0,
+    "PRA": 1,
+    "LIB": 0,
+    "IDE": 1
+   }
+  },
+  "board:OFFSHORE_CUT": {
+   "f": 38,
+   "a": 55,
+   "n": 11,
+   "ideo": {
+    "REA": 2,
+    "PRA": 7,
+    "LIB": 2,
+    "IDE": 0
+   }
+  }
+ },
+ "typeOnly": {
+  "first": -0.3421566259892494,
+  "s:POP": -0.6094453178897512,
+  "i:REA": -0.03237194717383812,
+  "s:HYB": 0.14150699656675206,
+  "i:IDE": -0.3522100508855879,
+  "s:TEC": 0.4679383213229992,
+  "i:LIB": 0.024579728490213722,
+  "i:PRA": 0.36000226956921233
+ },
+ "typePlusPlan": {
+  "first": -0.7998765446684089,
+  "s:POP": -0.47999120670653633,
+  "i:REA": 0.06562144418988737,
+  "p:board:SELL": 1.0728285603137093,
+  "s:HYB": 0.24941208907115128,
+  "i:IDE": -0.1027533075241555,
+  "p:board:KEEP_INVEST": -0.7445719534585593,
+  "p:salient:WITHDRAW": 1.1178948218568587,
+  "p:salient:HOLD": -1.6619240251569267,
+  "s:TEC": 0.23057911763538505,
+  "i:LIB": -0.2715139224189247,
+  "p:salient:HOLD_BUILD": 0.07443301507270252,
+  "i:PRA": 0.3086457857531928,
+  "p:river:DEAL": 1.3264511780928365,
+  "p:river:HARDLINE": -0.6920928952583355,
+  "p:river:MULTILATERAL": -0.634358282834501,
+  "p:dam:LOWER": 1.0889768003751608,
+  "p:dam:REBUILD": -0.5127927884448795,
+  "p:dam:NEGOTIATE": -0.6649235797749463,
+  "p:board:HALBERG": -0.5163375077042839,
+  "p:dam:RELOCATE": 0.08873956784466502,
+  "p:salient:CEASEFIRE": 0.4695961882273654,
+  "p:board:OFFSHORE_CUT": 0.1880809008491338
+ }
+}

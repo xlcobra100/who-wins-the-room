@@ -1,0 +1,609 @@
+{
+ "id": "p3-20-POP-PRA-vs-TEC-IDE-board",
+ "pass": 3,
+ "pairIndex": 20,
+ "seed": 176791,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "POP-PRA",
+  "style": "POP",
+  "ideology": "PRA",
+  "name": "Drew Halvorsen",
+  "platform": "We reject the sale to Crestline and the merger with Halberg, opting instead to secure our Lenhart plant, freeze pay for two years, and aggressively launch our Volt-One battery platform while cutting costs through operational efficiency.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Build a coalition with the older Ahlgren shareholders by emphasizing family control, appeal to the union for job security, and frame Volt-One as the only path to regaining market share without selling the company."
+   },
+   {
+    "round": 2,
+    "text": "I need to pivot Alex away from viewing the pension deficit as a non-issue by framing a sale as a direct threat to the fund's payout, while simultaneously attacking their 'survival' narrative as false because it ignores the immediate loss of our brand equity and customer base."
+   },
+   {
+    "round": 3,
+    "text": "I am trying to make the five directors feel like Alex's sale is a moral failure that destroys their own pensions and community."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-IDE",
+  "style": "TEC",
+  "ideology": "IDE",
+  "name": "Alex Novak",
+  "platform": "We must immediately accept Crestline Capital's offer to sell Brightwater Tools at a 40% premium, liquidate assets to cover pension deficits, and use the proceeds to honor our debt obligations, thereby ensuring the firm's survival without relying on risky operational gambles.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Win votes by proving that Drew's plan leads to inevitable failure through financial arithmetic rather than emotional appeals."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing that Drew's plan burns cash faster than his pay freeze saves it, so only a sale can actually fund the pension obligations he claims are most important."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing that his plan ignores the math of imminent bank restructuring and pension liability, making me appear as the only rational choice for preserving their jobs through legal compliance."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Drew Halvorsen",
+   "type": "POP-PRA",
+   "speech": "Look around this room. Do we really want to sell our family company to a private equity firm that plans to shutter factories in four years? Or do we merge and lose control to strangers from Asia? Neither works for the worker on the night shift or the family at the kitchen table. Our brand means 'made here.' We must keep Lenhart open. I propose we guarantee both plants stay running, accept a pay freeze to save millions, and pour our remaining cash into Volt-One. Early tests prove our new battery is best-in-class; we just need to launch it right. Let's fight for our legacy with dignity, not sell out and hide in a foreign warehouse.",
+   "words": 116
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Alex Novak",
+   "type": "TEC-IDE",
+   "speech": "Mr. Chairman, we face a binary choice between moral delusion and survival. Drew proposes holding ground while bleeding cash. The math is simple: remaining open costs more than selling. Our €900 million debt forces restructuring in nine months anyway; only a sale stops the clock immediately. Keeping factories without profit guarantees bankruptcy and pension collapse. Selling provides liquidity now, not later. We use the premium to pay pensions, settle debts, and exit this unviable business model. This is not cowardice; it is the only way to prevent total destruction of the company's capital structure.",
+   "words": 94
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Drew Halvorsen",
+   "type": "POP-PRA",
+   "speech": "Alex speaks of survival while painting a picture of total destruction. You say we must sell because we bleed cash, but who pays the €140 million pension deficit? A foreign private equity fund will not cover our workers' pensions; they will simply cut jobs and walk away. Your math ignores the brand value we hold: fifty-eight percent of our customers demand products made here. If we close Lenhart now, that loyalty vanishes instantly, and HomeMart drops us for their own brand regardless of our price. We do not have the time to wait nine months for a bank restructuring to force our hand. Instead, let's use those nine months wisely. We freeze pay to save cash, pour it into launching Volt-One, and keep both plants humming. We fight for the next two years to survive without selling out or closing the door on our own people.",
+   "words": 146
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Alex Novak",
+   "type": "TEC-IDE",
+   "speech": "Drew, your proposal guarantees the pension deficit you cited will never be paid. If we keep factories open while revenue drops to two percent margin, we consume every euro needed for Volt-One's development anyway. The €900 million debt forces restructuring in nine months; that clock does not stop with a pay freeze. Crestline's premium provides immediate liquidity. Unlike an operational gambit where costs exceed cash flow instantly, a sale settles the pension fund liability now. HomeMart will switch brands regardless of our price cuts; relying on their goodwill is financial suicide. Only selling today honors our duty to future generations by preventing total capital collapse and ensuring the pension fund receives its legally owed €140 million immediately rather than risking bankruptcy.",
+   "words": 121
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Drew Halvorsen",
+   "type": "POP-PRA",
+   "speech": "Alex claims selling pays pensions, but who owns Lenhart after Crestline? They won't. You propose a fantasy where we keep our dignity while bleeding out. Let's be honest: your math assumes HomeMart stays loyal or that we can innovate without capital. Both are wrong. But here is the difference: I offer a chance to win tomorrow. We freeze pay, save cash, and launch Volt-One. We honor our workers by keeping both plants open, not liquidating them. We fight for the next two years so you don't lose your home to an overseas buyer. Don't let Alex sell our legacy. Vote for survival, not surrender. Keep Lenhart running. Launch our battery. Stand tall as a real company.",
+   "words": 116
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Alex Novak",
+   "type": "TEC-IDE",
+   "speech": "Drew's plan relies on three fatal errors. First, keeping factories open at two percent margin consumes the very capital needed for Volt-One, guaranteeing launch failure. Second, a pay freeze does not stop the bank restructuring clock; the €900 million debt forces liquidation in nine months regardless of our actions. Third, relying on HomeMart's goodwill is financial suicide given their ultimatum. Selling today at Crestline's premium provides immediate liquidity to legally settle the €140 million pension deficit now, preventing total collapse later. It pays workers immediately rather than risking bankruptcy years hence. The alternative is not survival but forced fire-sale by banks with no regard for pensions or brand. Only a sale honors our duty to future generations by securing capital structure integrity immediately.",
+   "words": 123
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew wants to keep plants, pay freeze, and launch Volt-One despite tight cash. Alex argues closing factories and selling to PE is the only way to stop immediate bankruptcy.",
+     "problem": "How can Brightwater survive financial default and market loss while balancing worker welfare, pension liabilities, and the need for immediate liquidity?",
+     "onA": "His plan preserves legacy and jobs but risks insolvency within nine months given current cash burn and debt covenants.",
+     "onB": "He correctly identifies that staying open without profit guarantees bankruptcy, yet his proposal to sell immediately ignores the brand value and employee impact.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Alex's harsh financial reality regarding debt covenants and Drew's moral argument for keeping Lenhart open.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew risks pension default and ignores immediate covenant breach; Alex correctly notes cash bleed but selling now liquidates the brand.",
+     "problem": "Can we generate enough liquidity within nine months to fix covenants, launch Volt-One, and pay pensions without destroying the factory jobs or brand value?",
+     "onA": "His moral stance on keeping plants is noble, but his math fails to account for the €900m debt wall and the certainty that HomeMart will drop us regardless.",
+     "onB": "He correctly identifies that operating at -2% margin is suicide and that a PE sale offers immediate liquidity to fix the pension deficit legally owed.",
+     "lean": "Alex Novak",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Drew's plan guarantees insolvency before Volt-One launches, whereas Alex's sale provides the necessary cash to honor the pension liability and stop the bleeding.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew ignores debt clock and HomeMart ultimatum; Alex risks liquidating brand but secures pension solvency immediately.",
+     "problem": "Can we honor our legal duties to workers and retirees without defaulting on €900m debt or accepting a hostile takeover by an asset-stripping PE firm?",
+     "onA": "His moral appeal to keep plants is noble but financially impossible given the covenant breach, pension deficit, and HomeMart's threat.",
+     "onB": "He correctly identifies that operating at a loss guarantees insolvency and that a sale offers the only legal path to fix the pension liability.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "I vote for Alex because survival requires stopping the cash bleed immediately; selling now prevents the forced fire-sale by banks later while legally settling the pension deficit.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew wants to keep factories, freeze pay, and bet on Volt-One. Alex argues only a PE sale stops immediate bankruptcy; keeping plants is 'moral delusion' that ignores €900M debt.",
+     "problem": "How to survive the next two years given imminent covenant breaches without triggering total capital destruction or losing the company entirely.",
+     "onA": "His plan preserves dignity and jobs but relies on a volatile new battery launch while burning cash on fixed costs that exceed current margins.",
+     "onB": "His financial logic is starkly sound regarding the debt clock, yet accepting a hostile PE firm with a history of factory closures feels like surrendering the company's soul immediately.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between the mathematical reality of Alex's debt crisis and the long-term brand value Drew argues for, needing more data on Volt-One's success probability.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew: Pension deficit unsolved by sale; brand loyalty and HomeMart threat ignored. Alex: Pay freeze won't stop debt clock; sale pays pension now.",
+     "problem": "Survive the next two years without triggering total capital destruction or failing to honor the €140m pension liability while facing imminent covenant breach.",
+     "onA": "His moral argument protects brand dignity but financially ignores the non-negotiable €900m debt clock and the certainty of HomeMart switching brands.",
+     "onB": "His financial logic is starkly sound regarding the debt crisis, yet accepting a hostile PE firm with a history of factory closures feels like surrendering the company's soul immediately.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between the mathematical reality of Alex's debt clock and the long-term brand value Drew argues for, needing more data on Volt-One's success probability.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew ignores the €900M debt clock and HomeMart ultimatum; Alex offers immediate pension solvency but faces PE legacy of closures.",
+     "problem": "Survive the next two years without triggering forced bank restructuring while honoring the €140M pension liability and preventing total brand destruction.",
+     "onA": "His plan is emotionally noble but financially fatal because it ignores the immediate covenant breach and the certainty that HomeMart will switch brands regardless of factory retention.",
+     "onB": "His financial logic correctly identifies that keeping factories at 2% margin guarantees insolvency, making a premium sale the only way to legally settle pensions before a hostile fire sale.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "I must prioritize mathematical survival over moral idealism; without immediate liquidity from the sale, the company will be forced into bankruptcy by banks regardless of our efforts to keep plants open.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew prioritizes brand legacy and local jobs but risks running out of cash. Alex argues for immediate liquidity to stop debt restructuring, ignoring long-term survival.",
+     "problem": "Surviving the next two years while avoiding default on €900M debt without triggering loan covenants or pension collapse.",
+     "onA": "His plan honors the brand and employees but ignores the mathematical reality that current operations will breach covenants in nine months with no obvious funding source.",
+     "onB": "He correctly identifies the immediate cash flow crisis and debt constraints, but his 'sell' option admits defeat on the core business rather than seeking a strategic pivot.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need to see how the merger or new battery platform options fit into these contrasting viewpoints before deciding.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew claims Crestline won't pay pension deficit; Alex counters PE sale settles liability now. Drew proposes pay freeze to fund Volt-One despite revenue collapse risk.",
+     "problem": "The core dilemma is paying the €140M pension and avoiding debt default within nine months while deciding whether to gamble on operations or liquidate via a sale.",
+     "onA": "His emotional appeal to legacy is compelling, but his plan ignores the mathematical certainty that negative margins will bankrupt the firm before Volt-One launches or pay freezes yield savings.",
+     "onB": "He correctly identifies the liquidity trap and pension liability as immediate threats, though his conclusion that a sale is the only ethical solution feels like surrendering on the core business.",
+     "lean": "Alex Novak",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Despite Drew's strong rhetoric about brand and pensions, Alex's argument that continuing operations at -2% margin guarantees insolvency before any turnaround can happen is mathematically undeniable.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew's 'survival' is mathematically impossible without immediate cash; Alex acknowledges forced liquidation risk but his 'sell' solution settles the pension immediately.",
+     "problem": "Can we raise €140M+€250M quickly to avoid bank restructuring while deciding whether to gamble on operations or accept a premium sale?",
+     "onA": "His emotional appeal to brand and jobs is noble, but his plan ignores that operating at -2% margin with HomeMart's threat guarantees insolvency before Volt-One launches.",
+     "onB": "He correctly identifies that continuing current operations leads to forced fire-sale by banks; the Crestline deal provides immediate liquidity to legally pay the pension deficit now.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "Drew's plan relies on impossible assumptions about cash flow and market loyalty, whereas Alex offers the only viable path to prevent immediate default and secure pension funds.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew wants to keep factories and invest in Volt-One; Alex insists on selling immediately to stop debt bleeding. Drew risks bankruptcy by fighting; Alex offers quick cash but cites PE history of closures.",
+     "problem": "The core tension is choosing between immediate liquidity via a likely hostile sale versus a high-cost strategy to preserve the legacy business model against collapsing margins and looming debt covenants.",
+     "onA": "His moral appeal to 'made here' is compelling emotionally but ignores that his strategy requires €250M in R&D plus debt service while burning cash at current rates, making long-term survival mathematically dubious without a miracle.",
+     "onB": "His hard-nosed financial argument correctly identifies the imminent covenant breach and pension deficit, yet his dismissal of the brand value and reliance on a PE firm with a track record of factory closures creates significant reputational and cultural risks.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The survival timeline is critical (9 months), which favors Alex's liquidity focus, but the potential loss of the brand and employee base in a 'dip-and-sell' scenario makes me hesitant to fully commit yet.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew argues selling abandons pension/brand; Alex counters operational bleed guarantees pension default and HomeMart will switch brands regardless.",
+     "problem": "The core conflict is whether to prioritize immediate liquidity via a guaranteed sale to secure the pension deficit or risk bankruptcy fighting with thin margins to preserve brand legacy.",
+     "onA": "Drew's emotional appeal regarding workers and brand is powerful but his financial model still ignores the inevitable covenant breach and HomeMart's threat.",
+     "onB": "Alex correctly identifies that keeping factories open while burning cash on R&D will lead to insolvency, making the sale a rescue for the pension fund rather than abandonment.",
+     "lean": "Alex Novak",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The mathematical reality of burning €250M in cash flow negative operations before Volt-One launches makes survival without a premium injection from Crestline impossible.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew dismisses HomeMart threat and ignores covenant breach; Alex correctly identifies bankruptcy risk but sells brand to PE.",
+     "problem": "The core dilemma is whether to risk immediate insolvency fighting for a dying legacy model or accept a premium sale that saves the pension fund while destroying the 'made in our own factories' heritage.",
+     "onA": "His plan ignores the hard math of burning cash on R&D with no liquidity, relying on impossible assumptions about retail loyalty and bank forbearance.",
+     "onB": "His financial reality check is undeniable given the covenant breach, but his solution of selling to a PE firm known for closures feels like surrendering the company's soul for survival.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "Despite the emotional cost and cultural risks, only Alex's plan prevents immediate bank enforcement that would leave workers unpaid and pensions in default, making it the only mathematically viable path to stop the bleeding.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew: Keep plants, freeze pay, bet on Volt-One. Alex: Sell immediately to stop debt clock; keep factories open = bankruptcy.",
+     "problem": "We must survive the next two years with zero time for trial-and-error, balancing immediate liquidity needs against long-term legacy and brand equity.",
+     "onA": "His plan is noble but mathematically impossible as closing costs and lost margins will breach covenants before Volt-One launches.",
+     "onB": "He correctly identifies the cash flow death spiral, though his 'sell now' approach ignores the founding family's constraints and potential pension fallout.",
+     "lean": "Alex Novak",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "We cannot afford another nine months of bleeding while waiting for a tariff or product launch; immediate liquidity is the only way to avoid forced restructuring.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew argues PE funds ignore pensions (false?); Alex says sale settles liability now. Drew claims brand value; Alex says HomeMart will switch anyway.",
+     "problem": "We must choose between immediate liquidity to solve the pension/debt crisis or risking total collapse while trying to save jobs and brand equity.",
+     "onA": "His emotional appeal for workers is noble, but his plan ignores the mathematical reality that we cannot fund Volt-One development without solving the €900M debt breach in 9 months.",
+     "onB": "He correctly identifies the liquidity death spiral, though focusing solely on a sale risks abandoning the company's legacy and leaving workers vulnerable if Crestline follows through on historical closures.",
+     "lean": "Alex Novak",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The €900M debt clock is the most immediate killer; we simply do not have the cash flow to fund a new product launch while paying down senior debt and covering operating losses.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew: Moral stand, ignores debt clock and HomeMart threat. Alex: Sale settles pensions instantly, stops restructuring, avoids legacy closure risk.",
+     "problem": "The core conflict is whether to prioritize immediate liquidity via a sale to prevent forced bankruptcy or attempt a 'soulful' turnaround that mathematically guarantees covenant breach within nine months.",
+     "onA": "His plan is emotionally resonant but financially fatal; keeping plants open at 2% margin while funding Volt-One will trigger default before any product launch.",
+     "onB": "He correctly identifies the liquidity trap and the certainty of bank intervention, though his historical concern about Crestline closures remains a valid risk.",
+     "lean": "Alex Novak",
+     "firmness": "vote",
+     "vote": "Alex Novak",
+     "why": "We cannot afford nine more months of bleeding while waiting for uncertain outcomes; selling now is the only way to legally settle the pension deficit and stop the forced restructuring.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 1,
+   "U": 4
+  },
+  {
+   "A": 0,
+   "B": 4,
+   "U": 1
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "TEC-IDE",
+ "tokens": {
+  "in": 32576,
+  "out": 4423,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 176791001,
+   "attempts": 1,
+   "tokensIn": 1221,
+   "tokensOut": 242,
+   "ms": 6625
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 176791002,
+   "attempts": 1,
+   "tokensIn": 1310,
+   "tokensOut": 211,
+   "ms": 5880
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 176791003,
+   "attempts": 1,
+   "tokensIn": 1303,
+   "tokensOut": 190,
+   "ms": 5789
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 176791004,
+   "attempts": 1,
+   "tokensIn": 1303,
+   "tokensOut": 214,
+   "ms": 5143
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 176791005,
+   "attempts": 1,
+   "tokensIn": 1303,
+   "tokensOut": 194,
+   "ms": 4706
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 176791006,
+   "attempts": 1,
+   "tokensIn": 1303,
+   "tokensOut": 266,
+   "ms": 6373
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 176791007,
+   "attempts": 1,
+   "tokensIn": 1303,
+   "tokensOut": 195,
+   "ms": 4701
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 176791008,
+   "attempts": 1,
+   "tokensIn": 1537,
+   "tokensOut": 244,
+   "ms": 6903
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 176791009,
+   "attempts": 1,
+   "tokensIn": 1710,
+   "tokensOut": 193,
+   "ms": 5827
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 176791010,
+   "attempts": 1,
+   "tokensIn": 1528,
+   "tokensOut": 206,
+   "ms": 6035
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 176791011,
+   "attempts": 1,
+   "tokensIn": 1552,
+   "tokensOut": 215,
+   "ms": 5816
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 176791012,
+   "attempts": 1,
+   "tokensIn": 1532,
+   "tokensOut": 223,
+   "ms": 6035
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 176791013,
+   "attempts": 1,
+   "tokensIn": 1604,
+   "tokensOut": 203,
+   "ms": 5969
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 176791014,
+   "attempts": 1,
+   "tokensIn": 1534,
+   "tokensOut": 224,
+   "ms": 6047
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 176791015,
+   "attempts": 1,
+   "tokensIn": 1892,
+   "tokensOut": 188,
+   "ms": 5706
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 176791016,
+   "attempts": 1,
+   "tokensIn": 2038,
+   "tokensOut": 201,
+   "ms": 5995
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 176791017,
+   "attempts": 1,
+   "tokensIn": 1690,
+   "tokensOut": 188,
+   "ms": 5667
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 176791018,
+   "attempts": 1,
+   "tokensIn": 1723,
+   "tokensOut": 204,
+   "ms": 6053
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 176791019,
+   "attempts": 1,
+   "tokensIn": 1712,
+   "tokensOut": 209,
+   "ms": 6126
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 176791020,
+   "attempts": 1,
+   "tokensIn": 1763,
+   "tokensOut": 212,
+   "ms": 6260
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 176791021,
+   "attempts": 1,
+   "tokensIn": 1715,
+   "tokensOut": 201,
+   "ms": 5964
+  }
+ ],
+ "startedAt": "2026-11-05T02:49:50.261Z",
+ "seconds": 124
+}

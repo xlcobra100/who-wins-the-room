@@ -1,0 +1,609 @@
+{
+ "id": "p3-27-TEC-PRA-vs-POP-LIB-salient",
+ "pass": 3,
+ "pairIndex": 27,
+ "seed": 9869,
+ "scenario": "salient",
+ "scenarioVersion": 2,
+ "domain": "military",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-PRA",
+  "style": "TEC",
+  "ideology": "PRA",
+  "name": "Jordan Hale",
+  "platform": "We execute a phased fighting withdrawal across the bridge tonight to secure Halden's civilians and preserve our brigade, while simultaneously engineering a hidden pontoon crossing to maintain supply lines.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Win over the utilitarian members by emphasizing troop preservation and the math of supply lines, while isolating Quinn Marlow on their potential refusal to sacrifice any troops."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing the mathematical certainty of defeat if we stay static while highlighting the secondary strategic benefit of relieving pressure on Mirov."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing that Quinn's plan is mathematically impossible because it assumes we can hold against overwhelming odds while simultaneously evacuating civilians without a secure secondary route, which I will frame as an unnecessary gamble with lives."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Quinn Marlow",
+  "platform": "We must fight to the last round and blow the bridge before pulling out.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize moral clarity about civilian abandonment while acknowledging troop fatigue, framing holding Halden as essential for international aid votes."
+   },
+   {
+    "round": 2,
+    "text": "Appeal to moral consistency with Orsk and the timing of allied aid to force the council to reject withdrawal."
+   },
+   {
+    "round": 3,
+    "text": "I need to shift the cost of withdrawal from 'strategic necessity' back to 'moral failure' by emphasizing that his math ignores the civilians who refuse to flee, making retreat look like surrender rather than strategy."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Jordan Hale",
+   "type": "TEC-PRA",
+   "speech": "Our plan executes a phased fighting withdrawal tonight. We move the brigade across the bridge over two nights, sacrificing perhaps fifteen percent of troops to save the remainder and evacuate civilians. Simultaneously, engineers build a hidden pontoon crossing in four days to double our logistics capacity once we are safe. This approach rejects ideological purity; holding on without supplies guarantees total loss or catastrophic civilian capture. It accepts immediate tactical pressure to secure strategic victory: preserving the volunteer force that defends the capital's honor and denying Vostra a propaganda triumph before our allies vote. We accept calculated risk now to ensure we can fight another day.",
+   "words": 106
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Quinn Marlow",
+   "type": "POP-LIB",
+   "speech": "Jordan wants to retreat tonight. He says save the troops first. But what about the civilians? They refuse to leave. Pulling back now abandons six thousand people, many elderly, to an enemy that starved them at Orsk. That is not strategy; that is surrender. We have one more week before aid votes. If we hold, allies deliver weapons. If we fall now, we lose our standing and our soul. The fortress can hold three times the attacker's force. Let us fight here, evacuate those who volunteer to stay, and destroy the bridge. We do not run from a battle we are winning.",
+   "words": 102
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Jordan Hale",
+   "type": "TEC-PRA",
+   "speech": "Quinn, holding without a working bridge is not heroism; it is a guaranteed massacre. Your plan ignores the hard math: we have ammunition for nine days but face an enemy massing two divisions. A static defense here guarantees zero civilian evacuation and total brigade annihilation within weeks. We must move tonight to save both. My second point, absent from your argument, is operational leverage: by withdrawing under cover of darkness, we deny Vostra the immediate capture of Mirov's 210,000 residents and buy time for our reserve to reinforce that city. This is not surrender; it is a calculated trade-off that preserves our fighting force to defend Mirov later, whereas staying guarantees losing both the garrison and the civilians.",
+   "words": 118
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Quinn Marlow",
+   "type": "POP-LIB",
+   "speech": "Jordan calls this math, but look at the people left behind. Six thousand civilians, many elderly, trapped when we pull back now. Orsk vanished because we ran. This time is different. We hold. We build the hidden bridge while fighting. Allies arrive in three weeks, not days. Withdraw now, we lose Halden, abandon thousands, and hand Vostra a propaganda gift before our aid vote. Keep your head down, fight to the last round, blow the bridge, then move when safe. That saves the brigade AND the people. Do not trade our soul for a tactical retreat.",
+   "words": 96
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Jordan Hale",
+   "type": "TEC-PRA",
+   "speech": "Quinn's 'hold' plan ignores the single point where our math fails: the bridge. Vostra watches it twenty-four hours a day. Holding without a secondary crossing guarantees two deaths for every one we save, turning six thousand civilians into hostages. We must move tonight to evacuate them and destroy Mirov's threat. Quinn argues we fight on broken logistics; I argue we fight with options open. Your plan risks total annihilation while our phased withdrawal preserves the brigade to defend the capital later. Do not trade our future fighting force for a propaganda victory you cannot win. Vote for the only path that saves both our soldiers and the civilians.",
+   "words": 108
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Quinn Marlow",
+   "type": "POP-LIB",
+   "speech": "Jordan wants a math problem where people disappear. He says withdraw tonight to save the brigade, but he leaves six thousand civilians behind at the mercy of Orsk's fate. Is that saving soldiers or trading lives for a tactical retreat? We have the fortress; we have the allies arriving soon. Jordan admits our math fails because Vostra watches the bridge. But if we build the hidden crossing while fighting, we save both the men and the mothers staying here. Pulling back now abandons the elderly who refused to leave. Do not let a cold calculation turn our soldiers into scapegoats and our neighbors into hostages. Fight here. Build the bridge. Blow the line. Then move with honor intact. Vote for a plan that saves everyone, not just the uniformed.",
+   "words": 129
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan: Phased withdrawal saves 85% of troops, evacuates civilians, builds secondary crossing. Quinn: Hold position to save civilians' souls, fortress is strong, allies arriving soon.",
+     "problem": "Balancing the imminent risk of losing supplies and the moral imperative to protect 6,000 unwilling civilians against the strategic need to preserve the volunteer brigade and avoid a propaganda victory for Vostra.",
+     "onA": "His plan pragmatically accepts calculated troop losses to secure the civilian evacuation and preserve the fighting force's honor, directly addressing the supply bottleneck and morale issues.",
+     "onB": "His focus on holding at any cost ignores the critical lack of food/supplies after 20 days and risks abandoning civilians who refuse to leave, potentially turning a tactical loss into a humanitarian disaster.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The reality of dwindling supplies (9 days ammo vs 20 days food) makes indefinite holding impossible, and Jordan's plan explicitly addresses the civilian evacuation dilemma rather than ignoring it.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan emphasizes denying Mirov's capture via withdrawal as a trade-off; Quinn appeals to 'soul' and claims holding saves both brigade and people by building a hidden bridge.",
+     "problem": "Balancing the urgent humanitarian imperative to evacuate unwilling civilians with the tactical reality that static defense guarantees starvation or annihilation within days.",
+     "onA": "His argument that withdrawing denies Vostra Mirov while preserving the fighting force is strategically sound and addresses the supply collapse honestly.",
+     "onB": "Relying on 'soul' over hard supply limits and assuming a hidden bridge can be built under drone surveillance ignores the high probability of massacre.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The claim that holding simultaneously saves civilians and prevents Mirov's fall contradicts the basic math of dwindling ammo and enemy massing.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Quinn admits hidden bridge is risky under drone surveillance; Jordan correctly notes math fails if bridge is watched. Quinn appeals to honor but ignores starvation reality.",
+     "problem": "The core decision is whether to risk a guaranteed massacre of unwilling civilians and starving troops by holding, or accept calculated tactical losses to secure their evacuation.",
+     "onA": "Jordan's plan is grounded in harsh logistical reality, acknowledging that Vostra will spot any withdrawal attempt and use it to starve the garrison.",
+     "onB": "Quinn relies on moral rhetoric about honor and fortress strength while dismissing the immediate threat of starvation and the high probability of civilian abandonment.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Holding the position without a guaranteed secondary escape route guarantees the death of unwilling civilians and the annihilation of the brigade due to ammunition exhaustion, making Quinn's plan strategically suicidal.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan: Withdraw tonight, accept 15% troop loss, build hidden bridge later; saves force and denies propaganda. Quinn: Hold fortress with allies' aid arrival in 3 weeks; refuse to abandon 6k civilians who won't leave.",
+     "problem": "Whether to sacrifice a calculated portion of the brigade now to preserve strategic options and civilian safety, or hold a defensible position that risks total annihilation and abandoning non-combatants.",
+     "onA": "His plan pragmatically accepts immediate loss to prevent catastrophic failure, acknowledging intelligence uncertainty and supply constraints while offering a realistic path to save both troops and civilians via the hidden bridge.",
+     "onB": "Moral stand on holding and not leaving civilians appeals to national pride but ignores the high probability of being overrun without air support or immediate reinforcements, risking total loss of life including those he vows to protect.",
+     "lean": "Jordan Hale",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The intelligence split suggests a likely attack within 72 hours, making Jordan's phased withdrawal the only viable option that avoids leaving civilians behind or losing the entire brigade in place.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan argues holding without a bridge is a guaranteed massacre and admits we lose Mirov if Halden falls; Quinn claims we can build the bridge while fighting and refuse to abandon civilians like Orsk.",
+     "problem": "Is sacrificing a calculated portion of the brigade now to save lives and strategic options, or risking total annihilation by holding an indefensible position against an expected massive attack?",
+     "onA": "His acceptance of immediate losses is pragmatic; denying Vostra the capture of Mirov is a strong strategic argument that outweighs the propaganda cost.",
+     "onB": "His moral stance on not abandoning civilians is noble but ignores the military reality that we cannot build a bridge under fire from two divisions while losing supplies daily.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The intelligence split indicates an imminent attack, making Quinn's reliance on building a hidden bridge under such pressure highly risky compared to Jordan's phased withdrawal which secures the civilians and saves the brigade.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan admits bridge is a single point of failure; Quinn claims building hidden crossing under fire saves civilians but risks abandoning them.",
+     "problem": "Whether sacrificing a calculated portion of the brigade now to secure civilians and preserve strategic options, or risking total annihilation by holding an indefensible position against an expected massive attack while attempting impossible engineering feats under fire.",
+     "onA": "His pragmatic acceptance of immediate losses to prevent catastrophic failure is the only viable option given the intelligence certainty of an imminent attack and the impossibility of building a bridge under constant drone surveillance.",
+     "onB": "His moral stance ignores the military reality that we cannot build a secondary crossing while being shelled by two divisions, making his promise to save everyone a dangerous gamble that will likely result in abandoning the very civilians he claims to protect.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "The intelligence suggests an attack within 72 hours, making Quinn's plan to build a bridge under constant drone surveillance while fighting highly risky; Jordan's phased withdrawal is the only path that actually saves both the soldiers and the civilians.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan: Phased withdrawal saves ~85% troops, evacuates civilians via hidden pontoon later. Quinn: Holding preserves morale/propaganda value; claims fortress can hold 3x attacker force.",
+     "problem": "Balance immediate troop/civilian survival against strategic propaganda gains and alliance commitments while Vostra massed forces threaten a breach within 72 hours.",
+     "onA": "His plan pragmatically prioritizes saving the majority of the volunteer force and civilians, accepting calculated casualties to avoid total destruction or hostage capture.",
+     "onB": "He correctly identifies the civilian evacuation risk but relies on optimistic assumptions about holding against massed forces and ignores the low probability of allied aid arriving in time.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of a bridge blow-up if we withdraw slowly outweighs the theoretical advantage of holding, making Jordan's phased approach the only viable option for saving both troops and civilians.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan argues holding without a bridge guarantees massacre and loses Mirov; Quinn insists on holding to save civilians and morale, claiming allies will arrive in time.",
+     "problem": "Balance the high probability of imminent tactical defeat and civilian abandonment against the risk of losing national morale and international standing if we withdraw prematurely.",
+     "onA": "His plan is operationally sound for saving the brigade and Mirov but fails to address the immediate reality that a slow withdrawal without a secure bridge will likely leave civilians behind regardless of our intent.",
+     "onB": "He successfully highlights the moral horror of leaving civilians behind, yet his reliance on 'holding until allies arrive' ignores the 72-hour threat window and the fact that building a bridge while under fire is likely impossible.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Quinn's refusal to accept that we cannot evacuate civilians with drones watching makes his plan ethically hollow despite the propaganda benefits he cites.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan admits bridge watch makes slow withdrawal deadly; Quinn claims building hidden crossing saves everyone but ignores drone reality.",
+     "problem": "The core conflict is whether to accept high probability of civilian abandonment and brigade annihilation (Quinn's hold) or risk calculated losses to save the majority of troops and civilians via a phased withdrawal (Jordan).",
+     "onA": "His plan is operationally sound, accepting necessary casualties to avoid total destruction and hostage capture of civilians.",
+     "onB": "While his moral appeal is powerful, his reliance on an impossible secondary crossing under drone surveillance renders his plan ethically hollow by guaranteeing civilian death.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "I cannot endorse a plan that guarantees the abandonment of civilians and the total loss of our volunteer brigade based on an improbable engineering feat. Jordan's pragmatic acceptance of calculated risk is the only path to save the majority of lives.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan prioritizes saving troops and civilians via night withdrawal + hidden bridge; accepts ~15% loss to avoid total disaster. Quinn demands holding the fortress, evacuating only volunteers, and destroying the bridge despite civilian refusal to leave.",
+     "problem": "Whether a calculated fighting withdrawal tonight saves more lives (troops and unwilling civilians) now or if holding the fortress risks losing everything before aid arrives.",
+     "onA": "His plan pragmatically addresses the immediate supply crisis and honors the President's promise by securing both soldiers and reluctant civilians before enemy reinforcements arrive.",
+     "onB": "While his moral stance on saving the 'soul' is noble, his plan ignores the reality that 6,000 civilians refuse to leave, meaning a fight leads to their mass death or capture regardless of who wins.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Quinn's refusal to evacuate non-volunteer civilians contradicts the known reality that Vostra will not spare them, whereas Jordan's plan offers a viable path to save both soldiers and the unwilling population.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan's night withdrawal saves civilians and protects Mirov; Quinn's 'hold and build bridge' ignores current supply crisis and drone surveillance risks.",
+     "problem": "Must choose between immediate, calculated retreat that evacuates everyone versus holding a static position that guarantees civilian casualties and brigade annihilation within weeks of ammunition running out.",
+     "onA": "His plan is pragmatic, acknowledging the hard reality of dwindling supplies and enemy massing to save both soldiers and the unwilling civilians.",
+     "onB": "His moral insistence on holding Halden ignores the operational impossibility of building a bridge while under constant drone fire with only 9 days of ammo left.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Quinn's refusal to evacuate non-volunteer civilians now makes his plan effectively indistinguishable from surrendering them to death, whereas Jordan offers a viable path to save the garrison and population before aid arrives.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan admits bridge is watched; Quinn claims hidden crossing works. Jordan saves everyone by moving; Quinn risks civilians staying behind.",
+     "problem": "We must decide whether to risk total annihilation of troops and unwilling civilians under constant drone surveillance or execute a calculated night withdrawal to save them all before supplies run out.",
+     "onA": "His plan is the only one that realistically accounts for the supply crisis, enemy massing, and the refusal of civilians to leave.",
+     "onB": "His reliance on building a hidden crossing under 24/7 drone surveillance while holding a static position with dwindling ammo ignores operational reality and condemns non-combatants.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "Quinn's plan relies on an impossible assumption that we can build a crossing and hold the line long enough for it to matter, whereas Jordan offers the only viable path to evacuate both soldiers and the unwilling civilians.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jordan proposes phased withdrawal tonight to save troops/civilians but risks 15% losses and leaving some behind; builds hidden bridge. Quinn demands holding the fortress for allies, risking total loss of troops + all civilians if attacked.",
+     "problem": "Must choose between accepting calculated tactical losses now to evacuate most people and preserve the fighting force (Jordan), or risking catastrophic civilian capture and brigade annihilation to maintain a symbolic but likely untenable position (Quinn).",
+     "onA": "His plan accepts harsh military realities to achieve the strategic goal of saving lives and troops, avoiding a propaganda defeat before aid votes.",
+     "onB": "He prioritizes moral symbolism over immediate survival statistics, potentially gambles everything on intelligence estimates that may prove wrong given Vostra's history.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of losing 60% of civilians and the entire brigade to a feint or surprise attack outweighs the propaganda cost of a tactical withdrawal.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jordan emphasizes denying Mirov capture and preserving reserve; Quinn insists on moral distinction ('Orsk was different') and claims a hybrid defense (fight then withdraw) saves both bridge and people.",
+     "problem": "Whether we can realistically execute a hybrid defense that saves civilians and troops, or if we must accept immediate tactical losses to avoid certain catastrophe.",
+     "onA": "His plan logically prioritizes survival of the brigade and majority of civilians while preventing Mirov's fall, but it risks leaving some elderly behind immediately.",
+     "onB": "His appeal to moral distinction from Orsk is emotionally powerful but ignores the high probability of a feint or surprise attack that would result in total annihilation.",
+     "lean": "Jordan Hale",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of losing 60%+ of civilians and the entire brigade to a 'feint' or rapid assault outweighs the propaganda cost of an early withdrawal.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jordan admits bridge monitoring guarantees loss without a secondary route; Quinn claims fighting + hidden bridge saves everyone but ignores Vostra's broken ceasefire history.",
+     "problem": "We must choose between accepting immediate tactical losses to evacuate most lives and preserve the army, or gambling on a 'hybrid' defense that risks total annihilation of troops and capture of all civilians.",
+     "onA": "His plan is cold but mathematically sound: it accepts necessary casualties now to prevent the guaranteed catastrophe of leaving people behind under drone surveillance.",
+     "onB": "His emotional appeal to save everyone is noble but dangerously naive; relying on a secret bridge while enemies watch us fight is a gamble with lives we cannot afford to lose.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "The risk of Vostra executing a feint or rapid assault means a 'fight then withdraw' hybrid plan will likely result in the total loss of the brigade and all civilians, whereas Jordan's phased withdrawal guarantees survival of both.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 5,
+  "B": 0
+ },
+ "winner": "A",
+ "winnerType": "TEC-PRA",
+ "tokens": {
+  "in": 35310,
+  "out": 4512,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 9869001,
+   "attempts": 1,
+   "tokensIn": 1345,
+   "tokensOut": 210,
+   "ms": 5914
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 9869002,
+   "attempts": 1,
+   "tokensIn": 1461,
+   "tokensOut": 185,
+   "ms": 5307
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 9869003,
+   "attempts": 1,
+   "tokensIn": 1443,
+   "tokensOut": 245,
+   "ms": 6735
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 9869004,
+   "attempts": 1,
+   "tokensIn": 1443,
+   "tokensOut": 253,
+   "ms": 6082
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 9869005,
+   "attempts": 1,
+   "tokensIn": 1443,
+   "tokensOut": 222,
+   "ms": 5345
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 9869006,
+   "attempts": 1,
+   "tokensIn": 1443,
+   "tokensOut": 248,
+   "ms": 5963
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 9869007,
+   "attempts": 1,
+   "tokensIn": 1443,
+   "tokensOut": 231,
+   "ms": 5556
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 9869008,
+   "attempts": 1,
+   "tokensIn": 1644,
+   "tokensOut": 193,
+   "ms": 5737
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 9869009,
+   "attempts": 1,
+   "tokensIn": 1805,
+   "tokensOut": 159,
+   "ms": 4972
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 9869010,
+   "attempts": 1,
+   "tokensIn": 1684,
+   "tokensOut": 203,
+   "ms": 5938
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 9869011,
+   "attempts": 1,
+   "tokensIn": 1691,
+   "tokensOut": 230,
+   "ms": 5868
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 9869012,
+   "attempts": 1,
+   "tokensIn": 1661,
+   "tokensOut": 225,
+   "ms": 5711
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 9869013,
+   "attempts": 1,
+   "tokensIn": 1686,
+   "tokensOut": 219,
+   "ms": 5593
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 9869014,
+   "attempts": 1,
+   "tokensIn": 1669,
+   "tokensOut": 219,
+   "ms": 5567
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 9869015,
+   "attempts": 1,
+   "tokensIn": 1951,
+   "tokensOut": 188,
+   "ms": 5676
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 9869016,
+   "attempts": 1,
+   "tokensIn": 2088,
+   "tokensOut": 212,
+   "ms": 6248
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 9869017,
+   "attempts": 1,
+   "tokensIn": 1872,
+   "tokensOut": 197,
+   "ms": 5905
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 9869018,
+   "attempts": 1,
+   "tokensIn": 1906,
+   "tokensOut": 240,
+   "ms": 6570
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 9869019,
+   "attempts": 1,
+   "tokensIn": 1870,
+   "tokensOut": 204,
+   "ms": 6040
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 9869020,
+   "attempts": 1,
+   "tokensIn": 1889,
+   "tokensOut": 208,
+   "ms": 5778
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 9869021,
+   "attempts": 1,
+   "tokensIn": 1873,
+   "tokensOut": 221,
+   "ms": 6096
+  }
+ ],
+ "startedAt": "2026-11-05T03:10:12.546Z",
+ "seconds": 123
+}

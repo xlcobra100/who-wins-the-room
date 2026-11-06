@@ -1,0 +1,609 @@
+{
+ "id": "p3-47-HYB-PRA-vs-TEC-REA-salient",
+ "pass": 3,
+ "pairIndex": 47,
+ "seed": 729316,
+ "scenario": "salient",
+ "scenarioVersion": 2,
+ "domain": "military",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Riley Sandor",
+  "platform": "We execute a phased fighting withdrawal tonight using the existing bridge under heavy cover, evacuate the civilians we can move before blowing up the span to deny Vostra Mirov, and commit the strategic reserve only if they fail to cross by dawn.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to the pragmatic fear of losing both soldiers and civilians simultaneously while framing this withdrawal as a tactical maneuver that strengthens our bargaining position with allies."
+   },
+   {
+    "round": 2,
+    "text": "Emphasize immediate civilian safety and the impossibility of building a second crossing before Vostra strikes to undermine Reese's delay tactic."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the immediate human cost of delay to appeal to humanitarian values while reinforcing that my plan achieves both moral imperatives and strategic denial of territory, directly countering the opponent's reliance on uncertain engineering timelines."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-REA",
+  "style": "TEC",
+  "ideology": "REA",
+  "name": "Reese Calder",
+  "platform": "Hold Halden until a second hidden pontoon bridge is ready in four days, then execute an orderly withdrawal under cover of our own artillery barrage.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to the councillors' fear of losing Mirov and the political cost of high casualties before the aid vote."
+   },
+   {
+    "round": 2,
+    "text": "I must emphasize the lethal reality of moving under full drone surveillance and the strategic necessity of keeping the reserve at Mirov while leveraging the fortress's defensive advantage."
+   },
+   {
+    "round": 3,
+    "text": "I must emphasize the certainty of Vostran aggression and the mathematical advantage of the second bridge to counter Riley's emotional appeal about saving lives immediately."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-PRA",
+   "speech": "Imagine Private Kael holding that old fortress line for twenty days while engineers build a second crossing; he is a hero who should not die because we refused to turn judgment into action. Vostra has drones watching; our staff calculates thirty percent losses on a night assault against artillery, plus thousands of civilians left behind if we wait. Our plan differs: we withdraw tonight under cover, move the elderly first, and destroy the bridge only after the last column passes. This denies Vostra Mirov without sacrificing the 4th Brigade or breaking our alliance promise. We keep options open by preparing the hidden pontoon for the reserve, ensuring victory is measured in lives saved and territory held, not empty slogans.",
+   "words": 119
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "TEC-REA",
+   "speech": "Riley wants to withdraw tonight. That plan relies on Vostra stopping their drones and respecting the bridge, which history shows they will not do. We lose twenty percent of the brigade and most civilians if we move now under fire. Holding for four days lets engineers build a second crossing, doubling our escape route while keeping Mirov defended by our reserve. Our artillery can suppress Vostra forces during daylight moves. This denies them the propaganda victory before allied aid votes without exposing us to unnecessary ambush losses. We secure the civilians first, then withdraw safely when we control the exit.",
+   "words": 100
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-PRA",
+   "speech": "Reese, your math ignores the human cost of delay. You claim holding lets engineers build a second crossing, but Vostra's drones watch that bridge continuously; every hour we wait is an hour our civilians starve while artillery hits the only road. Your plan risks losing thirty percent of the brigade in daylight if Vostra attacks as intelligence suggests they will within seventy-two hours. My phased withdrawal tonight moves the elderly first under heavy cover, denying them Mirov immediately without exposing everyone to a guaranteed ambush. We do not gamble heroics on broken ceasefires; we move now, secure the bridge, and only commit our reserve to Mirov if the crossing fails by dawn, ensuring victory is measured in lives saved, not empty slogans.",
+   "words": 122
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "TEC-REA",
+   "speech": "Riley, your plan guarantees catastrophic loss because it depends on Vostra suspending drone surveillance during our transit. They will not stop watching; history at Orsk proves they exploit ceasefires immediately. If we move tonight under continuous observation, we accept a thirty percent casualty rate and abandon six thousand civilians to starvation or capture before the second bridge is even considered. Holding for four days allows engineers to complete the hidden pontoon crossing, doubling our escape capacity while our artillery suppresses their approach. This forces Vostra to assault a fortified position where they need three times our numbers, buying us time without gambling on enemy goodwill. The reserve remains at Mirov to defend that population center, preventing a collapse of our entire flank if the river line slips.",
+   "words": 127
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "HYB-PRA",
+   "speech": "Reese, your confidence in holding Halden rests on a dangerous gamble with time we cannot afford. The staff estimate Vostra attacks within seventy-two hours; every hour of delay is an hour our civilians starve under drone fire while morale fractures. Your plan leaves thousands behind to the enemy's mercy or starvation, trading today's safety for tomorrow's propaganda victory. My phased withdrawal tonight moves the elderly first under cover, securing the bridge before blowing it to deny Mirov immediately. This approach accepts calculated risk to save lives rather than ideological purity that sacrifices them. We do not wait for a miracle ceasefire or assume engineers can finish in time without casualties. Let us act now, bring our people home safely, and preserve the force needed to defend what remains.",
+   "words": 128
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Reese Calder",
+   "type": "TEC-REA",
+   "speech": "Riley's withdrawal tonight is a mathematical certainty for disaster. Moving under continuous drone surveillance guarantees thirty percent losses because Vostra will not stop watching; their intent is fixed, not negotiable. Waiting four days to build the second pontoon doubles our escape routes while artillery suppresses their advance, turning Halden from a trap into a fortress that forces them to commit three times their current force for an assault they cannot win. This delay allows engineers to complete the crossing and ensures most civilians evacuate safely before we blow the bridge, denying Vostra Mirov without sacrificing our reserve's ability to hold it. Riley trades guaranteed survival for a gamble on enemy restraint; history shows such gambles fail. We hold now, secure the escape route tomorrow, and withdraw with minimal loss.",
+   "words": 129
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley proposes immediate withdrawal tonight to save lives and deny Mirov, accepting potential civilian evacuation risks. Reese argues waiting 4 days allows a second bridge construction for safer exit while maintaining defense.",
+     "problem": "Whether the strategic value of holding Halden long enough to build a second crossing outweighs the high risk of losing men and civilians to an imminent Vostran attack under drone surveillance.",
+     "onA": "Riley prioritizes immediate life preservation and denies Vostra Mirov, but risks leaving thousands of civilians behind if the bridge is blown early or if they refuse to leave.",
+     "onB": "Reese correctly identifies the danger of moving under current fire conditions and highlights the engineering solution that could make a safe withdrawal possible later.",
+     "lean": "Reese Calder",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The risk of leaving 6,000 civilians behind during an immediate night assault seems unacceptable compared to the viable option Reese presents of building a second crossing first.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley: Immediate move saves lives but risks leaving all 6k civilians; history shows Vostra breaks ceasefires. Reese: Waiting doubles escape capacity via hidden bridge; attacking tonight guarantees 30% brigade loss and civilian abandonment.",
+     "problem": "The core dilemma is whether the guaranteed high probability of total catastrophe (bride losses + civilian deaths) from moving tonight under drone surveillance outweighs the strategic risk of Vostra exploiting our delay to attack before the second bridge is ready.",
+     "onA": "Riley's plan prioritizes saving soldiers but fails to account for the refusal of many elderly civilians to leave, which would still condemn them to death if we blow the bridge early.",
+     "onB": "Reese correctly identifies that moving under continuous drone surveillance is a death trap and that engineering a second crossing offers a viable path to save everyone.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of abandoning 6,000 non-combatants who refuse to leave under fire makes Riley's 'phased withdrawal' plan morally untenable compared to Reese's engineered escape.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Vostra intent is fixed; moving under drones guarantees high losses. Waiting allows a second bridge to double escape capacity while forcing an enemy assault we cannot win.",
+     "problem": "The core dilemma is whether the certainty of catastrophic civilian and military loss from an immediate night withdrawal outweighs the risk that Vostra will attack before our engineered second crossing is complete.",
+     "onA": "Riley's plan accepts a high probability of abandoning thousands of non-combatants and sacrificing significant troop strength for a symbolic victory we can ill afford.",
+     "onB": "Reese correctly identifies the death trap of moving under drone surveillance and offers a viable engineering solution that secures both our forces and civilians before withdrawing.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "The certainty of losing up to 30% of our brigade and leaving behind thousands of unwilling civilians makes Riley's immediate withdrawal unacceptable compared to the feasible option of building a second crossing first.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Withdraw tonight, move elderly first, destroy bridge later. Relies on Vostra not using drones/ambush. Reese: Hold 4 days, build second crossing, then withdraw safely. Assumes artillery can suppress enemy during daylight moves.",
+     "problem": "Can we evacuate the brigade and civilians without unacceptable losses or abandonment, given Vostra's high confidence in an imminent attack?",
+     "onA": "Riley's plan prioritizes immediate evacuation but assumes a window of opportunity that intelligence suggests is unlikely to exist.",
+     "onB": "Reese's plan attempts to secure an escape route before moving, but waiting exposes us to the predicted heavy casualties if Vostra attacks as expected.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am unsure which risk is worse: losing the bridge while under fire (Riley) or suffering high losses from a potential ambush during a delayed withdrawal (Reese).",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley emphasizes immediate evacuation and not gambling on enemy drone suspension; Reese argues building a second crossing doubles escape capacity and forces Vostra to assault fortified lines.",
+     "problem": "We must choose between the high probability of losing civilians to starvation/capture during an immediate forced march versus the risk of heavy casualties if Vostra attacks while we hold for bridge construction.",
+     "onA": "Riley's plan prioritizes saving lives now but relies critically on Vostra ignoring the obvious opportunity to ambush a moving column under continuous drone surveillance.",
+     "onB": "Reese's plan offers a safer tactical exit via a secondary route but requires holding a doomed position for days, which may not be feasible if intelligence predicts an attack within 72 hours.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn because the human cost of waiting (starvation/capture) is certain, yet the risk of attacking during transit (ambush) seems equally catastrophic given Vostra's known aggression at Orsk.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Reese assumes Vostra pauses for bridge build; Riley accepts risk of immediate move to save civilians.",
+     "problem": "We must evacuate the brigade and starving civilians before Vostra captures them or destroys our remaining forces in a predictable attack.",
+     "onA": "Riley's plan prioritizes saving lives now over a doomed hold, acknowledging that waiting guarantees civilian starvation and potential ambush losses.",
+     "onB": "Reese's plan relies on optimistic assumptions about enemy restraint and engineering speed that contradict intelligence warnings of an imminent attack.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "I cannot gamble the lives of starving civilians and a demoralized brigade on Vostra pausing for bridge construction when they have already shown willingness to break ceasefires. Riley's calculated risk to evacuate immediately is the only option that avoids abandoning our people.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Withdraw tonight, save brigade/civilians, deny Mirov. Reese: Hold 4 days to build second crossing, safer withdrawal later.",
+     "problem": "Choose between immediate risky evacuation or holding a strong defensive line for four days to enable a safer bridge construction and exit.",
+     "onA": "Prioritizes immediate human rescue but assumes we can safely extract forces against active drone surveillance without significant losses.",
+     "onB": "Relies on the math that a second crossing makes holding worthwhile, assuming Vostra will not break the ceasefire immediately if we hold artillery.",
+     "lean": "Reese Calder",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am concerned that an immediate night withdrawal under drone surveillance risks losing the entire brigade and abandoning civilians who refuse to leave, whereas holding a fortress is historically viable for three-to-one odds.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley prioritizes immediate extraction but assumes drone surveillance will pause or fail; risks high civilian/force loss. Reese relies on fortress math and hidden bridge completion; risks Vostra attacking ceasefire immediately.",
+     "problem": "Balancing the certainty of losing civilians and a weakened brigade in an immediate night withdrawal against the risk that holding for four days invites a guaranteed assault before the second bridge is ready.",
+     "onA": "His humanitarian focus is compelling, but his assumption that we can safely move 6,000 civilians under continuous drone watch without significant losses seems dangerously optimistic given Vostra's track record at Orsk.",
+     "onB": "His defensive math holds up well (3:1 odds), and completing the second bridge solves the capacity issue, though holding for four days risks turning a fortress into a meat grinder if Vostra attacks early.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of abandoning thousands of civilians to starvation or capture tonight under active drone surveillance outweighs the theoretical risk of an early assault, making the fortress hold and bridge construction the only viable path to saving lives.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley risks immediate loss under drones; Reese risks early assault but secures escape route.",
+     "problem": "The core dilemma is whether to risk a high-probability disaster tonight by withdrawing immediately or hold a defensible fortress for four days to guarantee civilian survival and force denial despite the enemy's intent.",
+     "onA": "His humanitarian urgency is noble, but his reliance on enemy restraint during a drone-watched night evacuation contradicts intelligence about Vostra's track record at Orsk.",
+     "onB": "His defensive math regarding the three-to-one odds and the strategic value of a completed second bridge outweighs the risk of an early assault which can be mitigated by holding high ground.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "The fortress holds naturally against an immediate attack, allowing time to build the second crossing which guarantees civilian safety before a blow-up, whereas tonight's withdrawal risks losing both the brigade and the population under guaranteed drone surveillance.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Withdraw tonight, save brigade/civilians, deny Mirov. Reese: Hold 4 days to build pontoon, suppress Vostra artillery first.",
+     "problem": "Choose between risking immediate heavy casualties during a night withdrawal now or holding the fortress longer despite dwindling supplies and high risk of encirclement.",
+     "onA": "His plan prioritizes saving lives immediately but assumes Vostra will not destroy the bridge instantly, which intelligence suggests is highly unlikely given their drone surveillance.",
+     "onB": "He argues for using artillery suppression to enable a daylight move after building a second crossing, which seems more robust against the known threat of immediate destruction.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Riley's reliance on Vostra respecting the bridge during our withdrawal contradicts evidence that they broke a previous ceasefire and use drones to watch for targets.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley risks 30% casualties moving under drones; Reese relies on building a pontoon in 4 days against likely attacks. Riley wants to deny Mirov immediately; Reese keeps reserve at Mirov.",
+     "problem": "Must choose between immediate night withdrawal with high guaranteed drone-detection losses or holding fortified but starving for days to build a redundant crossing against imminent assault.",
+     "onA": "His focus on saving lives is compelling, but his assumption that Vostra will pause drone surveillance during a transit is dangerously naive given the Orsk precedent.",
+     "onB": "His plan to hold and build a second crossing offers redundancy and keeps the strategic reserve at Mirov, which seems robust against the enemy's likely aggression.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Riley's reliance on enemy restraint is too risky when history shows they exploit ceasefires immediately, making Reese's engineering solution despite the hard choices more viable.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley risks 30% losses moving under drones; Reese relies on building a pontoon in 4 days against likely attacks.",
+     "problem": "Choose between immediate night withdrawal with high guaranteed drone-detection losses or holding fortified but starving for days to build a redundant crossing.",
+     "onA": "His focus on saving lives is compelling, but his assumption that Vostra will pause drone surveillance during a transit is dangerously naive given the Orsk precedent.",
+     "onB": "His plan to hold and build a second crossing offers redundancy and keeps the strategic reserve at Mirov, which seems robust against the enemy's likely aggression.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "Riley's plan accepts a mathematically certain disaster by moving under continuous drone surveillance, whereas Reese's engineering solution creates a redundant escape route that ensures civilian safety and maintains our defensive reserve.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Withdraw tonight, save lives/brigade, deny Mirov. Risks: drone spotted assault = 15-30% losses, civilians left behind if not all move fast enough.\nReese: Hold 4 days to build second bridge (double escape). Risks: Vostra likely ignores ceasefire, morale brittle, but suppressive fire helps daylight withdrawal.",
+     "problem": "Decide whether to attempt a dangerous immediate night evacuation or hold position longer to secure a safer dual-exit route while risking further attrition and potential civilian abandonment if the hold fails.",
+     "onA": "Prioritizes saving lives immediately but underestimates Vostra's willingness to destroy civilians and ignores that a spotted withdrawal causes unacceptable losses.",
+     "onB": "Acknowledges the high risk of holding longer but offers a concrete engineering solution (second bridge) that fundamentally changes the evacuation dynamics from a gamble to a controlled operation.",
+     "lean": "Reese Calder",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Reese's plan addresses the critical bottleneck of supply capacity by creating a second escape route, making the withdrawal less dependent on Vostra stopping their attack or us moving entirely in the dark.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley risks 30% losses if spotted; moving elderly first is logistically chaotic under drone watch. Reese relies on Vostra respecting engineering time, but history says they won't stop drone surveillance.",
+     "problem": "The core dilemma is whether to execute a high-probability immediate mass casualty event (spotted night withdrawal) or risk a lower-probability attritional hold that might succeed if engineers can finish a secondary bridge before Vostra attacks.",
+     "onA": "Riley correctly identifies the moral hazard of delaying for civilians, but his plan ignores that Vostra will actively target the bridge transit regardless of ceasefire offers, making the 'move now' gamble statistically fatal.",
+     "onB": "Reese's counterpoint about Vostra ignoring ceasefires is factually supported by Orsk, yet holding allows engineers to solve the supply bottleneck which is currently the single point of failure for any withdrawal.",
+     "lean": "Reese Calder",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The existence of a secondary bridge transforms the mission from a desperate gamble dependent on enemy restraint into a manageable engineering operation, whereas Riley's plan accepts high casualties as a statistical inevitability.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley risks spotted withdrawal casualties; Reese relies on Vostra ignoring surveillance but offers dual-exit safety.",
+     "problem": "Choose between a high-probability immediate evacuation with guaranteed civilian risk or a calculated delay that secures escape routes and forces an enemy assault.",
+     "onA": "His plan prioritizes saving the brigade immediately but accepts statistically fatal losses on the bridge and abandoning civilians who refuse to move fast enough.",
+     "onB": "He correctly identifies the drone surveillance as a trap for night movement, offering a robust engineering solution that guarantees civilian survival if engineers work uninterrupted.",
+     "lean": "Reese Calder",
+     "firmness": "vote",
+     "vote": "Reese Calder",
+     "why": "The second bridge transforms a desperate gamble into a controlled operation where Vostra must assault a fortified position rather than hunt fleeing troops across an open span.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 4,
+   "U": 1
+  },
+  {
+   "A": 0,
+   "B": 4,
+   "U": 1
+  },
+  {
+   "A": 1,
+   "B": 4,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 1,
+  "B": 4
+ },
+ "winner": "B",
+ "winnerType": "TEC-REA",
+ "tokens": {
+  "in": 35659,
+  "out": 4568,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 729316001,
+   "attempts": 1,
+   "tokensIn": 1338,
+   "tokensOut": 239,
+   "ms": 6586
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 729316002,
+   "attempts": 1,
+   "tokensIn": 1467,
+   "tokensOut": 191,
+   "ms": 5472
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 729316003,
+   "attempts": 1,
+   "tokensIn": 1451,
+   "tokensOut": 228,
+   "ms": 6713
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 729316004,
+   "attempts": 1,
+   "tokensIn": 1451,
+   "tokensOut": 216,
+   "ms": 5187
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 729316005,
+   "attempts": 1,
+   "tokensIn": 1451,
+   "tokensOut": 198,
+   "ms": 4820
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 729316006,
+   "attempts": 1,
+   "tokensIn": 1451,
+   "tokensOut": 209,
+   "ms": 5031
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 729316007,
+   "attempts": 1,
+   "tokensIn": 1451,
+   "tokensOut": 269,
+   "ms": 6436
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 729316008,
+   "attempts": 1,
+   "tokensIn": 1658,
+   "tokensOut": 190,
+   "ms": 5672
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 729316009,
+   "attempts": 1,
+   "tokensIn": 1814,
+   "tokensOut": 197,
+   "ms": 5856
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 729316010,
+   "attempts": 1,
+   "tokensIn": 1688,
+   "tokensOut": 255,
+   "ms": 7182
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 729316011,
+   "attempts": 1,
+   "tokensIn": 1676,
+   "tokensOut": 233,
+   "ms": 5898
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 729316012,
+   "attempts": 1,
+   "tokensIn": 1660,
+   "tokensOut": 256,
+   "ms": 6432
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 729316013,
+   "attempts": 1,
+   "tokensIn": 1670,
+   "tokensOut": 224,
+   "ms": 5682
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 729316014,
+   "attempts": 1,
+   "tokensIn": 1730,
+   "tokensOut": 263,
+   "ms": 6623
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 729316015,
+   "attempts": 1,
+   "tokensIn": 1988,
+   "tokensOut": 208,
+   "ms": 6134
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 729316016,
+   "attempts": 1,
+   "tokensIn": 2147,
+   "tokensOut": 198,
+   "ms": 5917
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 729316017,
+   "attempts": 1,
+   "tokensIn": 1925,
+   "tokensOut": 211,
+   "ms": 6251
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 729316018,
+   "attempts": 1,
+   "tokensIn": 1891,
+   "tokensOut": 190,
+   "ms": 5338
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 729316019,
+   "attempts": 1,
+   "tokensIn": 1900,
+   "tokensOut": 215,
+   "ms": 6031
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 729316020,
+   "attempts": 1,
+   "tokensIn": 1877,
+   "tokensOut": 199,
+   "ms": 5581
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 729316021,
+   "attempts": 1,
+   "tokensIn": 1975,
+   "tokensOut": 179,
+   "ms": 5152
+  }
+ ],
+ "startedAt": "2026-11-05T04:23:14.121Z",
+ "seconds": 124
+}

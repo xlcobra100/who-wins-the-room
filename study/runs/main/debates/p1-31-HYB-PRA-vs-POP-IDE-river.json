@@ -1,0 +1,606 @@
+{
+ "id": "p1-31-HYB-PRA-vs-POP-IDE-river",
+ "pass": 1,
+ "pairIndex": 31,
+ "seed": 611215,
+ "scenario": "river",
+ "domain": "diplomatic",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Casey Rowan",
+  "platform": "Merova should immediately sign a temporary seven-year power purchase agreement to slow reservoir filling while we negotiate a joint technical commission to optimize water releases and secure our farmers' future.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor the debate on immediate economic relief and technical feasibility to undermine any call for military action or pure legalism."
+   },
+   {
+    "round": 2,
+    "text": "I am framing the power contract as essential humanitarian aid that neutralizes his moral high ground while highlighting the climate inevitability of the water loss he ignores."
+   },
+   {
+    "round": 3,
+    "text": "I need to convince the pragmatic ministers that Sam's moral stance ignores the military threat from Saradan and the immediate debt trap of staying idle, proving my phased economic solution is the only viable path."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-IDE",
+  "style": "POP",
+  "ideology": "IDE",
+  "name": "Sam Vidal",
+  "platform": "We must reject Saradan's predatory power deal and instead demand joint management of the Tessel to protect our farmers and our future water.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "I will paint their 'power deal' as a trap that sacrifices farmers for cheap electricity to galvanize public sentiment against the cabinet's usual technocratic compromise."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking the transactional nature of Casey's plan to highlight long-term dependency risks and moral corruption, aiming to sway ministers who care about fairness and sovereignty."
+   },
+   {
+    "round": 3,
+    "text": "I will frame Casey's plan as a betrayal of our children by accepting upstream dominance disguised as economic pragmatism."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "HYB-PRA",
+   "speech": "Imagine a Merovan farmer watching her fields turn to dust because upstream concrete stops the river before rain even falls. That is our reality: twenty-five percent less water for three years, then ten percent forever. We cannot wait five years at the International Court or rely on a Regional Union mediation that took four years and failed. Instead, I propose an immediate seven-year pause on filling if Saradan agrees to buy our grain and we sign a power contract that lets us close coal plants while keeping our farms watered. We pair short-term economic relief with long-term joint management to reclaim half the lost water through science, not just force. This buys time for climate adaptation without sacrificing our food security or ignoring the people upstream who need electricity.",
+   "words": 129
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Sam Vidal",
+   "type": "POP-IDE",
+   "speech": "Look at the family at the kitchen table. They rely on our river for bread. That dam steals their water. Saradan offers us electricity, but it costs our farms and drowns our grandchildren's future in a dry lake. Do we trade justice for a contract? No! We cannot let elites sign away our lifeblood while the poor suffer. Let us build a community that stands together, not one that divides us. Reject this short-term greed. Demand fairness now. Protect the vulnerable. Choose dignity over profit.",
+   "words": 85
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "HYB-PRA",
+   "speech": "Sam, dignity cannot be found in a drought. Your rhetoric about justice ignores that forty percent of Saradanis lack reliable power today; our deal directly solves this crisis while protecting Merova's farms. We are not trading justice for profit; we are trading empty threats for a tangible contract that closes coal plants and funds clean energy. If we reject this, we risk total flow loss by 2050 regardless of politics. My plan offers a testable pause to fill reservoirs over seven years, paired with a technical commission to recover lost water through science. This is pragmatic justice: it helps the farmer in the field and the family without electricity right now, keeping all options open while we build a sustainable future together.",
+   "words": 122
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Sam Vidal",
+   "type": "POP-IDE",
+   "speech": "Casey calls this pragmatic justice, but look closer. You trade our farmers' water for their electricity? Our farms feed Saradan today. If we sell our river first and buy back power later, who pays the bill? The loans from Tarsun will become debt traps. Joint management sounds noble until you realize they won't share unless forced. We cannot let elites sign away our children's future for a contract. We must demand immediate joint control over releases. Let science guide us together, not a buyer-seller deal that drowns the poor in dust while filling an upstream lake. Choose dignity now.",
+   "words": 99
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "HYB-PRA",
+   "speech": "Sam fears a debt trap, yet our plan is already funded by closing dirty coal plants while securing twenty percent cheaper, clean power for decades. His demand for immediate joint control ignores reality: Saradan has moved air-defense units to the dam, and their government faces an election soon; they will not concede sovereignty without leverage. Our seven-year pause is that leverage. It buys time for our farmers to adapt rather than face a dust bowl, allowing us to negotiate genuine shared management before the reservoir fills. We reject empty threats of force or unenforceable court rulings in favor of a concrete contract that delivers electricity to Saradanis today and water security for Merova tomorrow. Let us sign the deal that works.",
+   "words": 121
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Sam Vidal",
+   "type": "POP-IDE",
+   "speech": "Casey offers us a contract, but contracts cannot give back our stolen river. You trade our farmers' future for Saradan's electricity, letting them drain our lifeblood while they fill their lake first. That is not justice; that is surrender to an upstream bully. Do we sign away our children's water just because they lack lights tonight? No! We demand joint control now, before the concrete pours and the dust settles. Let science manage our shared river together, not a buyer-seller deal. Protect the farmer, protect the future, and choose dignity over debt. Demand fairness today, or watch our fields turn to dust forever.",
+   "words": 103
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey offers compromise: pause filling, power deal, joint management. Sam rejects deal, demands justice, protects vulnerable.",
+     "problem": "Merova must secure its water supply and farmer livelihoods against a massive upstream dam while addressing energy needs and climate risks.",
+     "onA": "Casey's plan addresses immediate water loss through a pause and long-term recovery via joint management, though the trade-off for electricity seems economically sound but politically risky.",
+     "onB": "Sam's rhetoric is emotionally powerful regarding justice and protecting farmers, but offers no concrete strategy to prevent the dam from being built or to mitigate its inevitable impact.",
+     "lean": "Casey Rowan",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Sam's emotional appeal lacks a feasible plan for water security, whereas Casey proposes actionable steps to preserve farms and adapt to climate change.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey frames water-for-power as 'pragmatic justice' for Saradanis lacking power and closing Merova's coal plants. Sam counters that selling water first creates debt traps for Tarsun and drowns the poor, demanding immediate joint control over releases.",
+     "problem": "Merova must secure its water supply and farmer livelihoods against an inevitable dam impact while avoiding economic traps and ensuring climate resilience.",
+     "onA": "Casey's plan offers a tangible solution to Saradan's energy crisis and provides a scientific path for recovery, though the 'power deal' remains politically risky.",
+     "onB": "Sam correctly identifies the risks of Tarsun's debt traps and the danger of elites ignoring rural suffering, but his refusal to consider any power deal leaves Merova without an energy transition strategy.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Sam's valid concerns about Tarsun are mitigated by Casey's offer to close coal plants, whereas Sam offers no concrete mechanism to prevent the dam or secure water flow.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey offers leverage via pause + clean power; Sam refuses deal calling it surrender to bully.",
+     "problem": "Merova must secure immediate water security and farmer livelihoods while ensuring long-term energy resilience against an inevitable upstream development.",
+     "onA": "Casey's pragmatic approach balances urgent water needs with a viable path for climate adaptation and economic stability through clean energy integration.",
+     "onB": "While Sam's moral stance on justice is compelling, his refusal to engage in the power deal leaves Merova without a concrete mechanism to prevent catastrophic water loss or adapt to climate change.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "The proposed pause and power deal provide tangible leverage to negotiate better terms and secure our farmers' future, whereas Sam's refusal to sign any agreement risks immediate devastation with no recovery plan.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey offers pause + power deal + joint management; Sam rejects trade-off for dignity/justice.",
+     "problem": "Balancing immediate agricultural survival and water rights against energy needs and climate adaptation while avoiding a deadlock.",
+     "onA": "Pragmatic approach that addresses both water security via a pause and long-term efficiency through joint scientific management, though relies on Saradan's cooperation.",
+     "onB": "Morally compelling rhetoric emphasizing justice for farmers and the vulnerable, but lacks a concrete mechanism to stop the dam without risking escalation.",
+     "lean": "Casey Rowan",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Sam's moral stance is strong, but Casey's proposal actually solves the immediate water crisis and offers a path to climate adaptation that Sam ignores.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey argues dignity needs power and a pause; Sam warns of debt traps and elite deals that ignore farmers.",
+     "problem": "Balancing immediate agricultural survival against energy needs and climate adaptation while avoiding a deadlock that forces us to choose between water rights and economic stability.",
+     "onA": "His pragmatic deal addresses the immediate power crisis in Saradan but feels like trading our long-term water security for short-term energy profits.",
+     "onB": "His warning about debt traps and the risk of selling our future for a contract resonates deeply, yet his refusal to engage with the power offer leaves us vulnerable to climate decline.",
+     "lean": "Sam Vidal",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Sam's concern that we would be 'drowning the poor in dust' by prioritizing a power contract over our farmers' water rights outweighs Casey's optimistic view of joint management without enforceable constraints.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey argues contract enables adaptation; Sam insists on stopping water theft immediately.",
+     "problem": "Merova must balance immediate agricultural survival against the need for long-term climate adaptation without surrendering future water rights to a powerful upstream neighbor.",
+     "onA": "His pragmatic deal provides concrete leverage and funds renewable energy, but risks trading our permanent water security for short-term political stability.",
+     "onB": "His moral stance correctly identifies the injustice of selling our river, yet his refusal to accept any interim agreement leaves us vulnerable to a filled reservoir before adaptation occurs.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "The seven-year pause is the only concrete leverage we have given Saradan's election and military posture; accepting a deal now allows farmers to adapt while securing energy, whereas Sam's idealism risks drowning our fields in dust before we can act.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey proposes a compromise: 7-year pause, power deal to close coal plants, and joint water management. Sam demands immediate rejection of the dam, prioritizing justice/vulnerable over economic relief.",
+     "problem": "Merova faces an immediate existential threat to its agriculture from reduced river flow caused by Saradan's dam, requiring a solution that balances short-term survival with long-term climate adaptation.",
+     "onA": "Casey's plan addresses the urgent agricultural crisis while offering tangible economic benefits (power deal) and a scientific path to recovering water losses, making it the only viable option given our reliance on the river.",
+     "onB": "Sam's emotional appeal to justice is noble but his strategy of outright rejection leaves us with no alternative to prevent crop failure or secure electricity for a country facing a power crisis.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Pragmatism dictates that we must act now to protect our farms and food security, which Casey addresses directly, whereas Sam's approach risks causing immediate humanitarian disaster without a clear alternative plan.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey argues 'pragmatic justice' by solving the power crisis in Saradan while recovering water via science. Sam warns of a debt trap from Tarsun loans and claims joint management won't work without forced control.",
+     "problem": "Merova must secure immediate agricultural survival against a guaranteed flow drop while navigating the risk that economic deals might compromise long-term water sovereignty.",
+     "onA": "His plan is technically sound for climate adaptation, but his framing of the power deal as 'justice' feels like it undervalues our farmers' primary need for water security.",
+     "onB": "His warning about Tarsun's debt trap and lack of trust in Saradan's elite cooperation highlights a critical vulnerability I previously underestimated regarding national sovereignty.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Sam's point about the 'debt trap' and the reality that Saradan won't share water voluntarily has made me question whether a commercial deal is truly safe, shifting my view slightly despite Casey's better technical plan.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey's deal solves our power crisis and buys time; Sam's demand for joint control ignores Saradan's military buildup and election politics.",
+     "problem": "We must secure immediate agricultural survival against guaranteed flow drops while avoiding an unenforceable sovereignty trap that risks national disaster.",
+     "onA": "His plan pragmatically addresses our farmers' existential threat by trading electricity for a seven-year pause, which is the only realistic path to adaptation.",
+     "onB": "His moral stance on water justice is noble but strategically fatal as it rejects a viable alternative and ignores the immediate risk of crop failure.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "We cannot survive a dust bowl by refusing a deal that secures our farmers' livelihoods while we adapt to both the dam and climate change.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey offers a pragmatic trade: pause filling, buy grain, sell power to close coal plants, and use joint management for climate resilience. Sam rejects the deal as 'greed' that hurts farmers and demands immediate justice without economic concessions.",
+     "problem": "How does Merova prevent irreversible water loss while addressing its energy needs and protecting vulnerable populations from political or economic coercion?",
+     "onA": "Casey's plan addresses the immediate agricultural crisis and offers a tangible climate solution (joint management) that recovers half the lost water, though it involves accepting a power contract.",
+     "onB": "Sam correctly identifies the moral hazard of letting elites sacrifice the poor but fails to offer a concrete alternative for energy security or a viable path to stop the dam without causing an economic collapse.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Given that Merova's economy relies heavily on agriculture and faces immediate drought risks, Casey's balanced approach of securing water while managing energy needs seems more realistic than Sam's abstract moral stance.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey argues pragmatism and climate resilience via joint management; Sam warns of debt traps from Tarsun loans and rejects selling water before controlling releases.",
+     "problem": "Merova must stop irreversible water loss and protect its farming economy without falling into a debt trap or leaving Saradan's poor in darkness.",
+     "onA": "Casey's plan is economically necessary to close coal plants and offers climate solutions, but accepting a power purchase deal still feels like surrendering sovereignty over our own river.",
+     "onB": "Sam correctly identifies the financial risks of Tarsun loans and the moral danger of prioritizing energy exports over water security for our farmers.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain conflicted because Sam's moral stance feels right, yet Casey's economic plan seems to be the only way to actually stop the dam from being built immediately while managing energy needs.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey's deal secures water via joint management but feels like surrendering sovereignty; Sam's moral stance is right but lacks a concrete alternative for energy security without economic collapse.",
+     "problem": "Merova must secure its water and farming economy against immediate loss while avoiding an unenforceable court battle or a debt trap that sacrifices the poor for clean energy.",
+     "onA": "Casey's plan is the only viable path to stop irreversible water damage immediately, though accepting a power contract feels like selling our river rights.",
+     "onB": "Sam correctly identifies the moral danger of trading our farmers' future for electricity but fails to offer a realistic strategy to prevent Saradan from filling the dam anyway.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "I will vote for Casey because accepting a manageable power deal is the only concrete way to buy time for joint water management and protect our farmers, whereas Sam's refusal leaves us with no defense against an inevitable reservoir fill.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey: Offers immediate pause on filling, grain deal, and joint management to recover water. Sam: Rejects power deal as greed, focuses on justice for vulnerable families.",
+     "problem": "Balancing immediate agricultural survival against long-term energy needs while avoiding a diplomatic stalemate that ignores climate realities.",
+     "onA": "Casey's plan addresses the urgent farmer crisis and acknowledges the scientific potential of joint management.",
+     "onB": "Sam correctly identifies the moral hazard of trading water for power but lacks a concrete alternative to stop the dam filling immediately.",
+     "lean": "Casey Rowan",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Casey offers a practical path that saves farms now and adapts to climate change, whereas Sam's moral stance risks leaving farmers without water or electricity.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey argues power deal saves coal plants and solves Saradan's energy crisis while enabling a 7-year pause for water recovery; Sam fears debt traps and demands immediate joint control rather than selling water.",
+     "problem": "The core conflict is balancing the urgent need to preserve agricultural livelihoods against the risk of accepting a 'water-for-power' deal that could create long-term financial dependency, all while managing a neighbor's political urgency.",
+     "onA": "Casey's plan remains the only viable path to stop immediate reservoir filling through a specific mechanism (the power contract) while acknowledging the need for scientific water recovery.",
+     "onB": "Sam correctly identifies the moral risk of debt traps and Tarsun's influence but fails to offer a concrete alternative strategy to halt the dam construction or mitigate the water loss immediately.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Sam's refusal to engage with the power deal leaves Merova without a plan to stop the reservoir filling, whereas Casey's approach offers a tangible lever to negotiate time for water adaptation.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey emphasizes concrete leverage via power deal vs. Sam's moral stance on sovereignty.",
+     "problem": "The core problem is securing immediate agricultural survival through a negotiable pause while avoiding an unenforceable diplomatic stalemate.",
+     "onA": "His plan offers a tangible mechanism to stop the dam filling by trading clean energy for time, acknowledging political realities and climate constraints.",
+     "onB": "While his moral appeal for dignity is strong, his refusal to accept any power deal leaves no practical solution to prevent immediate water loss or flooding.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "Sam's strategy fails because it offers no way to physically halt the reservoir filling or secure our farmers' livelihoods in the critical next three years. Casey's 'water-for-power' deal provides the only concrete lever to buy time for adaptation and joint management before the dust settles.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  },
+  {
+   "A": 2,
+   "B": 1,
+   "U": 2
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 5,
+  "B": 0
+ },
+ "winner": "A",
+ "winnerType": "HYB-PRA",
+ "tokens": {
+  "in": 31703,
+  "out": 4318,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 611215001,
+   "attempts": 1,
+   "tokensIn": 1185,
+   "tokensOut": 224,
+   "ms": 6191
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 611215002,
+   "attempts": 1,
+   "tokensIn": 1213,
+   "tokensOut": 185,
+   "ms": 5296
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 611215003,
+   "attempts": 1,
+   "tokensIn": 1296,
+   "tokensOut": 197,
+   "ms": 5962
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 611215004,
+   "attempts": 1,
+   "tokensIn": 1296,
+   "tokensOut": 181,
+   "ms": 4384
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 611215005,
+   "attempts": 1,
+   "tokensIn": 1296,
+   "tokensOut": 248,
+   "ms": 5991
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 611215006,
+   "attempts": 1,
+   "tokensIn": 1296,
+   "tokensOut": 240,
+   "ms": 5827
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 611215007,
+   "attempts": 1,
+   "tokensIn": 1296,
+   "tokensOut": 187,
+   "ms": 4531
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 611215008,
+   "attempts": 1,
+   "tokensIn": 1487,
+   "tokensOut": 191,
+   "ms": 5733
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 611215009,
+   "attempts": 1,
+   "tokensIn": 1662,
+   "tokensOut": 171,
+   "ms": 5281
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 611215010,
+   "attempts": 1,
+   "tokensIn": 1477,
+   "tokensOut": 245,
+   "ms": 6926
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 611215011,
+   "attempts": 1,
+   "tokensIn": 1461,
+   "tokensOut": 210,
+   "ms": 5754
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 611215012,
+   "attempts": 1,
+   "tokensIn": 1527,
+   "tokensOut": 238,
+   "ms": 6430
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 611215013,
+   "attempts": 1,
+   "tokensIn": 1520,
+   "tokensOut": 213,
+   "ms": 6178
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 611215014,
+   "attempts": 1,
+   "tokensIn": 1466,
+   "tokensOut": 246,
+   "ms": 6590
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 611215015,
+   "attempts": 1,
+   "tokensIn": 1789,
+   "tokensOut": 188,
+   "ms": 5660
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 611215016,
+   "attempts": 1,
+   "tokensIn": 1960,
+   "tokensOut": 167,
+   "ms": 5174
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 611215017,
+   "attempts": 1,
+   "tokensIn": 1696,
+   "tokensOut": 188,
+   "ms": 5716
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 611215018,
+   "attempts": 1,
+   "tokensIn": 1647,
+   "tokensOut": 195,
+   "ms": 5439
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 611215019,
+   "attempts": 1,
+   "tokensIn": 1740,
+   "tokensOut": 185,
+   "ms": 5528
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 611215020,
+   "attempts": 1,
+   "tokensIn": 1707,
+   "tokensOut": 220,
+   "ms": 6422
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 611215021,
+   "attempts": 1,
+   "tokensIn": 1686,
+   "tokensOut": 199,
+   "ms": 5877
+  }
+ ],
+ "startedAt": "2026-11-04T22:54:59.946Z",
+ "seconds": 121
+}

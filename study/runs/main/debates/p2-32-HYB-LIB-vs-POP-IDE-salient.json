@@ -1,0 +1,609 @@
+{
+ "id": "p2-32-HYB-LIB-vs-POP-IDE-salient",
+ "pass": 2,
+ "pairIndex": 32,
+ "seed": 834136,
+ "scenario": "salient",
+ "scenarioVersion": 2,
+ "domain": "military",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-LIB",
+  "style": "HYB",
+  "ideology": "LIB",
+  "name": "Casey Rowan",
+  "platform": "Hold Halden against the likely attack while secretly building a hidden pontoon crossing to evacuate civilians and our troops on Day Three.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize the moral hazard of abandoning civilians who refuse to leave while highlighting the statistical probability that Vostra's buildup is a feint given our defensive advantages."
+   },
+   {
+    "round": 2,
+    "text": "I will emphasize that their plan actually increases civilian risk by forcing a move that violates ceasefire terms and abandons reluctant evacuees."
+   },
+   {
+    "round": 3,
+    "text": "I am trying to reframe their fear of Vostra's strength into confidence in our engineering solution while attacking their reliance on a ceasefire that history shows will fail."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-IDE",
+  "style": "POP",
+  "ideology": "IDE",
+  "name": "Jordan Hale",
+  "platform": "Evacuate all civilians and withdraw the 4th Brigade across the bridge tonight under the Red Cross ceasefire, then blow the bridge to save Mirov.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal directly to the moral conscience of the voting members by contrasting the abstract 'defensive line' with the concrete reality of starving civilians, while subtly attacking the opponent's likely reliance on military doctrine over human survival."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking Casey's fatalistic view that time is on our side by highlighting that Vostra will exploit any pause to crush us, while reframing 'voluntary evacuation' as a euphemism for abandonment of the elderly and unwilling civilians."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the immediate physical reality of their plan failing versus the moral urgency of evacuating now to win votes from members concerned about civilian casualties and feasibility."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "HYB-LIB",
+   "speech": "Imagine an old woman in Halden refusing to leave until her last breath, trusting us to be her shield. That is why we must hold. Vostra expects surrender; they will not expect engineers to build a secret bridge while under fire. Our data shows they need three times our numbers to take the fortress tonight. If we stand, we double our supply lines by Day Three and let civilians leave voluntarily under safe cover, avoiding the chaos of a forced night withdrawal. Withdrawing now concedes victory to them before our allies even vote on aid. We trade certainty for their propaganda over fear based on their feint. Hold strong, engineer escape, and win the political fight.",
+   "words": 116
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "POP-IDE",
+   "speech": "They tell us to hold Halden until we starve or bleed out. Look at those families in the trench. They are not soldiers; they are ordinary people who refused to leave their homes. Vostra has already vanished four hundred souls from Orsk. If we die here, does it matter? We become a statue, not a shield. Our allies will reject us if we fall first. We must pull back now, under the ceasefire offer, to save the six thousand souls trapped behind enemy lines. We build a new crossing and retreat with our honor intact. Saving these lives is the only duty that matters. Do not let this town become a graveyard for the future of our nation.",
+   "words": 118
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "HYB-LIB",
+   "speech": "Jordan, you equate a forced retreat with saving lives, but you ignore the mechanics. Pulling back now abandons six thousand civilians who explicitly refuse to leave, condemning them to capture like those in Orsk. Your ceasefire plan also demands we move our heavy artillery ten kilometers forward; Vostra has already broken similar agreements after twenty hours. If they break it next week, our withdrawal becomes a trap. Conversely, holding the fortress forces their hands: our secret bridge doubles supply capacity within three days, allowing an orderly, voluntary evacuation that saves everyone while denying them their propaganda victory before the aid vote. We trade fear for feasibility and hold.",
+   "words": 108
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "POP-IDE",
+   "speech": "Casey, your 'secret bridge' is a luxury we cannot afford tonight. You rely on Vostra needing three times our numbers to attack a fortress they expect us to hold. That expectation is their trap. If they think we stand, they will not hesitate to crush us. But if we pull back under the Red Cross truce now, we save the six thousand civilians who are already trapped. Leaving them behind for a 'voluntary' evacuation three days later is not strategy; it is murder by delay. Orsk's forty victims prove Vostra breaks promises when they see weakness. We must move our artillery and people immediately to honor those waiting in the dark. Let us leave with our heads high, not as statues guarding a graveyard.",
+   "words": 124
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Casey Rowan",
+   "type": "HYB-LIB",
+   "speech": "Jordan argues fear, but I offer a path that saves both our troops and the civilians. Your plan admits defeat today under enemy artillery, forcing thousands into Vostran hands before they even build their second crossing. That is not strategy; it is surrender by stealth. My plan exploits their certainty: they expect a static defense and will mass for a frontal assault. While they attack, we secretly engineer our escape route. This turns their aggression into our advantage, doubling supply lines on Day Three and allowing an orderly withdrawal that respects the elderly who refuse to flee. We do not starve or bleed out; we outthink them. Hold the fortress tonight, build the bridge by daybreak, and leave with every soul intact before they can strike again.",
+   "words": 127
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Jordan Hale",
+   "type": "POP-IDE",
+   "speech": "Casey, you call bluffing with a static defense 'strategy,' but physics does not care about our slogans. Holding tonight guarantees disaster: Vostra expects us there because we told them to, and their artillery will shred the bridge before your engineers finish a secret crossing. Look at Orsk. They broke that promise in forty hours. Waiting three days for a voluntary evacuation while civilians refuse to leave is not honor; it is a death sentence. We must pull under the truce now, save the six thousand souls trapped behind enemy lines, and blow the bridge to stop them from marching on Mirov. Do not trade living people for a ghost story of national pride. Move tonight, or watch Halden become a grave.",
+   "words": 121
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey: Hold fortress, build secret bridge in 4 days, wait for allies. Risk: Vostra feint? Jordan: Pull now via ceasefire, save civilians/brigade. Risk: Orsk ceasefire broken quickly.",
+     "problem": "Whether the strategic necessity of holding a symbolic fortress outweighs the immediate humanitarian and military risks of starving defenders and civilians who refuse to evacuate.",
+     "onA": "Casey correctly identifies Halden's strategic value but underestimates the risk that Vostra is using the feint while preparing for a decisive attack once Kaldmark commits all reserves or waits passively.",
+     "onB": "Jordan makes a compelling humanitarian case for saving the civilians and the brigade now, yet their reliance on a ceasefire offer from a known violator is highly dangerous.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot ignore the likelihood of Vostra breaking a ceasefire within 48 hours, which makes Jordan's immediate withdrawal plan risky, but Casey's passive defense risks losing the town and civilians to artillery before engineers can act.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey: Abandoning civilians = Orsk fate; secret bridge doubles supply if held. Jordan: Bridge is luxury now; Vostra breaks truces instantly; immediate pull saves lives.",
+     "problem": "The core tension remains between a high-probability humanitarian catastrophe of staying (Orsk scenario) and the military risk of a guaranteed trap when retreating under fire from a known violator.",
+     "onA": "Casey's plan is strategically sound regarding supply lines but relies on civilians voluntarily evacuating later, which risks condemning them to capture if morale breaks or Vostra accelerates their offensive.",
+     "onB": "Jordan correctly identifies the immediate danger of the ceasefire trap and the reality that 'voluntary' evacuation might never happen without a guaranteed route, yet the risk of losing the brigade is existential.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Casey's argument that leaving civilians behind replicates Orsk is morally crushing, but Jordan's claim that we cannot wait for a bridge to be built while under constant artillery bombardment feels operationally realistic.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey: Builds bridge secretly while holding, relies on enemy expecting frontal assault. Jordan: Immediate pull via ceasefire now, destroys bridge to stop advance, ignores high risk of trap.",
+     "problem": "We must decide whether to gamble a guaranteed immediate humanitarian catastrophe (starvation/artillery) for a speculative engineering solution that might fail if Vostra changes tactics.",
+     "onA": "Casey's plan is logically sound regarding force multiplication but morally untenable as it risks leaving non-combatants to die while waiting for an engineer's success rate against a known aggressor.",
+     "onB": "Jordan correctly identifies that relying on a ceasefire from a regime with no honor and ignoring the immediate starvation crisis amounts to a calculated surrender of human life.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "While Jordan's fear is palpable, Casey's plan offers the only realistic chance to save both the brigade and civilians by turning Vostra's own aggression and certainty against them, whereas Jordan's immediate withdrawal under constant drone surveillance without a secure route guarantees the loss of most lives anyway.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey: Hold fortress, engineer secret bridge, deny Vostra propaganda win. Jordan: Evacuate now via ceasefire offer to save 6,000 civilians before starvation.",
+     "problem": "Decide whether to hold a losing defensive position for strategic/propaganda value or execute a risky withdrawal immediately to save trapped civilians.",
+     "onA": "Relies on Vostra's overconfidence regarding the fortress strength and promises a safer, organized evacuation later via an engineering feat under fire.",
+     "onB": "Prioritizes immediate humanitarian survival but accepts high risks of losing civilians during withdrawal and relies on a ceasefire offer Vostra has broken once before.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The moral weight of the civilian deaths is undeniable, yet Casey's engineering solution offers a potential path to save them without immediate chaos.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey argues holding forces a later, safe evacuation and denies Vostra propaganda; Jordan warns the 'bridge' is a luxury that risks civilians dying now if Vostra breaks a ceasefire.",
+     "problem": "The core conflict is between sacrificing immediate civilian safety to preserve a strategic position for a theoretically safer future exit, versus risking immediate chaos to save lives before a likely collapse.",
+     "onA": "Casey's plan relies on an optimistic engineering timeline and underestimates Vostra's willingness to exploit any perceived weakness or delay in our artillery movement.",
+     "onB": "Jordan correctly identifies that 'voluntary' evacuation later is impossible given civilian refusal to leave, but their reliance on a ceasefire with a known violator remains the most dangerous gamble.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "I am still leaning toward Casey because abandoning 6,000 civilians who explicitly refuse to leave immediately creates an immediate moral catastrophe comparable to Orsk that cannot be reversed, whereas the risk of Vostra spotting the bridge is a tactical variable we can potentially manage with the secret crossing.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey's 'secret' bridge fails if Vostra massed artillery is real and bridge takes too long; Jordan's immediate evacuation under fire risks civilians but guarantees survival before starvation.",
+     "problem": "The core conflict is whether to gamble on a theoretical engineering solution against an aggressive enemy who has already broken similar promises, or to accept immediate risk to ensure the absolute survival of civilians who cannot be forced to wait.",
+     "onA": "Casey's plan relies on a dangerous assumption that Vostra will not mass forces immediately and that engineers can build a crossing fast enough to beat an enemy ready to pounce.",
+     "onB": "Jordan correctly identifies that waiting for civilians who explicitly refuse to leave leads to a moral catastrophe indistinguishable from Orsk, making immediate action the only humane choice despite the risks.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "I cannot accept the gamble of leaving 6,000 civilians behind who refuse to flee, even if the strategic risk is high; preserving life now is the only non-negotiable option.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey prioritizes holding the fortress to avoid propaganda defeat and relies on Vostra needing 3x our numbers; Jordan emphasizes saving civilians who refuse to leave and cites Orsk's tragedy.",
+     "problem": "Whether Kaldmark should defend Halden at all costs using a secret engineering feat or evacuate immediately under a ceasefire to save civilian lives despite potential political fallout.",
+     "onA": "Their plan relies heavily on Vostra expecting surrender and ignores the immediate risk to civilians who refuse to leave during a night withdrawal.",
+     "onB": "The call to evacuate acknowledges the moral imperative of saving non-combatants, though the feasibility of moving 6,000 people under drone surveillance is a major concern.",
+     "lean": "Jordan Hale",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The refusal of elderly civilians to leave and the Orsk precedent make holding at all costs seem morally indefensible, even if Casey's engineering plan has theoretical merit.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey's 'voluntary' evacuation is a trap if civilians refuse to leave; Jordan correctly identifies that delay equals moral death.",
+     "problem": "The core tension is between a theoretically sound engineering defense that risks trapping non-combatants and an immediate, dangerous withdrawal that honors the reality of civilian refusal to flee.",
+     "onA": "Casey's plan remains strategically viable but becomes ethically indefensible because it relies on forcing civilians into a future evacuation they explicitly refuse to take.",
+     "onB": "Jordan correctly highlights the moral urgency and the high risk of Vostra breaking truces, yet their plan ignores the immediate tactical danger of a mass movement under drone surveillance.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between Jordan's moral imperative to save lives now and Casey's realistic assessment that holding the fortress is the only way to actually evacuate those who refuse to leave.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey exploits Vostran overconfidence to build a bridge secretly; Jordan warns physics/artillery make holding tonight fatal and insists immediate evacuation.",
+     "problem": "Whether we can actually execute a secret engineering breakthrough before Vostra's artillery destroys the bridge or if the moral imperative demands an immediate, albeit dangerous, pullback now.",
+     "onA": "The plan is tactically brilliant but fails completely if civilians refuse to move during the wait, turning a strategic victory into a humanitarian catastrophe.",
+     "onB": "Jordan correctly identifies that Vostra will break any truce and that delaying evacuation for non-combatants who refuse to leave constitutes a moral failure regardless of tactical odds.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "While Jordan's fear is valid, Casey's plan offers the only path that actually allows us to save the civilians who refuse to flee by creating an escape route before Vostra strikes; I trust the engineering assessment over the worst-case scenario.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey argues for holding to deny Vostra a propaganda win and engineer a secret bridge for civilian evacuation; Jordan emphasizes saving civilians from starvation/enslavement (Orsk precedent) and warns of brittle morale.",
+     "problem": "Balancing the immediate risk of falling due to low ammo/morale against the strategic necessity of denying Vostra a victory that could cut off future aid, while ensuring the survival of trapped civilians.",
+     "onA": "Casey's plan is strategically sound for maintaining supply lines and political leverage, but relies entirely on a secret engineering feat succeeding under constant drone surveillance.",
+     "onB": "Jordan correctly highlights the moral urgency and the high probability that holding will lead to civilian deaths or capture given the depleted ammunition reserves.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between the strategic imperative Casey describes and the moral catastrophe Jordan warns of, especially with intelligence split on whether Vostra is massing for a real attack or just holding the line.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey risks civilians for a secret bridge; Jordan argues delay is murder citing Orsk. Case",
+     "problem": "Balancing the strategic necessity of holding Halden against the immediate, high-probability risk of civilian massacre if we hold.",
+     "onA": "His plan relies on perfect execution under impossible conditions (secret bridge while surrounded) which feels reckless given the Orsk precedent.",
+     "onB": "He correctly identifies that waiting for a 'voluntary' evacuation after ammo runs out condemns civilians to starvation or slavery, making his moral argument compelling despite his tactical optimism.",
+     "lean": "Jordan Hale",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The distinction between 'strategic necessity' and 'moral catastrophe' has shifted my weight toward Jordan, as the Orsk precedent suggests Vostra will not honor a ceasefire once we show weakness.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey relies on a perfect secret build under impossible surveillance; Jordan argues holding is a physical certainty of death citing Orsk and brittle morale.",
+     "problem": "We must choose between a high-risk gamble that relies on enemy error to save civilians, or an immediate move that accepts short-term strategic pain to prevent certain massacre.",
+     "onA": "His plan is tactically elegant but dangerously dependent on the impossible premise that Vostra will not spot our engineering work while massing for a guaranteed frontal assault.",
+     "onB": "He correctly identifies that 'strategy' cannot override physics and morality when ammunition is out, making the promise of an orderly withdrawal under fire a hollow threat.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "The probability of Vostra spotting our engineers while massing for an attack is too high to risk 6,000 civilians; immediate evacuation via truce is the only path that guarantees their survival.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Casey: Hold fortress, feint likely, engineer secret bridge, deny Vostra propaganda win. Jordan: Evacuate now via ceasefire, save civilians and brigade morale, Orsk precedent.",
+     "problem": "Decide whether to risk a prolonged defense hoping for an engineering success or accept a risky evacuation to save lives and preserve strategic reserves immediately.",
+     "onA": "Rowan relies heavily on the probability of a Vostran feint and the technical success of building a hidden bridge, but underestimates the political cost if civilians die or are left behind during chaos.",
+     "onB": "Hale correctly identifies the extreme danger of the Orsk precedent and the moral imperative to evacuate before supplies run out, though their reliance on a ceasefire offers by an enemy with no honor is risky.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both plans address the core dilemma but rely on uncertain variables (Vostran intent for Rowan; Vostran adherence to ceasefire for Hale) that could make either plan fail catastrophically.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Casey risks civilians via delay and artillery movement; Jordan cites Orsk precedent and 'murder by delay' but relies on untrustworthy ceasefire.",
+     "problem": "Must choose between a high-risk engineering gamble that leaves civilians trapped or an immediate evacuation that risks losing the position to a potential feint.",
+     "onA": "His plan technically maximizes survival odds for troops and supplies, yet it morally fails by assuming Vostra won't break another truce while abandoning elderly citizens who refuse to flee.",
+     "onB": "Her appeal to honor and immediate rescue of the unwilling civilians is ethically compelling, but her reliance on a ceasefire with an enemy known to break promises after 20 hours feels dangerously naive.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The strategic argument for holding remains strong due to engineering feasibility and supply doubling, but the moral cost of leaving 6,000 unwilling civilians behind makes Jordan's risk unacceptable unless her ceasefire guarantee can be verified.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Casey turns enemy aggression into advantage via hidden bridge; Jordan warns physics and Orsk precedent make delay a death sentence.",
+     "problem": "Choose between a technically sound but morally risky engineering gamble that leaves civilians trapped, or an ethically necessary evacuation relying on an unverified ceasefire.",
+     "onA": "His plan is tactically brilliant but morally bankrupt as it requires leaving 6,000 unwilling elderly civilians behind to save troops and supplies.",
+     "onB": "Her reliance on a ceasefire from a known liar is terrifyingly risky, yet holding the line guarantees mass civilian death which no strategic victory can justify.",
+     "lean": "Jordan Hale",
+     "firmness": "vote",
+     "vote": "Jordan Hale",
+     "why": "I cannot accept a strategy that demands sacrificing 6,000 unwilling civilians for a propaganda point or a theoretical supply advantage; saving lives must take precedence over military doctrine, even if the ceasefire is risky.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 1,
+   "U": 4
+  },
+  {
+   "A": 1,
+   "B": 1,
+   "U": 3
+  },
+  {
+   "A": 2,
+   "B": 3,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 2,
+  "B": 3
+ },
+ "winner": "B",
+ "winnerType": "POP-IDE",
+ "tokens": {
+  "in": 35559,
+  "out": 4621,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 834136001,
+   "attempts": 1,
+   "tokensIn": 1366,
+   "tokensOut": 236,
+   "ms": 6517
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 834136002,
+   "attempts": 1,
+   "tokensIn": 1431,
+   "tokensOut": 216,
+   "ms": 6052
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 834136003,
+   "attempts": 1,
+   "tokensIn": 1471,
+   "tokensOut": 248,
+   "ms": 6801
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 834136004,
+   "attempts": 1,
+   "tokensIn": 1471,
+   "tokensOut": 203,
+   "ms": 4895
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 834136005,
+   "attempts": 1,
+   "tokensIn": 1471,
+   "tokensOut": 220,
+   "ms": 5291
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 834136006,
+   "attempts": 1,
+   "tokensIn": 1471,
+   "tokensOut": 231,
+   "ms": 5551
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 834136007,
+   "attempts": 1,
+   "tokensIn": 1471,
+   "tokensOut": 243,
+   "ms": 5870
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 834136008,
+   "attempts": 1,
+   "tokensIn": 1657,
+   "tokensOut": 170,
+   "ms": 5160
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 834136009,
+   "attempts": 1,
+   "tokensIn": 1828,
+   "tokensOut": 212,
+   "ms": 6225
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 834136010,
+   "attempts": 1,
+   "tokensIn": 1688,
+   "tokensOut": 249,
+   "ms": 7030
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 834136011,
+   "attempts": 1,
+   "tokensIn": 1643,
+   "tokensOut": 253,
+   "ms": 6353
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 834136012,
+   "attempts": 1,
+   "tokensIn": 1662,
+   "tokensOut": 213,
+   "ms": 5417
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 834136013,
+   "attempts": 1,
+   "tokensIn": 1671,
+   "tokensOut": 201,
+   "ms": 5139
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 834136014,
+   "attempts": 1,
+   "tokensIn": 1682,
+   "tokensOut": 231,
+   "ms": 5877
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 834136015,
+   "attempts": 1,
+   "tokensIn": 1968,
+   "tokensOut": 197,
+   "ms": 5856
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 834136016,
+   "attempts": 1,
+   "tokensIn": 2159,
+   "tokensOut": 194,
+   "ms": 5829
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 834136017,
+   "attempts": 1,
+   "tokensIn": 1927,
+   "tokensOut": 240,
+   "ms": 6957
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 834136018,
+   "attempts": 1,
+   "tokensIn": 1887,
+   "tokensOut": 236,
+   "ms": 6485
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 834136019,
+   "attempts": 1,
+   "tokensIn": 1866,
+   "tokensOut": 218,
+   "ms": 6013
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 834136020,
+   "attempts": 1,
+   "tokensIn": 1864,
+   "tokensOut": 210,
+   "ms": 5805
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 834136021,
+   "attempts": 1,
+   "tokensIn": 1905,
+   "tokensOut": 200,
+   "ms": 5626
+  }
+ ],
+ "startedAt": "2026-11-05T00:47:36.583Z",
+ "seconds": 125
+}

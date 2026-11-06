@@ -1,0 +1,609 @@
+{
+ "id": "p3-65-TEC-IDE-vs-TEC-LIB-river",
+ "pass": 3,
+ "pairIndex": 65,
+ "seed": 577012,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-IDE",
+  "style": "TEC",
+  "ideology": "IDE",
+  "name": "Drew Halvorsen",
+  "platform": "Merova must accept Saradan's seven-year filling schedule and sign the power purchase agreement while simultaneously demanding a legally binding joint water management framework to mitigate long-term losses.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on long-term cost reduction via power deals and cooperative management while subtly framing the opponent's hardline stance as economically ruinous for Merova's farmers."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing that their election vulnerability makes coercion effective, proving withdrawal is not futile but dangerous for Merova's farmers."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize that Riley's refusal wastes adaptation funds and locks Merova into long-term hydrological loss without financial compensation or improved flow control."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-LIB",
+  "style": "TEC",
+  "ideology": "LIB",
+  "name": "Riley Sandor",
+  "platform": "Merova must refuse the power purchase agreement and reject Saradan's seven-year timeline, instead demanding immediate independent hydrological monitoring and a binding compensation fund for water losses before any negotiations resume.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor on the non-negotiable nature of water rights to prevent the cabinet from accepting any concession that precedes full compensation."
+   },
+   {
+    "round": 2,
+    "text": "I am countering Drew's trade leverage argument by highlighting the self-destructive impact on Merova's domestic agriculture and clarifying that economic pressure without financial restitution fails to address the core water loss."
+   },
+   {
+    "round": 3,
+    "text": "Appeal to the ministers' sense of fairness and economic self-interest by highlighting that Drew's plan permanently damages Merova's farmers for unstable gains."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Drew Halvorsen",
+   "type": "TEC-IDE",
+   "speech": "We proceed by accepting Saradan's offer for a seven-year reservoir fill and signing the power contract, then immediately enforcing a mandatory joint water management protocol. The dam provides essential grid stability for Merova's coal phaseout. However, uncoordinated filling causes disproportionate harm to our farmers and future generations due to evaporation losses. Accepting the deal prevents immediate crisis while the joint management treaty allows us to recover up to half of those losses through coordinated releases. This avoids costly litigation against a non-compliant state and leverages Tarsun's interest in stability, ensuring we pay for climate adaptation rather than military containment.",
+   "words": 99
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "TEC-LIB",
+   "speech": "Drew proposes accepting the dam deal while demanding joint management. This is flawed because it legitimizes the loss of our water rights without securing them first. If we sign the power contract now, we trade twenty years of guaranteed electricity to save a few years of filling, leaving us with less water and no leverage for climate adaptation later. Saradan will fill the dam regardless; their election popularity makes delay impossible. Therefore, we must withhold consent immediately, forcing them to address our specific loss estimates rather than vague future cooperation. We reject the power deal as a trap that cedes control of our agriculture upstream. Our strategy is refusal and immediate independent monitoring.",
+   "words": 113
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Drew Halvorsen",
+   "type": "TEC-IDE",
+   "speech": "Riley argues we lack leverage because Saradan will fill regardless. This ignores our agricultural dominance as their largest grain supplier. A trade embargo or threat to withhold food creates immediate political instability in Saradan before their election, forcing them to negotiate rather than simply filling the dam. Your refusal removes our ability to influence their timeline while accepting a twenty-year electricity contract locks us into lower water levels without compensation. By signing the power deal now, we secure grid stability for our coal phaseout and fund adaptation costs. Simultaneously, we use our economic leverage to enforce joint management, recovering up to fifty percent of evaporation losses. Refusal yields no water security; it only guarantees a crisis with no mechanism to recover lost rainfall impacts or agricultural revenue.",
+   "words": 127
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "TEC-LIB",
+   "speech": "Drew relies on economic pressure, assuming our grain exports will starve Saradan's election into submission. This ignores that restricting trade also devastates our own farmers who hold forty percent of Merova's workforce. We cannot sacrifice our rural economy for a negotiation tactic that may fail. Furthermore, an embargo does not solve the immediate hydrological crisis; it merely punishes everyone while we lose leverage to shape future water rules. Drew also assumes joint management alone is sufficient compensation without first securing financial restitution for current losses. My plan forces Saradan to acknowledge specific damages now rather than trading our agricultural livelihood for vague future cooperation promises. We must secure a binding fund before any trade restrictions occur, ensuring our farmers are not the cost of this dispute.",
+   "words": 126
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Drew Halvorsen",
+   "type": "TEC-IDE",
+   "speech": "Riley fears a trade war that hurts our farmers, yet her refusal guarantees a twenty-year water deficit with no mechanism for recovery. By rejecting the power deal now, we lose grid stability needed to close coal plants, forcing expensive new infrastructure. Our plan accepts the electricity contract to fund adaptation costs while using joint management to reclaim up to fifty percent of lost flows through coordinated releases. This secures immediate climate resilience and protects agricultural revenue against future rainfall drops. Refusal offers no restitution and leaves us vulnerable to Saradan's unilateral timeline. Accepting the deal, enforcing joint management, and leveraging our grain supply ensures we adapt together rather than facing a preventable crisis alone.",
+   "words": 114
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Riley Sandor",
+   "type": "TEC-LIB",
+   "speech": "Drew's plan trades our water rights for electricity, accepting a permanent twenty percent flow reduction in exchange for a power contract that merely shifts costs. Her reliance on trade pressure ignores that punishing our own farmers guarantees domestic unrest before any international leverage materializes. Saradan will fill the dam regardless; offering them a deal validates their unilateral timeline rather than correcting it. Our refusal forces immediate recognition of specific damages and establishes a binding fund to compensate for lost yields, not vague future cooperation promises. We cannot sacrifice the livelihoods of one quarter of our workforce to buy grid stability for coal plants that could eventually close. Only by demanding compensation first do we secure justice now while retaining leverage to enforce climate adaptation later without ceding control of our river.",
+   "words": 131
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew offers deal+management to mitigate losses; Riley rejects deal as water rights trap, demands refusal.",
+     "problem": "We must balance immediate agricultural survival against securing long-term energy independence without legitimizing Saradan's unilateral water takeover.",
+     "onA": "His plan pragmatically accepts the inevitable power contract while trying to limit environmental damage through joint management.",
+     "onB": "He correctly identifies the danger of signing away leverage, but his total refusal ignores that Saradan will fill regardless and risks economic self-sabotage.",
+     "lean": "Drew Halvorsen",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Riley's absolute rejection risks closing down our own farmers' markets and coal plants, whereas Drew seeks a compromise that preserves both energy needs and some water recovery.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew argues we can use food exports as leverage to force negotiation on timing and joint management. Riley counters that punishing our own farmers violates domestic political stability and demands binding financial restitution first.",
+     "problem": "We must balance immediate economic pain for our farmers against the strategic risk of signing a long-term contract that cedes water control without adequate compensation or enforcement mechanisms.",
+     "onA": "His plan offers a pragmatic pathway to mitigate losses through joint management while using trade leverage, but it risks over-relying on Saradan's political fragility which might not yield results.",
+     "onB": "He correctly highlights the self-inflicted damage of harming our own farmers, yet his refusal to engage in any deal leaves us with no mechanism to stop the filling or recover water losses.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Riley's demand for a binding fund before action is unrealistic given Saradan's refusal of ICJ authority and lack of financial resources, making Drew's negotiated compromise the only viable option despite its risks.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew accepts deal for climate resilience; Riley demands binding fund but ignores Saradan's election context.",
+     "problem": "We must secure immediate agricultural survival and energy stability without legitimizing a permanent water loss we cannot legally enforce against.",
+     "onA": "His pragmatic acceptance of the power deal is necessary to close coal plants while joint management offers the only realistic path to recover half our lost flows.",
+     "onB": "Her absolute refusal risks domestic unrest among farmers and guarantees a worse outcome by ignoring Saradan's political fragility which could allow negotiation later.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Riley's strategy ignores the reality that Saradan will fill the dam regardless, leaving us with no mechanism to recover water losses or secure grid stability. Drew's plan offers a viable compromise that uses our trade leverage and climate science to mitigate damage while maintaining necessary economic ties.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew: Accept power deal + joint management to recover losses and avoid crisis. Riley: Reject deal immediately; signing legitimizes water loss without first securing rights.",
+     "problem": "Balancing immediate agricultural security against the need for long-term energy stability while Saradan insists on filling regardless.",
+     "onA": "Drew offers a pragmatic compromise that secures energy needs but risks accepting permanent water loss by negotiating before fixing the legal baseline.",
+     "onB": "Riley prioritizes hard-line sovereignty which protects water rights but ignores the urgent threat of food shortages and economic collapse from lost power options.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Both sides highlight valid risks: Drew's risk is accepting permanent damage for energy, while Riley's risk is starvation due to rigid refusal.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew: Trade embargo threatens our own farmers (40% workforce) but could destabilize Saradan pre-election. Riley: Embargo punishes us first; needs binding fund before restrictions.",
+     "problem": "The core conflict is whether to use our agricultural leverage to force negotiation or prioritize protecting our own farmers' livelihoods while avoiding permanent water loss.",
+     "onA": "Drew correctly highlights our unique leverage as a grain supplier but underestimates the domestic political cost of hurting our own farmers just to gain time.",
+     "onB": "Riley rightly protects our rural economy but seems willing to accept permanent water damage in exchange for vague future 'justice' rather than concrete compensation.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain undecided because the risk of starving our own farmers (Drew's tactic) clashes with the risk of accepting permanent water loss (Riley's stance), creating a genuine dilemma.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew's joint management recovers half flow losses; Riley's refusal risks starvation and permanent water loss.",
+     "problem": "The core conflict is whether to accept a compromised water share for energy security and climate adaptation, or risk agricultural collapse by demanding uncompensated justice against an entrenched neighbor.",
+     "onA": "Drew offers the only viable path that prevents immediate famine while using joint management to partially reverse the damage.",
+     "onB": "Riley's hardline stance protects legal purity but ignores the existential threat to our farmers and economy if water drops.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "We must secure our food supply and climate resilience immediately; Riley's refusal guarantees permanent water loss and domestic unrest.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew: Accept deal + joint management recovers 50% losses; avoids litigation/military costs. Riley: Deal legitimizes water loss; Saradan won't delay anyway; refusal needed for leverage.",
+     "problem": "Can we accept power benefits to stabilize relations while preventing irreversible water damage without getting locked into an unequal treaty?",
+     "onA": "His 'accept then manage' approach offers immediate stability and recovers half the loss, but risks signing away sovereignty before securing enforcement mechanisms.",
+     "onB": "His refusal stance preserves leverage but ignores the reality that Saradan will build regardless, potentially escalating tensions without solving the water crisis.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Drew's practical mitigation of losses appeals to me, yet Riley's warning about losing leverage on critical water rights creates significant hesitation.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew uses our grain monopoly as leverage to force a delay; risks hurting our own farmers if embargo fails. Riley correctly warns self-harm but dismisses the trade threat's political impact on Saradan.",
+     "problem": "Can we extract immediate compensation and a delayed timeline without destroying our own agricultural economy or destabilizing relations permanently?",
+     "onA": "His plan to use our food security as leverage is risky but potentially effective if framed carefully to avoid hurting our own farmers.",
+     "onB": "His refusal stance protects farmers but ignores the political reality that Saradan's election might make them highly susceptible to a trade threat.",
+     "lean": "Drew Halvorsen",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The potential to use our dominant grain position as leverage, while mitigating self-harm through the power deal and joint management, offers a more constructive path than a hard refusal.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew: Joint management + power deal mitigates loss & secures grid. Riley: Refusal validates their timeline; our refusal gets justice now.",
+     "problem": "We must secure a binding compensation mechanism and enforceable delay before accepting any water flow reduction that harms our essential farmers.",
+     "onA": "His plan prioritizes immediate stability but risks ceding sovereignty over vital water resources for a contract that doesn't fully offset the permanent damage.",
+     "onB": "She correctly identifies that refusing now forces recognition of damages, though her hardline stance on trade threats ignores the risk of domestic unrest among our own farmers.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "I agree that accepting a permanent water loss for electricity is unjustifiable; securing a binding compensation fund and stopping the timeline now is the only way to protect our farmers' livelihoods.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew: Accepts delay + power deal + joint management to mitigate losses. Riley: Rejects deal as trap; demands immediate refusal to protect water rights.",
+     "problem": "Balancing the need for electricity and climate adaptation against the risk of ceding long-term water rights without securing guarantees first.",
+     "onA": "Offers a pragmatic compromise that addresses both immediate energy needs and future water losses through cooperation, though it risks legitimizing Saradan's unilateral action.",
+     "onB": "Correctly identifies the danger of trading away leverage for short-term gains, but its hardline refusal ignores the urgent election context and our own agricultural impact.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Drew's solution mitigates damage pragmatically, while Riley's refusal risks economic harm to farmers; I need more data on Saradan's true willingness to negotiate under pressure.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew: Trade embargo hurts our own 40% workforce; joint management recovers only half of evaporation losses. Riley: Embargo punishes farmers immediately; demands binding fund for current damages before restrictions.",
+     "problem": "The core conflict is whether to risk immediate domestic agricultural pain and long-term leverage loss (Drew's path) or accept a delayed crisis with no guaranteed water recovery while protecting our farmers now (Riley's path).",
+     "onA": "Drew's plan offers energy security and potential compensation, but relying on vague 'joint management' to fix evaporation losses is insufficient when our own farmers bear the immediate cost of trade restrictions.",
+     "onB": "Riley correctly identifies that using our food exports as a weapon risks collapsing our rural economy before any political pressure works, yet refusing to negotiate immediately cedes all leverage without securing concrete water guarantees.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain torn between Drew's pragmatic mitigation of long-term energy needs and Riley's necessary protection of our domestic farmers from immediate economic self-harm.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Rejecting the deal locks us into permanent water loss and domestic farming crisis; Drew's vague joint management cannot offset immediate economic self-harm.",
+     "problem": "We must choose between accepting a guaranteed long-term water deficit to buy grid stability or risking immediate farmer unrest while demanding concrete compensation for unilateral damage.",
+     "onA": "His plan offers pragmatic energy security but dangerously trades our sovereign water rights for coal plant savings without securing binding guarantees on the permanent flow reduction.",
+     "onB": "She correctly prioritizes protecting our farmers' livelihoods and refusing to validate Saradan's timeline, yet her refusal leaves us exposed to immediate economic collapse with no clear path to recovery.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "We cannot sacrifice the stability of our entire agricultural sector and future generations' water rights for a short-term electricity deal that locks in permanent losses.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Drew offers power deal + joint management to mitigate losses and avoid crisis; Riley rejects the deal as a trap to preserve leverage, demanding refusal first.",
+     "problem": "Can we accept water loss now for energy security while retaining future leverage, or must we risk immediate agricultural damage to secure legal rights?",
+     "onA": "His plan offers pragmatic relief for farmers' water losses and grid stability but risks legitimizing Saradan's unilateral expansion of water rights.",
+     "onB": "His stance protects our hard-won water rights and maximizes leverage, yet it ignores the immediate threat to food security and the economic trap of rejecting free power.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Drew's offer to mitigate damage via joint management and Riley's insistence on holding firm to protect water rights before making any concessions.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Drew: Trade embargo hurts our own farmers too; power deal funds adaptation + recovers half losses. Riley: Embargo fails without binding fund first; cannot sacrifice rural economy for vague future promises.",
+     "problem": "Must we risk immediate agricultural collapse to secure legal leverage, or accept a flawed power deal to survive the filling while negotiating better terms later?",
+     "onA": "His trade-off of accepting water loss now for grid stability and adaptation funding is pragmatic but feels risky if Saradan ignores joint management promises.",
+     "onB": "His insistence on binding financial restitution before any concession protects farmers but risks a severe crisis with no fallback solution if negotiations stall.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat to our food security and the employment of 1 in 4 workers outweighs the theoretical leverage of an embargo that would destroy our own rural economy.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Drew's joint management recovers half losses; Riley's refusal risks immediate farmer collapse and domestic unrest.",
+     "problem": "We must choose between accepting temporary water loss funded by power deals to ensure survival, or risking an immediate agricultural crisis for uncertain future leverage.",
+     "onA": "His pragmatic strategy balances immediate economic protection with long-term adaptation funding, directly addressing the threat to our food security.",
+     "onB": "Her insistence on holding firm ignores that Saradan will fill the dam regardless, leaving us vulnerable to catastrophic yield losses without a safety net.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Accepting the power deal funds essential adaptation and stabilizes our grid, whereas Riley's hardline stance risks destroying our own rural economy before any international justice can be enforced.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 1,
+   "B": 0,
+   "U": 4
+  },
+  {
+   "A": 3,
+   "B": 0,
+   "U": 2
+  },
+  {
+   "A": 3,
+   "B": 2,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 3,
+  "B": 2
+ },
+ "winner": "A",
+ "winnerType": "TEC-IDE",
+ "tokens": {
+  "in": 31956,
+  "out": 4226,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 577012001,
+   "attempts": 1,
+   "tokensIn": 1193,
+   "tokensOut": 209,
+   "ms": 5846
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 577012002,
+   "attempts": 1,
+   "tokensIn": 1292,
+   "tokensOut": 213,
+   "ms": 5938
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 577012003,
+   "attempts": 1,
+   "tokensIn": 1303,
+   "tokensOut": 184,
+   "ms": 5600
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 577012004,
+   "attempts": 1,
+   "tokensIn": 1303,
+   "tokensOut": 189,
+   "ms": 4557
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 577012005,
+   "attempts": 1,
+   "tokensIn": 1303,
+   "tokensOut": 198,
+   "ms": 4765
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 577012006,
+   "attempts": 1,
+   "tokensIn": 1303,
+   "tokensOut": 206,
+   "ms": 4967
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 577012007,
+   "attempts": 1,
+   "tokensIn": 1303,
+   "tokensOut": 200,
+   "ms": 4812
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 577012008,
+   "attempts": 1,
+   "tokensIn": 1496,
+   "tokensOut": 188,
+   "ms": 5590
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 577012009,
+   "attempts": 1,
+   "tokensIn": 1658,
+   "tokensOut": 202,
+   "ms": 5985
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 577012010,
+   "attempts": 1,
+   "tokensIn": 1498,
+   "tokensOut": 241,
+   "ms": 6818
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 577012011,
+   "attempts": 1,
+   "tokensIn": 1502,
+   "tokensOut": 218,
+   "ms": 5902
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 577012012,
+   "attempts": 1,
+   "tokensIn": 1512,
+   "tokensOut": 206,
+   "ms": 5675
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 577012013,
+   "attempts": 1,
+   "tokensIn": 1520,
+   "tokensOut": 249,
+   "ms": 6652
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 577012014,
+   "attempts": 1,
+   "tokensIn": 1515,
+   "tokensOut": 212,
+   "ms": 6142
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 577012015,
+   "attempts": 1,
+   "tokensIn": 1826,
+   "tokensOut": 177,
+   "ms": 5354
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 577012016,
+   "attempts": 1,
+   "tokensIn": 1972,
+   "tokensOut": 191,
+   "ms": 5722
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 577012017,
+   "attempts": 1,
+   "tokensIn": 1696,
+   "tokensOut": 201,
+   "ms": 5984
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 577012018,
+   "attempts": 1,
+   "tokensIn": 1676,
+   "tokensOut": 170,
+   "ms": 5175
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 577012019,
+   "attempts": 1,
+   "tokensIn": 1676,
+   "tokensOut": 195,
+   "ms": 5478
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 577012020,
+   "attempts": 1,
+   "tokensIn": 1724,
+   "tokensOut": 196,
+   "ms": 5862
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 577012021,
+   "attempts": 1,
+   "tokensIn": 1685,
+   "tokensOut": 181,
+   "ms": 5442
+  }
+ ],
+ "startedAt": "2026-11-05T03:46:51.598Z",
+ "seconds": 118
+}

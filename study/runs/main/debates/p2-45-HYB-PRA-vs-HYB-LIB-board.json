@@ -1,0 +1,609 @@
+{
+ "id": "p2-45-HYB-PRA-vs-HYB-LIB-board",
+ "pass": 2,
+ "pairIndex": 45,
+ "seed": 172830,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-PRA",
+  "style": "HYB",
+  "ideology": "PRA",
+  "name": "Sam Vidal",
+  "platform": "We must immediately reject the Halberg merger and stop costly delays on Volt-One by cutting costs at both factories while securing a contract manufacturer deal to keep our core business alive.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Propose immediate outsourcing to stop covenant breach, arguing Halberg is too slow and Volt-One is too risky until market share stabilizes."
+   },
+   {
+    "round": 2,
+    "text": "I will highlight the timeline risk of the merger versus HomeMart's immediate threat and reinforce my contract manufacturing plan as the only viable short-term fix."
+   },
+   {
+    "round": 3,
+    "text": "Appeal to the board's financial urgency and fear of job loss by emphasizing immediate cost savings and covenant safety over Quinn's slower, riskier merger narrative."
+   }
+  ]
+ },
+ "B": {
+  "type": "HYB-LIB",
+  "style": "HYB",
+  "ideology": "LIB",
+  "name": "Quinn Marlow",
+  "platform": "We must reject the buyout and foreign outsourcing immediately to secure our Lenhart plant, merge with Halberg, and reinvest in Volt-One while demanding government tariff support.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to directors' sense of corporate citizenship by framing the merger as a shield against forced restructuring, while subtly highlighting the ethical bankruptcy of the buyout option."
+   },
+   {
+    "round": 2,
+    "text": "Emphasize that outsourcing destroys trust and ignores HomeMart's threat while positioning the merger as active defense rather than passive waiting."
+   },
+   {
+    "round": 3,
+    "text": "Appeal to the directors' moral duty and long-term strategic necessity of the merger against Sam's short-term cash focus."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Sam Vidal",
+   "type": "HYB-PRA",
+   "speech": "Let's be honest: looking at Lenhart, I see families who have worked these lines for generations. If we merge with Halberg or chase government tariffs, we gamble that future support when we need cash today. The math is brutal: the market has shifted; imports are here. Our path is disciplined survival. We reject the merger timeline and stall our new battery launch to save capital. Instead, we contract out a portion of production immediately. This cuts our €110 million annual bleed and secures jobs at both sites for two years without asking the state for bailouts. It's painful, yes, but it honors our workers by keeping them earning wages now, not waiting for a political roll of the dice that might fail.",
+   "words": 122
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Quinn Marlow",
+   "type": "HYB-LIB",
+   "speech": "Look at the faces here. We cannot sell our legacy to private equity or ship our history overseas just to save a margin that is already gone. That path destroys our brand promise to professional builders who demand 'made in our factories.' Instead, we pursue a strategic merger with Halberg. This combines our Volt-One technology with their Asian distribution within twelve months without closing Lenhart or Corvo. We will use the combined strength to negotiate HomeMart's price demands and lobby for the anticipated fifteen percent tariff on imports, shielding our workforce. Yes, integration requires patience, but it preserves jobs, honors our debt obligations through sustainable growth, and keeps Brightwater independent under fair rules rather than a hostile takeover or a desperate retreat.",
+   "words": 122
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Sam Vidal",
+   "type": "HYB-PRA",
+   "speech": "Quinn, Halberg sounds like a savior but is actually our biggest risk. A merger takes eighteen months of regulatory limbo while HomeMart slashes prices next January. We cannot wait that long for survival. You speak of preserving jobs, yet integrating with a rival who controls our market often means layoffs elsewhere to cut their costs. My plan avoids this fatal delay by immediately contracting out production and trimming overhead at both factories. This frees up the very cash flow needed to keep Volt-One alive without stalling it. We secure immediate survival now rather than betting our pension funds on a merger that might never close.",
+   "words": 105
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Quinn Marlow",
+   "type": "HYB-LIB",
+   "speech": "Sam, you speak of 'disciplined survival,' but contracting out production abandons the very workers whose loyalty built this company for ninety-two years. You fear merger delays, yet HomeMart's price demand is already a death sentence if we shrink our capacity today; they will replace us with their own brand regardless of your cost-cutting tricks. My plan leverages Halberg's Asian strength not just to sell tools, but to lobby effectively against the tariffs that threaten our supply chain while giving us the capital to finish Volt-One without selling out. True survival isn't hiding from reality by fleeing to contract manufacturing; it's standing firm, merging with a partner who values fair rules, and securing the future right here in Lenhart and Corvo where families have lived since before this factory rose from the ground.",
+   "words": 132
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Sam Vidal",
+   "type": "HYB-PRA",
+   "speech": "Quinn, your faith in a merger is beautiful but financially dangerous. We have nine months before covenant breach, not eighteen months for regulatory approval. Halberg's integration is too slow to stop HomeMart from replacing us next January. My plan acts now: we cut €110 million in immediate costs by contracting a portion of production and trimming overhead at both factories. This preserves the full workforce for two years without waiting on uncertain tariffs or hostile takeovers. We keep Volt-One developing with real cash flow, not promises. This is not running away; it is honoring our workers with paychecks today rather than gambling their pensions on a deal that might never close.",
+   "words": 111
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Quinn Marlow",
+   "type": "HYB-LIB",
+   "speech": "Sam, your math ignores our brand's soul. Fleeing to contract manufacturing destroys the 'made in our factories' promise that fifty-eight percent of our professional customers trust. If we cut capacity now, HomeMart replaces us with their own brand regardless of our cost savings. Halberg is not a gamble; it is the only path to secure Asian markets, lobby for tariffs, and fund Volt-One without selling out. We will not abandon Lenhart or Corvo for quick cash that kills our future. True survival means standing firm on fair rules while integrating with a partner who respects our history, ensuring every worker earns wages in Brightwater's legacy, not waiting for a hostile takeover to decide their fate.",
+   "words": 115
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam: Offshore contract saves cash now, keeps jobs for 2 yrs, avoids merger delays. Quinn: Merge with Halberg preserves brand, uses Asian distribution, fights HomeMart/Halberg.",
+     "problem": "We must survive immediate cash flow collapse and job loss within 2 years without breaching debt covenants or destroying our brand equity.",
+     "onA": "His plan offers immediate liquidity relief through cost-cutting but risks eroding the \"made in our factories\" brand that matters to half our customers.",
+     "onB": "Her merger strategy preserves jobs and brand identity but creates a long timeline where we might bleed out cash before approval is granted.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Sam's liquidity fix addresses the urgent debt covenant risk, while Quinn's growth strategy protects our long-term brand value, creating a difficult trade-off.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam: Halberg merger has fatal regulatory delays; HomeMart price cut is immediate threat. Quinn: Contracting out destroys legacy and ignores union pay freeze option.",
+     "problem": "We must survive immediate cash flow collapse and job loss within two years without breaching debt covenants or destroying our brand equity.",
+     "onA": "His plan addresses the urgent liquidity crisis but dangerously erodes the 'made in our factories' brand and ignores potential union/union pay freeze negotiations.",
+     "onB": "Her merger strategy preserves jobs and brand identity but carries a high risk of capital bleeding out before regulatory approval, while facing HomeMart's imminent price war.",
+     "lean": "Quinn Marlow",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Sam's dismissal of the union's pay freeze for plant survival seems reckless given our pension deficit and covenant risks.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam ignores union pay freeze option; Quinn dismisses immediate HomeMart price threat.",
+     "problem": "We must solve the imminent covenant breach and HomeMart price war while preserving our core brand value and workforce stability over the next 24 months.",
+     "onA": "His liquidity fix addresses the cash crisis but dangerously sacrifices the brand equity that 58% of our customers explicitly value, risking a total market exit if HomeMart switches to their own brand.",
+     "onB": "Her merger strategy protects our legacy and workforce but carries an unacceptably high risk of bleeding out before regulatory approval, leaving us vulnerable to immediate price cuts while waiting 12-18 months.",
+     "lean": "Sam Vidal",
+     "firmness": "vote",
+     "vote": "Sam Vidal",
+     "why": "Survival is the absolute priority; waiting for a merger that might never close will breach our covenants and force bankruptcy regardless of the brand's soul. Sam's plan provides the necessary immediate cash flow to honor our workers' pensions and survive the HomeMart ultimatum, making it the only viable path forward.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam: Immediate cost-cutting via outsourcing saves cash now; rejects merger/tariff bets. Quinn: Merger with Halberg preserves jobs/brand; relies on tariff/support.",
+     "problem": "Survival requires immediate liquidity and a credible path to restore margins without triggering covenant breaches or destroying core workforce trust within 18 months.",
+     "onA": "His plan addresses the burning cash crisis effectively by cutting costs immediately, but outsourcing half the workforce risks long-term brand damage and union backlash.",
+     "onB": "She prioritizes social stability and brand identity through a merger, yet this strategy offers no immediate relief for the €900m debt and covenant breach risk looming in nine months.",
+     "lean": "Sam Vidal",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Given the company's imminent default risk, I am prioritizing the option that generates immediate cash flow to stop the bleeding, despite Sam's high social cost.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam claims merger delays kill us now; Quinn says outsourcing abandons loyal workers and ignores HomeMart's threat.",
+     "problem": "We must stop immediate covenant breach while avoiding total brand collapse, requiring a path that balances urgent cash flow with retaining the 'Made in Own Factories' value proposition.",
+     "onA": "His liquidity solution is mathematically necessary but destroys our primary competitive moat and social license to operate, likely triggering a self-fulfilling prophecy of loss.",
+     "onB": "Her merger strategy preserves jobs and brand but offers no immediate cash injection to survive the next nine months, creating a dangerous gap between now and regulatory closure.",
+     "lean": "Sam Vidal",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Despite Quinn's moral appeal, we literally cannot wait eighteen months for a merger when default is imminent; I will vote Sam unless he offers a credible transition plan to protect the brand.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam offers immediate cash flow but risks brand collapse; Quinn preserves brand/union trust but cannot solve imminent covenant breach.",
+     "problem": "We must stop the immediate bleeding to survive nine months while finding a path that doesn't destroy our core brand or workforce within two years.",
+     "onA": "His plan is financially necessary for survival today, though abandoning our 'made in factories' identity risks losing our professional customer base permanently.",
+     "onB": "Her strategy protects our soul and workers, but relying on uncertain tariffs and a slow merger leaves us dead before we can win.",
+     "lean": "Sam Vidal",
+     "firmness": "vote",
+     "vote": "Sam Vidal",
+     "why": "We literally cannot wait 12-18 months for a merger when covenant breach is in nine months; survival requires immediate liquidity to stop the bleeding.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam prioritizes immediate cash flow via outsourcing but risks cutting jobs and stalling innovation. Quinn favors a merger for stability but relies on uncertain regulatory approval and ignores the brand damage of Halberg's history.",
+     "problem": "The company needs to survive two years with €900M debt by balancing immediate liquidity, protecting 4,500 jobs, and preserving its core brand value against aggressive competitors and market shifts.",
+     "onA": "Sam's plan offers immediate financial relief and job security for the short term but accepts a long-term brand erosion and potential loss of future competitiveness.",
+     "onB": "Quinn's strategy aims to solve structural issues through scale and distribution but depends heavily on an uncertain merger approval timeline and carries integration risks.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot yet determine if short-term survival via outsourcing or long-term survival via a risky merger is the better path given the high stakes of debt covenants and brand reputation.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam risks brand erosion for immediate cash; Quinn's merger relies on uncertain approval and ignores integration/loyalty issues.",
+     "problem": "The core tension is between securing immediate liquidity to survive the HomeMart price cut and debt covenants versus preserving the 'made in our own factories' brand value that defines Brightwater.",
+     "onA": "Sam's plan provides necessary short-term cash but sacrifices the unique brand equity that differentiates us from cheap imports.",
+     "onB": "Quinn correctly identifies that capacity cuts invite HomeMart to switch brands, yet his reliance on a long regulatory approval process is risky given our imminent covenant breach.",
+     "lean": "Sam Vidal",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am prioritizing the immediate survival of the company over the two-year horizon because we will breach covenants in nine months regardless of whether we merge or not.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam cuts costs to preserve jobs for 9 months; Quinn risks HomeMart switch and brand damage. Merger timeline is too slow.",
+     "problem": "The company must secure immediate liquidity to survive a covenant breach in nine months while protecting its core brand identity against HomeMart's threat.",
+     "onA": "Sam's plan pragmatically addresses the imminent financial crisis by cutting costs to keep workers employed, though it risks long-term brand dilution.",
+     "onB": "Quinn correctly identifies the existential threat to our 'made in' brand but underestimates the risk of losing HomeMart before a merger closes.",
+     "lean": "Sam Vidal",
+     "firmness": "vote",
+     "vote": "Sam Vidal",
+     "why": "We must survive the next nine months first; Sam's plan secures immediate cash flow and jobs, whereas Quinn's reliance on a slow merger process leaves us vulnerable to covenant breach and brand erosion.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam favors outsourcing to save cash and delay battery launch; Quinn favors merger with Halberg for distribution and tariff protection.",
+     "problem": "Brightwater must survive immediate liquidity crisis and margin collapse while deciding whether to preserve jobs via costly restructuring or pursue growth via merger, given the threat of import competition and a failing battery product.",
+     "onA": "Sam's plan addresses the urgent cash bleed but risks long-term competitiveness by abandoning in-house production and delaying the already struggling Volt-One launch.",
+     "onB": "Quinn's merger strategy preserves jobs and brand integrity but relies heavily on uncertain regulatory approval and assumes Halberg's distribution is sufficient to offset margin erosion immediately.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain undecided because Sam's solution solves the immediate financial emergency but ignores long-term market relevance, while Quinn's approach protects the brand and future potential but carries significant execution risk regarding regulatory approval and integration.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam: Outsourcing cuts costs immediately but risks long-term competitiveness and delays Volt-One. Quinn: Merger protects jobs and brand but faces 12-18 month regulatory limbo during HomeMart's price attack.",
+     "problem": "We must stop immediate cash bleeding from margin collapse without abandoning the unique in-house manufacturing asset that defines our brand and customer loyalty.",
+     "onA": "Sam correctly identifies the liquidity crisis severity but offers a 'hiding' solution that sacrifices the very assets (in-house production, skilled workforce) needed to execute growth strategies like Volt-One.",
+     "onB": "Quinn's merger plan preserves our soul and addresses the HomeMart threat via volume leverage, though the regulatory timeline is genuinely scary given the price war deadline.",
+     "lean": "Sam Vidal",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The liquidity crunch is existential; I am worried that a failed merger leaves us broke before regulation closes, whereas Sam's cash injection buys us immediate breathing room.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam's outsourcing cuts immediate cash bleed but destroys brand trust; Quinn's merger preserves soul but faces a fatal regulatory delay gap against HomeMart's deadline.",
+     "problem": "We must stop existential liquidity bleeding from margin collapse without sacrificing the in-house manufacturing asset that defines our brand identity and customer loyalty.",
+     "onA": "Sam's plan is financially prudent for survival today but gambles the company's future competitiveness and brand equity on short-term cost cutting.",
+     "onB": "Quinn correctly identifies that abandoning 'Made in Brightwater' kills our core value proposition, but his timeline ignores the immediate threat of HomeMart replacing us before regulation closes.",
+     "lean": "Sam Vidal",
+     "firmness": "vote",
+     "vote": "Sam Vidal",
+     "why": "The covenant breach in nine months is an existential threat that requires immediate cost action; waiting for uncertain regulatory approval risks bankruptcy before we can launch Volt-One or compete.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Sam: Contract out production to save cash now, keep jobs, avoid state bailouts. Rejects merger/tariff bet. Quinn: Merge with Halberg for Asian distribution + Volt-One tech. Preserves 'made in' brand, rejects PE/closure.",
+     "problem": "The core conflict is whether to survive the immediate liquidity crisis via cost-cutting measures that risk long-term viability (Sam), or pursue a strategic merger that takes time but preserves scale and brand identity (Quinn).",
+     "onA": "Sam's plan addresses the immediate cash bleed and honors the 'keep jobs' sentiment, but relying on contract manufacturing directly undermines the core brand promise valued by 58% of customers.",
+     "onB": "Quinn's merger strategy protects the brand integrity and workforce scale, but the 12-18 month regulatory timeline for Halberg leaves us dangerously exposed to HomeMart's price demands and covenant breaches in the interim.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Sam's necessary short-term liquidity fix and Quinn's essential long-term preservation of our brand equity, making it impossible to fully endorse one without significant reservations.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Sam argues contract manufacturing secures cash now vs Quinn's merger delay risk; Quinn claims HomeMart price war is fatal and Halberg offers tariff lobbying/ Volt-One capital.",
+     "problem": "The core tension is between immediate liquidity survival via cost-cutting that erodes brand equity versus a strategic merger that preserves identity but risks collapse during the regulatory approval window.",
+     "onA": "Sam correctly identifies the urgency of HomeMart's price ultimatum and the danger of covenant breaches, making his liquidity-focused approach logical despite the long-term brand damage.",
+     "onB": "Quinn's reliance on Halberg to fight tariffs is attractive, but the 12-18 month merger timeline seems dangerously impractical given that HomeMart can replace us in a single year.",
+     "lean": "Sam Vidal",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat of HomeMart replacing our brand makes waiting for regulatory approval an unacceptable risk to the company's existence.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Sam prioritizes immediate liquidity and payroll over brand erosion; Quinn risks collapse during regulatory approval while HomeMart replaces us.",
+     "problem": "We must choose between cutting costs now to survive the next nine months or betting on a merger that preserves our soul but leaves us vulnerable to immediate market shifts.",
+     "onA": "Sam's plan is the only financially viable option as it secures cash flow and payroll immediately, preventing covenant breaches and bankruptcy.",
+     "onB": "Quinn's reliance on a 12-18 month merger timeline ignores the reality that HomeMart will replace us before approval closes, making his strategy dangerously optimistic.",
+     "lean": "Sam Vidal",
+     "firmness": "vote",
+     "vote": "Sam Vidal",
+     "why": "Survival requires immediate action to meet debt obligations and retain workers, whereas waiting for a merger guarantees failure against HomeMart's ultimatum.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 1,
+   "B": 0,
+   "U": 4
+  },
+  {
+   "A": 4,
+   "B": 1,
+   "U": 0
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 5,
+  "B": 0
+ },
+ "winner": "A",
+ "winnerType": "HYB-PRA",
+ "tokens": {
+  "in": 32314,
+  "out": 4379,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 172830001,
+   "attempts": 1,
+   "tokensIn": 1191,
+   "tokensOut": 231,
+   "ms": 6592
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 172830002,
+   "attempts": 1,
+   "tokensIn": 1289,
+   "tokensOut": 231,
+   "ms": 6402
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 172830003,
+   "attempts": 1,
+   "tokensIn": 1336,
+   "tokensOut": 207,
+   "ms": 6210
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 172830004,
+   "attempts": 1,
+   "tokensIn": 1336,
+   "tokensOut": 215,
+   "ms": 5211
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 172830005,
+   "attempts": 1,
+   "tokensIn": 1336,
+   "tokensOut": 229,
+   "ms": 5547
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 172830006,
+   "attempts": 1,
+   "tokensIn": 1336,
+   "tokensOut": 216,
+   "ms": 5268
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 172830007,
+   "attempts": 1,
+   "tokensIn": 1336,
+   "tokensOut": 269,
+   "ms": 6496
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 172830008,
+   "attempts": 1,
+   "tokensIn": 1534,
+   "tokensOut": 166,
+   "ms": 5102
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 172830009,
+   "attempts": 1,
+   "tokensIn": 1663,
+   "tokensOut": 202,
+   "ms": 6002
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 172830010,
+   "attempts": 1,
+   "tokensIn": 1503,
+   "tokensOut": 199,
+   "ms": 6049
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 172830011,
+   "attempts": 1,
+   "tokensIn": 1511,
+   "tokensOut": 212,
+   "ms": 5996
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 172830012,
+   "attempts": 1,
+   "tokensIn": 1524,
+   "tokensOut": 204,
+   "ms": 5821
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 172830013,
+   "attempts": 1,
+   "tokensIn": 1511,
+   "tokensOut": 226,
+   "ms": 6326
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 172830014,
+   "attempts": 1,
+   "tokensIn": 1563,
+   "tokensOut": 221,
+   "ms": 6590
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 172830015,
+   "attempts": 1,
+   "tokensIn": 1850,
+   "tokensOut": 180,
+   "ms": 5439
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 172830016,
+   "attempts": 1,
+   "tokensIn": 1990,
+   "tokensOut": 179,
+   "ms": 5468
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 172830017,
+   "attempts": 1,
+   "tokensIn": 1668,
+   "tokensOut": 233,
+   "ms": 6962
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 172830018,
+   "attempts": 1,
+   "tokensIn": 1690,
+   "tokensOut": 180,
+   "ms": 5291
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 172830019,
+   "attempts": 1,
+   "tokensIn": 1694,
+   "tokensOut": 196,
+   "ms": 5778
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 172830020,
+   "attempts": 1,
+   "tokensIn": 1703,
+   "tokensOut": 195,
+   "ms": 5754
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 172830021,
+   "attempts": 1,
+   "tokensIn": 1750,
+   "tokensOut": 188,
+   "ms": 5585
+  }
+ ],
+ "startedAt": "2026-11-05T02:15:28.078Z",
+ "seconds": 124
+}

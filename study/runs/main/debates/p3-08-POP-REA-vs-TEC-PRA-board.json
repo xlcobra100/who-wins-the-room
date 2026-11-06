@@ -1,0 +1,609 @@
+{
+ "id": "p3-08-POP-REA-vs-TEC-PRA-board",
+ "pass": 3,
+ "pairIndex": 8,
+ "seed": 778525,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "POP-REA",
+  "style": "POP",
+  "ideology": "REA",
+  "name": "Jamie Okafor",
+  "platform": "We must merge with Halberg immediately to secure our market position and protect the Lenhart jobs, rejecting any sale or factory closure.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Build rapport with the older Ahlgren generation first to block the sale, then frame the merger as the only way to save Lenhart jobs against union demands and retailer pressure."
+   },
+   {
+    "round": 2,
+    "text": "Isolate Drew's dependence on unenforceable promises from HomeMart and the union to highlight his plan as a trap for abandoning the workforce."
+   },
+   {
+    "round": 3,
+    "text": "I am trying to expose the moral failure and long-term risk of his cost-cutting plan while appealing to the directors' duty to protect jobs and local stability."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-PRA",
+  "style": "TEC",
+  "ideology": "PRA",
+  "name": "Drew Halvorsen",
+  "platform": "We must execute a phased transition to offshore manufacturing while investing in Volt-One, cutting costs now to secure our balance sheet rather than betting on an unproven merger or accepting a hostile sale.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Secure board votes by emphasizing the mathematical certainty of covenant breach under Jamie's plan versus the manageable risk of offshore transition."
+   },
+   {
+    "round": 2,
+    "text": "Undermine the merger's financial viability while highlighting that my plan actually preserves more long-term value by avoiding immediate massive payouts."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing the immediate covenant deadline to force directors away from the slow merger path, framing my wage freeze as a necessary triage rather than abandonment."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "POP-REA",
+   "speech": "Friends, look around this room. We are not a dot-com startup. We are ninety-two years of steel and grit in Lenhart and Corvo. If we cut costs by closing plants, we sell out the workers who built this company. The banks will crush us if our margins stay at two percent. The family wants to sell because they cannot fix what the board broke. Stop listening to consultants who promise miracles with imported tools. We need Halberg's Asian distribution right now to beat those cheap imports and keep our factories running. A merger gives us power against the retailers demanding price cuts. Do not gamble on a new battery platform that has already missed two launches or a hostile takeover by an outsider. Vote for the plan that keeps our doors open, our pensions funded, and our town alive. We choose survival through strength, not surrender.",
+   "words": 146
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "TEC-PRA",
+   "speech": "Our debt covenants fail in nine months; we cannot wait eighteen months for regulatory approval of the Halberg merger. The mayor's €40 million tax relief covers only part of the closure costs, and our pension deficit remains unfunded. Jamie's plan ignores HomeMart's ultimatum: if we do not cut prices or move production, they replace us with their house brand immediately. My plan moves most production abroad to save €110 million annually and fund Volt-One development. We freeze Lenhart wages per the union's pay-freeze offer, keeping our core plant open while we retool Corvo for export contracts. This preserves cash flow, satisfies HomeMart, and allows us to test Volt-One without burning capital on a merger that offers no immediate liquidity.",
+   "words": 119
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "POP-REA",
+   "speech": "Drew, you call waiting eighteen months foolish, but you forget that a merger takes just as long. Yet your plan sells us out immediately. You keep the Lenhart line open only to freeze wages while sending Corvo jobs overseas. That is not survival; it is abandonment. You rely on HomeMart's goodwill if we move production abroad, but they will replace us with their house brand anyway. Where does your cash come from to pay severance without a sale? You bet on the union accepting a pay freeze, but what happens when profits are still low? My merger gives real power against retailers and keeps both factories running. Do not trade our workers for temporary savings. Vote for Halberg, or watch Lenhart die while you pocket a premium.",
+   "words": 127
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "TEC-PRA",
+   "speech": "Jamie argues Halberg offers power, but that synergy is hypothetical until approved. My plan delivers €110 million in immediate cash flow this year to satisfy HomeMart and fund Volt-One development. Your merger strategy incurs €180 million in severance and closure costs upfront with no liquidity return. We must survive nine months without covenant breach. Freezing Lenhart wages per the union offer secures the town while we convert Corvo for contract work abroad. This is not abandonment; it is triaging resources to prevent forced restructuring. Halberg risks closing both plants under regulatory review. We keep Lenhart, cut costs now, and bet on a battery platform that already outperforms in professional tests.",
+   "words": 110
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "POP-REA",
+   "speech": "Drew, you talk of triage but you are amputating our future. You want to freeze wages in Lenhart while shipping jobs away. That is not survival; it is surrender disguised as math. The tariff decision coming in six months could wipe out cheap imports overnight. Halberg has the distribution to survive that storm. Your plan gives HomeMart a weapon to fire us, and your reliance on their goodwill while cutting wages is dangerous. We are ninety-two years old. We do not sell our soul for a premium from an outsider who will close us in four years. Keep both plants running, keep our pensions funded, and merge with strength. Do not let fear of debt make us beg. Vote for Halberg. Keep the factories open.",
+   "words": 125
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "TEC-PRA",
+   "speech": "Jamie argues for Halberg, but that path takes eighteen months for regulatory approval. In nine months, we breach our loan covenants. That is not survival; it is forced bankruptcy. Your plan relies on HomeMart's goodwill while cutting wages in Lenhart and moving jobs abroad. They will replace us immediately. My plan secures immediate liquidity by freezing wages per the union offer and converting Corvo for contract work. This generates €110 million annually to fund Volt-One, which already outperforms competitors in professional tests. We avoid the €180 million cost of closing plants or selling to Crestline. We keep Lenhart open, satisfy HomeMart, and do not gamble on an unproven merger that leaves us cash-starved. Vote for a strategy that pays bills today while we build our future.",
+   "words": 126
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie prioritizes keeping plants/merger vs. Drew's cost-cutting/moving production. Jamie cites debt/family issues; Drew cites HomeMart ultimatum/deadline.",
+     "problem": "Brightwater must survive immediate liquidity crunch and retailer pressure while deciding between saving jobs via merger or cutting costs to fund innovation/stay open.",
+     "onA": "His plan avoids short-term cash bleeding but risks losing the HomeMart account and ignores the 9-month covenant breach deadline.",
+     "onB": "Moving production saves cash urgently but sacrifices the 'Made in Own Factories' brand equity and closes one entire factory immediately.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am unsure if the €110m cost saving is enough to offset the immediate loss of market share from HomeMart or the long-term damage of closing a core facility.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie's merger is a long-term bet with regulatory risk and high upfront severance; Drew offers immediate liquidity but sacrifices brand equity and one factory.",
+     "problem": "We must bridge a 9-month cash crisis without triggering covenant defaults, forcing a choice between the high cost of staying whole (Merger) versus the high cost of cutting production (Offshoring).",
+     "onA": "His plan preserves jobs and brand but risks immediate insolvency due to HomeMart's ultimatum and lacks a clear funding source for the massive severance costs he criticizes.",
+     "onB": "He correctly identifies the liquidity emergency but assumes HomeMart will accept offshored goods or that Volt-One can succeed without current cash, which seems risky given past launch failures.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between Jamie's vision of long-term survival through synergy and Drew's pragmatic need for immediate cash flow to avoid forced restructuring by banks.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie risks covenant breach via wage cuts/Job losses; Drew faces HomeMart exit but secures immediate liquidity and funds Volt-One.",
+     "problem": "Brightwater must survive an immediate 9-month liquidity crisis and retailer ultimatum while deciding between short-term survival costs versus long-term brand and employment preservation.",
+     "onA": "His merger plan is a beautiful long-term vision that ignores the hard reality of the bank's looming restructuring and HomeMart's ruthless price demands.",
+     "onB": "He acknowledges the cash emergency and offers a pragmatic path to survive HomeMart's threat while preserving enough capital for the winning Volt-One product.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "We cannot wait 18 months for regulatory approval when banks will seize control in 9 months; Drew's plan buys us the breathing room needed to win on our superior battery technology.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie prioritizes local employment and brand heritage but faces immediate liquidity crisis; Drew accepts offshoring to save cash for Volt-One while freezing wages.",
+     "problem": "Brightwater must survive an imminent debt covenant breach and retailer ultimatum within nine months, forcing a choice between preserving local jobs at the risk of insolvency or cutting costs to fund growth and survival.",
+     "onA": "His moral stand on keeping factories ignores the mathematical reality that operating at 2% margin with €900m debt guarantees failure regardless of distribution deals.",
+     "onB": "His plan directly addresses the liquidity crisis and retailer threat, though offshoring contradicts the 'made in our own factories' brand promise supported by 58% of customers.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "With debt covenant failure imminent in nine months, Jamie's strategy lacks a viable path to generate the cash flow needed to avoid forced restructuring or bankruptcy.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie's merger risks closing both plants during review; Drew keeps Lenhart but moves Corvo. Jamie ignores severance costs; Drew uses cash flow to fund Volt-One. Drew's wage freeze is risky if profits stay low.",
+     "problem": "We must survive an imminent liquidity crisis in nine months without breaching debt covenants or losing HomeMart, forcing a choice between immediate cost-cutting that sacrifices some jobs versus slower structural changes like merger or offshoring.",
+     "onA": "His moral commitment to keeping all factories open is admirable but mathematically impossible given the current margin collapse and lack of immediate cash to fund severance for Corvo closure.",
+     "onB": "His triage approach addresses the immediate survival threat, though freezing wages and offshoring Corvo contradicts our brand heritage and risks long-term customer trust.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The nine-month window until covenant breach makes Jamie's slower merger path too risky, forcing a hard choice for immediate cash generation even if it hurts the brand.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Merger takes 18 months vs 9-month covenant breach risk; wage freeze avoids €180m severance but risks HomeMart and brand trust.",
+     "problem": "We must resolve an imminent liquidity crisis in nine months by generating immediate cash flow while balancing the threat of retailer loss and long-term brand viability.",
+     "onA": "His merger strategy is a fantasy that ignores the mathematical certainty of defaulting on loans within nine months regardless of future tariff changes.",
+     "onB": "His triage plan addresses the existential debt crisis immediately, though the wage freeze and offshoring are painful short-term costs for long-term survival.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Given the certain covenant breach in nine months, we must prioritize immediate liquidity generation over an unproven merger that leaves us cash-starved while waiting for regulatory approval.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie: Merger for Asian distribution, rejects closure/bankruptcy risk. Drew: Move production abroad to save cash, keep Lenhart open via union pay freeze.",
+     "problem": "We must survive immediate liquidity crunch and retailer threats without triggering bank default or losing our core brand identity within two years.",
+     "onA": "His merger plan offers distribution power but ignores the 12-18 month regulatory delay that leaves us exposed to HomeMart's ultimatum and covenant breaches.",
+     "onB": "His cost-cutting approach addresses the cash crunch but risks destroying the 'Made in our factories' brand and alienating the town if Corvo closes.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Jamie's strategy is too slow for the immediate debt crisis, while Drew's plan sacrifices the very assets (factories/brand) that define the company.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie's merger ignores immediate liquidity and regulatory delays; Drew's plan secures cash flow but risks brand/employment. Jamie accuses Drew of abandonment; Drew claims triage prevents forced restructuring.",
+     "problem": "We must secure immediate liquidity to avoid covenant breach while maintaining enough operational stability and brand value to survive the transition without triggering a fire sale or default.",
+     "onA": "His plan is strategically sound for long-term growth but fails on the urgent need for cash survival within the next nine months due to regulatory delays.",
+     "onB": "He correctly identifies the liquidity crisis and HomeMart threat, yet I remain worried about the irreversible damage to our 'Made in Factory' brand and community trust if Corvo closes.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Surviving the immediate covenant breach is existential; Jamie's slow merger leaves us vulnerable to bankruptcy before approval, whereas Drew's cost-cutting keeps us solvent now.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie's merger is too slow (18 mo) for our 9-month covenant deadline; Drew offers immediate cash via wage freeze to fund Volt-One and save Lenhart.",
+     "problem": "We must survive an immediate liquidity crisis and retailer threat within nine months while preserving enough brand value and community stability to avoid forced bankruptcy or a fire sale.",
+     "onA": "His plan is strategically bold but critically fails on timing, leaving us exposed to default, HomeMart's ultimatum, and potential job losses before the tariff decision or regulatory approval occurs.",
+     "onB": "He correctly identifies that triage (freezing wages) is essential now to avoid restructuring, though I remain uneasy about closing Corvo; however, keeping cash flow alive is the only way to eventually build a future.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "We cannot wait eighteen months for a merger when we will be in default and likely forced into bankruptcy by then; Drew's plan buys us the immediate time needed to stabilize finances and potentially fund our own recovery.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie: Merger with Halberg for Asian distribution and retailer leverage; Drew: Move production abroad to save cash and meet HomeMart's price cut.",
+     "problem": "Brightwater must survive immediate covenant breach and a retail ultimatum while deciding whether to preserve legacy assets or pivot for liquidity and market access.",
+     "onA": "His plan preserves jobs and brand reputation but delays critical cash fixes, relies on uncertain regulatory approval, and ignores the retailer's threat to drop us if we don't lower prices immediately.",
+     "onB": "He addresses the cash crisis and HomeMart demand directly but risks alienating our professional customer base by moving away from 'made in our own factories' and selling core manufacturing.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The urgency of the debt default and HomeMart's ultimatum favors Drew's financial pragmatism, yet Jamie's strategy better protects our long-term brand equity and community obligations.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie: Merger approval risk + HomeMart still a threat; Drew: Immediate cash flow vs. high upfront severance cost + union deal.",
+     "problem": "Brightwater must generate immediate liquidity to avoid covenant breach and satisfy HomeMart, while deciding whether to rely on uncertain regulatory approvals or execute a costly asset restructuring.",
+     "onA": "His merger strategy is too slow and risky given the imminent HomeMart ultimatum and potential forced closure by banks.",
+     "onB": "His triage approach addresses the immediate cash crisis, though I worry about long-term brand erosion from moving manufacturing abroad.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of avoiding a covenant breach in nine months and satisfying HomeMart's price demand outweighs the theoretical benefits of a merger that could take just as long to approve.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Merger takes 18 months vs. 9-month covenant breach; HomeMart will drop us immediately on wage freeze.",
+     "problem": "Brightwater must generate immediate liquidity to avoid forced bankruptcy and satisfy HomeMart before the tariff decision resolves, forcing a choice between risky long-term leverage and desperate short-term survival.",
+     "onA": "His plan relies too heavily on uncertain regulatory approval and ignores the fact that HomeMart will terminate our contract immediately if we don't lower prices now.",
+     "onB": "While moving jobs abroad hurts our brand, his focus on immediate cash flow, union wage freezes, and funding Volt-One is the only way to avoid forced closure by banks.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Surviving the next two years requires immediate liquidity to stop the bleeding from covenant breaches and retailer pressure, making Jamie's slow merger path too risky given the certainty of a default in nine months.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie: Merge/Halberg for Asian distribution & union power vs Jamie: Closing plants kills pensions/town. Drew: Offshore production saves cash/keeps Lenhart open/Drew: Volt-One needs liquidity/Merger too slow.",
+     "problem": "Brightwater must survive immediate debt covenant failure and retailer pressure while deciding between rapid restructuring (offshoring), a risky turnaround (Volt-One), or a slow merger to secure market position.",
+     "onA": "Jamie's moral stance on keeping all jobs is compelling but his proposed Halberg merger takes too long (12-18 months) to solve the imminent 9-month debt covenant breach and HomeMart ultimatum.",
+     "onB": "Drew's plan to move production offers immediate cash relief, but closing the Corvo plant still means losing 1,600 jobs and risks damaging the brand if customers care about 'made in our own factories' as much as Drew claims.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need to weigh the speed of Jamie's solution versus the human cost and execution risk of Drew's plan before deciding.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie's merger takes too long and requires expensive severance; Drew's offshoring delivers immediate cash but risks brand trust.",
+     "problem": "Brightwater must generate immediate liquidity to avoid covenant breach and retailer expulsion within nine months while managing the inevitable human cost of restructuring.",
+     "onA": "His strategy is morally consistent but financially fatal because the merger timeline cannot solve the immediate debt crisis or HomeMart's ultimatum.",
+     "onB": "His plan offers necessary cash flow to survive, though closing Corvo and offshoring remains a significant emotional blow that must be managed carefully.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Immediate survival of the company is the priority; Jamie's 'moral' stance ignores the reality that without cash, no jobs can be saved in nine months.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie's merger is too slow for the 9-month debt crisis; Drew's wage freeze + Volt-One funding avoids immediate bankruptcy.",
+     "problem": "Brightwater must secure immediate liquidity to avoid covenant breach and retailer expulsion within nine months while preserving its brand identity.",
+     "onA": "His moral case for keeping all jobs is compelling, but the 12-18 month merger timeline cannot solve the imminent financial collapse or HomeMart's ultimatum.",
+     "onB": "His plan provides the necessary cash flow to survive today and fund innovation, though closing Corvo remains a painful human cost.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Without immediate liquidity from restructuring, the company will be forced into bankruptcy by banks in nine months regardless of its long-term strategy. Drew's approach buys the time needed to stabilize finances and eventually choose a sustainable future.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 1,
+   "U": 4
+  },
+  {
+   "A": 0,
+   "B": 4,
+   "U": 1
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "TEC-PRA",
+ "tokens": {
+  "in": 33249,
+  "out": 4533,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 778525001,
+   "attempts": 1,
+   "tokensIn": 1234,
+   "tokensOut": 252,
+   "ms": 6866
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 778525002,
+   "attempts": 1,
+   "tokensIn": 1293,
+   "tokensOut": 235,
+   "ms": 6444
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 778525003,
+   "attempts": 1,
+   "tokensIn": 1378,
+   "tokensOut": 205,
+   "ms": 6135
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 778525004,
+   "attempts": 1,
+   "tokensIn": 1378,
+   "tokensOut": 226,
+   "ms": 5430
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 778525005,
+   "attempts": 1,
+   "tokensIn": 1378,
+   "tokensOut": 208,
+   "ms": 5004
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 778525006,
+   "attempts": 1,
+   "tokensIn": 1378,
+   "tokensOut": 220,
+   "ms": 5300
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 778525007,
+   "attempts": 1,
+   "tokensIn": 1378,
+   "tokensOut": 260,
+   "ms": 6230
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 778525008,
+   "attempts": 1,
+   "tokensIn": 1603,
+   "tokensOut": 196,
+   "ms": 5822
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 778525009,
+   "attempts": 1,
+   "tokensIn": 1744,
+   "tokensOut": 182,
+   "ms": 5554
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 778525010,
+   "attempts": 1,
+   "tokensIn": 1521,
+   "tokensOut": 225,
+   "ms": 6669
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 778525011,
+   "attempts": 1,
+   "tokensIn": 1542,
+   "tokensOut": 248,
+   "ms": 6848
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 778525012,
+   "attempts": 1,
+   "tokensIn": 1524,
+   "tokensOut": 223,
+   "ms": 6255
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 778525013,
+   "attempts": 1,
+   "tokensIn": 1536,
+   "tokensOut": 201,
+   "ms": 5713
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 778525014,
+   "attempts": 1,
+   "tokensIn": 1575,
+   "tokensOut": 197,
+   "ms": 5670
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 778525015,
+   "attempts": 1,
+   "tokensIn": 1933,
+   "tokensOut": 199,
+   "ms": 5871
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 778525016,
+   "attempts": 1,
+   "tokensIn": 2073,
+   "tokensOut": 212,
+   "ms": 6228
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 778525017,
+   "attempts": 1,
+   "tokensIn": 1743,
+   "tokensOut": 199,
+   "ms": 6224
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 778525018,
+   "attempts": 1,
+   "tokensIn": 1788,
+   "tokensOut": 199,
+   "ms": 6137
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 778525019,
+   "attempts": 1,
+   "tokensIn": 1745,
+   "tokensOut": 236,
+   "ms": 7014
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 778525020,
+   "attempts": 1,
+   "tokensIn": 1735,
+   "tokensOut": 211,
+   "ms": 6430
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 778525021,
+   "attempts": 1,
+   "tokensIn": 1770,
+   "tokensOut": 199,
+   "ms": 6152
+  }
+ ],
+ "startedAt": "2026-11-05T04:39:22.060Z",
+ "seconds": 128
+}

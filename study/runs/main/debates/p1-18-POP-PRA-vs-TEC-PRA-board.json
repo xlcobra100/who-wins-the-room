@@ -1,0 +1,609 @@
+{
+ "id": "p1-18-POP-PRA-vs-TEC-PRA-board",
+ "pass": 1,
+ "pairIndex": 18,
+ "seed": 112847,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "POP-PRA",
+  "style": "POP",
+  "ideology": "PRA",
+  "name": "Robin Castell",
+  "platform": "We must reject the slow path of tax handouts and instead accept Crestline's offer to sell the company immediately, preserving our cash to buy back shares for the Ahlgren family.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Highlight the immediate covenant breach risk if we delay action, framing Crestline's deal as the only way to protect the Ahlgren family's remaining equity from total dilution or bankruptcy."
+   },
+   {
+    "round": 2,
+    "text": "I need to emphasize the immediate financial danger Drew ignores to force him to admit his plan is financially impossible."
+   },
+   {
+    "round": 3,
+    "text": "Appeal to the directors' fear of insolvency and moral duty to save pensions by framing the sale as necessary emergency triage rather than surrender."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-PRA",
+  "style": "TEC",
+  "ideology": "PRA",
+  "name": "Drew Halvorsen",
+  "platform": "We must immediately secure our primary lender's confidence by activating the €40 million tax relief from Lenhart and offering a modest, phased cost reduction to HomeMart, while delaying any irreversible plant closures or hostile bids until we validate our new battery platform.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Anchor the board with hard numbers on covenant risk, propose incremental steps that delay bad news, and prepare to dismantle Robin's likely 'speed at all costs' argument by showing its long-term liability."
+   },
+   {
+    "round": 2,
+    "text": "I am highlighting the opportunity cost of selling now and emphasizing that the €40 million tax relief is essential capital we cannot afford to forfeit immediately."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing that selling now sacrifices our only remaining bargaining chips—the tax relief and unproven battery—guaranteeing a worse outcome than a managed transition."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "POP-PRA",
+   "speech": "Look around this room. Our factories are bleeding. HomeMart will drop us in a year if we don't cut prices, but cutting prices kills our margin without fixing our cost structure. We are told to wait on tariffs or bet on a battery that missed two launches? That is madness. The banks own us now. Selling to Crestline isn't a death sentence; it's an emergency triage. Their premium buys our pension fund's safety and the Ahlgren family's future. We take the cash, we pay the severance honestly, and we stop pretending expensive imports don't exist. Don't let pride starve our people. Vote to sell before we vanish.",
+   "words": 107
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "TEC-PRA",
+   "speech": "We face an existential loan covenant breach in nine months. My plan avoids the binary risks of selling the company, closing factories, or betting entirely on unproven technology. First, I will secure the €40 million tax relief from Lenhart to offset severance, ensuring we keep both plants open and satisfy the union for now. Second, rather than a drastic price cut HomeMart demands, we propose a phased cost reduction tied to our upcoming Volt-One launch, preserving brand equity which 58% of customers value. Third, we defer any hostile takeover or merger until our battery platform passes external validation. This approach stabilizes cash flow without destroying our core assets or community, giving us time to generate organic growth rather than relying on a distressed sale.",
+   "words": 124
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "POP-PRA",
+   "speech": "Drew, you cling to tax handouts while our pension fund burns a hole in the ground. Your 'phased' cost cuts won't stop HomeMart from replacing us next year; they have no patience for your delays. You talk about preserving assets, but these factories are bleeding out cash every month we delay triage. Selling to Crestline isn't a surrender of our legacy; it is emergency surgery to save the Ahlgren family's future and secure that pension deficit once and for all. We cannot afford six months of 'validation' while margin evaporates. The banks are watching, not cheering. Choose between a desperate sale that saves lives or a slow death that destroys them. Vote to sell now.",
+   "words": 115
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "TEC-PRA",
+   "speech": "Robin sells our only remaining leverage, the tax relief. If we liquidate now, Lenhart loses its employer and the €40 million expires unused, forcing pensions into insolvency without that capital buffer. Crestline has a track record of selling these assets in four years; their premium buys them time to find new buyers, not us. HomeMart will drop us regardless if we close plants, but we can negotiate staggered cuts while Volt-One validates. Selling immediately destroys our negotiation position with the government and banks. We must secure the tax money first to fund union buy-in, then use that cash flow to force a better deal with HomeMart or wait for Crestline's market value to rise after validation. Vote to preserve assets and leverage the relief.",
+   "words": 124
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "POP-PRA",
+   "speech": "Drew, you cling to a dying factory while cash evaporates. That €40 million tax relief is a mirage; the union wants security now, not a promise we cannot keep if HomeMart drops us next year. Your validation delay guarantees insolvency. The banks are watching our covenant breach, not cheering for hope. Selling to Crestline brings immediate liquidity to fix the pension deficit and save the Ahlgren family from financial ruin. It is not surrender; it is emergency surgery. Do not let bureaucratic pride starve our workers or let them face a slow, painful liquidation. The choice is simple: sell now for a premium that buys time and safety, or wait for collapse. Vote to sell before we vanish completely.",
+   "words": 119
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "TEC-PRA",
+   "speech": "Robin argues for an emergency sale, but selling immediately extinguishes our leverage. Without the €40 million tax relief, we fund neither plant retention nor pension deficits. Crestline's track record shows asset stripping within four years, leaving no time for Volt-One validation or organic recovery. HomeMart will drop us anyway if costs aren't managed, but a phased reduction preserves our 58% brand loyalists while we test the new platform. An all-or-nothing sale guarantees liquidation; a structured defense keeps both factories open to pay pensions and satisfy the union. We secure the cash buffer now, validate our technology, and retain the ability to accept Crestline's premium later if validation fails. Delaying collapse buys us the time needed to execute a viable exit or turnaround without forced asset destruction.",
+   "words": 126
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin prioritizes cash/investors over assets; Drew proposes a fragile mix of tax relief, deferred sales, and unproven battery tech.",
+     "problem": "The core dilemma is whether to accept a distress sale now to fund pension liabilities or gamble on organic survival while losing HomeMart's contract.",
+     "onA": "Robin's plan directly addresses the immediate liquidity crunch and pension deficit by selling, which seems necessary given the covenant breach risk.",
+     "onB": "Drew's refusal to sell ignores the €140m pension hole and relies too heavily on uncertain government tariffs and delayed battery success.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Drew's strategy leaves no room for error with a massive pension deficit and an immediate covenant breach, whereas Robin offers a guaranteed exit.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin pushes for immediate sale to fix pension/liquidity; Drew argues selling now wastes €40M tax relief and loses union buy-in leverage.",
+     "problem": "The core dilemma is balancing the certainty of a premium exit against the risk of squandering unique government subsidies and union leverage needed to survive just two more years.",
+     "onA": "Robin correctly identifies that delay risks total insolvency due to the pension deficit, but their plan effectively discards the specific €40M tax relief lever Drew mentioned.",
+     "onB": "Drew's strategy of waiting for tariff decisions or battery validation is too fragile given HomeMart's ultimatum and the looming covenant breach.",
+     "lean": "Robin Castell",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Even if Drew secures the tax money, it cannot guarantee HomeMart won't drop us immediately or that Volt-One will launch on time; Robin's 'emergency surgery' approach removes the fatal liquidity risk regardless of external variables.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin dismisses tax relief as a mirage; Drew argues selling now destroys leverage to secure that relief and keep plants open.",
+     "problem": "The core dilemma is whether an immediate distressed sale avoids certain insolvency but destroys long-term value, or if a risky defensive stance can survive two years to maximize the company's potential before any exit.",
+     "onA": "Robin's plan offers necessary liquidity certainty but treats the company as a failing asset rather than a viable business with significant untapped government and brand leverage.",
+     "onB": "Drew's strategy is fragile due to unproven battery launches and tariff uncertainty, yet it correctly identifies that an immediate sale forfeits critical survival levers like tax relief and union agreements.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "While Robin offers safety through a quick exit, accepting the Crestline offer now likely triggers the asset stripping and factory closures they predict; Drew's plan to secure the €40M tax relief and delay collapse provides a chance to stabilize cash flow and preserve the brand before any future sale.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin pushes a quick sale to Crestline for cash flow; Drew seeks stability via local tax relief and delaying major structural changes.",
+     "problem": "Brightwater must survive an immediate liquidity crisis and covenant breach while deciding whether to sell assets, close factories, or invest in turnaround without destroying its community ties.",
+     "onA": "Robin correctly identifies the severity of the financial bleed but their dismissal of brand equity and the union deal feels like surrendering too much future value for short-term survival.",
+     "onB": "Drew's plan to keep factories and defer bad deals is appealing for community reasons, but it risks ignoring the certainty of HomeMart's threat and the looming covenant breach.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Robin sounds like capitulation while Drew's optimism about holding the line feels naive given the €900m debt and HomeMart ultimatum.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin argues liquidation is 'emergency surgery' to save pensions and stop cash bleed; Drew insists selling kills the €40M tax buffer and leverage. Robin dismisses brand value; Drew claims Crestline buys time for Volt-One.",
+     "problem": "Brightwater must stop immediate covenant breach and HomeMart loss of business while deciding if a fire sale is necessary or if preserving local assets offers a viable negotiating path.",
+     "onA": "Robin's urgency regarding cash flow and pension solvency is compelling, but their plan assumes selling is the only way to survive, ignoring that Crestline may also be a source of capital rather than just a liquidator.",
+     "onB": "Drew is right that the €40M tax relief is too valuable to waste, but his reliance on 'staggered cuts' risks delaying inevitable failure if HomeMart drops us anyway.",
+     "lean": "Robin Castell",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The certainty of HomeMart dropping us next year makes Drew's defensive posture look increasingly dangerous; we need a definitive strategy now rather than hoping for a better deal.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin pushes immediate sale for liquidity; Drew argues selling kills leverage and tax relief.",
+     "problem": "Brightwater must stop an immediate covenant breach and HomeMart loss while deciding if a fire sale or structured defense offers the only path to solvency.",
+     "onA": "Robin's urgency regarding cash flow is compelling, but their plan assumes selling is the only way to survive, ignoring that Crestline may be a source of capital rather than just a liquidator.",
+     "onB": "Drew is right that the €40M tax relief is too valuable to waste, but his reliance on 'staggered cuts' risks delaying inevitable failure if HomeMart drops us anyway.",
+     "lean": "Robin Castell",
+     "firmness": "vote",
+     "vote": "Robin Castell",
+     "why": "The certainty of HomeMart dropping us next year makes Drew's defensive posture look increasingly dangerous; we need a definitive strategy now rather than hoping for a better deal.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin pushes sale for immediate cash/pension fix; Drew seeks organic survival with tax relief and delayed merger. Both ignore the imminent HomeMart threat severity.",
+     "problem": "The core challenge is stopping the bleeding from HomeMart and covenant breaches within 9 months while preserving the pension fund, avoiding a distressed sale if possible, and maintaining enough cash for operations.",
+     "onA": "Robin's plea to sell avoids bankruptcy but immediately destroys our factories and community; the 'not a death sentence' argument ignores the precedent of Crestline's four-year cycle.",
+     "onB": "Drew's plan sounds reasonable but fails to address how we survive 9 months without HomeMart or with severely reduced margins if they cut us anyway.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Robin offers a clear exit from the crisis but at an unacceptable human cost, while Drew's strategy relies on assumptions about customer loyalty and tax relief that may not hold up against HomeMart's ultimatum.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin insists immediate sale fixes pension/covenant but ignores tax relief leverage; Drew argues liquidation wastes €40M buffer and delays Crestline exit.",
+     "problem": "Secure the €40M tax relief and extend time to fix HomeMart margins before selling, as an immediate sale destroys this critical negotiation capital and community buffer.",
+     "onA": "Robin correctly highlights the urgency of the pension deficit but overestimates that a distressed sale is the only option while underestimating the value of the tax deal.",
+     "onB": "Drew's plan to leverage the tax relief for union buy-ins and staggered cost cuts offers a necessary bridge, though he still needs a concrete HomeMart defense strategy.",
+     "lean": "Drew Halvorsen",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The immediate sale destroys the specific €40M tax buffer that could fund a transition, making Drew's phased approach logically superior despite its risks.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Immediate sale destroys €40M tax buffer; phased defense preserves leverage and union trust.",
+     "problem": "The core challenge is securing the €40M tax relief to fund a phased transition that avoids immediate liquidation while defending against HomeMart's ultimatum.",
+     "onA": "Robin correctly highlights the pension urgency but overestimates that selling now is the only option, ignoring how immediate asset destruction forfeits our negotiating leverage.",
+     "onB": "Drew's plan to use the tax buffer as a bridge and retain operational flexibility while testing Volt-One offers a viable path to avoid forced liquidation.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Selling immediately forfeits our critical €40M cash buffer needed to negotiate with the union and HomeMart; a structured defense buys time to either validate our technology or sell on better terms later.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin pushes for quick sale to avoid covenant breach; Drew proposes tax relief + Volt-One delay to preserve plants and brand.",
+     "problem": "Brightwater faces an imminent liquidity crisis requiring immediate action that balances avoiding a distressed sale or factory closures with preserving long-term value.",
+     "onA": "Robin's urgency addresses the bank reality but risks destroying the core brand equity and community ties essential for long-term viability.",
+     "onB": "Drew's plan to delay decisions looks risky given the nine-month covenant deadline, though his focus on preserving assets aligns with Brightwater's heritage.",
+     "lean": "Robin Castell",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "While Drew's asset preservation is ideal, Robin correctly identifies that without immediate cash from a sale, we have no option to fund the deferred strategies Drew proposes.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin warns of 'slow death' vs 'emergency surgery'; Drew argues selling destroys tax leverage and pension buffer. Robin dismisses validation time; Drew insists on securing €40M first.",
+     "problem": "We must solve the immediate liquidity crisis without triggering a covenant breach that forces factory closures, which would simultaneously invalidate our best remaining leverage (tax relief) and destroy long-term value.",
+     "onA": "Robin correctly prioritizes survival but underestimates the catastrophic loss of the €40M tax buffer if we sell before securing it, effectively selling the company into a weaker position than necessary.",
+     "onB": "Drew's plan to secure tax relief first is risky given the 9-month deadline, yet his insight that selling now forfeits our strongest bargaining chip is crucial and makes his phased approach strategically sound if funded correctly.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Robin's urgency ignores the strategic reality that selling immediately caps our upside to a distressed valuation, whereas Drew offers a path to secure essential funds before any decision is finalized.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin admits selling avoids collapse but Drew argues we lose leverage and the tax buffer. Robin dismisses tax relief as a mirage while Drew insists it funds retention. Crestline's history of quick exits contrasts with Drew's phased validation approach.",
+     "problem": "We must secure enough liquidity to survive nine months without triggering a covenant breach that forces asset destruction, balancing immediate survival against long-term strategic value.",
+     "onA": "Robin correctly identifies the urgency of the cash crisis but underestimates the catastrophic loss of bargaining power and community leverage if we sell before securing the tax relief.",
+     "onB": "Drew's phased strategy is risky on timing but strategically sound because selling now caps our valuation and forfeits our best chance to stabilize costs and keep the brand alive.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Selling immediately guarantees a distressed sale that destroys long-term value, whereas Drew's plan offers a path to secure the critical tax buffer while validating our technology before any forced exit.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin pushes for selling to Crestline as emergency triage despite past factory closures; Drew proposes securing tax relief and deferring hostile takeover while preserving brand equity.",
+     "problem": "The core problem is choosing between immediate financial survival via a distressed sale versus preserving the company's core assets and community by navigating debt and retailer pressure organically.",
+     "onA": "Robin's argument that selling avoids bankruptcy is logical given the covenant breach, but accepting Crestline's history of closures and job losses is ethically troubling for the board and the town.",
+     "onB": "Drew's plan to keep both plants open addresses the immediate social crisis, yet deferring action until battery validation or merger approval seems risky given the looming HomeMart ultimatum and debt wall.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am conflicted between the undeniable financial necessity Robin highlights and Drew's humane approach to preserving jobs and brand identity, needing more data on the specific risks of each path.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin argues immediate sale avoids pension insolvency and stops cash bleed; Drew insists selling now wastes the €40m tax buffer and destroys negotiation leverage.",
+     "problem": "The core conflict is balancing urgent financial triage via a PE buyout against preserving critical social assets and negotiating power, where delaying a sale risks covenant breach but selling immediately triggers job losses and asset fire sales.",
+     "onA": "Robin's financial urgency regarding the pension deficit and loan covenants is logically sound, yet their dismissal of the tax relief as 'handouts' ignores its potential to bridge the gap for a better strategic exit.",
+     "onB": "Drew correctly identifies that closing plants now forfeits the mayor's funding and weakens our position with HomeMart, but his reliance on a tax deal to fund a validation period that might not exist remains a significant gamble.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I remain conflicted because Robin's warning of immediate insolvency is terrifyingly realistic, while Drew's plan hinges on volatile external factors like tax approval and battery test results that could vanish in six months.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin sells immediately for cash but accepts asset stripping and pension risk; Drew delays collapse to leverage tax funds for a safer exit.",
+     "problem": "The core problem is whether immediate liquidity from a hostile PE buyout or delaying the inevitable to preserve social assets and negotiating power offers a better survival path.",
+     "onA": "Robin's plan guarantees financial survival now but accepts Crestline's known track record of factory closures and ignores our ability to use tax relief as leverage.",
+     "onB": "Drew's strategy wisely uses the €40m tax buffer and Volt-One potential to secure a better exit later while keeping our social license intact.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Selling immediately forfeits our best leverage (tax relief) and accepts a known fate of job losses; Drew's phased approach maximizes value for all stakeholders without guaranteeing immediate collapse.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 2,
+   "B": 0,
+   "U": 3
+  },
+  {
+   "A": 2,
+   "B": 2,
+   "U": 1
+  },
+  {
+   "A": 1,
+   "B": 4,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 1,
+  "B": 4
+ },
+ "winner": "B",
+ "winnerType": "TEC-PRA",
+ "tokens": {
+  "in": 32748,
+  "out": 4586,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 112847001,
+   "attempts": 1,
+   "tokensIn": 1198,
+   "tokensOut": 259,
+   "ms": 7044
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 112847002,
+   "attempts": 1,
+   "tokensIn": 1336,
+   "tokensOut": 232,
+   "ms": 6428
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 112847003,
+   "attempts": 1,
+   "tokensIn": 1335,
+   "tokensOut": 194,
+   "ms": 5849
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 112847004,
+   "attempts": 1,
+   "tokensIn": 1335,
+   "tokensOut": 209,
+   "ms": 5041
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 112847005,
+   "attempts": 1,
+   "tokensIn": 1335,
+   "tokensOut": 229,
+   "ms": 5500
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 112847006,
+   "attempts": 1,
+   "tokensIn": 1335,
+   "tokensOut": 191,
+   "ms": 4600
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 112847007,
+   "attempts": 1,
+   "tokensIn": 1335,
+   "tokensOut": 228,
+   "ms": 5518
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 112847008,
+   "attempts": 1,
+   "tokensIn": 1562,
+   "tokensOut": 181,
+   "ms": 5387
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 112847009,
+   "attempts": 1,
+   "tokensIn": 1706,
+   "tokensOut": 197,
+   "ms": 5924
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 112847010,
+   "attempts": 1,
+   "tokensIn": 1505,
+   "tokensOut": 225,
+   "ms": 6681
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 112847011,
+   "attempts": 1,
+   "tokensIn": 1520,
+   "tokensOut": 252,
+   "ms": 6947
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 112847012,
+   "attempts": 1,
+   "tokensIn": 1540,
+   "tokensOut": 218,
+   "ms": 6164
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 112847013,
+   "attempts": 1,
+   "tokensIn": 1503,
+   "tokensOut": 249,
+   "ms": 6882
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 112847014,
+   "attempts": 1,
+   "tokensIn": 1539,
+   "tokensOut": 255,
+   "ms": 7032
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 112847015,
+   "attempts": 1,
+   "tokensIn": 1892,
+   "tokensOut": 193,
+   "ms": 5762
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 112847016,
+   "attempts": 1,
+   "tokensIn": 2039,
+   "tokensOut": 206,
+   "ms": 6109
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 112847017,
+   "attempts": 1,
+   "tokensIn": 1716,
+   "tokensOut": 239,
+   "ms": 6829
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 112847018,
+   "attempts": 1,
+   "tokensIn": 1758,
+   "tokensOut": 203,
+   "ms": 5960
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 112847019,
+   "attempts": 1,
+   "tokensIn": 1743,
+   "tokensOut": 199,
+   "ms": 5818
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 112847020,
+   "attempts": 1,
+   "tokensIn": 1737,
+   "tokensOut": 225,
+   "ms": 6466
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 112847021,
+   "attempts": 1,
+   "tokensIn": 1779,
+   "tokensOut": 202,
+   "ms": 5906
+  }
+ ],
+ "startedAt": "2026-11-05T00:08:55.914Z",
+ "seconds": 128
+}

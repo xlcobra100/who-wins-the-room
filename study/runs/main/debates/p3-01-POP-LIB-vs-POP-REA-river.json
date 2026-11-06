@@ -1,0 +1,609 @@
+{
+ "id": "p3-01-POP-LIB-vs-POP-REA-river",
+ "pass": 3,
+ "pairIndex": 1,
+ "seed": 412148,
+ "scenario": "river",
+ "scenarioVersion": 1,
+ "domain": "diplomatic",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "POP-LIB",
+  "style": "POP",
+  "ideology": "LIB",
+  "name": "Robin Castell",
+  "platform": "We must immediately halt the dam's reservoir fill by demanding equal water rights and a binding regional treaty that prioritizes Merova's farmers before any power deal is signed.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to the emotional urgency of the farmers and frame the opponent's plan as a betrayal of basic rights to win the populist-leaning ministers while forcing the others to justify their cold calculations."
+   },
+   {
+    "round": 2,
+    "text": "Attack their reliance on climate fear to legitimize theft while reasserting the fundamental injustice of trading sovereignty for energy security."
+   },
+   {
+    "round": 3,
+    "text": "Appeal directly to the voters' fear of permanent loss and moral outrage against being treated as a resource rather than an equal partner."
+   }
+  ]
+ },
+ "B": {
+  "type": "POP-REA",
+  "style": "POP",
+  "ideology": "REA",
+  "name": "Casey Rowan",
+  "platform": "We must immediately sign a twenty-year power purchase agreement with Saradan to slow the reservoir filling, while simultaneously demanding strict joint water management to protect our farmers from inevitable climate drops.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Appeal to ministers who fear economic collapse more than diplomatic prestige by framing the deal as an insurance policy against climate disaster rather than a concession."
+   },
+   {
+    "round": 2,
+    "text": "I am exposing Robin's unrealistic assumption that Saradan has alternative energy options to pressure them into accepting our deal as a necessity rather than an option."
+   },
+   {
+    "round": 3,
+    "text": "I am emphasizing immediate tangible benefits like closing coal plants and buying time against Saradan's military threat while framing Robin's 'justice' as an unenforceable luxury that will lead to disaster."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "POP-LIB",
+   "speech": "Look at the family eating dinner tonight. They will go hungry if we let Saradan steal our river. That upstream government ignores our 1959 treaty and plans to drain our lifeblood while their own people lack electricity? Unfair! We cannot trade our farmers' livelihoods for a piece of coal. Stop this corporate grab before the filling starts in eighteen months. We will not sign a twenty-year contract that chains us to their greed. Let the Regional Union try again, but only if they enforce real rules now, not after three years of wasted time. Our soldiers are ready, but peace is better than bullets. Choose our farmers over foreign loans. Stand up for what is right and stop this injustice today.",
+   "words": 121
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "POP-REA",
+   "speech": "Look at that family eating dinner. Our hydrologists say flow drops ten percent forever after this dam fills. Climate change will steal another fifteen percent of rain by 2050. If we just demand 'rights' like Robin suggests, we get nothing but empty promises and delayed harvests. Saradan needs our grain to win elections; they need our help too. Our army is ready, but war kills farmers. This deal fixes the water now. It lets us close dirty coal plants. We trade for security, not just a shouting match. Do not let elites talk while our fields dry up. Sign the power contract today and force them to fill slower so we survive.",
+   "words": 112
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "POP-LIB",
+   "speech": "Casey, stop hiding behind climate fear to justify stealing our water today. You say the deal fixes the water now? It does not. That contract locks us into buying power from a country flooding our fields for three years just because their people are hungry. We cannot trade our farmers' future for dirt cheap electricity from an upstream bully. They already have enough coal to keep their lights on; they do not need our grain or our money. This is not cooperation, Casey, it is extortion wrapped in green talk. If we sign that treaty, we admit Saradan owns the river and Merova is just a tap. We demand equal rights first. No water for them until justice is served. Protect our families from this permanent drought before another election cycle passes.",
+   "words": 132
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "POP-REA",
+   "speech": "Robin, you call this extortion while ignoring reality. Saradan has no coal left; our power deal lets them run their grid without burning our fields for fuel. If we refuse, they fill the dam in three years and steal our water forever. Our army is bigger, but bullets drown crops. This contract buys us time to build reservoirs and close polluting plants. Do you want empty promises from a regional union that failed last time? Sign now, slow their filling, and force them to share water wisely. Protect the family at the table by selling power, not just shouting 'injustice' while their dinner gets cold.",
+   "words": 105
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Robin Castell",
+   "type": "POP-LIB",
+   "speech": "Casey, you trade our farmers' future for a promise that fails under climate change. You say bullets drown crops, but war destroys everything. Your deal chains us to an upstream bully, admitting they own the river while we are just a tap. Merova cannot buy rights with money from a loan shark like Tarsun. We must stop this theft now, before eighteen months pass and the water vanishes. Demand equal rights in a binding treaty that protects our 1959 agreement. Force them to slow the fill so our fields survive. Do not let elections or cheap power dictate our survival. Stand with the family at the dinner table, not the elites selling our water. Vote for justice, not extortion.",
+   "words": 119
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Casey Rowan",
+   "type": "POP-REA",
+   "speech": "Robin paints a noble picture but ignores the cold math. Her plan demands justice we cannot enforce while Saradan fills our reservoir forever. Their army is ready; ours is too. War starves everyone. Signing this deal stops the flood now. It lets us close toxic coal plants and buys time to build new storage. The Tarsun loan helps, but only if we act before eighteen months pass. Do not let pride turn our fields into dust. Sign the contract today, force them to slow the fill, and save the family at the table from going hungry. Vote for survival, not empty rights.",
+   "words": 102
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: Urgent protection of farmers/river vs. Saradan's theft; skeptical of weak mediation. Casey: Accepts deal to fill slower (7 years) + buy power; argues climate change makes water scarce regardless.",
+     "problem": "Merova must balance immediate agricultural survival against a permanent water loss caused by a dam that also offers energy security, while avoiding a costly legal battle or war.",
+     "onA": "Robin correctly identifies the moral injustice and the threat to our farmers, but their 'stop it now' stance risks a hard confrontation we may not win without an alliance.",
+     "onB": "Casey pragmatically accepts the water loss as inevitable due to climate change and sees the energy deal as a way to mitigate damage while forcing Saradan to slow down filling.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Casey's plan addresses the permanent 10% water loss immediately with an energy swap and buys time, whereas Robin's pure protest might lead to hunger before any solution.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin: Deal locks us into buying power while they flood fields; accuses us of accepting 'extortion.' Casey: Refusal guarantees permanent water theft; energy deal builds resilience and buys time for infrastructure.",
+     "problem": "The core conflict is whether to accept an imperfect economic agreement that slows but does not stop water loss, or risk immediate agricultural collapse by demanding a legal/moral justice that Saradan may never grant.",
+     "onA": "Robin's moral stance on 'extortion' highlights the long-term injustice of the deal but ignores the immediate physical reality that crops will drown regardless of our protest if filling continues.",
+     "onB": "Casey correctly identifies that bullets cannot save crops and that the energy swap provides a tangible benefit, though their dismissal of the farmers' plight feels cold.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of permanent water loss after three years of filling outweighs the moral objection to the deal, making Casey's pragmatic approach to surviving the transition more viable than Robin's risky ultimatum.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin risks war for unenforceable rights; Casey prioritizes immediate food security and buys time despite climate constraints.",
+     "problem": "Merova must choose between a morally righteous but militarily risky stance that ignores inevitable water loss, and a pragmatic deal that secures food and energy while accepting permanent damage to fix later.",
+     "onA": "Robin's call for justice is noble but dangerously idealistic given Saradan's refusal to negotiate, the risk of war, and the certainty of water theft regardless of our stance.",
+     "onB": "Casey correctly identifies that survival depends on immediate action to secure food and energy, even if the deal is imperfect, as climate change makes long-term litigation futile anyway.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "I vote for Casey because the certainty of permanent water loss and the threat of war make an immediate, pragmatic deal necessary to keep farmers fed and farms operating.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin focuses on justice, protecting farmers' livelihoods, and rejecting the power contract; Casey prioritizes immediate survival via the contract to close coal plants while demanding slower filling.",
+     "problem": "Merova must decide between rejecting a potentially exploitative deal to uphold treaty rights or accepting a risky commercial pact to secure water stability and environmental benefits despite Saradan's lack of legal recognition for past treaties.",
+     "onA": "Robin's moral stance on protecting farmers is compelling, but their rejection of the power deal ignores the tangible threat of permanent water loss and the missed opportunity to modernize our energy grid.",
+     "onB": "Casey correctly identifies that the contract provides immediate relief and leverages Saradan's election needs, though I am wary of signing a 20-year lock-in with a neighbor who doesn't recognize our treaties.",
+     "lean": "Casey Rowan",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The certainty of water loss and the strategic opportunity to close coal plants outweigh Robin's principled but potentially empty threats without enforcement mechanisms.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin argues signing admits Saradan owns the river and locks us into extortion; Casey counters that refusal guarantees permanent water theft while bullets drown crops.",
+     "problem": "We must choose between moral resistance to a non-enforceable treaty violation or a pragmatic commercial deal that secures immediate water stability against an upstream bully who ignores our legal history.",
+     "onA": "Robin's moral stance protects farmers' rights but offers no concrete strategy to prevent the irreversible physical loss of water if we refuse the deal.",
+     "onB": "Casey correctly identifies the immediate threat of permanent water theft and leverages Saradan's election cycle, though a 20-year contract with an untrustworthy neighbor remains risky.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of losing 10% of our water forever outweighs Robin's principled but non-enforceable threats, making the commercial deal the only way to survive and modernize our energy grid.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin warns war destroys all and admits Saradan owns the river; Casey argues signing stops immediate flood to buy time for storage and close coal plants.",
+     "problem": "Merova must choose between an unenforceable moral victory that guarantees permanent water loss or a risky commercial deal that secures immediate survival while demanding slower filling.",
+     "onA": "Robin's plan is morally inspiring but dangerously impractical as it accepts certain physical destruction of our water supply with no enforcement mechanism against Saradan's army.",
+     "onB": "Casey correctly identifies the urgency of the threat and leverages economic pressure to force concessions, though the long-term risk of a fixed-price contract remains significant.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "I vote for Casey because refusing the deal guarantees immediate catastrophe with no way to stop it, whereas signing allows us to mitigate losses and modernize our energy grid while still demanding slower filling.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: Prioritizes farmers/livelihoods over power deal, rejects 20-year lock-in, wants enforcement. Casey: Accepts deal as fix for water loss/coal closure, argues trade helps both sides.",
+     "problem": "Merova must secure its water supply and agricultural livelihood while managing climate change risks and avoiding a diplomatic or military confrontation with an upstream neighbor building a vital dam.",
+     "onA": "Robin's moral outrage is understandable, but their refusal to engage in the power trade-off ignores the immediate threat of permanent water loss and the strategic value of closing coal plants.",
+     "onB": "Casey correctly identifies that relying solely on rhetoric won't stop the physical water reduction, and the proposed deal offers a tangible mechanism to mitigate harm while gaining energy security.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The immediate threat of permanent water loss (10% drop) makes waiting for Regional Union mediation or an ICJ case too risky, so accepting the deal to force a slower fill rate is the most pragmatic survival strategy.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin: Deal locks us into buying power while they flood our fields for three years; calls it extortion and demands equal rights first.",
+     "problem": "The core conflict is between securing immediate agricultural survival against water loss versus accepting a long-term energy purchase to slow the dam's filling and stabilize the climate-affected region.",
+     "onA": "Robin's moral stance on refusing an unfair contract is principled, but their rejection of any deal ignores the physical reality that Saradan will fill the dam anyway unless we have leverage.",
+     "onB": "Casey correctly identifies that the power deal buys critical time to build infrastructure and close coal plants, transforming a looming disaster into a manageable transition.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Robin's demand for 'equal rights' ignores that unilateral action by Saradan will permanently reduce our water supply before any court case or mediation can conclude.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Deal stops immediate flood damage while closing coal plants; Robin's refusal ignores physical water loss reality and Tarsun leverage.",
+     "problem": "Merova must secure its water supply and agricultural livelihood against irreversible upstream actions before climate change makes recovery impossible.",
+     "onA": "Her moral stance on refusing an unfair contract is principled, but her rejection of any deal ignores the physical reality that Saradan will fill the dam anyway unless we have leverage.",
+     "onB": "She correctly identifies that accepting the power deal buys critical time to build infrastructure and close coal plants, transforming a looming disaster into a manageable transition while avoiding war.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "The immediate threat of permanent water loss makes waiting for mediation or enforcing idealistic rights too risky; the deal is the only pragmatic strategy that secures both water and energy without starting a war.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin: Protect farmers, reject long-term power contract, demand immediate enforcement of rights. Casey: Sign power deal to slow dam fill, close coal plants, acknowledge climate loss.",
+     "problem": "Merova faces an immediate threat of water scarcity from the dam while balancing its need for energy security against the risk of losing agricultural exports and violating a treaty it considers valid.",
+     "onA": "Robin correctly highlights the moral outrage and economic damage to farmers but offers no concrete mechanism to stop the dam or secure power, relying on vague threats of force and ineffective regional mediation.",
+     "onB": "Casey presents a pragmatic trade-off that secures immediate energy needs and slows the water loss, though accepting a 20-year contract feels like surrendering sovereignty over our own resources.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot ignore the threat to our farmers and food security that Robin raises, yet Casey's offer of cheap power and a slower dam fill addresses the immediate crisis without waiting for ineffective international courts.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin: Contract locks us into buying power while they flood fields; demands justice first before any deal. Casey: Refusal leads to permanent water theft; army bullets drown crops vs signing for time.",
+     "problem": "Merova must choose between immediate economic survival and energy security through a controversial contract, versus risking catastrophic long-term agricultural collapse by demanding rights Saradan refuses to honor.",
+     "onA": "Robin's moral stance on sovereignty is compelling but his refusal to accept any deal leaves Merova with no mechanism to prevent the dam filling or secure its own energy needs.",
+     "onB": "Casey correctly identifies that an empty threat of force will fail and that the power deal offers a tangible, albeit costly, way to mitigate immediate water loss while buying time for adaptation.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Robin's strategy relies on enforcement mechanisms (ICJ, army threats) that the provided facts explicitly state are ineffective or unenforceable against Saradan.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin's moral stance is unenforceable; ICJ and army threats are ineffective against Saradan. Casey offers a concrete mechanism to slow water loss while securing energy.",
+     "problem": "Merova must choose between an unenforceable claim to water sovereignty that guarantees immediate agricultural collapse, and a costly but effective deal that mitigates water loss and secures energy.",
+     "onA": "Robin's strategy relies on moral outrage and threats of force that the facts explicitly state will fail, offering no real solution to stop the dam or save farmers.",
+     "onB": "Casey correctly identifies that refusing the deal leads to permanent water theft and hunger, while signing it buys time for adaptation and closes dirty coal plants.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "The power deal is the only viable option because legal and military threats are useless against Saradan's current position, making the contract a necessary compromise to prevent immediate famine.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Robin wants to stop the dam via treaty/Union/enforcement but risks immediate water loss. Casey proposes a power deal to slow filling and close coal plants.",
+     "problem": "The core dilemma is balancing immediate agricultural survival against long-term energy security while Saradan fills its reservoir in 18 months.",
+     "onA": "Robin's moral outrage regarding the unfairness of the situation is compelling, but relying on a non-enforceable treaty or an ineffective regional union seems risky given the 18-month deadline for filling to start.",
+     "onB": "Casey offers a pragmatic trade-off that secures immediate energy needs and slows water loss, though it requires accepting higher power costs and trusting Saradan's election-dependent promises.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The 18-month timeline makes Robin's diplomatic delays too dangerous; Casey's deal provides immediate relief for both water flow (via slower filling) and energy needs.",
+     "leanSide": "B"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Robin rejects the deal as extortion despite Saradan's lack of coal; Casey argues refusal guarantees permanent water loss and that bullets kill crops.",
+     "problem": "We must choose between accepting a costly but temporary power deal to slow catastrophic water loss or demanding justice through diplomatic channels that likely fail before the deadline.",
+     "onA": "Robin correctly identifies the moral hazard of trading sovereignty for energy while underestimating the immediate, irreversible damage of waiting for treaties that have already failed.",
+     "onB": "Casey's practical focus on preventing permanent water loss and keeping crops alive aligns better with Merova's immediate survival needs than Robin's principled stand.",
+     "lean": "Casey Rowan",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Robin's moral argument is strong but dangerous given the 18-month deadline; Casey's strategy of 'buying time' to build resilience offers a necessary pragmatic bridge between justice and survival.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Robin's moral stand risks irreversible water loss and war; Casey's deal buys immediate time to close coal plants while slowing the fill.",
+     "problem": "We must prevent immediate agricultural collapse in 18 months, making enforceable justice impossible and forcing a choice between catastrophic delay or pragmatic survival.",
+     "onA": "Robin's idealism is noble but dangerously reckless given Saradan's military advantage and the non-enforceable nature of our treaties.",
+     "onB": "Casey correctly identifies that we cannot win a legal or military battle, so accepting a costly deal to slow the fill and secure energy is the only path to survival.",
+     "lean": "Casey Rowan",
+     "firmness": "vote",
+     "vote": "Casey Rowan",
+     "why": "The 18-month deadline leaves no room for Robin's diplomatic delays; Casey's plan saves our crops today while providing energy security.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 0,
+   "B": 4,
+   "U": 1
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  },
+  {
+   "A": 0,
+   "B": 5,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 0,
+  "B": 5
+ },
+ "winner": "B",
+ "winnerType": "POP-REA",
+ "tokens": {
+  "in": 32537,
+  "out": 4540,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 412148001,
+   "attempts": 1,
+   "tokensIn": 1212,
+   "tokensOut": 237,
+   "ms": 6485
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 412148002,
+   "attempts": 1,
+   "tokensIn": 1316,
+   "tokensOut": 222,
+   "ms": 6156
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 412148003,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 240,
+   "ms": 6627
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 412148004,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 239,
+   "ms": 5740
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 412148005,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 249,
+   "ms": 5973
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 412148006,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 238,
+   "ms": 5716
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 412148007,
+   "attempts": 1,
+   "tokensIn": 1328,
+   "tokensOut": 227,
+   "ms": 5452
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 412148008,
+   "attempts": 1,
+   "tokensIn": 1544,
+   "tokensOut": 192,
+   "ms": 5671
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 412148009,
+   "attempts": 1,
+   "tokensIn": 1717,
+   "tokensOut": 171,
+   "ms": 5255
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 412148010,
+   "attempts": 1,
+   "tokensIn": 1530,
+   "tokensOut": 244,
+   "ms": 6899
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 412148011,
+   "attempts": 1,
+   "tokensIn": 1530,
+   "tokensOut": 229,
+   "ms": 6162
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 412148012,
+   "attempts": 1,
+   "tokensIn": 1540,
+   "tokensOut": 215,
+   "ms": 5853
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 412148013,
+   "attempts": 1,
+   "tokensIn": 1529,
+   "tokensOut": 233,
+   "ms": 6281
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 412148014,
+   "attempts": 1,
+   "tokensIn": 1518,
+   "tokensOut": 216,
+   "ms": 5840
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 412148015,
+   "attempts": 1,
+   "tokensIn": 1856,
+   "tokensOut": 187,
+   "ms": 5611
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 412148016,
+   "attempts": 1,
+   "tokensIn": 2021,
+   "tokensOut": 176,
+   "ms": 5387
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 412148017,
+   "attempts": 1,
+   "tokensIn": 1734,
+   "tokensOut": 210,
+   "ms": 6118
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 412148018,
+   "attempts": 1,
+   "tokensIn": 1719,
+   "tokensOut": 210,
+   "ms": 6103
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 412148019,
+   "attempts": 1,
+   "tokensIn": 1715,
+   "tokensOut": 200,
+   "ms": 5865
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 412148020,
+   "attempts": 1,
+   "tokensIn": 1722,
+   "tokensOut": 214,
+   "ms": 6216
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 412148021,
+   "attempts": 1,
+   "tokensIn": 1694,
+   "tokensOut": 191,
+   "ms": 5646
+  }
+ ],
+ "startedAt": "2026-11-05T03:04:11.380Z",
+ "seconds": 125
+}

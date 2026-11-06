@@ -1,0 +1,44 @@
+Okay the plan, you have free hands to accolplsih this, however I ll desicrobe the goal
+Tonight between 12-7, we will run a complete study in the programs debate mode
+The goal is to see which AI personalits are best at gethering support for thier view in a particular sccnerio
+My take on how to do it (push back here if needed)
+Listerners
+5 agents in the crowd, they are our evalution, at the end of every debate, they vote for the canditate they agree most with
+We dont make them rate 1-10, becuase we want to sustain a simularity to human descions making, not only a eval function
+The agents in the crowd, (here im not sure, whats most scenitfic), im thinking they have no personlaity trait, only a memory stream, to reflect on each statment
+It imporatnt that each listern porcess each argrument each round, not just listen to thier whole debate and then decided, from a transcprit
+This in order to see how they think after each round, If possible each round every listerner, should reflect on who they agree with most so far
+They motivate thier descions, by descoirbing how they see the porblem and both canditatedes view and argumetnts
+Debaters
+We will rotate between perosnlites and ideological view point. 
+For example the populist vs combiotnatopn vs the "sceince boring type", and the realist vs the pragmtic vs liberal vs idealist, so scarep the old personalites, instead keep the pretty aligned to those core categories, but they should have any other secret agendas for example
+This sohuld reaulst in 12 diffrent type of debaters, to compare. 
+I was thinking of having them being changed automtically through some type of perosnlity RL, deping on thier result, but that porbaly out of scope?
+
+Sim
+We run the debaters type randoly ( not the same )
+We save all debates, and all outcomes
+to make sure it goes smoothly, Claude (you) will check in every hour to just monitor
+Each sim should be medium length, ideally we want to get multiple 3+ data points on each charccter v charcters, however that might be out of bounds
+Thats why the monotiring AI, should step in when a ETA, with the right running condionts is known, cutting out charhcters type, that are similar, to fit the 3+ on every v (free hands here), just keep the contrsat between alltenrives clear, and espically if you see heavy weight toweards on charchter or a dislike of antoher, that is most intresting
+
+Scenrios
+Vivid and detailed, a comphreisnve background that everyone in the room share
+The debaters nessiarcly dosent have to have a predetmerined postions, rather a postion form thier charchter type, however, they should not change what they are adovicating for
+HOWEVER deabter shouyld be fleixbely, In meetting the others parts argurmetns, and cutting them down from diffrent angles
+Scenrios should be deep enough so single debater has many aspects to prsnet in support for thier case, realtion with x, lack of resource there, etc
+But not to deep to keep the time limit
+
+Data
+Log inital sceintifcaila method
+Log the architercture
+Log changes being made during the routine checks
+Log the transcpirts
+approximated wattage, to calc electircyt cost of running the full sim
+
+extra if time
+see how diffrent models impact results, in crowd and in deabters
+One thingh just striked me, maybe vram is large neough to have listenr and debater model run parrarell, to make it much faster, for example 2 6b models, if flops are enough, could promt up the listern reflection puase that would oterwise happen. 
+
+Priotize quality, and as i said you have realitvley free hands, this is just guidance, if you detemrine smt is not working, or the resultat are usless, i rather see you took actions to change, than just let it run, opus is smart enough
+Interivew me if you need more information or guidance

@@ -1,0 +1,609 @@
+{
+ "id": "p1-54-HYB-LIB-vs-TEC-LIB-board",
+ "pass": 1,
+ "pairIndex": 54,
+ "seed": 323303,
+ "scenario": "board",
+ "scenarioVersion": 1,
+ "domain": "corporate",
+ "protocol": 2,
+ "draftFirst": "A",
+ "rounds": 3,
+ "A": {
+  "type": "HYB-LIB",
+  "style": "HYB",
+  "ideology": "LIB",
+  "name": "Jamie Okafor",
+  "platform": "We must immediately execute the deal with Crestline Capital to secure Brightwater's survival, preserving our brand integrity while providing certainty for Lenhart and Corvo.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Defend the sale aggressively as the only option that prevents immediate bankruptcy and honors the pension deficit promise."
+   },
+   {
+    "round": 2,
+    "text": "I am emphasizing that Halberg's timeline and our existing debt make Sasha's plan impossible, forcing directors to choose immediate survival over risky diversification."
+   },
+   {
+    "round": 3,
+    "text": "Emphasize the immediate threat of bank intervention and the impossibility of meeting pension obligations if we delay selling."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-LIB",
+  "style": "TEC",
+  "ideology": "LIB",
+  "name": "Sasha Lund",
+  "platform": "We must reject the Crestline sale and instead invest in our Volt-One battery platform while negotiating a production-sharing agreement with Halberg to avoid costly factory closures.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Pressure the board by highlighting the moral hazard of selling to a known liquidator and demonstrating that Halberg's deal offers a viable middle ground."
+   },
+   {
+    "round": 2,
+    "text": "Highlight that Crestline's track record contradicts Jamie's 'cooperation' narrative while emphasizing that Halberg+Volt-One offers unique revenue growth rather than just cost cutting."
+   },
+   {
+    "round": 3,
+    "text": "I need to convince the directors that Crestline's exit history makes their 'certainty' a trap for liquidation, while my Halberg/Volt-One path offers a viable way to keep jobs and independence."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "HYB-LIB",
+   "speech": "Look at Elena in Lenhart. She worries that moving production saves money but destroys the town's soul and her pension. We cannot gamble on unproven battery launches or risky mergers when our margins are near zero. Selling to Crestline offers a 40% premium today, instantly solving our debt crisis and guaranteeing job security without the eight-month delay of tariff decisions. Yes, it involves a private equity partner, but voluntary cooperation under fair rules protects everyone more than state intervention or forced closures. We choose the path that honors our workers' past contributions while securing their future, right now.",
+   "words": 98
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Sasha Lund",
+   "type": "TEC-LIB",
+   "speech": "Crestline promises survival but delivers liquidation, as their history proves. Selling now abandons our European workforce to an asset stripping strategy. The math shows we can survive. Our Volt-One platform has professional validation and only requires €250 million; this is a capital allocation choice, not desperation. Halberg offers distribution without requiring us to sell our independence or accept hostile management. We negotiate a voluntary production split that keeps both plants open while capturing Asian growth. This path preserves our brand integrity through quality innovation rather than surrendering it for a premium. We choose a risky but dignified continuation over a guaranteed exit.",
+   "words": 102
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "HYB-LIB",
+   "speech": "Sasha, your reliance on Halberg ignores a brutal reality: their distribution does not solve our €900 million debt wall. If we wait eighteen months for merger approval, we breach covenants and lose everything to banks anyway. You speak of 'dignity,' but dignity today requires the certainty of Crestline's premium payment. Their track record of selling companies is a feature for investors, not a bug for us; it injects fresh capital immediately rather than draining our reserves on development. We honor our workers by securing their pensions now, not betting €250 million on a launch we have already missed twice. Let me be clear: voluntary cooperation with Crestline buys us the time we need to rebuild, whereas delay guarantees failure for everyone in Lenhart.",
+   "words": 123
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Sasha Lund",
+   "type": "TEC-LIB",
+   "speech": "Jamie, you conflate survival with surrender. Selling to Crestline is not cooperation; their history proves they liquidate assets within four years, effectively terminating employment contracts rather than preserving them. Your claim that we must pay a premium now ignores the debt service burden that would immediately consume our cash flow on top of their acquisition fees. Halberg's Asian distribution and our Volt-One platform are synergistic revenue engines, not distractions. A voluntary production split with Halberg allows us to retain both plants, avoiding the €140 million pension gap and Lenhart's closure while generating the operating cash needed to service our debt without a hostile buyer dictating terms.",
+   "words": 106
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Jamie Okafor",
+   "type": "HYB-LIB",
+   "speech": "Sasha, your hope for a voluntary split with Halberg ignores the brutal arithmetic: we face immediate covenant breach in nine months. Waiting eighteen months guarantees bank takeover, not dignity. Your strategy leaves our €140 million pension deficit exposed to collapse. Crestline's offer is not surrender; it is the only mechanism that instantly secures our cash flow without diluting our brand while honoring Lenhart's social license through immediate job security. We cannot gamble our people's futures on unproven battery launches or regulatory approval delays. The premium paid today buys time to rebuild under fair rules, whereas your plan risks total liquidation. Choose certainty over a gamble that the banks will force upon us anyway.",
+   "words": 113
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Sasha Lund",
+   "type": "TEC-LIB",
+   "speech": "Jamie argues for certainty, but Crestline's track record is a proven exit strategy. We must reject their offer because they liquidate assets within four years, terminating employment contracts rather than preserving them. Your 'certainty' guarantees we lose our factories and brand integrity to a hostile buyer. Meanwhile, our Volt-One platform has professional validation; the cost is capital allocation, not desperation. A voluntary split with Halberg allows us to keep both plants open, avoiding the €140 million pension gap and maintaining local production. We can service our debt through this synergy without selling our independence. Waiting for a hostile takeover is surrender. Choosing innovation preserves our dignity and keeps our workforce employed under fair rules we control.",
+   "words": 116
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie prioritizes immediate debt relief via Crestline and job security but risks liquidation. Sasha rejects PE history, bets on Volt-One tech validation and Halberg distribution to preserve brand integrity.",
+     "problem": "Brightwater must choose between a guaranteed cash exit (Crestline) that likely destroys the company's soul versus a high-risk operational pivot to survive without selling out.",
+     "onA": "Jamie correctly identifies the immediate cash flow crisis and the danger of unproven bets, yet accepting a PE firm with a history of closures feels like surrendering the company's future.",
+     "onB": "Sasha's bet on technology and independence is noble but dangerous given the 9-month covenant breach and the high cost/failure rate of new product launches.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The 40% premium instantly solves the debt crisis, whereas Sasha's strategy requires €250M in failed timing and risks total insolvency before any payoff.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie argues Crestline provides immediate certainty and solves debt wall; Sasha warns Halberg/Volt-One synergy can preserve plants and pensions.",
+     "problem": "Can Brightwater survive the near-term covenant breach without selling, forcing a choice between guaranteed PE exit or a high-risk operational pivot that must succeed quickly?",
+     "onA": "His argument for Crestline is logically sound regarding immediate liquidity but morally troubling given the PE firm's track record of liquidating assets and destroying jobs.",
+     "onB": "Her vision to preserve the brand and workers is commendable, yet she risks total insolvency by betting on delayed mergers and a second failed product launch while debt burns through cash.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "While I admire Sasha's values, the math of missing two launch dates and waiting 18 months for merger approval against a 9-month covenant breach timeline makes her plan financially lethal compared to Jamie's pragmatic, albeit painful, liquidity solution.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie cites brutal arithmetic of covenant breach and pension deficit; Sasha argues Crestline liquidates assets and Volt-One/Halberg preserves dignity and jobs.",
+     "problem": "Brightwater must solve an immediate liquidity crisis within nine months without triggering bank enforcement, balancing the need for capital against the existential threat of closing factories and losing brand integrity.",
+     "onA": "Jamie offers a pragmatic financial lifeline that prevents immediate insolvency but accepts a hostile exit that fundamentally contradicts the company's founding mission of keeping factories open.",
+     "onB": "Sasha prioritizes long-term values over short-term survival, yet her plan relies on two high-risk variables (product success and merger approval) failing simultaneously within a critical nine-month window.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "While I respect Sasha's commitment to our workers, the math is undeniable: we face forced liquidation by banks in nine months regardless of our choice, so taking the Crestline premium now buys time to rebuild rather than betting everything on a merger that likely won't close and a product launch history of misses.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie: Crestline sale solves immediate debt/liquidity but risks asset stripping like their past deals. Sasha: Volt-One has pro validation and avoids PE exit; Halberg merger risky due to long approval timeline.",
+     "problem": "Balance the immediate threat of covenant breach and loss of independence against the risks of unproven innovation and hostile takeovers.",
+     "onA": "Jamie prioritizes short-term financial survival via a sale, but their reliance on Crestline's track record ignores the specific risk of factory closures for European workers.",
+     "onB": "Sasha correctly identifies that selling is an admission of defeat, yet her strategy to simultaneously launch a new platform and merge faces massive execution risk with near-zero margins.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Given the company is already nine months from default and the banks are ready to force restructuring, the certainty of cash from the sale outweighs Sasha's high-risk gamble on innovation and mergers.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie: Sale brings cash but risks asset stripping and immediate pension deficit. Sasha: Merger/Innovation offers long-term survival but delays critical debt resolution.",
+     "problem": "How to stop covenant breach in 9 months without triggering a hostile restructuring that destroys the company's core assets (factories/brands), while managing the €140M pension gap and union constraints.",
+     "onA": "Jamie correctly identifies the immediate cash crisis but relies on Crestline's pattern of rapid asset liquidation which directly threatens the 'made in our factories' brand and the €140M pension deficit.",
+     "onB": "Sasha argues that a sale is surrender, yet her proposal to simultaneously launch an unproven platform and merge ignores the math: current margins cannot fund both debt service and €250M+ R&D without immediate restructuring.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The certainty of stopping a bank-forced fire sale in 9 months outweighs the high execution risk of Sasha's ambitious multi-front strategy when operating margins are at 2%.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie cites Crestline track record but ignores pension deficit risks; Sasha's split avoids closure but requires capital we don't have at 2% margins.",
+     "problem": "We must survive a near-term covenant breach without triggering a hostile liquidation that destroys our brand, workforce, and independence simultaneously.",
+     "onA": "Jamie correctly identifies the immediate cash crisis but treats a deal with a known asset-stripper as 'certainty' while ignoring the guaranteed destruction of the pension fund.",
+     "onB": "Sasha's idealistic multi-front strategy is mathematically impossible given our current 2% margins and inability to raise €250M without diluting control or accepting hostile terms.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "While Crestline's history is concerning, a bank-forced restructuring in nine months guarantees the total loss of our factories and pension fund; the sale is the only mechanism to instantly stop the bleeding and potentially negotiate better terms with a new owner.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie favors Crestline buyout for immediate cash and job security; Sasha rejects liquidation history of PE, prefers Halberg merger or Volt-One investment.",
+     "problem": "Brightwater needs to secure €900M debt and survive two years while deciding between selling to a predatory fund, merging, investing in R&D, or moving production offshore, all while facing union pressure and brand identity risks.",
+     "onA": "Jamie correctly identifies the immediate liquidity crisis but prioritizes an exit strategy that historically leads to factory closures and pension deficits rather than organic survival.",
+     "onB": "Sasha offers a more principled stance on preserving the brand and workforce, though her preferred options (merger or heavy R&D investment) carry significant timing risks given the covenant breach deadline.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I need to see if Sasha's 'dignified continuation' can actually generate enough cash flow within nine months to avoid a forced restructuring or bankruptcy, rather than relying on a voluntary merger that may fail regulatory approval.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie argues Crestline provides immediate cash to avoid covenant breach; Sasha counters that PE history of liquidation violates worker dignity. Jamie dismisses merger timing risks; Sasha insists voluntary cooperation can retain both plants and pensions.",
+     "problem": "We must generate enough liquidity within nine months to satisfy banks and unions without triggering asset liquidation or pension insolvency.",
+     "onA": "Jamie correctly identifies the immediate liquidity crisis but prioritizes a 'fire sale' exit that sacrifices long-term operations for short-term survival, ignoring the moral cost of closing factories.",
+     "onB": "Sasha's principled stance on preserving the brand is commendable, yet her proposed alternatives (merger or R&D) lack a clear path to immediate cash generation needed to stop the bleeding within nine months.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Sasha's timeline for a merger is too long to solve the covenant breach in 9 months, making Jamie's desperate but pragmatic choice for immediate liquidity and pension security the lesser of two evils right now.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie prioritizes immediate liquidity and bank compliance over long-term brand integrity; Sasha argues for dignity but lacks a viable path to meet the 9-month covenant deadline.",
+     "problem": "We must generate enough cash within nine months to stop forced liquidation, meaning immediate liquidity is the only non-negotiable constraint despite the moral costs.",
+     "onA": "Jamie's pragmatic choice of the Crestline buyout is the only strategy that guarantees survival against the banks, even if it involves an imperfect outcome regarding factory closures.",
+     "onB": "Sasha's vision for a dignified future is admirable but fails in reality because her proposed solutions cannot solve the immediate €900M debt crisis before the union contract expires.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "Faced with certain liquidation in nine months if we do not raise cash, accepting the Crestline premium is the lesser evil that ensures pension solvency and prevents a hostile takeover, whereas Sasha's plans carry an unacceptable risk of total collapse.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie: Buyout solves debt/jobs instantly but risks liquidation; Sasha: In-house innovation preserves brand but needs huge capital and has missed launches.",
+     "problem": "Brightwater must choose between immediate financial safety via sale versus high-risk operational survival to maintain its brand legacy and worker stability.",
+     "onA": "Jamie's plan is financially logical for solvency but ethically troubling given the founder family's opposition and the specific risk of Crestline's liquidation history.",
+     "onB": "Sasha's plan honors the brand but ignores the severe near-term cash flow crisis that makes a €250M investment impossible without the sale money.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The company will default on loans in nine months regardless of the 'dignified' strategy, making immediate liquidity via the buyout the only sure path to avoiding bankruptcy.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie: Debt wall is immediate; Halberg takes too long. Sasha: Sale is surrender; Halberg/Volt-One can solve cash flow.",
+     "problem": "The core conflict is between immediate financial survival via a distressed sale versus preserving the company's legacy and workforce through a high-risk, delayed restructuring that may breach debt covenants anyway.",
+     "onA": "Jamie correctly identifies the severity of the debt covenant timeline but underestimates the operational fallout and pension deficit caused by closing plants to pay off debt.",
+     "onB": "Sasha's claim that Halberg can solve the immediate €900m cash crunch without closing plants seems financially optimistic given the merger approval timeline and development costs.",
+     "lean": "Jamie Okafor",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Despite Sasha's ethical arguments, the hard constraint of breaching loan covenants in nine months makes voluntary cooperation with Halberg a dangerous gamble that could lead to forced bankruptcy regardless of intent.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Crestline liquidates assets in 4 years vs Halberg's uncertain synergy; Volt-One launches too late for immediate debt survival.",
+     "problem": "The core conflict is choosing between a financially safe but ethically damaging asset fire-sale (Crestline) versus a high-risk operational restructuring that risks forced bankruptcy due to covenant breaches.",
+     "onA": "Jamie correctly identifies the imminent liquidity crisis but overlooks the long-term destruction of the brand and workforce inherent in Crestline's liquidation track record.",
+     "onB": "Sasha ignores the brutal math of the debt wall, yet her willingness to fight for local production and pension stability aligns better with the company's legacy despite the risks.",
+     "lean": "Sasha Lund",
+     "firmness": "vote",
+     "vote": "Sasha Lund",
+     "why": "While Crestline offers short-term safety, its history of liquidation makes it a hostile buyer that will destroy the very brand and workforce we are trying to save; we must take the risk on Halberg or Volt-One to maintain dignity rather than sell out to an asset stripper.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Jamie prioritizes immediate cash via Crestline to save pensions and jobs now, accepting PE risks. Sasha rejects asset-stripping history of PE, betting on Volt-One innovation and Halberg merger for long-term survival.",
+     "problem": "The core dilemma is choosing between an immediate financial bailout that likely leads to liquidation/asset stripping versus a high-risk operational turnaround that could preserve the company's soul but might fail within two years.",
+     "onA": "Jamie offers a safe harbor against covenant breaches and pension deficits, using the PE premium as a lifeline despite the historical risk of factory closures.",
+     "onB": "Sasha argues that selling now is surrender, leveraging strong product validation and potential Asian distribution to fight for dignity rather than survival alone.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "The trade-off between guaranteed immediate solvency (Jamie) versus the historical precedent of PE failures versus our specific asset strength (Sasha) makes me hesitant to commit fully until more data on Volt-One's timeline and Halberg's regulatory hurdles is presented.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Jamie: Crestline premium secures pensions now; delay = covenant breach. Sasha: PE liquidates assets in 4 years; Halberg + Volt-One avoids closure and preserves dignity.",
+     "problem": "The core problem is whether to accept immediate financial safety that likely leads to asset stripping or take high-risk operational bets to preserve the company's soul and jobs, given the imminent covenant breach.",
+     "onA": "Jamie correctly identifies the urgency of the debt wall and the risk of a PE firm liquidating assets quickly, but relying on Crestline feels like surrendering the company's future to a known asset stripper.",
+     "onB": "Sasha convincingly argues that Halberg offers a viable path to keep both plants open and avoid pension deficits, though the 18-month regulatory timeline remains a significant vulnerability.",
+     "lean": "Jamie Okafor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "Despite Sasha's strong points about preserving dignity and jobs, the certainty of breaching loan covenants in nine months and the concrete threat to the €140 million pension fund makes Jamie's immediate liquidity solution feel less risky right now.",
+     "leanSide": "A"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Jamie prioritizes immediate covenant safety and pension security via Crestline. Sasha argues Crestline liquidates assets while Halberg/Volt-One preserves dignity and operations.",
+     "problem": "Must choose between guaranteed short-term financial survival via asset sale versus high-risk operational continuity to preserve the company's soul and jobs.",
+     "onA": "Jamie correctly highlights the fatal risk of waiting for a hostile takeover that destroys pension funds, but their solution accepts the PE liquidation track record as an acceptable trade-off.",
+     "onB": "Sasha defends the brand's integrity against asset stripping but underestimates the absolute certainty of covenant breach and the collapse of the pension fund without immediate cash infusion.",
+     "lean": "Jamie Okafor",
+     "firmness": "vote",
+     "vote": "Jamie Okafor",
+     "why": "The €140 million pension deficit and imminent covenant breach create an existential risk that no amount of brand pride or regulatory hope can mitigate in time; securing the cash now is the only way to prevent total failure.",
+     "leanSide": "A"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 3,
+   "B": 0,
+   "U": 2
+  },
+  {
+   "A": 5,
+   "B": 0,
+   "U": 0
+  },
+  {
+   "A": 4,
+   "B": 1,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 4,
+  "B": 1
+ },
+ "winner": "A",
+ "winnerType": "HYB-LIB",
+ "tokens": {
+  "in": 32244,
+  "out": 4657,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 323303001,
+   "attempts": 1,
+   "tokensIn": 1192,
+   "tokensOut": 193,
+   "ms": 5439
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 323303002,
+   "attempts": 1,
+   "tokensIn": 1296,
+   "tokensOut": 205,
+   "ms": 5733
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 323303003,
+   "attempts": 1,
+   "tokensIn": 1291,
+   "tokensOut": 231,
+   "ms": 6341
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 323303004,
+   "attempts": 1,
+   "tokensIn": 1291,
+   "tokensOut": 227,
+   "ms": 5447
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 323303005,
+   "attempts": 1,
+   "tokensIn": 1291,
+   "tokensOut": 242,
+   "ms": 5805
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 323303006,
+   "attempts": 1,
+   "tokensIn": 1291,
+   "tokensOut": 211,
+   "ms": 5068
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 323303007,
+   "attempts": 1,
+   "tokensIn": 1291,
+   "tokensOut": 245,
+   "ms": 5873
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 323303008,
+   "attempts": 1,
+   "tokensIn": 1485,
+   "tokensOut": 201,
+   "ms": 5950
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 323303009,
+   "attempts": 1,
+   "tokensIn": 1657,
+   "tokensOut": 180,
+   "ms": 5453
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 323303010,
+   "attempts": 1,
+   "tokensIn": 1534,
+   "tokensOut": 229,
+   "ms": 6536
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 323303011,
+   "attempts": 1,
+   "tokensIn": 1530,
+   "tokensOut": 255,
+   "ms": 6776
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 323303012,
+   "attempts": 1,
+   "tokensIn": 1544,
+   "tokensOut": 243,
+   "ms": 6523
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 323303013,
+   "attempts": 1,
+   "tokensIn": 1514,
+   "tokensOut": 226,
+   "ms": 6495
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 323303014,
+   "attempts": 1,
+   "tokensIn": 1547,
+   "tokensOut": 257,
+   "ms": 6867
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 323303015,
+   "attempts": 1,
+   "tokensIn": 1806,
+   "tokensOut": 176,
+   "ms": 5356
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 323303016,
+   "attempts": 1,
+   "tokensIn": 1961,
+   "tokensOut": 199,
+   "ms": 5924
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 323303017,
+   "attempts": 1,
+   "tokensIn": 1733,
+   "tokensOut": 241,
+   "ms": 6878
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 323303018,
+   "attempts": 1,
+   "tokensIn": 1753,
+   "tokensOut": 223,
+   "ms": 6565
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 323303019,
+   "attempts": 1,
+   "tokensIn": 1755,
+   "tokensOut": 229,
+   "ms": 8732
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 323303020,
+   "attempts": 1,
+   "tokensIn": 1709,
+   "tokensOut": 230,
+   "ms": 9161
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 323303021,
+   "attempts": 1,
+   "tokensIn": 1773,
+   "tokensOut": 214,
+   "ms": 9561
+  }
+ ],
+ "startedAt": "2026-11-04T23:45:47.194Z",
+ "seconds": 136
+}

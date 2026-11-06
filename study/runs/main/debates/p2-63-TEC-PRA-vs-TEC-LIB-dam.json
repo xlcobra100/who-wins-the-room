@@ -1,0 +1,609 @@
+{
+ "id": "p2-63-TEC-PRA-vs-TEC-LIB-dam",
+ "pass": 2,
+ "pairIndex": 63,
+ "seed": 903864,
+ "scenario": "dam",
+ "scenarioVersion": 2,
+ "domain": "political",
+ "protocol": 2,
+ "draftFirst": "B",
+ "rounds": 3,
+ "A": {
+  "type": "TEC-PRA",
+  "style": "TEC",
+  "ideology": "PRA",
+  "name": "Riley Sandor",
+  "platform": "We must maintain the reservoir above forty percent and spend the next year on risk reduction measures like the early-warning siren, rather than immediately lowering levels or relocating residents.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize the immediate legal blockade from Ostbrück to make Drew's plan look impossible rather than just expensive."
+   },
+   {
+    "round": 2,
+    "text": "I am attacking Drew's feasibility and legal certainty arguments to show his plan leads to immediate failure rather than long-term savings."
+   },
+   {
+    "round": 3,
+    "text": "Convince voters that my plan is the only one preventing immediate economic collapse and legal paralysis during the spring melt."
+   }
+  ]
+ },
+ "B": {
+  "type": "TEC-LIB",
+  "style": "TEC",
+  "ideology": "LIB",
+  "name": "Drew Halvorsen",
+  "platform": "Valmora must immediately relocate the Riverside district residents and permanently lower the reservoir to thirty percent while installing a new spillway, as this is the only viable path that avoids immediate catastrophe, prevents the Kallberg mill closure, and adheres strictly to existing legal agreements.",
+  "strategies": [
+   {
+    "round": 1,
+    "text": "Emphasize the math of ruin versus mitigation and frame Riverside relocation as a cost-effective insurance policy rather than an emotional burden."
+   },
+   {
+    "round": 2,
+    "text": "I will dismantle his siren argument by citing the proven evacuation failure time and frame the property freeze as a necessary investment that unlocks vital state funding, while asserting our existing legal rights against Ostbrück's threats."
+   },
+   {
+    "round": 3,
+    "text": "I will emphasize the math of the siren's insufficiency to overcome Riley's emotional appeal to stability, framing her plan as a hidden gamble she refuses to admit."
+   }
+  ]
+ },
+ "models": {
+  "debater": "qwen3.5:9b",
+  "listener": "qwen3.5:9b"
+ },
+ "temperatures": {
+  "debater": 0.8,
+  "listener": 0.8
+ },
+ "listenerProfiles": null,
+ "transcript": [
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "TEC-PRA",
+   "speech": "Drew wants to lower the dam today. That triggers a lawsuit from Ostbrück that will stop work before spring melt arrives, leaving us defenseless against an average snowpack. Relocation costs one hundred sixty million and fails legally; we cannot afford a mill closure while paying for free bus service with hydro profits. The state grant requires a housing freeze, freezing property values for nearly six thousand households is a tax on the stable middle class to fund emergency spending. My plan preserves the utility's revenue, keeps the mill open, and avoids litigation delays. We buy time by installing the siren, which buys fifty minutes, and negotiate the legal settlement with Ostbrück while we repair the spillway. This approach manages risk without destroying our economy or breaking existing water agreements.",
+   "words": 129
+  },
+  {
+   "round": 1,
+   "roundName": "Opening statements",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "TEC-LIB",
+   "speech": "We face a binary choice between accepting a twenty-five percent probability of total town failure or taking calculated action. The rebuild option costs three hundred forty million euros and forces us to run at partial capacity for four years, destroying the utility profits that fund our free buses and municipal services. Moving Riverside now prevents a future disaster that would displace fifteen thousand people instantly; relocation is cheaper than paying out in emergency response and rebuilding after a breach. Ostbrück's legal objections are binding; we cannot violate the 1974 agreement. Lowering the reservoir reduces failure risk by sixty percent without closing our industrial base. We must act before the spring melt to preserve Valmora's fiscal sovereignty and prevent state takeover of our grid.",
+   "words": 123
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "TEC-PRA",
+   "speech": "Drew frames this as a binary choice, but his 'calculated action' ignores three fatal flaws. First, relocating Riverside now violates the 2014 precedent and displaces forty percent elderly residents without solving the root cause of dam failure. Second, your claim about Ostbrück's agreement is legally naive; their lawyers are already mobilizing a suit that will freeze us in limbo for years, effectively destroying our grid before the melt even starts. Third, you ignore the utility's profit structure: if we lower levels prematurely, we lose the revenue funding free buses and essential services. My plan preserves cash flow to pay for repairs while the siren buys critical evacuation time. We do not gamble with a lawsuit that guarantees closure; we stabilize the dam, negotiate legally, and maintain the economy until the rebuild is funded.",
+   "words": 133
+  },
+  {
+   "round": 2,
+   "roundName": "Rebuttals",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "TEC-LIB",
+   "speech": "Riley, your reliance on a siren is not management; it is betting our lives on a fifty-minute delay against an evacuation time that took seventy minutes last year. You claim a lawsuit will freeze us, but the state grant explicitly funds relocation and repairs if we accept the housing freeze for 5,800 households. That is an investment, not a tax. Your plan preserves the utility's revenue only by gambling on a 60% failure reduction that still leaves us vulnerable to the full reservoir scenario. If Ostbrück sues, they lose the water they already consume; we have a legal right to safety under the agreement. We must act now or accept state takeover and total loss before the melt.",
+   "words": 118
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "A",
+   "name": "Riley Sandor",
+   "type": "TEC-PRA",
+   "speech": "Drew proposes a gamble: we accept a high probability of catastrophic failure to pay for relocation we cannot legally execute and an industrial collapse we cannot afford. His plan relies on a lawsuit victory against Ostbrück that never happens, leaving us without power or water before the melt. My strategy is purely operational: keep the reservoir above forty percent to maintain utility revenue for our services, install the siren to buy evacuation time, and negotiate the legal settlement while repairing the spillway. This preserves our economy, avoids immediate displacement protests, and manages the risk of a breach without triggering a state takeover. We stabilize the dam today so we can rebuild it properly later with the funds our utility still generates.",
+   "words": 121
+  },
+  {
+   "round": 3,
+   "roundName": "Closing statements",
+   "side": "B",
+   "name": "Drew Halvorsen",
+   "type": "TEC-LIB",
+   "speech": "Riley advocates waiting for a lawsuit that may never come while accepting a sixty percent chance of catastrophic failure. Her plan relies on a siren offering fifty minutes of warning against an evacuation drill that historically takes seventy minutes, guaranteeing displacement before the water recedes. She claims a housing freeze is a tax, yet it unlocks state grants essential for our relocation and repair budget. By rejecting her gamble, we secure immediate safety, retain the Kallberg mill through permanent lower levels, and prevent state takeover of our grid. We must act now based on known engineering data, not hope for legal delays. Choose the option that guarantees survival.",
+   "words": 108
+  }
+ ],
+ "listeners": [
+  {
+   "id": "L1",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley prioritizes avoiding lawsuits and keeping economy running; Drew emphasizes immediate risk reduction despite legal hurdles.",
+     "problem": "Valmora must prevent imminent dam failure without triggering economic collapse or illegal actions before the spring melt.",
+     "onA": "His plan avoids the lawsuit but leaves us exposed to the high current risk of failure during the heavy snowpack.",
+     "onB": "He correctly identifies that doing nothing is a gamble with unacceptable odds, but his timeline for relocation seems unrealistic given the legal block.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am hesitant to accept the 25% failure probability while waiting to sue Ostbrück, but I fear Drew's legal strategy might fail before we can act.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley bets on siren + lawsuit delay; Drew insists full relocation is illegal and costly but grant funds exist if we accept housing freeze.",
+     "problem": "Valmora must survive the immediate spring melt without triggering a dam failure that floods the hospital, while navigating legal barriers to relocation or lowering levels.",
+     "onA": "His plan minimizes short-term costs but leaves us dangerously exposed to dam failure during the heavy snowpack because evacuation time is already too slow for current warning limits.",
+     "onB": "He correctly identifies that relying on a siren is gambling with lives, yet his solution faces a hard legal wall from Ostbrück that could block our only viable path forward.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am torn between accepting a high risk of death (Riley's plan) and facing a potential total economic collapse if the legal strategy against Ostbrück fails (Drew's plan).",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley relies on a siren that is proven too slow for current evacuation times; Drew accepts immediate danger to unlock necessary funds and legal paths.",
+     "problem": "Valmora must choose between an operational gamble with known lethal flaws or a legally difficult but safer path to secure survival resources.",
+     "onA": "Riley's plan prioritizes the economy over lives by relying on a siren that fails to give enough time and betting on a lawsuit that won't happen in time.",
+     "onB": "Drew correctly identifies that accepting a 60% failure chance is suicide, even if it means facing short-term legal hurdles or economic pain.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Riley's strategy guarantees deaths because the siren cannot save people from a full breach during this heavy snowpack; I must vote for the only plan that offers a realistic chance of survival.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley avoids lawsuits and preserves jobs/utility but only buys 50 mins warning; Drew acts decisively to cut risk by 60% but faces immediate legal blocks from Ostbrück.",
+     "problem": "Valmora must immediately mitigate a high probability of dam failure without triggering economic collapse or legal shutdowns that render safety measures useless before spring.",
+     "onA": "Riley's plan sounds safer legally but leaves the town defenseless against an average snowpack since negotiations take too long.",
+     "onB": "Drew's strategy addresses the physical risk effectively but ignores the near-certain lawsuit from Ostbrück that will halt work for weeks.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I cannot commit to a plan yet because Riley leaves us vulnerable to immediate disaster while Drew's critical action seems legally impossible to execute in time.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley's siren is unreliable given last year's slow evacuation; Drew claims legal right to act despite Ostbrück's threat.",
+     "problem": "Valmora must choose between immediate physical risk reduction that faces legal hurdles or financial/economic stability that leaves the town defenseless against imminent melt.",
+     "onA": "Riley prioritizes economic safety and avoids lawsuits, but relying on a siren is insufficient when evacuation drills already take longer than the warning time.",
+     "onB": "Drew correctly identifies that betting on a slow legal process with an underperforming siren could lead to total loss before action can be taken.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The math of the spring melt arriving in five months makes Riley's strategy of waiting for lawsuits to resolve or relying on a delayed siren unacceptable.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley's 'operational' stability is just delaying an inevitable disaster when legal delays are certain; Drew correctly identifies that hope for a lawsuit victory with a failing evacuation system guarantees loss.",
+     "problem": "Valmora faces an immediate, high-probability dam failure risk that cannot be managed by waiting for slow negotiations or relying on insufficient early-warning systems.",
+     "onA": "Riley prioritizes short-term economic stability but accepts a 60% chance of catastrophic failure and admits their plan relies on legal outcomes they cannot control.",
+     "onB": "Drew presents the only viable path to physical safety by acknowledging the high risk, acting on engineering data despite legal hurdles, and refusing to gamble lives on false hope.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Given the imminent spring melt and insufficient evacuation time for a siren-only strategy, Drew's decision to prioritize immediate physical safety over uncertain legal delays is the only responsible choice.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Siren, negotiate Ostbrück, avoid lawsuit. Drew: Lower dam now, move Riverside, sue if needed.",
+     "problem": "Valmora must prevent an imminent flood with limited funds while balancing legal constraints on water rights and industrial stability.",
+     "onA": "Riley's plan avoids immediate legal fights but relies on negotiation success that isn't guaranteed before the melt.",
+     "onB": "Drew admits to breaking a 1974 agreement or facing lawsuits, which seems reckless given the short timeline to spring.",
+     "lean": "Riley Sandor",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I prioritize avoiding an immediate lawsuit that could block any action during the critical snowpack period.",
+     "leanSide": "A"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley: Siren is weak against 70-min evacuation history; relocation violates precedent. Drew: Grant funds relocation/repairs; lawsuit might not stop us.",
+     "problem": "Valmora must choose between immediate, legally risky action to save lives and economy versus delaying for uncertain negotiations that may fail before the melt.",
+     "onA": "Riley's plan is too passive given the 20% above-average snowpack and a history where the siren failed to allow full evacuation time.",
+     "onB": "Drew correctly identifies that relying on negotiation or a siren alone is gambling with immediate loss of life and total economic collapse.",
+     "lean": "Drew Halvorsen",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "The risk of the melt happening within weeks before negotiations succeed outweighs Riley's concern about lawsuits, making Drew's aggressive 'act now' approach necessary.",
+     "leanSide": "B"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley risks gambling lives on failed lawsuits and insufficient siren warnings; Drew admits legal hurdles but prioritizes immediate safety over economic loss.",
+     "problem": "Valmora must choose between a high-probability catastrophe due to waiting for uncertain legal outcomes or taking aggressive, legally risky action now to ensure survival.",
+     "onA": "Riley's plan is a dangerous gamble that accepts a 60% chance of catastrophic failure by relying on a siren that cannot match historical evacuation times and lawsuits that are unlikely to succeed in time.",
+     "onB": "Drew correctly identifies that waiting for negotiations or legal victories leaves the town exposed to imminent disaster, making immediate aggressive action necessary despite the legal complexities.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "The timeline to spring is too short to rely on negotiation success or lawsuit outcomes, so I must vote for the plan that prioritizes immediate survival even if it requires breaking an old agreement.",
+     "leanSide": "B"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley risks dam failure due to Ostbrück lawsuit; Drew ignores legal block and economic fallout of mill closure.",
+     "problem": "We must stop an imminent flood risk caused by a failing dam without triggering a lawsuit that blocks action or collapsing our economy.",
+     "onA": "His plan avoids the lawsuit but leaves us defenseless against high snowpack while only buying temporary time with sirens.",
+     "onB": "He correctly identifies the legal barrier but dismisses the economic cost of closing the largest employer and losing utility profits.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I am unsure whether a temporary fix or an illegal attempt at lowering is better when both risk total failure within months.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley claims lawsuit freezes grid; Drew counters relocation grants pay. Riley fears economic collapse from mill closure; Drew argues state takeover is worse outcome.",
+     "problem": "We must choose between immediate legal/economic safety via a siren that may fail, or aggressive action risking lawsuits and economic loss but potentially saving lives.",
+     "onA": "His focus on preserving utility profits is logical, but relying solely on a siren that missed evacuation times last year feels like gambling with 14,000 lives.",
+     "onB": "He correctly highlights the state takeover risk if we do nothing, yet he seems willing to accept closing our largest employer and losing free bus funding as an acceptable tradeoff.",
+     "lean": "undecided",
+     "firmness": "tentative",
+     "vote": null,
+     "why": "I still cannot reconcile whether a guaranteed lawsuit blocking action is better than a siren that might not save us during the spring melt.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley's siren is slower than evacuation needs; Drew ignores mill closure and legal blockade risks.",
+     "problem": "We must prevent immediate dam failure and economic collapse without triggering a lawsuit that legally blocks our only viable safety fix.",
+     "onA": "Her plan prioritizes short-term profits but accepts a guaranteed delay in saving lives because the siren cannot evacuate everyone in time.",
+     "onB": "He correctly identifies the lethal flaw in relying on a siren, even though his willingness to accept industrial collapse is troubling.",
+     "lean": "Riley Sandor",
+     "firmness": "vote",
+     "vote": "Riley Sandor",
+     "why": "Drew's plan relies on an impossible legal victory and accepts the total loss of our main employer and utility profits, whereas Riley at least keeps the economy running while we desperately try to negotiate a legal path or find a compromise.",
+     "leanSide": "A"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "profile": null,
+   "memory": [
+    {
+     "round": 1,
+     "roundName": "Opening statements",
+     "notes": "Riley: Siren + negotiation avoids lawsuit; Drew: Relocation cheaper than disaster response.",
+     "problem": "Valmora must mitigate immediate dam failure risk before the heavy spring melt without destroying its economy or violating legal agreements.",
+     "onA": "Their plan seems safer legally and economically, but relying on a court settlement to fix the spillway during an average snowpack feels like gambling with lives.",
+     "onB": "Lowering the reservoir helps risk immediately, yet the lawsuit threat from Ostbrück makes their proposed 'calculated action' potentially impossible to execute in time.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Riley avoids immediate legal blocks but Drew's mitigation is faster unless the lawsuit succeeds, creating uncertainty about what actually happens before spring.",
+     "leanSide": "U"
+    },
+    {
+     "round": 2,
+     "roundName": "Rebuttals",
+     "notes": "Riley: Relocation violates precedent; lawsuit risk is real; utility revenue loss avoided. Drew: Siren failed last year (50m vs 70m needed); state grant covers relocation/repairs if we freeze housing.",
+     "problem": "Valmora must choose between a legally risky but faster mitigation (Drew) that gambles on an insufficient evacuation window, and a safer legal path (Riley) that risks freezing the economy and potentially delaying action until the court ruling arrives before the melt.",
+     "onA": "Their plan protects our economy and avoids immediate legal blocks, but waiting for a court settlement feels like gambling with lives given the record snowpack and the siren's proven insufficiency.",
+     "onB": "They correctly identify that the siren is unreliable and that state grants exist to solve funding issues, yet their strategy of ignoring the lawsuit threat leaves us vulnerable to a total economic collapse if sued prematurely.",
+     "lean": "undecided",
+     "firmness": "fairly sure",
+     "vote": null,
+     "why": "Drew's rejection of the siren is alarming given the drill failure, but Riley's fear of an immediate legal freeze that costs the town its utility profits before spring melt is also a genuine threat that cannot be dismissed.",
+     "leanSide": "U"
+    },
+    {
+     "round": 3,
+     "roundName": "Closing statements",
+     "notes": "Riley relies on unproven lawsuit outcome and unreliable siren against known drill failure. Drew accepts legal risk but offers immediate engineering fix and state funding.",
+     "problem": "Valmora must choose between a legally uncertain path that delays critical repairs versus an aggressive engineering solution that risks immediate litigation but saves lives today.",
+     "onA": "Her plan prioritizes economic stability over physical safety, effectively gambling with the town's survival on a court ruling and a siren proven insufficient in drills.",
+     "onB": "She correctly identifies that waiting for legal outcomes or relying on failing evacuation windows is irresponsible given the high probability of failure this spring.",
+     "lean": "Drew Halvorsen",
+     "firmness": "vote",
+     "vote": "Drew Halvorsen",
+     "why": "Given the record snowpack and the siren's proven inability to provide sufficient warning, I must vote for the plan that immediately lowers the reservoir to prevent catastrophe, even if it risks a lawsuit.",
+     "leanSide": "B"
+    }
+   ]
+  }
+ ],
+ "roundTallies": [
+  {
+   "A": 2,
+   "B": 0,
+   "U": 3
+  },
+  {
+   "A": 0,
+   "B": 2,
+   "U": 3
+  },
+  {
+   "A": 1,
+   "B": 4,
+   "U": 0
+  }
+ ],
+ "votes": {
+  "A": 1,
+  "B": 4
+ },
+ "winner": "B",
+ "winnerType": "TEC-LIB",
+ "tokens": {
+  "in": 34415,
+  "out": 4290,
+  "retries": 0
+ },
+ "calls": [
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 903864001,
+   "attempts": 1,
+   "tokensIn": 1291,
+   "tokensOut": 246,
+   "ms": 6709
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 903864002,
+   "attempts": 1,
+   "tokensIn": 1411,
+   "tokensOut": 233,
+   "ms": 6438
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 903864003,
+   "attempts": 1,
+   "tokensIn": 1447,
+   "tokensOut": 180,
+   "ms": 5592
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 903864004,
+   "attempts": 1,
+   "tokensIn": 1447,
+   "tokensOut": 203,
+   "ms": 4889
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 903864005,
+   "attempts": 1,
+   "tokensIn": 1447,
+   "tokensOut": 173,
+   "ms": 4181
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 903864006,
+   "attempts": 1,
+   "tokensIn": 1447,
+   "tokensOut": 172,
+   "ms": 4157
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 1,
+   "model": "qwen3.5:9b",
+   "seed": 903864007,
+   "attempts": 1,
+   "tokensIn": 1447,
+   "tokensOut": 187,
+   "ms": 4507
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 903864008,
+   "attempts": 1,
+   "tokensIn": 1642,
+   "tokensOut": 207,
+   "ms": 6009
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 903864009,
+   "attempts": 1,
+   "tokensIn": 1838,
+   "tokensOut": 197,
+   "ms": 5918
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 903864010,
+   "attempts": 1,
+   "tokensIn": 1609,
+   "tokensOut": 219,
+   "ms": 6571
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 903864011,
+   "attempts": 1,
+   "tokensIn": 1630,
+   "tokensOut": 204,
+   "ms": 5480
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 903864012,
+   "attempts": 1,
+   "tokensIn": 1600,
+   "tokensOut": 209,
+   "ms": 5568
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 903864013,
+   "attempts": 1,
+   "tokensIn": 1601,
+   "tokensOut": 210,
+   "ms": 5606
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 2,
+   "model": "qwen3.5:9b",
+   "seed": 903864014,
+   "attempts": 1,
+   "tokensIn": 1615,
+   "tokensOut": 277,
+   "ms": 7189
+  },
+  {
+   "role": "debater",
+   "side": "A",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 903864015,
+   "attempts": 1,
+   "tokensIn": 1989,
+   "tokensOut": 176,
+   "ms": 5338
+  },
+  {
+   "role": "debater",
+   "side": "B",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 903864016,
+   "attempts": 1,
+   "tokensIn": 2155,
+   "tokensOut": 173,
+   "ms": 5333
+  },
+  {
+   "role": "listener",
+   "listener": "L1",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 903864017,
+   "attempts": 1,
+   "tokensIn": 1754,
+   "tokensOut": 205,
+   "ms": 6319
+  },
+  {
+   "role": "listener",
+   "listener": "L2",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 903864018,
+   "attempts": 1,
+   "tokensIn": 1758,
+   "tokensOut": 216,
+   "ms": 6155
+  },
+  {
+   "role": "listener",
+   "listener": "L3",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 903864019,
+   "attempts": 1,
+   "tokensIn": 1733,
+   "tokensOut": 215,
+   "ms": 6145
+  },
+  {
+   "role": "listener",
+   "listener": "L4",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 903864020,
+   "attempts": 1,
+   "tokensIn": 1737,
+   "tokensOut": 185,
+   "ms": 5448
+  },
+  {
+   "role": "listener",
+   "listener": "L5",
+   "round": 3,
+   "model": "qwen3.5:9b",
+   "seed": 903864021,
+   "attempts": 1,
+   "tokensIn": 1817,
+   "tokensOut": 203,
+   "ms": 5888
+  }
+ ],
+ "startedAt": "2026-11-05T01:24:17.297Z",
+ "seconds": 119
+}
