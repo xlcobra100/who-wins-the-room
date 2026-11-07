@@ -62,6 +62,18 @@
 
 ## 5. In my own words
 
+### Discussion: plausible explanations for the experiment results
+
+**Pre-training:** Model developers usually choose high-quality data, especially for a smaller model (this test used a 9B model). Quality data is used in order to cut training time and improve results (*The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale*, 2024). However, this data is mostly aimed at the productive work the model is anticipated to be used for, such as coding, analyzing, or writing. Subsequently, the data used has a pragmatic and intellectual character, since that is what is needed to perform better in those targeted workloads. This contributes towards the more pragmatic and technocratic character types winning more debates in the results.
+
+**Reinforcement Learning (RL)** also played a big role. Again, optimizing model performance to excel in those productive workloads produces a more analytical model.
+
+**Scenario setting and the listeners' voting methodology** also provide important clues in understanding the results. The scenarios were all designed to include many factors to ponder. In addition, they all took place in serious settings, such as a meeting table. This presumably leans the model toward thinking in more serious and analytical terms rather than emotional ones.
+
+Another possible reason was that the structure of the listeners' judgment contained a step where the listener compares both alternatives and then explains why it leans one way or the other. So the listener was instructed to be inherently analytical, which is another factor contributing to the results.
+
+Another experimental condition worth reflecting on is the relevance of using the same model to both listen and debate. The debaters had to choose different plans (a prerequisite for a debate). To address this, one debater (chosen by a coin flip) got to draft their plan first. That debater thinks about the problem and chooses the plan it agrees with most. However, the listeners evaluating both debaters reason in a very similar way to the debaters themselves. Subsequently, the listeners are much more prone to agree with whichever debater holds that default plan (which won 78% of the votes, and was taken 55% of the time by the first drafter vs. 33% by the second). This aligns with observations that have already been confirmed in other research (*LLM-as-a-Judge Biases*, Zheng et al., 2023, MT-Bench; Panickssery et al., 2024). That is why it would be valuable to further research model mixing when studying AI interactions.
+
 <!-- Write these yourself; this is the part your teacher will care about most. A few sentences each is enough. -->
 
 **Why I wanted to do this:**
